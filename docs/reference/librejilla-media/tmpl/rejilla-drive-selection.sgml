@@ -1,0 +1,68 @@
+<!-- ##### SECTION Title ##### -->
+RejillaDriveSelection
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT RejillaDriveSelection ##### -->
+<para>
+
+</para>
+
+@parent_instance: 
+
+<!-- ##### FUNCTION rejilla_drive_selection_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_drive_selection_get_active ##### -->
+<para>
+
+</para>
+
+@selector: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_drive_selection_set_active ##### -->
+<para>
+
+</para>
+
+@selector: 
+@drive: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_drive_selection_show_type ##### -->
+<para>
+
+</para>
+
+@selector: 
+@type: 
+
+

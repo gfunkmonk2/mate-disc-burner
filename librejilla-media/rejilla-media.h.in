@@ -1,0 +1,239 @@
+/* -*- Mode: C; indent-tabs-mode: t; c-basic-offset: 8; tab-width: 8 -*- */
+/*
+ * Librejilla-media
+ * Copyright (C) Philippe Rouquier 2005-2009 <bonfire-app@wanadoo.fr>
+ *
+ * Librejilla-media is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * The Librejilla-media authors hereby grant permission for non-GPL compatible
+ * GStreamer plugins to be used and distributed together with GStreamer
+ * and Librejilla-media. This permission is above and beyond the permissions granted
+ * by the GPL license by which Librejilla-media is covered. If you modify this code
+ * you may extend this exception to your version of the code, but you are not
+ * obligated to do so. If you do not wish to do so, delete this exception
+ * statement from your version.
+ * 
+ * Librejilla-media is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Library General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to:
+ * 	The Free Software Foundation, Inc.,
+ * 	51 Franklin Street, Fifth Floor
+ * 	Boston, MA  02110-1301, USA.
+ */
+ 
+#ifndef _BURN_MEDIA_H
+#define _BURN_MEDIA_H
+
+#include <glib.h>
+
+G_BEGIN_DECLS
+
+/**
+ * Some needed information about the library
+ */
+
+#define LIBREJILLA_MEDIA_VERSION_MAJOR						\
+	@REJILLA_MAJOR_VERSION@
+#define LIBREJILLA_MEDIA_VERSION_MINOR						\
+	@REJILLA_MINOR_VERSION@
+#define LIBREJILLA_MEDIA_VERSION_MICRO						\
+	@REJILLA_SUB@
+#define LIBREJILLA_MEDIA_AGE							\
+	@LT_CURRENT@@LT_REVISION@@LT_AGE@
+#define LIBREJILLA_MEDIA_INSTALL							\
+	"@prefix@"
+
+/**
+ * To start and stop the library
+ */
+
+void
+rejilla_media_library_start (void);
+
+void
+rejilla_media_library_stop (void);
+
+GOptionGroup *
+rejilla_media_get_option_group (void);
+
+/**
+ * Errors
+ */
+
+GQuark rejilla_media_quark (void);
+
+/**
+ * REJILLA_MEDIA_ERROR:
+ *
+ * The GQuark used for RejillaMediaError
+ */
+#define REJILLA_MEDIA_ERROR rejilla_media_quark()
+
+/**
+ * RejillaMediaError:
+ *
+ * Error codes returned by librejilla-media
+ *
+ */
+typedef enum {
+	REJILLA_MEDIA_ERROR_NONE,
+	REJILLA_MEDIA_ERROR_GENERAL,
+	REJILLA_MEDIA_ERROR_IMAGE_INVALID,
+} RejillaMediaError;
+
+/**
+ * RejillaMedia:
+ *
+ * This enum allows to define all characteristics for a media (closed, writable, ...)
+ * and identify all types of optical media.
+ *
+ */
+typedef enum {
+	REJILLA_MEDIUM_UNSUPPORTED		= -2,
+	REJILLA_MEDIUM_BUSY			= -1,
+	REJILLA_MEDIUM_NONE			= 0,
+
+	/* types */
+	REJILLA_MEDIUM_FILE			= 1,
+
+	REJILLA_MEDIUM_CD			= 1 << 1,
+
+	REJILLA_MEDIUM_DVD			= 1 << 2,
+
+	REJILLA_MEDIUM_BD			= 1 << 3,
+
+	/* subtype for DVD and BD types */
+	REJILLA_MEDIUM_DUAL_L			= 1 << 4,
+
+	/* DVD and DVD DL subtypes */
+	REJILLA_MEDIUM_RAM			= 1 << 5,
+	REJILLA_MEDIUM_PLUS			= 1 << 6,
+	REJILLA_MEDIUM_SEQUENTIAL		= 1 << 7,
+	REJILLA_MEDIUM_RESTRICTED		= 1 << 8,	/* DVD-RW only */
+
+	/* DVD-R dual layer only subtype */
+	REJILLA_MEDIUM_JUMP			= 1 << 9,
+
+	/* BD subtypes */
+	REJILLA_MEDIUM_RANDOM			= 1 << 10,
+	REJILLA_MEDIUM_SRM			= 1 << 11,
+	REJILLA_MEDIUM_POW			= 1 << 12,	/* This is Pseudo OverWrite */
+
+	/* discs attributes */
+	REJILLA_MEDIUM_REWRITABLE		= 1 << 14,
+	REJILLA_MEDIUM_WRITABLE			= 1 << 15,
+	REJILLA_MEDIUM_ROM			= 1 << 16,
+
+	/* status of the disc */
+	REJILLA_MEDIUM_BLANK			= 1 << 17,
+	REJILLA_MEDIUM_CLOSED			= 1 << 18,
+	REJILLA_MEDIUM_APPENDABLE		= 1 << 19,
+
+	/* Only used for DVD+RW, DVD-RW restricted */
+	REJILLA_MEDIUM_UNFORMATTED		= 1 << 20,
+
+	REJILLA_MEDIUM_PROTECTED		= 1 << 21,
+	REJILLA_MEDIUM_HAS_DATA			= 1 << 22,
+	REJILLA_MEDIUM_HAS_AUDIO		= 1 << 23,
+} RejillaMedia;
+
+#define REJILLA_MEDIUM_CDROM		(REJILLA_MEDIUM_CD|		\
+					 REJILLA_MEDIUM_ROM)
+#define REJILLA_MEDIUM_CDR		(REJILLA_MEDIUM_CD|		\
+					 REJILLA_MEDIUM_WRITABLE)
+#define REJILLA_MEDIUM_CDRW		(REJILLA_MEDIUM_CD|		\
+					 REJILLA_MEDIUM_REWRITABLE)
+#define REJILLA_MEDIUM_DVD_ROM		(REJILLA_MEDIUM_DVD|		\
+					 REJILLA_MEDIUM_ROM)
+#define REJILLA_MEDIUM_DVDR		(REJILLA_MEDIUM_DVD|		\
+					 REJILLA_MEDIUM_SEQUENTIAL|	\
+					 REJILLA_MEDIUM_WRITABLE)
+#define REJILLA_MEDIUM_DVDRW		(REJILLA_MEDIUM_DVD|		\
+					 REJILLA_MEDIUM_SEQUENTIAL|	\
+					 REJILLA_MEDIUM_REWRITABLE)
+#define REJILLA_MEDIUM_DVDRW_RESTRICTED	(REJILLA_MEDIUM_DVD|		\
+					 REJILLA_MEDIUM_REWRITABLE|	\
+					 REJILLA_MEDIUM_RESTRICTED)
+#define REJILLA_MEDIUM_DVDR_DL		(REJILLA_MEDIUM_DVD|		\
+					 REJILLA_MEDIUM_DUAL_L|		\
+					 REJILLA_MEDIUM_WRITABLE|	\
+					 REJILLA_MEDIUM_SEQUENTIAL)
+#define REJILLA_MEDIUM_DVDR_JUMP_DL	(REJILLA_MEDIUM_DVD|		\
+					 REJILLA_MEDIUM_DUAL_L|		\
+					 REJILLA_MEDIUM_WRITABLE|	\
+					 REJILLA_MEDIUM_JUMP)
+#define REJILLA_MEDIUM_DVDR_PLUS	(REJILLA_MEDIUM_DVD|		\
+					 REJILLA_MEDIUM_WRITABLE|	\
+					 REJILLA_MEDIUM_PLUS)
+#define REJILLA_MEDIUM_DVDRW_PLUS	(REJILLA_MEDIUM_DVD|		\
+					 REJILLA_MEDIUM_REWRITABLE|	\
+					 REJILLA_MEDIUM_PLUS)
+#define REJILLA_MEDIUM_DVDR_PLUS_DL	(REJILLA_MEDIUM_DVD|		\
+					 REJILLA_MEDIUM_DUAL_L|		\
+					 REJILLA_MEDIUM_WRITABLE|	\
+					 REJILLA_MEDIUM_PLUS)
+#define REJILLA_MEDIUM_DVDRW_PLUS_DL	(REJILLA_MEDIUM_DVD|		\
+					 REJILLA_MEDIUM_DUAL_L|		\
+					 REJILLA_MEDIUM_REWRITABLE|	\
+					 REJILLA_MEDIUM_PLUS)
+
+#define REJILLA_MEDIUM_DVD_RAM		(REJILLA_MEDIUM_DVD|		\
+					 REJILLA_MEDIUM_RAM)
+
+/* BD types all exist in BD-R(E) DL as well */
+#define REJILLA_MEDIUM_BD_ROM		(REJILLA_MEDIUM_BD|		\
+					 REJILLA_MEDIUM_ROM)
+#define REJILLA_MEDIUM_BDR_SRM		(REJILLA_MEDIUM_BD|		\
+					 REJILLA_MEDIUM_SRM|		\
+					 REJILLA_MEDIUM_WRITABLE)
+#define REJILLA_MEDIUM_BDR_SRM_POW	(REJILLA_MEDIUM_BD|		\
+					 REJILLA_MEDIUM_POW|		\
+					 REJILLA_MEDIUM_SRM|		\
+					 REJILLA_MEDIUM_WRITABLE)
+
+/* This seems to be a really rare mode for BD-R */
+#define REJILLA_MEDIUM_BDR_RANDOM	(REJILLA_MEDIUM_BD|		\
+					 REJILLA_MEDIUM_WRITABLE|	\
+					 REJILLA_MEDIUM_RANDOM)
+/* This is always RANDOM write */
+#define REJILLA_MEDIUM_BDRE		(REJILLA_MEDIUM_BD|			\
+					 REJILLA_MEDIUM_REWRITABLE)
+
+
+
+#define REJILLA_MEDIUM_VALID(media)	((media) != REJILLA_MEDIUM_NONE	&&	\
+					 (media) != REJILLA_MEDIUM_BUSY	&&	\
+					 (media) != REJILLA_MEDIUM_UNSUPPORTED)
+
+
+#define REJILLA_MEDIUM_TYPE(media)	((media) & 0x003F)
+#define REJILLA_MEDIUM_ATTR(media)	((media) & 0x1C000)
+#define REJILLA_MEDIUM_STATUS(media)	((media) & 0xE0000)
+#define REJILLA_MEDIUM_SUBTYPE(media)	((media) & 0x1FC0)
+#define REJILLA_MEDIUM_INFO(media)	((media) & 0xFE0000)
+
+#define REJILLA_MEDIUM_IS(media, type)	(((media)&(type))==(type))
+
+/* These behave like random writable:
+ * they can be appendable or closed, rewritable or writable */
+#define REJILLA_MEDIUM_RANDOM_WRITABLE(media)					\
+	(REJILLA_MEDIUM_IS (media, REJILLA_MEDIUM_DVDRW_PLUS) ||		\
+	 REJILLA_MEDIUM_IS (media, REJILLA_MEDIUM_DVDRW_RESTRICTED) ||		\
+	 REJILLA_MEDIUM_IS (media, REJILLA_MEDIUM_DVD_RAM) || 			\
+	 REJILLA_MEDIUM_IS (media, REJILLA_MEDIUM_BDR_RANDOM) ||		\
+	 REJILLA_MEDIUM_IS (media, REJILLA_MEDIUM_BDR_SRM_POW) ||		\
+	 REJILLA_MEDIUM_IS (media, REJILLA_MEDIUM_BDRE))
+
+
+G_END_DECLS
+
+#endif /* _BURN_MEDIA_H */
+
+ 

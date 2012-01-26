@@ -1,0 +1,113 @@
+<!-- ##### SECTION Title ##### -->
+rejilla-status
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT RejillaStatus ##### -->
+<para>
+
+</para>
+
+@parent_instance: 
+
+<!-- ##### ENUM RejillaStatusType ##### -->
+<para>
+
+</para>
+
+@REJILLA_STATUS_OK: 
+@REJILLA_STATUS_ERROR: 
+@REJILLA_STATUS_QUESTION: 
+@REJILLA_STATUS_INFORMATION: 
+
+<!-- ##### FUNCTION rejilla_status_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_status_get_result ##### -->
+<para>
+
+</para>
+
+@status: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_status_get_progress ##### -->
+<para>
+
+</para>
+
+@status: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_status_get_error ##### -->
+<para>
+
+</para>
+
+@status: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_status_get_current_action ##### -->
+<para>
+
+</para>
+
+@status: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_status_set_completed ##### -->
+<para>
+
+</para>
+
+@status: 
+
+
+<!-- ##### FUNCTION rejilla_status_set_not_ready ##### -->
+<para>
+
+</para>
+
+@status: 
+@progress: 
+@current_action: 
+
+
+<!-- ##### FUNCTION rejilla_status_set_error ##### -->
+<para>
+
+</para>
+
+@status: 
+@error: 
+
+

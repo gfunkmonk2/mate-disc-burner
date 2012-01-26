@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaTrackImage</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-burn Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-burn">
+<link rel="prev" href="librejilla-burn-RejillaTrackStreamCfg.html" title="RejillaTrackStreamCfg">
+<link rel="next" href="librejilla-burn-RejillaTrackImageCfg.html" title="RejillaTrackImageCfg">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-burn-RejillaTrackStreamCfg.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-burn Reference Manual</th>
+<td><a accesskey="n" href="librejilla-burn-RejillaTrackImageCfg.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-burn-RejillaTrackImage.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-burn-RejillaTrackImage.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaTrackImage">
+<a name="librejilla-burn-RejillaTrackImage"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-burn-RejillaTrackImage.top_of_page"></a>RejillaTrackImage</span></h2>
+<p>RejillaTrackImage</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-burn-RejillaTrackImage.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage">RejillaTrackImage</a>;
+<a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="returnvalue">RejillaTrackImage</span></a> * <a class="link" href="librejilla-burn-RejillaTrackImage.html#rejilla-track-image-new" title="rejilla_track_image_new ()">rejilla_track_image_new</a>             (<em class="parameter"><code><span class="type">void</span></code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaTrackImage.html#rejilla-track-image-set-source" title="rejilla_track_image_set_source ()">rejilla_track_image_set_source</a>      (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *image</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *toc</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="type">RejillaImageFormat</span></a> format</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaTrackImage.html#rejilla-track-image-set-block-num" title="rejilla_track_image_set_block_num ()">rejilla_track_image_set_block_num</a>   (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> blocks</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             <a class="link" href="librejilla-burn-RejillaTrackImage.html#rejilla-track-image-get-source" title="rejilla_track_image_get_source ()">rejilla_track_image_get_source</a>      (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> uri</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             <a class="link" href="librejilla-burn-RejillaTrackImage.html#rejilla-track-image-get-toc-source" title="rejilla_track_image_get_toc_source ()">rejilla_track_image_get_toc_source</a>  (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> uri</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="returnvalue">RejillaImageFormat</span></a>  <a class="link" href="librejilla-burn-RejillaTrackImage.html#rejilla-track-image-get-format" title="rejilla_track_image_get_format ()">rejilla_track_image_get_format</a>      (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a> *track</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-burn-RejillaTrackImage.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-burn-RejillaTrackImage.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaTrackImage">
+<a name="RejillaTrackImage"></a><h3>RejillaTrackImage</h3>
+<pre class="programlisting">typedef struct {
+	RejillaTrack parent_instance;
+} RejillaTrackImage;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_image_new ()">
+<a name="rejilla-track-image-new"></a><h3>rejilla_track_image_new ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="returnvalue">RejillaTrackImage</span></a> * rejilla_track_image_new             (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Creates a new <a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a> object.
+</p>
+<p>
+This type of tracks is used to burn disc images.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a> object.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_image_set_source ()">
+<a name="rejilla-track-image-set-source"></a><h3>rejilla_track_image_set_source ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_image_set_source      (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *image</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *toc</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="type">RejillaImageFormat</span></a> format</code></em>);</pre>
+<p>
+Sets the image source path (and its toc if need be)
+as well as its format.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>image</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>toc</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>format</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="type">RejillaImageFormat</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if it is successful.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_image_set_block_num ()">
+<a name="rejilla-track-image-set-block-num"></a><h3>rejilla_track_image_set_block_num ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_image_set_block_num   (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> blocks</code></em>);</pre>
+<p>
+Sets the image size (in sectors).
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>blocks</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if it is successful.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_image_get_source ()">
+<a name="rejilla-track-image-get-source"></a><h3>rejilla_track_image_get_source ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             rejilla_track_image_get_source      (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> uri</code></em>);</pre>
+<p>
+This function returns the path or the URI (if <em class="parameter"><code>uri</code></em> is TRUE) of the
+source image file.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_image_get_toc_source ()">
+<a name="rejilla-track-image-get-toc-source"></a><h3>rejilla_track_image_get_toc_source ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             rejilla_track_image_get_toc_source  (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> uri</code></em>);</pre>
+<p>
+This function returns the path or the URI (if <em class="parameter"><code>uri</code></em> is TRUE) of the
+source toc file.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_image_get_format ()">
+<a name="rejilla-track-image-get-format"></a><h3>rejilla_track_image_get_format ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="returnvalue">RejillaImageFormat</span></a>  rejilla_track_image_get_format      (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a> *track</code></em>);</pre>
+<p>
+This function returns the format of the
+source image.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage" title="RejillaTrackImage"><span class="type">RejillaTrackImage</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="type">RejillaImageFormat</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

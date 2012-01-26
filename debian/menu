@@ -1,0 +1,1 @@
+?package(rejilla): needs="X11" section="Applications/File Management" title="Rejilla" longtitle="Rejilla - CD/DVD burning application for MATE" command="/usr/bin/rejilla"

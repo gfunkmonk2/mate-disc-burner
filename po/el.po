@@ -1,0 +1,5592 @@
+# Greek translation of Rejilla.
+# Copyright (C) 2009, The MATE Project.
+# This file is distributed under the same license as the Rejilla package.
+# Giannis Katsampirhs <giannis1_86@hotmail.com>, 2008.
+#  <>, 2009.
+# Fotis Tsamis <ftsamis@gmail.com>, 2009.
+# Simos Xenitellis <simos@mate.org>, 2008, 2009, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: el\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
+"product=rejilla&component=general\n"
+"POT-Creation-Date: 2010-07-29 22:17+0000\n"
+"PO-Revision-Date: 2010-08-26 20:54+0300\n"
+"Last-Translator: Simos Xenitellis <simos@mate.org>\n"
+"Language-Team: Greek <team@mate.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: Greece\n"
+
+#: ../src/rejilla-search.c:241
+#, c-format
+msgid "Results %i–%i (out of %i)"
+msgstr "Αποτελέσματα %i–%i (από τα %i)"
+
+#: ../src/rejilla-search.c:249 ../src/rejilla-search.c:880
+msgid "No results"
+msgstr "Δεν υπάρχουν αποτελέσματα"
+
+#: ../src/rejilla-search.c:414
+msgid "Error querying for keywords."
+msgstr "Σφάλμα κατά την υποβολή ερώτησης για λέξεις-κλειδιά."
+
+#: ../src/rejilla-search.c:867
+msgid "Previous Results"
+msgstr "Προηγούμενα αποτελέσματα"
+
+#: ../src/rejilla-search.c:888
+msgid "Next Results"
+msgstr "Επόμενα αποτελέσματα"
+
+#: ../src/rejilla-search.c:952 ../src/rejilla-data-disc.c:2352
+#: ../src/rejilla-file-filtered.c:259
+msgid "Files"
+msgstr "Αρχεία"
+
+#: ../src/rejilla-search.c:981 ../src/rejilla-data-disc.c:2380
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: ../src/rejilla-search.c:1034 ../librejilla-burn/rejilla-src-image.c:444
+#: ../src/rejilla-project-name.c:165 ../src/rejilla-search-entry.c:509
+#: ../src/rejilla-search-entry.c:569 ../src/rejilla-search-entry.c:631
+#: ../src/rejilla-file-chooser.c:350 ../src/rejilla-project.c:2214
+msgid "All files"
+msgstr "Όλα τα αρχεία"
+
+#: ../src/rejilla-search.c:1045
+msgid "Number of results displayed"
+msgstr "Αριθμός των αποτελεσμάτων που εμφανίστηκαν"
+
+#: ../src/rejilla-cli.c:70
+msgid "Open the specified project"
+msgstr "Άνοιγμα καθορισμένης εργασίας"
+
+#: ../src/rejilla-cli.c:71
+msgid "PROJECT"
+msgstr "ΕΡΓΑΣΙΑ"
+
+#: ../src/rejilla-cli.c:76
+msgid "Open the specified playlist as an audio project"
+msgstr "Άνοιγμα καθορισμένης λίστας αναπαραγωγής ως εργασίας ήχου"
+
+#: ../src/rejilla-cli.c:77
+msgid "PLAYLIST"
+msgstr "ΛΙΣΤΑ ΑΝΑΠΑΡΑΓΩΓΗΣ"
+
+#: ../src/rejilla-cli.c:82
+msgid "Set the drive to be used for burning"
+msgstr "Ορισμός του οδηγού που θα χρησιμοποιείται για εγγραφή"
+
+#: ../src/rejilla-cli.c:83
+msgid "DEVICE PATH"
+msgstr "ΔΙΑΔΡΟΜΗ ΣΥΣΚΕΥΗΣ"
+
+#: ../src/rejilla-cli.c:86
+msgid "Create an image file instead of burning"
+msgstr "Δημιουργία ενός αρχείου εικόνας αντί για εγγραφή"
+
+#: ../src/rejilla-cli.c:90
+msgid "Open an audio project adding the URIs given on the command line"
+msgstr ""
+"Άνοιγμα εργασίας ήχου προσθέτοντας τις URI που δόθηκαν στη γραμμή εντολών"
+
+#: ../src/rejilla-cli.c:94
+msgid "Open a data project adding the URIs given on the command line"
+msgstr ""
+"Άνοιγμα εργασίας δεδομένων προσθέτοντας τις URI που δόθηκαν στη γραμμή "
+"εντολών"
+
+#: ../src/rejilla-cli.c:98
+msgid "Copy a disc"
+msgstr "Αντιγραφή δίσκου"
+
+#: ../src/rejilla-cli.c:99 ../src/rejilla-cli.c:119 ../src/rejilla-cli.c:123
+msgid "PATH TO DEVICE"
+msgstr "ΜΟΝΟΠΑΤΙ ΠΡΟΣ ΣΥΣΚΕΥΗ"
+
+#: ../src/rejilla-cli.c:102
+msgid "Cover to use"
+msgstr "Εξώφυλλο για χρήση"
+
+#: ../src/rejilla-cli.c:103
+msgid "PATH TO COVER"
+msgstr "ΔΙΑΔΡΟΜΗ ΠΡΟΣ ΕΞΩΦΥΛΛΟ"
+
+#: ../src/rejilla-cli.c:106
+msgid "Open a video project adding the URIs given on the command line"
+msgstr ""
+"Άνοιγμα εργασίας βίντεο προσθέτοντας τις τοποθεσίες που δόθηκαν στη γραμμή "
+"εντολών"
+
+#: ../src/rejilla-cli.c:110
+msgid "URI of an image file to burn (autodetected)"
+msgstr "Το Uri ενός αρχείου εικόνας για εγγραφή (αυτόματα ανιχνεύσιμο)"
+
+#: ../src/rejilla-cli.c:111
+msgid "PATH TO IMAGE"
+msgstr "ΔΙΑΔΡΟΜΗ ΠΡΟΣ ΕΙΚΟΝΑ"
+
+#: ../src/rejilla-cli.c:114
+#| msgid "Force rejilla to display the project selection page"
+msgid "Force Rejilla to display the project selection page"
+msgstr "Εξαναγκασμός του rejilla για προβολή της σελίδας επιλογής εργασίας"
+
+#: ../src/rejilla-cli.c:118
+msgid "Open the blank disc dialog"
+msgstr "Άνοιγμα διαλόγου κενού δίσκου"
+
+#: ../src/rejilla-cli.c:122
+msgid "Open the check disc dialog"
+msgstr "Άνοιγμα διαλόγου ελέγχου δίσκου"
+
+#: ../src/rejilla-cli.c:126
+#| msgid "Burn the contents of burn:// URI"
+msgid "Burn the contents of the burn:// URI"
+msgstr "Εγγραφή των περιεχομένων του burn:// URI"
+
+#: ../src/rejilla-cli.c:130
+msgid "Start burning immediately."
+msgstr "Εκκίνηση άμεσης εγγραφής"
+
+#: ../src/rejilla-cli.c:134
+msgid "Don't connect to an already-running instance"
+msgstr "Μη συνδέεστε σε ήδη εκτελούμενο πρόγραμμα"
+
+#: ../src/rejilla-cli.c:138
+msgid ""
+"Burn the specified project and remove it.\n"
+"This option is mainly useful for integration with other applications."
+msgstr ""
+"Εγγραφή της καθορισμένης εργασίας και απομάκρυνση της.\n"
+"Αυτή η επιλογή είναι κυρίως χρήσιμη για ενσωμάτωση σε άλλες εφαρμογές."
+
+#: ../src/rejilla-cli.c:139
+msgid "PATH"
+msgstr "ΔΙΑΔΡΟΜΗ"
+
+#. Translators: the xid is a number identifying each window in the X11
+#. * world (not Windows, MacOS X). The following sentence says that
+#. * rejilla will be set to be always on top of the window identified by
+#. * xid. In other words, the window with the given xid will become rejilla
+#. * parent as if rejilla was a dialog for the parent application
+#: ../src/rejilla-cli.c:147
+msgid "The XID of the parent window"
+msgstr "Το XID του γονικού παραθύρου"
+
+#. Translators: %s is the path of drive
+#: ../src/rejilla-cli.c:204
+#, c-format
+msgid "\"%s\" cannot write."
+msgstr "Το \"%s\" δεν είναι δυνατό να να κάνει εγγραφή."
+
+#: ../src/rejilla-cli.c:206 ../src/rejilla-cli.c:220
+msgid "Wrong command line option."
+msgstr "Μη συμβατές επιλογές γραμμής εντολών."
+
+#. Translators: %s is the path of a drive
+#: ../src/rejilla-cli.c:218 ../librejilla-burn/rejilla-track-data-cfg.c:2593
+#, c-format
+msgid "\"%s\" cannot be found."
+msgstr "Δεν είναι δυνατή η εύρεση του \"%s\"."
+
+#: ../src/rejilla-cli.c:297
+msgid "Incompatible command line options used."
+msgstr "Χρησιμοποιήθηκαν μη συμβατές επιλογές γραμμής εντολών."
+
+#: ../src/rejilla-cli.c:298
+msgid "Only one option can be given at a time"
+msgstr "Μόνο μια επιλογή μπορεί να δίνεται κάθε φορά"
+
+#: ../librejilla-burn/burn-plugin.c:645
+#, c-format
+msgid "\"%s\" could not be found in the path"
+msgstr "Δεν ήταν δυνατή η εύρεση του \"%s\" στη διαδρομή"
+
+#: ../librejilla-burn/burn-plugin.c:649
+#, c-format
+msgid "\"%s\" GStreamer plugin could not be found"
+msgstr "Δεν είναι δυνατή η εύρεση της πρόσθετης λειτουργίας GStreamer \"%s\""
+
+#: ../librejilla-burn/burn-plugin.c:653 ../librejilla-burn/burn-plugin.c:665
+#, c-format
+msgid "The version of \"%s\" is too old"
+msgstr "Αυτή η έκδοση του \"%s\" είναι πολύ παλιά"
+
+#: ../librejilla-burn/burn-plugin.c:657
+#, c-format
+msgid "\"%s\" is a symbolic link pointing to another program"
+msgstr "Το \"%s\" είναι ένας συμβολικός δεσμός σε κάποιο άλλο πρόγραμμα"
+
+#. Translators: %s is a filename
+#: ../librejilla-burn/burn-plugin.c:661 ../plugins/cdrdao/burn-cdrdao.c:211
+#: ../plugins/growisofs/burn-growisofs.c:509
+#, c-format
+msgid "\"%s\" could not be found"
+msgstr "Δεν είναι δυνατή η εύρεση του \"%s\""
+
+#: ../plugins/cdrtools/burn-cdda2wav.c:204
+#: ../plugins/cdrtools/burn-cdda2wav.c:214
+#, c-format
+msgid "Copying audio track %02d"
+msgstr "Αντιγραφή κομματιού ήχου %02d"
+
+#: ../plugins/cdrtools/burn-cdda2wav.c:265
+msgid "Preparing to copy audio disc"
+msgstr "Προετοιμασία για αντιγραφή ηχητικού δίσκου"
+
+#: ../plugins/cdrtools/burn-cdda2wav.c:411
+msgid "Copy tracks from an audio CD with all associated information"
+msgstr ""
+"Αντιγραφή κομματιών από ένα CD ήχου μαζί με τις σχετικές τους πληροφορίες"
+
+#: ../librejilla-burn/rejilla-video-options.c:451
+msgid "Video format:"
+msgstr "Μορφή βίντεο:"
+
+#: ../librejilla-burn/rejilla-video-options.c:462
+msgid "_NTSC"
+msgstr "_NTSC"
+
+#: ../librejilla-burn/rejilla-video-options.c:464
+msgid "Format used mostly on the North American continent"
+msgstr "Μορφή που χρησιμοποιείται κυρίως στη Βόρεια Αμερική"
+
+#: ../librejilla-burn/rejilla-video-options.c:477
+msgid "_PAL/SECAM"
+msgstr "_PAL/SECAM"
+
+#: ../librejilla-burn/rejilla-video-options.c:479
+msgid "Format used mostly in Europe"
+msgstr "Μορφή που χρησιμοποιείται κυρίως στην Ευρώπη"
+
+#: ../librejilla-burn/rejilla-video-options.c:493
+msgid "Native _format"
+msgstr "Εγγενής _μορφή"
+
+#: ../librejilla-burn/rejilla-video-options.c:508
+msgid "Aspect ratio:"
+msgstr "Λόγος αναλογίας:"
+
+#: ../librejilla-burn/rejilla-video-options.c:519
+msgid "_4:3"
+msgstr "_4:3"
+
+#: ../librejilla-burn/rejilla-video-options.c:534
+msgid "_16:9"
+msgstr "_16:9"
+
+#. Video options for (S)VCD
+#: ../librejilla-burn/rejilla-video-options.c:549
+msgid "VCD type:"
+msgstr "Τύπος VCD:"
+
+#: ../librejilla-burn/rejilla-video-options.c:562
+msgid "Create an SVCD"
+msgstr "Δημιουργία SVCD"
+
+#: ../librejilla-burn/rejilla-video-options.c:577
+msgid "Create a VCD"
+msgstr "Δημιουργία VCD"
+
+#: ../librejilla-burn/burn-debug.c:54
+msgid "Display debug statements on stdout for Rejilla burn library"
+msgstr ""
+"Προβολή των αναφορών σφαλμάτων στο stdout για τη βιβλιοθήκη εγγραφής του "
+"Rejilla"
+
+#: ../librejilla-burn/burn-debug.c:80
+msgid "Rejilla media burning library"
+msgstr "Βιβλιοθήκη εγγραφής πολυμέσων του Rejilla"
+
+#: ../librejilla-burn/burn-debug.c:81
+msgid "Display options for Rejilla-burn library"
+msgstr "Εμφάνιση επιλογών για τη βιβλιοθήκη εγγραφής του Rejilla"
+
+#. Translators: %s is the name of the file that has just been deleted
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:90
+#, c-format
+msgid "\"%s\" was removed from the file system."
+msgstr "Το \"%s\" έχει διαγραφεί από το σύστημα αρχείων."
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:129
+#: ../src/rejilla-audio-disc.c:753 ../src/rejilla-video-disc.c:365
+#, c-format
+msgid "Directories cannot be added to video or audio discs"
+msgstr "Δεν είναι δυνατή η προσθήκη καταλόγων σε δίσκους βίντεο ή ήχου."
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:142
+#, c-format
+msgid "Playlists cannot be added to video or audio discs"
+msgstr ""
+"Δεν είναι δυνατή η προσθήκη λιστών αναπαραγωγής σε δίσκους βίντεο ή ήχου."
+
+#. Translators: %s is the name of the file
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:157
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:174
+#, c-format
+msgid "\"%s\" is not suitable for audio or video media"
+msgstr "Το \"%s\" δεν είναι κατάλληλο για μέσα ήχου ή βίντεο"
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:401
+msgid "Analysing video files"
+msgstr "Ανάλυση αρχείων βίντεο"
+
+#: ../librejilla-burn/rejilla-data-vfs.c:218
+#, c-format
+msgid "\"%s\" cannot be read"
+msgstr "Το \"%s\" δεν είναι δυνατό να αναγνωστεί"
+
+#: ../librejilla-burn/rejilla-data-session.c:123
+#: ../librejilla-burn/rejilla-burn.c:331 ../librejilla-media/scsi-error.c:47
+#: ../librejilla-burn/rejilla-tool-dialog.c:89
+#: ../plugins/cdrdao/burn-cdrdao.c:243 ../plugins/cdrkit/burn-readom.c:110
+#: ../plugins/cdrkit/burn-wodim.c:135 ../plugins/cdrkit/burn-wodim.c:144
+#: ../plugins/cdrtools/burn-cdrecord.c:135
+#: ../plugins/cdrtools/burn-cdrecord.c:144
+#: ../plugins/cdrtools/burn-readcd.c:111
+#: ../plugins/growisofs/burn-dvd-rw-format.c:84
+#: ../plugins/growisofs/burn-growisofs.c:190
+#: ../plugins/libburnia/burn-libburn-common.c:186
+#, c-format
+msgid "The drive is busy"
+msgstr "Ο οδηγός είναι απασχολημένος"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:57
+msgid "Hidden file"
+msgstr "Κρυφό αρχείο"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:58
+msgid "Unreadable file"
+msgstr "Μη αναγνώσιμο αρχείο"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:59
+msgid "Broken symbolic link"
+msgstr "Κατεστραμμένος συμβολικός δεσμός"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:60
+#: ../librejilla-utils/rejilla-io.c:1186 ../librejilla-utils/rejilla-io.c:2057
+#, c-format
+msgid "Recursive symbolic link"
+msgstr "Αναδρομικός συμβολικός δεσμός"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:622
+#: ../librejilla-burn/rejilla-track-data-cfg.c:721
+#: ../librejilla-burn/rejilla-track-data-cfg.c:732
+#: ../librejilla-burn/rejilla-track-data-cfg.c:793
+#: ../librejilla-burn/rejilla-track-data-cfg.c:798
+#: ../src/rejilla-playlist.c:536 ../src/rejilla-video-tree-model.c:344
+msgid "(loading…)"
+msgstr "(φόρτωση ...)"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:624
+#: ../librejilla-burn/rejilla-track-data-cfg.c:804
+#: ../src/rejilla-playlist.c:497
+msgid "Empty"
+msgstr "Κενό"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:730
+msgid "Disc file"
+msgstr "Αρχείο δίσκου"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:808
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d αντικείμενο"
+msgstr[1] "%d αντικείμενα"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:1927
+#, c-format
+msgid "New folder"
+msgstr "Νέος φάκελος"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:1930
+#, c-format
+msgid "New folder %i"
+msgstr "Νέος φάκελος %i"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2421
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2431
+msgid "Analysing files"
+msgstr "Ανάλυση αρχείων"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2447
+#: ../librejilla-burn/rejilla-burn-options.c:471
+#: ../caja/caja-burn-extension.c:250 ../src/rejilla-project.c:1267
+#: ../librejilla-burn/rejilla-track-data.c:772
+#: ../librejilla-burn/rejilla-track-stream.c:405
+#, c-format
+msgid "There are no files to write to disc"
+msgstr "Δεν υπάρχουν αρχεία για εγγραφή στο δίσκο"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2567
+#, c-format
+msgid "\"%s\" is a recursive symbolic link."
+msgstr "Ο \"%s\" είναι ένας αναδρομικός συμβολικός δεσμός."
+
+#: ../librejilla-utils/rejilla-io.c:1414
+#, c-format
+msgid "The file does not appear to be a playlist"
+msgstr "Το αρχείο δεν φαίνεται να είναι λίστα αναπαραγωγής"
+
+#: ../librejilla-utils/rejilla-metadata.c:1138 ../src/rejilla-audio-disc.c:642
+#, c-format
+msgid "\"%s\" could not be handled by GStreamer."
+msgstr "Το \"%s\" δεν μπορεί να διαχειριστεί με το Gstreamer."
+
+#. Translators: %s is the name of the object (as in
+#. * GObject) from the Gstreamer library that could
+#. * not be created
+#: ../librejilla-utils/rejilla-metadata.c:1210
+#: ../librejilla-utils/rejilla-metadata.c:1223
+#: ../librejilla-utils/rejilla-metadata.c:1236
+#: ../librejilla-utils/rejilla-metadata.c:1378
+#: ../librejilla-utils/rejilla-metadata.c:1749
+#: ../librejilla-utils/rejilla-metadata.c:1764
+#: ../librejilla-utils/rejilla-metadata.c:1773
+#: ../plugins/transcode/burn-normalize.c:172
+#: ../plugins/transcode/burn-normalize.c:187
+#: ../plugins/transcode/burn-normalize.c:209
+#: ../plugins/transcode/burn-normalize.c:221
+#: ../plugins/transcode/burn-normalize.c:238
+#: ../plugins/transcode/burn-normalize.c:335
+#: ../plugins/transcode/burn-transcode.c:294
+#: ../plugins/transcode/burn-transcode.c:306
+#: ../plugins/transcode/burn-transcode.c:456
+#: ../plugins/transcode/burn-transcode.c:509
+#: ../plugins/transcode/burn-transcode.c:543
+#: ../plugins/transcode/burn-transcode.c:590
+#: ../plugins/transcode/burn-transcode.c:611
+#: ../plugins/transcode/burn-transcode.c:623
+#: ../plugins/transcode/burn-transcode.c:648
+#: ../plugins/transcode/burn-vob.c:318 ../plugins/transcode/burn-vob.c:338
+#: ../plugins/transcode/burn-vob.c:353 ../plugins/transcode/burn-vob.c:365
+#: ../plugins/transcode/burn-vob.c:382 ../plugins/transcode/burn-vob.c:440
+#: ../plugins/transcode/burn-vob.c:457 ../plugins/transcode/burn-vob.c:469
+#: ../plugins/transcode/burn-vob.c:481 ../plugins/transcode/burn-vob.c:493
+#: ../plugins/transcode/burn-vob.c:510 ../plugins/transcode/burn-vob.c:601
+#: ../plugins/transcode/burn-vob.c:618 ../plugins/transcode/burn-vob.c:630
+#: ../plugins/transcode/burn-vob.c:642 ../plugins/transcode/burn-vob.c:664
+#: ../plugins/transcode/burn-vob.c:681 ../plugins/transcode/burn-vob.c:727
+#: ../plugins/transcode/burn-vob.c:804 ../plugins/transcode/burn-vob.c:821
+#: ../plugins/transcode/burn-vob.c:836 ../plugins/transcode/burn-vob.c:848
+#: ../plugins/transcode/burn-vob.c:859 ../plugins/transcode/burn-vob.c:870
+#: ../plugins/transcode/burn-vob.c:1045 ../plugins/transcode/burn-vob.c:1109
+#: ../plugins/transcode/burn-vob.c:1126 ../plugins/transcode/burn-vob.c:1147
+#: ../plugins/transcode/burn-vob.c:1174
+#, c-format
+msgid "%s element could not be created"
+msgstr "Δεν ήταν δυνατή η δημιουργία του αντικειμένου %s"
+
+#. Translators: Error message saying no graft point
+#. * is specified. A graft point is the path (on the
+#. * disc) where a file from any source will be added
+#. * ("grafted")
+#: ../librejilla-burn/rejilla-caps-burn.c:66
+#: ../librejilla-burn/rejilla-burn.c:2852 ../librejilla-burn/burn-job.c:1219
+#: ../librejilla-burn/burn-job.c:1228
+#: ../librejilla-burn/burn-mkisofs-base.c:302
+#: ../caja/caja-burn-extension.c:228 ../src/rejilla-app.c:783
+#: ../plugins/cdrkit/burn-genisoimage.c:370
+#: ../plugins/cdrkit/burn-readom.c:129 ../plugins/cdrkit/burn-readom.c:370
+#: ../plugins/cdrkit/burn-wodim.c:726 ../plugins/cdrkit/burn-wodim.c:841
+#: ../plugins/cdrkit/burn-wodim.c:856 ../plugins/cdrtools/burn-cdrecord.c:839
+#: ../plugins/cdrtools/burn-cdrecord.c:854
+#: ../plugins/cdrtools/burn-mkisofs.c:371
+#: ../plugins/cdrtools/burn-readcd.c:130 ../plugins/cdrtools/burn-readcd.c:380
+#, c-format
+msgid "An internal error occurred"
+msgstr "Συνέβη ένα εσωτερικό σφάλμα"
+
+#: ../librejilla-burn/rejilla-caps-burn.c:868
+#: ../librejilla-burn/rejilla-burn.c:2582
+#, c-format
+msgid "Only one track at a time can be checked"
+msgstr "Μόνο ένα κομμάτι κάθε φορά μπορεί να ελεγχθεί"
+
+#: ../librejilla-burn/rejilla-track-image-cfg.c:430
+msgid "Retrieving image format and size"
+msgstr "Ανάκτηση τύπου και μεγέθους εικόνας"
+
+#. Translators: This is a disc image
+#: ../librejilla-burn/rejilla-track-image-cfg.c:450
+msgid "The format of the disc image could not be identified"
+msgstr "Δεν ήταν δυνατή η ανάκτηση του μεγέθους της εικόνας δίσκου"
+
+#: ../librejilla-burn/rejilla-track-image-cfg.c:451
+msgid "Please set it manually"
+msgstr "Παρακαλώ επιλέξτε το χειροκίνητα"
+
+#. Translators: This string is used in the title bar %s is the action currently performed
+#: ../librejilla-burn/rejilla-burn-dialog.c:184
+#, c-format
+msgid "%s (%i%% Done)"
+msgstr "%s (%i%% ολοκληρώθηκαν)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:206
+#: ../librejilla-burn/rejilla-burn-dialog.c:1135
+msgid "Creating Image"
+msgstr "Δημιουργία εικόνας"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:211
+#: ../librejilla-burn/rejilla-burn-dialog.c:1144
+msgid "Burning DVD"
+msgstr "Εγγραφή DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:215
+#: ../librejilla-burn/rejilla-burn-dialog.c:1140
+msgid "Copying DVD"
+msgstr "Αντιγραφή DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:221
+#: ../librejilla-burn/rejilla-burn-dialog.c:1154
+msgid "Burning CD"
+msgstr "Εγγραφή CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:225
+#: ../librejilla-burn/rejilla-burn-dialog.c:346
+#: ../librejilla-burn/rejilla-burn-dialog.c:1150
+msgid "Copying CD"
+msgstr "Αντιγραφή CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:231
+#: ../librejilla-burn/rejilla-burn-dialog.c:1164
+msgid "Burning Disc"
+msgstr "Εγγραφή δίσκου"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:235
+#: ../librejilla-burn/rejilla-burn-dialog.c:1160
+msgid "Copying Disc"
+msgstr "Αντιγραφή δίσκου"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:265
+#: ../librejilla-burn/burn-basics.c:78
+msgid "Creating image"
+msgstr "Δημιουργία εικόνας"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:271
+msgid "Simulation of video DVD burning"
+msgstr "Προσομοίωση εγγραφής βίντεο DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:273
+msgid "Burning video DVD"
+msgstr "Εγγραφή DVD βίντεο"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:281
+msgid "Simulation of data DVD burning"
+msgstr "Προσομοίωση εγγραφής DVD δεδομένων"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:283
+msgid "Burning data DVD"
+msgstr "Εγγραφή DVD δεδομένων"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:291
+msgid "Simulation of image to DVD burning"
+msgstr "Προσομοίωση εγγραφής εικόνας σε DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:293
+msgid "Burning image to DVD"
+msgstr "Εγγραφή εικόνας σε DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:301
+msgid "Simulation of data DVD copying"
+msgstr "Προσομοίωση αντιγραφής DVD δεδομένων"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:303
+msgid "Copying data DVD"
+msgstr "Αντιγραφή DVD δεδομένων"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:314
+msgid "Simulation of (S)VCD burning"
+msgstr "Προσομοίωση εγγραφής (S)VCD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:316
+msgid "Burning (S)VCD"
+msgstr "Εγγραφή (S)VCD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:324
+#: ../librejilla-burn/rejilla-burn-dialog.c:377
+msgid "Simulation of audio CD burning"
+msgstr "Προσομοίωση εγγραφής CD ήχου"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:326
+#: ../librejilla-burn/rejilla-burn-dialog.c:379
+msgid "Burning audio CD"
+msgstr "Εγγραφή CD ήχου"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:334
+msgid "Simulation of data CD burning"
+msgstr "Προσομοίωση εγγραφής CD δεδομένων"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:336
+msgid "Burning data CD"
+msgstr "Εγγραφή CD δεδομένων"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:344
+msgid "Simulation of CD copying"
+msgstr "Προσομοίωση αντιγραφής CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:354
+msgid "Simulation of image to CD burning"
+msgstr "Προσομοίωση εγγραφής εικόνας σε CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:356
+msgid "Burning image to CD"
+msgstr "Εγγραφή εικόνας σε CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:367
+msgid "Simulation of video disc burning"
+msgstr "Προσομοίωση εγγραφής δίσκου βίντεο"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:369
+msgid "Burning video disc"
+msgstr "Εγγραφή δίσκου βίντεο"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:387
+msgid "Simulation of data disc burning"
+msgstr "Προσομοίωση εγγραφής δίσκου δεδομένων"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:389
+msgid "Burning data disc"
+msgstr "Εγγραφή δίσκου δεδομένων"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:397
+msgid "Simulation of disc copying"
+msgstr "Προσομοίωση αντιγραφής δίσκου"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:399
+#: ../librejilla-burn/burn-basics.c:82
+msgid "Copying disc"
+msgstr "Αντιγραφή δίσκου"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:407
+msgid "Simulation of image to disc burning"
+msgstr "Προσομοίωση εγγραφής εικόνας σε δίσκο"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:409
+msgid "Burning image to disc"
+msgstr "Εγγραφή εικόνας σε δίσκο"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:514
+msgid "Please replace the disc with a rewritable disc holding data."
+msgstr ""
+"Παρακαλώ, αντικαταστήστε τον δίσκο με έναν επανεγγράψιμο δίσκο που περιέχει "
+"δεδομένα."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:516
+msgid "Please replace the disc with a disc holding data."
+msgstr ""
+"Παρακαλώ, αντικαταστήστε τον δίσκο με έναν δίσκο που περιέχει δεδομένα."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:520
+msgid "Please insert a rewritable disc holding data."
+msgstr "Παρακαλώ, εισάγετε έναν επανεγγράψιμο δίσκο που περιέχει δεδομένα."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:522
+#: ../librejilla-burn/rejilla-burn-options.c:496
+msgid "Please insert a disc holding data."
+msgstr "Παρακαλώ, εισάγετε έναν δίσκο που διατηρεί δεδομένα."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:537
+#, c-format
+msgid ""
+"Please replace the disc with a writable CD with at least %i MiB of free "
+"space."
+msgstr ""
+"Παρακαλώ, αντικαταστήστε τον δίσκο με ένα εγγράψιμο CD με τουλάχιστον %i MiB "
+"ελεύθερο χώρο."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:540
+msgid "Please replace the disc with a writable CD."
+msgstr "Παρακαλώ, αντικαταστήστε τον δίσκο με ένα εγγράψιμο CD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:544
+#, c-format
+msgid "Please insert a writable CD with at least %i MiB of free space."
+msgstr ""
+"Παρακαλώ, εισάγετε ένα εγγράψιμο CD με τουλάχιστον %i MiB ελεύθερο χώρο."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:547
+msgid "Please insert a writable CD."
+msgstr "Παρακαλώ, εισάγετε ένα εγγράψιμο CD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:553
+#, c-format
+msgid ""
+"Please replace the disc with a writable DVD with at least %i MiB of free "
+"space."
+msgstr ""
+"Παρακαλώ, αντικαταστήστε τον δίσκο με ένα εγγράψιμο DVD με τουλάχιστον %i "
+"MiB ελεύθερο χώρο."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:556
+msgid "Please replace the disc with a writable DVD."
+msgstr "Παρακαλώ, αντικαταστήστε τον δίσκο με ένα εγγράψιμο DVD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:560
+#, c-format
+msgid "Please insert a writable DVD with at least %i MiB of free space."
+msgstr ""
+"Παρακαλώ, εισάγετε ένα εγγράψιμο DVD με τουλάχιστον %i MiB ελεύθερο χώρο."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:563
+msgid "Please insert a writable DVD."
+msgstr "Παρακαλώ, εισάγετε ένα εγγράψιμο DVD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:568
+#, c-format
+msgid ""
+"Please replace the disc with a writable CD or DVD with at least %i MiB of "
+"free space."
+msgstr ""
+"Παρακαλώ, αντικαταστήστε τον δίσκο με ένα εγγράψιμο CD ή DVD με τουλάχιστον %"
+"i MiB ελεύθερο χώρο."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:571
+msgid "Please replace the disc with a writable CD or DVD."
+msgstr "Παρακαλώ, αντικαταστήστε τον δίσκο με ένα εγγράψιμο CD ή DVD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:575
+#, c-format
+msgid "Please insert a writable CD or DVD with at least %i MiB of free space."
+msgstr ""
+"Παρακαλώ, εισάγετε ένα εγγράψιμο CD ή DVD με τουλάχιστον %i MiB ελεύθερο "
+"χώρο."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:578
+#: ../librejilla-burn/rejilla-burn-dialog.c:2157
+#: ../librejilla-burn/rejilla-burn-dialog.c:2171
+#: ../librejilla-burn/rejilla-burn-options.c:450 ../src/rejilla-project.c:987
+msgid "Please insert a writable CD or DVD."
+msgstr "Παρακαλώ εισάγετε ένα εγγράψιμο CD ή DVD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:605
+msgid ""
+"An image of the disc has been created on your hard drive.\n"
+"Burning will begin as soon as a writable disc is inserted."
+msgstr ""
+"Μία εικόνα του δίσκου έχει δημιουργηθεί στο σκληρό σας δίσκο.\n"
+"Η εγγραφή θα αρχίσει με την εισαγωγή ενός εγγράψιμου μέσου."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:610
+msgid "A data integrity test will begin as soon as the disc is inserted."
+msgstr ""
+"Μία δοκιμή ακεραιότητας δεδομένων θα αρχίσει με την εισαγωγή του δίσκου."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:611
+msgid "Please re-insert the disc in the CD/DVD burner."
+msgstr "Παρακαλώ, εισάγετε ξανά τον δίσκο στην συσκευή εγγραφής CD/DVD."
+
+#. Translators: %s is the name of a drive
+#: ../librejilla-burn/rejilla-burn-dialog.c:615
+#, c-format
+msgid "\"%s\" is busy."
+msgstr "Ο οδηγός \"%s\" είναι απασχολημένος."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:616
+#: ../librejilla-burn/rejilla-burn.c:332
+#: ../librejilla-burn/rejilla-tool-dialog.c:90
+msgid "Make sure another application is not using it"
+msgstr "Βεβαιωθείτε ότι δεν το χρησιμοποιεί κάποια άλλη εφαρμογή"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:619
+#, c-format
+msgid "There is no disc in \"%s\"."
+msgstr "Δεν υπάρχει δίσκος στο \"%s\"."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:623
+#, c-format
+msgid "The disc in \"%s\" is not supported."
+msgstr "Ο δίσκος στο \"%s\" δεν υποστηρίζεται."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:627
+#, c-format
+msgid "The disc in \"%s\" is not rewritable."
+msgstr "Ο δίσκος στο \"%s\" δεν είναι επανεγγράψιμος."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:631
+#, c-format
+msgid "The disc in \"%s\" is empty."
+msgstr "Ο δίσκος στο \"%s\" είναι κενός."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:635
+#, c-format
+msgid "The disc in \"%s\" is not writable."
+msgstr "Ο δίσκος στο \"%s\" δεν είναι εγγράψιμος."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:639
+#, c-format
+msgid "Not enough space available on the disc in \"%s\"."
+msgstr "Δεν υπάρχει αρκετός διαθέσιμος χώρος στο δίσκο στο \"%s\"."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:647
+#, c-format
+msgid "The disc in \"%s\" needs to be reloaded."
+msgstr "Ο δίσκος στο \"%s\" πρέπει να φορτωθεί ξανά."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:648
+msgid "Please eject the disc and reload it."
+msgstr "Παρακαλώ, εξάγετε τον δίσκο και φορτώστε τον ξανά."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:693
+#: ../librejilla-burn/rejilla-sum-dialog.c:333
+msgid ""
+"A file could not be created at the location specified for temporary files"
+msgstr ""
+"Αδύνατη η δημιουργία αρχείου στην τοποθεσία που ορίστηκε για προσωρινά αρχεία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:694
+msgid "The image could not be created at the specified location"
+msgstr "Η εικόνα δε μπόρεσε να δημιουργηθεί στην καθορισμένη τοποθεσία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:695
+msgid ""
+"Do you want to specify another location for this session or retry with the "
+"current location?"
+msgstr ""
+"Θέλετε να ορίσετε άλλη τοποθεσία για αυτή τη συνεδρία ή να ξαναπροσπαθήσετε "
+"με την τρέχουσα τοποθεσία;"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:707
+msgid "You may want to free some space on the disc and retry"
+msgstr ""
+"Ίσως πρέπει να ελευθερώσετε λίγο χώρο στο δίσκο και να ξαναπροσπαθήσετε"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:714
+#: ../librejilla-burn/rejilla-drive-properties.c:247
+#: ../librejilla-burn/rejilla-drive-properties.c:285
+#: ../librejilla-burn/rejilla-drive-properties.c:337
+msgid "_Keep Current Location"
+msgstr "_Διατήρηση τρέχουσας τοποθεσίας"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:716
+#: ../librejilla-burn/rejilla-drive-properties.c:248
+#: ../librejilla-burn/rejilla-drive-properties.c:286
+#: ../librejilla-burn/rejilla-drive-properties.c:338
+msgid "_Change Location"
+msgstr "Α_λλαγή τοποθεσίας"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:738
+#: ../librejilla-burn/rejilla-image-properties.c:476
+msgid "Location for Image File"
+msgstr "Τοποθεσία για το αρχείο εικόνας"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:746
+#: ../librejilla-burn/rejilla-drive-properties.c:369
+msgid "Location for Temporary Files"
+msgstr "Τοποθεσία για προσωρινά αρχεία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:854
+#: ../librejilla-burn/rejilla-burn-dialog.c:1103
+msgid "_Replace Disc"
+msgstr "_Αντικαταστήστε το δίσκο"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:895
+msgid "Do you really want to blank the current disc?"
+msgstr "Θέλετε πραγματικά να αδειάσετε τον τρέχοντα δίσκο;"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:896
+msgid "The disc in the drive holds data."
+msgstr "Ο δίσκος στον οδηγό περιέχει δεδομένα."
+
+#. Translators: Blank is a verb here
+#: ../librejilla-burn/rejilla-burn-dialog.c:898
+msgid "_Blank Disc"
+msgstr "Ά_δειασμα δίσκου"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:912
+msgid ""
+"If you import them you will be able to see and use them once the current "
+"selection of files is burned."
+msgstr ""
+"Αν τα εισάγετε θα έχετε την δυνατότητα να τα δείτε και να τα χρησιμοποιήσετε "
+"μόλις εγγραφεί  η τρέχουσα επιλογή αρχείων"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:913
+msgid "If you don't, they will be invisible (though still readable)."
+msgstr "Ήδη εγγεγραμμένα αρχεία θα είναι αόρατα (αν και ακόμη αναγνώσιμα)."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:916
+msgid ""
+"There are files already burned on this disc. Would you like to import them?"
+msgstr "Υπάρχουν ήδη γραμμένα αρχεία στο δίσκο. Θέλετε να τα εισάγετε;"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:918
+msgid "_Import"
+msgstr "Ει_σαγωγή"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:919
+msgid "Only _Append"
+msgstr "Μόνο _προσθήκη"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:932
+msgid ""
+"CD-RW audio discs may not play correctly in older CD players and CD-Text "
+"won't be written."
+msgstr ""
+"Οι δίσκοι ήχου CD-RW ίσως να μην αναπαράγονται σωστά σε παλαιότερα CD "
+"players και το CD-TEXT δεν θα εγγραφεί."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:933
+#: ../librejilla-burn/rejilla-burn-dialog.c:955
+msgid "Do you want to continue anyway?"
+msgstr "Θέλετε να συνεχίσετε ούτως ή άλλως;"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:936
+msgid "Appending audio tracks to a CD is not advised."
+msgstr "Δεν ενδείκνυται η προσθήκη κομματιών ήχου σε CD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:938
+#: ../librejilla-burn/rejilla-burn-dialog.c:960 ../src/rejilla-data-disc.c:572
+#: ../librejilla-burn/rejilla-tool-dialog.c:422
+msgid "_Continue"
+msgstr "_Συνέχεια"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:954
+msgid "CD-RW audio discs may not play correctly in older CD players."
+msgstr ""
+"Οι δίσκοι ήχου CD-RW ίσως να μην αναπαράγονται σωστά σε παλαιότερα CD "
+"players."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:958
+msgid "Recording audio tracks on a rewritable disc is not advised."
+msgstr "Η εγγραφή κομματιών ήχου σε επανεγγράψιμο δίσκο δεν ενδείκνυται."
+
+#. Translators: %s is the name of a drive
+#: ../librejilla-burn/rejilla-burn-dialog.c:1005
+#, c-format
+msgid "Please eject the disc from \"%s\" manually."
+msgstr "Παρακαλώ, εξάγετε τον δίσκο από το  \"%s\" χειροκίνητα."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1014
+msgid ""
+"The disc could not be ejected though it needs to be removed for the current "
+"operation to continue."
+msgstr ""
+"Δεν ήταν δυνατή η αποβολή του δίσκου, αν πρέπει να απομακρυνθεί για να "
+"συνεχίσει η τρέχουσα διαδικασία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1101
+#| msgid "Do you want to replace \"%s\"?"
+msgid "Do you want to replace the disc and continue?"
+msgstr "Θέλετε να αντικαταστήσετε το δίσκο και να συνεχίσετε;"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1102
+#| msgid "The image could not be loaded."
+msgid "The currently inserted disc could not be blanked."
+msgstr "Ο δίσκος που έχει εισαχθεί δεν ήταν εφικτό να σβηστεί (blank)."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1111
+msgid "Do you want to continue with full Windows compatibility disabled?"
+msgstr "Θέλετε να συνεχίσετε με απενεργοποιημένη τη συμβατότητα με τα Windows;"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1112
+#: ../src/rejilla-data-disc.c:746
+#: ../librejilla-burn/rejilla-status-dialog.c:343
+msgid ""
+"Some files don't have a suitable name for a fully Windows-compatible CD."
+msgstr "Μερικά αρχεία δεν έχουν κατάλληλο όνομα για CD συμβατό με Windows."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1113
+#| msgid "_Continue"
+msgid "C_ontinue"
+msgstr "_Συνέχεια"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1346
+#: ../librejilla-burn/rejilla-burn-dialog.c:1367
+msgid "The simulation was successful."
+msgstr "Η προσομοίωση ήταν επιτυχής."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1349
+msgid "Real disc burning will take place in 10 seconds."
+msgstr "Η πραγματική εγγραφή του δίσκου θα πραγματοποιηθεί με 10 δευτερόλεπτα."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1352
+msgid "Burn _Now"
+msgstr "Εγγραφή _τώρα"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1649
+msgid "Save Current Session"
+msgstr "Αποθήκευση τρέχουσας συνεδρίας"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1724
+msgid "An unknown error occurred."
+msgstr "Συνέβηκε ένα άγνωστο σφάλμα."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1732 ../src/rejilla-app.c:617
+msgid "Error while burning."
+msgstr "Σφάλμα κατά την εγγραφή."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1740
+msgid "_Save Log"
+msgstr "Απο_θήκευση καταγραφής"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1773
+msgid "Video DVD successfully burned"
+msgstr "Το Video DVD εγγράφηκε με επιτυχία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1775
+msgid "(S)VCD successfully burned"
+msgstr "Το (S)VCD εγγράφηκε με επιτυχία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1778
+msgid "Audio CD successfully burned"
+msgstr "Το CD ήχου εγγράφηκε με επιτυχία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1781
+#: ../librejilla-burn/rejilla-burn-dialog.c:1813
+msgid "Image successfully created"
+msgstr "Η εικόνα δημιουργήθηκε με επιτυχία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1786
+msgid "DVD successfully copied"
+msgstr "Το DVD αντιγράφτηκε με επιτυχία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1788
+msgid "CD successfully copied"
+msgstr "Το CD αντιγράφτηκε με επιτυχία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1792
+msgid "Image of DVD successfully created"
+msgstr "Η εικόνα DVD δημιουργήθηκε με επιτυχία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1794
+msgid "Image of CD successfully created"
+msgstr "Η εικόνα CD δημιουργήθηκε με επιτυχία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1800
+msgid "Image successfully burned to DVD"
+msgstr "Η εικόνα εγγράφηκε με επιτυχία στο DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1802
+msgid "Image successfully burned to CD"
+msgstr "Η εικόνα εγγράφηκε με επιτυχία στο CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1808
+msgid "Data DVD successfully burned"
+msgstr "Το DVD δεδομένων εγγράφηκε με επιτυχία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1810
+msgid "Data CD successfully burned"
+msgstr "Το CD δεδομένων εγγράφηκε με επιτυχία"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1870
+#, c-format
+msgid "Copy #%i has been burned successfully."
+msgstr "Το αντίγραφο #%i  εγγράφηκε με επιτυχία."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1878
+msgid ""
+"Another copy will start as soon as you insert a new writable disc. If you do "
+"not want to burn another copy, press \"Cancel\"."
+msgstr ""
+"Θα ξεκινήσει άμεσα η δημιουργία ενός άλλου αντιγράφου μόλις εισάγετε ένα "
+"εγγράψιμο μέσο. Αν δεν επιθυμείτε και άλλο αντίγραφο πατήστε \"Ακύρωση\"."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1950
+msgid "Make _More Copies"
+msgstr "Δημιουργία περι_σσότερων αντιγράφων"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1959
+msgid "_Create Cover"
+msgstr "Δημιουρ_γία εξωφύλλου"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2120
+msgid "There are some files left to burn"
+msgstr "Απομένουν κάποια αρχεία για εγγραφή"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2127
+msgid "There are some more videos left to burn"
+msgstr "Απομένουν κάποια ακόμη βίντεο για εγγραφή"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2131
+msgid "There are some more songs left to burn"
+msgstr "Απομένουν κάποια ακόμη τραγούδια για εγγραφή"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2172
+#: ../librejilla-burn/rejilla-burn.c:1629
+#: ../plugins/cdrkit/burn-genisoimage.c:208 ../plugins/cdrkit/burn-wodim.c:114
+#: ../plugins/cdrtools/burn-cdrecord.c:114
+#: ../plugins/cdrtools/burn-mkisofs.c:209
+#: ../plugins/growisofs/burn-growisofs.c:198
+#, c-format
+msgid "Not enough space available on the disc"
+msgstr "Δεν υπάρχει αρκετός διαθέσιμος χώρος στο δίσκο"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2437
+#: ../librejilla-burn/rejilla-tool-dialog.c:411
+msgid "Do you really want to quit?"
+msgstr "Θέλετε πραγματικά να τερματίσετε την εφαρμογή;"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2441
+#: ../librejilla-burn/rejilla-tool-dialog.c:417
+msgid "Interrupting the process may make disc unusable."
+msgstr "Η διακοπή της διεργασία ίσως κάνει το δίσκο μη χρησιμοποιήσιμο."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2444
+msgid "C_ontinue Burning"
+msgstr "Σ_υνέχιση εγγραφής"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2451
+msgid "_Cancel Burning"
+msgstr "Α_κύρωση εγγραφής"
+
+#: ../librejilla-burn/rejilla-burn-options.c:228 ../src/rejilla-project.c:1012
+msgid ""
+"Please insert a writable CD or DVD if you don't want to write to an image "
+"file."
+msgstr ""
+"Παρακαλώ εισάγετε ένα εγγράψιμο CD ή DVD αν δε θέλετε να γράψετε σε αρχείο "
+"εικόνας."
+
+#: ../librejilla-burn/rejilla-burn-options.c:302 ../src/rejilla-project.c:1586
+msgid "Create _Image"
+msgstr "Δημιουργία ε_ικόνας"
+
+#. Translators: This is a verb, an action
+#: ../librejilla-burn/rejilla-burn-options.c:307
+msgid "_Copy"
+msgstr "Α_ντιγραφή"
+
+#: ../librejilla-burn/rejilla-burn-options.c:310
+msgid "Make _Several Copies"
+msgstr "Δημιουργία πολ_λών αντιγράφων"
+
+#. Translators: This is a verb, an action
+#: ../librejilla-burn/rejilla-burn-options.c:314 ../src/rejilla-project.c:1515
+msgid "_Burn"
+msgstr "Ε_γγραφή"
+
+#: ../librejilla-burn/rejilla-burn-options.c:317 ../src/rejilla-project.c:1512
+msgid "Burn _Several Copies"
+msgstr "_Εγγραφή πολλών αντιγράφων"
+
+#: ../librejilla-burn/rejilla-burn-options.c:426 ../src/rejilla-project.c:941
+msgid "Would you like to burn the selection of files across several media?"
+msgstr "Θέλετε να γίνει εγγραφή των επιλεγμένων αρχείων σε πολλά μέσα;"
+
+#: ../librejilla-burn/rejilla-burn-options.c:427
+#: ../librejilla-burn/rejilla-burn-options.c:444
+msgid "The data size is too large for the disc even with the overburn option."
+msgstr ""
+"Το μέγεθος των δεδομένων είναι πολύ μεγάλο για τον δίσκο ακόμα και με την "
+"επιλογή overburn."
+
+#: ../librejilla-burn/rejilla-burn-options.c:432 ../src/rejilla-project.c:946
+msgid "_Burn Several Discs"
+msgstr "_Εγγραφή πολλών δίσκων"
+
+#: ../librejilla-burn/rejilla-burn-options.c:434 ../src/rejilla-project.c:948
+msgid "Burn the selection of files across several media"
+msgstr "Εγγραφή της επιλογής των αρχείων σε πολλά μέσα"
+
+#: ../librejilla-burn/rejilla-burn-options.c:443 ../src/rejilla-project.c:957
+msgid "Please choose another CD or DVD or insert a new one."
+msgstr "Παρακαλώ επιλέξτε ένα άλλο CD ή DVD ή εισάγετε ένα καινούριο."
+
+#: ../librejilla-burn/rejilla-burn-options.c:457 ../src/rejilla-project.c:1002
+msgid "No track information (artist, title, ...) will be written to the disc."
+msgstr ""
+"Δε θα εγγραφούν στο δίσκο πληροφορίες κομματιού (καλλιτέχνης, τίτλος, ...)."
+
+#: ../librejilla-burn/rejilla-burn-options.c:458 ../src/rejilla-project.c:1003
+msgid "This is not supported by the current active burning backend."
+msgstr "Αυτό δεν υποστηρίζεται από το τρέχον ενεργό backend εγγραφής."
+
+#: ../librejilla-burn/rejilla-burn-options.c:470
+#: ../caja/caja-burn-extension.c:249
+msgid "Please add files."
+msgstr "Παρακαλώ προσθέστε αρχεία."
+
+#: ../librejilla-burn/rejilla-burn-options.c:476
+msgid "Please add songs."
+msgstr "Παρακαλώ προσθέστε τραγούδια."
+
+#: ../librejilla-burn/rejilla-burn-options.c:477 ../src/rejilla-project.c:1258
+msgid "There are no songs to write to disc"
+msgstr "Δεν υπάρχουν τραγούδια για εγγραφή στο δίσκο"
+
+#: ../librejilla-burn/rejilla-burn-options.c:482
+msgid "Please add videos."
+msgstr "Παρακαλώ προσθέστε βίντεο."
+
+#: ../librejilla-burn/rejilla-burn-options.c:483
+msgid "There are no videos to write to disc"
+msgstr "Δεν υπάρχουν βίντεο για εγγραφή στο δίσκο"
+
+#: ../librejilla-burn/rejilla-burn-options.c:497
+msgid "There is no inserted disc to copy."
+msgstr "Δεν έχει εισαχθεί δίσκος για αντιγραφή."
+
+#: ../librejilla-burn/rejilla-burn-options.c:508
+msgid "Please select a disc image."
+msgstr "Παρακαλώ επιλέξτε μια εικόνα δίσκου."
+
+#: ../librejilla-burn/rejilla-burn-options.c:509
+msgid "There is no selected disc image."
+msgstr "Δεν έχει επιλεγεί εικόνα δίσκου."
+
+#. Translators: this is a disc image not a picture
+#. Translators: this is a disc image, not a picture
+#: ../librejilla-burn/rejilla-burn-options.c:521
+#: ../librejilla-burn/rejilla-src-image.c:167
+msgctxt "disc"
+msgid "Please select another image."
+msgstr "Παρακαλώ επιλέξτε μια άλλη εικόνα."
+
+#: ../librejilla-burn/rejilla-burn-options.c:522
+msgid "It doesn't appear to be a valid disc image or a valid cue file."
+msgstr "Δε φαίνεται να είναι έγκυρη εικόνα δίσκου ή έγκυρο αρχείο cue."
+
+#: ../librejilla-burn/rejilla-burn-options.c:533
+msgid "Please insert a disc that is not copy protected."
+msgstr "Παρακαλώ εισάγετε έναν δίσκο που δεν προστατεύεται από την αντιγραφή."
+
+#: ../librejilla-burn/rejilla-burn-options.c:534
+#: ../librejilla-burn/rejilla-burn-options.c:1237
+#: ../src/rejilla-project.c:1435
+msgid "All required applications and libraries are not installed."
+msgstr "Δεν έχουν εγκατασταθεί όλες οι απαραίτητες εφαρμογές και βιβλιοθήκες."
+
+#: ../librejilla-burn/rejilla-burn-options.c:541 ../src/rejilla-project.c:995
+msgid "Please replace the disc with a supported CD or DVD."
+msgstr "Παρακαλώ αντικαταστήστε τον δίσκο με ένα υποστηριζόμενο CD ή DVD."
+
+#: ../librejilla-burn/rejilla-burn-options.c:550 ../src/rejilla-project.c:968
+msgid "Would you like to burn beyond the disc's reported capacity?"
+msgstr "Θέλετε να εγγράψετε πέρα από την αναφερόμενη χωρητικότητα του δίσκου;"
+
+#: ../librejilla-burn/rejilla-burn-options.c:551
+msgid ""
+"The data size is too large for the disc and you must remove files from the "
+"selection otherwise.\n"
+"You may want to use this option if you're using 90 or 100 min CD-R(W) which "
+"cannot be properly recognised and therefore need overburn option.\n"
+"NOTE: This option might cause failure."
+msgstr ""
+"Το μέγεθος των δεδομένων είναι πολύ μεγάλο για τον δίσκο και πρέπει να "
+"αφαιρέσετε αρχεία.\n"
+"Ίσως χρειαστεί να χρησιμοποιήσετε αυτή την επιλογή αν χρησιμοποιείτε δίσκους "
+"CD-R(W) των 90 ή 100 λεπτών οι οποίοι δεν αναγνωρίζονται σωστά και "
+"χρειάζονται την επιλογή overburn.\n"
+"ΣΗΜΕΙΩΣΗ: Αυτή η επιλογή ίσως προκαλέσει αποτυχία εγγραφής."
+
+#: ../librejilla-burn/rejilla-burn-options.c:558 ../src/rejilla-project.c:975
+msgid "_Overburn"
+msgstr "Χρήση _overburn"
+
+#: ../librejilla-burn/rejilla-burn-options.c:560 ../src/rejilla-project.c:977
+msgid "Burn beyond the disc's reported capacity"
+msgstr "Εγγραφή πέρα από την αναφερόμενη χωρητικότητα του δίσκου"
+
+#: ../librejilla-burn/rejilla-burn-options.c:570
+msgid ""
+"The drive that holds the source disc will also be the one used to record."
+msgstr ""
+"Ο οδηγός που περιέχει το δίσκο πηγής θα είναι και αυτός που θα "
+"χρησιμοποιηθεί για την εγγραφή."
+
+#: ../librejilla-burn/rejilla-burn-options.c:571
+msgid ""
+"A new writable disc will be required once the currently loaded one has been "
+"copied."
+msgstr ""
+"Θα απαιτηθεί ένα νέο εγγράψιμο μέσο όταν εκείνο που είναι ήδη φορτωμένο έχει "
+"αντιγραφεί."
+
+#: ../librejilla-burn/rejilla-burn-options.c:659
+msgid "Select a disc to write to"
+msgstr "Επιλέξτε δίσκο για να γράψετε"
+
+#: ../librejilla-burn/rejilla-burn-options.c:739
+#: ../librejilla-burn/rejilla-burn-options.c:757
+#: ../librejilla-burn/rejilla-burn-options.c:877
+msgid "Disc Burning Setup"
+msgstr "Ρυθμίσεις εγγραφής δίσκου"
+
+#: ../librejilla-burn/rejilla-burn-options.c:766 ../src/rejilla-project.c:1535
+msgid "Video Options"
+msgstr "Επιλογές βίντεο"
+
+#: ../librejilla-burn/rejilla-burn-options.c:797
+#: ../src/rejilla-data-disc.c:616
+msgid ""
+"Do you want to create a disc from the contents of the image or with the "
+"image file inside?"
+msgstr ""
+"Θέλετε να δημιουργήσετε έναν δίσκο με τα περιεχόμενα της εικόνας ή με το "
+"αρχείο εικόνας μέσα;"
+
+#. Translators: %s is the name of the image
+#: ../librejilla-burn/rejilla-burn-options.c:806
+#, c-format
+msgid ""
+"There is only one selected file (\"%s\"). It is the image of a disc and its "
+"contents can be burned."
+msgstr ""
+"Υπάρχει μόνο ένα επιλεγμένο αρχείο (\"%s\"). Είναι η εικόνα ενός δίσκου και "
+"τα δεδομένα της δεν είναι δυνατόν να εγγραφούν."
+
+#: ../librejilla-burn/rejilla-burn-options.c:811
+msgid "Burn as _File"
+msgstr "Εγγραφή ως _αρχείο"
+
+#: ../librejilla-burn/rejilla-burn-options.c:813
+msgid "Burn _Contents…"
+msgstr "Εγγραφή _περιεχομένων…"
+
+#: ../librejilla-burn/rejilla-burn-options.c:895
+msgid "Image Burning Setup"
+msgstr "Ρυθμίσεις εγγραφής εικόνας"
+
+#. pack everything
+#: ../librejilla-burn/rejilla-burn-options.c:903
+msgid "Select a disc image to write"
+msgstr "Επιλέξτε μια εικόνα δίσκου για εγγραφή"
+
+#: ../librejilla-burn/rejilla-burn-options.c:923
+msgid "Copy CD/DVD"
+msgstr "Αντιγραφή CD/DVD"
+
+#: ../librejilla-burn/rejilla-burn-options.c:929
+msgid "Select disc to copy"
+msgstr "Επιλογή δίσκου για αντιγραφή"
+
+#. Translators: %s is the name of a missing application
+#: ../librejilla-burn/rejilla-burn-options.c:1189
+#: ../librejilla-burn/rejilla-burn.c:1713 ../src/rejilla-project.c:1375
+#, c-format
+msgid "%s (application)"
+msgstr "%s (εφαρμογή)"
+
+#. Translators: %s is the name of a missing library
+#: ../librejilla-burn/rejilla-burn-options.c:1195
+#: ../librejilla-burn/rejilla-burn.c:1719 ../src/rejilla-project.c:1381
+#, c-format
+msgid "%s (library)"
+msgstr "%s (βιβλιοθήκη)"
+
+#. Translators: %s is the name of a missing GStreamer plugin
+#: ../librejilla-burn/rejilla-burn-options.c:1200
+#: ../librejilla-burn/rejilla-burn.c:1724 ../src/rejilla-project.c:1386
+#, c-format
+msgid "%s (GStreamer plugin)"
+msgstr "%s (Πρόσθετο GStreamer)"
+
+#: ../librejilla-burn/rejilla-burn-options.c:1231
+#: ../src/rejilla-project.c:1429
+msgid "Please install the following manually and try again:"
+msgstr "Παρακαλώ εγκαταστήστε χειροκίνητα τα ακόλουθα και προσπαθήστε ξανά:"
+
+#: ../librejilla-burn/rejilla-burn.c:162
+msgid "Burning CD/DVD"
+msgstr "Εγγραφή CD/DVD"
+
+#: ../librejilla-burn/rejilla-burn.c:409
+#, c-format
+msgid "\"%s\" cannot be unlocked"
+msgstr "Δεν είναι δυνατό το ξεκλείδωμα του \"%s\""
+
+#: ../librejilla-burn/rejilla-burn.c:546 ../librejilla-burn/rejilla-burn.c:678
+#: ../librejilla-burn/rejilla-burn.c:761
+msgid "No burner specified"
+msgstr "Δεν καθορίστηκε συσκευή εγγραφής"
+
+#: ../librejilla-burn/rejilla-burn.c:586
+msgid "No source drive specified"
+msgstr "Δεν καθορίστηκε πηγαία συσκευή"
+
+#: ../librejilla-burn/rejilla-burn.c:632
+msgid "Ongoing copying process"
+msgstr "Τρέχουσα διαδικασία αντιγραφής"
+
+#: ../librejilla-burn/rejilla-burn.c:636 ../librejilla-burn/rejilla-burn.c:735
+#: ../librejilla-burn/rejilla-burn.c:872 ../librejilla-burn/rejilla-burn.c:987
+#, c-format
+msgid "The drive cannot be locked (%s)"
+msgstr "Δεν είναι δυνατό το κλείδωμα του οδηγού (%s)"
+
+#: ../librejilla-burn/rejilla-burn.c:695
+msgid "The drive has no rewriting capabilities"
+msgstr "Ο οδηγός δεν έχει δυνατότητες επανεγγραφής"
+
+#: ../librejilla-burn/rejilla-burn.c:731
+msgid "Ongoing blanking process"
+msgstr "Τρέχουσα διαδικασία διαγραφής"
+
+#: ../librejilla-burn/rejilla-burn.c:770
+msgid "The drive cannot burn"
+msgstr "Δεν είναι δυνατή η εγγραφή από τον οδηγό"
+
+#: ../librejilla-burn/rejilla-burn.c:866
+#: ../librejilla-burn/rejilla-dest-selection.c:108
+msgid "Ongoing burning process"
+msgstr "Τρέχουσα διεργασία εγγραφής"
+
+#: ../librejilla-burn/rejilla-burn.c:983
+msgid "Ongoing checksumming operation"
+msgstr "Τρέχουσα διαδικασία ελέγχου αθροίσματος"
+
+#: ../librejilla-burn/rejilla-burn.c:1628
+#: ../librejilla-burn/rejilla-burn.c:1822
+msgid "Merging data is impossible with this disc"
+msgstr "Η συγχώνευση δεδομένων είναι αδύνατη με αυτό το δίσκο"
+
+#: ../librejilla-burn/rejilla-burn.c:1757
+msgid "There is no track to burn"
+msgstr "Δεν υπάρχει κανένα κομμάτι για εγγραφή"
+
+#: ../librejilla-burn/rejilla-burn.c:1864
+msgid ""
+"Please install the following required applications and libraries manually "
+"and try again:"
+msgstr ""
+"Παρακαλώ εγκαταστήστε τις ακόλουθες εφαρμογές και βιβλιοθήκες χειροκίνητα "
+"και προσπαθήστε ξανά:"
+
+#: ../librejilla-burn/rejilla-burn.c:2641
+msgid "No format for the temporary image could be found"
+msgstr "Αδύνατη η εύρεση μορφής για την προσωρινή εικόνα"
+
+#: ../librejilla-burn/rejilla-cover.c:119
+msgid "Unknown song"
+msgstr "Άγνωστο τραγούδι"
+
+#. Reminder: if this string happens to be used
+#. * somewhere else in rejilla we'll need a
+#. * context with C_() macro
+#. Translators: %s is the name of the artist.
+#. * This text is the one written on the cover of a disc.
+#. * Before it there is the name of the song.
+#. * I had to break it because it is in a GtkTextBuffer
+#. * and every word has a different tag.
+#. Translators: %s is the name of an artist.
+#. Translators: %s is the name of the artist
+#: ../librejilla-burn/rejilla-cover.c:146 ../src/rejilla-song-control.c:274
+#: ../src/rejilla-player.c:419
+#, c-format
+msgid "by %s"
+msgstr "από %s"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:605
+#: ../librejilla-burn/rejilla-image-type-chooser.c:133
+msgid "SVCD image"
+msgstr "Εικόνα SVCD"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:607
+#: ../librejilla-burn/rejilla-image-type-chooser.c:127
+msgid "VCD image"
+msgstr "Εικόνα VCD"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:611
+#: ../librejilla-burn/rejilla-image-type-chooser.c:106
+msgid "Video DVD image"
+msgstr "Εικόνα βίντεο DVD"
+
+#. NOTE for translators: the first %s is medium_name ("File
+#. * Image") and the second the path for the image file
+#: ../librejilla-burn/rejilla-dest-selection.c:623
+#, c-format
+msgid "%s: \"%s\""
+msgstr "%s: \"%s\""
+
+#. Translators: this string is only used when the user
+#. * wants to copy a disc using the same destination and
+#. * source drive. It tells him that rejilla will use as
+#. * destination disc a new one (once the source has been
+#. * copied) which is to be inserted in the drive currently
+#. * holding the source disc
+#: ../librejilla-burn/rejilla-dest-selection.c:655
+#, c-format
+msgid "New disc in the burner holding the source disc"
+msgstr "Ο νέος δίσκος στην συσκευή που έχει τον πηγαίο δίσκο"
+
+#. NOTE for translators, the first %s is the medium name
+#: ../librejilla-burn/rejilla-dest-selection.c:696
+#, c-format
+msgid "%s: not enough free space"
+msgstr "%s: ανεπαρκής ελεύθερος χώρος"
+
+#. NOTE for translators: the first %s is the medium name, the second %s
+#. * is its available free space. "Free" here is the free space available.
+#: ../librejilla-burn/rejilla-dest-selection.c:727
+#, c-format
+msgid "%s: %s of free space"
+msgstr "%s %s ελεύθερος χώρος"
+
+#. Translators: the first %s is the path of the directory where rejilla
+#. * will store its temporary files; the second one is the size available
+#: ../librejilla-burn/rejilla-drive-properties.c:192
+#, c-format
+msgid "%s: %s free"
+msgstr "%s: %s ελεύθερα"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:236
+#: ../librejilla-burn/rejilla-drive-properties.c:275
+#: ../librejilla-burn/rejilla-drive-properties.c:327
+msgid "Do you really want to choose this location?"
+msgstr "Θέλετε πραγματικά να επιλέξετε αυτή την τοποθεσία;"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:280
+#: ../librejilla-burn/rejilla-session.c:1290
+#: ../librejilla-burn/rejilla-session.c:1365 ../librejilla-burn/burn-job.c:490
+#: ../plugins/cdrkit/burn-genisoimage.c:201
+#: ../plugins/cdrtools/burn-mkisofs.c:202
+#: ../plugins/libburnia/burn-libisofs.c:239
+#, c-format
+msgid "You do not have the required permission to write at this location"
+msgstr ""
+"Δεν έχετε τα απαιτούμενα δικαιώματα για να γράψετε σ' αυτή την τοποθεσία"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:333
+msgid ""
+"The filesystem on this volume does not support large files (size over 2 "
+"GiB).\n"
+"This can be a problem when writing DVDs or large images."
+msgstr ""
+"Το σύστημα αρχείων σε αυτόν τον τόμο δεν υποστηρίζει μεγάλα αρχεία "
+"(μεγαλύτερο μέγεθος από 2 GiB).\n"
+"Αυτό μπορεί να είναι πρόβλημα κατά την εγγραφή DVD ή μεγάλων εικόνων."
+
+#. Translators %s.1f is the speed used to burn
+#: ../librejilla-burn/rejilla-drive-properties.c:531
+#, c-format
+msgid "%.1f× (DVD)"
+msgstr "%.1f× (DVD)"
+
+#. Translators %s.1f is the speed used to burn
+#: ../librejilla-burn/rejilla-drive-properties.c:535
+#, c-format
+msgid "%.1f× (CD)"
+msgstr "%.1f× (CD)"
+
+#. Translators %s.1f is the speed used to burn. BD = Blu Ray
+#: ../librejilla-burn/rejilla-drive-properties.c:539
+#, c-format
+msgid "%.1f× (BD)"
+msgstr "%.1f× (BD)"
+
+#. Translators %s.1f is the speed used to burn for every medium
+#. * type. BD = Blu Ray
+#: ../librejilla-burn/rejilla-drive-properties.c:544
+#, c-format
+msgid "%.1f× (BD) %.1f× (DVD) %.1f× (CD)"
+msgstr "%.1f× (BD) %.1f× (DVD) %.1f× (CD)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:582
+msgid "Impossible to retrieve speeds"
+msgstr "Αδύνατη η ανάκτηση ταχυτήτων"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:591
+msgid "Maximum speed"
+msgstr "Μέγιστη ταχύτητα"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:717
+msgid "Burning speed"
+msgstr "Ταχύτητα εγγραφής"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:730
+msgid "_Simulate before burning"
+msgstr "_Προσομοίωση πριν την εγγραφή"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:731
+msgid ""
+"Rejilla will simulate the burning and, if it is successful, go on with "
+"actual burning after 10 seconds"
+msgstr ""
+"Το Rejilla θα προσομοιώσει την εγγραφή και αν αυτή είναι επιτυχής, θα γίνει "
+"η πραγματική εγγραφή μετά από 10 δευτερόλεπτα"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:733
+msgid "Use burn_proof (decrease the risk of failures)"
+msgstr "Χρήση burn_proof (μείωση του κινδύνου αποτυχίας)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:735
+msgid "Burn the image directly _without saving it to disc"
+msgstr "Απευθείας εγγραφή της εικόνας _χωρίς αποθήκευσή της στο δίσκο"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:737
+msgid "Leave the disc _open to add other files later"
+msgstr "Να μείνει ο δίσκος α_νοικτός για πρόσθεση άλλων αρχείων αργότερα"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:738
+msgid "Allow to add more data to the disc later"
+msgstr "Να επιτρέπεται η προσθήκη δεδομένων στο δίσκο αργότερα"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:758
+#: ../src/rejilla-song-properties.c:227
+#: ../librejilla-burn/rejilla-tool-dialog.c:284
+#: ../src/rejilla-multi-song-props.c:309
+msgid "Options"
+msgstr "Επιλογές"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:770
+msgid "Location for _Temporary Files"
+msgstr "Τοποθεσία για π_ροσωρινά αρχεία"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:790
+msgid "Set the directory where to store temporary files"
+msgstr "Καθορίστε τον κατάλογο που θα αποθηκεύονται τα προσωρινά αρχεία"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:795
+msgid "Temporary files"
+msgstr "Προσωρινά αρχεία"
+
+#: ../librejilla-burn/rejilla-image-properties.c:221
+msgid "Disc image type:"
+msgstr "Τύπος εικόνας δίσκου:"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:97
+msgid "Autodetect"
+msgstr "Αυτόματος εντοπισμός"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:106
+msgid "ISO9660 image"
+msgstr "Εικόνα ISO9660"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:115
+msgid "Readcd/Readom image"
+msgstr "Εικόνα Readcd/Readom"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:141
+msgid "Cue image"
+msgstr "Εικόνα Cue"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:151
+msgid "Cdrdao image"
+msgstr "Εικόνα Cdrdao"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:93
+#: ../src/rejilla-project.c:1493
+#, c-format
+msgid "Properties of %s"
+msgstr "Ιδιότητες του %s"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:137
+msgid ""
+"Do you really want to keep the current extension for the disc image name?"
+msgstr ""
+"Θέλετε πραγματικά να διατηρήσετε την τρέχουσα επέκταση για το όνομα της "
+"εικόνας του δίσκου;"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:143
+msgid ""
+"If you choose to keep it, programs may not be able to recognize the file "
+"type properly."
+msgstr ""
+"Αν επιλέξετε να τη διατηρήσετε τα προγράμματα ίσως δεν αναγνωρίζουν κανονικά "
+"τον τύπο αρχείου."
+
+#: ../librejilla-burn/rejilla-medium-properties.c:146
+msgid "_Keep Current Extension"
+msgstr "_Διατήρηση τρέχουσας επέκτασης"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:149
+msgid "Change _Extension"
+msgstr "Α_λλαγή επέκτασης"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:241
+msgid "Configure recording options"
+msgstr "Ρύθμιση των επιλογών εγγραφής"
+
+#. Translators: first %02i is hours, the second one is minutes and the
+#. * third one is seconds.
+#: ../librejilla-burn/rejilla-progress.c:198
+#, c-format
+msgid "Total time: %02i:%02i:%02i"
+msgstr "Συνολικός χρόνος: %02i:%02i:%02i"
+
+#: ../librejilla-burn/rejilla-progress.c:209
+msgid "Average drive speed:"
+msgstr "Μέση ταχύτητα συσκευής δίσκου:"
+
+#. Translators: first %02i is hours, the second one is minutes
+#. * and the third one is seconds.
+#: ../librejilla-burn/rejilla-progress.c:436
+#, c-format
+msgid "Estimated remaining time: %02i:%02i:%02i"
+msgstr "Εκτιμώμενος χρόνος που απομένει: %02i:%02i:%02i"
+
+#: ../librejilla-burn/rejilla-progress.c:478
+#, c-format
+msgid "%i MiB of %i MiB"
+msgstr "%i MiB από %i MiB"
+
+#: ../librejilla-burn/rejilla-progress.c:504
+msgid "Estimated drive speed:"
+msgstr "Εκτιμώμενη ταχύτητα συσκευής δίσκου:"
+
+#. Translators: %s is a path
+#: ../librejilla-burn/rejilla-src-image.c:229
+#, c-format
+msgid "\"%s\": loading"
+msgstr "\"%s\": φορτώνεται"
+
+#. Translators: %s is a path and image refers to a disc image
+#: ../librejilla-burn/rejilla-src-image.c:236
+#, c-format
+msgid "\"%s\": unknown disc image type"
+msgstr "\"%s\": άγνωστος τύπος εικόνας δίσκου"
+
+#. NOTE to translators, the first %s is the path of the image
+#. * file and the second its size.
+#: ../librejilla-burn/rejilla-src-image.c:258
+#, c-format
+msgid "\"%s\": %s"
+msgstr "\"%s\": %s"
+
+#. This is hackish and meant to avoid ellipsization to make the
+#. * label too small.
+#. Translators: this is a disc image
+#: ../librejilla-burn/rejilla-src-image.c:271
+#: ../librejilla-burn/rejilla-src-image.c:554
+msgid "Click here to select a disc _image"
+msgstr "Κάντε κλικ εδώ για να επιλέξετε μια ει_κόνα δίσκου"
+
+#: ../librejilla-burn/rejilla-src-image.c:415
+msgid "Select Disc Image"
+msgstr "Επιλογή εικόνας δίσκου"
+
+#. Translators: this a disc image here
+#: ../librejilla-burn/rejilla-src-image.c:450
+msgctxt "disc"
+msgid "Image files"
+msgstr "Αρχεία εικόνας"
+
+#: ../librejilla-burn/rejilla-src-image.c:467
+msgid "Image type:"
+msgstr "Τύπος εικόνας:"
+
+#: ../librejilla-burn/rejilla-tray.c:83 ../src/rejilla-audio-disc.c:155
+#: ../src/rejilla-data-disc.c:122 ../src/rejilla-video-disc.c:100
+msgid "Menu"
+msgstr "Μενού"
+
+#: ../librejilla-burn/rejilla-tray.c:84
+msgid "Cancel ongoing burning"
+msgstr "Ακύρωση τρέχουσας εγγραφής δίσκου"
+
+#: ../librejilla-burn/rejilla-tray.c:89
+msgid "Show _Dialog"
+msgstr "Εμφάνιση _διαλόγου"
+
+#: ../librejilla-burn/rejilla-tray.c:89
+msgid "Show dialog"
+msgstr "Εμφάνιση διαλόγου"
+
+#. Translators: the first %s is a string containing a description of the ongoing action
+#. *	        the first %d is a number (a percentage) representing how much of the above task has been completed so far
+#. *	        the second %s is a string containing the remaining time before completion.
+#.
+#: ../librejilla-burn/rejilla-tray.c:263
+#, c-format
+msgid "%s, %d%% done, %s remaining"
+msgstr "%s, %d%% εγγράφηκαν, %s απομένουν"
+
+#. Translators: the first %s is a string containing a description of the ongoing action
+#. *	        the first %d is a number (a percentage) representing how much of the above task has been completed so far
+#.
+#: ../librejilla-burn/rejilla-tray.c:273
+#, c-format
+msgid "%s, %d%% done"
+msgstr "%s, %d%% εγγράφηκαν"
+
+#: ../librejilla-burn/burn-basics.c:77
+msgid "Getting size"
+msgstr "Ανάκτηση μεγέθους"
+
+#: ../librejilla-burn/burn-basics.c:79
+msgid "Writing"
+msgstr "Εγγραφή"
+
+#: ../librejilla-burn/burn-basics.c:80
+msgid "Blanking"
+msgstr "Διαγραφή"
+
+#: ../librejilla-burn/burn-basics.c:81
+msgid "Creating checksum"
+msgstr "Δημιουργία ελέγχου αθροίσματος"
+
+#: ../librejilla-burn/burn-basics.c:83
+msgid "Copying file"
+msgstr "Αντιγραφή αρχείου"
+
+#: ../librejilla-burn/burn-basics.c:84
+msgid "Analysing audio files"
+msgstr "Ανάλυση αρχείων ήχου"
+
+#: ../librejilla-burn/burn-basics.c:85
+msgid "Transcoding song"
+msgstr "Κωδικοποίηση τραγουδιού"
+
+#: ../librejilla-burn/burn-basics.c:86
+msgid "Preparing to write"
+msgstr "Προετοιμασία για εγγραφή"
+
+#: ../librejilla-burn/burn-basics.c:87
+msgid "Writing leadin"
+msgstr "Εγγραφή leadin"
+
+#: ../librejilla-burn/burn-basics.c:88
+msgid "Writing CD-Text information"
+msgstr "Πληροφορίες εγγραφής CD-TEXT"
+
+#: ../librejilla-burn/burn-basics.c:89
+msgid "Finalizing"
+msgstr "Τερματισμός"
+
+#: ../librejilla-burn/burn-basics.c:90
+msgid "Writing leadout"
+msgstr "Εγγραφή leadout"
+
+#: ../librejilla-burn/burn-basics.c:91
+msgid "Starting to record"
+msgstr "Έναρξη εγγραφής"
+
+#: ../librejilla-burn/burn-basics.c:92
+msgid "Success"
+msgstr "Επιτυχία"
+
+#: ../librejilla-burn/burn-basics.c:93
+msgid "Ejecting medium"
+msgstr "Γίνεται αποβολή μέσου"
+
+#. Translators: %s is the plugin name
+#: ../librejilla-burn/burn-job.c:322 ../librejilla-burn/burn-job.c:797
+#: ../librejilla-burn/burn-job.c:810 ../librejilla-burn/burn-job.c:1029
+#: ../librejilla-burn/burn-job.c:1119
+#, c-format
+msgid "\"%s\" did not behave properly"
+msgstr "Το \"%s\" δε λειτούργησε σωστά"
+
+#. Translators: the first %s is the size of the free space on the medium
+#. * and the second %s is the size of the space required by the data to be
+#. * burnt.
+#: ../librejilla-burn/burn-job.c:430
+#, c-format
+msgid "Not enough space available on the disc (%s available for %s)"
+msgstr "Ανεπαρκής διαθέσιμος χώρος στο δίσκο (%s διαθέσιμος για %s)"
+
+#: ../librejilla-burn/burn-job.c:522
+#, c-format
+msgid ""
+"The filesystem you chose to store the temporary image on cannot hold files "
+"with a size over 2 GiB"
+msgstr ""
+"Το επιλεγόμενο σύστημα αρχείων για την αποθήκευση της προσωρινής εικόνας δεν "
+"μπορεί να αποθηκεύσει αρχεία με μέγεθος μεγαλύτερο από 2 GiB"
+
+#: ../librejilla-burn/burn-job.c:537 ../librejilla-burn/burn-job.c:559
+#, c-format
+msgid ""
+"The location you chose to store the temporary image on does not have enough "
+"free space for the disc image (%ld MiB needed)"
+msgstr ""
+"Η επιλεγμένη τοποθεσία δεν έχει αρκετό ελεύθερο χώρο για να αποθηκεύσετε την "
+"εικόνα δίσκου (χρειάζονται %ld MiB)"
+
+#: ../librejilla-burn/burn-job.c:572 ../plugins/dvdcss/burn-dvdcss.c:349
+#, c-format
+msgid "The size of the volume could not be retrieved"
+msgstr "Δεν ήταν δυνατή η ανάκτηση του μεγέθους του τόμου"
+
+#: ../librejilla-burn/burn-job.c:627
+#, c-format
+msgid "No path was specified for the image output"
+msgstr "Δεν ορίστηκε διαδρομή για την έξοδο της εικόνας"
+
+#. Translators: %s is the error returned by libburn
+#. Translators: the %s is the error message from errno
+#: ../librejilla-burn/burn-job.c:768 ../plugins/cdrtools/burn-cdrecord.c:710
+#: ../plugins/libburnia/burn-libburn.c:716
+#: ../plugins/transcode/burn-transcode.c:826
+#, c-format
+msgid "An internal error occurred (%s)"
+msgstr "Συνέβη ένα εσωτερικό σφάλμα (%s)"
+
+#: ../librejilla-burn/burn-mkisofs-base.c:153
+#: ../librejilla-burn/burn-mkisofs-base.c:494
+#: ../plugins/growisofs/burn-growisofs.c:527
+#: ../plugins/libburnia/burn-libisofs.c:690
+#: ../plugins/checksum/burn-checksum-image.c:287
+#, c-format
+msgid "The file is not stored locally"
+msgstr "Το αρχείο δεν είναι αποθηκευμένο τοπικά"
+
+#: ../librejilla-burn/burn-mkisofs-base.c:646
+#, c-format
+msgid "VIDEO_TS directory is missing or invalid"
+msgstr "Λείπει ή μη έγκυρος κατάλογος VIDEO_TS "
+
+#. Translators: %s is the name of the rejilla element
+#: ../librejilla-burn/burn-process.c:259
+#, c-format
+msgid "Process \"%s\" ended with an error code (%i)"
+msgstr "Η διεργασία \"%s\" τερματίστηκε με σφάλμα κώδικα (%i)"
+
+#: ../librejilla-utils/rejilla-disc-message.c:133
+msgid "_Hide changes"
+msgstr "Α_πόκρυψη αλλαγών"
+
+#: ../librejilla-utils/rejilla-disc-message.c:135
+#: ../librejilla-utils/rejilla-disc-message.c:154
+msgid "_Show changes"
+msgstr "Ε_μφάνιση αλλαγών"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:173
+msgid "Images"
+msgstr "Εικόνες"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:197
+msgid "_Color"
+msgstr "_Χρώμα"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:226
+msgid "Solid color"
+msgstr "Συμπαγές χρώμα"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:227
+msgid "Horizontal gradient"
+msgstr "Οριζόντια διαβάθμιση"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:228
+msgid "Vertical gradient"
+msgstr "Κατακόρυφη διαβάθμιση"
+
+#. second part
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:245
+msgid "_Image"
+msgstr "_Εικόνα"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:270
+msgid "Image path:"
+msgstr "Διαδρομή εικόνας:"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:282
+msgid "Choose an image"
+msgstr "Επιλογή εικόνας"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:293
+msgid "Image style:"
+msgstr "Στυλ εικόνας:"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:307
+msgid "Centered"
+msgstr "Κεντραρισμένη"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:308
+msgid "Tiled"
+msgstr "Σε παράθεση"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:309
+msgid "Scaled"
+msgstr "Σε κλίμακα"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:346
+msgid "Background Properties"
+msgstr "Ιδιότητες φόντου"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:588
+msgid "Print"
+msgstr "Εκτύπωση"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:600
+msgid "Bac_kground Properties"
+msgstr "Ιδιότητες παρασ_κηνίου"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:603
+msgid "Background properties"
+msgstr "Ιδιότητες φόντου"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:618
+msgid "Align right"
+msgstr "Στοίχιση δεξιά"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:628
+msgid "Center"
+msgstr "Κεντραρισμένη"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:638
+msgid "Align left"
+msgstr "Στοίχιση αριστερά"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:652
+msgid "Underline"
+msgstr "Υπογράμμιση"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:662
+msgid "Italic"
+msgstr "Πλάγια"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:672
+msgid "Bold"
+msgstr "έντονα"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:698
+msgid "Font family and size"
+msgstr "Γραμματοσειρά και μέγεθος"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:705
+msgid "_Text Color"
+msgstr "_Χρώμα κειμένου"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:706
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:837
+msgid "Cover Editor"
+msgstr "Επεξεργαστής εξωφύλλου"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:735
+msgid "Set Bac_kground Properties"
+msgstr "_Καθορισμός ιδιοτήτων παρασκηνίου"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:776
+msgid "SIDES"
+msgstr "ΠΛΕΥΡΕΣ"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:792
+msgid "BACK COVER"
+msgstr "ΠΙΣΩ ΕΞΩΦΥΛΛΟ"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:809
+msgid "FRONT COVER"
+msgstr "ΜΠΡΟΣΤΙΝΟ ΕΞΩΦΥΛΛΟ"
+
+#. Translators: This is an image,
+#. * a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-view.c:1074
+msgid "The image could not be loaded."
+msgstr "Η εικόνα δεν ήταν δυνατό να φορτωθεί."
+
+#: ../librejilla-utils/rejilla-tool-color-picker.c:169
+msgid "Pick a Color"
+msgstr "Επιλέξτε ένα χρώμα"
+
+#: ../librejilla-burn/rejilla-xfer.c:130 ../librejilla-burn/rejilla-xfer.c:266
+#, c-format
+msgid "Directory could not be created (%s)"
+msgstr "Δεν ήταν δυνατή η δημιουργία καταλόγου (%s)"
+
+#: ../src/rejilla-project-parse.c:62
+msgid "Error while loading the project."
+msgstr "Σφάλμα κατά τη φόρτωση της εργασίας."
+
+#: ../src/rejilla-project-parse.c:454
+msgid "The project could not be opened"
+msgstr "Δεν ήταν δυνατό το άνοιγμα της εργασίας"
+
+#: ../src/rejilla-project-parse.c:463
+msgid "The file is empty"
+msgstr "Το αρχείο είναι κενό"
+
+#: ../src/rejilla-project-parse.c:542 ../src/rejilla-project-parse.c:607
+msgid "It does not seem to be a valid Rejilla project"
+msgstr "Δεν φαίνεται να είναι έγκυρη εργασία του Rejilla"
+
+#: ../librejilla-media/rejilla-drive-selection.c:346
+#: ../librejilla-media/rejilla-drive-selection.c:441
+msgid "Unnamed CD/DVD Drive"
+msgstr "Ανώνυμος οδηγός CD/DVD"
+
+#: ../librejilla-media/rejilla-media.c:54
+msgid "Display debug statements on stdout for Rejilla media library"
+msgstr ""
+"Προβολή των αναφορών σφαλμάτων στο stdout για τη βιβλιοθήκη μέσων του Rejilla"
+
+#: ../librejilla-media/rejilla-media.c:477
+msgid "Rejilla optical media library"
+msgstr "Βιβλιοθήκη οπτικών μέσων του Rejilla"
+
+#: ../librejilla-media/rejilla-media.c:478
+msgid "Display options for Rejilla media library"
+msgstr "Εμφάνιση επιλογών για τη βιβλιοθήκη μέσων του Rejilla"
+
+#. Translators: this is hour minute second like '2 h 14 min 25'
+#: ../librejilla-media/rejilla-units.c:71
+#, c-format
+msgid "%s h %s min %s"
+msgstr "%s ώρ. %s λεπ. %s"
+
+#. Translators: this is hour minute like '2 h 14'
+#: ../librejilla-media/rejilla-units.c:77
+#, c-format
+msgid "%s h %s"
+msgstr "%s ώρ. %s"
+
+#. Translators: this is hour like '2 h'
+#: ../librejilla-media/rejilla-units.c:82
+#, c-format
+msgid "%s h"
+msgstr "%s ώρ"
+
+#. Translators: this is 'hour:minute:second' like '2:14:25'
+#: ../librejilla-media/rejilla-units.c:86
+#, c-format
+msgid "%s:%s:%s"
+msgstr "%s:%s:%s"
+
+#. Translators: this is 'hour:minute' or 'minute:second'
+#: ../librejilla-media/rejilla-units.c:92
+#: ../librejilla-media/rejilla-units.c:107
+#, c-format
+msgid "%s:%s"
+msgstr "%s:%s"
+
+#. Translators: %s is a duration expressed in minutes
+#: ../librejilla-media/rejilla-units.c:99
+#, c-format
+msgid "%s min"
+msgstr "%s λεπ."
+
+#. Translators: the first %s is the number of minutes
+#. * and the second one is the number of seconds.
+#. * The whole string expresses a duration
+#: ../librejilla-media/rejilla-units.c:104
+#, c-format
+msgid "%s:%s min"
+msgstr "%s:%s λεπ."
+
+#. NOTE for translators, the first %s is the medium name
+#: ../librejilla-media/rejilla-medium-selection.c:155
+#, c-format
+msgid "%s: empty"
+msgstr "%s: κενό"
+
+#. NOTE for translators: the first %s is the medium name, the
+#. * second %s is the space (kio, gio) used by data on the disc.
+#.
+#. NOTE for translators: the first %s is the medium name, the
+#. * second %s is the space (time) used by data on the disc.
+#. * I really don't know if I should set this string as
+#. * translatable.
+#: ../librejilla-media/rejilla-medium-selection.c:171
+#: ../librejilla-media/rejilla-medium-selection.c:183
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../librejilla-media/rejilla-medium-selection.c:462
+msgid "Searching for available discs"
+msgstr "Αναζήτηση για διαθέσιμους δίσκους"
+
+#: ../librejilla-media/rejilla-medium-selection.c:471
+msgid "No disc available"
+msgstr "Δεν υπάρχει διαθέσιμος δίσκος"
+
+#. Translators: This is a fake drive, a file, and means that
+#. * when we're writing, we're writing to a file and create an
+#. * image on the hard drive.
+#: ../librejilla-media/rejilla-drive.c:607
+#: ../librejilla-media/rejilla-medium.c:209
+#: ../librejilla-media/rejilla-volume.c:391
+msgid "Image File"
+msgstr "Αρχείο εικόνας"
+
+#: ../librejilla-media/burn-iso9660.c:158
+#: ../librejilla-media/burn-iso9660.c:167
+#: ../librejilla-media/burn-iso9660.c:402
+#: ../librejilla-media/burn-iso9660.c:439
+#: ../librejilla-media/burn-iso9660.c:488
+#: ../librejilla-media/burn-volume.c:128
+#, c-format
+msgid "It does not appear to be a valid ISO image"
+msgstr "Δε φαίνεται να είναι έγκυρη εικόνα ISO"
+
+#: ../librejilla-media/rejilla-medium.c:65
+msgid "File"
+msgstr "Αρχείο"
+
+#: ../librejilla-media/rejilla-medium.c:66
+msgid "CD-ROM"
+msgstr "CDROM"
+
+#: ../librejilla-media/rejilla-medium.c:67
+msgid "CD-R"
+msgstr "CD-R"
+
+#: ../librejilla-media/rejilla-medium.c:68
+msgid "CD-RW"
+msgstr "CD-RW"
+
+#: ../librejilla-media/rejilla-medium.c:69
+msgid "DVD-ROM"
+msgstr "DVD-ROM"
+
+#: ../librejilla-media/rejilla-medium.c:70
+msgid "DVD-R"
+msgstr "DVD-R"
+
+#: ../librejilla-media/rejilla-medium.c:71
+msgid "DVD-RW"
+msgstr "DVD-RW"
+
+#: ../librejilla-media/rejilla-medium.c:72
+msgid "DVD+R"
+msgstr "DVD+R"
+
+#: ../librejilla-media/rejilla-medium.c:73
+msgid "DVD+RW"
+msgstr "DVD+RW"
+
+#: ../librejilla-media/rejilla-medium.c:74
+msgid "DVD+R dual layer"
+msgstr "DVD+R διπλής στρώσης"
+
+#: ../librejilla-media/rejilla-medium.c:75
+msgid "DVD+RW dual layer"
+msgstr "DVD+RW διπλής στρώσης"
+
+#: ../librejilla-media/rejilla-medium.c:76
+msgid "DVD-R dual layer"
+msgstr "DVD-R διπλής στρώσης"
+
+#: ../librejilla-media/rejilla-medium.c:77
+msgid "DVD-RAM"
+msgstr "DVD-RAM"
+
+#: ../librejilla-media/rejilla-medium.c:78
+msgid "Blu-ray disc"
+msgstr "Blu-ray δίσκος"
+
+#: ../librejilla-media/rejilla-medium.c:79
+msgid "Writable Blu-ray disc"
+msgstr "Εγγράψιμος δίσκος blu-ray"
+
+#: ../librejilla-media/rejilla-medium.c:80
+msgid "Rewritable Blu-ray disc"
+msgstr "Επανεγγράψιμος δίσκος blu-ray"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:219
+#, c-format
+msgid "Blank %s in %s"
+msgstr "Κενό %s στο %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:226
+#, c-format
+msgid "Audio and data %s in %s"
+msgstr "Ήχος και δεδομένα %s στο %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:233
+#, c-format
+msgid "Audio %s in %s"
+msgstr "Ήχος %s στο %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:240
+#, c-format
+msgid "Data %s in %s"
+msgstr "Δεδομένα %s στο %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:247
+#, c-format
+msgid "%s in %s"
+msgstr "%s στο %s"
+
+#: ../librejilla-media/rejilla-volume.c:192
+#, c-format
+msgid "The disc mount point could not be retrieved"
+msgstr "Δεν ήταν δυνατή η ανάκτηση του σημείου προσάρτησης του δίσκου."
+
+#. NOTE for translators: the first %s is the disc type and Blank is an adjective.
+#: ../librejilla-media/rejilla-volume.c:418
+#, c-format
+msgid "Blank disc (%s)"
+msgstr "Κενός δίσκος (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#: ../librejilla-media/rejilla-volume.c:422
+#, c-format
+msgid "Audio and data disc (%s)"
+msgstr "Δίσκος ήχου και δεδομένων (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_ .
+#. * The %s is the date
+#: ../librejilla-media/rejilla-volume.c:426 ../src/rejilla-project-name.c:325
+#, c-format
+msgid "Audio disc (%s)"
+msgstr "Δίσκος ήχου (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_ otherwise it gets truncated.
+#. * The %s is the date
+#: ../librejilla-media/rejilla-volume.c:430 ../src/rejilla-project-name.c:258
+#, c-format
+msgid "Data disc (%s)"
+msgstr "Δίσκος δεδομένων (%s)"
+
+#: ../librejilla-media/scsi-error.c:43 ../src/rejilla-project-name.c:84
+msgid "Unknown error"
+msgstr "Άγνωστο σφάλμα"
+
+#: ../librejilla-media/scsi-error.c:44
+msgid "Size mismatch"
+msgstr "Δεν ταιρίαζει το μέγεθος"
+
+#: ../librejilla-media/scsi-error.c:45
+msgid "Type mismatch"
+msgstr "Δεν ταιριάζει ο τύπος"
+
+#: ../librejilla-media/scsi-error.c:46
+msgid "Bad argument"
+msgstr "Λάθος όρισμα"
+
+#: ../librejilla-media/scsi-error.c:48
+msgid "Outrange address"
+msgstr "Διεύθυνση εκτός εύρους"
+
+#: ../librejilla-media/scsi-error.c:49
+msgid "Invalid address"
+msgstr "Άκυρη διεύθυνση"
+
+#: ../librejilla-media/scsi-error.c:50
+msgid "Invalid command"
+msgstr "Άκυρη εντολή"
+
+#: ../librejilla-media/scsi-error.c:51
+msgid "Invalid parameter in command"
+msgstr "Άκυρη παράμετρος στην εντολή"
+
+#: ../librejilla-media/scsi-error.c:52
+msgid "Invalid field in command"
+msgstr "Άκυρο πεδίο στην εντολή"
+
+#: ../librejilla-media/scsi-error.c:53
+msgid "The device timed out"
+msgstr "Έληξε ο χρόνος για τη συσκευή"
+
+#: ../librejilla-media/scsi-error.c:54
+msgid "Key not established"
+msgstr "Το κλειδί δεν επιτεύχθηκε"
+
+#: ../librejilla-media/scsi-error.c:55
+msgid "Invalid track mode"
+msgstr "Άκυρη κατάσταση κομματιών"
+
+#: ../src/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Το αρχείο δεν είναι έγκυρο αρχείο .desktop"
+
+#: ../src/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Μη αναγνωρίσιμη έκδοση αρχείου desktop '%s'"
+
+#: ../src/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "Έναρξη %s"
+
+#: ../src/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Η εφαρμογή δε δέχεται έγγραφα σε γραμμή εντολής"
+
+#: ../src/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Μη αναγνωρίσιμη επιλογή εκκίνησης: %d"
+
+#: ../src/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+"Δε μπορούν να περαστούν τα URI των εγγράφων σε μία 'Type=Link' εγγραφή "
+"επιφάνειας εργασίας"
+
+#: ../src/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "Μη εκκινήσιμο αντικείμενο"
+
+#: ../src/eggsmclient.c:224
+msgid "Disable connection to session manager"
+msgstr "Απενεργοποίηση σύνδεσης με το διαχειριστή συνεδρίας"
+
+#: ../src/eggsmclient.c:227
+msgid "Specify file containing saved configuration"
+msgstr "Καθορισμός αρχείου που περιέχει αποθηκευμένες ρυθμίσεις"
+
+#: ../src/eggsmclient.c:227
+msgid "FILE"
+msgstr "ΑΡΧΕΙΟ"
+
+#: ../src/eggsmclient.c:230
+msgid "Specify session management ID"
+msgstr "Καθορισμός ID διαχείρισης συνεδρίας"
+
+#: ../src/eggsmclient.c:230
+msgid "ID"
+msgstr "ID"
+
+#: ../src/eggsmclient.c:244
+msgid "Session management options:"
+msgstr "Επιλογές διαχείρισης συνεδρίας:"
+
+#: ../src/eggsmclient.c:245
+msgid "Show session management options"
+msgstr "Εμφάνιση επιλογών διαχείρισης συνεδρίας"
+
+#: ../src/rejilla-pref.c:65
+msgid "Rejilla Plugins"
+msgstr "Πρόσθετα Rejilla"
+
+#: ../plugins/local-track/burn-uri.c:207 ../plugins/local-track/burn-uri.c:297
+#: ../plugins/local-track/burn-uri.c:472
+#, c-format
+msgid "Impossible to retrieve local file path"
+msgstr "Αδύνατη η ανάκτηση του μονοπατιού τοπικού αρχείου"
+
+#: ../plugins/local-track/burn-uri.c:326
+#: ../plugins/local-track/burn-local-image.c:527
+msgid "Copying files locally"
+msgstr "Αντιγραφή αρχείων τοπικά"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/local-track/burn-uri.c:747 ../caja/caja-burn-bar.c:136
+msgid "CD/DVD Creator Folder"
+msgstr "Κατάλογος Δημιουργού CD/DVD"
+
+#: ../plugins/local-track/burn-uri.c:748
+msgid ""
+"Allows files added to the \"CD/DVD Creator Folder\" in Caja to be burned"
+msgstr ""
+"Επιτρέπει την εγγραφή αρχείων που προστέθηκαν στον \"Κατάλογο Δημιουργού CD/"
+"DVD\" στον Ναυτίλο"
+
+#: ../caja/rejilla-caja.desktop.in.in.h:1
+#: ../caja/caja-burn-extension.c:310
+msgid "CD/DVD Creator"
+msgstr "Δημιουργία CD/DVD"
+
+#: ../caja/rejilla-caja.desktop.in.in.h:2
+msgid "Create CDs and DVDs"
+msgstr "Δημιουργία CD και DVD"
+
+#. Translators: be careful, anything longer than the English will likely
+#. * not fit on small Caja windows
+#: ../caja/caja-burn-bar.c:145
+msgid "Drag or copy files below to write them to disc"
+msgstr "Σύρετε ή αντιγράψτε αρχεία παρακάτω για να τα γράψετε στο δίσκο"
+
+#: ../caja/caja-burn-bar.c:153
+#: ../caja/caja-burn-extension.c:363
+msgid "Write to Disc"
+msgstr "Εγγραφή στο δίσκο"
+
+#: ../caja/caja-burn-bar.c:165
+#: ../caja/caja-burn-extension.c:743
+msgid "Write contents to a CD or DVD"
+msgstr "Εγγραφή των περιεχομένων σε ένα δίσκο CD ή DVD"
+
+#: ../caja/caja-burn-extension.c:301
+msgid "Disc name"
+msgstr "Όνομα δίσκου"
+
+#: ../caja/caja-burn-extension.c:390
+msgid "Copy Disc"
+msgstr "Αντιγραφή δίσκου"
+
+#: ../caja/caja-burn-extension.c:591
+#: ../caja/caja-burn-extension.c:742
+msgid "_Write to Disc…"
+msgstr "Εγγρα_φή στο δίσκο…"
+
+#: ../caja/caja-burn-extension.c:592
+msgid "Write disc image to a CD or DVD"
+msgstr "Εγγραφή εικόνας δίσκου σε ένα CD ή DVD"
+
+#: ../caja/caja-burn-extension.c:665
+msgid "_Copy Disc…"
+msgstr "Αντιγραφή δί_σκου…"
+
+#: ../caja/caja-burn-extension.c:666
+msgid "Create a copy of this CD or DVD"
+msgstr "Δημιουργήστε ένα αντίγραφο του CD/DVD"
+
+#: ../caja/caja-burn-extension.c:679
+msgid "_Blank Disc…"
+msgstr "Ά_δειασμα δίσκου…"
+
+#: ../caja/caja-burn-extension.c:680
+msgid "Blank this CD or DVD"
+msgstr "Άδειασμα αυτού του δίσκου CD ή DVD"
+
+#: ../caja/caja-burn-extension.c:696
+msgid "_Check Disc…"
+msgstr "Έλε_γχος ακεραιότητας…"
+
+#: ../caja/caja-burn-extension.c:697
+msgid "Check the data integrity on this CD or DVD"
+msgstr "Έλεγχος ακεραιότητας δεδομένων σε αυτόν το δίσκο CD ή DVD"
+
+#. Translators: this is a picture not
+#. * a disc image
+#: ../src/rejilla-project-name.c:83
+msgctxt "picture"
+msgid "Please select another image."
+msgstr "Παρακαλώ επιλέξτε μια άλλη εικόνα."
+
+#: ../src/rejilla-project-name.c:157
+msgid "Medium Icon"
+msgstr "Εικονίδιο μέσου"
+
+#. Translators: this is an image, a picture, not a "Disc Image"
+#: ../src/rejilla-project-name.c:171 ../src/rejilla-file-chooser.c:375
+#: ../src/rejilla-project.c:2239
+msgctxt "picture"
+msgid "Image files"
+msgstr "Αρχεία εικόνας"
+
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_.
+#. * The %s is the date
+#: ../src/rejilla-project-name.c:272
+#, c-format
+msgid "Video disc (%s)"
+msgstr "Δίσκος βίντεο (%s)"
+
+#: ../src/rejilla-app.c:123
+msgid "_Project"
+msgstr "Ε_ργασία"
+
+#: ../src/rejilla-app.c:124
+msgid "_View"
+msgstr "_Προβολή"
+
+#: ../src/rejilla-app.c:125
+msgid "_Edit"
+msgstr "Επε_ξεργασία"
+
+#: ../src/rejilla-app.c:126
+msgid "_Tools"
+msgstr "Ε_ργαλεία"
+
+#: ../src/rejilla-app.c:128
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: ../src/rejilla-app.c:130
+msgid "P_lugins"
+msgstr "Πρόσ_θετες λειτουργίες"
+
+#: ../src/rejilla-app.c:131
+msgid "Choose plugins for Rejilla"
+msgstr "Επιλογή πρόσθετων για το rejilla"
+
+#: ../src/rejilla-app.c:133
+msgid "E_ject"
+msgstr "Εξα_γωγή"
+
+#: ../src/rejilla-app.c:134
+msgid "Eject a disc"
+msgstr "Εξαγωγή δίσκου"
+
+#: ../src/rejilla-app.c:136
+msgid "_Blank…"
+msgstr "_Άδεισμα δίσκου…"
+
+#: ../src/rejilla-app.c:137
+msgid "Blank a disc"
+msgstr "Διαγραφή ενός δίσκου"
+
+#: ../src/rejilla-app.c:139
+msgid "_Check Integrity…"
+msgstr "Έλε_γχος ακεραιότητας…"
+
+#: ../src/rejilla-app.c:140
+msgid "Check data integrity of disc"
+msgstr "Έλεγχος ακεραιότητας δεδομένων δίσκου"
+
+#: ../src/rejilla-app.c:143
+msgid "Quit Rejilla"
+msgstr "Κλείσιμο Rejilla"
+
+#: ../src/rejilla-app.c:145
+msgid "_Contents"
+msgstr "Περιε_χόμενα"
+
+#: ../src/rejilla-app.c:145
+msgid "Display help"
+msgstr "Προβολή βοήθειας"
+
+#: ../src/rejilla-app.c:148
+msgid "About"
+msgstr "Περί"
+
+#: ../src/rejilla-app.c:420 ../src/rejilla-app.c:2075
+msgid "Disc Burner"
+msgstr "Εγγραφή δίσκων"
+
+#: ../src/rejilla-app.c:786 ../src/rejilla-app.c:819 ../src/rejilla-app.c:1454
+msgid "Error while loading the project"
+msgstr "Σφάλμα κατά τη φόρτωση της εργασίας"
+
+#: ../src/rejilla-app.c:828 ../src/rejilla-app.c:857 ../src/rejilla-app.c:917
+#: ../src/rejilla-project.c:1266
+msgid "Please add files to the project."
+msgstr "Παρακαλώ προσθέστε αρχεία στην εργασία."
+
+#: ../src/rejilla-app.c:829 ../src/rejilla-app.c:858 ../src/rejilla-app.c:918
+msgid "The project is empty"
+msgstr "Η εργασία είναι κενή"
+
+#: ../src/rejilla-app.c:1172
+msgid ""
+"Rejilla is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Το Rejilla είναι ελεύθερο λογισμικό. Επιτρέπεται η αναδιανομή ή/και "
+"τροποποίησή του υπό τους όρους της Γενικής Άδειας Δημόσιας Χρήσης GNU (GNU "
+"General Public License), όπως αυτή έχει δημοσιευτεί από το Ίδρυμα Ελεύθερου "
+"Λογισμικού (Free Software Foundation) – είτε της έκδοσης 2 της Άδειας, είτε "
+"(κατ' επιλογήν) οποιασδήποτε μεταγενέστερης έκδοσης."
+
+#: ../src/rejilla-app.c:1177
+msgid ""
+"Rejilla is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Το Rejilla διανέμεται με την ελπίδα ότι θα αποδειχθεί χρήσιμο, παρόλα αυτά "
+"ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ – χωρίς ούτε και την σιωπηρή εγγύηση ΕΜΠΟΡΕΥΣΙΜΟΤΗΤΑΣ ή "
+"ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΗ ΧΡΗΣΗ. Για περισσότερες λεπτομέρειες "
+"ανατρέξτε στη Γενική Άδεια Δημόσιας Χρήσης GNU (GNU General Public License)."
+
+#: ../src/rejilla-app.c:1182
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Rejilla; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301, USA"
+msgstr ""
+"Θα πρέπει να έχετε λάβει ένα αντίγραφο της Γενικής Άδειας Δημόσιας Χρήσης "
+"GNU (GNU General Public License) μαζί με το Rejilla. Εάν όχι, επικοινωνήστε "
+"γραπτώς με το Ίδρυμα Ελεύθερου Λογισμικού (Free Software Foundation), Inc., "
+"59 Temple Place, Suite 330, Boston, MA 02111-1307 USA"
+
+#: ../src/rejilla-app.c:1194
+msgid "A simple to use CD/DVD burning application for MATE"
+msgstr "Μια απλή στη χρήση εφαρμογή εγγραφής CD/DVD για το MATE"
+
+#: ../src/rejilla-app.c:1211
+msgid "Rejilla Homepage"
+msgstr "Αρχική ιστοσελίδα του rejilla"
+
+#. Translators: This is a special message that shouldn't be translated
+#. * literally. It is used in the about box to give credits to
+#. * the translators.
+#. * Thus, you should translate it to your name and email address.
+#. * You should also include other translators who have contributed to
+#. * this translation; in that case, please write each of them on a separate
+#. * line seperated by newlines (\n).
+#.
+#: ../src/rejilla-app.c:1223
+msgid "translator-credits"
+msgstr ""
+"Ελληνική μεταφραστική ομάδα Mate\n"
+" Σίμος Ξενιτέλλης <simos@mate.org>\n"
+" Γιάννης Κατσαμπίρης <giannis1_86@hotmail.com>\n"
+" Ηλίας Μακρής <ilmakris@sch.gr>\n"
+" Μάριος Ζηντίλης <m.zindilis@dmajor.org>\n"
+"\n"
+"Για περισσότερα δείτε http://www.mate.gr/"
+
+#: ../src/rejilla-app.c:1452
+#, c-format
+msgid "The project \"%s\" does not exist"
+msgstr "Η εργασία \"%s\" δεν υπάρχει"
+
+#: ../src/rejilla-app.c:1738 ../src/rejilla-app.c:1744
+msgid "_Recent Projects"
+msgstr "Π_ρόσφατες εργασίες"
+
+#: ../src/rejilla-app.c:1739
+msgid "Display the projects recently opened"
+msgstr "Προβολή των εργασιών που ανοίξατε πρόσφατα"
+
+#: ../data/rejilla.desktop.in.in.h:1
+msgid "Rejilla"
+msgstr "Rejilla"
+
+#: ../data/rejilla.desktop.in.in.h:2
+msgid "Rejilla Disc Burner"
+msgstr "Εγγραφή δίσκων CD/DVD"
+
+#: ../data/rejilla.desktop.in.in.h:3
+msgid "Create and copy CDs and DVDs"
+msgstr "Εγγραφή και αντιγραφή CD και DVD"
+
+#: ../data/rejilla.desktop.in.in.h:4
+#| msgid "Disc Burner"
+msgid "Disc Burner and Copier"
+msgstr "Εγγραφή και αντιγραφή δίσκων"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:1
+#| msgid "Burning image to disc"
+msgid "Burning flags to be used"
+msgstr "Επιλογές για την εγγραφή που θα χρησιμοποιηθούν"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:2
+msgid ""
+"Contains the absolute path of the directory that was last browsed for images "
+"to burn"
+msgstr ""
+"Περιέχει την απόλυτη διαδρομή του φακέλου στον οποίο έγινε η πιο πρόσφατη "
+"περιήγηση για αρχεία προς εγγραφή."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:3
+msgid ""
+"Contains the list of additional plugins Rejilla will use to burn discs. If "
+"set to NULL, Rejilla will load them all."
+msgstr ""
+"Περιέχει τη λίστα με τα επιπλέον πρόσθετα που θα χρησιμοποιήσει το rejilla "
+"για να εγγράψει δίσκους. Αν είναι καθορισμένη σε NULL, το rejilla θα τα "
+"φορτώσει όλα."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:4
+msgid ""
+"Contains the name of the favourite burn engine suite installed. It will be "
+"used if possible."
+msgstr ""
+"Περιέχει το όνομα της αγαπημένης σουίτας της συσκευής εγγραφής δίσκων. Αν "
+"είναι δυνατόν, θα χρησιμοποιηθεί."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:5
+msgid ""
+"Contains the path to the directory where rejilla should store temporary "
+"files. If that value is empty, the default directory set for glib will be "
+"used."
+msgstr ""
+"Περιέχει τη διαδρομή για το φάκελο όπου το rejilla θα πρέπει να αποθηκεύει "
+"τα προσωρινά αρχεία. Αν η τιμή αυτή είναι κενή, θα χρησιμοποιθεί ο "
+"προεπιλεγμένος φάκελος για τη glib."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:6
+#| msgid "Set the directory where to store temporary files"
+msgid "Directory to use for temporary files"
+msgstr "Κατάλογος αποθήκευσης για τα προσωρινά αρχεία"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:7
+msgid "Enable file preview"
+msgstr "Ενεργοποίηση προεπισκόπησης αρχείων"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:8
+msgid "Enable the \"-immed\" flag with cdrecord"
+msgstr "Ενεργοποίηση σημαίας \"-immed\" με το cdrecord"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:9
+msgid "Favourite burn engine"
+msgstr "Αγαπημένη μηχανή εγγραφής δίσκων"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:10
+msgid "Replace symbolic links by their targets"
+msgstr "Αντικατάσταση συμβολικών συνδέσμων με τους προορισμούς τους"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:11
+msgid "Set to 0 for MD5, 1 for SHA1 and 2 for SHA256"
+msgstr "Ορίστε σε 0 για MD5, 1για SHA1 και 2 για SHA256"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:12
+msgid "Should Caja extension output debug statements"
+msgstr "Should Caja extension output debug statements"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:13
+msgid ""
+"Should Caja extension output debug statements. The value should be set "
+"to true if it should."
+msgstr ""
+"Should Caja extension output debug statements. The value should be set "
+"to true if it should."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:14
+msgid "Should rejilla filter broken symbolic links"
+msgstr "Αν θα φιλτράρει ο rejilla κατεστραμμένα αρχεία συμβολικών δεσμών"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:15
+msgid ""
+"Should rejilla filter broken symbolic links. Set to true, rejilla will "
+"filter broken symbolic links."
+msgstr ""
+"Αν θα φιλτράρει ο rejilla κατεστραμμένα αρχεία συμβολικών δεσμών. Αν "
+"καθοριστεί ως αληθής, ο rejilla θα φιλτράρει τους κατεστραμμένους "
+"συμβολικούς δεσμούς."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:16
+msgid "Should rejilla filter hidden files"
+msgstr "Αν θα φιλτράρει ο rejilla κρυφά αρχεία"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:17
+msgid ""
+"Should rejilla filter hidden files. Set to true, rejilla will filter hidden "
+"files."
+msgstr ""
+"Αν θα φιλτράρει ο rejilla κρυφά αρχεία. Αν καθοριστεί ως αληθής, ο rejilla "
+"θα φιλτράρει κρυφά αρχεία."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:18
+msgid ""
+"Should rejilla replace symbolic links by their target files in the project. "
+"Set to true, rejilla will replace symbolic links."
+msgstr ""
+"Αν θα αντικαθιστά ο rejilla τους συμβολικούς συνδέσμους με τα  αρχεία "
+"προορισμού τους στην εργασία. Αν καθοριστεί ως αληθής, ο rejilla αντικαθιστά "
+"τους συμβολικούς σύνδεσμους."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:19
+msgid "The last browsed folder while looking for images to burn"
+msgstr ""
+"Ο πιο πρόσφατος φάκελος όπου έγινε περιήγηση κατά την ανζήτηση εικόνων για "
+"εγγραφή."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:20
+msgid "The priority value for the plugin"
+msgstr "Η τιμή προτεραιότητας για το πρόσθετο"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:21
+msgid "The speed to be used"
+msgstr "Η ταχύτητα που θα χρησιμοποιηθεί"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:22
+#| msgid "Creating checksum for image files"
+msgid "The type of checksum used for files"
+msgstr ""
+"Ο τύπος αθροίσματος ελέγχου (checksum) που θα χρησιμοποιηθεί για τα αρχεία"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:23
+#| msgid "Creating checksum for image files"
+msgid "The type of checksum used for images"
+msgstr ""
+"Ο τύπος αθροίσματος ελέγχου (checksum) που θα χρησιμοποιηθεί για τα αρχεία "
+"εικόνας"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:24
+msgid ""
+"This value represents the burning flags that were used in such a context the "
+"last time."
+msgstr ""
+"Αυτή η τιμή αντιπροσωπεύει τις επιλογές εγγραφής που χρησιμοποιήθηκαν "
+"στην ίδια μορφή εργασίας την τελευταία φορά."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:25
+msgid ""
+"This value represents the speed that was used in such a context the last "
+"time."
+msgstr ""
+"Αυτή η τιμή αντιπροσωπεύει την ταχύτητα που χρησιμοποιήθηκε στην ίδια μορφή "
+"εργασίας την τελευταία φορά."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:26
+msgid "Used in conjunction with the \"-immed\" flag with cdrecord"
+msgstr "Χρησιμοποιείται σε συνδυασμό με τη σημαία \"-immed\" με το cdrecord"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:27
+msgid "Used in conjunction with the \"-immed\" flag with cdrecord."
+msgstr "Χρησιμοποιείται σε συνδυασμό με τη σημαία \"-immed\" με το cdrecord"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:28
+msgid ""
+"When several plugins are available for the same task, this value is used to "
+"determine which plugin should be given priority. 0 means the plugin's native "
+"priority is used. A positive value overrides the plugin's native priority. A "
+"negative value disables the plugin."
+msgstr ""
+"Όταν είναι διαθέσιμα πολλά πρόσθετα για την ίδια εργασία, χρησιμοποιείται "
+"αυτή η τιμή για να καθορίσει σε ποιο πρόσθετο θα δοθεί προτεραιότητα. Τιμή 0 "
+"σημαίνει ότι χρησιμποιείται η εγγενής προτεραιότητα του προσθέτου. Μια "
+"θετική τιμή υπερισχύει της εγγενούς προτεραιότητας. Μια αρνητική τιμή "
+"απενεργοποιεί το πρόσθετο."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:29
+msgid "Whether to display file preview. Set to true to use it."
+msgstr ""
+"Αν θα εμφανίζεται η προεπισκόπηση αρχείων. Καθορίστε το ως αληθές για να το "
+"χρησιμοποιήσετε."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:30
+msgid "Whether to use the \"--driver generic-mmc-raw\" flag with cdrdao"
+msgstr ""
+"Αν θα χρησιμοποιείται η επιλογή \"--driver generic-mmc-raw\" με το cdrdao"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:31
+msgid ""
+"Whether to use the \"--driver generic-mmc-raw\" flag with cdrdao. Set to "
+"True, rejilla will use it; it may be a workaround for some drives/setups."
+msgstr ""
+"Αν θα χρησιμοποιείται η σημαία \"--driver generic-mmc-raw\" με το cdrdao. Αν "
+"οριστεί ως αληθές το rejilla θα το χρησιμοποιεί. Μπορεί να λύσει μερικά "
+"προβλήματα μερικών οδηγών/εγκαταστάσεων."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:32
+msgid ""
+"Whether to use the \"-immed\" flag with cdrecord. Use with caution (set to "
+"true) as it's only a workaround for some drives/setups."
+msgstr ""
+"Αν θα χρησιμοποιείται η σημαία \"--immed\" με το cdrecord. Χρησιμοποιήστε το "
+"με προσοχή (καθορίστε το ως αληθές) επειδή είναι μια παράκαμψη για μερικούς "
+"οδηγούς/ρυθμίσεις."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:33
+msgid "Whether to use the \"-use-the-force-luke=dao\" flag with growisofs"
+msgstr ""
+"Αν θα χρησιμοποιείται η επιλογή \"-use-the-force-luke=dao\" με το growisofs"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:34
+msgid ""
+"Whether to use the \"-use-the-force-luke=dao\" flag with growisofs. Set to "
+"false, rejilla won't use it; it may be a workaround for some drives/setups."
+msgstr ""
+"Αν θα χρησιμοποιείται η επιλογή \"-use-the-force-luke=dao\" με το growisofs. "
+"Αν δεν οριστεί ως αληθές ο rejilla δε θα το χρησιμοποιήσει. Μπορεί να λύσει "
+"μερικά προβλήματα για μερικούς οδηγούς ή εγκαταστάσεις."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:35
+msgid "White list of additional plugins to use"
+msgstr "Λευκή λίστα με επιπλεον πρόσθετα για χρήση"
+
+#: ../data/mime/rejilla.xml.in.h:1
+msgid "Rejilla project file"
+msgstr "Αρχείο εργασίας του rejilla"
+
+#: ../src/rejilla-audio-disc.c:156 ../src/rejilla-data-disc.c:123
+msgid "Open the selected files"
+msgstr "Άνοιγμα των επιλεγμένων αρχείων"
+
+#: ../src/rejilla-audio-disc.c:158 ../src/rejilla-video-disc.c:103
+msgid "_Edit Information…"
+msgstr "Ε_πεξεργασία πληροφοριών…"
+
+#: ../src/rejilla-audio-disc.c:158
+msgid "Edit the track information (start, end, author, etc.)"
+msgstr ""
+"Επεξεργασία των πληροφοριών των κομματιών (αρχή, τέλος, συγγραφέα, ...)"
+
+#: ../src/rejilla-audio-disc.c:160 ../src/rejilla-data-disc.c:127
+#: ../src/rejilla-project.c:200
+msgid "Remove the selected files from the project"
+msgstr "Αφαίρεση των επιλεγμένων αρχείων από την εργασία"
+
+#: ../src/rejilla-audio-disc.c:162 ../src/rejilla-data-disc.c:129
+#: ../src/rejilla-video-disc.c:107
+msgid "Paste files"
+msgstr "Επικόλληση αρχείων"
+
+#: ../src/rejilla-audio-disc.c:162 ../src/rejilla-data-disc.c:129
+#: ../src/rejilla-video-disc.c:107
+msgid "Add the files stored in the clipboard"
+msgstr "Προσθήκη των αποθηκευμένων αρχείων στο πρόχειρο"
+
+#: ../src/rejilla-audio-disc.c:164
+msgid "I_nsert a Pause"
+msgstr "Ει_σαγωγή παύσης"
+
+#: ../src/rejilla-audio-disc.c:164
+msgid "Add a 2 second pause after the track"
+msgstr "Προσθήκη παύσης 2 δευτερολέπτων ύστερα από το κομμάτι"
+
+#: ../src/rejilla-audio-disc.c:166
+msgid "_Split Track…"
+msgstr "Δια_χωρισμός κομματιού"
+
+#: ../src/rejilla-audio-disc.c:166
+msgid "Split the selected track"
+msgstr "Διαχωρισμός του επιλεγμένου κομματιού"
+
+#: ../src/rejilla-audio-disc.c:343 ../src/rejilla-video-tree-model.c:189
+msgid "Pause"
+msgstr "Παύση"
+
+#: ../src/rejilla-audio-disc.c:349
+msgid "Split"
+msgstr "Διαχωρισμός"
+
+#: ../src/rejilla-audio-disc.c:417
+msgid "Track"
+msgstr "Κομμάτι"
+
+#: ../src/rejilla-audio-disc.c:457 ../src/rejilla-video-disc.c:1216
+msgid "Title"
+msgstr "Τίτλος"
+
+#: ../src/rejilla-audio-disc.c:479
+msgid "Artist"
+msgstr "Καλλιτέχνης"
+
+#: ../src/rejilla-audio-disc.c:487 ../src/rejilla-playlist.c:771
+#: ../src/rejilla-split-dialog.c:1225
+msgid "Length"
+msgstr "Διάρκεια"
+
+#: ../src/rejilla-audio-disc.c:584
+msgid "The track will be padded at its end."
+msgstr "Θα συμπληρωθεί το τέλος του κομματιού."
+
+#: ../src/rejilla-audio-disc.c:585
+msgid "The track is shorter than 6 seconds"
+msgstr "Το κομμάτι διαρκεί λιγότερο από 6 δευτερόλεπτα"
+
+#: ../src/rejilla-audio-disc.c:645
+msgid "Make sure the appropriate codec is installed"
+msgstr "Βεβαιωθείτε ότι έχετε εγκατεστημένη την κατάλληλη κωδικοποίηση ήχου"
+
+#: ../src/rejilla-audio-disc.c:661
+#, c-format
+msgid "Do you want to add \"%s\", which is a video file?"
+msgstr "Θέλετε να προσθέσετε το \"%s\" που είναι ένα αρχείο βίντεο;"
+
+#: ../src/rejilla-audio-disc.c:670
+msgid ""
+"This file is a video and therefore only the audio part can be written to the "
+"disc."
+msgstr ""
+"Το αρχείο είναι βίντεο και επομένως μόνο το κομμάτι ήχου μπορεί να γραφτεί "
+"στον δίσκο."
+
+#: ../src/rejilla-audio-disc.c:673
+msgid "_Discard File"
+msgstr "Α_πόρριψη αρχείου"
+
+#: ../src/rejilla-audio-disc.c:676
+msgid "_Add File"
+msgstr "_Προσθήκη αρχείου"
+
+#: ../src/rejilla-audio-disc.c:747
+msgid "Do you want to search for audio files inside the directory?"
+msgstr "Θέλετε να ψάξετε για αρχεία ήχου στον κατάλογο;"
+
+#: ../src/rejilla-audio-disc.c:757
+msgid "Search _Directory"
+msgstr "Αναζητήστε στον _κατάλογο"
+
+#: ../src/rejilla-audio-disc.c:811 ../src/rejilla-video-disc.c:395
+#, c-format
+msgid "\"%s\" could not be opened."
+msgstr "Δεν ήταν δυνατό το άνοιγμα του \"%s\"."
+
+#: ../src/rejilla-audio-disc.c:856
+msgid "Do you want to create an audio CD with DTS tracks?"
+msgstr "Θέλετε να δημιουργήσετε ενα CD ήχου με κομμάτια DTS;"
+
+#: ../src/rejilla-audio-disc.c:857
+msgid ""
+"Some of the selected songs are suitable for creating DTS tracks.\n"
+"This type of audio CD track provides a higher quality of sound but can only "
+"be played by specific digital players.\n"
+"Note: if you agree, normalization will not be applied to these tracks."
+msgstr ""
+"Μερικά από τα επιλεγμένα κομμάτια είναι κατάλληλα για δημιουργία κομματιών "
+"DTS.\n"
+"Αυτός ο τύπος ηχητικών CD παρέχει υψηλότερη ποιότητα ήχου αλλά είναι "
+"συμβατός μόνο με συγκεκριμένες ψηφιακές συσκευές.\n"
+"Σημείωση: αν συμφωνήσετε δεν θα γίνει κανονικοποίηση των κομματιών."
+
+#: ../src/rejilla-audio-disc.c:866
+msgid "Create _Regular Tracks"
+msgstr "Δημιουργία _κανονικών κομματιών"
+
+#: ../src/rejilla-audio-disc.c:868
+msgid "Click here to burn all songs as regular tracks"
+msgstr "Πατήστε εδώ για να εγγράψετε όλα τα κομμάτια ως κανονικά κομμάτια"
+
+#: ../src/rejilla-audio-disc.c:871
+msgid "Create _DTS Tracks"
+msgstr "Δημιουργία κομματιών _DTS "
+
+#: ../src/rejilla-audio-disc.c:873
+msgid "Click here to burn all suitable songs as DTS tracks"
+msgstr ""
+"Πατήστε εδώ για να εγγράψετε όλα τα κατάλληλα κομμάτια ως κομμάτια  DTS"
+
+#: ../src/rejilla-audio-disc.c:1296
+msgid "Select one song only please."
+msgstr "Παρακαλώ επιλέξτε μόνο ένα τραγούδι."
+
+#: ../src/rejilla-audio-disc.c:1297
+msgid "Impossible to split more than one song at a time"
+msgstr "Αδύνατος ο διαχωρισμός περισσότερων του ενός τραγουδιού κάθε φορά"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:222
+msgid "Error while blanking."
+msgstr "Σφάλμα κατά την διαγραφή."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:227
+#: ../librejilla-burn/rejilla-blank-dialog.c:272
+msgid "Blank _Again"
+msgstr "Επα_νάληψη διαγραφής δίσκου"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:244
+msgid "Unknown error."
+msgstr "Άγνωστο σφάλμα."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:264
+#: ../librejilla-burn/rejilla-blank-dialog.c:288
+msgid "The disc was successfully blanked."
+msgstr "Ο δίσκος διαγράφηκε με επιτυχία."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:270
+msgid "The disc is ready for use."
+msgstr "Ο δίσκος είναι έτοιμος για χρήση."
+
+#. Translators: This is a verb, an action
+#: ../librejilla-burn/rejilla-blank-dialog.c:371
+msgid "_Blank"
+msgstr "_Διαγραφή δίσκου"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:402
+msgid "_Fast blanking"
+msgstr "_Γρήγορη διαγραφή"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:403
+msgid "Activate fast blanking, as opposed to a longer, thorough blanking"
+msgstr ""
+"Ενεργοποίηση γρήγορου αδειάσματος δίσκου αντί για λεπτομερέστερη διαγραφή "
+"μεγαλύτερης διάρκειας"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:433
+msgid "Disc Blanking"
+msgstr "Διαγραφή δίσκου"
+
+#: ../src/rejilla-playlist.c:390
+#, c-format
+msgid "Error parsing playlist \"%s\"."
+msgstr "Σφάλμα κατά την φόρτωση της λίστας αναπαραγωγής \"%s\"."
+
+#: ../src/rejilla-playlist.c:393 ../src/rejilla-data-disc.c:214
+#: ../src/rejilla-project.c:2609 ../librejilla-burn/rejilla-sum-dialog.c:166
+#: ../src/rejilla-eject-dialog.c:100
+msgid "An unknown error occurred"
+msgstr "Συνέβη ένα άγνωστο σφάλμα"
+
+#. Translators: %d is the number of songs
+#: ../src/rejilla-playlist.c:499
+#, c-format
+msgid "%d song"
+msgid_plural "%d songs"
+msgstr[0] "%d τραγούδι"
+msgstr[1] "%d τραγούδια"
+
+#: ../src/rejilla-playlist.c:584
+msgid "Select Playlist"
+msgstr "Επιλογή λίστας αναπαραγωγής"
+
+#: ../src/rejilla-playlist.c:750
+msgid "Playlists"
+msgstr "Λίστες αναπαραγωγής"
+
+#: ../src/rejilla-playlist.c:761
+msgid "Number of Songs"
+msgstr "Αριθμός τραγουδιών"
+
+#: ../src/rejilla-playlist.c:781
+msgid "Genre"
+msgstr "Είδος μουσικής"
+
+#: ../src/rejilla-plugin-manager-ui.c:62
+msgid "Plugin"
+msgstr "Πρόσθετη λειτουργία"
+
+#: ../src/rejilla-plugin-manager-ui.c:63
+msgid "Enabled"
+msgstr "Ενεργοποιημένη"
+
+#: ../src/rejilla-plugin-manager-ui.c:143
+#, c-format
+msgid "Copyright %s"
+msgstr "Πνευματικά δικαιώματα %s"
+
+#: ../src/rejilla-plugin-manager-ui.c:587
+#: ../src/rejilla-plugin-manager-ui.c:974
+msgid "_About"
+msgstr "_Περί"
+
+#: ../src/rejilla-plugin-manager-ui.c:595
+#: ../src/rejilla-plugin-manager-ui.c:980
+msgid "C_onfigure"
+msgstr "Ρυ_θμίσεις"
+
+#: ../src/rejilla-plugin-manager-ui.c:605
+msgid "A_ctivate"
+msgstr "Ε_νεργοποίηση"
+
+#: ../src/rejilla-plugin-manager-ui.c:617
+msgid "Ac_tivate All"
+msgstr "Ενε_ργοποίηση όλων"
+
+#: ../src/rejilla-plugin-manager-ui.c:622
+msgid "_Deactivate All"
+msgstr "Α_πενεργοποίηση όλων"
+
+#. Use the translated name for the plugin.
+#: ../src/rejilla-plugin-option.c:258
+#, c-format
+msgid "Options for plugin %s"
+msgstr "Επιλογές για πρόσθετο %s"
+
+#: ../src/rejilla-search-entry.c:176
+msgid "Search:"
+msgstr "Αναζήτηση:"
+
+#: ../src/rejilla-search-entry.c:260
+msgid "In _text documents"
+msgstr "Σε έγγραφα _κειμένου"
+
+#: ../src/rejilla-search-entry.c:275
+msgid "In _pictures"
+msgstr "Σε ει_κόνες"
+
+#: ../src/rejilla-search-entry.c:290
+msgid "In _music"
+msgstr "Σε _μουσική"
+
+#: ../src/rejilla-search-entry.c:305
+msgid "In _videos"
+msgstr "Σε _βίντεο"
+
+#: ../src/rejilla-search-entry.c:322
+msgid "Type your keywords or choose 'All files' from the menu"
+msgstr ""
+"Πληκτρολογήστε τι λέξεις κλειδιά ή επιλέξτε 'Όλα τα αρχεία' από το μενού"
+
+#: ../src/rejilla-search-entry.c:326
+msgid "Select if you want to search among image files only"
+msgstr "Επιλέξτε αν θέλετε να κάνετε αναζήτηση μόνο μεταξύ αρχείων εικόνων"
+
+#: ../src/rejilla-search-entry.c:328
+msgid "Select if you want to search among video files only"
+msgstr "Επιλέξτε αν θέλετε να κάνετε αναζήτηση μόνο μεταξύ αρχείων βίντεο"
+
+#: ../src/rejilla-search-entry.c:330
+msgid "Select if you want to search among audio files only"
+msgstr "Επιλέξτε αν θέλετε να κάνετε αναζήτηση μόνο μεταξύ αρχείων ήχου"
+
+#: ../src/rejilla-search-entry.c:332
+msgid "Select if you want to search among your text documents only"
+msgstr "Επιλέξτε αν θέλετε να κάνετε αναζήτηση μόνο μεταξύ εγγράφων κειμένου"
+
+#: ../src/rejilla-search-entry.c:334
+msgid "Click to start the search"
+msgstr "Κάντε κλικ για να ξεκινήσετε την αναζήτηση"
+
+#: ../src/rejilla-song-properties.c:178
+msgid "Title:"
+msgstr "Τίτλος:"
+
+#: ../src/rejilla-song-properties.c:188 ../src/rejilla-song-properties.c:200
+#: ../src/rejilla-song-properties.c:212 ../src/rejilla-multi-song-props.c:212
+#: ../src/rejilla-multi-song-props.c:253 ../src/rejilla-multi-song-props.c:274
+msgid ""
+"This information will be written to the disc using CD-Text technology. It "
+"can be read and displayed by some audio CD players."
+msgstr ""
+"Οι πληροφορίες θα εγγραφούν στο δίσκο χρησιμοποιώντας την τεχνολογία CD-"
+"TEXT. Μπορούν να αναγνωστούν και να εμφανιστούν σε μερικούς αναπαραγωγείς cd."
+
+#: ../src/rejilla-song-properties.c:190 ../src/rejilla-multi-song-props.c:243
+msgid "Artist:"
+msgstr "Καλλιτέχνης:"
+
+#: ../src/rejilla-song-properties.c:202 ../src/rejilla-multi-song-props.c:264
+msgid "Composer:"
+msgstr "Συνθέτης:"
+
+#: ../src/rejilla-song-properties.c:236
+msgid "Song start:"
+msgstr "Αρχή τραγουδιού:"
+
+#: ../src/rejilla-song-properties.c:242
+msgid "Song end:"
+msgstr "Τέλος τραγουδιού:"
+
+#: ../src/rejilla-song-properties.c:248 ../src/rejilla-multi-song-props.c:318
+msgid "Pause length:"
+msgstr "Διάρκεια παύσης:"
+
+#: ../src/rejilla-song-properties.c:257 ../src/rejilla-multi-song-props.c:329
+msgid "Gives the length of the pause that should follow the track"
+msgstr ""
+"Δίνει τη διάρκεια της παύσης που θα πρέπει να ακολουθεί μετά το κομμάτι"
+
+#: ../src/rejilla-song-properties.c:259
+msgid "Track length:"
+msgstr "Διάρκεια κομματιού:"
+
+#: ../src/rejilla-song-properties.c:288 ../src/rejilla-multi-song-props.c:346
+msgid "Song Information"
+msgstr "Πληροφορίες τραγουδιού"
+
+#: ../src/rejilla-song-properties.c:373
+#, c-format
+msgid "Song information for track %02i"
+msgstr "Πληροφορίες τραγουδιού για το κομμάτι %02i"
+
+#. *
+#. * Translators: this is the position being played in a stream. The
+#. * first %s is the position and the second %s is the whole length of
+#. * the stream. I chose to make that translatable in case some languages
+#. * don't allow the "/"
+#: ../src/rejilla-song-control.c:101
+#, c-format
+msgid "%s / %s"
+msgstr "%s / %s"
+
+#: ../src/rejilla-song-control.c:531
+msgid "No file"
+msgstr "Κανένα αρχείο"
+
+#: ../src/rejilla-song-control.c:566
+msgid "Start and stop playing"
+msgstr "Έναρξη και διακοπή αναπαραγωγής"
+
+#: ../src/rejilla-data-disc.c:125
+msgid "R_ename…"
+msgstr "_Μετονομασία"
+
+#: ../src/rejilla-data-disc.c:125
+msgid "Rename the selected file"
+msgstr "Μετονομασία του επιλεγμένου αρχείου"
+
+#: ../src/rejilla-data-disc.c:131 ../src/rejilla-data-disc.c:1773
+msgid "New _Folder"
+msgstr "Νέος _φάκελος"
+
+#: ../src/rejilla-data-disc.c:131
+msgid "Create a new empty folder"
+msgstr "Δημιουργία νέου κενού φακέλου"
+
+#: ../src/rejilla-data-disc.c:213
+msgid "The session could not be imported."
+msgstr "Δεν ήταν δυνατή η εισαγωγή της συνεδρίας."
+
+#: ../src/rejilla-data-disc.c:559
+msgid "The contents of the project changed since it was saved."
+msgstr "Τα περιεχόμενα της εργασίας έχουν αλλάξει μετά την αποθήκευσή της."
+
+#: ../src/rejilla-data-disc.c:561 ../src/rejilla-data-disc.c:569
+msgid "Discard the current modified project"
+msgstr "Απόρριψη της τρέχουσας τροποποιημένης εργασίας"
+
+#: ../src/rejilla-data-disc.c:567
+msgid "_Discard"
+msgstr "Α_πόρριψη"
+
+#: ../src/rejilla-data-disc.c:574
+msgid "Continue with the current modified project"
+msgstr "Συνέχεια με το τρέχον τροποποιημένο έργο"
+
+#. Translators: %s is the name of the image
+#: ../src/rejilla-data-disc.c:622
+#, c-format
+msgid ""
+"There is only one selected file (\"%s\"). It is the image of a disc and its "
+"contents can be burned"
+msgstr ""
+"Υπάρχει μόνο ένα επιλεγμένο αρχείο (\"%s\"). Είναι η εικόνα ενός δίσκου και "
+"τα δεδομένα της δεν είναι δυνατόν να εγγραφούν."
+
+#: ../src/rejilla-data-disc.c:628
+msgid "Burn as _Data"
+msgstr "Εγγραφή ως _δεδομένα"
+
+#: ../src/rejilla-data-disc.c:630
+msgid "Burn as _Image"
+msgstr "Εγγραφή εικό_νας"
+
+#: ../src/rejilla-data-disc.c:679 ../src/rejilla-data-disc.c:700
+#: ../src/rejilla-data-disc.c:721
+#, c-format
+msgid "\"%s\" cannot be added to the selection."
+msgstr "Δεν είναι δυνατή η προσθήκη του \"%s\" στην επιλογή."
+
+#: ../src/rejilla-data-disc.c:703
+msgid "It is a recursive symlink"
+msgstr "Είναι ένας αναδρομικός συμβολικός δεσμός"
+
+#: ../src/rejilla-data-disc.c:724
+msgid "It does not exist at the specified location"
+msgstr "Δεν υπάρχει στην συγκεκριμένη τοποθεσία"
+
+#: ../src/rejilla-data-disc.c:741
+#: ../librejilla-burn/rejilla-status-dialog.c:333
+msgid "Should files be renamed to be fully Windows-compatible?"
+msgstr "Να μετονομαστούν τα αρχεία για να είναι συμβατά με Windows;"
+
+#: ../src/rejilla-data-disc.c:747
+#: ../librejilla-burn/rejilla-status-dialog.c:344
+msgid "Those names should be changed and truncated to 64 characters."
+msgstr ""
+"Εκείνα τα ονόματα θα πρέπει να αλλαχτούν και να κοπούν στους 64 χαρακτήρες."
+
+#: ../src/rejilla-data-disc.c:749
+#: ../librejilla-burn/rejilla-status-dialog.c:352
+msgid "_Rename for Full Windows Compatibility"
+msgstr "_Μετονομασία για πλήρη συμβατότητα με τα Windows"
+
+#: ../src/rejilla-data-disc.c:750
+#: ../librejilla-burn/rejilla-status-dialog.c:349
+msgid "_Disable Full Windows Compatibility"
+msgstr "Απενεργοποίη_ση της πλήρους συμβατότητας με τα Windows"
+
+#. Translators: %s is the name of the file
+#: ../src/rejilla-data-disc.c:783
+#, c-format
+msgid "Do you want to replace \"%s\"?"
+msgstr "Θέλετε πραγματικά να αντικαταστήσετε το \"%s\";"
+
+#: ../src/rejilla-data-disc.c:791
+#| msgid ""
+#| "A file with this name already exists in the folder.  Replacing it will "
+#| "overwrite its content on the disc to be burnt."
+msgid ""
+"A file with this name already exists in the folder.  Replacing it will "
+"overwrite its contents on the disc to be burnt."
+msgstr ""
+"Ένα αρχείο με αυτό το όνομα υπάρχει ήδη σε αυτόν τον φάκελο. Η αντικατάσταση "
+"του θα επιφέρει και αντικατάσταση των περιεχομένων του στο δίσκο που θα "
+"εγγραφεί."
+
+#. Translators: Keep means we're keeping the files that already existed
+#. * in the project.
+#. * Keep is a verb
+#: ../src/rejilla-data-disc.c:796
+msgid "Always K_eep"
+msgstr "Πάντα _διατήρηση"
+
+#. Translators: Keep means we're keeping the files that already existed
+#. * in the project.
+#. * Keep is a verb
+#: ../src/rejilla-data-disc.c:800
+msgid "_Keep"
+msgstr "Δια_τήρηση"
+
+#. Translators: Replace means we're replacing the file that already
+#. * existed in the project with a new one with the same name.
+#. * Replace is a verb
+#. Translators: this is a verb
+#: ../src/rejilla-data-disc.c:804 ../src/rejilla-rename.c:383
+msgid "_Replace"
+msgstr "Α_ντικατάσταση"
+
+#. Translators: Replace means we're replacing the file that already
+#. * existed in the project with a new one with the same name.
+#. * Replace is a verb
+#: ../src/rejilla-data-disc.c:808
+msgid "Al_ways Replace"
+msgstr "Αν_τικατάσταση πάντα"
+
+#: ../src/rejilla-data-disc.c:838
+#: ../librejilla-burn/rejilla-status-dialog.c:274
+#, c-format
+msgid ""
+"Do you really want to add \"%s\" to the selection and use the third version "
+"of the ISO9660 standard to support it?"
+msgstr ""
+"Θέλετε πραγματικά να προσθέσετε το \"%s\" στην επιλογή και να "
+"χρησιμοποιήσετε την τρίτη έκδοση του στάνταρ ISO9660 για να το υποστηρίξετε;"
+
+#: ../src/rejilla-data-disc.c:847
+#: ../librejilla-burn/rejilla-status-dialog.c:293
+#| msgid ""
+#| "The size of the file is over 2 GiB. Files larger than 2 GiB are not "
+#| "supported by the ISO9660 standard in its first and second versions (the "
+#| "most widespread ones).\n"
+#| "It is recommended to use the third version of the ISO9660 standard, which "
+#| "is supported by most operating systems, including Linux and all versions "
+#| "of Windows ©.\n"
+#| "However, Mac OS X cannot read images created with version 3 of the "
+#| "ISO9660 standard."
+msgid ""
+"The size of the file is over 2 GiB. Files larger than 2 GiB are not "
+"supported by the ISO9660 standard in its first and second versions (the most "
+"widespread ones).\n"
+"It is recommended to use the third version of the ISO9660 standard, which is "
+"supported by most operating systems, including Linux and all versions of "
+"Windows™.\n"
+"However, Mac OS X cannot read images created with version 3 of the ISO9660 "
+"standard."
+msgstr ""
+"Το μέγεθος του αρχείου είναι μεγαλύτερο από 2 GB. Αρχεία άνω των 2 GB δεν "
+"υποστηρίζονται από το πρότυπο ISO9660 στην πρώτη του και δεύτερή του έκδοση "
+"(οι πιο διαδεδομένες).\n"
+"Συνίσταται η χρησιμοποίηση της τρίτης έκδοσης του προτύπου ISO9660 που "
+"υποστηρίζεται από τα περισσότερα λειτουργικά συστήματα συμπεριλαμβανομένων "
+"του Linux και όλων των εκδόσεων των Windows ©.\n"
+"Μια γνωστή εξαίρεση είναι το MacOS X που δεν μπορεί να αναγνώσει εικόνες που "
+"δημιουργήθηκαν με την τρίτη έκδοση του ISO9660."
+
+#: ../src/rejilla-data-disc.c:851 ../src/rejilla-data-disc.c:895
+#: ../librejilla-burn/rejilla-status-dialog.c:235
+#: ../librejilla-burn/rejilla-status-dialog.c:297
+msgid "Ne_ver Add Such File"
+msgstr "Π_οτέ να μην γίνεται προσθήκη τέτοιου αρχείου"
+
+#: ../src/rejilla-data-disc.c:852 ../src/rejilla-data-disc.c:896
+#: ../librejilla-burn/rejilla-status-dialog.c:236
+#: ../librejilla-burn/rejilla-status-dialog.c:298
+msgid "Al_ways Add Such File"
+msgstr "_Πάντα να γίνεται προσθήκη τέτοιου αρχείου"
+
+#: ../src/rejilla-data-disc.c:882
+#: ../librejilla-burn/rejilla-status-dialog.c:212
+#, c-format
+msgid "Do you really want to add \"%s\" to the selection?"
+msgstr "Θέλετε πραγματικά να προσθέσετε το \"%s\" στην επιλογή;"
+
+#: ../src/rejilla-data-disc.c:891
+#: ../librejilla-burn/rejilla-status-dialog.c:231
+#| msgid ""
+#| "The children of this directory will have 7 parent directories.\n"
+#| "Rejilla can create an image of such a file hierarchy and burn it; but the "
+#| "disc may not be readable on all operating systems.\n"
+#| "Note: Such a file hierarchy is known to work on Linux."
+msgid ""
+"The children of this directory will have 7 parent directories.\n"
+"Rejilla can create an image of such a file hierarchy and burn it but the "
+"disc may not be readable on all operating systems.\n"
+"Note: Such a file hierarchy is known to work on Linux."
+msgstr ""
+"Οι θυγατρικοί αυτού του κατάλογου θα έχουν 7 γονικούς καταλόγους.\n"
+"To rejilla μπορεί να δημιουργήσει εικόνα μιας τέτοιας ιεραρχίας αρχείων και "
+"να την εγγράψει σε δίσκο, αλλά ο δίσκος ίσως δεν θα είναι αναγνώσιμος σε όλα "
+"τα λειτουργικά συστήματα.\n"
+"ΣΗΜΕΙΩΣΗ: Τέτοια ιεραρχία αρχείων ως γνωστόν δουλεύει στο Linux."
+
+#. Translators: %s is a string describing the type of medium and the
+#. * drive it is in. It's a tooltip.
+#: ../src/rejilla-data-disc.c:991
+#, c-format
+msgid "Import %s"
+msgstr "Εισαγωγή %s"
+
+#. Translators: %s is the name of the volume to import. It's a menu
+#. * entry and toolbar button (text added later).
+#: ../src/rejilla-data-disc.c:998
+#, c-format
+msgid "I_mport %s"
+msgstr "Ει_σαγωγή %s"
+
+#. Translators: This is a verb. It's a toolbar button.
+#: ../src/rejilla-data-disc.c:1028
+msgid "I_mport"
+msgstr "Ει_σαγωγή"
+
+#. Translators: %s is the name of the volume to import
+#: ../src/rejilla-data-disc.c:1110
+#, c-format
+msgid "Do you want to import the session from \"%s\"?"
+msgstr "Θέλετε να εισάγετε τη συνεδρία από το  \"%s\";"
+
+#: ../src/rejilla-data-disc.c:1113
+msgid ""
+"That way, old files from previous sessions will be usable after burning."
+msgstr ""
+"Μ' αυτό τον τρόπο, παλιά αρχεία από προηγούμενες συνεδρίες θα είναι "
+"χρησιμοποιήσιμα μετά την εγγραφή."
+
+#: ../src/rejilla-data-disc.c:1121
+msgid "I_mport Session"
+msgstr "Εισα_γωγή συνεδρίας"
+
+#: ../src/rejilla-data-disc.c:1123
+msgid "Click here to import its contents"
+msgstr "Κάντε κλικ εδώ για να εισάγετε τα περιεχόμενά του"
+
+#: ../src/rejilla-data-disc.c:1502
+msgid "Please wait while the project is loading."
+msgstr "Παρακαλώ, περιμένετε ενώ η εργασία φορτώνεται."
+
+#: ../src/rejilla-data-disc.c:1512
+msgid "_Cancel Loading"
+msgstr "Α_κύρωση φόρτωσης"
+
+#: ../src/rejilla-data-disc.c:1514
+msgid "Cancel loading current project"
+msgstr "Ακύρωση φόρτωσης τρέχουσας εργασίας"
+
+#: ../src/rejilla-data-disc.c:1918
+msgid "File Renaming"
+msgstr "Μετονομασία αρχείου"
+
+#: ../src/rejilla-data-disc.c:1922
+msgid "_Rename"
+msgstr "_Μετονομασία"
+
+#: ../src/rejilla-data-disc.c:1930
+msgid "Renaming mode"
+msgstr "Κατάσταση μετονομασίας"
+
+#: ../src/rejilla-data-disc.c:2366 ../src/rejilla-video-disc.c:1234
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: ../src/rejilla-data-disc.c:2396
+msgid "Space"
+msgstr "Διάστημα"
+
+#: ../src/rejilla-file-chooser.c:357 ../src/rejilla-project.c:2219
+msgid "Audio files"
+msgstr "Αρχεία ήχου"
+
+#: ../src/rejilla-file-chooser.c:365 ../src/rejilla-project.c:2228
+msgid "Movies"
+msgstr "Ταινίες"
+
+#: ../src/rejilla-layout.c:100
+msgid "P_review"
+msgstr "Π_ροεπισκόπηση"
+
+#. Translators: this is an image, a picture, not a "Disc Image"
+#: ../src/rejilla-layout.c:102
+msgid "Display video, audio and image preview"
+msgstr "Προβολή προεπισκόπησης βίντεο, ήχου και εικόνας"
+
+#: ../src/rejilla-layout.c:106
+msgid "_Show Side Panel"
+msgstr "Ε_μφάνιση πλευρικού πίνακα"
+
+#: ../src/rejilla-layout.c:107
+msgid "Show a side pane along the project"
+msgstr "Εμφάνιση ενός πλευρικού πλαισίου κατά μήκος του έργου"
+
+#: ../src/rejilla-layout.c:121
+msgid "_Horizontal Layout"
+msgstr "_Οριζόντια διάταξη"
+
+#: ../src/rejilla-layout.c:122
+msgid "Set a horizontal layout"
+msgstr "Καθορισμός οριζόντιας διάταξης"
+
+#: ../src/rejilla-layout.c:124
+msgid "_Vertical Layout"
+msgstr "_Κατακόρυφη διάταξη"
+
+#: ../src/rejilla-layout.c:125
+msgid "Set a vertical layout"
+msgstr "Καθορισμός κάθετης διάταξης"
+
+#: ../src/rejilla-layout.c:1186
+msgid "Click to close the side pane"
+msgstr "Κάντε κλικ με το ποντίκι σας για να κλείσετε το πλευρικό πλαίσιο"
+
+#: ../src/rejilla-player.c:540
+#, c-format
+msgid "%i × %i pixels"
+msgstr "%i × %i pixel"
+
+#. No Preview view
+#: ../src/rejilla-player.c:845
+#| msgid "Preview"
+msgid "No preview"
+msgstr "Χωρίς προεπισκόπηση"
+
+#: ../src/rejilla-project.c:194
+msgid "Save current project"
+msgstr "Αποθήκευση τρέχουσας εργασίας"
+
+#: ../src/rejilla-project.c:195
+msgid "Save _As…"
+msgstr "Απο_θήκευση ως…"
+
+#: ../src/rejilla-project.c:196
+msgid "Save current project to a different location"
+msgstr "Αποθήκευση τρέχουσας εργασίας σε διαφορετική τοποθεσία"
+
+#: ../src/rejilla-project.c:197
+msgid "_Add Files"
+msgstr "_Προσθήκη αρχείων"
+
+#: ../src/rejilla-project.c:198
+msgid "Add files to the project"
+msgstr "Προσθήκη αρχείων στην εργασία"
+
+#: ../src/rejilla-project.c:199
+msgid "_Remove Files"
+msgstr "Α_φαίρεση αρχείων"
+
+#. Translators: "empty" is a verb here
+#: ../src/rejilla-project.c:202 ../src/rejilla-project.c:2301
+msgid "E_mpty Project"
+msgstr "Άδεια_σμα εργασίας"
+
+#: ../src/rejilla-project.c:203
+msgid "Remove all files from the project"
+msgstr "Διαγραφή όλων των αρχείων από την εργασία"
+
+#: ../src/rejilla-project.c:204 ../src/rejilla-project.c:1076
+msgid "_Burn…"
+msgstr "Ε_γγραφή…"
+
+#: ../src/rejilla-project.c:205
+msgid "Burn the disc"
+msgstr "Εγγραφή του δίσκου"
+
+#: ../src/rejilla-project.c:687
+msgid ""
+"To add files to this project click the \"Add\" button or drag files to this "
+"area"
+msgstr ""
+"Για να προσθέσετε αρχεία σε αυτή την εργασία πατήστε το κουμπί \"Προσθήκη\" "
+"ή σύρετε τα αρχεία σε αυτή την περιοχή"
+
+#: ../src/rejilla-project.c:689
+msgid ""
+"To remove files select them then click on the \"Remove\" button or press "
+"\"Delete\" key"
+msgstr ""
+"Για να απομακρύνετε αρχεία, επιλέξτε τα και πατήστε το κουμπί  \"Απομάκρυνση"
+"\" ή το πλήκτρο \"Delete\""
+
+#: ../src/rejilla-project.c:796
+#, c-format
+msgid "Estimated project size: %s"
+msgstr "Εκτιμώμενο μέγεθος έργου: %s"
+
+#: ../src/rejilla-project.c:942 ../src/rejilla-project.c:958
+msgid "The project is too large for the disc even with the overburn option."
+msgstr ""
+"Το μέγεθος του έργου είναι πολύ μεγάλο για τον δίσκο ακόμα και με την "
+"επιλογή overburn."
+
+#: ../src/rejilla-project.c:969
+msgid ""
+"The project is too large for the disc and you must remove files from it.\n"
+"You may want to use this option if you're using 90 or 100 min CD-R(W) which "
+"cannot be properly recognized and therefore needs the overburn option.\n"
+"Note: This option might cause failure."
+msgstr ""
+"Το μέγεθος του έργου είναι πολύ μεγάλο για τον δίσκο και πρέπει να "
+"αφαιρέσετε αρχεία.\n"
+"Ίσως χρειαστεί να χρησιμοποιήσετε αυτή την επιλογή αν χρησιμοποιείτε δίσκους "
+"CD-R(W) των 90 ή 100 λεπτών οι οποίοι δεν αναγνωρίζονται σωστά και "
+"χρειάζονται την επιλογή overburn.\n"
+"ΣΗΜΕΙΩΣΗ: Αυτή η επιλογή ίσως προκαλέσει αποτυχία εγγραφής."
+
+#: ../src/rejilla-project.c:1088
+msgid "Start to burn the contents of the selection"
+msgstr "Έναρξη εγγραφής των περιεχομένων της επιλογής"
+
+#: ../src/rejilla-project.c:1257
+msgid "Please add songs to the project."
+msgstr "Παρακαλώ προσθέστε τραγούδια στην εργασία."
+
+#: ../src/rejilla-project.c:1895 ../src/rejilla-project.c:1930
+msgid "Do you really want to create a new project and discard the current one?"
+msgstr ""
+"Θέλετε πραγματικά να δημιουργήσετε νέα εργασία και να απορρίψετε την "
+"τρέχουσα;"
+
+#: ../src/rejilla-project.c:1900
+msgid "If you choose to create a new empty project, all changes will be lost."
+msgstr ""
+"Αν επιλέξετε να δημιουργήσετε νέα εργασία, όλες οι αλλαγές που έχετε κάνει "
+"θα χαθούν."
+
+#: ../src/rejilla-project.c:1903
+msgid "_Discard Changes"
+msgstr "Α_πόρριψη αλλαγών"
+
+#: ../src/rejilla-project.c:1911
+msgid "Do you want to discard the file selection or add it to the new project?"
+msgstr ""
+"Θέλετε να απορρίψετε τις επιλογλες αρχείων ή θέλετε να προστεθούν σε νέο "
+"έργο;"
+
+#: ../src/rejilla-project.c:1916 ../src/rejilla-project.c:1935
+msgid ""
+"If you choose to create a new empty project, the file selection will be "
+"discarded."
+msgstr ""
+"Αν επιλέξετε να δημιουργήσετε νέα εργασία, όλες οι επιλογές αρχείων που "
+"έχετε κάνει θα χαθούν."
+
+#: ../src/rejilla-project.c:1918
+msgid "_Discard File Selection"
+msgstr "Α_πόρριψη επιλογών αρχείων"
+
+#: ../src/rejilla-project.c:1922
+msgid "_Keep File Selection"
+msgstr "_Διατήρηση επιλογών αρχείων"
+
+#: ../src/rejilla-project.c:1937
+msgid "_Discard Project"
+msgstr "Από_ρριψη εργασίας"
+
+#: ../src/rejilla-project.c:2177
+msgid "Select Files"
+msgstr "Επιλογή αρχείων"
+
+#: ../src/rejilla-project.c:2290
+msgid "Do you really want to empty the current project?"
+msgstr "Θέλετε πραγματικά να αδειάσετε την τρέχουσα εργασία;"
+
+#: ../src/rejilla-project.c:2295
+msgid ""
+"Emptying a project will remove all files already added. All the work will be "
+"lost. Note that files will not be deleted from their own location, just no "
+"longer listed here."
+msgstr ""
+"Το άδειασμα της εργασίας θα αφαιρέσει όλα τα αρχεία που έχουν προστεθεί ήδη. "
+"Όλη η εργασία θα χαθεί. Σημειώστε ότι τα αρχεία δεν θα διαγραφούν από την "
+"τοποθεσία τους , απλά δεν θα βρίσκονται στην τρέχουσα λίστα της εργασίας."
+
+#: ../src/rejilla-project.c:2352
+msgid "_Save"
+msgstr "Απο_θήκευση"
+
+#: ../src/rejilla-project.c:2363
+msgid "_Add"
+msgstr "_Προσθήκη"
+
+#: ../src/rejilla-project.c:2368 ../src/rejilla-split-dialog.c:1255
+msgid "_Remove"
+msgstr "Α_φαίρεση"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2432
+#, c-format
+msgid "Rejilla — %s (Data Disc)"
+msgstr "Rejilla - %s (δίσκος δεδομένων)"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2435
+#, c-format
+msgid "Rejilla — %s (Audio Disc)"
+msgstr "Rejilla - %s (δίσκος ήχου)"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2438
+#, c-format
+msgid "Rejilla — %s (Video Disc)"
+msgstr "Rejilla - %s (δίσκος βίντεο)"
+
+#: ../src/rejilla-project.c:2608 ../src/rejilla-project.c:2911
+msgid "Your project has not been saved."
+msgstr "Η εργασίας σας δεν έχει αποθηκευτεί."
+
+#: ../src/rejilla-project.c:2622
+msgid "Save the changes of current project before closing?"
+msgstr "Να αποθηκευτούν οι αλλαγές της τρέχουσας εργασίας πριν τον τερματισμό;"
+
+#: ../src/rejilla-project.c:2627 ../src/rejilla-project.c:2916
+msgid "If you don't save, changes will be permanently lost."
+msgstr "Αν δεν αποθηκεύσετε, οι αλλαγές θα χαθούν μόνιμα."
+
+#: ../src/rejilla-project.c:2631 ../src/rejilla-project.c:2637
+#: ../src/rejilla-project.c:2919
+msgid "Cl_ose Without Saving"
+msgstr "Τε_ρματισμός χωρίς αποθήκευση"
+
+#: ../src/rejilla-project.c:2719
+msgid "Save Current Project"
+msgstr "Αποθήκευση τρέχουσας εργασίας"
+
+#: ../src/rejilla-project.c:2737
+msgid "Save project as a Rejilla audio project"
+msgstr "Αποθήκευση εργασίας ως εργασία ήχου του Rejilla"
+
+#: ../src/rejilla-project.c:2738
+msgid "Save project as a plain text list"
+msgstr "Αποθήκευση εργασίας ως λίστας απλού κειμένου"
+
+#: ../src/rejilla-project.c:2742
+msgid "Save project as a PLS playlist"
+msgstr "Αποθήκευση εργασίας ως λίστας αναπαραγωγής PLS"
+
+#: ../src/rejilla-project.c:2743
+msgid "Save project as an M3U playlist"
+msgstr "Αποθήκευση εργασίας ως λίστας αναπαραγωγής M3U"
+
+#: ../src/rejilla-project.c:2744
+msgid "Save project as an XSPF playlist"
+msgstr "Αποθήκευση εργασίας ως λίστας αναπαραγωγής XSPF"
+
+#: ../src/rejilla-project.c:2745
+msgid "Save project as an iriver playlist"
+msgstr "Αποθήκευση εργασίας ως λίστας αναπαραγωγής iriver"
+
+#: ../src/rejilla-project-manager.c:99
+msgid "_Cover Editor"
+msgstr "Ε_πεξεργαστής εξωφύλλου"
+
+#: ../src/rejilla-project-manager.c:100
+msgid "Design and print covers for CDs"
+msgstr "Σχεδίαση και εκτύπωση εξωφύλλων για CD"
+
+#: ../src/rejilla-project-manager.c:101
+msgid "_New Project"
+msgstr "_Νέα εργασία"
+
+#: ../src/rejilla-project-manager.c:102
+msgid "Create a new project"
+msgstr "Δημιουργία νέας εργασίας"
+
+#: ../src/rejilla-project-manager.c:103
+msgid "_Empty Project"
+msgstr "Ά_δειασμα εργασίας"
+
+#: ../src/rejilla-project-manager.c:104
+msgid "Let you choose your new project"
+msgstr "Να σας επιτρέπεται να επιλέξετε τη νέα εργασία σας"
+
+#: ../src/rejilla-project-manager.c:105
+msgid "New _Audio Project"
+msgstr "Νέα εργασία ή_χου"
+
+#: ../src/rejilla-project-manager.c:106
+#: ../src/rejilla-project-type-chooser.c:74
+msgid ""
+"Create a traditional audio CD that will be playable on computers and stereos"
+msgstr ""
+"Δημιουργία παραδοσιακού CD ήχου που μπορεί να αναπαράγεται σε υπολογιστές "
+"και στερεοφωνικά"
+
+#: ../src/rejilla-project-manager.c:107
+msgid "New _Data Project"
+msgstr "Νέα εργασία _δεδομένων"
+
+#: ../src/rejilla-project-manager.c:108
+#: ../src/rejilla-project-type-chooser.c:79
+msgid ""
+"Create a CD/DVD containing any type of data that can only be read on a "
+"computer"
+msgstr ""
+"Δημιουργήστε ένα CD/DVD που να περιέχει όλους τους τύπους δεδομένων που "
+"μπορούν να αναγνωστούν μόνο στον υπολογιστή"
+
+#: ../src/rejilla-project-manager.c:109
+msgid "New _Video Project"
+msgstr "Νέα εργασία _βίντεο"
+
+#: ../src/rejilla-project-manager.c:110
+#: ../src/rejilla-project-type-chooser.c:84
+#| msgid "Create a video DVD or an SVCD that are readable on TV readers"
+msgid "Create a video DVD or an SVCD that is readable on TV readers"
+msgstr ""
+"Δημιουργία βίντεο DVD ή SVCD που είναι αναγνώσιμα από συσκευές αναπαραγωγής "
+"ενσωματωμένες σε τηλεοράσεις."
+
+#: ../src/rejilla-project-manager.c:111
+msgid "Copy _Disc…"
+msgstr "Αντιγραφή _δίσκου…"
+
+#: ../src/rejilla-project-manager.c:112
+#: ../src/rejilla-project-type-chooser.c:89
+msgid ""
+"Create a 1:1 copy of an audio CD or a data CD/DVD on your hard disk or on "
+"another CD/DVD"
+msgstr ""
+"Δημιουργήστε ένα ακριβές αντίγραφο ενός CD ήχου ή CD/DVD δεδομένων στο "
+"σκληρό σας δίσκο ή σ' ένα άλλο CD/DVD"
+
+#: ../src/rejilla-project-manager.c:113
+msgid "_Burn Image…"
+msgstr "Ε_γγραφή εικόνας δίσκου…"
+
+#: ../src/rejilla-project-manager.c:114
+#: ../src/rejilla-project-type-chooser.c:93
+#: ../src/rejilla-project-type-chooser.c:94
+msgid "Burn an existing CD/DVD image to disc"
+msgstr "Εγγραφή υπάρχουσας εικόνας CD/DVD στο δίσκο"
+
+#: ../src/rejilla-project-manager.c:116
+msgid "_Open…"
+msgstr "Άν_οιγμα…"
+
+#: ../src/rejilla-project-manager.c:117
+msgid "Open a project"
+msgstr "Άνοιγμα εργασίας"
+
+#. Translators: the %s is a string representing the total size
+#. * of the file selection
+#: ../src/rejilla-project-manager.c:263
+#, c-format
+msgid "%d file selected (%s)"
+msgid_plural "%d files selected (%s)"
+msgstr[0] "Το αρχείο %d επιλέχτηκε (%s)"
+msgstr[1] "Επιλέχτηκαν %d αρχεία (%s)"
+
+#: ../src/rejilla-project-manager.c:274
+#, c-format
+msgid "%d file is supported (%s)"
+msgid_plural "%d files are supported (%s)"
+msgstr[0] "Το αρχείο %d υποστηρίζεται (%s)"
+msgstr[1] "Υποστηρίζονται %d αρχεία (%s)"
+
+#: ../src/rejilla-project-manager.c:280
+#, c-format
+msgid "%d file can be added (%s)"
+msgid_plural "%d selected files can be added (%s)"
+msgstr[0] "Το αρχείο %d μπορεί να προστεθεί (%s)"
+msgstr[1] "%d επιλεγμένα αρχεία μπορούν να προστεθούν (%s)"
+
+#: ../src/rejilla-project-manager.c:291
+#, c-format
+msgid "No file can be added (%i selected file)"
+msgid_plural "No file can be added (%i selected files)"
+msgstr[0] "Κανένα αρχείο δεν μπορεί να προστεθεί (%i επιλεγμένο αρχείο)"
+msgstr[1] "Κανένα αρχείο δεν μπορεί να προστεθεί (%i επιλεγμένα αρχεία)"
+
+#: ../src/rejilla-project-manager.c:297
+#, c-format
+msgid "No file is supported (%i selected file)"
+msgid_plural "No file is supported (%i selected files)"
+msgstr[0] "Κανένα αρχείο δεν υποστηρίζεται (%i επιλεγμένο αρχείο)"
+msgstr[1] "Κανένα αρχείο δεν υποστηρίζεται (%i επιλεγμένα αρχεία)"
+
+#: ../src/rejilla-project-manager.c:303 ../src/rejilla-project-manager.c:457
+msgid "No file selected"
+msgstr "Κανένα αρχείο δεν επιλέχτηκε"
+
+#: ../src/rejilla-project-manager.c:594
+msgid "Rejilla — New Audio Disc Project"
+msgstr "Rejilla - Νέα εργασία δίσκου ήχου"
+
+#: ../src/rejilla-project-manager.c:608
+msgid "Rejilla — New Data Disc Project"
+msgstr "Rejilla - Νέα εργασία δίσκου δεδομένων"
+
+#: ../src/rejilla-project-manager.c:622
+msgid "Rejilla — New Video Disc Project"
+msgstr "Rejilla - Νέα εργασία δίσκου βίντεο"
+
+#: ../src/rejilla-project-manager.c:632
+msgid "Rejilla — New Image File"
+msgstr "Rejilla - Νέο αρχείο εικόνας"
+
+#: ../src/rejilla-project-manager.c:647
+msgid "Rejilla — Disc Copy"
+msgstr "Rejilla - Αντιγραφή δίσκου"
+
+#: ../src/rejilla-project-manager.c:731
+msgid "Open Project"
+msgstr "Άνοιγμα εργασίας"
+
+#: ../src/rejilla-project-manager.c:834
+msgid "_New"
+msgstr "_Νέο"
+
+#: ../src/rejilla-project-manager.c:838
+msgid "_Open"
+msgstr "Άν_οιγμα"
+
+#: ../src/rejilla-project-manager.c:889
+msgid "Browse the file system"
+msgstr "Περιήγηση στο σύστημα αρχείων"
+
+#: ../src/rejilla-project-manager.c:912
+msgid "Search files using keywords"
+msgstr "Εύρεση αρχείων χρησιμοποιώντας λέξεις κλειδιά"
+
+#: ../src/rejilla-project-manager.c:932
+msgid "Display playlists and their contents"
+msgstr "Προβολή λιστών αναπαραγωγής και των περιεχομένων τους"
+
+#: ../src/rejilla-project-type-chooser.c:72
+msgid "Audi_o project"
+msgstr "Εργασία ή_χου"
+
+#: ../src/rejilla-project-type-chooser.c:73
+msgid "Create a traditional audio CD"
+msgstr "Δημιουργία CD παραδοσιακού ήχου"
+
+#: ../src/rejilla-project-type-chooser.c:77
+msgid "D_ata project"
+msgstr "Εργασία _δεδομένων"
+
+#: ../src/rejilla-project-type-chooser.c:78
+msgid "Create a data CD/DVD"
+msgstr "Δημιουργία CD/DVD δεδομένων"
+
+#: ../src/rejilla-project-type-chooser.c:82
+msgid "_Video project"
+msgstr "Εργασία _βίντεο"
+
+#: ../src/rejilla-project-type-chooser.c:83
+msgid "Create a video DVD or an SVCD"
+msgstr "Δημιουργία βίντεο DVD ή SVCD"
+
+#: ../src/rejilla-project-type-chooser.c:87
+msgid "Disc _copy"
+msgstr "Αντι_γραφή δίσκων"
+
+#: ../src/rejilla-project-type-chooser.c:88
+msgid "Create 1:1 copy of a CD/DVD"
+msgstr "Δημιουργήστε αντίγραφο ενός CD/DVD"
+
+#: ../src/rejilla-project-type-chooser.c:92
+msgid "Burn _image"
+msgstr "Εγγραφή εικό_νας"
+
+#: ../src/rejilla-project-type-chooser.c:291
+msgid "Last _Unsaved Project"
+msgstr "Τελευταία _μη αποθηκευμένη εργασία"
+
+#: ../src/rejilla-project-type-chooser.c:307
+msgid "Load the last project that was not burned and not saved"
+msgstr "Φόρτωση της τελευταίας εργασίας που δεν εγγράφηκε και δεν αποθηκεύτηκε"
+
+#: ../src/rejilla-project-type-chooser.c:413
+msgid "No recently used project"
+msgstr "Δεν υπάρχει πρόσφατη χρησιμοποιημένη εργασία"
+
+#: ../src/rejilla-project-type-chooser.c:475
+msgid "Create a new project:"
+msgstr "Δημιουργία νέας εργασίας:"
+
+#: ../src/rejilla-project-type-chooser.c:521
+msgid "Recent projects:"
+msgstr "Πρόσφατες εργασίες:"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:134
+#: ../librejilla-burn/rejilla-sum-dialog.c:215
+msgid "Check _Again"
+msgstr "Επα_νάληψη ελέγχου"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:165
+#: ../librejilla-burn/rejilla-sum-dialog.c:514
+msgid "The file integrity check could not be performed."
+msgstr "Δεν είναι δυνατή η πραγματοποίηση του ελέγχου ακεραιότητας αρχείου."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:178
+#| msgid "The file integrity was performed successfully."
+msgid "The file integrity check was performed successfully."
+msgstr "Ο έλεγχος ακεραιότητας του αρχείου ολοκληρώθηκε με επιτυχία."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:179
+msgid "There seem to be no corrupted files on the disc"
+msgstr "Δεν φαίνεται να υπάρχει κανένα κατεστραμμένο αρχείο στο δίσκο"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:207
+msgid "The following files appear to be corrupted:"
+msgstr "Τα ακόλουθα αρχεία φαίνονται να είναι κατεστραμμένα:"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:250
+msgid "Corrupted Files"
+msgstr "Κατεστραμμένα αρχεία"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:342
+msgid "Downloading MD5 file"
+msgstr "Λήψη αρχείου md5"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:397
+#, c-format
+msgid "\"%s\" is not a valid URI"
+msgstr "Το \"%s\" δεν είναι έγκυρη τοποθεσία (URI)"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:515
+msgid "No MD5 file was given."
+msgstr "Δε δόθηκε αρχείο md5."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:692
+msgid "Use an _MD5 file to check the disc"
+msgstr "Χρησιμοποιήστε ένα αρχείο τύπου _md5 για να ελέγξετε το δίσκο"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:693
+msgid "Use an external .md5 file that stores the checksum of a disc"
+msgstr ""
+"Χρησιμοποιήστε ένα εξωτερικό αρχείο τύπου .md5 που αποθηκεύει τον έλεγχο "
+"αθροίσματος του δίσκου"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:706
+msgid "Open an MD5 file"
+msgstr "Άνοιγμα ενός αρχείου md5"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:721
+msgid "_Check"
+msgstr "Έ_λεγχος"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:752
+msgid "Disc Checking"
+msgstr "Έλεγχος δίσκου"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:147
+#, c-format
+msgid "Estimated size: %s"
+msgstr "Εκτιμώμενο μέγεθος: %s"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:569
+msgid "Size Estimation"
+msgstr "Εκτίμηση μεγέθους"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:571
+msgid "Please wait until the estimation of the size is completed."
+msgstr "Παρακαλώ περιμένετε να ολοκληρωθεί ο υπολογισμός του μεγέθους."
+
+#: ../librejilla-burn/rejilla-status-dialog.c:572
+msgid "All files need to be analysed to complete this operation."
+msgstr "Όλα τα αρχεία πρέπει να αναλυθούν για να ολοκληρωθεί η λειτουργία."
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:78
+#: ../librejilla-burn/rejilla-tool-dialog.c:92
+#: ../librejilla-burn/rejilla-tool-dialog.c:102
+msgid "The operation cannot be performed."
+msgstr "Δεν είναι δυνατή η πραγματοποίηση της λειτουργίας."
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:79
+#: ../plugins/cdrkit/burn-wodim.c:151 ../plugins/cdrkit/burn-wodim.c:421
+#: ../plugins/cdrtools/burn-cdrecord.c:151
+#: ../plugins/cdrtools/burn-cdrecord.c:407
+#: ../plugins/growisofs/burn-dvd-rw-format.c:77
+#: ../plugins/libburnia/burn-libburn.c:609
+#, c-format
+msgid "The disc is not supported"
+msgstr "Ο δίσκος δεν υποστηρίζεται"
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:103
+msgid "The drive is empty"
+msgstr "Ο οδηγός είναι κενός"
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:541
+#: ../src/rejilla-eject-dialog.c:165
+msgid "Select a disc"
+msgstr "Επιλέξτε δίσκο"
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:574
+msgid "Progress"
+msgstr "Πρόοδος"
+
+#: ../src/main.c:81
+msgid "[URI] [URI] …"
+msgstr "[URI] [URI] …"
+
+#: ../src/main.c:93
+#, c-format
+msgid "Please type \"%s --help\" to see all available options\n"
+msgstr ""
+"Παρακαλώ πληκτρολογήστε %s --help για να δείτε όλες τις διαθέσιμες επιλογές\n"
+
+#: ../plugins/audio2cue/burn-audio2cue.c:191
+#: ../plugins/checksum/burn-checksum-image.c:124
+#, c-format
+msgid "Data could not be read (%s)"
+msgstr "Δεν ήταν δυνατή η ανάγνωση των αρχείων (%s)"
+
+#: ../plugins/audio2cue/burn-audio2cue.c:241
+#: ../plugins/dvdcss/burn-dvdcss.c:218 ../plugins/dvdcss/burn-dvdcss.c:477
+#: ../plugins/libburnia/burn-libisofs.c:163
+#: ../plugins/libburnia/burn-libisofs.c:266
+#: ../plugins/checksum/burn-checksum-files.c:196
+#: ../plugins/checksum/burn-checksum-files.c:219
+#: ../plugins/checksum/burn-checksum-image.c:174
+#, c-format
+msgid "Data could not be written (%s)"
+msgstr "Δεν ήταν δυνατή η εγγραφή των δεδομένων (%s)"
+
+#: ../plugins/audio2cue/burn-audio2cue.c:723
+msgid "Generates .cue files from audio"
+msgstr "Δημιουργεί αρχεία .cue από αρχεία ήχου"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:55
+msgid "cdrdao burning suite"
+msgstr "Σουίτα εγγραφής δίσκων cdrdao"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:103
+msgid "Copying audio track"
+msgstr "Αντιγραφή κομματιού ήχου"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:109
+msgid "Copying data track"
+msgstr "Αντιγραφή κομματιού δεδομένων"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:145
+#, c-format
+msgid "Analysing track %02i"
+msgstr "Ανάλυση %02i κομματιού"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:249 ../plugins/cdrkit/burn-readom.c:116
+#: ../plugins/cdrkit/burn-readom.c:122 ../plugins/cdrkit/burn-wodim.c:106
+#: ../plugins/cdrtools/burn-cdrecord.c:106
+#: ../plugins/cdrtools/burn-readcd.c:117 ../plugins/cdrtools/burn-readcd.c:123
+#, c-format
+msgid "You do not have the required permissions to use this drive"
+msgstr ""
+"Δεν έχετε τα απαιτούμενα δικαιώματα για να χρησιμοποιήσετε αυτόν τον οδηγό"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:480
+msgid "Converting toc file"
+msgstr "Μετατροπή αρχείου toc"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:697
+msgid "Copies, burns and blanks CDs"
+msgstr "Αντιγραφή, εγγραφή και άδειασμα κενών CD"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:762
+msgid "Enable the \"--driver generic-mmc-raw\" flag (see cdrdao manual)"
+msgstr ""
+"Ενεργοποίηση σημαίας \"--driver generic-mmc-raw\" (δείτε το εγχειρίδιο του "
+"cdrdao)"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:121
+#: ../plugins/cdrtools/burn-mkisofs.c:122
+#: ../plugins/growisofs/burn-growisofs.c:204
+#: ../plugins/libburnia/burn-libisofs.c:501
+#, c-format
+msgid "Last session import failed"
+msgstr "Απέτυχη η εισαγωγή της τελευταίας συνεδρίας"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:127
+#: ../plugins/cdrkit/burn-genisoimage.c:134
+#: ../plugins/cdrtools/burn-mkisofs.c:128
+#: ../plugins/cdrtools/burn-mkisofs.c:135
+#: ../plugins/growisofs/burn-growisofs.c:210
+#: ../plugins/growisofs/burn-growisofs.c:217
+msgid "An image could not be created"
+msgstr "Δεν ήταν δυνατή η δημιουργία της εικόνας"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:140
+msgid "This version of genisoimage is not supported"
+msgstr "Δεν υποστηρίζεται αυτή η έκδοση του genisoimage"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:182
+#: ../plugins/cdrtools/burn-mkisofs.c:183
+#: ../plugins/growisofs/burn-growisofs.c:223
+msgid "Some files have invalid filenames"
+msgstr "Μερικά αρχεία έχουν μη έγκυρα ονόματα"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:188
+#: ../plugins/cdrtools/burn-mkisofs.c:189
+#: ../plugins/growisofs/burn-growisofs.c:229
+msgid "Unknown character encoding"
+msgstr "Άγνωστη κωδικοποίηση χαρακτήρων"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:194
+#: ../plugins/cdrtools/burn-mkisofs.c:195
+msgid "There is no space left on the device"
+msgstr "Δεν υπάρχει ελεύθερος χώρος στη συσκευή"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:529
+#: ../plugins/cdrtools/burn-mkisofs.c:534
+#: ../plugins/libburnia/burn-libisofs.c:1046
+msgid "Creates disc images from a file selection"
+msgstr "Δημιουργία εικόνων από επιλεγμένα αρχεία"
+
+#: ../plugins/cdrkit/burn-readom.c:136 ../plugins/cdrtools/burn-readcd.c:137
+#, c-format
+msgid ""
+"The location you chose to store the image on does not have enough free space "
+"for the disc image"
+msgstr ""
+"Η τοποθεσία που επιλέξατε για την αποθήκευση της εικόνας δεν έχει αρκετό "
+"ελεύθερο χώρο για την εικόνα δίσκου"
+
+#: ../plugins/cdrkit/burn-readom.c:450 ../plugins/cdrtools/burn-readcd.c:460
+msgid "Copies any disc to a disc image"
+msgstr "Αντιγραφή οποιουδήποτε δίσκου σε εικόνα"
+
+#: ../plugins/cdrkit/burn-wodim.c:122 ../plugins/cdrtools/burn-cdrecord.c:122
+#: ../plugins/libburnia/burn-libburn.c:855
+#: ../plugins/libburnia/burn-libburn.c:886
+#, c-format
+msgid "An error occurred while writing to disc"
+msgstr "Ένα σφάλμα συνέβηκε κατά την εγγραφή του δίσκου"
+
+#: ../plugins/cdrkit/burn-wodim.c:128 ../plugins/cdrtools/burn-cdrecord.c:128
+#, c-format
+msgid ""
+"The system is too slow to write the disc at this speed. Try a lower speed"
+msgstr ""
+"Το σύστημα είναι πολύ αργό για να εγγράψει το CD σε αυτήν την ταχύτητα. "
+"Χρησιμοποιήστε χαμηλότερη ταχύτητα"
+
+#. Translators: %s is the number of the track
+#: ../plugins/cdrkit/burn-wodim.c:255 ../plugins/cdrtools/burn-cdrecord.c:252
+#, c-format
+msgid "Writing track %s"
+msgstr "Εγγραφή κομματιού %s"
+
+#: ../plugins/cdrkit/burn-wodim.c:352 ../plugins/cdrtools/burn-cdrecord.c:346
+msgid "Formatting disc"
+msgstr "Μορφοποίηση δίσκου"
+
+#: ../plugins/cdrkit/burn-wodim.c:372 ../plugins/cdrtools/burn-cdrecord.c:358
+msgid "Writing cue sheet"
+msgstr "Εγγραφή φύλλου cue"
+
+#: ../plugins/cdrkit/burn-wodim.c:394 ../plugins/cdrtools/burn-cdrecord.c:380
+#, c-format
+msgid "The disc needs to be reloaded before being recorded"
+msgstr "Το μέσο χρειάζεται να φορτωθεί ξανά πριν να εγγραφεί"
+
+#: ../plugins/cdrkit/burn-wodim.c:1275
+msgid "Burns, blanks and formats CDs and DVDs"
+msgstr "Εγγραφή, άδειασμα και διαμόρφωση CD και DVD"
+
+#: ../plugins/cdrkit/burn-wodim.c:1419
+msgid "Enable the \"-immed\" flag (see wodim manual)"
+msgstr "Ενεργοποίηση σημαίας \"-immed\" (δείτε το εγχειρίδιο του wodim)"
+
+#: ../plugins/cdrkit/burn-wodim.c:1422
+msgid "Minimum drive buffer fill ratio (in %) (see wodim manual):"
+msgstr ""
+"Ελάχιστη αναλογία συμπλήρωσης ενδιάμεσης μνήμης του οδηγού (σε %) (δείτε το "
+"εγχειρίδιο του wodim):"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1209
+#: ../plugins/libburnia/burn-libburn.c:974
+msgid "Burns, blanks and formats CDs, DVDs and BDs"
+msgstr "Εγγραφή, άδειασμα και διαμόρφωση CD, DVD και BD"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1422
+msgid "Enable the \"-immed\" flag (see cdrecord manual)"
+msgstr "Ενεργοποίηση σημαίας \"-immed\" (δείτε το εγχειρίδιο του cdrecord)"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1425
+#, c-format
+msgid "Minimum drive buffer fill ratio (in %%) (see cdrecord manual):"
+msgstr ""
+"Ελάχιστη αναλογία συμπλήρωσης ενδιάμεσης μνήμης του οδηγού (σε %%) (δείτε το "
+"εγχειρίδιο του cdrecord):"
+
+#: ../plugins/cdrtools/burn-mkisofs.c:141
+msgid "This version of mkisofs is not supported"
+msgstr "Aυτή η έκδοση του mkisofs δεν υποστηρίζεται"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:278 ../plugins/dvdcss/burn-dvdcss.c:377
+#: ../plugins/dvdcss/burn-dvdcss.c:442 ../plugins/dvdcss/burn-dvdcss.c:465
+#, c-format
+msgid "Error while reading video DVD (%s)"
+msgstr "Σφάλμα κατά την ανάγνωση DVD βίντεο (%s)"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:323
+msgid "Retrieving DVD keys"
+msgstr "Ανάκτηση κλειδιών DVD"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:358
+#, c-format
+msgid "Video DVD could not be opened"
+msgstr "Δεν ήταν δυνατό το άνοιγμα του DVD"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:384
+#| msgid "Copying Video DVD"
+msgid "Copying video DVD"
+msgstr "Αντιγραφή DVD βίντεο"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:677
+#| msgid "Copies css encrypted Video DVDs to a disc image"
+msgid "Copies CSS encrypted video DVDs to a disc image"
+msgstr "Αντιγράφει Video DVD κρυπτογραφημένα με CSS σε μια εικόνα δίσκου"
+
+#: ../plugins/growisofs/burn-dvd-rw-format.c:190
+msgid "Blanks and formats rewritable DVDs and BDs"
+msgstr "Άδειασμα και διαμόρφωση επανεγγράψιμων DVD και BD"
+
+#: ../plugins/growisofs/burn-growisofs.c:753
+msgid "Burns and blanks DVDs and BDs"
+msgstr "Εγγραφή και άδειασμα κενών DVD και BD"
+
+#: ../plugins/growisofs/burn-growisofs.c:924
+msgid "Allow DAO use"
+msgstr "Να επιτρέπεται η χρήση DAO"
+
+#: ../plugins/libburnia/burn-libburn.c:242
+#: ../plugins/libburnia/burn-libburn.c:250
+#, c-format
+msgid "libburn track could not be created"
+msgstr "Δεν ήταν δυνατή η δημιουργία του κομματιού libburn"
+
+#. Translators: first %s is the filename, second %s is the error
+#. * generated from errno
+#. Translators: first %s is the filename, second %s
+#. * is the error generated from errno
+#: ../plugins/libburnia/burn-libburn.c:678
+#: ../plugins/checksum/burn-checksum-image.c:313
+#, c-format
+msgid "\"%s\" could not be opened (%s)"
+msgstr "Το \"%s\" δε μπόρεσε να ανοικτεί (%s)"
+
+#: ../plugins/libburnia/burn-libburn-common.c:158
+#, c-format
+msgid "libburn library could not be initialized"
+msgstr "Δεν ήταν δυνατή η αρχικοποίηση της βιβλιοθήκης Libburn"
+
+#: ../plugins/libburnia/burn-libburn-common.c:173
+#, c-format
+msgid "The drive address could not be retrieved"
+msgstr "H διεύθυνση του οδηγού δεν ήταν δυνατό να ανακτηθεί"
+
+#: ../plugins/libburnia/burn-libburn-common.c:417
+#, c-format
+msgid "Writing track %02i"
+msgstr "Εγγραφή κομματιού %02i"
+
+#: ../plugins/libburnia/burn-libisofs.c:328
+#: ../plugins/libburnia/burn-libisofs.c:868
+#, c-format
+msgid "libisofs could not be initialized."
+msgstr "Δεν ήταν δυνατή η αρχικοποίηση του Libisofs."
+
+#: ../plugins/libburnia/burn-libisofs.c:468
+#, c-format
+msgid "Read options could not be created"
+msgstr "Δεν ήταν δυνατή η δημιουργία επιλογών ανάγνωσης"
+
+#: ../plugins/libburnia/burn-libisofs.c:554
+#, c-format
+msgid "Volume could not be created"
+msgstr "Δεν ήταν δυνατή η δημιουργία του τόμου"
+
+#. Translators: %s is the path
+#: ../plugins/libburnia/burn-libisofs.c:667
+#, c-format
+msgid "No parent could be found in the tree for the path \"%s\""
+msgstr "Δεν ήταν δυνατό να βρεθεί το γονέας στη διαδρομή \"%s\""
+
+#: ../plugins/libburnia/burn-libisofs.c:727
+#: ../plugins/libburnia/burn-libisofs.c:794
+#, c-format
+msgid "libisofs reported an error while creating directory \"%s\""
+msgstr ""
+"Το libisofs ανέφερε ένα σφάλμα κατά την δημιουργία του καταλόγου \"%s\""
+
+#: ../plugins/libburnia/burn-libisofs.c:742
+#, c-format
+msgid ""
+"libisofs reported an error while adding contents to directory \"%s\" (%x)"
+msgstr ""
+"Το libisofs ανέφερε ένα σφάλμα κατά την προσθήκη περιεχομένων στον κατάλογο "
+"\"%s\" (%x)"
+
+#: ../plugins/libburnia/burn-libisofs.c:765
+#: ../plugins/libburnia/burn-libisofs.c:781
+#, c-format
+msgid "libisofs reported an error while adding file at path \"%s\""
+msgstr ""
+"Το libisofs ανέφερε ένα σφάλμα κατά την προσθήκη αρχείου από τη διαδρομή \"%s"
+"\""
+
+#: ../plugins/local-track/burn-local-image.c:260
+msgid "Copying checksum file"
+msgstr "Αντιγραφή αρχείου αθροίσματος ελέγχου"
+
+#: ../plugins/local-track/burn-local-image.c:544
+#, c-format
+msgid "Copying `%s` locally"
+msgstr "Αντιγραφή του `%s` τοπικά"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/local-track/burn-local-image.c:911
+msgid "File Downloader"
+msgstr "Μεταφορά αρχείων"
+
+#: ../plugins/local-track/burn-local-image.c:912
+msgid "Allows files not stored locally to be burned"
+msgstr "Επιτρέπει την εγγραφή αρχείων που δεν είναι αποθηκευμένα τοπικά"
+
+#. Translators: This message is sent
+#. * when rejilla could not link together
+#. * two gstreamer plugins so that one
+#. * sends its data to the second for further
+#. * processing. This data transmission is
+#. * done through a pad. Maybe this is a bit
+#. * too technical and should be removed?
+#: ../plugins/transcode/burn-normalize.c:199
+#: ../plugins/transcode/burn-normalize.c:260
+#: ../plugins/transcode/burn-transcode.c:318
+#: ../plugins/transcode/burn-transcode.c:356
+#: ../plugins/transcode/burn-transcode.c:553
+#: ../plugins/transcode/burn-transcode.c:663
+#: ../plugins/transcode/burn-transcode.c:694
+#: ../plugins/transcode/burn-transcode.c:715
+#: ../plugins/transcode/burn-vob.c:198 ../plugins/transcode/burn-vob.c:404
+#: ../plugins/transcode/burn-vob.c:564 ../plugins/transcode/burn-vob.c:697
+#: ../plugins/transcode/burn-vob.c:1061 ../plugins/transcode/burn-vob.c:1137
+#: ../plugins/transcode/burn-vob.c:1188
+#, c-format
+msgid "Impossible to link plugin pads"
+msgstr "Αδύνατη η σύνδεση των πρόσθετων"
+
+#: ../plugins/transcode/burn-normalize.c:556
+msgid "Normalizing tracks"
+msgstr "Κανονικοποίηση κομματιών"
+
+#: ../plugins/transcode/burn-normalize.c:646
+#| msgid "Normalize"
+msgid "Normalization"
+msgstr "Κανονικοποίηση"
+
+#: ../plugins/transcode/burn-normalize.c:647
+msgid "Sets consistent sound levels between tracks"
+msgstr "Ορίζει την σωστή στοίχιση επιπέδων ήχων ανάμεσα στα κομμάτια"
+
+#. Translators: %s is the string error from errno
+#: ../plugins/transcode/burn-transcode.c:1086
+#: ../plugins/transcode/burn-transcode.c:1274
+#, c-format
+msgid "Error while padding file (%s)"
+msgstr "Σφάλμα κατά την συμπλήρωση (%s)"
+
+#: ../plugins/transcode/burn-transcode.c:1350
+#, c-format
+msgid "Error while getting duration"
+msgstr "Σφάλμα κατά την ανάκτηση διάρκειας"
+
+#: ../plugins/transcode/burn-transcode.c:1499
+#, c-format
+msgid "Analysing \"%s\""
+msgstr "Ανάλυση του \"%s\""
+
+#: ../plugins/transcode/burn-transcode.c:1536
+#, c-format
+msgid "Transcoding \"%s\""
+msgstr "Κωδικοποίηση του \"%s\""
+
+#: ../plugins/transcode/burn-transcode.c:1773
+msgid "Converts any song file into a format suitable for audio CDs"
+msgstr ""
+"Μετατρέπει οποιοδήποτε αρχείο βίντεο σε μορφοποίηση κατάλληλη για DVD βίντεο"
+
+#: ../src/rejilla-split-dialog.c:166
+msgid "Do you really want to split the track?"
+msgstr "Θέλετε πραγματικά να διαχωρίσετε το κομμάτι;"
+
+#: ../src/rejilla-split-dialog.c:169
+msgid ""
+"If you split the track, the size of the new track will be shorter than 6 "
+"seconds and will be padded."
+msgstr ""
+"Εάν διαχωρίσετε το κομμάτι, το μέγεθος του νέου κομματιού θα είναι μικρότερο "
+"από 6 δευτερόλεπτα και θα συμπληρωθεί."
+
+#: ../src/rejilla-split-dialog.c:175 ../src/rejilla-split-dialog.c:748
+msgid "_Split"
+msgstr "Δια_χωρισμός"
+
+#: ../src/rejilla-split-dialog.c:603
+msgid "The track wasn't split."
+msgstr "Το κομμάτι δεν διαχωρίστηκε."
+
+#: ../src/rejilla-split-dialog.c:604
+msgid "No silence could be detected"
+msgstr "Δεν ήταν δυνατή η ανάκτηση σιωπής"
+
+#: ../src/rejilla-split-dialog.c:627
+msgid "An error occurred while detecting silences."
+msgstr "Ένα σφάλμα συνέβηκε κατά την ανίχνευση σιωπών."
+
+#: ../src/rejilla-split-dialog.c:706
+msgid "This will remove all previous results."
+msgstr "Θα διαγράψει όλα τα προηγούμενα αποτελέσματα."
+
+#: ../src/rejilla-split-dialog.c:746
+msgid "Do you really want to carry on with automatic splitting?"
+msgstr "Θέλετε πραγματικά να συνεχίσετε με αυτόματο διαχωρισμό;"
+
+#: ../src/rejilla-split-dialog.c:747
+msgid "_Don't split"
+msgstr "Όχι _διαχωρισμός"
+
+#: ../src/rejilla-split-dialog.c:965
+msgid "Do you really want to empty the slices preview?"
+msgstr "Θέλετε πραγματικά να αδειάσετε την προεπισκόπηση τμημάτων;"
+
+#: ../src/rejilla-split-dialog.c:967 ../src/rejilla-split-dialog.c:1269
+msgid "Re_move All"
+msgstr "Αφαί_ρεση όλων"
+
+#: ../src/rejilla-split-dialog.c:1053
+msgid "Split Track"
+msgstr "Διαχωρισμός κομματιού"
+
+#: ../src/rejilla-split-dialog.c:1072
+msgid "M_ethod:"
+msgstr "_Μέθοδος:"
+
+#: ../src/rejilla-split-dialog.c:1078
+msgid "Method to be used to split the track"
+msgstr "Μέθοδος που θα χρησιμοποιηθεί για το διαχωρισμό του κομματιού"
+
+#: ../src/rejilla-split-dialog.c:1081
+msgid "Split track manually"
+msgstr "Χειροκίνητος διαχωρισμός κομματιού"
+
+#: ../src/rejilla-split-dialog.c:1082
+msgid "Split track in parts with a fixed length"
+msgstr "Διαχωρισμός κομματιού σε μέρη με διορθωμένη διάρκεια"
+
+#: ../src/rejilla-split-dialog.c:1083
+msgid "Split track in a fixed number of parts"
+msgstr "Διαχωρισμός κομματιού σε διορθωμένο αριθμό μερών"
+
+#: ../src/rejilla-split-dialog.c:1084
+msgid "Split track for each silence"
+msgstr "Διαχωρισμός κομματιού για κάθε σιωπή"
+
+#: ../src/rejilla-split-dialog.c:1090
+msgid "_Slice"
+msgstr "Τε_μαχισμός"
+
+#: ../src/rejilla-split-dialog.c:1101
+msgid "Add a splitting point"
+msgstr "Πιέστε για προσθήκη σημείου διαχωρισμού"
+
+#. Translators: this goes with the next (= "seconds")
+#: ../src/rejilla-split-dialog.c:1118
+msgid "Split this track every"
+msgstr "Διαχωρισμός αυτού του αρχείου κάθε"
+
+#. Translators: this goes with the previous (= "Split track every")
+#: ../src/rejilla-split-dialog.c:1127
+msgid "seconds"
+msgstr "δευτερόλεπτα"
+
+#. Translators: this goes with the next (= "parts")
+#: ../src/rejilla-split-dialog.c:1136
+msgid "Split this track in"
+msgstr "Διαχωρισμός αυτού του αρχείου σε"
+
+#. Translators: this goes with the previous (= "Split this track in")
+#: ../src/rejilla-split-dialog.c:1145
+msgid "parts"
+msgstr "μέρη"
+
+#: ../src/rejilla-split-dialog.c:1153
+msgid "Slicing Method"
+msgstr "Μέθοδος τεμαχισμού"
+
+#: ../src/rejilla-split-dialog.c:1211
+msgid "Start"
+msgstr "Έναρξη"
+
+#: ../src/rejilla-split-dialog.c:1218
+msgid "End"
+msgstr "Τέλος"
+
+#: ../src/rejilla-split-dialog.c:1241
+msgid "Mer_ge"
+msgstr "Συγ_χώνευση"
+
+#: ../src/rejilla-split-dialog.c:1252
+msgid "Merge a selected slice with the next selected one"
+msgstr "Συγχώνευση του επιλεγμένου κομματιού με το επόμενο επιλεγμένο"
+
+#: ../src/rejilla-split-dialog.c:1266
+msgid "Remove the selected slices"
+msgstr "Αφαίρεση των επιλεγμένων κομματιών"
+
+#: ../src/rejilla-split-dialog.c:1280
+msgid "Clear the slices preview"
+msgstr "Καθαρισμός της προεπισκόπησης κομματιών"
+
+#: ../src/rejilla-split-dialog.c:1290
+msgid "_List of slices that are to be created:"
+msgstr "_Λίστα με τα κομμάτια που θα δημιουργηθούν:"
+
+#: ../src/rejilla-split-dialog.c:1298
+msgid "Slices Preview"
+msgstr "Προεπισκόπηση κομματιών"
+
+#: ../src/rejilla-time-button.c:287
+msgid "Hours"
+msgstr "Ώρες"
+
+#. Translators: separating hours and minutes
+#. Translators: separating minutes and seconds
+#. Translators: separating seconds and frames
+#: ../src/rejilla-time-button.c:292 ../src/rejilla-time-button.c:302
+#: ../src/rejilla-time-button.c:312
+msgid ":"
+msgstr ":"
+
+#: ../src/rejilla-time-button.c:297
+msgid "Minutes"
+msgstr "Λεπτά"
+
+#: ../src/rejilla-time-button.c:307
+msgid "Seconds"
+msgstr "Δευτερόλεπτα"
+
+#: ../src/rejilla-time-button.c:317
+msgid "Frames (1 second = 75 frames)"
+msgstr "Πλαίσια (1 δευτερόλεπτο = 75 πλαίσια)"
+
+#: ../plugins/cdrkit/burn-cdrkit.h:38
+msgid "cdrkit burning suite"
+msgstr "Σουίτα εγγραφής δίσκων cdrkit"
+
+#: ../plugins/libburnia/burn-libburnia.h:38
+msgid "libburnia burning suite"
+msgstr "Σουίτα εγγραφής δίσκων libburnia"
+
+#: ../plugins/growisofs/burn-growisofs-common.h:38
+msgid "growisofs burning suite"
+msgstr "Σουίτα εγγραφής δίσκων growisofs"
+
+#: ../plugins/cdrtools/burn-cdrtools.h:38
+msgid "cdrtools burning suite"
+msgstr "Σουίτα εγγραφής δίσκων cdrtools"
+
+#: ../src/rejilla-eject-dialog.c:95
+#, c-format
+msgid "The disc in \"%s\" cannot be ejected"
+msgstr "Δεν είναι δυνατή η εξαγωγή του μέσου στο \"%s\""
+
+#: ../src/rejilla-eject-dialog.c:191
+msgid "_Eject"
+msgstr "Ε_ξαγωγή"
+
+#: ../src/rejilla-eject-dialog.c:206
+msgid "Eject Disc"
+msgstr "Εξαγωγή δίσκου"
+
+#: ../src/rejilla-file-filtered.c:75 ../src/rejilla-file-filtered.c:81
+msgid "No file filtered"
+msgstr "Κανένα αρχείο δεν επιλέχτηκε"
+
+#: ../src/rejilla-file-filtered.c:77
+#, c-format
+msgid "Hide the _filtered file list (%d file)"
+msgid_plural "Hide the _filtered file list (%d files)"
+msgstr[0] "Απόκρυψη της λίστας _φιλτραρισμένων αρχείων (%d αρχείο)"
+msgstr[1] "Απόκρυψη της λίστας _φιλτραρισμένων αρχείων (%d αρχεία)"
+
+#: ../src/rejilla-file-filtered.c:83
+#, c-format
+msgid "Show the _filtered file list (%d file)"
+msgid_plural "Show the _filtered file list (%d files)"
+msgstr[0] "Εμφάνιση της λίστας _φιλτραρισμένων αρχείων (%d αρχείο)"
+msgstr[1] "Εμφάνιση της λίστας _φιλτραρισμένων αρχείων (%d αρχεία)"
+
+#: ../src/rejilla-file-filtered.c:138
+msgid "Filter Options"
+msgstr "Επιλογές φιλτραρίσματος"
+
+#: ../src/rejilla-file-filtered.c:221
+msgid ""
+"Select the files you want to restore and click on the \"Restore\" button"
+msgstr ""
+"Επιλέξτε τα αρχεία που θέλετε να επαναφέρετε και κάντε κλικ στο κουμπί "
+"\"Επαναφορά\""
+
+#: ../src/rejilla-file-filtered.c:268
+msgid "Type"
+msgstr "Τύπος"
+
+#: ../src/rejilla-file-filtered.c:295
+msgid "_Restore"
+msgstr "Ε_παναφορά"
+
+#: ../src/rejilla-file-filtered.c:304
+msgid "Restore the selected files"
+msgstr "Επαναφορά των επιλεγμένων αρχείων"
+
+#: ../src/rejilla-file-filtered.c:306
+msgid "_Options…"
+msgstr "Επι_λογές…"
+
+#: ../src/rejilla-file-filtered.c:314
+msgid "Set the options for file filtering"
+msgstr "Καθορισμός των επιλογών για το φιλτράρισμα αρχείων"
+
+#. filter hidden files
+#: ../src/rejilla-filter-option.c:63
+msgid "Filter _hidden files"
+msgstr "Φιλτράρισμα κρυ_φών αρχείων"
+
+#. replace symlink
+#: ../src/rejilla-filter-option.c:70
+msgid "Re_place symbolic links"
+msgstr "Αντικατάσταση συμ_βολικών συνδέσμων"
+
+#. filter broken symlink button
+#: ../src/rejilla-filter-option.c:77
+msgid "Filter _broken symbolic links"
+msgstr "Φιλτράρισμα κατεστ_ραμμένων συμβολικών δεσμών"
+
+#: ../src/rejilla-filter-option.c:83
+msgid "Filtering options"
+msgstr "Επιλογές φιλτραρίσματος"
+
+#: ../plugins/checksum/burn-checksum-files.c:131
+#: ../plugins/checksum/burn-checksum-files.c:589
+#, c-format
+msgid "File \"%s\" could not be opened (%s)"
+msgstr "Αδυναμία ανοίγματος του αρχείου \"%s\" (%s)"
+
+#: ../plugins/checksum/burn-checksum-files.c:617
+msgid "Creating checksum for image files"
+msgstr "Δημιουργία ελέγχου αθροίσματος για αρχεία εικόνων"
+
+#: ../plugins/checksum/burn-checksum-files.c:859
+#, c-format
+msgid "No checksum file could be found on the disc"
+msgstr "Δε βρέθηκε αρχείο ελέγχου αθροίσματος στο δίσκο"
+
+#: ../plugins/checksum/burn-checksum-files.c:893
+msgid "Checking file integrity"
+msgstr "Έλεγχος ακεραιότητας αρχείου"
+
+#: ../plugins/checksum/burn-checksum-files.c:987
+#: ../plugins/checksum/burn-checksum-files.c:1012
+#, c-format
+msgid "File \"%s\" could not be opened"
+msgstr "Δεν είναι δυνατό το άνοιγμα του αρχείου \"%s\""
+
+#: ../plugins/checksum/burn-checksum-files.c:1085
+#: ../plugins/checksum/burn-checksum-files.c:1206
+#: ../plugins/checksum/burn-checksum-image.c:550
+#, c-format
+msgid "Some files may be corrupted on the disc"
+msgstr "Μερικά αρχεία στο δίσκο ίσως είναι κατεστραμμένα"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/checksum/burn-checksum-files.c:1479
+msgid "File Checksum"
+msgstr "Έλεγχος αθροίσματος"
+
+#: ../plugins/checksum/burn-checksum-files.c:1480
+msgid "Checks file integrities on a disc"
+msgstr "Ελέγχει την ακεραιότητα των αρχείων στο δίσκο"
+
+#: ../plugins/checksum/burn-checksum-files.c:1518
+#: ../plugins/checksum/burn-checksum-image.c:855
+msgid "Hashing algorithm to be used:"
+msgstr "Κατακερματισμός του αλγορίθμου για να χρησιμοποιηθεί:"
+
+#: ../plugins/checksum/burn-checksum-files.c:1521
+#: ../plugins/checksum/burn-checksum-image.c:858
+msgid "MD5"
+msgstr "MD5"
+
+#: ../plugins/checksum/burn-checksum-files.c:1523
+#: ../plugins/checksum/burn-checksum-image.c:860
+msgid "SHA1"
+msgstr "SHA1"
+
+#: ../plugins/checksum/burn-checksum-files.c:1525
+#: ../plugins/checksum/burn-checksum-image.c:862
+msgid "SHA256"
+msgstr "SHA256"
+
+#: ../plugins/checksum/burn-checksum-image.c:359
+#: ../plugins/checksum/burn-checksum-image.c:456
+msgid "Creating image checksum"
+msgstr "Δημιουργία ελέγχου αθροίσματος εικόνας"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/checksum/burn-checksum-image.c:830
+msgid "Image Checksum"
+msgstr "Έλεγχος αθροίσματος εικόνας"
+
+#: ../plugins/checksum/burn-checksum-image.c:831
+msgid "Checks disc integrity after it is burnt"
+msgstr "Ελέγχει την ακεραιότητα αρχείου στο δίσκο μετά την εγγραφή του"
+
+#: ../src/rejilla-multi-song-props.c:89 ../src/rejilla-multi-song-props.c:97
+#: ../src/rejilla-multi-song-props.c:105 ../src/rejilla-multi-song-props.c:123
+#: ../src/rejilla-multi-song-props.c:139 ../src/rejilla-multi-song-props.c:160
+#: ../src/rejilla-multi-song-props.c:173 ../src/rejilla-multi-song-props.c:250
+#: ../src/rejilla-multi-song-props.c:271 ../src/rejilla-multi-song-props.c:292
+#: ../src/rejilla-rename.c:90 ../src/rejilla-rename.c:319
+msgid "<Keep current values>"
+msgstr "<Διατήρηση τρέχουσων τιμών>"
+
+#: ../src/rejilla-multi-song-props.c:126 ../src/rejilla-multi-song-props.c:143
+msgid "Remove silences"
+msgstr "Αφαίρεση σιωπών"
+
+#: ../src/rejilla-multi-song-props.c:214
+msgid "Song titles"
+msgstr "Τίτλοι τραγουδιού"
+
+#: ../src/rejilla-multi-song-props.c:231
+msgid "Additional song information"
+msgstr "Περισσότερες πληροφορίες τραγουδιού"
+
+#: ../src/rejilla-rename.c:320
+msgid "Insert text"
+msgstr "Εισαγωγή κειμένου"
+
+#: ../src/rejilla-rename.c:321
+msgid "Delete text"
+msgstr "Διαγραφή κειμένου"
+
+#: ../src/rejilla-rename.c:322
+msgid "Substitute text"
+msgstr "Αντικατάσταση κείμενου"
+
+#: ../src/rejilla-rename.c:323
+msgid "Number files according to a pattern"
+msgstr "Αριθμός αρχείων με βάση ένα μοτίβο"
+
+#: ../src/rejilla-rename.c:324
+msgid "Insert number sequence at beginning"
+msgstr "Εισαγωγή αριθμητικής σειράς στην αρχή"
+
+#. Translators: This is a verb. This is completed later
+#: ../src/rejilla-rename.c:339
+msgid "Insert"
+msgstr "Εισαγωγή"
+
+#. Translators: This finishes previous action "Insert". It goes like
+#. * this: "Insert" [Entry] "at the beginning".
+#: ../src/rejilla-rename.c:353
+msgid "at the beginning"
+msgstr "στην αρχή"
+
+#. Translators: This finishes previous action "Insert". It goes like
+#. * this: "Insert" [Entry] "at the end".
+#: ../src/rejilla-rename.c:357
+msgid "at the end"
+msgstr "στο τέλος"
+
+#: ../src/rejilla-rename.c:368
+msgid "Delete every occurrence of"
+msgstr "Διαγραφή κάθε εμφάνισης του"
+
+#. Reminder: if this string happens to be used somewhere else in rejilla
+#. * we'll need a context with C_() macro
+#. Translators: this goes with above verb to say "_Replace" [Entry]
+#. * "with" [Entry].
+#: ../src/rejilla-rename.c:398
+msgid "with"
+msgstr "με"
+
+#: ../src/rejilla-rename.c:412
+msgid "Rename to"
+msgstr "Μετονομασία σε"
+
+#: ../src/rejilla-rename.c:421
+msgid "{number}"
+msgstr "{αριθμός}"
+
+#: ../src/rejilla-video-disc.c:101
+msgid "Open the selected video"
+msgstr "Άνοιγμα του επιλεγμένου βίντεο"
+
+#: ../src/rejilla-video-disc.c:103
+msgid "Edit the video information (start, end, author, etc.)"
+msgstr "Επεξεργασία της πληροφορίας του βίντεο (αρχή, τέλος, σκηνοθέτης, κτλ.)"
+
+#: ../src/rejilla-video-disc.c:105
+msgid "Remove the selected videos from the project"
+msgstr "Αφαίρεση των επιλεγμένων βίντεο από την εργασία"
+
+#: ../src/rejilla-video-disc.c:359
+msgid "Do you want to search for video files inside the directory?"
+msgstr "Θέλετε να ψάξετε για αρχεία βίντεο στον κατάλογο;"
+
+#: ../src/rejilla-video-disc.c:369
+msgid "_Search Directory"
+msgstr "_Αναζήτηση στον κατάλογο"
+
+#: ../src/rejilla-video-disc.c:412
+#, c-format
+msgid "\"%s\" does not have a suitable type for video projects."
+msgstr "\"%s\" δεν έχει κατάλληλο τύπο για εργασίες βίντεο."
+
+#: ../src/rejilla-video-disc.c:415
+msgid "Please only add files with video content"
+msgstr "Παρακαλώ προσθέστε μόνο αρχεία με περιεχόμενα βίντεο"
+
+#: ../plugins/dvdauthor/burn-dvdauthor.c:316
+#: ../plugins/vcdimager/burn-vcdimager.c:444
+msgid "Creating file layout"
+msgstr "Δημιουργία διάταξης αρχείου"
+
+#: ../plugins/dvdauthor/burn-dvdauthor.c:374
+#| msgid "Creates disc images suitable for Video DVDs"
+msgid "Creates disc images suitable for video DVDs"
+msgstr "Δημιουργεί εικόνες δίσκων κατάλληλες για Video DVD"
+
+#: ../plugins/transcode/burn-vob.c:1273
+msgid "Converting video file to MPEG2"
+msgstr "Μετατροπή αρχείου βίντεο σε MPEG2"
+
+#: ../plugins/transcode/burn-vob.c:1376
+#| msgid "Converts any video file into a format suitable for Video DVDs"
+msgid "Converts any video file into a format suitable for video DVDs"
+msgstr ""
+"Μετατρέπει οποιοδήποτε αρχείο βίντεο σε μορφοποίηση κατάλληλη για DVD βίντεο"
+
+#: ../plugins/vcdimager/burn-vcdimager.c:484
+msgid "Creates disc images suitable for SVCDs"
+msgstr "Δημιουργεί εικόνες δίσκων κατάλληλες για SVCD"
+
+#~ msgid "by"
+#~ msgstr "από"
+
+#~ msgid "Directories cannot be added to an audio disc."
+#~ msgstr "Δεν είναι δυνατή η προσθήκη καταλόγων σε ένα δίσκο ήχου."
+
+#~ msgid "Name:"
+#~ msgstr "Όνομα:"
+
+#~ msgid ""
+#~ "<span weight=\"bold\">Size:</span>\t<i><span size=\"smaller\"> %i × %i "
+#~ "pixels</span></i>"
+#~ msgstr ""
+#~ "<span weight=\"bold\">Μέγεθος:</span>\t<i><span size=\"smaller\"> %i x %i "
+#~ "pixels</span></i>"
+
+#~ msgid ""
+#~ "<span weight=\"bold\">%s</span>\n"
+#~ "by <span size=\"smaller\"><i>%s</i></span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\">%s</span>\n"
+#~ "από <span size=\"smaller\"><i>%s</i></span>"
+
+#~ msgid ""
+#~ "<span weight=\"bold\">Loading information</span>\n"
+#~ "about <span size=\"smaller\"><i>%s</i></span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\">Φόρτωση πληροφοριών</span>\n"
+#~ "about <span size=\"smaller\"><i>%s</i></span>"
+
+#~ msgid ""
+#~ "Do you really want to create a new project and discard the changes to "
+#~ "current one?"
+#~ msgstr ""
+#~ "Θέλετε πραγματικά να δημιουργήσετε νέα εργασία και να απορρίψετε τις "
+#~ "αλλαγές στην τρέχουσα;"
+
+#~ msgid "An error occured while writing to disc"
+#~ msgstr "Ένα σφάλμα συνέβηκε κατά την εγγραφή του δίσκου"
+
+#~ msgid "Error reading video DVD (%s)"
+#~ msgstr "Σφάλμα κατά την ανάγνωση DVD βίντεο (%s)"
+
+#~ msgid "Directories cannot be added to video discs."
+#~ msgstr "Δεν είναι δυνατή η προσθήκη καταλόγων στους δίσκους βίντεο."
+
+#~ msgid "Rejilla Disc Copier"
+#~ msgstr "Αντιγραφή δίσκων Rejilla"
+
+#~ msgid "Copy CDs and DVDs"
+#~ msgstr "Αντιγραφή CD και DVD"
+
+#~ msgid "Disc Copier"
+#~ msgstr "Αντιγραφή δίσκων"
+
+#~ msgid "Rejilla - Creating Image"
+#~ msgstr "Rejilla - Δημιουργία εικόνας"
+
+#~ msgid "Rejilla - Burning DVD (Simulation)"
+#~ msgstr "Rejilla - Εγγραφή DVD (προσομοίωση)"
+
+#~ msgid "Rejilla - Burning DVD"
+#~ msgstr "Rejilla - Εγγραφή DVD"
+
+#~ msgid "Burning DVD (Simulation)"
+#~ msgstr "Εγγραφή DVD (προσομοίωση)"
+
+#~ msgid "Rejilla - Copying DVD (Simulation)"
+#~ msgstr "Rejilla - Αντιγραφή DVD (προσομοίωση)"
+
+#~ msgid "Rejilla - Copying DVD"
+#~ msgstr "Rejilla - Αντιγραφή DVD"
+
+#~ msgid "Rejilla - Burning CD (Simulation)"
+#~ msgstr "Rejilla - Εγγραφή CD (προσομοίωση)"
+
+#~ msgid "Rejilla - Burning CD"
+#~ msgstr "Rejilla - Εγγραφή CD"
+
+#~ msgid "Rejilla - Copying CD (Simulation)"
+#~ msgstr "Rejilla - Αντιγραφή CD (προσομοίωση)"
+
+#~ msgid "Rejilla - Copying CD"
+#~ msgstr "Rejilla - Αντιγραφή CD"
+
+#~ msgid "Rejilla - Burning disc (Simulation)"
+#~ msgstr "Rejilla - Εγγραφή δίσκου (προσομοίωση)"
+
+#~ msgid "Rejilla - Burning disc"
+#~ msgstr "Rejilla - Εγγραφή δίσκου"
+
+#~ msgid "Rejilla - Burning Disc (Simulation)"
+#~ msgstr "Rejilla - Εγγραφή δίσκου (προσομοίωση)"
+
+#~ msgid "Rejilla - Burning Disc"
+#~ msgstr "Rejilla - Εγγραφή δίσκου"
+
+#~ msgid "Rejilla - Copying Disc (Simulation)"
+#~ msgstr "Rejilla - Αντιγραφή δίσκου (προσομοίωση)"
+
+#~ msgid "Rejilla - Copying Disc"
+#~ msgstr "Rejilla - Αντιγραφή δίσκου"
+
+#~ msgid "Appending new files to a multisession disc is not advised."
+#~ msgstr ""
+#~ "Δεν ενδείκνυται η προσθήκη νέων αρχείων σε έναν πολυσυνεδριακό δίσκο."
+
+#~ msgid "Rejilla - Creating Image (%i%% Done)"
+#~ msgstr "Rejilla - Δημιουργία εικόνας (%i%% ολοκληρώθηκε)"
+
+#~ msgid "Rejilla - Copying DVD (%i%% Done)"
+#~ msgstr "Rejilla - Αντιγραφή DVD (%i%% ολοκληρώθηκε)"
+
+#~ msgid "Rejilla - Burning DVD (%i%% Done)"
+#~ msgstr "Rejilla - Εγγραφή DVD (%i%% ολοκληρώθηκε)"
+
+#~ msgid "Rejilla - Copying CD (%i%% Done)"
+#~ msgstr "Rejilla - Αντιγραφή CD (%i%% ολοκληρώθηκε)"
+
+#~ msgid "Rejilla - Burning CD (simulation)"
+#~ msgstr "Rejilla - Εγγραφή CD (προσομοίωση)"
+
+#~ msgid "Rejilla - Burning CD (%i%% Done)"
+#~ msgstr "Rejilla - Εγγραφή CD (%i%% ολοκληρώθηκε)"
+
+#~ msgid "Rejilla - Copying Disc (%i%% Done)"
+#~ msgstr "Rejilla - Αντιγραφή δίσκου (%i%% ολοκληρώθηκε)"
+
+#~ msgid "Rejilla - Burning Disc (%i%% Done)"
+#~ msgstr "Rejilla - Εγγραφή δίσκου (%i%% ολοκληρώθηκε)"
+
+#~ msgid "Session Log"
+#~ msgstr "Καταγραφή συνεδρίας"
+
+#~ msgid "The session log cannot be displayed."
+#~ msgstr "Δεν είναι δυνατή η εμφάνιση της καταγραφής της συνεδρίας."
+
+#~ msgid "The log file could not be found"
+#~ msgstr "Tο αρχείο καταγραφής δεν ήταν δυνατό να βρεθεί"
+
+#~ msgid ""
+#~ "This is a excerpt from the session log (the last 10 MiB):\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Αυτό είναι ένα απόσπασμα από την καταγραφή συνεδρίας (τα τελευταία 10 "
+#~ "mb):\n"
+#~ "\n"
+
+#~ msgid "_View Log"
+#~ msgstr "Προ_βολή καταγραφής"
+
+#~ msgid "There is no recordable disc inserted."
+#~ msgstr "Δεν έχει εισαχθεί εγγράψιμος δίσκος."
+
+#~ msgid "Such a disc cannot be copied without the proper plugins."
+#~ msgstr "Δε μπορεί να αντιγραφεί τέτοιος δίσκος χωρίς τα κατάλληλα πρόσθετα."
+
+#~ msgid "It is not possible to write with the current set of plugins."
+#~ msgstr "Δεν είναι δυνατή η εγγραφή με το τρέχον σετ από πρόσθετα."
+
+#~ msgid "CD/DVD Copy Options"
+#~ msgstr "Επιλογές αντιγραφής CD/DVD"
+
+#~ msgid "The drive cannot burn or the disc cannot be burnt"
+#~ msgstr ""
+#~ "Ο οδηγός δε μπορεί να γράψει το δίσκο ή ο δίσκος δε μπορεί να γραφτεί"
+
+#~ msgid "_Eject after burning"
+#~ msgstr "Ε_ξαγωγή μετά την εγγραφή"
+
+#~ msgid "_Show errors"
+#~ msgstr "Ε_μφάιση σφαλμάτων"
+
+#~ msgid "Close this notification window"
+#~ msgstr "Κλείσιμο παράθυρου ειδοποίησης"
+
+#~ msgid "_Write to Disc..."
+#~ msgstr "Εγγραφή _δίσκου…"
+
+#~ msgid "_Blank Disc..."
+#~ msgstr "Ά_δειασμα δίσκου…"
+
+#~ msgid "_Blank..."
+#~ msgstr "_Διαγραφή δίσκου…"
+
+#~ msgid "Default height for image preview."
+#~ msgstr "Προεπιλεγμένο ύψος για προεπισκόπηση εικόνων."
+
+#~ msgid "Default height for video preview."
+#~ msgstr "Προεπιλεγμένο ύψος για προεπισκόπηση βίντεο."
+
+#~ msgid "Default width for image preview."
+#~ msgstr "Προεπιλεγμένο πλάτος για προεπισκόπηση εικόνων."
+
+#~ msgid "Default width for video preview."
+#~ msgstr "Προεπιλεγμένο πλάτος για προεπισκόπηση βίντεο."
+
+#~ msgid "Enable side pane"
+#~ msgstr "Ενεργοποίηση πλαϊνού πλαισίου"
+
+#~ msgid "Height for video preview"
+#~ msgstr "Ύψος για προεπισκόπηση βίντεο"
+
+#~ msgid "Height of image preview"
+#~ msgstr "Ύψος για προεπισκόπηση εικόνων"
+
+#~ msgid "Layout of UI"
+#~ msgstr "Διάταξη για περιβάλλον UI"
+
+#~ msgid "Pane to display audio projects"
+#~ msgstr "Πλαίσιο για προβολή εργασιών ήχου"
+
+#~ msgid "Pane to display data projects"
+#~ msgstr "Πλαίσιο για προβολή εργασιών δεδομένων"
+
+#~ msgid "Pane to display video projects"
+#~ msgstr "Πλαίσιο για προβολή εργασιών βίντεο"
+
+#~ msgid "Should rejilla notify when files are filtered"
+#~ msgstr "Αν θα προειδοποιεί ο rejilla όταν τα αρχεία είναι φιλτραρισμένα"
+
+#~ msgid ""
+#~ "Should rejilla notify when files are filtered. Set to true, rejilla will "
+#~ "display the notification."
+#~ msgstr ""
+#~ "Αν θα προειδοποιεί ο rejilla όταν τα αρχεία είναι φιλτραρισμένα. Αν "
+#~ "καθοριστεί ως αληθής, ο rejilla θα εμφανίζει την προειδοποίηση."
+
+#~ msgid ""
+#~ "The pane to display with audio projects. It should be one of the "
+#~ "following: \"Chooser\", \"Search\" or \"Playlist\"."
+#~ msgstr ""
+#~ "Το πλαίσιο για προβολή με εργασίες ήχου. Πρέπει να είναι ένα από τα "
+#~ "ακόλουθα: \"Επιλογέας\", \"Αναζήτηση\" ή \"Λίστα αναπαραγωγής\"."
+
+#~ msgid ""
+#~ "The pane to display with data projects. It should be one of the "
+#~ "following: \"Chooser\" or \"Search\"."
+#~ msgstr ""
+#~ "Το πλαίσιο για προβολή με εργασίες δεδομένων. Πρέπει να είναι ένα από τα "
+#~ "ακόλουθα: \"Επιλογέας\" ή \"Αναζήτηση\"."
+
+#~ msgid ""
+#~ "The pane to display with video projects. It should be one of the "
+#~ "following: \"Chooser\", \"Search\" or \"Playlist\"."
+#~ msgstr ""
+#~ "Το πλαίσιο για προβολή με εργασίες βίντεο. Πρέπει να είναι ένα από τα "
+#~ "ακόλουθα: \"Επιλογέας\", \"Αναζήτηση\" ή \"Λίστα αναπαραγωγής\"."
+
+#~ msgid ""
+#~ "This key sets where the project pane should be (0 = on the right, 1 = on "
+#~ "the left, 2 = at the top, 3 = at the bottom)"
+#~ msgstr ""
+#~ "Το κλειδί καθορίζει πού θα πρέπει να είναι το πλαίσιο της εργασίας (0 = "
+#~ "στα δεξιά, 1 = στα αριστερά, 2 = στην κορυφή, 3 = στο τέλος)"
+
+#~ msgid "Whether to display a side pane. Set to true to use it."
+#~ msgstr ""
+#~ "Αν θα εμφανίζεται ένα πλευρικό πλαίδιο. Καθορίστε το ως αληθές για να το "
+#~ "χρησιμοποιήσετε."
+
+#~ msgid "Width for image preview"
+#~ msgstr "Πλάτος για προεπισκόπηση εικόνων"
+
+#~ msgid "Width for video preview"
+#~ msgstr "Πλάτος για προεπισκόπηση βίντεο"
+
+#~ msgid "_Split Track..."
+#~ msgstr "_Διαχωρισμός κομματιού…"
+
+#~ msgid "R_ename..."
+#~ msgstr "Με_τονομασία…"
+
+#~ msgid "_Burn..."
+#~ msgstr "Ε_γγραφή…"
+
+#~ msgid "To add files to this project you can:"
+#~ msgstr "Για να προσθέσετε αρχεία στην εργασία μπορείτε:"
+
+#~ msgid "click the \"Add\" button to show a selection dialog"
+#~ msgstr ""
+#~ "κάντε κλικ στο κουμπί \"Προσθήκη\" για να εμφανίσετε το πλαίσιο επιλογής"
+
+#~ msgid "select files in the selection pane and click the \"Add\" button"
+#~ msgstr ""
+#~ "επιλέξτε αρχεία στο πλαίσιο επιλογής και κάντε κλικ στο κουμπί \"Προσθήκη"
+#~ "\""
+
+#~ msgid ""
+#~ "drag files in this area from the selection pane or from the file manager"
+#~ msgstr ""
+#~ "να αρπάξετε αρχεία σε αυτήν την περιοχή από το πλαίσιο επιλογής ή από το "
+#~ "διαχειριστή αρχείων"
+
+#~ msgid "double click on files in the selection pane"
+#~ msgstr "να κάνετε διπλό κλικ σε αρχεία του πλαισίου επιλογής"
+
+#~ msgid "copy files (from file manager for example) and paste in this area"
+#~ msgstr ""
+#~ "να αντιγράψετε αρχεία (από το διαχειριστή αρχείων για παράδειγμα) και να "
+#~ "τα επικολλήσετε σε αυτήν την περιοχή"
+
+#~ msgid "To remove files from this project you can:"
+#~ msgstr "Για να αφαιρέσετε αρχεία από αυτήν την εργασία μπορείτε:"
+
+#~ msgid "click on the \"Remove\" button to remove selected items in this area"
+#~ msgstr ""
+#~ "να κάνετε κλικ στο κουμπί \"Αφαίρεση\" και να αφαιρέσετε τα επιλεγμένα "
+#~ "αντικείμενα σε αυτήν την περιοχή"
+
+#~ msgid "select items in this area, and choose \"Remove\" from context menu"
+#~ msgstr ""
+#~ "να επιλέξετε αντικείμενα σε αυτήν την περιοχή και να πιέσετε \"Αφαίρεση\" "
+#~ "από το μενού περιεχομένων"
+
+#~ msgid "select items in this area, and press \"Delete\" key"
+#~ msgstr ""
+#~ "να επιλέξετε αντικείμενα σε αυτήν την περιοχή και να πιέσετε το πλήκτρο "
+#~ "\"Διαγραφή\""
+
+#~ msgid "Project estimated size: %s"
+#~ msgstr "Εκτιμώμενο μέγεθος εργασίας: %s"
+
+#~ msgid ""
+#~ "If you choose to create a new project, all files already added will be "
+#~ "discarded. Note that files will not be deleted from their own location, "
+#~ "just no longer listed here."
+#~ msgstr ""
+#~ "Αν επιλέξετε να δημιουργήσετε νέα εργασία, όλα τα αρχεία που έχετε ήδη "
+#~ "προσθέσει θα απορριφθούν. Σημειώστε ότι τα αρχεία δεν θα διαγραφούν από "
+#~ "την τοποθεσία τους, απλώς δεν θα βρίσκονται στη τρέχουσα λίστα."
+
+#~ msgid "Save project as an IRIVER playlist"
+#~ msgstr "Αποθήκευση εργασίας ως λίστας αναπαραγωγής IRIVER"
+
+#~ msgid "_Open..."
+#~ msgstr "Ά_νοιγμα…"
+
+#~ msgid "PATH TO PLAYLIST"
+#~ msgstr "ΔΙΑΔΡΟΜΗ ΠΡΟΣ ΛΙΣΤΑ ΑΝΑΠΑΡΑΓΩΓΗΣ"
+
+#~ msgid "Your version of cdrdao does not seem to be supported by librejilla"
+#~ msgstr ""
+#~ "Η έκδοση του cdrdao που έχετε εγκατεστημένη δεν φαίνεται να υποστηρίζεται "
+#~ "από το librejilla"
+
+#~ msgid "Use cdrdao to copy and burn CDs"
+#~ msgstr "Χρήση του cdrdao στην αντιγραφή και στην εγγραφή CD"
+
+#~ msgid "Toc2cue converts .toc files into .cue files"
+#~ msgstr "Το toc2cue μετατρέπει τα αρχεία τύπου .toc σε αρχεία τύπου .cue"
+
+#~ msgid "Use genisoimage to create images from a file selection"
+#~ msgstr ""
+#~ "Χρήση του genisoimage για τη δημιουργία εικόνων από επιλεγμένα αρχεία"
+
+#~ msgid "Use readom to create disc images"
+#~ msgstr "Χρήση του readom για τη δημιουργία εικόνων δίσκων"
+
+#~ msgid "Use wodim to burn CDs and DVDs"
+#~ msgstr "Χρήση του wodim για να εγγράφή CD και DVD"
+
+#~ msgid "Use cdrecord to burn CDs and DVDs"
+#~ msgstr "Χρήση του cdrecord για εγγραφή CD και DVD"
+
+#~ msgid "Encrypted DVD: please install libdvdcss version 1.2.x"
+#~ msgstr ""
+#~ "Κρυπτογραφημένο DVD: παρακαλώ, εγκαταστήστε την έκδοση 1.2.x του libdvdcss"
+
+#~ msgid ""
+#~ "Libdvdcss version %s is not supported.\n"
+#~ "Please install libdvdcss version 1.2.x"
+#~ msgstr ""
+#~ "Η έκδοση %s του libdvdcss δεν υποστηρίζεται.\n"
+#~ "Παρακαλώ, εγκαταστήστε την έκδοση 1.2.x του libdvdcss"
+
+#~ msgid "Libdvdcss could not be loaded properly"
+#~ msgstr "Δεν ήταν δυνατή η κανονική φόρτωση του libdvdcss"
+
+#~ msgid "Dvdcss allows to read css encrypted video DVDs"
+#~ msgstr ""
+#~ "Το dvdcss σας επιτρέπει να κάνετε ανάγνωση css κρυπτογραφημένων DVD βίντεο"
+
+#~ msgid "Dvd+rw-format blanks and formats DVD+/-R(W)"
+#~ msgstr "Το Dvd+rw-format διαγράφει και μορφοποιεί DVD+/-R(W)"
+
+#~ msgid "Growisofs burns DVDs"
+#~ msgstr "Το growisofs εγγράφει DVD"
+
+#~ msgid "Libburn burns CD(RW), DVD+/-(RW)"
+#~ msgstr "Το libburn εγγράφει CD(RW), DVD+/-(RW)"
+
+#~ msgid "Libisofs creates disc images from files"
+#~ msgstr "Το libisofs δημιουργεί εικόνες δίσκου από αρχεία"
+
+#~ msgid ""
+#~ "Transcode converts song files into a format proper to burn them on CDs"
+#~ msgstr ""
+#~ "Η κωδικοποίηση μετατρέπει τα αρχεία τραγουδιών σε κατάλληλη μορφή για "
+#~ "εγγραφή τους σε CD"
+
+#~ msgid "_Options..."
+#~ msgstr "Ε_πιλογές…"
+
+#~ msgid "Use dvdauthor to create Video DVDs"
+#~ msgstr "Χρηση dvdauthor για εγγραφή DVD βίντεο"
+
+#~ msgid "Use vcdimager to create SVCDs"
+#~ msgstr "Χρήση vcdimager για εγγραφή SVCD"
+
+#~ msgid ""
+#~ "A file with the same name is about to be added into the same directory "
+#~ "and will replace it if you accept."
+#~ msgstr ""
+#~ "Ένα αρχείο με το ίδιο όνομα θα προστεθεί στον ίδιο κατάλογο και θα το "
+#~ "αντικαταστήσει αν αποδεχτείτε."
+
+#~ msgid "_Erase Disc"
+#~ msgstr "_Διαγραφή δίσκου"
+
+#~ msgid "You might not be able to listen to it with stereos."
+#~ msgstr "Ίσως να μη μπορείτε να το ακούσετε με στέρεο."
+
+#~ msgid "Increase compatibility with _Windows systems"
+#~ msgstr "Αύξηση συμβατότητας με συστήματα _windows"
+
+#~ msgid ""
+#~ "Improve compatibility with Windows systems by allowing to display long "
+#~ "filenames (maximum 64 characters)"
+#~ msgstr ""
+#~ "Βελτίωση συμβατότητας με συστήματα windows για να επιτρέπουν την προβολή "
+#~ "μεγάλων ονομάτων αρχείων (μέγιστο οι 64 χαρακτήρες)"
+
+#~ msgid "Disc options"
+#~ msgstr "Επιλογές δίσκου"
+
+#~ msgid "Unknown"
+#~ msgstr "Άγνωστο"
+
+#~ msgid "_Temporary directory free space:"
+#~ msgstr "Ελεύθερος χώρος _προσωρινού καταλόγου:"
+
+#~ msgid "Let rejilla choose (safest)"
+#~ msgstr "Αφήστε τον rejilla να επιλέξει (ασφαλέστερο)"
+
+#~ msgid "*.iso image"
+#~ msgstr "Εικόνα τύπου *.iso"
+
+#~ msgid "*.toc image (cdrdao)"
+#~ msgstr "Εικόνα τύπου *.toc (cdrdao)"
+
+#~ msgctxt "disc"
+#~ msgid "Image files only"
+#~ msgstr "Αρχεία εικόνων μόνο"

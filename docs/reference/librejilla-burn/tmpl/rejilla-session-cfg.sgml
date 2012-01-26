@@ -1,0 +1,138 @@
+<!-- ##### SECTION Title ##### -->
+RejillaSessionCfg
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT RejillaSessionCfg ##### -->
+<para>
+
+</para>
+
+@parent_instance: 
+
+<!-- ##### ENUM RejillaSessionError ##### -->
+<para>
+
+</para>
+
+@REJILLA_SESSION_VALID: 
+@REJILLA_SESSION_NO_CD_TEXT: 
+@REJILLA_SESSION_NOT_READY: 
+@REJILLA_SESSION_EMPTY: 
+@REJILLA_SESSION_NO_INPUT_IMAGE: 
+@REJILLA_SESSION_UNKNOWN_IMAGE: 
+@REJILLA_SESSION_NO_INPUT_MEDIUM: 
+@REJILLA_SESSION_NO_OUTPUT: 
+@REJILLA_SESSION_INSUFFICIENT_SPACE: 
+@REJILLA_SESSION_OVERBURN_NECESSARY: 
+@REJILLA_SESSION_NOT_SUPPORTED: 
+@REJILLA_SESSION_DISC_PROTECTED: 
+
+<!-- ##### MACRO REJILLA_SESSION_IS_VALID ##### -->
+<para>
+
+</para>
+
+@result_MACRO: 
+
+
+<!-- ##### FUNCTION rejilla_session_cfg_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_session_cfg_get_error ##### -->
+<para>
+
+</para>
+
+@cfg: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_session_cfg_add_flags ##### -->
+<para>
+
+</para>
+
+@cfg: 
+@flags: 
+
+
+<!-- ##### FUNCTION rejilla_session_cfg_remove_flags ##### -->
+<para>
+
+</para>
+
+@cfg: 
+@flags: 
+
+
+<!-- ##### FUNCTION rejilla_session_cfg_is_supported ##### -->
+<para>
+
+</para>
+
+@cfg: 
+@flag: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_session_cfg_is_compulsory ##### -->
+<para>
+
+</para>
+
+@cfg: 
+@flag: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_session_cfg_has_default_output_path ##### -->
+<para>
+
+</para>
+
+@cfg: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_session_cfg_enable ##### -->
+<para>
+
+</para>
+
+@cfg: 
+
+
+<!-- ##### FUNCTION rejilla_session_cfg_disable ##### -->
+<para>
+
+</para>
+
+@cfg: 
+
+

@@ -1,0 +1,5562 @@
+# Brazilian Portuguese translation of Rejilla
+# Copyright (C) 2007-2009 Rejilla's COPYRIGHT HOLDER
+# This file is distributed under the same license as the Rejilla package.
+# Vladimir Melo <vmelo@mate.org>, 2007, 2009.
+# Og Maciel <ogmaciel@mate.org>, 2007, 2009-2010.
+# Raphael Higino <In Memorian>, 2007.
+# Djavan Fagundes <dnoway@gmail.com>, 2008.
+# Lucas Hermann Negri <kkndrox@gmail.com>, 2008.
+# Carlos Eduardo Moreira dos Santos <cems@cemshost.com.br>, 2008.
+# César Veiga <tombs@linuxmail.org>, 2008, 2009.
+# Fabrício Godoy <skarllot@gmail.com>, 2009.
+# André Gondim <andregondim@ubuntu.com>, 2009.
+# Antonio Fernandes C. Neto <fernandes@pelivre.org>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rejilla\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
+"product=rejilla&component=general\n"
+"POT-Creation-Date: 2010-09-19 16:06+0000\n"
+"PO-Revision-Date: 2010-09-19 19:20-0300\n"
+"Last-Translator: Daniel S. Koda <danielskoda@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <mate-pt_br-list@mate.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Language: Portuguese\n"
+
+#: ../src/rejilla-search.c:241
+#, c-format
+msgid "Results %i–%i (out of %i)"
+msgstr "Resultados %i - %i (de %i)"
+
+#: ../src/rejilla-search.c:249 ../src/rejilla-search.c:880
+msgid "No results"
+msgstr "Sem resultados"
+
+#: ../src/rejilla-search.c:414
+msgid "Error querying for keywords."
+msgstr "Erro ao pesquisar palavras chave."
+
+#: ../src/rejilla-search.c:867
+msgid "Previous Results"
+msgstr "Resultados anteriores"
+
+#: ../src/rejilla-search.c:888
+msgid "Next Results"
+msgstr "Próximos resultados"
+
+#: ../src/rejilla-search.c:952 ../src/rejilla-data-disc.c:2352
+#: ../src/rejilla-file-filtered.c:259
+msgid "Files"
+msgstr "Arquivos"
+
+#: ../src/rejilla-search.c:981 ../src/rejilla-data-disc.c:2380
+msgid "Description"
+msgstr "Descrição"
+
+#: ../src/rejilla-search.c:1034 ../librejilla-burn/rejilla-src-image.c:444
+#: ../src/rejilla-project-name.c:165 ../src/rejilla-search-entry.c:509
+#: ../src/rejilla-search-entry.c:569 ../src/rejilla-search-entry.c:631
+#: ../src/rejilla-file-chooser.c:350 ../src/rejilla-project.c:2214
+msgid "All files"
+msgstr "Todos os arquivos"
+
+#: ../src/rejilla-search.c:1045
+msgid "Number of results displayed"
+msgstr "Número de resultados exibidos"
+
+#: ../src/rejilla-cli.c:70
+msgid "Open the specified project"
+msgstr "Abrir o projeto especificado"
+
+#: ../src/rejilla-cli.c:71
+msgid "PROJECT"
+msgstr "PROJETO"
+
+#: ../src/rejilla-cli.c:76
+msgid "Open the specified playlist as an audio project"
+msgstr "Abrir a lista de reprodução especificada como um projeto de áudio"
+
+# Aparece em "rejilla --help"
+#: ../src/rejilla-cli.c:77
+msgid "PLAYLIST"
+msgstr "LISTA DE REPRODUÇÃO"
+
+#: ../src/rejilla-cli.c:82
+msgid "Set the drive to be used for burning"
+msgstr "Selecione o dispositivo usado para gravar"
+
+#: ../src/rejilla-cli.c:83
+msgid "DEVICE PATH"
+msgstr "CAMINHO DO DISPOSITIVO"
+
+#: ../src/rejilla-cli.c:86
+msgid "Create an image file instead of burning"
+msgstr "Cria uma imagem ao invés de gravar disco"
+
+#: ../src/rejilla-cli.c:90
+msgid "Open an audio project adding the URIs given on the command line"
+msgstr ""
+"Abre um projeto de áudio adicionando os URIs fornecidos na linha de comando"
+
+#: ../src/rejilla-cli.c:94
+msgid "Open a data project adding the URIs given on the command line"
+msgstr ""
+"Abre um projeto de dados adicionando os URIs fornecidos na linha de comando"
+
+#  Dica de ferramenta no rejilla-project-manager.c e no main.c
+#: ../src/rejilla-cli.c:98
+msgid "Copy a disc"
+msgstr "Copia um disco"
+
+#: ../src/rejilla-cli.c:99 ../src/rejilla-cli.c:119 ../src/rejilla-cli.c:123
+msgid "PATH TO DEVICE"
+msgstr "CAMINHO PARA O DISPOSITIVO"
+
+#: ../src/rejilla-cli.c:102
+msgid "Cover to use"
+msgstr "Capa a ser usada"
+
+#: ../src/rejilla-cli.c:103
+msgid "PATH TO COVER"
+msgstr "CAMINHO PARA A CAPA"
+
+# Encurtei a tradução para caber, parece ser uma mensagem na linha de comando
+#: ../src/rejilla-cli.c:106
+msgid "Open a video project adding the URIs given on the command line"
+msgstr "Abre um projeto de vídeo adicionando os URIs da linha de comando"
+
+# Encurtei a tradução para caber, parece ser uma mensagem na linha de comando
+#: ../src/rejilla-cli.c:110
+msgid "URI of an image file to burn (autodetected)"
+msgstr "URI de um arquivo de imagem a ser gravado (detecção automática)"
+
+#: ../src/rejilla-cli.c:111
+msgid "PATH TO IMAGE"
+msgstr "CAMINHO PARA A IMAGEM"
+
+#: ../src/rejilla-cli.c:114
+msgid "Force Rejilla to display the project selection page"
+msgstr "Força o Rejilla a exibir a página de seleção de projeto"
+
+#: ../src/rejilla-cli.c:118
+msgid "Open the blank disc dialog"
+msgstr "Abre o diálogo de disco apagado"
+
+#: ../src/rejilla-cli.c:122
+msgid "Open the check disc dialog"
+msgstr "Abre o diálogo de verificação de integridade de disco"
+
+#: ../src/rejilla-cli.c:126
+msgid "Burn the contents of the burn:// URI"
+msgstr "Grava o conteúdo da URI burn://"
+
+#: ../src/rejilla-cli.c:130
+msgid "Start burning immediately."
+msgstr "Começa a gravar imediatamente."
+
+#: ../src/rejilla-cli.c:134
+msgid "Don't connect to an already-running instance"
+msgstr "Não conectar a uma instância em execução"
+
+#: ../src/rejilla-cli.c:138
+msgid ""
+"Burn the specified project and remove it.\n"
+"This option is mainly useful for integration with other applications."
+msgstr ""
+"Grava o projeto especificado e o remove.\n"
+"Esta opção é útil principalmente para o uso integrado com outros aplicativos."
+
+#: ../src/rejilla-cli.c:139
+msgid "PATH"
+msgstr "CAMINHO"
+
+#. Translators: the xid is a number identifying each window in the X11
+#. * world (not Windows, MacOS X). The following sentence says that
+#. * rejilla will be set to be always on top of the window identified by
+#. * xid. In other words, the window with the given xid will become rejilla
+#. * parent as if rejilla was a dialog for the parent application
+#: ../src/rejilla-cli.c:147
+msgid "The XID of the parent window"
+msgstr "O XID da janela pai"
+
+#. Translators: %s is the path of drive
+#: ../src/rejilla-cli.c:204
+#, c-format
+msgid "\"%s\" cannot write."
+msgstr "Não é possível escrever em \"%s\""
+
+#: ../src/rejilla-cli.c:206 ../src/rejilla-cli.c:220
+msgid "Wrong command line option."
+msgstr "Opção inválida na linha de comando."
+
+#. Translators: %s is the path of a drive
+#: ../src/rejilla-cli.c:218 ../librejilla-burn/rejilla-track-data-cfg.c:2593
+#, c-format
+msgid "\"%s\" cannot be found."
+msgstr "\"%s\" não pôde ser localizado."
+
+#: ../src/rejilla-cli.c:297
+msgid "Incompatible command line options used."
+msgstr "Usadas opções de linha de comando incompatíveis."
+
+#: ../src/rejilla-cli.c:298
+msgid "Only one option can be given at a time"
+msgstr "Apenas uma opção pode ser fornecida por vez"
+
+#  Não é continuação de frase alguma
+#: ../librejilla-burn/burn-plugin.c:645
+#, c-format
+msgid "\"%s\" could not be found in the path"
+msgstr "\"%s\" não foi localizado no caminho"
+
+#: ../librejilla-burn/burn-plugin.c:649
+#, c-format
+msgid "\"%s\" GStreamer plugin could not be found"
+msgstr "Não foi possível localizar o plug-in \"%s\" do Gstreamer"
+
+#: ../librejilla-burn/burn-plugin.c:653 ../librejilla-burn/burn-plugin.c:665
+#, c-format
+msgid "The version of \"%s\" is too old"
+msgstr "Não há suporte para esta versão do \"%s\" (ela é muito antiga)"
+
+#: ../librejilla-burn/burn-plugin.c:657
+#, c-format
+msgid "\"%s\" is a symbolic link pointing to another program"
+msgstr "\"%s\" é um link simbólico apontando para outro programa"
+
+#. Translators: %s is a filename
+#: ../librejilla-burn/burn-plugin.c:661 ../plugins/cdrdao/burn-cdrdao.c:211
+#: ../plugins/growisofs/burn-growisofs.c:509
+#, c-format
+msgid "\"%s\" could not be found"
+msgstr "Não foi possível localizar \"%s\""
+
+#: ../plugins/cdrtools/burn-cdda2wav.c:204
+#: ../plugins/cdrtools/burn-cdda2wav.c:214
+#, c-format
+msgid "Copying audio track %02d"
+msgstr "Copiando faixa de áudio %02d"
+
+#: ../plugins/cdrtools/burn-cdda2wav.c:265
+msgid "Preparing to copy audio disc"
+msgstr "Preparando para copiar disco de áudio"
+
+# Essa opção provavelmente refere-se a extrair faixas do CD usando tags a partir das informações contidas nele.
+# Alguma sugestão melhor?
+#: ../plugins/cdrtools/burn-cdda2wav.c:411
+msgid "Copy tracks from an audio CD with all associated information"
+msgstr "Copiar faixas de um CD de áudio com todas as informações associadas"
+
+#: ../librejilla-burn/rejilla-video-options.c:451
+msgid "Video format:"
+msgstr "Formato de vídeo:"
+
+#: ../librejilla-burn/rejilla-video-options.c:462
+msgid "_NTSC"
+msgstr "_NTSC"
+
+#: ../librejilla-burn/rejilla-video-options.c:464
+msgid "Format used mostly on the North American continent"
+msgstr "Formato usado principalmente na América do Norte"
+
+#: ../librejilla-burn/rejilla-video-options.c:477
+msgid "_PAL/SECAM"
+msgstr "_PAL/SECAM"
+
+#: ../librejilla-burn/rejilla-video-options.c:479
+msgid "Format used mostly in Europe"
+msgstr "Formato usado principalmente na Europa"
+
+#: ../librejilla-burn/rejilla-video-options.c:493
+msgid "Native _format"
+msgstr "_Formato nativo"
+
+#: ../librejilla-burn/rejilla-video-options.c:508
+msgid "Aspect ratio:"
+msgstr "Taxa de aspecto:"
+
+#: ../librejilla-burn/rejilla-video-options.c:519
+msgid "_4:3"
+msgstr "_4:3"
+
+#: ../librejilla-burn/rejilla-video-options.c:534
+msgid "_16:9"
+msgstr "_16:9"
+
+#. Video options for (S)VCD
+#: ../librejilla-burn/rejilla-video-options.c:549
+msgid "VCD type:"
+msgstr "Tipo de VCD:"
+
+#: ../librejilla-burn/rejilla-video-options.c:562
+msgid "Create an SVCD"
+msgstr "Criar um SVCD"
+
+#: ../librejilla-burn/rejilla-video-options.c:577
+msgid "Create a VCD"
+msgstr "Criar um VCD"
+
+#: ../librejilla-burn/burn-debug.c:54
+msgid "Display debug statements on stdout for Rejilla burn library"
+msgstr ""
+"Exibir mensagens de depuração na saída padrão para a biblioteca de gravação "
+"do Rejilla"
+
+#: ../librejilla-burn/burn-debug.c:80
+msgid "Rejilla media burning library"
+msgstr "Biblioteca de gravação de mídias do Rejilla"
+
+#: ../librejilla-burn/burn-debug.c:81
+msgid "Display options for Rejilla-burn library"
+msgstr "Exibe as opções para a biblioteca de gravação do Rejilla"
+
+#. Translators: %s is the name of the file that has just been deleted
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:90
+#, c-format
+msgid "\"%s\" was removed from the file system."
+msgstr "O arquivo \"%s\" foi removido do sistema."
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:129
+#: ../src/rejilla-audio-disc.c:753 ../src/rejilla-video-disc.c:365
+#, c-format
+msgid "Directories cannot be added to video or audio discs"
+msgstr "Diretórios não podem ser adicionados a discos de vídeo ou áudio"
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:142
+#, c-format
+msgid "Playlists cannot be added to video or audio discs"
+msgstr ""
+"Listas de reprodução não podem ser adicionadas a discos de vídeo ou áudio"
+
+#. Translators: %s is the name of the file
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:157
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:174
+#, c-format
+msgid "\"%s\" is not suitable for audio or video media"
+msgstr "\"%s\" não é adequado para mídias de áudio ou vídeo"
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:401
+msgid "Analysing video files"
+msgstr "Analisando arquivos de vídeo"
+
+#: ../librejilla-burn/rejilla-data-vfs.c:218
+#, c-format
+msgid "\"%s\" cannot be read"
+msgstr "\"%s\" não pôde ser lido"
+
+#: ../librejilla-burn/rejilla-data-session.c:123
+#: ../librejilla-burn/rejilla-burn.c:331 ../librejilla-media/scsi-error.c:47
+#: ../librejilla-burn/rejilla-tool-dialog.c:89
+#: ../plugins/cdrdao/burn-cdrdao.c:243 ../plugins/cdrkit/burn-readom.c:110
+#: ../plugins/cdrkit/burn-wodim.c:135 ../plugins/cdrkit/burn-wodim.c:144
+#: ../plugins/cdrtools/burn-cdrecord.c:135
+#: ../plugins/cdrtools/burn-cdrecord.c:144
+#: ../plugins/cdrtools/burn-readcd.c:111
+#: ../plugins/growisofs/burn-dvd-rw-format.c:84
+#: ../plugins/growisofs/burn-growisofs.c:190
+#: ../plugins/libburnia/burn-libburn-common.c:186
+#, c-format
+msgid "The drive is busy"
+msgstr "A unidade está ocupada"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:57
+msgid "Hidden file"
+msgstr "Arquivo oculto"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:58
+msgid "Unreadable file"
+msgstr "Arquivo ilegível"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:59
+msgid "Broken symbolic link"
+msgstr "Link simbólico quebrado"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:60
+#: ../librejilla-utils/rejilla-io.c:1186 ../librejilla-utils/rejilla-io.c:2057
+#, c-format
+msgid "Recursive symbolic link"
+msgstr "Link simbólico recursivo"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:622
+#: ../librejilla-burn/rejilla-track-data-cfg.c:721
+#: ../librejilla-burn/rejilla-track-data-cfg.c:732
+#: ../librejilla-burn/rejilla-track-data-cfg.c:793
+#: ../librejilla-burn/rejilla-track-data-cfg.c:798
+#: ../src/rejilla-playlist.c:536 ../src/rejilla-video-tree-model.c:344
+msgid "(loading…)"
+msgstr "(carregando...)"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:624
+#: ../librejilla-burn/rejilla-track-data-cfg.c:804
+#: ../src/rejilla-playlist.c:497
+msgid "Empty"
+msgstr "Vazio"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:730
+msgid "Disc file"
+msgstr "Arquivo de disco"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:808
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d item"
+msgstr[1] "%d itens"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:1927
+#, c-format
+msgid "New folder"
+msgstr "Nova pasta"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:1930
+#, c-format
+msgid "New folder %i"
+msgstr "Nova pasta %i"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2421
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2431
+msgid "Analysing files"
+msgstr "Analisando arquivos"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2447
+#: ../librejilla-burn/rejilla-burn-options.c:471
+#: ../caja/caja-burn-extension.c:250 ../src/rejilla-project.c:1267
+#: ../librejilla-burn/rejilla-track-data.c:772
+#: ../librejilla-burn/rejilla-track-stream.c:405
+#, c-format
+msgid "There are no files to write to disc"
+msgstr "Nenhum arquivo para gravar no disco"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2567
+#, c-format
+msgid "\"%s\" is a recursive symbolic link."
+msgstr "\"%s\" é um link simbólico recursivo."
+
+#: ../librejilla-utils/rejilla-io.c:1414
+#, c-format
+msgid "The file does not appear to be a playlist"
+msgstr "O arquivo não parece ser uma lista de reprodução"
+
+#: ../librejilla-utils/rejilla-metadata.c:1138 ../src/rejilla-audio-disc.c:642
+#, c-format
+msgid "\"%s\" could not be handled by GStreamer."
+msgstr "\"%s\" não pode ser manipulado pelo Gstreamer."
+
+#. Translators: %s is the name of the object (as in
+#. * GObject) from the Gstreamer library that could
+#. * not be created
+#: ../librejilla-utils/rejilla-metadata.c:1210
+#: ../librejilla-utils/rejilla-metadata.c:1223
+#: ../librejilla-utils/rejilla-metadata.c:1236
+#: ../librejilla-utils/rejilla-metadata.c:1378
+#: ../librejilla-utils/rejilla-metadata.c:1749
+#: ../librejilla-utils/rejilla-metadata.c:1764
+#: ../librejilla-utils/rejilla-metadata.c:1773
+#: ../plugins/transcode/burn-normalize.c:172
+#: ../plugins/transcode/burn-normalize.c:187
+#: ../plugins/transcode/burn-normalize.c:209
+#: ../plugins/transcode/burn-normalize.c:221
+#: ../plugins/transcode/burn-normalize.c:238
+#: ../plugins/transcode/burn-normalize.c:335
+#: ../plugins/transcode/burn-transcode.c:294
+#: ../plugins/transcode/burn-transcode.c:306
+#: ../plugins/transcode/burn-transcode.c:456
+#: ../plugins/transcode/burn-transcode.c:509
+#: ../plugins/transcode/burn-transcode.c:543
+#: ../plugins/transcode/burn-transcode.c:590
+#: ../plugins/transcode/burn-transcode.c:611
+#: ../plugins/transcode/burn-transcode.c:623
+#: ../plugins/transcode/burn-transcode.c:648
+#: ../plugins/transcode/burn-vob.c:318 ../plugins/transcode/burn-vob.c:338
+#: ../plugins/transcode/burn-vob.c:353 ../plugins/transcode/burn-vob.c:365
+#: ../plugins/transcode/burn-vob.c:382 ../plugins/transcode/burn-vob.c:440
+#: ../plugins/transcode/burn-vob.c:457 ../plugins/transcode/burn-vob.c:469
+#: ../plugins/transcode/burn-vob.c:481 ../plugins/transcode/burn-vob.c:493
+#: ../plugins/transcode/burn-vob.c:510 ../plugins/transcode/burn-vob.c:601
+#: ../plugins/transcode/burn-vob.c:618 ../plugins/transcode/burn-vob.c:630
+#: ../plugins/transcode/burn-vob.c:642 ../plugins/transcode/burn-vob.c:664
+#: ../plugins/transcode/burn-vob.c:681 ../plugins/transcode/burn-vob.c:727
+#: ../plugins/transcode/burn-vob.c:804 ../plugins/transcode/burn-vob.c:821
+#: ../plugins/transcode/burn-vob.c:836 ../plugins/transcode/burn-vob.c:848
+#: ../plugins/transcode/burn-vob.c:859 ../plugins/transcode/burn-vob.c:870
+#: ../plugins/transcode/burn-vob.c:1045 ../plugins/transcode/burn-vob.c:1109
+#: ../plugins/transcode/burn-vob.c:1126 ../plugins/transcode/burn-vob.c:1147
+#: ../plugins/transcode/burn-vob.c:1174
+#, c-format
+msgid "%s element could not be created"
+msgstr "Não foi possível criar o elemento %s"
+
+#. Translators: Error message saying no graft point
+#. * is specified. A graft point is the path (on the
+#. * disc) where a file from any source will be added
+#. * ("grafted")
+#: ../librejilla-burn/rejilla-caps-burn.c:66
+#: ../librejilla-burn/rejilla-burn.c:2852 ../librejilla-burn/burn-job.c:1219
+#: ../librejilla-burn/burn-job.c:1228
+#: ../librejilla-burn/burn-mkisofs-base.c:302
+#: ../caja/caja-burn-extension.c:228 ../src/rejilla-app.c:783
+#: ../plugins/cdrkit/burn-genisoimage.c:370
+#: ../plugins/cdrkit/burn-readom.c:129 ../plugins/cdrkit/burn-readom.c:370
+#: ../plugins/cdrkit/burn-wodim.c:726 ../plugins/cdrkit/burn-wodim.c:841
+#: ../plugins/cdrkit/burn-wodim.c:856 ../plugins/cdrtools/burn-cdrecord.c:839
+#: ../plugins/cdrtools/burn-cdrecord.c:854
+#: ../plugins/cdrtools/burn-mkisofs.c:371
+#: ../plugins/cdrtools/burn-readcd.c:130 ../plugins/cdrtools/burn-readcd.c:380
+#, c-format
+msgid "An internal error occurred"
+msgstr "Ocorreu um erro interno"
+
+#: ../librejilla-burn/rejilla-caps-burn.c:868
+#: ../librejilla-burn/rejilla-burn.c:2582
+#, c-format
+msgid "Only one track at a time can be checked"
+msgstr "Apenas uma faixa por vez pode ser verificada"
+
+#: ../librejilla-burn/rejilla-track-image-cfg.c:430
+msgid "Retrieving image format and size"
+msgstr "Buscando formato e tamanho da imagem"
+
+#. Translators: This is a disc image
+#: ../librejilla-burn/rejilla-track-image-cfg.c:450
+msgid "The format of the disc image could not be identified"
+msgstr "Não foi possível identificar o formato da imagem de disco"
+
+#: ../librejilla-burn/rejilla-track-image-cfg.c:451
+msgid "Please set it manually"
+msgstr "Por favor, defina-o manualmente"
+
+#. Translators: This string is used in the title bar %s is the action currently performed
+#: ../librejilla-burn/rejilla-burn-dialog.c:184
+#, c-format
+msgid "%s (%i%% Done)"
+msgstr "%s %d%% completo"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:206
+#: ../librejilla-burn/rejilla-burn-dialog.c:1135
+msgid "Creating Image"
+msgstr "Criando imagem"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:211
+#: ../librejilla-burn/rejilla-burn-dialog.c:1144
+msgid "Burning DVD"
+msgstr "Gravando DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:215
+#: ../librejilla-burn/rejilla-burn-dialog.c:1140
+msgid "Copying DVD"
+msgstr "Copiando DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:221
+#: ../librejilla-burn/rejilla-burn-dialog.c:1154
+msgid "Burning CD"
+msgstr "Gravando CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:225
+#: ../librejilla-burn/rejilla-burn-dialog.c:346
+#: ../librejilla-burn/rejilla-burn-dialog.c:1150
+msgid "Copying CD"
+msgstr "Copiando CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:231
+#: ../librejilla-burn/rejilla-burn-dialog.c:1164
+msgid "Burning Disc"
+msgstr "Gravando disco"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:235
+#: ../librejilla-burn/rejilla-burn-dialog.c:1160
+msgid "Copying Disc"
+msgstr "Copiando disco"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:265
+#: ../librejilla-burn/burn-basics.c:78
+msgid "Creating image"
+msgstr "Criando imagem"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:271
+msgid "Simulation of video DVD burning"
+msgstr "Simulação de gravação de DVD de vídeo"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:273
+msgid "Burning video DVD"
+msgstr "Gravando DVD de vídeo"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:281
+msgid "Simulation of data DVD burning"
+msgstr "Simulação de gravação de DVD de dados"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:283
+msgid "Burning data DVD"
+msgstr "Gravando DVD de dados"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:291
+msgid "Simulation of image to DVD burning"
+msgstr "Simulação de imagem para gravação em DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:293
+msgid "Burning image to DVD"
+msgstr "Gravando imagem no DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:301
+msgid "Simulation of data DVD copying"
+msgstr "Simulação de cópia de DVD de dados"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:303
+msgid "Copying data DVD"
+msgstr "Copiando DVD de dados"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:314
+msgid "Simulation of (S)VCD burning"
+msgstr "Simulação de gravação de (S)VCD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:316
+msgid "Burning (S)VCD"
+msgstr "Gravando (S)VCD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:324
+#: ../librejilla-burn/rejilla-burn-dialog.c:377
+msgid "Simulation of audio CD burning"
+msgstr "Simulação de gravação de CD de áudio"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:326
+#: ../librejilla-burn/rejilla-burn-dialog.c:379
+msgid "Burning audio CD"
+msgstr "Gravando CD de áudio"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:334
+msgid "Simulation of data CD burning"
+msgstr "Simulação de gravação de CD de dados"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:336
+msgid "Burning data CD"
+msgstr "Gravando CD de dados"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:344
+msgid "Simulation of CD copying"
+msgstr "Simulação de cópia de CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:354
+msgid "Simulation of image to CD burning"
+msgstr "Simulação de gravação de imagem em CD"
+
+#  Dica de ferramenta _e_ comando...
+#: ../librejilla-burn/rejilla-burn-dialog.c:356
+msgid "Burning image to CD"
+msgstr "Gravando imagem no CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:367
+msgid "Simulation of video disc burning"
+msgstr "Simulação de gravação de disco de vídeo"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:369
+msgid "Burning video disc"
+msgstr "Gravando o disco de vídeo"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:387
+msgid "Simulation of data disc burning"
+msgstr "Simulação de gravação de disco de dados"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:389
+msgid "Burning data disc"
+msgstr "Gravando disco de dados"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:397
+msgid "Simulation of disc copying"
+msgstr "Simulação de cópia de disco"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:399
+#: ../librejilla-burn/burn-basics.c:82
+msgid "Copying disc"
+msgstr "Copiando disco"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:407
+msgid "Simulation of image to disc burning"
+msgstr "Simulação de imagem para gravação no disco"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:409
+msgid "Burning image to disc"
+msgstr "Gravando imagem no disco"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:514
+msgid "Please replace the disc with a rewritable disc holding data."
+msgstr "Por favor, substitua o disco por um disco regravável contendo dados."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:516
+msgid "Please replace the disc with a disc holding data."
+msgstr "Por favor, substitua o disco por um disco contendo dados."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:520
+msgid "Please insert a rewritable disc holding data."
+msgstr "Por favor, insira um disco regravável contendo dados."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:522
+#: ../librejilla-burn/rejilla-burn-options.c:496
+msgid "Please insert a disc holding data."
+msgstr "Por favor, insira um disco contendo dados."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:537
+#, c-format
+msgid ""
+"Please replace the disc with a writable CD with at least %i MiB of free "
+"space."
+msgstr ""
+"Por favor, substitua o disco por um CD gravável com no mínimo %i MiB de "
+"espaço livre."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:540
+msgid "Please replace the disc with a writable CD."
+msgstr "Por favor, substitua o disco por um CD gravável."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:544
+#, c-format
+msgid "Please insert a writable CD with at least %i MiB of free space."
+msgstr "Por favor, insira um CD gravável com no mínimo %i MiB de espaço livre."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:547
+msgid "Please insert a writable CD."
+msgstr "Por favor, insira um CD gravável."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:553
+#, c-format
+msgid ""
+"Please replace the disc with a writable DVD with at least %i MiB of free "
+"space."
+msgstr ""
+"Por favor, substitua o disco por um DVD gravável com no mínimo %i MiB de "
+"espaço livre."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:556
+msgid "Please replace the disc with a writable DVD."
+msgstr "Por favor, substitua o disco por um DVD gravável."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:560
+#, c-format
+msgid "Please insert a writable DVD with at least %i MiB of free space."
+msgstr ""
+"Por favor, insira um DVD gravável com no mínimo %i MiB de espaço livre."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:563
+msgid "Please insert a writable DVD."
+msgstr "Por favor, insira um DVD gravável."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:568
+#, c-format
+msgid ""
+"Please replace the disc with a writable CD or DVD with at least %i MiB of "
+"free space."
+msgstr ""
+"Por favor, substitua o disco por um CD ou DVD gravável com no mínimo %i MiB "
+"de espaço livre."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:571
+msgid "Please replace the disc with a writable CD or DVD."
+msgstr "Por favor, substitua o disco por um CD ou DVD gravável."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:575
+#, c-format
+msgid "Please insert a writable CD or DVD with at least %i MiB of free space."
+msgstr ""
+"Por favor, insira um CD ou DVD gravável com no mínimo %i MiB de espaço livre."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:578
+#: ../librejilla-burn/rejilla-burn-dialog.c:2157
+#: ../librejilla-burn/rejilla-burn-dialog.c:2171
+#: ../librejilla-burn/rejilla-burn-options.c:450 ../src/rejilla-project.c:987
+msgid "Please insert a writable CD or DVD."
+msgstr "Por favor, insira um CD ou DVD gravável."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:605
+msgid ""
+"An image of the disc has been created on your hard drive.\n"
+"Burning will begin as soon as a writable disc is inserted."
+msgstr ""
+"Uma imagem do disco foi criada no seu disco rígido.\n"
+"A gravação será iniciada assim que um disco gravável for inserido."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:610
+msgid "A data integrity test will begin as soon as the disc is inserted."
+msgstr "Um teste de integridade será realizado assim que o disco for inserido."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:611
+msgid "Please re-insert the disc in the CD/DVD burner."
+msgstr "Por favor, insira novamente o disco no gravador de CD/DVD."
+
+#. Translators: %s is the name of a drive
+#: ../librejilla-burn/rejilla-burn-dialog.c:615
+#, c-format
+msgid "\"%s\" is busy."
+msgstr "\"%s\" está ocupado."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:616
+#: ../librejilla-burn/rejilla-burn.c:332
+#: ../librejilla-burn/rejilla-tool-dialog.c:90
+msgid "Make sure another application is not using it"
+msgstr "Verifique se outro aplicativo não o está usando"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:619
+#, c-format
+msgid "There is no disc in \"%s\"."
+msgstr "Não há disco em \"%s\"."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:623
+#, c-format
+msgid "The disc in \"%s\" is not supported."
+msgstr "Não há suporte ao disco em \"%s\"."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:627
+#, c-format
+msgid "The disc in \"%s\" is not rewritable."
+msgstr "O disco em \"%s\" não é regravável."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:631
+#, c-format
+msgid "The disc in \"%s\" is empty."
+msgstr "O disco em \"%s\" está vazio."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:635
+#, c-format
+msgid "The disc in \"%s\" is not writable."
+msgstr "O disco em \"%s\" não é gravável."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:639
+#, c-format
+msgid "Not enough space available on the disc in \"%s\"."
+msgstr "Não há espaço suficiente disponível no disco em \"%s\"."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:647
+#, c-format
+msgid "The disc in \"%s\" needs to be reloaded."
+msgstr "O disco em \"%s\" precisa ser recarregado."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:648
+msgid "Please eject the disc and reload it."
+msgstr "Por favor, ejete o disco e recarregue-o."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:693
+#: ../librejilla-burn/rejilla-sum-dialog.c:333
+msgid ""
+"A file could not be created at the location specified for temporary files"
+msgstr ""
+"Um arquivo não pôde ser criado no local especificado para os arquivos "
+"temporários"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:694
+msgid "The image could not be created at the specified location"
+msgstr "A imagem não pode ser criada no local especificado"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:695
+msgid ""
+"Do you want to specify another location for this session or retry with the "
+"current location?"
+msgstr ""
+"Deseja especificar um outro local para esta sessão ou repetir com a "
+"localização atual?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:707
+msgid "You may want to free some space on the disc and retry"
+msgstr "Você pode liberar algum espaço no disco e tentar novamente"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:714
+#: ../librejilla-burn/rejilla-drive-properties.c:247
+#: ../librejilla-burn/rejilla-drive-properties.c:285
+#: ../librejilla-burn/rejilla-drive-properties.c:337
+msgid "_Keep Current Location"
+msgstr "_Manter a localização atual"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:716
+#: ../librejilla-burn/rejilla-drive-properties.c:248
+#: ../librejilla-burn/rejilla-drive-properties.c:286
+#: ../librejilla-burn/rejilla-drive-properties.c:338
+msgid "_Change Location"
+msgstr "_Alterar a localização"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:738
+#: ../librejilla-burn/rejilla-image-properties.c:476
+msgid "Location for Image File"
+msgstr "Localização para o arquivo de imagem"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:746
+#: ../librejilla-burn/rejilla-drive-properties.c:369
+msgid "Location for Temporary Files"
+msgstr "Localização para arquivos temporários"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:854
+#: ../librejilla-burn/rejilla-burn-dialog.c:1103
+msgid "_Replace Disc"
+msgstr "_Substituir disco"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:895
+msgid "Do you really want to blank the current disc?"
+msgstr "Você realmente deseja apagar o disco atual?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:896
+msgid "The disc in the drive holds data."
+msgstr "O disco na unidade contém dados."
+
+#. Translators: Blank is a verb here
+#: ../librejilla-burn/rejilla-burn-dialog.c:898
+msgid "_Blank Disc"
+msgstr "_Apagar disco"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:912
+msgid ""
+"If you import them you will be able to see and use them once the current "
+"selection of files is burned."
+msgstr ""
+"Se você importá-los você poderá vê-los e usá-los na seleção de arquivos a "
+"ser gravada."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:913
+msgid "If you don't, they will be invisible (though still readable)."
+msgstr "Senão, eles ficarão invisíveis (apesar de ainda legíveis)."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:916
+msgid ""
+"There are files already burned on this disc. Would you like to import them?"
+msgstr "Já existem arquivos gravados no disco. Você gostaria importá-los?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:918
+msgid "_Import"
+msgstr "_Importar"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:919
+msgid "Only _Append"
+msgstr "_Adicionar apenas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:932
+msgid ""
+"CD-RW audio discs may not play correctly in older CD players and CD-Text "
+"won't be written."
+msgstr ""
+"Discos CD-RW de áudio podem ser reproduzidos incorretamente em reprodutores "
+"de CD antigos e CD-TEXT não será gravado."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:933
+#: ../librejilla-burn/rejilla-burn-dialog.c:955
+msgid "Do you want to continue anyway?"
+msgstr "Você deseja continuar mesmo assim?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:936
+msgid "Appending audio tracks to a CD is not advised."
+msgstr "Não é recomendado adicionar faixas de áudio a um CD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:938
+#: ../librejilla-burn/rejilla-burn-dialog.c:960 ../src/rejilla-data-disc.c:572
+#: ../librejilla-burn/rejilla-tool-dialog.c:422
+msgid "_Continue"
+msgstr "_Continuar"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:954
+msgid "CD-RW audio discs may not play correctly in older CD players."
+msgstr ""
+"Discos CD-RW de áudio podem ser reproduzidos incorretamente em reprodutores "
+"de CD antigos."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:958
+msgid "Recording audio tracks on a rewritable disc is not advised."
+msgstr "Não é recomendado gravar faixas de áudio em um disco regravável."
+
+#. Translators: %s is the name of a drive
+#: ../librejilla-burn/rejilla-burn-dialog.c:1005
+#, c-format
+msgid "Please eject the disc from \"%s\" manually."
+msgstr "Por favor, ejete manualmente o disco de \"%s\"."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1014
+msgid ""
+"The disc could not be ejected though it needs to be removed for the current "
+"operation to continue."
+msgstr ""
+"O disco não pôde ser ejetado apesar de ser preciso removê-lo para continuar "
+"com a operação atual."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1101
+msgid "Do you want to replace the disc and continue?"
+msgstr "Você deseja substituir o disco e continuar?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1102
+msgid "The currently inserted disc could not be blanked."
+msgstr "Não foi possível apagar o disco atual."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1111
+msgid "Do you want to continue with full Windows compatibility disabled?"
+msgstr "Você deseja continuar com a compatibilidade com Windows desabilitada?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1112
+#: ../src/rejilla-data-disc.c:746
+#: ../librejilla-burn/rejilla-status-dialog.c:343
+msgid ""
+"Some files don't have a suitable name for a fully Windows-compatible CD."
+msgstr ""
+"Alguns arquivos não têm nomes adequados para um CD compatível com Windows."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1113
+msgid "C_ontinue"
+msgstr "C_ontinuar"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1346
+#: ../librejilla-burn/rejilla-burn-dialog.c:1367
+msgid "The simulation was successful."
+msgstr "A simulação terminou com sucesso."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1349
+msgid "Real disc burning will take place in 10 seconds."
+msgstr "A gravação real irá acontecer em 10 segundos."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1352
+msgid "Burn _Now"
+msgstr "Gravar a_gora"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1649
+msgid "Save Current Session"
+msgstr "Salvar sessão atual"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1724
+msgid "An unknown error occurred."
+msgstr "Ocorreu um erro desconhecido."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1732 ../src/rejilla-app.c:617
+msgid "Error while burning."
+msgstr "Erro ao gravar."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1740
+msgid "_Save Log"
+msgstr "_Salvar registro"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1773
+msgid "Video DVD successfully burned"
+msgstr "DVD de vídeo gravado com sucesso"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1775
+msgid "(S)VCD successfully burned"
+msgstr "(S)VCD gravado com sucesso"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1778
+msgid "Audio CD successfully burned"
+msgstr "CD de áudio gravado com sucesso"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1781
+#: ../librejilla-burn/rejilla-burn-dialog.c:1813
+msgid "Image successfully created"
+msgstr "Imagem criada com sucesso"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1786
+msgid "DVD successfully copied"
+msgstr "DVD copiado com sucesso"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1788
+msgid "CD successfully copied"
+msgstr "CD copiado com sucesso"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1792
+msgid "Image of DVD successfully created"
+msgstr "Imagem de DVD criada com sucesso"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1794
+msgid "Image of CD successfully created"
+msgstr "Imagem de CD criada com sucesso"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1800
+msgid "Image successfully burned to DVD"
+msgstr "Imagem gravada no DVD com sucesso"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1802
+msgid "Image successfully burned to CD"
+msgstr "Imagem gravada no CD com sucesso"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1808
+msgid "Data DVD successfully burned"
+msgstr "DVD de dados gravado com sucesso"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1810
+msgid "Data CD successfully burned"
+msgstr "CD de dados gravado com sucesso"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1870
+#, c-format
+msgid "Copy #%i has been burned successfully."
+msgstr "Cópia número %i foi realizada com sucesso."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1878
+msgid ""
+"Another copy will start as soon as you insert a new writable disc. If you do "
+"not want to burn another copy, press \"Cancel\"."
+msgstr ""
+"Outra cópia será iniciada assim que você inserir um disco gravável na "
+"unidade. Se você não quiser gravar outra cópia, pressione \"Cancelar\"."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1950
+msgid "Make _More Copies"
+msgstr "Fazer _outra cópia"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1959
+msgid "_Create Cover"
+msgstr "_Criar capa"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2120
+msgid "There are some files left to burn"
+msgstr "Existem mais arquivos para gravar"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2127
+msgid "There are some more videos left to burn"
+msgstr "Existem mais arquivos de vídeo para gravar"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2131
+msgid "There are some more songs left to burn"
+msgstr "Existem mais músicas para gravar"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2172
+#: ../librejilla-burn/rejilla-burn.c:1629
+#: ../plugins/cdrkit/burn-genisoimage.c:208 ../plugins/cdrkit/burn-wodim.c:114
+#: ../plugins/cdrtools/burn-cdrecord.c:114
+#: ../plugins/cdrtools/burn-mkisofs.c:209
+#: ../plugins/growisofs/burn-growisofs.c:198
+#, c-format
+msgid "Not enough space available on the disc"
+msgstr "Não há espaço disponível no disco"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2437
+#: ../librejilla-burn/rejilla-tool-dialog.c:411
+msgid "Do you really want to quit?"
+msgstr "Você realmente deseja sair?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2441
+#: ../librejilla-burn/rejilla-tool-dialog.c:417
+msgid "Interrupting the process may make disc unusable."
+msgstr "A interrupção do processo pode deixar o disco inutilizável."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2444
+msgid "C_ontinue Burning"
+msgstr "C_ontinuar a gravação"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2451
+msgid "_Cancel Burning"
+msgstr "Ca_ncelar a gravação"
+
+#: ../librejilla-burn/rejilla-burn-options.c:228 ../src/rejilla-project.c:1012
+msgid ""
+"Please insert a writable CD or DVD if you don't want to write to an image "
+"file."
+msgstr ""
+"Por favor, insira um CD ou DVD gravável se você não quiser gravar em um "
+"arquivo de imagem."
+
+#: ../librejilla-burn/rejilla-burn-options.c:302 ../src/rejilla-project.c:1586
+msgid "Create _Image"
+msgstr "Criar _imagem"
+
+#. Translators: This is a verb, an action
+#: ../librejilla-burn/rejilla-burn-options.c:307
+msgid "_Copy"
+msgstr "_Copiar"
+
+#: ../librejilla-burn/rejilla-burn-options.c:310
+msgid "Make _Several Copies"
+msgstr "Fazer _várias cópias"
+
+#. Translators: This is a verb, an action
+#: ../librejilla-burn/rejilla-burn-options.c:314 ../src/rejilla-project.c:1515
+msgid "_Burn"
+msgstr "_Gravar"
+
+#: ../librejilla-burn/rejilla-burn-options.c:317 ../src/rejilla-project.c:1512
+msgid "Burn _Several Copies"
+msgstr "_Gravar vários discos"
+
+#: ../librejilla-burn/rejilla-burn-options.c:426 ../src/rejilla-project.c:941
+msgid "Would you like to burn the selection of files across several media?"
+msgstr "Você gostaria de gravar os arquivos selecionados em várias mídias?"
+
+#: ../librejilla-burn/rejilla-burn-options.c:427
+#: ../librejilla-burn/rejilla-burn-options.c:444
+msgid "The data size is too large for the disc even with the overburn option."
+msgstr ""
+"O tamanho dos dados é muito grande para o disco mesmo usando a opção "
+"overburn."
+
+#: ../librejilla-burn/rejilla-burn-options.c:432 ../src/rejilla-project.c:946
+msgid "_Burn Several Discs"
+msgstr "_Gravar vários discos"
+
+#: ../librejilla-burn/rejilla-burn-options.c:434 ../src/rejilla-project.c:948
+msgid "Burn the selection of files across several media"
+msgstr "Gravar a seleção de arquivos em várias mídias"
+
+#: ../librejilla-burn/rejilla-burn-options.c:443 ../src/rejilla-project.c:957
+msgid "Please choose another CD or DVD or insert a new one."
+msgstr "Por favor, escolha outro CD/DVD ou insira um novo."
+
+#: ../librejilla-burn/rejilla-burn-options.c:457 ../src/rejilla-project.c:1002
+msgid "No track information (artist, title, ...) will be written to the disc."
+msgstr ""
+"Nenhuma informação da faixa (artista, título, ...) será gravada no disco."
+
+#: ../librejilla-burn/rejilla-burn-options.c:458 ../src/rejilla-project.c:1003
+msgid "This is not supported by the current active burning backend."
+msgstr "Isto não tem suporte pelo backend gravador ativo."
+
+#: ../librejilla-burn/rejilla-burn-options.c:470
+#: ../caja/caja-burn-extension.c:249
+msgid "Please add files."
+msgstr "Por favor, adicione os arquivos."
+
+#: ../librejilla-burn/rejilla-burn-options.c:476
+msgid "Please add songs."
+msgstr "Por favor, adicione as músicas."
+
+#: ../librejilla-burn/rejilla-burn-options.c:477 ../src/rejilla-project.c:1258
+msgid "There are no songs to write to disc"
+msgstr "Nenhuma música para gravar no disco"
+
+#: ../librejilla-burn/rejilla-burn-options.c:482
+msgid "Please add videos."
+msgstr "Por favor, adicione os vídeos."
+
+#: ../librejilla-burn/rejilla-burn-options.c:483
+msgid "There are no videos to write to disc"
+msgstr "Nenhum vídeo para gravar no disco"
+
+#: ../librejilla-burn/rejilla-burn-options.c:497
+msgid "There is no inserted disc to copy."
+msgstr "Não há disco inserido para copiar."
+
+#: ../librejilla-burn/rejilla-burn-options.c:508
+msgid "Please select a disc image."
+msgstr "Por favor, selecione uma imagem de disco."
+
+#: ../librejilla-burn/rejilla-burn-options.c:509
+msgid "There is no selected disc image."
+msgstr "Nenhuma imagem de disco selecionada."
+
+#. Translators: this is a disc image not a picture
+#. Translators: this is a disc image, not a picture
+#: ../librejilla-burn/rejilla-burn-options.c:521
+#: ../librejilla-burn/rejilla-src-image.c:167
+msgctxt "disc"
+msgid "Please select another image."
+msgstr "Por favor, selecione outra imagem de disco."
+
+# Precedido de: "This image can't be burnt:"
+#: ../librejilla-burn/rejilla-burn-options.c:522
+msgid "It doesn't appear to be a valid disc image or a valid cue file."
+msgstr "Esta não parece ser uma imagem de disco ou arquivo cue válido."
+
+#: ../librejilla-burn/rejilla-burn-options.c:533
+msgid "Please insert a disc that is not copy protected."
+msgstr "Por favor, insira um disco que não seja protegido contra cópia."
+
+#: ../librejilla-burn/rejilla-burn-options.c:534
+#: ../librejilla-burn/rejilla-burn-options.c:1237
+#: ../src/rejilla-project.c:1435
+msgid "All required applications and libraries are not installed."
+msgstr "Os programas e bibliotecas necessários não estão instalados."
+
+#: ../librejilla-burn/rejilla-burn-options.c:541 ../src/rejilla-project.c:995
+msgid "Please replace the disc with a supported CD or DVD."
+msgstr ""
+"Por favor, substitua o disco por um CD ou DVD para o qual haja suporte."
+
+#: ../librejilla-burn/rejilla-burn-options.c:550 ../src/rejilla-project.c:968
+msgid "Would you like to burn beyond the disc's reported capacity?"
+msgstr "Gostaria de gravar além da capacidade de disco informada?"
+
+#: ../librejilla-burn/rejilla-burn-options.c:551
+msgid ""
+"The data size is too large for the disc and you must remove files from the "
+"selection otherwise.\n"
+"You may want to use this option if you're using 90 or 100 min CD-R(W) which "
+"cannot be properly recognised and therefore need overburn option.\n"
+"NOTE: This option might cause failure."
+msgstr ""
+"O tamanho dos dados é muito grande para o disco e você precisa remover "
+"arquivos da seleção.\n"
+"Você pode optar por isso se você estiver usando um CD-R(W) de 90 ou 100 min. "
+"que não pode ser apropriadamente reconhecido e, portanto, precisa da opção "
+"overburn.\n"
+"NOTA: Esta opção poderá causar falhas."
+
+#: ../librejilla-burn/rejilla-burn-options.c:558 ../src/rejilla-project.c:975
+msgid "_Overburn"
+msgstr "Usar _overburn"
+
+#: ../librejilla-burn/rejilla-burn-options.c:560 ../src/rejilla-project.c:977
+msgid "Burn beyond the disc's reported capacity"
+msgstr "Gravar além da capacidade de disco informada"
+
+#: ../librejilla-burn/rejilla-burn-options.c:570
+msgid ""
+"The drive that holds the source disc will also be the one used to record."
+msgstr ""
+"A unidade que contém o disco de origem será a mesma utilizada para a "
+"gravação."
+
+#: ../librejilla-burn/rejilla-burn-options.c:571
+msgid ""
+"A new writable disc will be required once the currently loaded one has been "
+"copied."
+msgstr "Um novo disco gravável será requisitado assim que o atual for copiado."
+
+#: ../librejilla-burn/rejilla-burn-options.c:659
+msgid "Select a disc to write to"
+msgstr "Selecione um disco para gravar"
+
+#: ../librejilla-burn/rejilla-burn-options.c:739
+#: ../librejilla-burn/rejilla-burn-options.c:757
+#: ../librejilla-burn/rejilla-burn-options.c:877
+msgid "Disc Burning Setup"
+msgstr "Preferências de gravação de disco"
+
+#: ../librejilla-burn/rejilla-burn-options.c:766 ../src/rejilla-project.c:1535
+msgid "Video Options"
+msgstr "Opções de vídeo"
+
+#: ../librejilla-burn/rejilla-burn-options.c:797
+#: ../src/rejilla-data-disc.c:616
+msgid ""
+"Do you want to create a disc from the contents of the image or with the "
+"image file inside?"
+msgstr ""
+"Você deseja criar um disco com o conteúdo da imagem ou com o arquivo de "
+"imagem dentro?"
+
+#. Translators: %s is the name of the image
+#: ../librejilla-burn/rejilla-burn-options.c:806
+#, c-format
+msgid ""
+"There is only one selected file (\"%s\"). It is the image of a disc and its "
+"contents can be burned."
+msgstr ""
+"Só existe um arquivo selecionado (\"%s\"). É a imagem de um disco e seu "
+"conteúdo pode ser gravado."
+
+#: ../librejilla-burn/rejilla-burn-options.c:811
+msgid "Burn as _File"
+msgstr "Gravar como _arquivo"
+
+#: ../librejilla-burn/rejilla-burn-options.c:813
+msgid "Burn _Contents…"
+msgstr "Gravar _conteúdo..."
+
+#: ../librejilla-burn/rejilla-burn-options.c:895
+msgid "Image Burning Setup"
+msgstr "Preferências de gravação de imagem"
+
+#. pack everything
+#: ../librejilla-burn/rejilla-burn-options.c:903
+msgid "Select a disc image to write"
+msgstr "Selecione uma imagem de disco para gravar"
+
+#: ../librejilla-burn/rejilla-burn-options.c:923
+msgid "Copy CD/DVD"
+msgstr "Copiar CD/DVD"
+
+#: ../librejilla-burn/rejilla-burn-options.c:929
+msgid "Select disc to copy"
+msgstr "Selecione o disco para copiar"
+
+#. Translators: %s is the name of a missing application
+#: ../librejilla-burn/rejilla-burn-options.c:1189
+#: ../librejilla-burn/rejilla-burn.c:1713 ../src/rejilla-project.c:1375
+#, c-format
+msgid "%s (application)"
+msgstr "%s (aplicativo)"
+
+#. Translators: %s is the name of a missing library
+#: ../librejilla-burn/rejilla-burn-options.c:1195
+#: ../librejilla-burn/rejilla-burn.c:1719 ../src/rejilla-project.c:1381
+#, c-format
+msgid "%s (library)"
+msgstr "%s (biblioteca)"
+
+#. Translators: %s is the name of a missing GStreamer plugin
+#: ../librejilla-burn/rejilla-burn-options.c:1200
+#: ../librejilla-burn/rejilla-burn.c:1724 ../src/rejilla-project.c:1386
+#, c-format
+msgid "%s (GStreamer plugin)"
+msgstr "%s (plug-in do Gstreamer)"
+
+#: ../librejilla-burn/rejilla-burn-options.c:1231
+#: ../src/rejilla-project.c:1429
+msgid "Please install the following manually and try again:"
+msgstr "Por favor instale o componente a seguir manualmente e tente novamente:"
+
+#: ../librejilla-burn/rejilla-burn.c:162
+msgid "Burning CD/DVD"
+msgstr "Gravando CD/DVD"
+
+#: ../librejilla-burn/rejilla-burn.c:409
+#, c-format
+msgid "\"%s\" cannot be unlocked"
+msgstr "\"%s\" não pôde ser desbloqueada"
+
+#: ../librejilla-burn/rejilla-burn.c:546 ../librejilla-burn/rejilla-burn.c:678
+#: ../librejilla-burn/rejilla-burn.c:761
+msgid "No burner specified"
+msgstr "Nenhuma unidade especificada"
+
+#: ../librejilla-burn/rejilla-burn.c:586
+msgid "No source drive specified"
+msgstr "Nenhuma unidade de origem especificada"
+
+#: ../librejilla-burn/rejilla-burn.c:632
+msgid "Ongoing copying process"
+msgstr "Processo de cópia em andamento"
+
+#: ../librejilla-burn/rejilla-burn.c:636 ../librejilla-burn/rejilla-burn.c:735
+#: ../librejilla-burn/rejilla-burn.c:872 ../librejilla-burn/rejilla-burn.c:987
+#, c-format
+msgid "The drive cannot be locked (%s)"
+msgstr "Não foi possível bloquear a unidade (%s)"
+
+#: ../librejilla-burn/rejilla-burn.c:695
+msgid "The drive has no rewriting capabilities"
+msgstr "A unidade não tem capacidade de regravação"
+
+#: ../librejilla-burn/rejilla-burn.c:731
+msgid "Ongoing blanking process"
+msgstr "Processo de limpeza em andamento"
+
+#: ../librejilla-burn/rejilla-burn.c:770
+msgid "The drive cannot burn"
+msgstr "A unidade não pode gravar"
+
+#: ../librejilla-burn/rejilla-burn.c:866
+#: ../librejilla-burn/rejilla-dest-selection.c:108
+msgid "Ongoing burning process"
+msgstr "Processo de gravação em andamento"
+
+#: ../librejilla-burn/rejilla-burn.c:983
+msgid "Ongoing checksumming operation"
+msgstr "Processo de verificação em andamento"
+
+#: ../librejilla-burn/rejilla-burn.c:1628
+#: ../librejilla-burn/rejilla-burn.c:1822
+msgid "Merging data is impossible with this disc"
+msgstr "Não é possível a mesclagem de dados com este disco"
+
+#: ../librejilla-burn/rejilla-burn.c:1757
+msgid "There is no track to burn"
+msgstr "Não há nenhuma faixa para ser gravada"
+
+#: ../librejilla-burn/rejilla-burn.c:1864
+msgid ""
+"Please install the following required applications and libraries manually "
+"and try again:"
+msgstr ""
+"Por favor instale os aplicativos e bibliotecas necessários manualmente e "
+"tente novamente:"
+
+#: ../librejilla-burn/rejilla-burn.c:2641
+msgid "No format for the temporary image could be found"
+msgstr "Não foi possível localizar um formato para a imagem temporária"
+
+#: ../librejilla-burn/rejilla-cover.c:119
+msgid "Unknown song"
+msgstr "Música desconhecida"
+
+#. Reminder: if this string happens to be used
+#. * somewhere else in rejilla we'll need a
+#. * context with C_() macro
+#. Translators: %s is the name of the artist.
+#. * This text is the one written on the cover of a disc.
+#. * Before it there is the name of the song.
+#. * I had to break it because it is in a GtkTextBuffer
+#. * and every word has a different tag.
+#. Translators: %s is the name of an artist.
+#. Translators: %s is the name of the artist
+#: ../librejilla-burn/rejilla-cover.c:146 ../src/rejilla-song-control.c:274
+#: ../src/rejilla-player.c:419
+#, c-format
+msgid "by %s"
+msgstr "por %s"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:605
+#: ../librejilla-burn/rejilla-image-type-chooser.c:133
+msgid "SVCD image"
+msgstr "Imagem SVCD"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:607
+#: ../librejilla-burn/rejilla-image-type-chooser.c:127
+msgid "VCD image"
+msgstr "Imagem VCD"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:611
+#: ../librejilla-burn/rejilla-image-type-chooser.c:106
+msgid "Video DVD image"
+msgstr "Imagem de vídeo DVD"
+
+#. NOTE for translators: the first %s is medium_name ("File
+#. * Image") and the second the path for the image file
+#: ../librejilla-burn/rejilla-dest-selection.c:623
+#, c-format
+msgid "%s: \"%s\""
+msgstr "%s: \"%s\""
+
+# do código fonte:
+# /* Translators: this string is only used when the user
+# * wants to copy a disc using the same destination and
+#  * source drive. It tells him that rejilla will use as
+# * destination disc a new one (once the source has been
+# * copied) which is to be inserted in the drive currently
+# * holding the source disc */
+#. Translators: this string is only used when the user
+#. * wants to copy a disc using the same destination and
+#. * source drive. It tells him that rejilla will use as
+#. * destination disc a new one (once the source has been
+#. * copied) which is to be inserted in the drive currently
+#. * holding the source disc
+#: ../librejilla-burn/rejilla-dest-selection.c:655
+#, c-format
+msgid "New disc in the burner holding the source disc"
+msgstr "Novo disco na unidade de gravação que contém o disco de origem"
+
+#. NOTE for translators, the first %s is the medium name
+#: ../librejilla-burn/rejilla-dest-selection.c:696
+#, c-format
+msgid "%s: not enough free space"
+msgstr "%s: não há espaço livre suficiente"
+
+#. NOTE for translators: the first %s is the medium name, the second %s
+#. * is its available free space. "Free" here is the free space available.
+#: ../librejilla-burn/rejilla-dest-selection.c:727
+#, c-format
+msgid "%s: %s of free space"
+msgstr "%s: %s de espaço livre"
+
+#. Translators: the first %s is the path of the directory where rejilla
+#. * will store its temporary files; the second one is the size available
+#: ../librejilla-burn/rejilla-drive-properties.c:192
+#, c-format
+msgid "%s: %s free"
+msgstr "%s: %s livre"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:236
+#: ../librejilla-burn/rejilla-drive-properties.c:275
+#: ../librejilla-burn/rejilla-drive-properties.c:327
+msgid "Do you really want to choose this location?"
+msgstr "Você realmente deseja escolher esta localização?"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:280
+#: ../librejilla-burn/rejilla-session.c:1290
+#: ../librejilla-burn/rejilla-session.c:1365 ../librejilla-burn/burn-job.c:490
+#: ../plugins/cdrkit/burn-genisoimage.c:201
+#: ../plugins/cdrtools/burn-mkisofs.c:202
+#: ../plugins/libburnia/burn-libisofs.c:239
+#, c-format
+msgid "You do not have the required permission to write at this location"
+msgstr "Você não tem as permissões necessárias para escrever nesta localização"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:333
+msgid ""
+"The filesystem on this volume does not support large files (size over 2 "
+"GiB).\n"
+"This can be a problem when writing DVDs or large images."
+msgstr ""
+"O sistema de arquivos neste volume não oferece suporte a arquivos grandes "
+"(tamanho acima de 2 GiB).\n"
+"Isto pode ser um problema ao gravar DVDs ou imagens maiores."
+
+#. Translators %s.1f is the speed used to burn
+#: ../librejilla-burn/rejilla-drive-properties.c:531
+#, c-format
+msgid "%.1f× (DVD)"
+msgstr "%.1f× (DVD)"
+
+#. Translators %s.1f is the speed used to burn
+#: ../librejilla-burn/rejilla-drive-properties.c:535
+#, c-format
+msgid "%.1f× (CD)"
+msgstr "%.1f× (CD)"
+
+#. Translators %s.1f is the speed used to burn. BD = Blu Ray
+#: ../librejilla-burn/rejilla-drive-properties.c:539
+#, c-format
+msgid "%.1f× (BD)"
+msgstr "%.1f× (BD)"
+
+#. Translators %s.1f is the speed used to burn for every medium
+#. * type. BD = Blu Ray
+#: ../librejilla-burn/rejilla-drive-properties.c:544
+#, c-format
+msgid "%.1f× (BD) %.1f× (DVD) %.1f× (CD)"
+msgstr "%.1f× (BD) %.1f× (DVD) %.1f× (CD)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:582
+msgid "Impossible to retrieve speeds"
+msgstr "Impossível recuperar velocidades"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:591
+msgid "Maximum speed"
+msgstr "Velocidade máxima"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:717
+msgid "Burning speed"
+msgstr "Velocidade de gravação"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:730
+msgid "_Simulate before burning"
+msgstr "_Simular antes de gravar"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:731
+msgid ""
+"Rejilla will simulate the burning and, if it is successful, go on with "
+"actual burning after 10 seconds"
+msgstr ""
+"O Rejilla irá simular a gravação e, em caso de sucesso, irá efetuar a "
+"gravação após 10 segundos"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:733
+msgid "Use burn_proof (decrease the risk of failures)"
+msgstr "Usar burn_proof (diminui o risco de falhas)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:735
+msgid "Burn the image directly _without saving it to disc"
+msgstr "Gravar imagem diretamente _sem salvar no disco"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:737
+msgid "Leave the disc _open to add other files later"
+msgstr "Manter o disco _aberto para adicionar outros arquivos mais tarde"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:738
+msgid "Allow to add more data to the disc later"
+msgstr "Permite adicionar mais dados ao disco mais tarde"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:758
+#: ../src/rejilla-song-properties.c:227
+#: ../librejilla-burn/rejilla-tool-dialog.c:284
+#: ../src/rejilla-multi-song-props.c:309
+msgid "Options"
+msgstr "Opções"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:770
+msgid "Location for _Temporary Files"
+msgstr "Localização para arquivos _temporários"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:790
+msgid "Set the directory where to store temporary files"
+msgstr "Define o diretório onde armazenar arquivos temporários"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:795
+msgid "Temporary files"
+msgstr "Arquivos temporários"
+
+#: ../librejilla-burn/rejilla-image-properties.c:221
+msgid "Disc image type:"
+msgstr "Tipo de imagem de disco:"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:97
+msgid "Autodetect"
+msgstr "Detectar automaticamente"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:106
+msgid "ISO9660 image"
+msgstr "Imagem ISO9660"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:115
+msgid "Readcd/Readom image"
+msgstr "Imagem Readcd/Readom"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:141
+msgid "Cue image"
+msgstr "Imagem cue"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:151
+msgid "Cdrdao image"
+msgstr "Imagem Cdrdao"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:93
+#: ../src/rejilla-project.c:1493
+#, c-format
+msgid "Properties of %s"
+msgstr "Propriedades de %s"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:137
+msgid ""
+"Do you really want to keep the current extension for the disc image name?"
+msgstr ""
+"Você realmente deseja manter a extensão atual para o nome da imagem do disco?"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:143
+msgid ""
+"If you choose to keep it, programs may not be able to recognize the file "
+"type properly."
+msgstr ""
+"Se você optar por mantê-las, alguns programas podem não ser capazes de "
+"reconhecer corretamente o tipo de arquivo."
+
+#: ../librejilla-burn/rejilla-medium-properties.c:146
+msgid "_Keep Current Extension"
+msgstr "_Manter a extensão atual"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:149
+msgid "Change _Extension"
+msgstr "Alterar _extensão"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:241
+msgid "Configure recording options"
+msgstr "Configurar opções de gravação"
+
+#. Translators: first %02i is hours, the second one is minutes and the
+#. * third one is seconds.
+#: ../librejilla-burn/rejilla-progress.c:198
+#, c-format
+msgid "Total time: %02i:%02i:%02i"
+msgstr "Tempo total: %02i:%02i:%02i"
+
+#: ../librejilla-burn/rejilla-progress.c:209
+msgid "Average drive speed:"
+msgstr "Velocidade média da unidade:"
+
+#. Translators: first %02i is hours, the second one is minutes
+#. * and the third one is seconds.
+#: ../librejilla-burn/rejilla-progress.c:436
+#, c-format
+msgid "Estimated remaining time: %02i:%02i:%02i"
+msgstr "Tempo restante estimado: %02i:%02i:%02i"
+
+#: ../librejilla-burn/rejilla-progress.c:478
+#, c-format
+msgid "%i MiB of %i MiB"
+msgstr "%i MiB de %i MiB"
+
+#: ../librejilla-burn/rejilla-progress.c:504
+msgid "Estimated drive speed:"
+msgstr "Velocidade estimada da unidade:"
+
+#. Translators: %s is a path
+#: ../librejilla-burn/rejilla-src-image.c:229
+#, c-format
+msgid "\"%s\": loading"
+msgstr "\"%s\": carregando"
+
+#. Translators: %s is a path and image refers to a disc image
+#: ../librejilla-burn/rejilla-src-image.c:236
+#, c-format
+msgid "\"%s\": unknown disc image type"
+msgstr "\"%s\": tipo de imagem de disco desconhecido"
+
+#. NOTE to translators, the first %s is the path of the image
+#. * file and the second its size.
+#: ../librejilla-burn/rejilla-src-image.c:258
+#, c-format
+msgid "\"%s\": %s"
+msgstr "\"%s\": %s"
+
+#. This is hackish and meant to avoid ellipsization to make the
+#. * label too small.
+#. Translators: this is a disc image
+#: ../librejilla-burn/rejilla-src-image.c:271
+#: ../librejilla-burn/rejilla-src-image.c:554
+msgid "Click here to select a disc _image"
+msgstr "Clique aqui para selecionar uma _imagem de disco"
+
+#: ../librejilla-burn/rejilla-src-image.c:415
+msgid "Select Disc Image"
+msgstr "Selecionar imagem de disco"
+
+#. Translators: this a disc image here
+#: ../librejilla-burn/rejilla-src-image.c:450
+msgctxt "disc"
+msgid "Image files"
+msgstr "Arquivos de imagem"
+
+#: ../librejilla-burn/rejilla-src-image.c:467
+msgid "Image type:"
+msgstr "Tipo de imagem:"
+
+#: ../librejilla-burn/rejilla-tray.c:83 ../src/rejilla-audio-disc.c:155
+#: ../src/rejilla-data-disc.c:122 ../src/rejilla-video-disc.c:100
+msgid "Menu"
+msgstr "Menu"
+
+#: ../librejilla-burn/rejilla-tray.c:84
+msgid "Cancel ongoing burning"
+msgstr "Cancelar a gravação em curso"
+
+#: ../librejilla-burn/rejilla-tray.c:89
+msgid "Show _Dialog"
+msgstr "Mostrar _diálogo"
+
+#: ../librejilla-burn/rejilla-tray.c:89
+msgid "Show dialog"
+msgstr "Mostrar diálogo"
+
+#. Translators: the first %s is a string containing a description of the ongoing action
+#. *	        the first %d is a number (a percentage) representing how much of the above task has been completed so far
+#. *	        the second %s is a string containing the remaining time before completion.
+#.
+#: ../librejilla-burn/rejilla-tray.c:263
+#, c-format
+msgid "%s, %d%% done, %s remaining"
+msgstr "%s, %d%% completo, %s restando"
+
+#. Translators: the first %s is a string containing a description of the ongoing action
+#. *	        the first %d is a number (a percentage) representing how much of the above task has been completed so far
+#.
+#: ../librejilla-burn/rejilla-tray.c:273
+#, c-format
+msgid "%s, %d%% done"
+msgstr "%s, %d%% completo"
+
+#: ../librejilla-burn/burn-basics.c:77
+msgid "Getting size"
+msgstr "Calculando tamanho"
+
+#: ../librejilla-burn/burn-basics.c:79
+msgid "Writing"
+msgstr "Gravando"
+
+#: ../librejilla-burn/burn-basics.c:80
+msgid "Blanking"
+msgstr "Apagando"
+
+#: ../librejilla-burn/burn-basics.c:81
+msgid "Creating checksum"
+msgstr "Criando checksum"
+
+#: ../librejilla-burn/burn-basics.c:83
+msgid "Copying file"
+msgstr "Copiando arquivo"
+
+#: ../librejilla-burn/burn-basics.c:84
+msgid "Analysing audio files"
+msgstr "Analisando arquivos de áudio"
+
+#: ../librejilla-burn/burn-basics.c:85
+msgid "Transcoding song"
+msgstr "Convertendo música"
+
+#: ../librejilla-burn/burn-basics.c:86
+msgid "Preparing to write"
+msgstr "Preparando para gravar"
+
+#: ../librejilla-burn/burn-basics.c:87
+msgid "Writing leadin"
+msgstr "Gravando o lead-in"
+
+#: ../librejilla-burn/burn-basics.c:88
+msgid "Writing CD-Text information"
+msgstr "Gravando informação CD-TEXT"
+
+#: ../librejilla-burn/burn-basics.c:89
+msgid "Finalizing"
+msgstr "Finalizando"
+
+#: ../librejilla-burn/burn-basics.c:90
+msgid "Writing leadout"
+msgstr "Gravando o lead-out"
+
+#: ../librejilla-burn/burn-basics.c:91
+msgid "Starting to record"
+msgstr "Começando a gravar"
+
+#: ../librejilla-burn/burn-basics.c:92
+msgid "Success"
+msgstr "Sucesso"
+
+#: ../librejilla-burn/burn-basics.c:93
+msgid "Ejecting medium"
+msgstr "Ejetando mídia"
+
+#. Translators: %s is the plugin name
+#: ../librejilla-burn/burn-job.c:322 ../librejilla-burn/burn-job.c:797
+#: ../librejilla-burn/burn-job.c:810 ../librejilla-burn/burn-job.c:1029
+#: ../librejilla-burn/burn-job.c:1119
+#, c-format
+msgid "\"%s\" did not behave properly"
+msgstr "\"%s\" não se comportou corretamente"
+
+#. Translators: the first %s is the size of the free space on the medium
+#. * and the second %s is the size of the space required by the data to be
+#. * burnt.
+#: ../librejilla-burn/burn-job.c:430
+#, c-format
+msgid "Not enough space available on the disc (%s available for %s)"
+msgstr "Não há espaço suficiente disponível no disco (%s disponível para %s)"
+
+#: ../librejilla-burn/burn-job.c:522
+#, c-format
+msgid ""
+"The filesystem you chose to store the temporary image on cannot hold files "
+"with a size over 2 GiB"
+msgstr ""
+"O sistema de arquivos que você selecionou para armazenar a imagem temporária "
+"não pode conter arquivos com tamanho acima de 2 GiB"
+
+#: ../librejilla-burn/burn-job.c:537 ../librejilla-burn/burn-job.c:559
+#, c-format
+msgid ""
+"The location you chose to store the temporary image on does not have enough "
+"free space for the disc image (%ld MiB needed)"
+msgstr ""
+"O local selecionado não tem espaço livre suficiente para armazenar a imagem "
+"de disco (%ld MiB necessários)"
+
+#: ../librejilla-burn/burn-job.c:572 ../plugins/dvdcss/burn-dvdcss.c:363
+#, c-format
+msgid "The size of the volume could not be retrieved"
+msgstr "Não foi possível recuperar o tamanho do volume"
+
+#: ../librejilla-burn/burn-job.c:627
+#, c-format
+msgid "No path was specified for the image output"
+msgstr "Não foi especificado um caminho para a imagem de saída"
+
+#. Translators: %s is the error returned by libburn
+#. Translators: the %s is the error message from errno
+#: ../librejilla-burn/burn-job.c:768 ../plugins/cdrtools/burn-cdrecord.c:710
+#: ../plugins/libburnia/burn-libburn.c:716
+#: ../plugins/transcode/burn-transcode.c:826
+#, c-format
+msgid "An internal error occurred (%s)"
+msgstr "Ocorreu um erro interno (%s)"
+
+#: ../librejilla-burn/burn-mkisofs-base.c:153
+#: ../librejilla-burn/burn-mkisofs-base.c:494
+#: ../plugins/growisofs/burn-growisofs.c:527
+#: ../plugins/libburnia/burn-libisofs.c:690
+#: ../plugins/checksum/burn-checksum-image.c:287
+#, c-format
+msgid "The file is not stored locally"
+msgstr "O arquivo não está armazenado localmente"
+
+#: ../librejilla-burn/burn-mkisofs-base.c:646
+#, c-format
+msgid "VIDEO_TS directory is missing or invalid"
+msgstr "O diretório VIDEO_TS está faltando ou é inválido"
+
+#. Translators: %s is the name of the rejilla element
+#: ../librejilla-burn/burn-process.c:259
+#, c-format
+msgid "Process \"%s\" ended with an error code (%i)"
+msgstr "O processo \"%s\" terminou com um código de erro (%i)"
+
+#: ../librejilla-utils/rejilla-disc-message.c:133
+msgid "_Hide changes"
+msgstr "O_cultar alterações"
+
+#: ../librejilla-utils/rejilla-disc-message.c:135
+#: ../librejilla-utils/rejilla-disc-message.c:154
+msgid "_Show changes"
+msgstr "_Mostrar alterações"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:173
+msgid "Images"
+msgstr "Imagens"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:197
+msgid "_Color"
+msgstr "_Cor"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:226
+msgid "Solid color"
+msgstr "Cor sólida"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:227
+msgid "Horizontal gradient"
+msgstr "Gradiente horizontal"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:228
+msgid "Vertical gradient"
+msgstr "Gradiente vertical"
+
+#. second part
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:245
+msgid "_Image"
+msgstr "_Imagem"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:270
+msgid "Image path:"
+msgstr "Caminho da imagem:"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:282
+msgid "Choose an image"
+msgstr "Escolha uma imagem"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:293
+msgid "Image style:"
+msgstr "Estilo de imagem:"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:307
+msgid "Centered"
+msgstr "Centralizado"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:308
+msgid "Tiled"
+msgstr "Lado a lado"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:309
+msgid "Scaled"
+msgstr "Redimensionado"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:346
+msgid "Background Properties"
+msgstr "Propriedades do fundo"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:588
+msgid "Print"
+msgstr "Imprimir"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:600
+msgid "Bac_kground Properties"
+msgstr "Pr_opriedades do fundo"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:603
+msgid "Background properties"
+msgstr "Propriedades do fundo"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:618
+msgid "Align right"
+msgstr "Alinhar à direita"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:628
+msgid "Center"
+msgstr "Centralizado"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:638
+msgid "Align left"
+msgstr "Alinhar à esquerda"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:652
+msgid "Underline"
+msgstr "Sublinhado"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:662
+msgid "Italic"
+msgstr "Itálico"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:672
+msgid "Bold"
+msgstr "Negrito"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:698
+msgid "Font family and size"
+msgstr "Família e tamanho da fonte"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:705
+msgid "_Text Color"
+msgstr "Cor do _texto"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:706
+msgid "Text color"
+msgstr "Cor do texto"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:837
+msgid "Cover Editor"
+msgstr "Editor de capa"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:735
+msgid "Set Bac_kground Properties"
+msgstr "Definir propriedades do _fundo"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:776
+msgid "SIDES"
+msgstr "LADOS"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:792
+msgid "BACK COVER"
+msgstr "CONTRACAPA"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:809
+msgid "FRONT COVER"
+msgstr "CAPA"
+
+#. Translators: This is an image,
+#. * a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-view.c:1074
+msgid "The image could not be loaded."
+msgstr "Não foi possível carregar a imagem."
+
+#: ../librejilla-utils/rejilla-tool-color-picker.c:169
+msgid "Pick a Color"
+msgstr "Escolha uma cor"
+
+#: ../librejilla-burn/rejilla-xfer.c:130 ../librejilla-burn/rejilla-xfer.c:266
+#, c-format
+msgid "Directory could not be created (%s)"
+msgstr "Não foi possível criar um diretório (%s)"
+
+#: ../src/rejilla-project-parse.c:62
+msgid "Error while loading the project."
+msgstr "Erro ao carregar o projeto."
+
+#: ../src/rejilla-project-parse.c:454
+msgid "The project could not be opened"
+msgstr "Não foi possível abrir o projeto"
+
+#: ../src/rejilla-project-parse.c:463
+msgid "The file is empty"
+msgstr "O arquivo está vazio"
+
+#: ../src/rejilla-project-parse.c:542 ../src/rejilla-project-parse.c:607
+msgid "It does not seem to be a valid Rejilla project"
+msgstr "Este não parece ser um projeto válido do Rejilla"
+
+#: ../librejilla-media/rejilla-drive-selection.c:346
+#: ../librejilla-media/rejilla-drive-selection.c:441
+msgid "Unnamed CD/DVD Drive"
+msgstr "Unidade de CD/DVD sem nome"
+
+#: ../librejilla-media/rejilla-media.c:54
+msgid "Display debug statements on stdout for Rejilla media library"
+msgstr ""
+"Exibir mensagens de depuração na saída padrão para a biblioteca de mídias do "
+"Rejilla"
+
+#: ../librejilla-media/rejilla-media.c:477
+msgid "Rejilla optical media library"
+msgstr "Biblioteca de mídias óticas do Rejilla"
+
+#: ../librejilla-media/rejilla-media.c:478
+msgid "Display options for Rejilla media library"
+msgstr "Exibe as opções para a biblioteca de mídias do Rejilla"
+
+#. Translators: this is hour minute second like '2 h 14 min 25'
+#: ../librejilla-media/rejilla-units.c:71
+#, c-format
+msgid "%s h %s min %s"
+msgstr "%s h %s min %s"
+
+#. Translators: this is hour minute like '2 h 14'
+#: ../librejilla-media/rejilla-units.c:77
+#, c-format
+msgid "%s h %s"
+msgstr "%s h %s"
+
+#. Translators: this is hour like '2 h'
+#: ../librejilla-media/rejilla-units.c:82
+#, c-format
+msgid "%s h"
+msgstr "%s h"
+
+#. Translators: this is 'hour:minute:second' like '2:14:25'
+#: ../librejilla-media/rejilla-units.c:86
+#, c-format
+msgid "%s:%s:%s"
+msgstr "%s:%s:%s"
+
+#. Translators: this is 'hour:minute' or 'minute:second'
+#: ../librejilla-media/rejilla-units.c:92
+#: ../librejilla-media/rejilla-units.c:107
+#, c-format
+msgid "%s:%s"
+msgstr "%s:%s"
+
+#. Translators: %s is a duration expressed in minutes
+#: ../librejilla-media/rejilla-units.c:99
+#, c-format
+msgid "%s min"
+msgstr "%s min"
+
+#. Translators: the first %s is the number of minutes
+#. * and the second one is the number of seconds.
+#. * The whole string expresses a duration
+#: ../librejilla-media/rejilla-units.c:104
+#, c-format
+msgid "%s:%s min"
+msgstr "%s:%s min"
+
+#. NOTE for translators, the first %s is the medium name
+#: ../librejilla-media/rejilla-medium-selection.c:155
+#, c-format
+msgid "%s: empty"
+msgstr "%s: vazio"
+
+#. NOTE for translators: the first %s is the medium name, the
+#. * second %s is the space (kio, gio) used by data on the disc.
+#.
+#. NOTE for translators: the first %s is the medium name, the
+#. * second %s is the space (time) used by data on the disc.
+#. * I really don't know if I should set this string as
+#. * translatable.
+#: ../librejilla-media/rejilla-medium-selection.c:171
+#: ../librejilla-media/rejilla-medium-selection.c:183
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../librejilla-media/rejilla-medium-selection.c:462
+msgid "Searching for available discs"
+msgstr "Pesquisando discos disponíveis"
+
+#: ../librejilla-media/rejilla-medium-selection.c:471
+msgid "No disc available"
+msgstr "Nenhum disco disponível"
+
+#. Translators: This is a fake drive, a file, and means that
+#. * when we're writing, we're writing to a file and create an
+#. * image on the hard drive.
+#: ../librejilla-media/rejilla-drive.c:607
+#: ../librejilla-media/rejilla-medium.c:209
+#: ../librejilla-media/rejilla-volume.c:391
+msgid "Image File"
+msgstr "Arquivo de imagem"
+
+# Precedido de: "This image can't be burnt:"
+#: ../librejilla-media/burn-iso9660.c:158
+#: ../librejilla-media/burn-iso9660.c:167
+#: ../librejilla-media/burn-iso9660.c:402
+#: ../librejilla-media/burn-iso9660.c:439
+#: ../librejilla-media/burn-iso9660.c:488
+#: ../librejilla-media/burn-volume.c:128
+#, c-format
+msgid "It does not appear to be a valid ISO image"
+msgstr "Iste não parece ser um arquivo de imagem ISO válido"
+
+#: ../librejilla-media/rejilla-medium.c:65
+msgid "File"
+msgstr "Arquivo"
+
+#: ../librejilla-media/rejilla-medium.c:66
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: ../librejilla-media/rejilla-medium.c:67
+msgid "CD-R"
+msgstr "CD-R"
+
+#: ../librejilla-media/rejilla-medium.c:68
+msgid "CD-RW"
+msgstr "CD-RW"
+
+#: ../librejilla-media/rejilla-medium.c:69
+msgid "DVD-ROM"
+msgstr "DVD-ROM"
+
+#: ../librejilla-media/rejilla-medium.c:70
+msgid "DVD-R"
+msgstr "DVD-R"
+
+#: ../librejilla-media/rejilla-medium.c:71
+msgid "DVD-RW"
+msgstr "DVD-RW"
+
+#: ../librejilla-media/rejilla-medium.c:72
+msgid "DVD+R"
+msgstr "DVD+R"
+
+#: ../librejilla-media/rejilla-medium.c:73
+msgid "DVD+RW"
+msgstr "DVD+RW"
+
+#: ../librejilla-media/rejilla-medium.c:74
+msgid "DVD+R dual layer"
+msgstr "DVD+R dupla camada"
+
+#: ../librejilla-media/rejilla-medium.c:75
+msgid "DVD+RW dual layer"
+msgstr "DVD+RW dupla camada"
+
+#: ../librejilla-media/rejilla-medium.c:76
+msgid "DVD-R dual layer"
+msgstr "DVD-R dupla camada"
+
+#: ../librejilla-media/rejilla-medium.c:77
+msgid "DVD-RAM"
+msgstr "DVD-RAM"
+
+#: ../librejilla-media/rejilla-medium.c:78
+msgid "Blu-ray disc"
+msgstr "Disco Blu-ray"
+
+#: ../librejilla-media/rejilla-medium.c:79
+msgid "Writable Blu-ray disc"
+msgstr "Disco Blu-ray gravável"
+
+#: ../librejilla-media/rejilla-medium.c:80
+msgid "Rewritable Blu-ray disc"
+msgstr "Disco Blu-ray regravável"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:219
+#, c-format
+msgid "Blank %s in %s"
+msgstr "Apagando %s em %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:226
+#, c-format
+msgid "Audio and data %s in %s"
+msgstr "Áudio e dados %s em %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:233
+#, c-format
+msgid "Audio %s in %s"
+msgstr "Áudio %s em %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:240
+#, c-format
+msgid "Data %s in %s"
+msgstr "Dados %s em %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:247
+#, c-format
+msgid "%s in %s"
+msgstr "%s em %s"
+
+#: ../librejilla-media/rejilla-volume.c:192
+#, c-format
+msgid "The disc mount point could not be retrieved"
+msgstr "Não foi possível recuperar o ponto de montagem do disco"
+
+#. NOTE for translators: the first %s is the disc type and Blank is an adjective.
+#: ../librejilla-media/rejilla-volume.c:418
+#, c-format
+msgid "Blank disc (%s)"
+msgstr "Disco vazio (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#: ../librejilla-media/rejilla-volume.c:422
+#, c-format
+msgid "Audio and data disc (%s)"
+msgstr "Disco de áudio e dados (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_ .
+#. * The %s is the date
+#: ../librejilla-media/rejilla-volume.c:426 ../src/rejilla-project-name.c:325
+#, c-format
+msgid "Audio disc (%s)"
+msgstr "Disco de áudio (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_ otherwise it gets truncated.
+#. * The %s is the date
+#: ../librejilla-media/rejilla-volume.c:430 ../src/rejilla-project-name.c:258
+#, c-format
+msgid "Data disc (%s)"
+msgstr "Disco de dados (%s)"
+
+#: ../librejilla-media/scsi-error.c:43 ../src/rejilla-project-name.c:84
+msgid "Unknown error"
+msgstr "Erro desconhecido"
+
+#: ../librejilla-media/scsi-error.c:44
+msgid "Size mismatch"
+msgstr "Tamanho incompatível"
+
+#: ../librejilla-media/scsi-error.c:45
+msgid "Type mismatch"
+msgstr "Tipo incompatível"
+
+#: ../librejilla-media/scsi-error.c:46
+msgid "Bad argument"
+msgstr "Argumento inválido"
+
+#: ../librejilla-media/scsi-error.c:48
+msgid "Outrange address"
+msgstr "Endereço fora de alcance"
+
+#: ../librejilla-media/scsi-error.c:49
+msgid "Invalid address"
+msgstr "Endereço inválido"
+
+#: ../librejilla-media/scsi-error.c:50
+msgid "Invalid command"
+msgstr "Comando inválido"
+
+#: ../librejilla-media/scsi-error.c:51
+msgid "Invalid parameter in command"
+msgstr "Parâmetro inválido no comando"
+
+#: ../librejilla-media/scsi-error.c:52
+msgid "Invalid field in command"
+msgstr "Campo inválido no comando"
+
+#: ../librejilla-media/scsi-error.c:53
+msgid "The device timed out"
+msgstr "O dispositivo expirou"
+
+#: ../librejilla-media/scsi-error.c:54
+msgid "Key not established"
+msgstr "Chave não estabelecida"
+
+#: ../librejilla-media/scsi-error.c:55
+msgid "Invalid track mode"
+msgstr "Modo de faixa inválido"
+
+#: ../src/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "O arquivo não é um arquivo .desktop válido"
+
+#: ../src/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Versão de arquivo desktop \"%s\" não reconhecido"
+
+#: ../src/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "Iniciando %s"
+
+#: ../src/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "O aplicativo não aceita documentos na linha de comando"
+
+#: ../src/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Opção de lançamento não reconhecida: %d"
+
+#: ../src/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+"Não foi possível passar os URIs do documento para uma entrada desktop "
+"\"Type=link\""
+
+#: ../src/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "Item não lançável"
+
+#: ../src/eggsmclient.c:224
+msgid "Disable connection to session manager"
+msgstr "Desabilitar a conexão com gerenciador de sessão"
+
+#: ../src/eggsmclient.c:227
+msgid "Specify file containing saved configuration"
+msgstr "Especificar o arquivo contendo a configuração salva"
+
+#: ../src/eggsmclient.c:227
+msgid "FILE"
+msgstr "ARQUIVO"
+
+#: ../src/eggsmclient.c:230
+msgid "Specify session management ID"
+msgstr "Especificar a ID do gerenciamento de sessão"
+
+#: ../src/eggsmclient.c:230
+msgid "ID"
+msgstr "ID"
+
+#: ../src/eggsmclient.c:244
+msgid "Session management options:"
+msgstr "Opções do gerenciamento de sessão:"
+
+#: ../src/eggsmclient.c:245
+msgid "Show session management options"
+msgstr "Mostra as opções de gerenciamento de sessão"
+
+#: ../src/rejilla-pref.c:65
+msgid "Rejilla Plugins"
+msgstr "Plug-ins do Rejilla"
+
+#: ../plugins/local-track/burn-uri.c:207 ../plugins/local-track/burn-uri.c:297
+#: ../plugins/local-track/burn-uri.c:472
+#, c-format
+msgid "Impossible to retrieve local file path"
+msgstr "Não foi possível recuperar o caminho do arquivo"
+
+#: ../plugins/local-track/burn-uri.c:326
+#: ../plugins/local-track/burn-local-image.c:527
+msgid "Copying files locally"
+msgstr "Copiando arquivos localmente"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/local-track/burn-uri.c:747 ../caja/caja-burn-bar.c:136
+msgid "CD/DVD Creator Folder"
+msgstr "Criador de Folder de CD/DVD"
+
+#: ../plugins/local-track/burn-uri.c:748
+msgid ""
+"Allows files added to the \"CD/DVD Creator Folder\" in Caja to be burned"
+msgstr ""
+"Permite gravar arquivos adicionados na \"Pasta do criador de CD/DVD\" no "
+"Caja"
+
+#: ../caja/rejilla-caja.desktop.in.in.h:1
+#: ../caja/caja-burn-extension.c:310
+msgid "CD/DVD Creator"
+msgstr "Criador de CD e DVD"
+
+#: ../caja/rejilla-caja.desktop.in.in.h:2
+msgid "Create CDs and DVDs"
+msgstr "Criar CDs e DVDs"
+
+#. Translators: be careful, anything longer than the English will likely
+#. * not fit on small Caja windows
+#: ../caja/caja-burn-bar.c:145
+msgid "Drag or copy files below to write them to disc"
+msgstr "Arrastar e copiar os arquivos abaixo para escrevê-los no disco"
+
+#: ../caja/caja-burn-bar.c:153
+#: ../caja/caja-burn-extension.c:363
+msgid "Write to Disc"
+msgstr "Escrever no disco"
+
+#: ../caja/caja-burn-bar.c:165
+#: ../caja/caja-burn-extension.c:743
+msgid "Write contents to a CD or DVD"
+msgstr "Escrever o conteúdo em um CD ou DVD"
+
+#: ../caja/caja-burn-extension.c:301
+msgid "Disc name"
+msgstr "Nome do disco"
+
+#: ../caja/caja-burn-extension.c:390
+msgid "Copy Disc"
+msgstr "Copiar disco"
+
+#: ../caja/caja-burn-extension.c:591
+#: ../caja/caja-burn-extension.c:742
+msgid "_Write to Disc…"
+msgstr "_Escrever no disco..."
+
+#: ../caja/caja-burn-extension.c:592
+msgid "Write disc image to a CD or DVD"
+msgstr "Grava a imagem do disco em um CD ou DVD"
+
+#: ../caja/caja-burn-extension.c:665
+msgid "_Copy Disc…"
+msgstr "_Copiar disco..."
+
+#: ../caja/caja-burn-extension.c:666
+msgid "Create a copy of this CD or DVD"
+msgstr "Cria uma cópia deste CD ou DVD"
+
+#: ../caja/caja-burn-extension.c:679
+msgid "_Blank Disc…"
+msgstr "_Apagar disco..."
+
+#: ../caja/caja-burn-extension.c:680
+msgid "Blank this CD or DVD"
+msgstr "Apaga este CD ou DVD"
+
+#: ../caja/caja-burn-extension.c:696
+msgid "_Check Disc…"
+msgstr "_Verificar integridade..."
+
+#: ../caja/caja-burn-extension.c:697
+msgid "Check the data integrity on this CD or DVD"
+msgstr "Verifica a integridade dos dados neste CD ou DVD"
+
+#. Translators: this is a picture not
+#. * a disc image
+#: ../src/rejilla-project-name.c:83
+msgctxt "picture"
+msgid "Please select another image."
+msgstr "Por favor, selecione outra imagem de disco."
+
+#: ../src/rejilla-project-name.c:157
+msgid "Medium Icon"
+msgstr "Ícone de mídia"
+
+#. Translators: this is an image, a picture, not a "Disc Image"
+#: ../src/rejilla-project-name.c:171 ../src/rejilla-file-chooser.c:375
+#: ../src/rejilla-project.c:2239
+msgctxt "picture"
+msgid "Image files"
+msgstr "Arquivos de imagem"
+
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_.
+#. * The %s is the date
+#: ../src/rejilla-project-name.c:272
+#, c-format
+msgid "Video disc (%s)"
+msgstr "Disco de vídeo (%s)"
+
+#: ../src/rejilla-app.c:123
+msgid "_Project"
+msgstr "_Projeto"
+
+#: ../src/rejilla-app.c:124
+msgid "_View"
+msgstr "_Ver"
+
+#: ../src/rejilla-app.c:125
+msgid "_Edit"
+msgstr "_Editar"
+
+#: ../src/rejilla-app.c:126
+msgid "_Tools"
+msgstr "_Ferramentas"
+
+#: ../src/rejilla-app.c:128
+msgid "_Help"
+msgstr "Aj_uda"
+
+#: ../src/rejilla-app.c:130
+msgid "P_lugins"
+msgstr "Plug-i_ns"
+
+#: ../src/rejilla-app.c:131
+msgid "Choose plugins for Rejilla"
+msgstr "Escolher plug-ins para o Rejilla"
+
+#: ../src/rejilla-app.c:133
+msgid "E_ject"
+msgstr "Ej_etar"
+
+#: ../src/rejilla-app.c:134
+msgid "Eject a disc"
+msgstr "Ejeta um disco"
+
+#: ../src/rejilla-app.c:136
+msgid "_Blank…"
+msgstr "A_pagar..."
+
+#: ../src/rejilla-app.c:137
+msgid "Blank a disc"
+msgstr "Apaga um disco"
+
+#: ../src/rejilla-app.c:139
+msgid "_Check Integrity…"
+msgstr "_Verificar integridade..."
+
+#: ../src/rejilla-app.c:140
+msgid "Check data integrity of disc"
+msgstr "Verifica a integridade dos dados no disco"
+
+#: ../src/rejilla-app.c:143
+msgid "Quit Rejilla"
+msgstr "Sai do Rejilla"
+
+#: ../src/rejilla-app.c:145
+msgid "_Contents"
+msgstr "Su_mário"
+
+#: ../src/rejilla-app.c:145
+msgid "Display help"
+msgstr "Exibe a ajuda"
+
+#: ../src/rejilla-app.c:148
+msgid "About"
+msgstr "Sobre"
+
+#: ../src/rejilla-app.c:420 ../src/rejilla-app.c:2073
+msgid "Disc Burner"
+msgstr "Gravador de Discos"
+
+#: ../src/rejilla-app.c:786 ../src/rejilla-app.c:819 ../src/rejilla-app.c:1454
+msgid "Error while loading the project"
+msgstr "Erro ao carregar o projeto"
+
+#: ../src/rejilla-app.c:828 ../src/rejilla-app.c:857 ../src/rejilla-app.c:917
+#: ../src/rejilla-project.c:1266
+msgid "Please add files to the project."
+msgstr "Por favor, adicione arquivos ao projeto."
+
+#: ../src/rejilla-app.c:829 ../src/rejilla-app.c:858 ../src/rejilla-app.c:918
+msgid "The project is empty"
+msgstr "O projeto está vazio"
+
+#: ../src/rejilla-app.c:1172
+msgid ""
+"Rejilla is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"O Rejilla é um software livre; você pode redistribuí-lo e/ou modificá-lo sob "
+"os termos da Licença Pública Geral GNU publicada pela Free Software "
+"Foundation; qualquer versão 2 da Licença, ou (a seu critério) outra versão "
+"posterior."
+
+#: ../src/rejilla-app.c:1177
+msgid ""
+"Rejilla is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"O Rejilla é distribuído na esperança de que seja útil, mas SEM NENHUMA "
+"GARANTIA; nem mesmo garantias implícitas de COMERCIALIZAÇÃO ou ADAPTAÇÃO A "
+"UM PROPÓSITO PARTICULAR.  Veja a Licença Pública Geral GNU (GPL) para mais "
+"detalhes."
+
+#: ../src/rejilla-app.c:1182
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Rejilla; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301, USA"
+msgstr ""
+"Você deve ter recebido uma cópia da Licença Pública Geral GNU junto com o "
+"Rejilla; caso contrário, escreva para Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
+
+#: ../src/rejilla-app.c:1194
+msgid "A simple to use CD/DVD burning application for MATE"
+msgstr "Um aplicativo de gravação de CD/DVD simples de usar para o MATE"
+
+#: ../src/rejilla-app.c:1211
+msgid "Rejilla Homepage"
+msgstr "Página inicial do Rejilla"
+
+#. Translators: This is a special message that shouldn't be translated
+#. * literally. It is used in the about box to give credits to
+#. * the translators.
+#. * Thus, you should translate it to your name and email address.
+#. * You should also include other translators who have contributed to
+#. * this translation; in that case, please write each of them on a separate
+#. * line seperated by newlines (\n).
+#.
+#: ../src/rejilla-app.c:1223
+msgid "translator-credits"
+msgstr ""
+"Vladimir Melo <vmelo@mate.org>\n"
+"Og Maciel <ogmaciel@mate.org>\n"
+"Raphael Higino <In Memorian>\n"
+"Djavan Fagundes <dnoway@gmail.com>\n"
+"Lucas Hermann Negri <kkndrox@gmail.com>\n"
+"Carlos Eduardo Moreira dos Santos <cems@cemshost.com.br>\n"
+"César Veiga <tombs@linuxmail.org>\n"
+"Fabrício Godoy <skarllot@gmail.com>\n"
+"André Gondim <andregondim@ubuntu.com>\n"
+"Marco Biscaro <marcobiscaro2112@gmail.com>\n"
+"Antonio Fernandes C. Neto <fernandes@pelivre.org>"
+
+#: ../src/rejilla-app.c:1452
+#, c-format
+msgid "The project \"%s\" does not exist"
+msgstr "O projeto \"%s\" não existe"
+
+#: ../src/rejilla-app.c:1738 ../src/rejilla-app.c:1744
+msgid "_Recent Projects"
+msgstr "_Projetos recentes"
+
+#  Dica de ferramenta
+#: ../src/rejilla-app.c:1739
+msgid "Display the projects recently opened"
+msgstr "Exibe os projetos recentemente abertos"
+
+#: ../data/rejilla.desktop.in.in.h:1
+msgid "Rejilla"
+msgstr "Rejilla"
+
+#: ../data/rejilla.desktop.in.in.h:2
+msgid "Rejilla Disc Burner"
+msgstr "Gravador de discos Rejilla"
+
+#: ../data/rejilla.desktop.in.in.h:3
+msgid "Create and copy CDs and DVDs"
+msgstr "Crie e copie CDs e DVDs"
+
+#: ../data/rejilla.desktop.in.in.h:4
+msgid "Disc Burner and Copier"
+msgstr "Gravador e copiador de discos"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:1
+msgid "Burning flags to be used"
+msgstr "Sinalizadores de gravação a serem usados"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:2
+msgid ""
+"Contains the absolute path of the directory that was last browsed for images "
+"to burn"
+msgstr ""
+"Contém o caminho absoluto do diretório que foi usado por último para "
+"procurar imagens para gravação"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:3
+msgid ""
+"Contains the list of additional plugins Rejilla will use to burn discs. If "
+"set to NULL, Rejilla will load them all."
+msgstr ""
+"Contém a lista dos plug-ins que o Rejilla usará para gravar discos. Se "
+"definido como NULL, o Rejilla carregará todos eles."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:4
+msgid ""
+"Contains the name of the favourite burn engine suite installed. It will be "
+"used if possible."
+msgstr ""
+"Contém o nome da suíte de gravação favorita instalada. Ela será usada se "
+"possível."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:5
+msgid ""
+"Contains the path to the directory where rejilla should store temporary "
+"files. If that value is empty, the default directory set for glib will be "
+"used."
+msgstr ""
+"Contém o caminho do diretório onde o rejilla deve armazenar arquivos "
+"temporários. Se o valor for vazio, o diretório padrão do glib será usado."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:6
+msgid "Directory to use for temporary files"
+msgstr "Diretório onde armazenar arquivos temporários"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:7
+msgid "Enable file preview"
+msgstr "Habilitar visualização de arquivo"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:8
+msgid "Enable the \"-immed\" flag with cdrecord"
+msgstr "Habilitar parâmetro \"-immed\" com o cdrecord"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:9
+msgid "Favourite burn engine"
+msgstr "Mecanismo de gravação favorito"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:10
+msgid "Replace symbolic links by their targets"
+msgstr "Substituir links simbólicos pelos seus alvos"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:11
+msgid "Set to 0 for MD5, 1 for SHA1 and 2 for SHA256"
+msgstr "Use 0 para MD5, 1 para SHA1 e 2 para SHA256"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:12
+msgid "Should Caja extension output debug statements"
+msgstr "A extensão do Caja deve dar saída a instruções de depuração"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:13
+msgid ""
+"Should Caja extension output debug statements. The value should be set "
+"to true if it should."
+msgstr ""
+"A extensão do Caja deve dar saída a instruções de depuração. O valor "
+"deve estar atribuído como verdadeiro em caso positivo."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:14
+msgid "Should rejilla filter broken symbolic links"
+msgstr "Rejilla deve filtrar links simbólicos quebrados"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:15
+msgid ""
+"Should rejilla filter broken symbolic links. Set to true, rejilla will "
+"filter broken symbolic links."
+msgstr ""
+"Rejilla deve filtrar links simbólicos quebrados. Se for definido como "
+"verdadeiro, o Rejilla filtrará links simbólicos quebrados."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:16
+msgid "Should rejilla filter hidden files"
+msgstr "Rejilla deve filtrar arquivos ocultos"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:17
+msgid ""
+"Should rejilla filter hidden files. Set to true, rejilla will filter hidden "
+"files."
+msgstr ""
+"Rejilla deve filtrar arquivos ocultos. Se for definido como verdadeiro, o "
+"Rejilla filtrará arquivos ocultos."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:18
+msgid ""
+"Should rejilla replace symbolic links by their target files in the project. "
+"Set to true, rejilla will replace symbolic links."
+msgstr ""
+"O Rejilla deve substituir links simbólicos pelos seus arquivos de destino no "
+"projeto. Se for definido como verdadeiro, o Rejilla substituirá os links "
+"simbólicos."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:19
+msgid "The last browsed folder while looking for images to burn"
+msgstr "A última pasta usada quando procurando por imagens para gravar"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:20
+msgid "The priority value for the plugin"
+msgstr "O valor de prioridade para o plug-in"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:21
+msgid "The speed to be used"
+msgstr "A velocidade a ser usada"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:22
+msgid "The type of checksum used for files"
+msgstr "O tipo de checksum usado para arquivos"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:23
+msgid "The type of checksum used for images"
+msgstr "O tipo de checksum usado para imagens"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:24
+msgid ""
+"This value represents the burning flags that were used in such a context the "
+"last time."
+msgstr ""
+"Este valor representa os sinalizadores de gravação que foram usados neste "
+"contexto a última vez."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:25
+msgid ""
+"This value represents the speed that was used in such a context the last "
+"time."
+msgstr ""
+"Este valor representa a velocidade que foi usado neste contexto a última vez."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:26
+msgid "Used in conjunction with the \"-immed\" flag with cdrecord"
+msgstr "Usado junto com o cdrecord e o parâmetro \"-immed\""
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:27
+msgid "Used in conjunction with the \"-immed\" flag with cdrecord."
+msgstr "Usado junto com o cdrecord e o parâmetro \"-immed\""
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:28
+msgid ""
+"When several plugins are available for the same task, this value is used to "
+"determine which plugin should be given priority. 0 means the plugin's native "
+"priority is used. A positive value overrides the plugin's native priority. A "
+"negative value disables the plugin."
+msgstr ""
+"Quando vários plug-ins estão disponíveis para a mesma tarefa, este valor é "
+"usado para determinar qual plug-in deve ser dado prioridade. 0 significa que "
+"a prioridade nativa do plug-in é usado. Um valor positivo sobrescreve a "
+"prioridade nativa do plug-in. Um valor negativo desabilita o plug-in."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:29
+msgid "Whether to display file preview. Set to true to use it."
+msgstr "Se exibe a visualização de arquivo. Defina como verdadeiro para usar."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:30
+msgid "Whether to use the \"--driver generic-mmc-raw\" flag with cdrdao"
+msgstr "Se deve usar o parâmetro \"--driver generic-mmc-raw\" com o cdrdao"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:31
+msgid ""
+"Whether to use the \"--driver generic-mmc-raw\" flag with cdrdao. Set to "
+"True, rejilla will use it; it may be a workaround for some drives/setups."
+msgstr ""
+"Se deve usar o parâmetro \"--driver generic-mmc-raw\" com o cdrdao. Ao "
+"definir como verdadeiro, o Rejilla irá usá-lo; isto pode ser uma solução "
+"provisória para algumas unidades/configurações."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:32
+msgid ""
+"Whether to use the \"-immed\" flag with cdrecord. Use with caution (set to "
+"true) as it's only a workaround for some drives/setups."
+msgstr ""
+"Se deve usar o parâmetro \"-immed\" com o cdrecord. Use com cuidado (defina "
+"como verdadeiro) já que é apenas uma solução provisória para algumas "
+"unidades/configurações."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:33
+msgid "Whether to use the \"-use-the-force-luke=dao\" flag with growisofs"
+msgstr "Se deve usar o parâmetro \"-use-the-force-luke=dao\" com o growisofs"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:34
+msgid ""
+"Whether to use the \"-use-the-force-luke=dao\" flag with growisofs. Set to "
+"false, rejilla won't use it; it may be a workaround for some drives/setups."
+msgstr ""
+"Se deve Usar o parâmetro \"-use-the-force-luke=dao\" com o growisofs. Ao "
+"definir como falso, o Rejilla não irá usá-lo; isto pode ser uma solução "
+"provisória para algumas unidades/configurações."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:35
+msgid "White list of additional plugins to use"
+msgstr "Lista branca de plug-ins adicionais para usar"
+
+#: ../data/mime/rejilla.xml.in.h:1
+msgid "Rejilla project file"
+msgstr "Arquivo de projeto do Rejilla"
+
+#: ../src/rejilla-audio-disc.c:156 ../src/rejilla-data-disc.c:123
+msgid "Open the selected files"
+msgstr "Abrir os arquivos selecionados"
+
+#: ../src/rejilla-audio-disc.c:158 ../src/rejilla-video-disc.c:103
+msgid "_Edit Information…"
+msgstr "_Editar informações..."
+
+#: ../src/rejilla-audio-disc.c:158
+msgid "Edit the track information (start, end, author, etc.)"
+msgstr "Edita informações da faixa (início, fim, autor, etc.)"
+
+#: ../src/rejilla-audio-disc.c:160 ../src/rejilla-data-disc.c:127
+#: ../src/rejilla-project.c:200
+msgid "Remove the selected files from the project"
+msgstr "Remove arquivos selecionados do projeto"
+
+#: ../src/rejilla-audio-disc.c:162 ../src/rejilla-data-disc.c:129
+#: ../src/rejilla-video-disc.c:107
+msgid "Paste files"
+msgstr "Colar arquivos"
+
+#: ../src/rejilla-audio-disc.c:162 ../src/rejilla-data-disc.c:129
+#: ../src/rejilla-video-disc.c:107
+msgid "Add the files stored in the clipboard"
+msgstr "Adicionar os arquivos armazenados na área de transferência"
+
+#: ../src/rejilla-audio-disc.c:164
+msgid "I_nsert a Pause"
+msgstr "I_nserir um intervalo"
+
+#: ../src/rejilla-audio-disc.c:164
+msgid "Add a 2 second pause after the track"
+msgstr "Adiciona um intervalo de 2 segundos depois da faixa"
+
+#: ../src/rejilla-audio-disc.c:166
+msgid "_Split Track…"
+msgstr "Dividir faixa..."
+
+#: ../src/rejilla-audio-disc.c:166
+msgid "Split the selected track"
+msgstr "Divide a faixa selecionada"
+
+#: ../src/rejilla-audio-disc.c:343 ../src/rejilla-video-tree-model.c:189
+msgid "Pause"
+msgstr "Pausar"
+
+#: ../src/rejilla-audio-disc.c:349
+msgid "Split"
+msgstr "Dividir"
+
+#: ../src/rejilla-audio-disc.c:417
+msgid "Track"
+msgstr "Faixa"
+
+#: ../src/rejilla-audio-disc.c:457 ../src/rejilla-video-disc.c:1216
+msgid "Title"
+msgstr "Título"
+
+#: ../src/rejilla-audio-disc.c:479
+msgid "Artist"
+msgstr "Artista"
+
+#: ../src/rejilla-audio-disc.c:487 ../src/rejilla-playlist.c:771
+#: ../src/rejilla-split-dialog.c:1225
+msgid "Length"
+msgstr "Duração"
+
+#: ../src/rejilla-audio-disc.c:584
+msgid "The track will be padded at its end."
+msgstr "A faixa será preenchida até seu final."
+
+#: ../src/rejilla-audio-disc.c:585
+msgid "The track is shorter than 6 seconds"
+msgstr "A faixa tem menos de 6 segundos"
+
+#: ../src/rejilla-audio-disc.c:645
+msgid "Make sure the appropriate codec is installed"
+msgstr "Tenha certeza que o codec apropriado está instalado"
+
+#: ../src/rejilla-audio-disc.c:661
+#, c-format
+msgid "Do you want to add \"%s\", which is a video file?"
+msgstr "Você deseja adicionar o \"%s\", que é um arquivo de vídeo?"
+
+#: ../src/rejilla-audio-disc.c:670
+msgid ""
+"This file is a video and therefore only the audio part can be written to the "
+"disc."
+msgstr ""
+"Este arquivo é um vídeo e por isso somente o seu áudio pode ser gravado no "
+"disco."
+
+#: ../src/rejilla-audio-disc.c:673
+msgid "_Discard File"
+msgstr "D_escartar arquivo"
+
+#: ../src/rejilla-audio-disc.c:676
+msgid "_Add File"
+msgstr "_Adicionar arquivo"
+
+#: ../src/rejilla-audio-disc.c:747
+msgid "Do you want to search for audio files inside the directory?"
+msgstr "Você deseja pesquisar por discos de áudio dentro do diretório?"
+
+#: ../src/rejilla-audio-disc.c:757
+msgid "Search _Directory"
+msgstr "Pesquisar _diretório"
+
+#: ../src/rejilla-audio-disc.c:811 ../src/rejilla-video-disc.c:395
+#, c-format
+msgid "\"%s\" could not be opened."
+msgstr "Não foi possível abrir \"%s\"."
+
+#: ../src/rejilla-audio-disc.c:856
+msgid "Do you want to create an audio CD with DTS tracks?"
+msgstr "Você deseja criar um CD de áudio com faixas DTS?"
+
+#: ../src/rejilla-audio-disc.c:857
+msgid ""
+"Some of the selected songs are suitable for creating DTS tracks.\n"
+"This type of audio CD track provides a higher quality of sound but can only "
+"be played by specific digital players.\n"
+"Note: if you agree, normalization will not be applied to these tracks."
+msgstr ""
+"Algumas das músicas selecionadas podem ser adequadas para criar faixas DTS.\n"
+"Esse tipo de faixa de CD tem uma qualidade de som maior mas apenas pode ser "
+"reproduzido em aparelhos digitais específicos.\n"
+"Nota: se você usar esta opção, a normalização não será aplicada a essas "
+"faixas."
+
+#: ../src/rejilla-audio-disc.c:866
+msgid "Create _Regular Tracks"
+msgstr "Criar faixas comuns"
+
+#: ../src/rejilla-audio-disc.c:868
+msgid "Click here to burn all songs as regular tracks"
+msgstr "Clique aqui para gravar todas as músicas como faixas comuns"
+
+#: ../src/rejilla-audio-disc.c:871
+msgid "Create _DTS Tracks"
+msgstr "Criar faixas _DTS"
+
+#: ../src/rejilla-audio-disc.c:873
+msgid "Click here to burn all suitable songs as DTS tracks"
+msgstr "Clique aqui para gravar todas as músicas adequadas como DTS"
+
+#: ../src/rejilla-audio-disc.c:1296
+msgid "Select one song only please."
+msgstr "Por favor, selecione apenas uma música."
+
+#: ../src/rejilla-audio-disc.c:1297
+msgid "Impossible to split more than one song at a time"
+msgstr "Impossível dividir mais de uma música ao mesmo tempo"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:222
+msgid "Error while blanking."
+msgstr "Erro ao apagar."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:227
+#: ../librejilla-burn/rejilla-blank-dialog.c:272
+msgid "Blank _Again"
+msgstr "_Apagar novamente"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:244
+msgid "Unknown error."
+msgstr "Erro desconhecido."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:264
+#: ../librejilla-burn/rejilla-blank-dialog.c:288
+msgid "The disc was successfully blanked."
+msgstr "O disco foi apagado com sucesso."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:270
+msgid "The disc is ready for use."
+msgstr "O disco está pronto para uso."
+
+#. Translators: This is a verb, an action
+#: ../librejilla-burn/rejilla-blank-dialog.c:371
+msgid "_Blank"
+msgstr "A_pagar"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:402
+msgid "_Fast blanking"
+msgstr "Apagar _rapidamente"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:403
+msgid "Activate fast blanking, as opposed to a longer, thorough blanking"
+msgstr "Ativar a limpeza rápida em oposição à, mais demorada, limpeza completo"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:433
+msgid "Disc Blanking"
+msgstr "Apagar disco"
+
+#: ../src/rejilla-playlist.c:390
+#, c-format
+msgid "Error parsing playlist \"%s\"."
+msgstr "Erro ao analisar a lista de reprodução \"%s\"."
+
+#: ../src/rejilla-playlist.c:393 ../src/rejilla-data-disc.c:214
+#: ../src/rejilla-project.c:2609 ../librejilla-burn/rejilla-sum-dialog.c:166
+#: ../src/rejilla-eject-dialog.c:100
+msgid "An unknown error occurred"
+msgstr "Ocorreu um erro desconhecido"
+
+#. Translators: %d is the number of songs
+#: ../src/rejilla-playlist.c:499
+#, c-format
+msgid "%d song"
+msgid_plural "%d songs"
+msgstr[0] "%d música"
+msgstr[1] "%d músicas"
+
+#: ../src/rejilla-playlist.c:584
+msgid "Select Playlist"
+msgstr "Selecionar lista de reprodução"
+
+#: ../src/rejilla-playlist.c:750
+msgid "Playlists"
+msgstr "Listas de reprodução"
+
+#: ../src/rejilla-playlist.c:761
+msgid "Number of Songs"
+msgstr "Número de músicas"
+
+#: ../src/rejilla-playlist.c:781
+msgid "Genre"
+msgstr "Gênero"
+
+#: ../src/rejilla-plugin-manager-ui.c:62
+msgid "Plugin"
+msgstr "Plug-in"
+
+#: ../src/rejilla-plugin-manager-ui.c:63
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: ../src/rejilla-plugin-manager-ui.c:143
+#, c-format
+msgid "Copyright %s"
+msgstr "Copyright %s"
+
+#: ../src/rejilla-plugin-manager-ui.c:587
+#: ../src/rejilla-plugin-manager-ui.c:974
+msgid "_About"
+msgstr "_Sobre"
+
+#: ../src/rejilla-plugin-manager-ui.c:595
+#: ../src/rejilla-plugin-manager-ui.c:980
+msgid "C_onfigure"
+msgstr "C_onfigurar"
+
+#: ../src/rejilla-plugin-manager-ui.c:605
+msgid "A_ctivate"
+msgstr "A_tivar"
+
+#: ../src/rejilla-plugin-manager-ui.c:617
+msgid "Ac_tivate All"
+msgstr "A_tivar todos"
+
+#: ../src/rejilla-plugin-manager-ui.c:622
+msgid "_Deactivate All"
+msgstr "_Desativar todos"
+
+#. Use the translated name for the plugin.
+#: ../src/rejilla-plugin-option.c:258
+#, c-format
+msgid "Options for plugin %s"
+msgstr "Opções para o plug-in %s"
+
+#: ../src/rejilla-search-entry.c:176
+msgid "Search:"
+msgstr "Pesquisar:"
+
+#: ../src/rejilla-search-entry.c:260
+msgid "In _text documents"
+msgstr "Em documentos de _texto"
+
+#: ../src/rejilla-search-entry.c:275
+msgid "In _pictures"
+msgstr "Em _figuras"
+
+#: ../src/rejilla-search-entry.c:290
+msgid "In _music"
+msgstr "Em _música"
+
+#: ../src/rejilla-search-entry.c:305
+msgid "In _videos"
+msgstr "Em _vídeos"
+
+#: ../src/rejilla-search-entry.c:322
+msgid "Type your keywords or choose 'All files' from the menu"
+msgstr "Digite suas palavras-chave ou escolha \"Todos os arquivos\" no menu"
+
+#: ../src/rejilla-search-entry.c:326
+msgid "Select if you want to search among image files only"
+msgstr "Selecione se você quiser pesquisar somente arquivos de imagem"
+
+#: ../src/rejilla-search-entry.c:328
+msgid "Select if you want to search among video files only"
+msgstr "Selecione se você quiser pesquisar somente arquivos de vídeo"
+
+#: ../src/rejilla-search-entry.c:330
+msgid "Select if you want to search among audio files only"
+msgstr "Selecione se você quiser pesquisar somente arquivos de áudio"
+
+#: ../src/rejilla-search-entry.c:332
+msgid "Select if you want to search among your text documents only"
+msgstr "Selecione se você quiser pesquisar somente documentos de texto"
+
+#: ../src/rejilla-search-entry.c:334
+msgid "Click to start the search"
+msgstr "Clique para iniciar a pesquisa"
+
+#: ../src/rejilla-song-properties.c:178
+msgid "Title:"
+msgstr "Título:"
+
+#: ../src/rejilla-song-properties.c:188 ../src/rejilla-song-properties.c:200
+#: ../src/rejilla-song-properties.c:212 ../src/rejilla-multi-song-props.c:212
+#: ../src/rejilla-multi-song-props.c:253 ../src/rejilla-multi-song-props.c:274
+msgid ""
+"This information will be written to the disc using CD-Text technology. It "
+"can be read and displayed by some audio CD players."
+msgstr ""
+"Esta informação será escrita no disco usando a tecnologia CD-TEXT. Ela pode "
+"ser lida e exibida por alguns reprodutores de CD de áudio."
+
+#: ../src/rejilla-song-properties.c:190 ../src/rejilla-multi-song-props.c:243
+msgid "Artist:"
+msgstr "Artista:"
+
+#: ../src/rejilla-song-properties.c:202 ../src/rejilla-multi-song-props.c:264
+msgid "Composer:"
+msgstr "Compositor:"
+
+#: ../src/rejilla-song-properties.c:236
+msgid "Song start:"
+msgstr "Início da música:"
+
+#: ../src/rejilla-song-properties.c:242
+msgid "Song end:"
+msgstr "Fim da música:"
+
+#: ../src/rejilla-song-properties.c:248 ../src/rejilla-multi-song-props.c:318
+msgid "Pause length:"
+msgstr "Duração do intervalo:"
+
+#: ../src/rejilla-song-properties.c:257 ../src/rejilla-multi-song-props.c:329
+msgid "Gives the length of the pause that should follow the track"
+msgstr "Dá a duração do intervalo a seguir a faixa"
+
+#: ../src/rejilla-song-properties.c:259
+msgid "Track length:"
+msgstr "Comprimento da faixa:"
+
+#: ../src/rejilla-song-properties.c:288 ../src/rejilla-multi-song-props.c:346
+msgid "Song Information"
+msgstr "Informações da música"
+
+#: ../src/rejilla-song-properties.c:373
+#, c-format
+msgid "Song information for track %02i"
+msgstr "Informações da música para a faixa %02i"
+
+#. *
+#. * Translators: this is the position being played in a stream. The
+#. * first %s is the position and the second %s is the whole length of
+#. * the stream. I chose to make that translatable in case some languages
+#. * don't allow the "/"
+#: ../src/rejilla-song-control.c:101
+#, c-format
+msgid "%s / %s"
+msgstr "%s / %s"
+
+#: ../src/rejilla-song-control.c:531
+msgid "No file"
+msgstr "Nenhum arquivo"
+
+#: ../src/rejilla-song-control.c:566
+msgid "Start and stop playing"
+msgstr "Iniciar e parar reprodução"
+
+#: ../src/rejilla-data-disc.c:125
+msgid "R_ename…"
+msgstr "R_enomear..."
+
+#: ../src/rejilla-data-disc.c:125
+msgid "Rename the selected file"
+msgstr "Renomear os arquivos selecionados"
+
+#: ../src/rejilla-data-disc.c:131 ../src/rejilla-data-disc.c:1773
+msgid "New _Folder"
+msgstr "Nova _pasta"
+
+#  Dica de ferramenta
+#: ../src/rejilla-data-disc.c:131
+msgid "Create a new empty folder"
+msgstr "Cria uma nova pasta vazia"
+
+#: ../src/rejilla-data-disc.c:213
+msgid "The session could not be imported."
+msgstr "Não foi possível importar a sessão."
+
+#: ../src/rejilla-data-disc.c:559
+msgid "The contents of the project changed since it was saved."
+msgstr "O conteúdo do projeto foi alterado desde que foi salvo."
+
+#: ../src/rejilla-data-disc.c:561 ../src/rejilla-data-disc.c:569
+msgid "Discard the current modified project"
+msgstr "Descartar o projeto atual modificado"
+
+#: ../src/rejilla-data-disc.c:567
+msgid "_Discard"
+msgstr "_Descartar"
+
+#: ../src/rejilla-data-disc.c:574
+msgid "Continue with the current modified project"
+msgstr "Continuar com o projeto atual modificado"
+
+#. Translators: %s is the name of the image
+#: ../src/rejilla-data-disc.c:622
+#, c-format
+msgid ""
+"There is only one selected file (\"%s\"). It is the image of a disc and its "
+"contents can be burned"
+msgstr ""
+"Há somente um arquivo selecionado (\"%s\"). É a imagem de um disco e seu "
+"conteúdo pode ser gravado."
+
+#: ../src/rejilla-data-disc.c:628
+msgid "Burn as _Data"
+msgstr "Gravar como _dados"
+
+#: ../src/rejilla-data-disc.c:630
+msgid "Burn as _Image"
+msgstr "Gravar como _imagem"
+
+#: ../src/rejilla-data-disc.c:679 ../src/rejilla-data-disc.c:700
+#: ../src/rejilla-data-disc.c:721
+#, c-format
+msgid "\"%s\" cannot be added to the selection."
+msgstr "\"%s\" não pode ser adicionado à seleção."
+
+#: ../src/rejilla-data-disc.c:703
+msgid "It is a recursive symlink"
+msgstr "Este é um link simbólico recursivo"
+
+#: ../src/rejilla-data-disc.c:724
+msgid "It does not exist at the specified location"
+msgstr "Isto não existe no local especificado"
+
+#: ../src/rejilla-data-disc.c:741
+#: ../librejilla-burn/rejilla-status-dialog.c:333
+msgid "Should files be renamed to be fully Windows-compatible?"
+msgstr "Os arquivos devem ser renomeados para serem compatíveis com o Windows?"
+
+#: ../src/rejilla-data-disc.c:747
+#: ../librejilla-burn/rejilla-status-dialog.c:344
+msgid "Those names should be changed and truncated to 64 characters."
+msgstr "Esses nomes devem ser alterados e truncados para 64 caracteres."
+
+#: ../src/rejilla-data-disc.c:749
+#: ../librejilla-burn/rejilla-status-dialog.c:352
+msgid "_Rename for Full Windows Compatibility"
+msgstr "_Renomear para compatibilidade completa com o Windows"
+
+#: ../src/rejilla-data-disc.c:750
+#: ../librejilla-burn/rejilla-status-dialog.c:349
+msgid "_Disable Full Windows Compatibility"
+msgstr "_Desabilitar a compatibilidade com o Windows"
+
+#. Translators: %s is the name of the file
+#: ../src/rejilla-data-disc.c:783
+#, c-format
+msgid "Do you want to replace \"%s\"?"
+msgstr "Você deseja substituir \"%s\"?"
+
+#: ../src/rejilla-data-disc.c:791
+msgid ""
+"A file with this name already exists in the folder.  Replacing it will "
+"overwrite its contents on the disc to be burnt."
+msgstr ""
+"Um arquivo com este nome já existe na pasta. Substituí-lo irá sobrescrever "
+"seu conteúdo no disco a ser gravado."
+
+#. Translators: Keep means we're keeping the files that already existed
+#. * in the project.
+#. * Keep is a verb
+#: ../src/rejilla-data-disc.c:796
+msgid "Always K_eep"
+msgstr "Sempre mant_er"
+
+#. Translators: Keep means we're keeping the files that already existed
+#. * in the project.
+#. * Keep is a verb
+#: ../src/rejilla-data-disc.c:800
+msgid "_Keep"
+msgstr "_Manter"
+
+#. Translators: Replace means we're replacing the file that already
+#. * existed in the project with a new one with the same name.
+#. * Replace is a verb
+#. Translators: this is a verb
+#: ../src/rejilla-data-disc.c:804 ../src/rejilla-rename.c:383
+msgid "_Replace"
+msgstr "_Substituir"
+
+#. Translators: Replace means we're replacing the file that already
+#. * existed in the project with a new one with the same name.
+#. * Replace is a verb
+#: ../src/rejilla-data-disc.c:808
+msgid "Al_ways Replace"
+msgstr "Sempre s_ubstituir"
+
+#: ../src/rejilla-data-disc.c:838
+#: ../librejilla-burn/rejilla-status-dialog.c:274
+#, c-format
+msgid ""
+"Do you really want to add \"%s\" to the selection and use the third version "
+"of the ISO9660 standard to support it?"
+msgstr ""
+"Você realmente deseja adicionar \"%s\" à seleção e usar o padrão ISO9660 "
+"nível 3 para obter suporte?"
+
+#: ../src/rejilla-data-disc.c:847
+#: ../librejilla-burn/rejilla-status-dialog.c:293
+msgid ""
+"The size of the file is over 2 GiB. Files larger than 2 GiB are not "
+"supported by the ISO9660 standard in its first and second versions (the most "
+"widespread ones).\n"
+"It is recommended to use the third version of the ISO9660 standard, which is "
+"supported by most operating systems, including Linux and all versions of "
+"Windows™.\n"
+"However, Mac OS X cannot read images created with version 3 of the ISO9660 "
+"standard."
+msgstr ""
+"O tamanho do arquivo é maior que 2 GiB. O padrão ISO9660 em sua primeira e "
+"segunda versões (as mais comuns) não oferece suporte a arquivos maiores que "
+"2 GiB.\n"
+"A maioria dos sistemas operacionais, inclusive o Linux e todas as versões do "
+"Windows ©, oferece suporte ao padrão ISO9660 versão três.\n"
+"Uma exceção conhecida é o Mac OS X que não pode ler imagens criadas com o "
+"padrão ISO9660 versão 3."
+
+#: ../src/rejilla-data-disc.c:851 ../src/rejilla-data-disc.c:895
+#: ../librejilla-burn/rejilla-status-dialog.c:235
+#: ../librejilla-burn/rejilla-status-dialog.c:297
+msgid "Ne_ver Add Such File"
+msgstr "Nunca adicionar este tipo de arqui_vo"
+
+#: ../src/rejilla-data-disc.c:852 ../src/rejilla-data-disc.c:896
+#: ../librejilla-burn/rejilla-status-dialog.c:236
+#: ../librejilla-burn/rejilla-status-dialog.c:298
+msgid "Al_ways Add Such File"
+msgstr "Sempre a_dicionar este tipo de arqui_vo"
+
+#: ../src/rejilla-data-disc.c:882
+#: ../librejilla-burn/rejilla-status-dialog.c:212
+#, c-format
+msgid "Do you really want to add \"%s\" to the selection?"
+msgstr "Você realmente deseja adicionar \"%s\" à seleção?"
+
+#: ../src/rejilla-data-disc.c:891
+#: ../librejilla-burn/rejilla-status-dialog.c:231
+msgid ""
+"The children of this directory will have 7 parent directories.\n"
+"Rejilla can create an image of such a file hierarchy and burn it but the "
+"disc may not be readable on all operating systems.\n"
+"Note: Such a file hierarchy is known to work on Linux."
+msgstr ""
+"O conteúdo deste diretório terá 7 diretórios superiores.\n"
+"O Rejilla pode criar uma imagem de um arquivo com este tipo de hierarquia e "
+"gravá-lo, mas o disco poderá não ser lido por todos os sistemas "
+"operacionais.\n"
+"Nota: Esta hierarquia de arquivos é conhecida por funcionar no Linux."
+
+#. Translators: %s is a string describing the type of medium and the
+#. * drive it is in. It's a tooltip.
+#: ../src/rejilla-data-disc.c:991
+#, c-format
+msgid "Import %s"
+msgstr "Importar %s"
+
+#. Translators: %s is the name of the volume to import. It's a menu
+#. * entry and toolbar button (text added later).
+#: ../src/rejilla-data-disc.c:998
+#, c-format
+msgid "I_mport %s"
+msgstr "I_mportar %s"
+
+#. Translators: This is a verb. It's a toolbar button.
+#: ../src/rejilla-data-disc.c:1028
+msgid "I_mport"
+msgstr "I_mportar"
+
+#. Translators: %s is the name of the volume to import
+#: ../src/rejilla-data-disc.c:1110
+#, c-format
+msgid "Do you want to import the session from \"%s\"?"
+msgstr "Você deseja importar a sessão de \"%s\"?"
+
+#: ../src/rejilla-data-disc.c:1113
+msgid ""
+"That way, old files from previous sessions will be usable after burning."
+msgstr ""
+"Desse modo, arquivos antigos de seções anteriores poderão ser usados após a "
+"gravação."
+
+#: ../src/rejilla-data-disc.c:1121
+msgid "I_mport Session"
+msgstr "I_mportar sessão"
+
+#: ../src/rejilla-data-disc.c:1123
+msgid "Click here to import its contents"
+msgstr "Clique aqui para importar seu conteúdo"
+
+#: ../src/rejilla-data-disc.c:1502
+msgid "Please wait while the project is loading."
+msgstr "Por favor, aguarde enquanto o projeto é carregado."
+
+#: ../src/rejilla-data-disc.c:1512
+msgid "_Cancel Loading"
+msgstr "_Cancelar carregamento"
+
+#: ../src/rejilla-data-disc.c:1514
+msgid "Cancel loading current project"
+msgstr "Cancela o carregamento do projeto atual"
+
+#: ../src/rejilla-data-disc.c:1918
+msgid "File Renaming"
+msgstr "Renomear arquivo"
+
+#: ../src/rejilla-data-disc.c:1922
+msgid "_Rename"
+msgstr "_Renomear"
+
+#: ../src/rejilla-data-disc.c:1930
+msgid "Renaming mode"
+msgstr "Modo renomear"
+
+#: ../src/rejilla-data-disc.c:2366 ../src/rejilla-video-disc.c:1234
+msgid "Size"
+msgstr "Tamanho"
+
+#: ../src/rejilla-data-disc.c:2396
+msgid "Space"
+msgstr "Espaço"
+
+#: ../src/rejilla-file-chooser.c:357 ../src/rejilla-project.c:2219
+msgid "Audio files"
+msgstr "Arquivos de áudio"
+
+#: ../src/rejilla-file-chooser.c:365 ../src/rejilla-project.c:2228
+msgid "Movies"
+msgstr "Filmes"
+
+#: ../src/rejilla-layout.c:100
+msgid "P_review"
+msgstr "Vi_sualizar"
+
+#. Translators: this is an image, a picture, not a "Disc Image"
+#: ../src/rejilla-layout.c:102
+msgid "Display video, audio and image preview"
+msgstr "Exibe visualização de vídeo, áudio e imagem"
+
+#: ../src/rejilla-layout.c:106
+msgid "_Show Side Panel"
+msgstr "_Mostrar painel lateral"
+
+#: ../src/rejilla-layout.c:107
+msgid "Show a side pane along the project"
+msgstr "Mostra um painel lateral junto com o projeto"
+
+#: ../src/rejilla-layout.c:121
+msgid "_Horizontal Layout"
+msgstr "Disposição _horizontal"
+
+# Dica de ferramenta
+#: ../src/rejilla-layout.c:122
+msgid "Set a horizontal layout"
+msgstr "Configura para disposição horizontal"
+
+#: ../src/rejilla-layout.c:124
+msgid "_Vertical Layout"
+msgstr "Disposição _vertical"
+
+# Dica de ferramenta
+#: ../src/rejilla-layout.c:125
+msgid "Set a vertical layout"
+msgstr "Configura para disposição vertical"
+
+#: ../src/rejilla-layout.c:1186
+msgid "Click to close the side pane"
+msgstr "Clique para fechar o painel lateral"
+
+#: ../src/rejilla-player.c:540
+#, c-format
+msgid "%i × %i pixels"
+msgstr "%i × %i pixéis"
+
+#. No Preview view
+#: ../src/rejilla-player.c:845
+msgid "No preview"
+msgstr "Sem visualizar"
+
+#: ../src/rejilla-project.c:194
+msgid "Save current project"
+msgstr "Salva o projeto atual"
+
+#: ../src/rejilla-project.c:195
+msgid "Save _As…"
+msgstr "Salvar _como..."
+
+#: ../src/rejilla-project.c:196
+msgid "Save current project to a different location"
+msgstr "Salva o projeto atual em uma localização diferente"
+
+#: ../src/rejilla-project.c:197
+msgid "_Add Files"
+msgstr "_Adicionar arquivos"
+
+#: ../src/rejilla-project.c:198
+msgid "Add files to the project"
+msgstr "Adiciona arquivos ao projeto"
+
+#: ../src/rejilla-project.c:199
+msgid "_Remove Files"
+msgstr "_Remover arquivos"
+
+#. Translators: "empty" is a verb here
+#: ../src/rejilla-project.c:202 ../src/rejilla-project.c:2301
+msgid "E_mpty Project"
+msgstr "Es_vaziar projeto"
+
+#: ../src/rejilla-project.c:203
+msgid "Remove all files from the project"
+msgstr "Remove todos os arquivos do projeto"
+
+#: ../src/rejilla-project.c:204 ../src/rejilla-project.c:1076
+msgid "_Burn…"
+msgstr "_Gravar..."
+
+#: ../src/rejilla-project.c:205
+msgid "Burn the disc"
+msgstr "Grava o disco"
+
+#: ../src/rejilla-project.c:687
+msgid ""
+"To add files to this project click the \"Add\" button or drag files to this "
+"area"
+msgstr ""
+"Para adicionar arquivos ao projeto clique no botão \"Adicionar\" ou arraste-"
+"os para esta área"
+
+#: ../src/rejilla-project.c:689
+msgid ""
+"To remove files select them then click on the \"Remove\" button or press "
+"\"Delete\" key"
+msgstr ""
+"Para remover os arquivos selecionados clique no botão \"Remover\" ou "
+"pressione a tecla \"Delete\""
+
+#: ../src/rejilla-project.c:796
+#, c-format
+msgid "Estimated project size: %s"
+msgstr "Tamanho estimado: %s"
+
+#: ../src/rejilla-project.c:942 ../src/rejilla-project.c:958
+msgid "The project is too large for the disc even with the overburn option."
+msgstr ""
+"O tamanho do projeto é muito grande para o disco, mesmo usando a opção "
+"overburn."
+
+#: ../src/rejilla-project.c:969
+msgid ""
+"The project is too large for the disc and you must remove files from it.\n"
+"You may want to use this option if you're using 90 or 100 min CD-R(W) which "
+"cannot be properly recognized and therefore needs the overburn option.\n"
+"Note: This option might cause failure."
+msgstr ""
+"O tamanho do projeto é grande demais para o disco e você precisa remover "
+"arquivos do projeto.\n"
+"Você pode usar esta opção se você estiver usando um CD-R(W) de 90 ou 100 "
+"min. que não pode ser apropriadamente reconhecido e, portanto, precisar da "
+"opção overburn.\n"
+"NOTA: Esta opção poderá causar falhas."
+
+#: ../src/rejilla-project.c:1088
+msgid "Start to burn the contents of the selection"
+msgstr "Começa a gravar o conteúdo da seleção"
+
+#: ../src/rejilla-project.c:1257
+msgid "Please add songs to the project."
+msgstr "Por favor, adicione músicas ao projeto."
+
+#: ../src/rejilla-project.c:1895 ../src/rejilla-project.c:1930
+msgid "Do you really want to create a new project and discard the current one?"
+msgstr "Você realmente deseja criar um novo projeto e descartar o atual?"
+
+#: ../src/rejilla-project.c:1900
+msgid "If you choose to create a new empty project, all changes will be lost."
+msgstr ""
+"Se você escolher criar um novo projeto vazio, todas as alterações serão "
+"perdidas."
+
+#: ../src/rejilla-project.c:1903
+msgid "_Discard Changes"
+msgstr "_Descartar alterações"
+
+#: ../src/rejilla-project.c:1911
+msgid "Do you want to discard the file selection or add it to the new project?"
+msgstr ""
+"Você quer descartar a seleção de arquivos ou adicioná-la ao novo projeto?"
+
+#: ../src/rejilla-project.c:1916 ../src/rejilla-project.c:1935
+msgid ""
+"If you choose to create a new empty project, the file selection will be "
+"discarded."
+msgstr ""
+"Se você escolher criar um novo projeto vazio, a seleção de arquivos será "
+"descartada."
+
+#: ../src/rejilla-project.c:1918
+msgid "_Discard File Selection"
+msgstr "_Descartar seleção de arquivos"
+
+#: ../src/rejilla-project.c:1922
+msgid "_Keep File Selection"
+msgstr "_Manter seleção de arquivos"
+
+#: ../src/rejilla-project.c:1937
+msgid "_Discard Project"
+msgstr "_Descartar projeto"
+
+#: ../src/rejilla-project.c:2177
+msgid "Select Files"
+msgstr "Selecionar arquivos"
+
+#: ../src/rejilla-project.c:2290
+msgid "Do you really want to empty the current project?"
+msgstr "Você realmente deseja esvaziar o projeto atual?"
+
+#: ../src/rejilla-project.c:2295
+msgid ""
+"Emptying a project will remove all files already added. All the work will be "
+"lost. Note that files will not be deleted from their own location, just no "
+"longer listed here."
+msgstr ""
+"Esvaziar um projeto removerá todos os arquivos já adicionados. Todo o "
+"trabalho será perdido. Note que arquivos não serão excluídos dos seus locais "
+"originais, apenas não serão mais listados aqui."
+
+#: ../src/rejilla-project.c:2352
+msgid "_Save"
+msgstr "_Salvar"
+
+#: ../src/rejilla-project.c:2363
+msgid "_Add"
+msgstr "_Adicionar"
+
+#: ../src/rejilla-project.c:2368 ../src/rejilla-split-dialog.c:1255
+msgid "_Remove"
+msgstr "_Remover"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2432
+#, c-format
+msgid "Rejilla — %s (Data Disc)"
+msgstr "Rejilla — %s (disco de dados)"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2435
+#, c-format
+msgid "Rejilla — %s (Audio Disc)"
+msgstr "Rejilla — %s (disco de áudio)"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2438
+#, c-format
+msgid "Rejilla — %s (Video Disc)"
+msgstr "Rejilla — %s (disco de vídeo)"
+
+#: ../src/rejilla-project.c:2608 ../src/rejilla-project.c:2911
+msgid "Your project has not been saved."
+msgstr "Seu projeto não foi salvo."
+
+#: ../src/rejilla-project.c:2622
+msgid "Save the changes of current project before closing?"
+msgstr "Salvar as alterações no projeto atual antes de fechar?"
+
+#: ../src/rejilla-project.c:2627 ../src/rejilla-project.c:2916
+msgid "If you don't save, changes will be permanently lost."
+msgstr "Se você não salvar, as alterações serão permanentemente perdidas."
+
+#: ../src/rejilla-project.c:2631 ../src/rejilla-project.c:2637
+#: ../src/rejilla-project.c:2919
+msgid "Cl_ose Without Saving"
+msgstr "_Fechar sem salvar"
+
+#: ../src/rejilla-project.c:2719
+msgid "Save Current Project"
+msgstr "Salvar o projeto atual"
+
+#  Dica de ferramenta
+#: ../src/rejilla-project.c:2737
+msgid "Save project as a Rejilla audio project"
+msgstr "Salvar o projeto como um projeto de áudio do Rejilla"
+
+#: ../src/rejilla-project.c:2738
+msgid "Save project as a plain text list"
+msgstr "Salvar o projeto como uma lista de texto simples"
+
+#: ../src/rejilla-project.c:2742
+msgid "Save project as a PLS playlist"
+msgstr "Salvar o projeto como uma lista de reprodução PLS"
+
+#: ../src/rejilla-project.c:2743
+msgid "Save project as an M3U playlist"
+msgstr "Salvar o projeto como uma lista de reprodução M3U"
+
+#: ../src/rejilla-project.c:2744
+msgid "Save project as an XSPF playlist"
+msgstr "Salvar o projeto como uma lista de reprodução XSPF"
+
+#: ../src/rejilla-project.c:2745
+msgid "Save project as an iriver playlist"
+msgstr "Salvar o projeto como uma lista de reprodução iriver"
+
+#: ../src/rejilla-project-manager.c:99
+msgid "_Cover Editor"
+msgstr "_Editor de capa"
+
+#: ../src/rejilla-project-manager.c:100
+msgid "Design and print covers for CDs"
+msgstr "Desenhar e imprimir capas para CDs"
+
+#: ../src/rejilla-project-manager.c:101
+msgid "_New Project"
+msgstr "_Novo projeto"
+
+#  Dica de ferramenta
+#: ../src/rejilla-project-manager.c:102
+msgid "Create a new project"
+msgstr "Cria um novo projeto"
+
+#: ../src/rejilla-project-manager.c:103
+msgid "_Empty Project"
+msgstr "E_svaziar projeto"
+
+#  Dica de ferramenta
+#: ../src/rejilla-project-manager.c:104
+msgid "Let you choose your new project"
+msgstr "Permite que você escolha seu novo projeto"
+
+#: ../src/rejilla-project-manager.c:105
+msgid "New _Audio Project"
+msgstr "Novo _projeto de áudio"
+
+#: ../src/rejilla-project-manager.c:106
+#: ../src/rejilla-project-type-chooser.c:74
+msgid ""
+"Create a traditional audio CD that will be playable on computers and stereos"
+msgstr ""
+"Cria um CD de áudio comum que possa ser reproduzido em aparelhos de som e "
+"computadores"
+
+#: ../src/rejilla-project-manager.c:107
+msgid "New _Data Project"
+msgstr "Novo projeto de d_ados"
+
+#: ../src/rejilla-project-manager.c:108
+#: ../src/rejilla-project-type-chooser.c:79
+msgid ""
+"Create a CD/DVD containing any type of data that can only be read on a "
+"computer"
+msgstr ""
+"Cria um CD/DVD contendo dados que somente podem ser lidos em um computador"
+
+#: ../src/rejilla-project-manager.c:109
+msgid "New _Video Project"
+msgstr "Novo projeto de _vídeo"
+
+#: ../src/rejilla-project-manager.c:110
+#: ../src/rejilla-project-type-chooser.c:84
+msgid "Create a video DVD or an SVCD that is readable on TV readers"
+msgstr "Cria um DVD de vídeo ou um SVCD que pode ser lido em leitores para TV"
+
+#: ../src/rejilla-project-manager.c:111
+msgid "Copy _Disc…"
+msgstr "Copiar _disco..."
+
+#: ../src/rejilla-project-manager.c:112
+#: ../src/rejilla-project-type-chooser.c:89
+msgid ""
+"Create a 1:1 copy of an audio CD or a data CD/DVD on your hard disk or on "
+"another CD/DVD"
+msgstr ""
+"Cria uma cópia exata de um CD de áudio ou um CD/DVD de dados em seu disco "
+"rígido ou em outro CD/DVD"
+
+#: ../src/rejilla-project-manager.c:113
+msgid "_Burn Image…"
+msgstr "_Gravar imagem..."
+
+#: ../src/rejilla-project-manager.c:114
+#: ../src/rejilla-project-type-chooser.c:93
+#: ../src/rejilla-project-type-chooser.c:94
+msgid "Burn an existing CD/DVD image to disc"
+msgstr "Gravar uma imagem de CD/DVD existente"
+
+#: ../src/rejilla-project-manager.c:116
+msgid "_Open…"
+msgstr "_Abrir..."
+
+#  Dica de ferramente _e_ título de janela...
+#: ../src/rejilla-project-manager.c:117
+msgid "Open a project"
+msgstr "Abre um projeto"
+
+#. Translators: the %s is a string representing the total size
+#. * of the file selection
+#: ../src/rejilla-project-manager.c:263
+#, c-format
+msgid "%d file selected (%s)"
+msgid_plural "%d files selected (%s)"
+msgstr[0] "%d arquivo selecionado (%s)"
+msgstr[1] "%d arquivos selecionados (%s)"
+
+#: ../src/rejilla-project-manager.c:274
+#, c-format
+msgid "%d file is supported (%s)"
+msgid_plural "%d files are supported (%s)"
+msgstr[0] "%d arquivo tem suporte (%s)"
+msgstr[1] "%d arquivos têm suporte (%s)"
+
+#: ../src/rejilla-project-manager.c:280
+#, c-format
+msgid "%d file can be added (%s)"
+msgid_plural "%d selected files can be added (%s)"
+msgstr[0] "%d arquivo pode ser adicionado (%s)"
+msgstr[1] "%d arquivos selecionados podem ser adicionados (%s)"
+
+#: ../src/rejilla-project-manager.c:291
+#, c-format
+msgid "No file can be added (%i selected file)"
+msgid_plural "No file can be added (%i selected files)"
+msgstr[0] "Nenhum arquivo pode ser adicionado (%i arquivo selecionado)"
+msgstr[1] "Nenhum arquivo pode ser adicionado (%i arquivos selecionados)"
+
+#: ../src/rejilla-project-manager.c:297
+#, c-format
+msgid "No file is supported (%i selected file)"
+msgid_plural "No file is supported (%i selected files)"
+msgstr[0] "Nenhum arquivo com suporte (%i arquivo selecionado)"
+msgstr[1] "Nenhum arquivo com suporte (%i arquivos selecionados)"
+
+#: ../src/rejilla-project-manager.c:303 ../src/rejilla-project-manager.c:457
+msgid "No file selected"
+msgstr "Nenhum arquivo selecionado"
+
+#: ../src/rejilla-project-manager.c:594
+msgid "Rejilla — New Audio Disc Project"
+msgstr "Rejilla — Novo projeto de disco de áudio"
+
+#: ../src/rejilla-project-manager.c:608
+msgid "Rejilla — New Data Disc Project"
+msgstr "Rejilla — Novo projeto de disco de dados"
+
+#: ../src/rejilla-project-manager.c:622
+msgid "Rejilla — New Video Disc Project"
+msgstr "Rejilla — Novo projeto de disco de vídeo"
+
+#: ../src/rejilla-project-manager.c:632
+msgid "Rejilla — New Image File"
+msgstr "Rejilla — Novo arquivo de imagem"
+
+#: ../src/rejilla-project-manager.c:647
+msgid "Rejilla — Disc Copy"
+msgstr "Rejilla — Copiar disco"
+
+#: ../src/rejilla-project-manager.c:731
+msgid "Open Project"
+msgstr "Abrir projeto"
+
+#: ../src/rejilla-project-manager.c:834
+msgid "_New"
+msgstr "_Novo"
+
+#: ../src/rejilla-project-manager.c:838
+msgid "_Open"
+msgstr "_Abrir"
+
+#: ../src/rejilla-project-manager.c:889
+msgid "Browse the file system"
+msgstr "Navega no sistema de arquivos"
+
+#: ../src/rejilla-project-manager.c:912
+msgid "Search files using keywords"
+msgstr "Pesquisa arquivos usando palavras-chave"
+
+#: ../src/rejilla-project-manager.c:932
+msgid "Display playlists and their contents"
+msgstr "Exibe listas de reprodução e seus conteúdos"
+
+#: ../src/rejilla-project-type-chooser.c:72
+msgid "Audi_o project"
+msgstr "Projeto de áudi_o"
+
+#: ../src/rejilla-project-type-chooser.c:73
+msgid "Create a traditional audio CD"
+msgstr "Criar um CD de áudio comum"
+
+#: ../src/rejilla-project-type-chooser.c:77
+msgid "D_ata project"
+msgstr "Projeto de _dados"
+
+#: ../src/rejilla-project-type-chooser.c:78
+msgid "Create a data CD/DVD"
+msgstr "Criar um CD/DVD de dados"
+
+#: ../src/rejilla-project-type-chooser.c:82
+msgid "_Video project"
+msgstr "Projeto de _vídeo"
+
+#: ../src/rejilla-project-type-chooser.c:83
+msgid "Create a video DVD or an SVCD"
+msgstr "Criar um DVD ou um SVCD de vídeo"
+
+#: ../src/rejilla-project-type-chooser.c:87
+msgid "Disc _copy"
+msgstr "Có_pia de disco"
+
+#: ../src/rejilla-project-type-chooser.c:88
+msgid "Create 1:1 copy of a CD/DVD"
+msgstr "Criar uma cópia exata de um CD/DVD"
+
+#: ../src/rejilla-project-type-chooser.c:92
+msgid "Burn _image"
+msgstr "Gravar _imagem"
+
+#: ../src/rejilla-project-type-chooser.c:291
+msgid "Last _Unsaved Project"
+msgstr "Último projeto não _salvo"
+
+#: ../src/rejilla-project-type-chooser.c:307
+msgid "Load the last project that was not burned and not saved"
+msgstr "Carregar o último projeto não gravado e não salvo"
+
+#: ../src/rejilla-project-type-chooser.c:413
+msgid "No recently used project"
+msgstr "Nenhum projeto usado recentemente"
+
+#: ../src/rejilla-project-type-chooser.c:475
+msgid "Create a new project:"
+msgstr "Criar um novo projeto:"
+
+#: ../src/rejilla-project-type-chooser.c:521
+msgid "Recent projects:"
+msgstr "Projetos recentes:"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:134
+#: ../librejilla-burn/rejilla-sum-dialog.c:215
+msgid "Check _Again"
+msgstr "Verificar _novamente"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:165
+#: ../librejilla-burn/rejilla-sum-dialog.c:514
+msgid "The file integrity check could not be performed."
+msgstr "Não foi possível verificar a integridade dos arquivos."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:178
+msgid "The file integrity check was performed successfully."
+msgstr "A integridade do arquivo foi verificada com sucesso."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:179
+msgid "There seem to be no corrupted files on the disc"
+msgstr "Parece não haver arquivo corrompido no disco"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:207
+msgid "The following files appear to be corrupted:"
+msgstr "Os seguintes arquivos parecem estar corrompidos:"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:250
+msgid "Corrupted Files"
+msgstr "Arquivos corrompidos"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:342
+msgid "Downloading MD5 file"
+msgstr "Baixando arquivo MD5"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:397
+#, c-format
+msgid "\"%s\" is not a valid URI"
+msgstr "A URI \"%s\" não é válida"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:515
+msgid "No MD5 file was given."
+msgstr "Nenhum arquivo MD5 foi informado."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:692
+msgid "Use an _MD5 file to check the disc"
+msgstr "Usar um arquivo _MD5 para verificar o disco"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:693
+msgid "Use an external .md5 file that stores the checksum of a disc"
+msgstr "Usar um arquivo externo .md5 que armazena o checksum de um disco"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:706
+msgid "Open an MD5 file"
+msgstr "Abrir um arquivo MD5"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:721
+msgid "_Check"
+msgstr "_Verificar"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:752
+msgid "Disc Checking"
+msgstr "Verificação de disco"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:147
+#, c-format
+msgid "Estimated size: %s"
+msgstr "Tamanho estimado: %s"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:569
+msgid "Size Estimation"
+msgstr "Estimativa de tamanho"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:571
+msgid "Please wait until the estimation of the size is completed."
+msgstr "Por favor, aguarde até que a estimativa de tamanho seja concluída."
+
+#: ../librejilla-burn/rejilla-status-dialog.c:572
+msgid "All files need to be analysed to complete this operation."
+msgstr "Todos os arquivos precisam ser analisados para concluir esta operação."
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:78
+#: ../librejilla-burn/rejilla-tool-dialog.c:92
+#: ../librejilla-burn/rejilla-tool-dialog.c:102
+msgid "The operation cannot be performed."
+msgstr "Não foi possível executar a operação."
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:79
+#: ../plugins/cdrkit/burn-wodim.c:151 ../plugins/cdrkit/burn-wodim.c:421
+#: ../plugins/cdrtools/burn-cdrecord.c:151
+#: ../plugins/cdrtools/burn-cdrecord.c:407
+#: ../plugins/growisofs/burn-dvd-rw-format.c:77
+#: ../plugins/libburnia/burn-libburn.c:609
+#, c-format
+msgid "The disc is not supported"
+msgstr "Não há suporte ao disco"
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:103
+msgid "The drive is empty"
+msgstr "A unidade está vazia"
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:541
+#: ../src/rejilla-eject-dialog.c:165
+msgid "Select a disc"
+msgstr "Selecione um disco"
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:574
+msgid "Progress"
+msgstr "Progresso"
+
+#: ../src/main.c:86
+msgid "[URI] [URI] …"
+msgstr "[URI] [URI] ..."
+
+#: ../src/main.c:98
+#, c-format
+msgid "Please type \"%s --help\" to see all available options\n"
+msgstr "Por favor, digite \"%s --help\" para ver todas as opções disponíveis\n"
+
+#: ../plugins/audio2cue/burn-audio2cue.c:191
+#: ../plugins/checksum/burn-checksum-image.c:124
+#, c-format
+msgid "Data could not be read (%s)"
+msgstr "Não foi possível ler os dados (%s)"
+
+#: ../plugins/audio2cue/burn-audio2cue.c:241
+#: ../plugins/dvdcss/burn-dvdcss.c:218 ../plugins/dvdcss/burn-dvdcss.c:493
+#: ../plugins/libburnia/burn-libisofs.c:163
+#: ../plugins/libburnia/burn-libisofs.c:266
+#: ../plugins/checksum/burn-checksum-files.c:196
+#: ../plugins/checksum/burn-checksum-files.c:219
+#: ../plugins/checksum/burn-checksum-image.c:174
+#, c-format
+msgid "Data could not be written (%s)"
+msgstr "Não foi possível escrever os dados (%s)"
+
+#: ../plugins/audio2cue/burn-audio2cue.c:723
+msgid "Generates .cue files from audio"
+msgstr "Gera arquivos .cue a partir de áudio"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:55
+msgid "cdrdao burning suite"
+msgstr "Suíte de gravação cdrdao"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:103
+msgid "Copying audio track"
+msgstr "Copiando faixa de áudio"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:109
+msgid "Copying data track"
+msgstr "Copiando faixa de dados"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:145
+#, c-format
+msgid "Analysing track %02i"
+msgstr "Analisando faixa %02i"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:249 ../plugins/cdrkit/burn-readom.c:116
+#: ../plugins/cdrkit/burn-readom.c:122 ../plugins/cdrkit/burn-wodim.c:106
+#: ../plugins/cdrtools/burn-cdrecord.c:106
+#: ../plugins/cdrtools/burn-readcd.c:117 ../plugins/cdrtools/burn-readcd.c:123
+#, c-format
+msgid "You do not have the required permissions to use this drive"
+msgstr "Você não tem as permissões necessárias para usar esta unidade"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:480
+msgid "Converting toc file"
+msgstr "Convertendo arquivo toc"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:697
+msgid "Copies, burns and blanks CDs"
+msgstr "Copia, grava e apaga CDs"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:762
+msgid "Enable the \"--driver generic-mmc-raw\" flag (see cdrdao manual)"
+msgstr ""
+"Habilitar o parâmetro \"--driver generic-mmc-raw\" (veja o manual do cdrdao)"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:121
+#: ../plugins/cdrtools/burn-mkisofs.c:122
+#: ../plugins/growisofs/burn-growisofs.c:204
+#: ../plugins/libburnia/burn-libisofs.c:501
+#, c-format
+msgid "Last session import failed"
+msgstr "A importação da última sessão falhou"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:127
+#: ../plugins/cdrkit/burn-genisoimage.c:134
+#: ../plugins/cdrtools/burn-mkisofs.c:128
+#: ../plugins/cdrtools/burn-mkisofs.c:135
+#: ../plugins/growisofs/burn-growisofs.c:210
+#: ../plugins/growisofs/burn-growisofs.c:217
+msgid "An image could not be created"
+msgstr "Não foi possível criar uma imagem"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:140
+msgid "This version of genisoimage is not supported"
+msgstr "Não há suporte para esta versão do genisoimage"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:182
+#: ../plugins/cdrtools/burn-mkisofs.c:183
+#: ../plugins/growisofs/burn-growisofs.c:223
+msgid "Some files have invalid filenames"
+msgstr "Alguns arquivos possuem nomes inválidos"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:188
+#: ../plugins/cdrtools/burn-mkisofs.c:189
+#: ../plugins/growisofs/burn-growisofs.c:229
+msgid "Unknown character encoding"
+msgstr "Codificação de caracteres desconhecida"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:194
+#: ../plugins/cdrtools/burn-mkisofs.c:195
+msgid "There is no space left on the device"
+msgstr "Não há espaço disponível no dispositivo"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:529
+#: ../plugins/cdrtools/burn-mkisofs.c:534
+#: ../plugins/libburnia/burn-libisofs.c:1046
+msgid "Creates disc images from a file selection"
+msgstr "Cria imagem de disco a partir de uma seleção de arquivos"
+
+#: ../plugins/cdrkit/burn-readom.c:136 ../plugins/cdrtools/burn-readcd.c:137
+#, c-format
+msgid ""
+"The location you chose to store the image on does not have enough free space "
+"for the disc image"
+msgstr ""
+"O local selecionado para armazenar a imagem não tem espaço livre suficiente "
+"para a imagem do disco"
+
+#: ../plugins/cdrkit/burn-readom.c:450 ../plugins/cdrtools/burn-readcd.c:460
+msgid "Copies any disc to a disc image"
+msgstr "Copia qualquer disco para uma imagem"
+
+#: ../plugins/cdrkit/burn-wodim.c:122 ../plugins/cdrtools/burn-cdrecord.c:122
+#: ../plugins/libburnia/burn-libburn.c:855
+#: ../plugins/libburnia/burn-libburn.c:886
+#, c-format
+msgid "An error occurred while writing to disc"
+msgstr "Ocorreu um erro ao gravar o disco"
+
+#: ../plugins/cdrkit/burn-wodim.c:128 ../plugins/cdrtools/burn-cdrecord.c:128
+#, c-format
+msgid ""
+"The system is too slow to write the disc at this speed. Try a lower speed"
+msgstr ""
+"O sistema é muito lento para gravar o disco nesta velocidade. Tente uma "
+"velocidade mais baixa"
+
+#. Translators: %s is the number of the track
+#: ../plugins/cdrkit/burn-wodim.c:255 ../plugins/cdrtools/burn-cdrecord.c:252
+#, c-format
+msgid "Writing track %s"
+msgstr "Gravando faixa %s"
+
+#: ../plugins/cdrkit/burn-wodim.c:352 ../plugins/cdrtools/burn-cdrecord.c:346
+msgid "Formatting disc"
+msgstr "Formatando disco"
+
+# http://en.wikipedia.org/wiki/Cue_sheet_%28computing%29
+#: ../plugins/cdrkit/burn-wodim.c:372 ../plugins/cdrtools/burn-cdrecord.c:358
+msgid "Writing cue sheet"
+msgstr "Gravando arquivo cue"
+
+#: ../plugins/cdrkit/burn-wodim.c:394 ../plugins/cdrtools/burn-cdrecord.c:380
+#, c-format
+msgid "The disc needs to be reloaded before being recorded"
+msgstr "O disco precisa ser recarregado antes de ser gravado"
+
+#: ../plugins/cdrkit/burn-wodim.c:1275
+msgid "Burns, blanks and formats CDs and DVDs"
+msgstr "Grava, apaga e formata CDs e DVDs"
+
+#: ../plugins/cdrkit/burn-wodim.c:1419
+msgid "Enable the \"-immed\" flag (see wodim manual)"
+msgstr "Habilitar o parâmetro \"-immed\" (veja o manual do wodim)"
+
+#: ../plugins/cdrkit/burn-wodim.c:1422
+msgid "Minimum drive buffer fill ratio (in %) (see wodim manual):"
+msgstr ""
+"Razão de preenchimento mínimo do buffer da unidade (em %) (veja o manual do "
+"wodim):"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1209
+#: ../plugins/libburnia/burn-libburn.c:974
+msgid "Burns, blanks and formats CDs, DVDs and BDs"
+msgstr "Grava, apaga e formata CDs, DVDs e BDs"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1422
+msgid "Enable the \"-immed\" flag (see cdrecord manual)"
+msgstr "Habilitar o parâmetro \"-immed\" (veja o manual do cdrecord)"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1425
+#, c-format
+msgid "Minimum drive buffer fill ratio (in %%) (see cdrecord manual):"
+msgstr ""
+"Relação de preenchimento mínimo do buffer da unidade (em %%)(veja o manual "
+"do cdrecord):"
+
+#: ../plugins/cdrtools/burn-mkisofs.c:141
+msgid "This version of mkisofs is not supported"
+msgstr "Não há suporte para esta versão do mkisofs"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:292 ../plugins/dvdcss/burn-dvdcss.c:393
+#: ../plugins/dvdcss/burn-dvdcss.c:458 ../plugins/dvdcss/burn-dvdcss.c:481
+#, c-format
+msgid "Error while reading video DVD (%s)"
+msgstr "Erro ao ler o DVD de vídeo (%s)"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:337
+msgid "Retrieving DVD keys"
+msgstr "Recuperando chaves de DVD"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:372
+#, c-format
+msgid "Video DVD could not be opened"
+msgstr "Não foi possível abrir o DVD de vídeo"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:400
+msgid "Copying video DVD"
+msgstr "Copiando DVD de vídeo"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:693
+msgid "Copies CSS encrypted video DVDs to a disc image"
+msgstr "Copia um vídeo DVD CSS criptografado para uma imagem de disco"
+
+#: ../plugins/growisofs/burn-dvd-rw-format.c:190
+msgid "Blanks and formats rewritable DVDs and BDs"
+msgstr "Apaga e formata DVDs e BDs regraváveis"
+
+#: ../plugins/growisofs/burn-growisofs.c:753
+msgid "Burns and blanks DVDs and BDs"
+msgstr "Grava e apaga DVDs e BDs"
+
+#: ../plugins/growisofs/burn-growisofs.c:924
+msgid "Allow DAO use"
+msgstr "Permitir uso de DAO"
+
+#: ../plugins/libburnia/burn-libburn.c:242
+#: ../plugins/libburnia/burn-libburn.c:250
+#, c-format
+msgid "libburn track could not be created"
+msgstr "Não foi possível criar uma faixa libburn"
+
+#. Translators: first %s is the filename, second %s is the error
+#. * generated from errno
+#. Translators: first %s is the filename, second %s
+#. * is the error generated from errno
+#: ../plugins/libburnia/burn-libburn.c:678
+#: ../plugins/checksum/burn-checksum-image.c:313
+#, c-format
+msgid "\"%s\" could not be opened (%s)"
+msgstr "Não foi possível abrir \"%s\" (%s)"
+
+#: ../plugins/libburnia/burn-libburn-common.c:158
+#, c-format
+msgid "libburn library could not be initialized"
+msgstr "A biblioteca libburn não pôde ser inicializada"
+
+#: ../plugins/libburnia/burn-libburn-common.c:173
+#, c-format
+msgid "The drive address could not be retrieved"
+msgstr "O endereço da unidade não pôde ser recuperado"
+
+#: ../plugins/libburnia/burn-libburn-common.c:417
+#, c-format
+msgid "Writing track %02i"
+msgstr "Gravando faixa %02i"
+
+#: ../plugins/libburnia/burn-libisofs.c:328
+#: ../plugins/libburnia/burn-libisofs.c:868
+#, c-format
+msgid "libisofs could not be initialized."
+msgstr "Não foi possível iniciar a libisofs."
+
+#: ../plugins/libburnia/burn-libisofs.c:468
+#, c-format
+msgid "Read options could not be created"
+msgstr "Não foi possível criar opções de leitura"
+
+#: ../plugins/libburnia/burn-libisofs.c:554
+#, c-format
+msgid "Volume could not be created"
+msgstr "Não foi possível criar volume"
+
+#  Não é continuação de frase alguma
+#. Translators: %s is the path
+#: ../plugins/libburnia/burn-libisofs.c:667
+#, c-format
+msgid "No parent could be found in the tree for the path \"%s\""
+msgstr "Nenhum pai foi localizado na árvore para o caminho \"%s\""
+
+#: ../plugins/libburnia/burn-libisofs.c:727
+#: ../plugins/libburnia/burn-libisofs.c:794
+#, c-format
+msgid "libisofs reported an error while creating directory \"%s\""
+msgstr "A libisofs relatou um erro ao criar o diretório \"%s\""
+
+#: ../plugins/libburnia/burn-libisofs.c:742
+#, c-format
+msgid ""
+"libisofs reported an error while adding contents to directory \"%s\" (%x)"
+msgstr ""
+"A libisofs relatou um erro ao adicionar conteúdo para o diretório \"%s\" (%x)"
+
+#: ../plugins/libburnia/burn-libisofs.c:765
+#: ../plugins/libburnia/burn-libisofs.c:781
+#, c-format
+msgid "libisofs reported an error while adding file at path \"%s\""
+msgstr "A libisofs relatou um erro ao adicionar arquivo no caminho \"%s\""
+
+#: ../plugins/local-track/burn-local-image.c:260
+msgid "Copying checksum file"
+msgstr "Copiando arquivo de checksum"
+
+#: ../plugins/local-track/burn-local-image.c:544
+#, c-format
+msgid "Copying `%s` locally"
+msgstr "Copiando \"%s\" localmente"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/local-track/burn-local-image.c:911
+msgid "File Downloader"
+msgstr "Downloader de arquivos"
+
+# "armazenados remotamente" não ficaria melhor?
+#: ../plugins/local-track/burn-local-image.c:912
+msgid "Allows files not stored locally to be burned"
+msgstr "Permite gravar arquivos não armazenados localmente"
+
+#. Translators: This message is sent
+#. * when rejilla could not link together
+#. * two gstreamer plugins so that one
+#. * sends its data to the second for further
+#. * processing. This data transmission is
+#. * done through a pad. Maybe this is a bit
+#. * too technical and should be removed?
+#: ../plugins/transcode/burn-normalize.c:199
+#: ../plugins/transcode/burn-normalize.c:260
+#: ../plugins/transcode/burn-transcode.c:318
+#: ../plugins/transcode/burn-transcode.c:356
+#: ../plugins/transcode/burn-transcode.c:553
+#: ../plugins/transcode/burn-transcode.c:663
+#: ../plugins/transcode/burn-transcode.c:694
+#: ../plugins/transcode/burn-transcode.c:715
+#: ../plugins/transcode/burn-vob.c:198 ../plugins/transcode/burn-vob.c:404
+#: ../plugins/transcode/burn-vob.c:564 ../plugins/transcode/burn-vob.c:697
+#: ../plugins/transcode/burn-vob.c:1061 ../plugins/transcode/burn-vob.c:1137
+#: ../plugins/transcode/burn-vob.c:1188
+#, c-format
+msgid "Impossible to link plugin pads"
+msgstr "Não é possível vincular os pads de plug-in"
+
+#: ../plugins/transcode/burn-normalize.c:556
+msgid "Normalizing tracks"
+msgstr "Normalizando faixas"
+
+#: ../plugins/transcode/burn-normalize.c:646
+msgid "Normalization"
+msgstr "Normalização"
+
+#: ../plugins/transcode/burn-normalize.c:647
+msgid "Sets consistent sound levels between tracks"
+msgstr "Atribui níveis sonoros consistentes entre faixas"
+
+#. Translators: %s is the string error from errno
+#: ../plugins/transcode/burn-transcode.c:1086
+#: ../plugins/transcode/burn-transcode.c:1274
+#, c-format
+msgid "Error while padding file (%s)"
+msgstr "Erro no preenchimento do arquivo (%s)"
+
+#: ../plugins/transcode/burn-transcode.c:1350
+#, c-format
+msgid "Error while getting duration"
+msgstr "Erro ao obter a duração"
+
+#: ../plugins/transcode/burn-transcode.c:1499
+#, c-format
+msgid "Analysing \"%s\""
+msgstr "Analisando \"%s\""
+
+#: ../plugins/transcode/burn-transcode.c:1536
+#, c-format
+msgid "Transcoding \"%s\""
+msgstr "Convertendo \"%s\""
+
+#: ../plugins/transcode/burn-transcode.c:1773
+msgid "Converts any song file into a format suitable for audio CDs"
+msgstr ""
+"Converte qualquer arquivo de som para um formato adequado para CDs de áudio."
+
+#: ../src/rejilla-split-dialog.c:166
+msgid "Do you really want to split the track?"
+msgstr "Você deseja realmente dividir a faixa?"
+
+#: ../src/rejilla-split-dialog.c:169
+msgid ""
+"If you split the track, the size of the new track will be shorter than 6 "
+"seconds and will be padded."
+msgstr ""
+"Se você dividir a faixa, o tamanho da nova faixa será menor que 6 segundos e "
+"será preenchida."
+
+#: ../src/rejilla-split-dialog.c:175 ../src/rejilla-split-dialog.c:748
+msgid "_Split"
+msgstr "_Dividir"
+
+#: ../src/rejilla-split-dialog.c:603
+msgid "The track wasn't split."
+msgstr "A faixa não estava dividida."
+
+#: ../src/rejilla-split-dialog.c:604
+msgid "No silence could be detected"
+msgstr "Nenhum silêncio pôde ser detectado"
+
+#: ../src/rejilla-split-dialog.c:627
+msgid "An error occurred while detecting silences."
+msgstr "Ocorreu um erro ao detectar silêncios."
+
+#: ../src/rejilla-split-dialog.c:706
+msgid "This will remove all previous results."
+msgstr "Isto removerá todos os resultados anteriores."
+
+#: ../src/rejilla-split-dialog.c:746
+msgid "Do you really want to carry on with automatic splitting?"
+msgstr "Você deseja realmente continuar com a divisão automática?"
+
+#: ../src/rejilla-split-dialog.c:747
+msgid "_Don't split"
+msgstr "_Não dividir"
+
+#: ../src/rejilla-split-dialog.c:965
+msgid "Do you really want to empty the slices preview?"
+msgstr "Você realmente deseja esvaziar a visualização das divisões?"
+
+#: ../src/rejilla-split-dialog.c:967 ../src/rejilla-split-dialog.c:1269
+msgid "Re_move All"
+msgstr "Re_mover todos"
+
+#: ../src/rejilla-split-dialog.c:1053
+msgid "Split Track"
+msgstr "Dividir faixa"
+
+#: ../src/rejilla-split-dialog.c:1072
+msgid "M_ethod:"
+msgstr "Mé_todo:"
+
+#: ../src/rejilla-split-dialog.c:1078
+msgid "Method to be used to split the track"
+msgstr "Método a ser usado para dividir a faixa"
+
+#: ../src/rejilla-split-dialog.c:1081
+msgid "Split track manually"
+msgstr "Dividir faixa manualmente"
+
+#: ../src/rejilla-split-dialog.c:1082
+msgid "Split track in parts with a fixed length"
+msgstr "Dividir faixas em partes com o comprimento fixo"
+
+#: ../src/rejilla-split-dialog.c:1083
+msgid "Split track in a fixed number of parts"
+msgstr "Dividir faixas em um número de partes fixas"
+
+#: ../src/rejilla-split-dialog.c:1084
+msgid "Split track for each silence"
+msgstr "Dividir esta faixa para cada silêncio"
+
+#: ../src/rejilla-split-dialog.c:1090
+msgid "_Slice"
+msgstr "_Dividir"
+
+#: ../src/rejilla-split-dialog.c:1101
+msgid "Add a splitting point"
+msgstr "Adicionar um ponto de divisão"
+
+#. Translators: this goes with the next (= "seconds")
+#: ../src/rejilla-split-dialog.c:1118
+msgid "Split this track every"
+msgstr "Dividir esta faixa a cada"
+
+#. Translators: this goes with the previous (= "Split track every")
+#: ../src/rejilla-split-dialog.c:1127
+msgid "seconds"
+msgstr "segundos"
+
+#. Translators: this goes with the next (= "parts")
+#: ../src/rejilla-split-dialog.c:1136
+msgid "Split this track in"
+msgstr "Dividir esta faixa em"
+
+#. Translators: this goes with the previous (= "Split this track in")
+#: ../src/rejilla-split-dialog.c:1145
+msgid "parts"
+msgstr "partes"
+
+#: ../src/rejilla-split-dialog.c:1153
+msgid "Slicing Method"
+msgstr "Método de divisão"
+
+#: ../src/rejilla-split-dialog.c:1211
+msgid "Start"
+msgstr "Início"
+
+#: ../src/rejilla-split-dialog.c:1218
+msgid "End"
+msgstr "Fim"
+
+#: ../src/rejilla-split-dialog.c:1241
+msgid "Mer_ge"
+msgstr "Mes_clar"
+
+#: ../src/rejilla-split-dialog.c:1252
+msgid "Merge a selected slice with the next selected one"
+msgstr "Mesclar uma divisão selecionada com a próxima selecionada"
+
+#: ../src/rejilla-split-dialog.c:1266
+msgid "Remove the selected slices"
+msgstr "Remover as divisões selecionadas"
+
+#: ../src/rejilla-split-dialog.c:1280
+msgid "Clear the slices preview"
+msgstr "Limpar previsão de divisões"
+
+#: ../src/rejilla-split-dialog.c:1290
+msgid "_List of slices that are to be created:"
+msgstr "_Lista de divisões que estão para ser criadas:"
+
+#: ../src/rejilla-split-dialog.c:1298
+msgid "Slices Preview"
+msgstr "Visualizar divisões"
+
+#: ../src/rejilla-time-button.c:287
+msgid "Hours"
+msgstr "Horas"
+
+#. Translators: separating hours and minutes
+#. Translators: separating minutes and seconds
+#. Translators: separating seconds and frames
+#: ../src/rejilla-time-button.c:292 ../src/rejilla-time-button.c:302
+#: ../src/rejilla-time-button.c:312
+msgid ":"
+msgstr ":"
+
+#: ../src/rejilla-time-button.c:297
+msgid "Minutes"
+msgstr "Minutos"
+
+#: ../src/rejilla-time-button.c:307
+msgid "Seconds"
+msgstr "Segundos"
+
+#: ../src/rejilla-time-button.c:317
+msgid "Frames (1 second = 75 frames)"
+msgstr "Quadros (1 segundo = 75 quadros)"
+
+#: ../plugins/cdrkit/burn-cdrkit.h:38
+msgid "cdrkit burning suite"
+msgstr "Suíte de gravação cdrkit"
+
+#: ../plugins/libburnia/burn-libburnia.h:38
+msgid "libburnia burning suite"
+msgstr "Suíte de gravação libburnia"
+
+#: ../plugins/growisofs/burn-growisofs-common.h:38
+msgid "growisofs burning suite"
+msgstr "Suíte de gravação growisofs"
+
+#: ../plugins/cdrtools/burn-cdrtools.h:38
+msgid "cdrtools burning suite"
+msgstr "Suíte de gravação cdrtools"
+
+#: ../src/rejilla-eject-dialog.c:95
+#, c-format
+msgid "The disc in \"%s\" cannot be ejected"
+msgstr "O disco em \"%s\" não pode ser ejetado"
+
+#: ../src/rejilla-eject-dialog.c:191
+msgid "_Eject"
+msgstr "_Ejetar"
+
+#: ../src/rejilla-eject-dialog.c:206
+msgid "Eject Disc"
+msgstr "Ejetar disco"
+
+#: ../src/rejilla-file-filtered.c:75 ../src/rejilla-file-filtered.c:81
+msgid "No file filtered"
+msgstr "Nenhum arquivo filtrado"
+
+#: ../src/rejilla-file-filtered.c:77
+#, c-format
+msgid "Hide the _filtered file list (%d file)"
+msgid_plural "Hide the _filtered file list (%d files)"
+msgstr[0] "Ocultar a lista de arquivos _filtrados (%d arquivo)"
+msgstr[1] "Ocultar a lista de arquivos _filtrados (%d arquivos)"
+
+#: ../src/rejilla-file-filtered.c:83
+#, c-format
+msgid "Show the _filtered file list (%d file)"
+msgid_plural "Show the _filtered file list (%d files)"
+msgstr[0] "Mostrar a lista de arquivos _filtrados (%d arquivo)"
+msgstr[1] "Mostrar a lista de arquivos _filtrados (%d arquivos)"
+
+#: ../src/rejilla-file-filtered.c:138
+msgid "Filter Options"
+msgstr "Opções de filtragem"
+
+#: ../src/rejilla-file-filtered.c:221
+msgid ""
+"Select the files you want to restore and click on the \"Restore\" button"
+msgstr ""
+"Selecione os arquivos que deseja restaurar e clique no botão \"Restaurar\""
+
+#: ../src/rejilla-file-filtered.c:268
+msgid "Type"
+msgstr "Tipo"
+
+#: ../src/rejilla-file-filtered.c:295
+msgid "_Restore"
+msgstr "_Restaurar"
+
+#: ../src/rejilla-file-filtered.c:304
+msgid "Restore the selected files"
+msgstr "Restaura os arquivos selecionados"
+
+#: ../src/rejilla-file-filtered.c:306
+msgid "_Options…"
+msgstr "_Opções..."
+
+#: ../src/rejilla-file-filtered.c:314
+msgid "Set the options for file filtering"
+msgstr "Define algumas opções para o arquivo de filtragem"
+
+#. filter hidden files
+#: ../src/rejilla-filter-option.c:63
+msgid "Filter _hidden files"
+msgstr "Filtrar arquivos _ocultos"
+
+#. replace symlink
+#: ../src/rejilla-filter-option.c:70
+msgid "Re_place symbolic links"
+msgstr "Su_bstituir links simbólicos"
+
+#. filter broken symlink button
+#: ../src/rejilla-filter-option.c:77
+msgid "Filter _broken symbolic links"
+msgstr "Filtrar links simbólicos _quebrados"
+
+#: ../src/rejilla-filter-option.c:83
+msgid "Filtering options"
+msgstr "Opções de filtragem"
+
+#: ../plugins/checksum/burn-checksum-files.c:131
+#: ../plugins/checksum/burn-checksum-files.c:589
+#, c-format
+msgid "File \"%s\" could not be opened (%s)"
+msgstr "O arquivo \"%s\" não pôde ser aberto (%s)"
+
+#: ../plugins/checksum/burn-checksum-files.c:617
+msgid "Creating checksum for image files"
+msgstr "Criando checksum para arquivos de imagem"
+
+#: ../plugins/checksum/burn-checksum-files.c:859
+#, c-format
+msgid "No checksum file could be found on the disc"
+msgstr "Nenhum arquivo checksum foi localizado no disco"
+
+#: ../plugins/checksum/burn-checksum-files.c:893
+msgid "Checking file integrity"
+msgstr "Verificando integridade do arquivo"
+
+#: ../plugins/checksum/burn-checksum-files.c:987
+#: ../plugins/checksum/burn-checksum-files.c:1012
+#, c-format
+msgid "File \"%s\" could not be opened"
+msgstr "O arquivo \"%s\" não pôde ser aberto"
+
+#: ../plugins/checksum/burn-checksum-files.c:1085
+#: ../plugins/checksum/burn-checksum-files.c:1206
+#: ../plugins/checksum/burn-checksum-image.c:550
+#, c-format
+msgid "Some files may be corrupted on the disc"
+msgstr "Alguns arquivos podem estar corrompidos no disco"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/checksum/burn-checksum-files.c:1479
+msgid "File Checksum"
+msgstr "Arquivo checksum"
+
+#: ../plugins/checksum/burn-checksum-files.c:1480
+msgid "Checks file integrities on a disc"
+msgstr "Verifica a integridade dos dados no disco"
+
+#: ../plugins/checksum/burn-checksum-files.c:1518
+#: ../plugins/checksum/burn-checksum-image.c:856
+msgid "Hashing algorithm to be used:"
+msgstr "Algoritmo de hash a ser usado:"
+
+#: ../plugins/checksum/burn-checksum-files.c:1521
+#: ../plugins/checksum/burn-checksum-image.c:859
+msgid "MD5"
+msgstr "MD5"
+
+#: ../plugins/checksum/burn-checksum-files.c:1523
+#: ../plugins/checksum/burn-checksum-image.c:861
+msgid "SHA1"
+msgstr "SHA1"
+
+#: ../plugins/checksum/burn-checksum-files.c:1525
+#: ../plugins/checksum/burn-checksum-image.c:863
+msgid "SHA256"
+msgstr "SHA256"
+
+#: ../plugins/checksum/burn-checksum-image.c:359
+#: ../plugins/checksum/burn-checksum-image.c:456
+msgid "Creating image checksum"
+msgstr "Criando checksum da imagem"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/checksum/burn-checksum-image.c:831
+msgid "Image Checksum"
+msgstr "Checksum da imagem"
+
+#: ../plugins/checksum/burn-checksum-image.c:832
+msgid "Checks disc integrity after it is burnt"
+msgstr "Verifica a integridade do disco depois que é gravado"
+
+#: ../src/rejilla-multi-song-props.c:89 ../src/rejilla-multi-song-props.c:97
+#: ../src/rejilla-multi-song-props.c:105 ../src/rejilla-multi-song-props.c:123
+#: ../src/rejilla-multi-song-props.c:139 ../src/rejilla-multi-song-props.c:160
+#: ../src/rejilla-multi-song-props.c:173 ../src/rejilla-multi-song-props.c:250
+#: ../src/rejilla-multi-song-props.c:271 ../src/rejilla-multi-song-props.c:292
+#: ../src/rejilla-rename.c:90 ../src/rejilla-rename.c:319
+msgid "<Keep current values>"
+msgstr "<Manter valores atuais>"
+
+#: ../src/rejilla-multi-song-props.c:126 ../src/rejilla-multi-song-props.c:143
+msgid "Remove silences"
+msgstr "Remover silêncios"
+
+#: ../src/rejilla-multi-song-props.c:214
+msgid "Song titles"
+msgstr "Título das músicas"
+
+#: ../src/rejilla-multi-song-props.c:231
+msgid "Additional song information"
+msgstr "Informações adicionais da música"
+
+#: ../src/rejilla-rename.c:320
+msgid "Insert text"
+msgstr "Inserir texto"
+
+#: ../src/rejilla-rename.c:321
+msgid "Delete text"
+msgstr "Excluir texto"
+
+#: ../src/rejilla-rename.c:322
+msgid "Substitute text"
+msgstr "Texto substituto"
+
+#: ../src/rejilla-rename.c:323
+msgid "Number files according to a pattern"
+msgstr "Numerar arquivos de acordo com um padrão"
+
+#: ../src/rejilla-rename.c:324
+msgid "Insert number sequence at beginning"
+msgstr "Inserir número de sequência no início"
+
+#. Translators: This is a verb. This is completed later
+#: ../src/rejilla-rename.c:339
+msgid "Insert"
+msgstr "Inserir"
+
+#. Translators: This finishes previous action "Insert". It goes like
+#. * this: "Insert" [Entry] "at the beginning".
+#: ../src/rejilla-rename.c:353
+msgid "at the beginning"
+msgstr "no início"
+
+#. Translators: This finishes previous action "Insert". It goes like
+#. * this: "Insert" [Entry] "at the end".
+#: ../src/rejilla-rename.c:357
+msgid "at the end"
+msgstr "no final"
+
+#: ../src/rejilla-rename.c:368
+msgid "Delete every occurrence of"
+msgstr "Excluir toda ocorrência de"
+
+#. Reminder: if this string happens to be used somewhere else in rejilla
+#. * we'll need a context with C_() macro
+#. Translators: this goes with above verb to say "_Replace" [Entry]
+#. * "with" [Entry].
+#: ../src/rejilla-rename.c:398
+msgid "with"
+msgstr "por"
+
+#: ../src/rejilla-rename.c:412
+msgid "Rename to"
+msgstr "Renomear para"
+
+#: ../src/rejilla-rename.c:421
+msgid "{number}"
+msgstr "{número}"
+
+#: ../src/rejilla-video-disc.c:101
+msgid "Open the selected video"
+msgstr "Abrir o vídeo selecionado"
+
+#: ../src/rejilla-video-disc.c:103
+msgid "Edit the video information (start, end, author, etc.)"
+msgstr "Editar informações do vídeo (início, fim, autor, etc.)"
+
+#: ../src/rejilla-video-disc.c:105
+msgid "Remove the selected videos from the project"
+msgstr "Remove os vídeos selecionados do projeto"
+
+#: ../src/rejilla-video-disc.c:359
+msgid "Do you want to search for video files inside the directory?"
+msgstr "Você deseja procurar por arquivos de vídeo dentro do diretório?"
+
+#: ../src/rejilla-video-disc.c:369
+msgid "_Search Directory"
+msgstr "_Pesquisar diretório"
+
+#: ../src/rejilla-video-disc.c:412
+#, c-format
+msgid "\"%s\" does not have a suitable type for video projects."
+msgstr "\"%s\" não tem um tipo adequado para projetos de vídeo."
+
+#: ../src/rejilla-video-disc.c:415
+msgid "Please only add files with video content"
+msgstr "Por favor, adicione somente arquivos de vídeo"
+
+#: ../plugins/dvdauthor/burn-dvdauthor.c:316
+#: ../plugins/vcdimager/burn-vcdimager.c:444
+msgid "Creating file layout"
+msgstr "Criando formato de arquivo"
+
+#: ../plugins/dvdauthor/burn-dvdauthor.c:374
+msgid "Creates disc images suitable for video DVDs"
+msgstr "Cria imagens de disco apropriadas para DVDs de vídeo"
+
+#: ../plugins/transcode/burn-vob.c:1273
+msgid "Converting video file to MPEG2"
+msgstr "Convertendo arquivo de vídeo para MPEG2"
+
+#: ../plugins/transcode/burn-vob.c:1376
+msgid "Converts any video file into a format suitable for video DVDs"
+msgstr ""
+"Converte qualquer arquivo de vídeo para um formato apropriado para DVDs de "
+"vídeo"
+
+#: ../plugins/vcdimager/burn-vcdimager.c:484
+msgid "Creates disc images suitable for SVCDs"
+msgstr "Cria uma imagem de disco compatível com SVCDs"
+
+#~ msgid "by"
+#~ msgstr "por"
+
+#~ msgid "Directories cannot be added to an audio disc."
+#~ msgstr "Diretórios não podem ser adicionados a um disco de áudio."
+
+#~ msgid "Name:"
+#~ msgstr "Nome:"
+
+#~ msgid ""
+#~ "<span weight=\"bold\">Size:</span>\t<i><span size=\"smaller\"> %i × %i "
+#~ "pixels</span></i>"
+#~ msgstr ""
+#~ "<span weight=\"bold\">Tamanho:</span>\t<i><span size=\"smaller\"> %i x %i "
+#~ "pixels</span></i>"
+
+#~ msgid ""
+#~ "<span weight=\"bold\">%s</span>\n"
+#~ "by <span size=\"smaller\"><i>%s</i></span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\">%s</span>\n"
+#~ "por <span size=\"smaller\"><i>%s</i></span>"
+
+#~ msgid ""
+#~ "<span weight=\"bold\">Loading information</span>\n"
+#~ "about <span size=\"smaller\"><i>%s</i></span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\">Carregando informações</span>\n"
+#~ "sobre <span size=\"smaller\"><i>%s</i></span>"
+
+#~ msgid ""
+#~ "Do you really want to create a new project and discard the changes to "
+#~ "current one?"
+#~ msgstr ""
+#~ "Você realmente deseja criar um novo projeto e descartar as alterações "
+#~ "feitas no atual?"
+
+#~ msgid "An error occured while writing to disc"
+#~ msgstr "Ocorreu um erro ao gravar o disco"
+
+#~ msgid "Error reading video DVD (%s)"
+#~ msgstr "Erro ao ler o DVD de vídeo (%s)"
+
+#~ msgid "Directories cannot be added to video discs."
+#~ msgstr "Diretórios não podem ser adicionados em um disco de vídeo."
+
+#~ msgid "Rejilla Disc Copier"
+#~ msgstr "Copiador de Discos Rejilla"
+
+#~ msgid "Copy CDs and DVDs"
+#~ msgstr "Copiar CDs e DVDs"
+
+#~ msgid "Disc Copier"
+#~ msgstr "Copiador de Discos"
+
+#~ msgid ""
+#~ "If you choose to create a new project, all files already added will be "
+#~ "discarded. Note that files will not be deleted from their own location, "
+#~ "just no longer listed here."
+#~ msgstr ""
+#~ "Se você escolher criar um novo projeto, todos os arquivos adicionados "
+#~ "serão descartados. Note que arquivos não serão excluídos dos seus locais "
+#~ "originais, apenas não serão mais listados aqui."
+
+#~ msgid "Appending new files to a multisession disc is not advised."
+#~ msgstr "Não é recomendado adicionar novos arquivos a um disco multissessão."
+
+#~ msgid "Such a disc cannot be copied without the proper plugins."
+#~ msgstr "Este disco não pode ser copiado sem os plug-ins apropriados."
+
+#~ msgid "It is not possible to write with the current set of plugins."
+#~ msgstr "Não é possível gravar com o conjunto atual de plug-ins."
+
+#~ msgid "_Eject after burning"
+#~ msgstr "_Ejetar ao terminar a gravação"
+
+#~ msgid "_Show errors"
+#~ msgstr "_Mostrar erros"
+
+#~ msgid "Close this notification window"
+#~ msgstr "Fecha esta janela de notificação"
+
+#~ msgid "Default height for image preview."
+#~ msgstr "Altura padrão para visualização de imagem."
+
+#~ msgid "Default height for video preview."
+#~ msgstr "Altura padrão para visualização de vídeo."
+
+#~ msgid "Default width for image preview."
+#~ msgstr "Largura padrão para visualização de imagem."
+
+#~ msgid "Default width for video preview."
+#~ msgstr "Largura padrão para visualização de vídeo."
+
+#~ msgid "Enable side pane"
+#~ msgstr "Habilitar painel lateral"
+
+#~ msgid "Height for video preview"
+#~ msgstr "Altura para visualização de vídeo"
+
+#~ msgid "Height of image preview"
+#~ msgstr "Altura de visualização de imagem"
+
+#~ msgid "Layout of UI"
+#~ msgstr "Disposição da interface de usuário"
+
+#~ msgid "Pane to display audio projects"
+#~ msgstr "Painel de exibição de projetos de áudio"
+
+#~ msgid "Pane to display data projects"
+#~ msgstr "Painel de exibição de projetos de dados"
+
+#~ msgid "Pane to display video projects"
+#~ msgstr "Painel de exibição de projetos de vídeo"
+
+#~ msgid "Should rejilla notify when files are filtered"
+#~ msgstr "Rejilla deve notificar quando arquivos forem filtrados"
+
+#~ msgid ""
+#~ "Should rejilla notify when files are filtered. Set to true, rejilla will "
+#~ "display the notification."
+#~ msgstr ""
+#~ "Rejilla deve notificar quando arquivos forem filtrados. Se definido como "
+#~ "verdadeiro, o Rejilla exibirá a notificação."
+
+#~ msgid ""
+#~ "The pane to display with audio projects. It should be one of the "
+#~ "following: \"Chooser\", \"Search\" or \"Playlist\"."
+#~ msgstr ""
+#~ "O painel a ser exibido com projetos de áudio. Os valores válidos são: "
+#~ "\"Seletor\", \"Pesquisa\" ou \"Lista de reprodução\"."
+
+#~ msgid ""
+#~ "The pane to display with data projects. It should be one of the "
+#~ "following: \"Chooser\" or \"Search\"."
+#~ msgstr ""
+#~ "O painel a ser exibido com projetos de dados. Os valores válidos são: "
+#~ "\"Seletor\" ou \"Pesquisa\"."
+
+#~ msgid ""
+#~ "The pane to display with video projects. It should be one of the "
+#~ "following: \"Chooser\", \"Search\" or \"Playlist\"."
+#~ msgstr ""
+#~ "O painel a ser exibido com projetos de vídeo. Os valores válidos são: "
+#~ "\"Seletor\", \"Pesquisa\" ou \"Lista de reprodução\"."
+
+#~ msgid ""
+#~ "This key sets where the project pane should be (0 = on the right, 1 = on "
+#~ "the left, 2 = at the top, 3 = at the bottom)"
+#~ msgstr ""
+#~ "Estas teclas definem onde o painel do projeto deve aparecer (0 = na "
+#~ "direita, 1 = na esquerda, 2 = no topo, 3 = abaixo)"
+
+#~ msgid "Whether to display a side pane. Set to true to use it."
+#~ msgstr "Se exibe um painel lateral. Defina como verdadeiro para usar."
+
+#~ msgid "Width for image preview"
+#~ msgstr "Largura para visualização de imagem"
+
+#~ msgid "Width for video preview"
+#~ msgstr "Largura para visualização de vídeo"
+
+#~ msgid "To add files to this project you can:"
+#~ msgstr "Para adicionar arquivos a este projeto você pode:"
+
+#~ msgid "click the \"Add\" button to show a selection dialog"
+#~ msgstr "clicar em \"Adicionar\" para mostrar o painel de seleção"
+
+#~ msgid "select files in the selection pane and click the \"Add\" button"
+#~ msgstr ""
+#~ "selecionar arquivos no painel de seleção e clicar no botão \"Adicionar\""
+
+#~ msgid ""
+#~ "drag files in this area from the selection pane or from the file manager"
+#~ msgstr ""
+#~ "arrastar arquivos para esta área a partir do painel de seleção ou do "
+#~ "gerenciador de arquivos"
+
+#, fuzzy
+#~ msgid "double-click on files in the selection pane"
+#~ msgstr "dar um duplo clique em arquivos no painel de seleção"
+
+#~ msgid "copy files (from file manager for example) and paste in this area"
+#~ msgstr ""
+#~ "copiar arquivos (do gerenciador de arquivo por exemplo) e colar nesta área"
+
+#~ msgid "To remove files from this project you can:"
+#~ msgstr "Para remover arquivos deste projeto você pode:"
+
+#~ msgid "click on the \"Remove\" button to remove selected items in this area"
+#~ msgstr ""
+#~ "clicar no botão \"Remover\" para remover itens selecionados nesta área"
+
+#~ msgid "select items in this area, and choose \"Remove\" from context menu"
+#~ msgstr ""
+#~ "selecionar itens nesta área e escolher \"Remover\" no menu de contexto"
+
+#~ msgid "select items in this area, and press \"Delete\" key"
+#~ msgstr "selecionar itens nesta área e pressionar a tecla \"Delete\""
+
+# Aparece em "rejilla --help"
+#~ msgid "PATH TO PLAYLIST"
+#~ msgstr "CAMINHO_LISTA_REPRODUÇÃO"
+
+#~ msgid "Your version of cdrdao does not seem to be supported by librejilla"
+#~ msgstr "Parece não haver suporte para sua versão do cdrdao na librejilla"
+
+#~ msgid "Use cdrdao to copy and burn CDs"
+#~ msgstr "Usar o cdrdao para copiar e gravar CDs"
+
+#, fuzzy
+#~ msgid "toc2cue converts .toc files into .cue files"
+#~ msgstr "O toc2cue converte arquivos .toc para arquivos .cue"
+
+#~ msgid "Use genisoimage to create images from a file selection"
+#~ msgstr "Usar o genisoimage para criar imagens de uma seleção de arquivos"
+
+#~ msgid "Use readom to create disc images"
+#~ msgstr "Usar o readom para criar imagens"
+
+#~ msgid "Use wodim to burn CDs and DVDs"
+#~ msgstr "Usar o wodim para gravar CDs e DVDs"
+
+#~ msgid "Use cdrecord to burn CDs and DVDs"
+#~ msgstr "Usar o cdrecord para gravar CDs e DVDs"
+
+#~ msgid "Encrypted DVD: please install libdvdcss version 1.2.x"
+#~ msgstr "DVD criptografado: por favor, instale a libdvdcss versão 1.2.x"
+
+#, fuzzy
+#~ msgid ""
+#~ "libdvdcss version %s is not supported.\n"
+#~ "Please install libdvdcss version 1.2.x"
+#~ msgstr ""
+#~ "Não há suporte para a versão %s da libdvdcss.\n"
+#~ "Por favor, instale a libdvdcss versão 1.2.x"
+
+#, fuzzy
+#~ msgid "libdvdcss could not be loaded properly"
+#~ msgstr "Não foi possível carregar corretamente a libdvdcss"
+
+#, fuzzy
+#~ msgid "dvdcss allows to CSS-encrypted video DVDs to be read"
+#~ msgstr "O dvdcss permite ler DVDs de vídeo criptografados com CSS"
+
+#~ msgid "Dvd+rw-format blanks and formats DVD+/-R(W)"
+#~ msgstr "O dvd+rw-format apaga e formata DVD+/-R(W)"
+
+#, fuzzy
+#~ msgid "growisofs burns DVDs"
+#~ msgstr "Growisofs grava DVDs"
+
+#, fuzzy
+#~ msgid "libburn burns CD(RW), DVD+/-(RW)"
+#~ msgstr "A libburn grava CD(RW), DVD+/-(RW)"
+
+#, fuzzy
+#~ msgid "libisofs creates disc images from files"
+#~ msgstr "A libisofs cria uma imagem de disco de arquivos"
+
+#~ msgid ""
+#~ "Transcode converts song files into a format proper to burn them on CDs"
+#~ msgstr ""
+#~ "O Transcode converte arquivos de música para um formato adequado para "
+#~ "gravá-los em CDs"
+
+#, fuzzy
+#~ msgid "Allow file integrities to be checked on a disc"
+#~ msgstr "Permite verificar integridade de arquivos no disco"
+
+#, fuzzy
+#~ msgid "Allows data integrity to be checked on disc after it is burned"
+#~ msgstr ""
+#~ "Permite verificar integridade de arquivos no disco após sua gravação"
+
+#~ msgid "Use dvdauthor to create Video DVDs"
+#~ msgstr "Usar o dvdauthor para criar em DVDs de vídeo"
+
+#~ msgid "Use vcdimager to create SVCDs"
+#~ msgstr "Usar o vcdimager para criar SVCDs"
+
+#~ msgid "Rejilla - Creating Image"
+#~ msgstr "Rejilla - Criando imagem"
+
+#~ msgid "Rejilla - Burning DVD (Simulation)"
+#~ msgstr "Rejilla - Gravando DVD (simulação)"
+
+#~ msgid "Rejilla - Burning DVD"
+#~ msgstr "Rejilla - Gravando DVD"
+
+#~ msgid "Burning DVD (Simulation)"
+#~ msgstr "Gravando DVD (simulação)"
+
+#~ msgid "Rejilla - Copying DVD (Simulation)"
+#~ msgstr "Rejilla - Copiando DVD (simulação)"
+
+#~ msgid "Rejilla - Copying DVD"
+#~ msgstr "Rejilla - Copiando DVD"
+
+#~ msgid "Rejilla - Burning CD (Simulation)"
+#~ msgstr "Rejilla - Gravando CD (simulação)"
+
+#~ msgid "Rejilla - Burning CD"
+#~ msgstr "Rejilla - Gravando CD"
+
+#~ msgid "Rejilla - Copying CD (Simulation)"
+#~ msgstr "Rejilla - Copiando CD (simulação)"
+
+#~ msgid "Rejilla - Copying CD"
+#~ msgstr "Rejilla - Copiando CD"
+
+#~ msgid "Rejilla - Burning disc (Simulation)"
+#~ msgstr "Rejilla - Gravando disco (Simulação)"
+
+#~ msgid "Rejilla - Burning disc"
+#~ msgstr "Rejilla - Gravando disco"
+
+#~ msgid "Rejilla - Burning Disc (Simulation)"
+#~ msgstr "Rejilla - Gravando disco (simulação)"
+
+#~ msgid "Rejilla - Burning Disc"
+#~ msgstr "Rejilla - Gravando disco"
+
+#~ msgid "Rejilla - Copying Disc (Simulation)"
+#~ msgstr "Rejilla - Copiando disco (simulação)"
+
+#~ msgid "Rejilla - Copying Disc"
+#~ msgstr "Rejilla - Copiando disco"
+
+#~ msgid "Rejilla - Creating Image (%i%% Done)"
+#~ msgstr "Rejilla - Criando imagem (%i%% completo)"
+
+#~ msgid "Rejilla - Copying DVD (%i%% Done)"
+#~ msgstr "Rejilla - Copiando DVD (%i%% completo)"
+
+#~ msgid "Rejilla - Burning DVD (%i%% Done)"
+#~ msgstr "Rejilla - Gravando DVD (%i%% completo)"
+
+#~ msgid "Rejilla - Copying CD (%i%% Done)"
+#~ msgstr "Rejilla - Copiando CD (%i%% completo)"
+
+#~ msgid "Rejilla - Burning CD (simulation)"
+#~ msgstr "Rejilla - Gravando CD (simulação)"
+
+#~ msgid "Rejilla - Burning CD (%i%% Done)"
+#~ msgstr "Rejilla - Gravando CD (%i%% completo)"
+
+#~ msgid "Rejilla - Copying Disc (%i%% Done)"
+#~ msgstr "Rejilla - Copiando disco (%i%% completo)"
+
+#~ msgid "Rejilla - Burning Disc (%i%% Done)"
+#~ msgstr "Rejilla - Gravando disco (%i%% completo)"
+
+#~ msgid "Session Log"
+#~ msgstr "Registro da sessão"
+
+#~ msgid "The session log cannot be displayed."
+#~ msgstr "Não foi possível exibir o registro de sessão."
+
+#~ msgid "The log file could not be found"
+#~ msgstr "Não foi possível localizar o arquivo de registro"
+
+#~ msgid ""
+#~ "This is a excerpt from the session log (the last 10 MiB):\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Este é um trecho do registro da sessão (os últimos 10 MiB):\n"
+#~ "\n"
+
+#~ msgid "_View Log"
+#~ msgstr "_Ver registro"
+
+#~ msgid "There is no recordable disc inserted."
+#~ msgstr "Não há disco gravável inserido."
+
+#~ msgid "CD/DVD Copy Options"
+#~ msgstr "Opções de cópia de CD/DVD"
+
+#~ msgid "The drive cannot burn or the disc cannot be burnt"
+#~ msgstr "A unidade não pode gravar ou o disco não é gravável"
+
+#~ msgid "_Write to Disc..."
+#~ msgstr "_Escrever no disco..."
+
+#~ msgid "_Blank Disc..."
+#~ msgstr "_Apagar Disco..."
+
+#~ msgid "_Blank..."
+#~ msgstr "A_pagar..."
+
+#~ msgid "_Split Track..."
+#~ msgstr "_Dividir faixa..."
+
+#~ msgid "R_ename..."
+#~ msgstr "R_enomear..."
+
+#~ msgid "_Burn..."
+#~ msgstr "_Gravar..."
+
+#~ msgid "Project estimated size: %s"
+#~ msgstr "Tamanho estimado do projeto: %s"
+
+#~ msgid "Save project as an IRIVER playlist"
+#~ msgstr "Salvar projeto como uma lista de reprodução IRIVER"
+
+#~ msgid "_Open..."
+#~ msgstr "_Abrir..."
+
+#~ msgid "_Options..."
+#~ msgstr "_Opções..."
+
+#~ msgid ""
+#~ "A file with the same name is about to be added into the same directory "
+#~ "and will replace it if you accept."
+#~ msgstr ""
+#~ "Um arquivo com o mesmo nome está prestes a ser adicionado no mesmo "
+#~ "diretório e o substituirá se você aceitar."
+
+#~ msgid "_Erase Disc"
+#~ msgstr "_Apagar disco"
+
+#~ msgid "You might not be able to listen to it with stereos."
+#~ msgstr "Você pode não conseguir escutá-lo em aparelhos de som."
+
+#~ msgid "Increase compatibility with _Windows systems"
+#~ msgstr "Aumentar compatibilidade com sistemas _Windows"
+
+#~ msgid ""
+#~ "Improve compatibility with Windows systems by allowing to display long "
+#~ "filenames (maximum 64 characters)"
+#~ msgstr ""
+#~ "Melhora a compatibilidade com sistemas Windows, permitindo exibir nomes "
+#~ "de arquivos longos (máximo de 64 caracteres)"
+
+#~ msgid "Disc options"
+#~ msgstr "Opções de disco"
+
+#~ msgid "Unknown"
+#~ msgstr "Desconhecido"
+
+#~ msgid "_Temporary directory free space:"
+#~ msgstr "Espaço livre no diretório _temporário:"
+
+#~ msgid "Let rejilla choose (safest)"
+#~ msgstr "Deixar o Rejilla escolher (mais seguro)"
+
+#~ msgid "*.toc image (cdrdao)"
+#~ msgstr "Imagem *.toc (cdrdao)"
+
+#~ msgctxt "disc"
+#~ msgid "Image files only"
+#~ msgstr "Somente arquivos de imagem"
+
+#~ msgid "Not enough space available on the disc (%"
+#~ msgstr "Não há espaço disponível no disco (%"
+
+#~ msgid "\"%s\" already exists"
+#~ msgstr "\"%s\" já existe"
+
+#~ msgid "Blank %s"
+#~ msgstr "Apagar %s"
+
+#~ msgid "Audio %s"
+#~ msgstr "%s de áudio"
+
+#~ msgid "Data %s"
+#~ msgstr "%s de dados"
+
+#~ msgid "It will be removed from the project"
+#~ msgstr "Este será removido do projeto"
+
+#~ msgid "%s only"
+#~ msgstr "%s somente"

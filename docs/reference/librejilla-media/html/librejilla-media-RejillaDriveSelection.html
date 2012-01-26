@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaDriveSelection</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-media Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-media">
+<link rel="prev" href="librejilla-media-RejillaMediumSelection.html" title="RejillaMediumSelection">
+<link rel="next" href="object-tree.html" title="Object Hierarchy">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-media-RejillaMediumSelection.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-media Reference Manual</th>
+<td><a accesskey="n" href="object-tree.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-media-RejillaDriveSelection.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-media-RejillaDriveSelection.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaDriveSelection">
+<a name="librejilla-media-RejillaDriveSelection"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-media-RejillaDriveSelection.top_of_page"></a>RejillaDriveSelection</span></h2>
+<p>RejillaDriveSelection</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-media-RejillaDriveSelection.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-media-RejillaDriveSelection.html#RejillaDriveSelection" title="RejillaDriveSelection">RejillaDriveSelection</a>;
+<a href="http://library.mate.org/devel/gtk/unstable/GtkWidget.html"><span class="returnvalue">GtkWidget</span></a>*          <a class="link" href="librejilla-media-RejillaDriveSelection.html#rejilla-drive-selection-new" title="rejilla_drive_selection_new ()">rejilla_drive_selection_new</a>         (<em class="parameter"><code><span class="type">void</span></code></em>);
+<a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="returnvalue">RejillaDrive</span></a> *      <a class="link" href="librejilla-media-RejillaDriveSelection.html#rejilla-drive-selection-get-active" title="rejilla_drive_selection_get_active ()">rejilla_drive_selection_get_active</a>  (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaDriveSelection.html#RejillaDriveSelection" title="RejillaDriveSelection"><span class="type">RejillaDriveSelection</span></a> *selector</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaDriveSelection.html#rejilla-drive-selection-set-active" title="rejilla_drive_selection_set_active ()">rejilla_drive_selection_set_active</a>  (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaDriveSelection.html#RejillaDriveSelection" title="RejillaDriveSelection"><span class="type">RejillaDriveSelection</span></a> *selector</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-media-RejillaDriveSelection.html#rejilla-drive-selection-show-type" title="rejilla_drive_selection_show_type ()">rejilla_drive_selection_show_type</a>   (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaDriveSelection.html#RejillaDriveSelection" title="RejillaDriveSelection"><span class="type">RejillaDriveSelection</span></a> *selector</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaDriveType" title="enum RejillaDriveType"><span class="type">RejillaDriveType</span></a> type</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-media-RejillaDriveSelection.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-media-RejillaDriveSelection.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaDriveSelection">
+<a name="RejillaDriveSelection"></a><h3>RejillaDriveSelection</h3>
+<pre class="programlisting">typedef struct {
+	GtkComboBox parent_instance;
+} RejillaDriveSelection;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_selection_new ()">
+<a name="rejilla-drive-selection-new"></a><h3>rejilla_drive_selection_new ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/gtk/unstable/GtkWidget.html"><span class="returnvalue">GtkWidget</span></a>*          rejilla_drive_selection_new         (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Creates a new <a class="link" href="librejilla-media-RejillaDriveSelection.html#RejillaDriveSelection" title="RejillaDriveSelection"><span class="type">RejillaDriveSelection</span></a> object
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/gtk/unstable/GtkWidget.html"><span class="type">GtkWidget</span></a>. Unref when it is not needed anymore.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_selection_get_active ()">
+<a name="rejilla-drive-selection-get-active"></a><h3>rejilla_drive_selection_get_active ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="returnvalue">RejillaDrive</span></a> *      rejilla_drive_selection_get_active  (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaDriveSelection.html#RejillaDriveSelection" title="RejillaDriveSelection"><span class="type">RejillaDriveSelection</span></a> *selector</code></em>);</pre>
+<p>
+Gets the active drive.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>selector</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-RejillaDriveSelection.html#RejillaDriveSelection" title="RejillaDriveSelection"><span class="type">RejillaDriveSelection</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> or NULL. Unref when it is not needed anymore.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_selection_set_active ()">
+<a name="rejilla-drive-selection-set-active"></a><h3>rejilla_drive_selection_set_active ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_drive_selection_set_active  (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaDriveSelection.html#RejillaDriveSelection" title="RejillaDriveSelection"><span class="type">RejillaDriveSelection</span></a> *selector</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Sets the active drive. Emits the ::drive-changed signal.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>selector</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-RejillaDriveSelection.html#RejillaDriveSelection" title="RejillaDriveSelection"><span class="type">RejillaDriveSelection</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> to set as the active one in the selector
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if it succeeded, FALSE otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_selection_show_type ()">
+<a name="rejilla-drive-selection-show-type"></a><h3>rejilla_drive_selection_show_type ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_drive_selection_show_type   (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaDriveSelection.html#RejillaDriveSelection" title="RejillaDriveSelection"><span class="type">RejillaDriveSelection</span></a> *selector</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaDriveType" title="enum RejillaDriveType"><span class="type">RejillaDriveType</span></a> type</code></em>);</pre>
+<p>
+Filters and displays drive corresponding to <em class="parameter"><code>type</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>selector</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-RejillaDriveSelection.html#RejillaDriveSelection" title="RejillaDriveSelection"><span class="type">RejillaDriveSelection</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaDriveType" title="enum RejillaDriveType"><span class="type">RejillaDriveType</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

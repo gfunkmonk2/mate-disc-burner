@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+	
+	
+Name: librejilla-media
+Description: Rejilla Optical Media library
+Version: @VERSION@
+Requires: glib-2.0 gthread-2.0 gtk+-@GTK_API_VERSION@
+Libs: -L${libdir} -lrejilla-media@REJILLA_LIBRARY_SUFFIX@
+Cflags: -I${includedir}/rejilla@REJILLA_LIBRARY_SUFFIX@

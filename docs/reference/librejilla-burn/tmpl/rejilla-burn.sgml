@@ -1,0 +1,106 @@
+<!-- ##### SECTION Title ##### -->
+RejillaBurn
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT RejillaBurn ##### -->
+<para>
+
+</para>
+
+@parent: 
+
+<!-- ##### FUNCTION rejilla_burn_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_burn_record ##### -->
+<para>
+
+</para>
+
+@burn: 
+@session: 
+@error: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_burn_check ##### -->
+<para>
+
+</para>
+
+@burn: 
+@session: 
+@error: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_burn_blank ##### -->
+<para>
+
+</para>
+
+@burn: 
+@session: 
+@error: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_burn_cancel ##### -->
+<para>
+
+</para>
+
+@burn: 
+@protect: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_burn_status ##### -->
+<para>
+
+</para>
+
+@burn: 
+@media: 
+@isosize: 
+@written: 
+@rate: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_burn_get_action_string ##### -->
+<para>
+
+</para>
+
+@burn: 
+@action: 
+@string: 
+
+

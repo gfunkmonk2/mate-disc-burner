@@ -1,0 +1,725 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaTrackDataCfg</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-burn Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-burn">
+<link rel="prev" href="librejilla-burn-rejilla-track-data.html" title="RejillaTrackData">
+<link rel="next" href="librejilla-burn-RejillaTrackStream.html" title="RejillaTrackStream">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-burn-rejilla-track-data.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-burn Reference Manual</th>
+<td><a accesskey="n" href="librejilla-burn-RejillaTrackStream.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-burn-rejilla-track-data-cfg.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-burn-rejilla-track-data-cfg.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaTrackDataCfg">
+<a name="librejilla-burn-rejilla-track-data-cfg"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-burn-rejilla-track-data-cfg.top_of_page"></a>RejillaTrackDataCfg</span></h2>
+<p>RejillaTrackDataCfg</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-burn-rejilla-track-data-cfg.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">#define             <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#REJILLA-DND-TARGET-DATA-TRACK-REFERENCE-LIST:CAPS" title="REJILLA_DND_TARGET_DATA_TRACK_REFERENCE_LIST">REJILLA_DND_TARGET_DATA_TRACK_REFERENCE_LIST</a>
+enum                <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfgColumn" title="enum RejillaTrackDataCfgColumn">RejillaTrackDataCfgColumn</a>;
+                    <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg">RejillaTrackDataCfg</a>;
+<a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="returnvalue">RejillaTrackDataCfg</span></a> * <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-new" title="rejilla_track_data_cfg_new ()">rejilla_track_data_cfg_new</a>        (<em class="parameter"><code><span class="type">void</span></code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-add" title="rejilla_track_data_cfg_add ()">rejilla_track_data_cfg_add</a>          (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *uri</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> *parent</code></em>);
+<a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="returnvalue">GtkTreePath</span></a> *       <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-add-empty-directory" title="rejilla_track_data_cfg_add_empty_directory ()">rejilla_track_data_cfg_add_empty_directory</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *name</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> *parent</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-remove" title="rejilla_track_data_cfg_remove ()">rejilla_track_data_cfg_remove</a>       (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> *treepath</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-rename" title="rejilla_track_data_cfg_rename ()">rejilla_track_data_cfg_rename</a>       (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *newname</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> *treepath</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-reset" title="rejilla_track_data_cfg_reset ()">rejilla_track_data_cfg_reset</a>        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-load-medium" title="rejilla_track_data_cfg_load_medium ()">rejilla_track_data_cfg_load_medium</a>  (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-RejillaMedium.html#RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-unload-current-medium" title="rejilla_track_data_cfg_unload_current_medium ()">rejilla_track_data_cfg_unload_current_medium</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);
+<a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-RejillaMedium.html#RejillaMedium"><span class="returnvalue">RejillaMedium</span></a> *     <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-get-current-medium" title="rejilla_track_data_cfg_get_current_medium ()">rejilla_track_data_cfg_get_current_medium</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *            <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-get-available-media" title="rejilla_track_data_cfg_get_available_media ()">rejilla_track_data_cfg_get_available_media</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-dont-filter-uri" title="rejilla_track_data_cfg_dont_filter_uri ()">rejilla_track_data_cfg_dont_filter_uri</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *uri</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *            <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-get-restored-list" title="rejilla_track_data_cfg_get_restored_list ()">rejilla_track_data_cfg_get_restored_list</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-restore" title="rejilla_track_data_cfg_restore ()">rejilla_track_data_cfg_restore</a>      (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> *treepath</code></em>);
+<a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html"><span class="returnvalue">GtkTreeModel</span></a> *      <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-get-filtered-model" title="rejilla_track_data_cfg_get_filtered_model ()">rejilla_track_data_cfg_get_filtered_model</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-span" title="rejilla_track_data_cfg_span ()">rejilla_track_data_cfg_span</a>         (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> sectors</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *new_track</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-span-again" title="rejilla_track_data_cfg_span_again ()">rejilla_track_data_cfg_span_again</a>   (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-span-possible" title="rejilla_track_data_cfg_span_possible ()">rejilla_track_data_cfg_span_possible</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> sectors</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-span-stop" title="rejilla_track_data_cfg_span_stop ()">rejilla_track_data_cfg_span_stop</a>    (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);
+<a href="http://library.mate.org/devel/gio/unstable/GIcon.html"><span class="returnvalue">GIcon</span></a> *             <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-get-icon" title="rejilla_track_data_cfg_get_icon ()">rejilla_track_data_cfg_get_icon</a>     (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-get-icon-path" title="rejilla_track_data_cfg_get_icon_path ()">rejilla_track_data_cfg_get_icon_path</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-set-icon" title="rejilla_track_data_cfg_set_icon ()">rejilla_track_data_cfg_set_icon</a>     (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *icon_path</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-burn-rejilla-track-data-cfg.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-burn-rejilla-track-data-cfg.details"></a><h2>Details</h2>
+<div class="refsect2" title="REJILLA_DND_TARGET_DATA_TRACK_REFERENCE_LIST">
+<a name="REJILLA-DND-TARGET-DATA-TRACK-REFERENCE-LIST:CAPS"></a><h3>REJILLA_DND_TARGET_DATA_TRACK_REFERENCE_LIST</h3>
+<pre class="programlisting">#define REJILLA_DND_TARGET_DATA_TRACK_REFERENCE_LIST "GTK_TREE_MODEL_ROW"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum RejillaTrackDataCfgColumn">
+<a name="RejillaTrackDataCfgColumn"></a><h3>enum RejillaTrackDataCfgColumn</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_DATA_TREE_MODEL_NAME		= 0,
+	REJILLA_DATA_TREE_MODEL_URI,
+	REJILLA_DATA_TREE_MODEL_MIME_DESC,
+	REJILLA_DATA_TREE_MODEL_MIME_ICON,
+	REJILLA_DATA_TREE_MODEL_SIZE,
+	REJILLA_DATA_TREE_MODEL_SHOW_PERCENT,
+	REJILLA_DATA_TREE_MODEL_PERCENT,
+	REJILLA_DATA_TREE_MODEL_STYLE,
+	REJILLA_DATA_TREE_MODEL_COLOR,
+	REJILLA_DATA_TREE_MODEL_EDITABLE,
+	REJILLA_DATA_TREE_MODEL_IS_FILE,
+	REJILLA_DATA_TREE_MODEL_IS_LOADING,
+	REJILLA_DATA_TREE_MODEL_IS_IMPORTED,
+	REJILLA_DATA_TREE_MODEL_COL_NUM
+} RejillaTrackDataCfgColumn;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="RejillaTrackDataCfg">
+<a name="RejillaTrackDataCfg"></a><h3>RejillaTrackDataCfg</h3>
+<pre class="programlisting">typedef struct {
+	RejillaTrackData parent_instance;
+} RejillaTrackDataCfg;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_new ()">
+<a name="rejilla-track-data-cfg-new"></a><h3>rejilla_track_data_cfg_new ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="returnvalue">RejillaTrackDataCfg</span></a> * rejilla_track_data_cfg_new        (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Creates a new <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a new <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_add ()">
+<a name="rejilla-track-data-cfg-add"></a><h3>rejilla_track_data_cfg_add ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_track_data_cfg_add          (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *uri</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> *parent</code></em>);</pre>
+<p>
+Add a new file (with <em class="parameter"><code>uri</code></em> as URI) under a directory (<em class="parameter"><code>parent</code></em>).
+If <em class="parameter"><code>parent</code></em> is NULL, the file is added to the root.
+Also if <em class="parameter"><code>uri</code></em> is the path of a directory, this directory will be explored
+and all its children added to the tree.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>parent</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the operation was successful, FALSE otherwise
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_add_empty_directory ()">
+<a name="rejilla-track-data-cfg-add-empty-directory"></a><h3>rejilla_track_data_cfg_add_empty_directory ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="returnvalue">GtkTreePath</span></a> *       rejilla_track_data_cfg_add_empty_directory
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *name</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> *parent</code></em>);</pre>
+<p>
+Add a new empty directory (with <em class="parameter"><code>name</code></em> as name) under another directory (<em class="parameter"><code>parent</code></em>).
+If <em class="parameter"><code>parent</code></em> is NULL, the file is added to the root.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>name</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>parent</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> which should be destroyed when not needed; NULL if the operation was not successful.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_remove ()">
+<a name="rejilla-track-data-cfg-remove"></a><h3>rejilla_track_data_cfg_remove ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_track_data_cfg_remove       (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> *treepath</code></em>);</pre>
+<p>
+Removes a file or a directory (as well as its children) from the tree.
+NOTE: some files cannot be removed like files from an imported session.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>treepath</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the operation was successful, FALSE otherwise
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_rename ()">
+<a name="rejilla-track-data-cfg-rename"></a><h3>rejilla_track_data_cfg_rename ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_track_data_cfg_rename       (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *newname</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> *treepath</code></em>);</pre>
+<p>
+Renames the file in the tree pointed by <em class="parameter"><code>treepath</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>newname</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>treepath</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the operation was successful, FALSE otherwise
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_reset ()">
+<a name="rejilla-track-data-cfg-reset"></a><h3>rejilla_track_data_cfg_reset ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_track_data_cfg_reset        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);</pre>
+<p>
+Completely empties <em class="parameter"><code>track</code></em> and unloads any currently loaded session
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the operation was successful, FALSE otherwise
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_load_medium ()">
+<a name="rejilla-track-data-cfg-load-medium"></a><h3>rejilla_track_data_cfg_load_medium ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_track_data_cfg_load_medium  (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-RejillaMedium.html#RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>
+Tries to load the contents of the last session of <em class="parameter"><code>medium</code></em> so all its files will be included in the tree
+to perform a merge between files from the session and new added files.
+Errors are stored in <em class="parameter"><code>error</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>a <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-RejillaMedium.html#RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the operation was successful, FALSE otherwise
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_unload_current_medium ()">
+<a name="rejilla-track-data-cfg-unload-current-medium"></a><h3>rejilla_track_data_cfg_unload_current_medium ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_track_data_cfg_unload_current_medium
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);</pre>
+<p>
+Unload the contents of the last session of the currently loaded medium.
+See <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-load-medium" title="rejilla_track_data_cfg_load_medium ()"><code class="function">rejilla_track_data_cfg_load_medium()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_get_current_medium ()">
+<a name="rejilla-track-data-cfg-get-current-medium"></a><h3>rejilla_track_data_cfg_get_current_medium ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-RejillaMedium.html#RejillaMedium"><span class="returnvalue">RejillaMedium</span></a> *     rejilla_track_data_cfg_get_current_medium
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);</pre>
+<p>
+Gets the currently loaded medium.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-RejillaMedium.html#RejillaMedium"><span class="type">RejillaMedium</span></a>. NULL if no medium are currently loaded.
+Do not unref when the <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-RejillaMedium.html#RejillaMedium"><span class="type">RejillaMedium</span></a> is not needed anymore.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_get_available_media ()">
+<a name="rejilla-track-data-cfg-get-available-media"></a><h3>rejilla_track_data_cfg_get_available_media ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *            rejilla_track_data_cfg_get_available_media
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);</pre>
+<p>
+Gets a list of all the media that can be appended with new data and which have a session that can be loaded.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> of <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-RejillaMedium.html#RejillaMedium"><span class="type">RejillaMedium</span></a>. Free the list and unref its contents when the list is not needed anymore.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_dont_filter_uri ()">
+<a name="rejilla-track-data-cfg-dont-filter-uri"></a><h3>rejilla_track_data_cfg_dont_filter_uri ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_track_data_cfg_dont_filter_uri
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *uri</code></em>);</pre>
+<p>
+Prevents <em class="parameter"><code>uri</code></em> to be filtered while automatic exploration
+of added directories is performed.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_get_restored_list ()">
+<a name="rejilla-track-data-cfg-get-restored-list"></a><h3>rejilla_track_data_cfg_get_restored_list ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *            rejilla_track_data_cfg_get_restored_list
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);</pre>
+<p>
+Gets a list of URIs (as <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *) that were restored with <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-restore" title="rejilla_track_data_cfg_restore ()"><code class="function">rejilla_track_data_cfg_restore()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a>; free the list and its contents when not needed anymore.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_restore ()">
+<a name="rejilla-track-data-cfg-restore"></a><h3>rejilla_track_data_cfg_restore ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_track_data_cfg_restore      (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> *treepath</code></em>);</pre>
+<p>
+Removes a file from the filtered file list (see <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-get-filtered-model" title="rejilla_track_data_cfg_get_filtered_model ()"><code class="function">rejilla_track_data_cfg_get_filtered_model()</code></a>)
+and re-adds it wherever it should be in the tree.
+<em class="parameter"><code>treepath</code></em> is a <a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a> associated with the <a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html"><span class="type">GtkTreeModel</span></a> which holds the
+filtered files not the main tree.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>treepath</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html#GtkTreePath"><span class="type">GtkTreePath</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_get_filtered_model ()">
+<a name="rejilla-track-data-cfg-get-filtered-model"></a><h3>rejilla_track_data_cfg_get_filtered_model ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html"><span class="returnvalue">GtkTreeModel</span></a> *      rejilla_track_data_cfg_get_filtered_model
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);</pre>
+<p>
+Gets a GtkTreeModel which contains all the files that were
+automatically filtered while added directories were explored.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/gtk/unstable/GtkTreeModel.html"><span class="type">GtkTreeModel</span></a>. Unref when not needed.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_span ()">
+<a name="rejilla-track-data-cfg-span"></a><h3>rejilla_track_data_cfg_span ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_data_cfg_span         (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> sectors</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *new_track</code></em>);</pre>
+<p>
+Creates a new <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> (stored in <em class="parameter"><code>new_track</code></em>) from the files contained in <em class="parameter"><code>track</code></em>. The sum of their sizes
+does not exceed <em class="parameter"><code>sectors</code></em>. This allows to burn a tree on multiple discs. This function can be
+called repeatedly; in this case if some files were left out after the previous calls, the newly created RejillaTrackData
+is created with all or part of the remaining files.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>sectors</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>new_track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if there is not anymore data.
+REJILLA_BURN_RETRY if the operation was successful and a new <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> was created.
+REJILLA_BURN_ERR otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_span_again ()">
+<a name="rejilla-track-data-cfg-span-again"></a><h3>rejilla_track_data_cfg_span_again ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_data_cfg_span_again   (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);</pre>
+<p>
+Checks whether some files were not included during calls to <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-span" title="rejilla_track_data_cfg_span ()"><code class="function">rejilla_track_data_cfg_span()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if there is not anymore data.
+REJILLA_BURN_RETRY if the operation was successful and a new <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> was created.
+REJILLA_BURN_ERR otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_span_possible ()">
+<a name="rejilla-track-data-cfg-span-possible"></a><h3>rejilla_track_data_cfg_span_possible ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_data_cfg_span_possible
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> sectors</code></em>);</pre>
+<p>
+Checks if a new <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> can be created from the files remaining in the tree 
+after calls to <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-span" title="rejilla_track_data_cfg_span ()"><code class="function">rejilla_track_data_cfg_span()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>sectors</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if there is not anymore data.
+REJILLA_BURN_RETRY if the operation was successful and a new <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> was created.
+REJILLA_BURN_ERR otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_span_stop ()">
+<a name="rejilla-track-data-cfg-span-stop"></a><h3>rejilla_track_data_cfg_span_stop ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_track_data_cfg_span_stop    (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);</pre>
+<p>
+Resets the list of files that were included after calls to <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-span" title="rejilla_track_data_cfg_span ()"><code class="function">rejilla_track_data_cfg_span()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_get_icon ()">
+<a name="rejilla-track-data-cfg-get-icon"></a><h3>rejilla_track_data_cfg_get_icon ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/gio/unstable/GIcon.html"><span class="returnvalue">GIcon</span></a> *             rejilla_track_data_cfg_get_icon     (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);</pre>
+<p>
+Returns the currently selected icon.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/gio/unstable/GIcon.html"><span class="type">GIcon</span></a> or NULL.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_get_icon_path ()">
+<a name="rejilla-track-data-cfg-get-icon-path"></a><h3>rejilla_track_data_cfg_get_icon_path ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             rejilla_track_data_cfg_get_icon_path
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>);</pre>
+<p>
+Returns a path pointing to the currently selected icon file.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> or NULL.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_cfg_set_icon ()">
+<a name="rejilla-track-data-cfg-set-icon"></a><h3>rejilla_track_data_cfg_set_icon ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_track_data_cfg_set_icon     (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *icon_path</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>
+Sets the current icon.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_path</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the operation was successful, FALSE otherwise
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

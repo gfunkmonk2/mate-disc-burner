@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaBurnDialog</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-burn Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-burn">
+<link rel="prev" href="librejilla-burn-RejillaBurn.html" title="RejillaBurn">
+<link rel="next" href="librejilla-burn-RejillaToolDialog.html" title="RejillaToolDialog">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-burn-RejillaBurn.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-burn Reference Manual</th>
+<td><a accesskey="n" href="librejilla-burn-RejillaToolDialog.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-burn-RejillaBurnDialog.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-burn-RejillaBurnDialog.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaBurnDialog">
+<a name="librejilla-burn-RejillaBurnDialog"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-burn-RejillaBurnDialog.top_of_page"></a>RejillaBurnDialog</span></h2>
+<p>RejillaBurnDialog</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-burn-RejillaBurnDialog.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-burn-RejillaBurnDialog.html#RejillaBurnDialog" title="RejillaBurnDialog">RejillaBurnDialog</a>;
+<a href="http://library.mate.org/devel/gtk/unstable/GtkWidget.html"><span class="returnvalue">GtkWidget</span></a> *         <a class="link" href="librejilla-burn-RejillaBurnDialog.html#rejilla-burn-dialog-new" title="rejilla_burn_dialog_new ()">rejilla_burn_dialog_new</a>             (<em class="parameter"><code><span class="type">void</span></code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-RejillaBurnDialog.html#rejilla-burn-dialog-run" title="rejilla_burn_dialog_run ()">rejilla_burn_dialog_run</a>             (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnDialog.html#RejillaBurnDialog" title="RejillaBurnDialog"><span class="type">RejillaBurnDialog</span></a> *dialog</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession" title="RejillaBurnSession"><span class="type">RejillaBurnSession</span></a> *session</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-RejillaBurnDialog.html#rejilla-burn-dialog-cancel" title="rejilla_burn_dialog_cancel ()">rejilla_burn_dialog_cancel</a>          (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnDialog.html#RejillaBurnDialog" title="RejillaBurnDialog"><span class="type">RejillaBurnDialog</span></a> *dialog</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> force_cancellation</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-burn-RejillaBurnDialog.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-burn-RejillaBurnDialog.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaBurnDialog">
+<a name="RejillaBurnDialog"></a><h3>RejillaBurnDialog</h3>
+<pre class="programlisting">typedef struct {
+	GtkDialog parent;
+} RejillaBurnDialog;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_burn_dialog_new ()">
+<a name="rejilla-burn-dialog-new"></a><h3>rejilla_burn_dialog_new ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/gtk/unstable/GtkWidget.html"><span class="returnvalue">GtkWidget</span></a> *         rejilla_burn_dialog_new             (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Creates a new <a class="link" href="librejilla-burn-RejillaBurnDialog.html#RejillaBurnDialog" title="RejillaBurnDialog"><span class="type">RejillaBurnDialog</span></a> object
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/gtk/unstable/GtkWidget.html"><span class="type">GtkWidget</span></a>. Unref when it is not needed anymore.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_burn_dialog_run ()">
+<a name="rejilla-burn-dialog-run"></a><h3>rejilla_burn_dialog_run ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_burn_dialog_run             (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnDialog.html#RejillaBurnDialog" title="RejillaBurnDialog"><span class="type">RejillaBurnDialog</span></a> *dialog</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession" title="RejillaBurnSession"><span class="type">RejillaBurnSession</span></a> *session</code></em>);</pre>
+<p>
+Start burning the contents of <em class="parameter"><code>session</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>dialog</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaBurnDialog.html#RejillaBurnDialog" title="RejillaBurnDialog"><span class="type">RejillaBurnDialog</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>session</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession" title="RejillaBurnSession"><span class="type">RejillaBurnSession</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the operation was successfully carried out, FALSE otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_burn_dialog_cancel ()">
+<a name="rejilla-burn-dialog-cancel"></a><h3>rejilla_burn_dialog_cancel ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_burn_dialog_cancel          (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnDialog.html#RejillaBurnDialog" title="RejillaBurnDialog"><span class="type">RejillaBurnDialog</span></a> *dialog</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> force_cancellation</code></em>);</pre>
+<p>
+Cancel the ongoing operation run by <em class="parameter"><code>dialog</code></em>; if <em class="parameter"><code>force_cancellation</code></em> is FALSE then it can
+happen that the operation won't be cancelled if there is a risk to make a disc unusable.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>dialog</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaBurnDialog.html#RejillaBurnDialog" title="RejillaBurnDialog"><span class="type">RejillaBurnDialog</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>force_cancellation</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if it was sucessfully cancelled, FALSE otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

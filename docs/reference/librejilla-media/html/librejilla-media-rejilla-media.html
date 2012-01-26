@@ -1,0 +1,532 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>rejilla-media</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-media Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-media">
+<link rel="prev" href="ch01.html" title="API Reference for Librejilla-media">
+<link rel="next" href="librejilla-media-rejilla-units.html" title="rejilla-units">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="ch01.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-media Reference Manual</th>
+<td><a accesskey="n" href="librejilla-media-rejilla-units.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-media-rejilla-media.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-media-rejilla-media.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="rejilla-media">
+<a name="librejilla-media-rejilla-media"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-media-rejilla-media.top_of_page"></a>rejilla-media</span></h2>
+<p>rejilla-media</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-media-rejilla-media.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">#define             <a class="link" href="librejilla-media-rejilla-media.html#LIBREJILLA-MEDIA-VERSION-MAJOR:CAPS" title="LIBREJILLA_MEDIA_VERSION_MAJOR">LIBREJILLA_MEDIA_VERSION_MAJOR</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#LIBREJILLA-MEDIA-VERSION-MINOR:CAPS" title="LIBREJILLA_MEDIA_VERSION_MINOR">LIBREJILLA_MEDIA_VERSION_MINOR</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#LIBREJILLA-MEDIA-VERSION-MICRO:CAPS" title="LIBREJILLA_MEDIA_VERSION_MICRO">LIBREJILLA_MEDIA_VERSION_MICRO</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#LIBREJILLA-MEDIA-AGE:CAPS" title="LIBREJILLA_MEDIA_AGE">LIBREJILLA_MEDIA_AGE</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#LIBREJILLA-MEDIA-INSTALL:CAPS" title="LIBREJILLA_MEDIA_INSTALL">LIBREJILLA_MEDIA_INSTALL</a>
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-media-rejilla-media.html#rejilla-media-library-start" title="rejilla_media_library_start ()">rejilla_media_library_start</a>         (<em class="parameter"><code><span class="type">void</span></code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-media-rejilla-media.html#rejilla-media-library-stop" title="rejilla_media_library_stop ()">rejilla_media_library_stop</a>          (<em class="parameter"><code><span class="type">void</span></code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Commandline-option-parser.html#GOptionGroup"><span class="returnvalue">GOptionGroup</span></a> *      <a class="link" href="librejilla-media-rejilla-media.html#rejilla-media-get-option-group" title="rejilla_media_get_option_group ()">rejilla_media_get_option_group</a>      (<em class="parameter"><code><span class="type">void</span></code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Quarks.html#GQuark"><span class="returnvalue">GQuark</span></a>              <a class="link" href="librejilla-media-rejilla-media.html#rejilla-media-quark" title="rejilla_media_quark ()">rejilla_media_quark</a>                 (<em class="parameter"><code><span class="type">void</span></code></em>);
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIA-ERROR:CAPS" title="REJILLA_MEDIA_ERROR">REJILLA_MEDIA_ERROR</a>
+enum                <a class="link" href="librejilla-media-rejilla-media.html#RejillaMediaError" title="enum RejillaMediaError">RejillaMediaError</a>;
+enum                <a class="link" href="librejilla-media-rejilla-media.html#RejillaMedia" title="enum RejillaMedia">RejillaMedia</a>;
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-CDROM:CAPS" title="REJILLA_MEDIUM_CDROM">REJILLA_MEDIUM_CDROM</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-CDR:CAPS" title="REJILLA_MEDIUM_CDR">REJILLA_MEDIUM_CDR</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-CDRW:CAPS" title="REJILLA_MEDIUM_CDRW">REJILLA_MEDIUM_CDRW</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVD-ROM:CAPS" title="REJILLA_MEDIUM_DVD_ROM">REJILLA_MEDIUM_DVD_ROM</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDR:CAPS" title="REJILLA_MEDIUM_DVDR">REJILLA_MEDIUM_DVDR</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDRW:CAPS" title="REJILLA_MEDIUM_DVDRW">REJILLA_MEDIUM_DVDRW</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDRW-RESTRICTED:CAPS" title="REJILLA_MEDIUM_DVDRW_RESTRICTED">REJILLA_MEDIUM_DVDRW_RESTRICTED</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDR-DL:CAPS" title="REJILLA_MEDIUM_DVDR_DL">REJILLA_MEDIUM_DVDR_DL</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDR-JUMP-DL:CAPS" title="REJILLA_MEDIUM_DVDR_JUMP_DL">REJILLA_MEDIUM_DVDR_JUMP_DL</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDR-PLUS:CAPS" title="REJILLA_MEDIUM_DVDR_PLUS">REJILLA_MEDIUM_DVDR_PLUS</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDRW-PLUS:CAPS" title="REJILLA_MEDIUM_DVDRW_PLUS">REJILLA_MEDIUM_DVDRW_PLUS</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDR-PLUS-DL:CAPS" title="REJILLA_MEDIUM_DVDR_PLUS_DL">REJILLA_MEDIUM_DVDR_PLUS_DL</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDRW-PLUS-DL:CAPS" title="REJILLA_MEDIUM_DVDRW_PLUS_DL">REJILLA_MEDIUM_DVDRW_PLUS_DL</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVD-RAM:CAPS" title="REJILLA_MEDIUM_DVD_RAM">REJILLA_MEDIUM_DVD_RAM</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-BD-ROM:CAPS" title="REJILLA_MEDIUM_BD_ROM">REJILLA_MEDIUM_BD_ROM</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-BDR-SRM:CAPS" title="REJILLA_MEDIUM_BDR_SRM">REJILLA_MEDIUM_BDR_SRM</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-BDR-SRM-POW:CAPS" title="REJILLA_MEDIUM_BDR_SRM_POW">REJILLA_MEDIUM_BDR_SRM_POW</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-BDR-RANDOM:CAPS" title="REJILLA_MEDIUM_BDR_RANDOM">REJILLA_MEDIUM_BDR_RANDOM</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-BDRE:CAPS" title="REJILLA_MEDIUM_BDRE">REJILLA_MEDIUM_BDRE</a>
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-VALID:CAPS" title="REJILLA_MEDIUM_VALID()">REJILLA_MEDIUM_VALID</a>                (media)
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-TYPE:CAPS" title="REJILLA_MEDIUM_TYPE()">REJILLA_MEDIUM_TYPE</a>                 (media)
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-ATTR:CAPS" title="REJILLA_MEDIUM_ATTR()">REJILLA_MEDIUM_ATTR</a>                 (media)
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-STATUS:CAPS" title="REJILLA_MEDIUM_STATUS()">REJILLA_MEDIUM_STATUS</a>               (media)
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-SUBTYPE:CAPS" title="REJILLA_MEDIUM_SUBTYPE()">REJILLA_MEDIUM_SUBTYPE</a>              (media)
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-INFO:CAPS" title="REJILLA_MEDIUM_INFO()">REJILLA_MEDIUM_INFO</a>                 (media)
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-IS:CAPS" title="REJILLA_MEDIUM_IS()">REJILLA_MEDIUM_IS</a>                   (media,
+                                                         type)
+#define             <a class="link" href="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-RANDOM-WRITABLE:CAPS" title="REJILLA_MEDIUM_RANDOM_WRITABLE()">REJILLA_MEDIUM_RANDOM_WRITABLE</a>      (media)
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-media-rejilla-media.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-media-rejilla-media.details"></a><h2>Details</h2>
+<div class="refsect2" title="LIBREJILLA_MEDIA_VERSION_MAJOR">
+<a name="LIBREJILLA-MEDIA-VERSION-MAJOR:CAPS"></a><h3>LIBREJILLA_MEDIA_VERSION_MAJOR</h3>
+<pre class="programlisting">#define             LIBREJILLA_MEDIA_VERSION_MAJOR</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="LIBREJILLA_MEDIA_VERSION_MINOR">
+<a name="LIBREJILLA-MEDIA-VERSION-MINOR:CAPS"></a><h3>LIBREJILLA_MEDIA_VERSION_MINOR</h3>
+<pre class="programlisting">#define             LIBREJILLA_MEDIA_VERSION_MINOR</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="LIBREJILLA_MEDIA_VERSION_MICRO">
+<a name="LIBREJILLA-MEDIA-VERSION-MICRO:CAPS"></a><h3>LIBREJILLA_MEDIA_VERSION_MICRO</h3>
+<pre class="programlisting">#define             LIBREJILLA_MEDIA_VERSION_MICRO</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="LIBREJILLA_MEDIA_AGE">
+<a name="LIBREJILLA-MEDIA-AGE:CAPS"></a><h3>LIBREJILLA_MEDIA_AGE</h3>
+<pre class="programlisting">#define             LIBREJILLA_MEDIA_AGE</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="LIBREJILLA_MEDIA_INSTALL">
+<a name="LIBREJILLA-MEDIA-INSTALL:CAPS"></a><h3>LIBREJILLA_MEDIA_INSTALL</h3>
+<pre class="programlisting">#define             LIBREJILLA_MEDIA_INSTALL</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_media_library_start ()">
+<a name="rejilla-media-library-start"></a><h3>rejilla_media_library_start ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_media_library_start         (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Initialize the library.
+</p>
+<p>
+You should call this function before using any other from the library.
+</p>
+<p>
+Rename to: init
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_media_library_stop ()">
+<a name="rejilla-media-library-stop"></a><h3>rejilla_media_library_stop ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_media_library_stop          (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+De-initialize the library once you do not need the library anymore.
+</p>
+<p>
+Rename to: deinit
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_media_get_option_group ()">
+<a name="rejilla-media-get-option-group"></a><h3>rejilla_media_get_option_group ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Commandline-option-parser.html#GOptionGroup"><span class="returnvalue">GOptionGroup</span></a> *      rejilla_media_get_option_group      (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Returns a GOptionGroup for the commandline arguments recognized by librejilla-media.
+You should add this to your GOptionContext if your are using <a href="http://library.mate.org/devel/glib/unstable/glib-Commandline-option-parser.html#g-option-context-parse"><code class="function">g_option_context_parse()</code></a>
+to parse your commandline arguments.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Commandline-option-parser.html#GOptionGroup"><span class="type">GOptionGroup</span></a> *
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_media_quark ()">
+<a name="rejilla-media-quark"></a><h3>rejilla_media_quark ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Quarks.html#GQuark"><span class="returnvalue">GQuark</span></a>              rejilla_media_quark                 (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIA_ERROR">
+<a name="REJILLA-MEDIA-ERROR:CAPS"></a><h3>REJILLA_MEDIA_ERROR</h3>
+<pre class="programlisting">#define REJILLA_MEDIA_ERROR rejilla_media_quark()
+</pre>
+<p>
+The GQuark used for RejillaMediaError
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum RejillaMediaError">
+<a name="RejillaMediaError"></a><h3>enum RejillaMediaError</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_MEDIA_ERROR_NONE,
+	REJILLA_MEDIA_ERROR_GENERAL,
+	REJILLA_MEDIA_ERROR_IMAGE_INVALID,
+} RejillaMediaError;
+</pre>
+<p>
+Error codes returned by librejilla-media
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum RejillaMedia">
+<a name="RejillaMedia"></a><h3>enum RejillaMedia</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_MEDIUM_UNSUPPORTED		= -2,
+	REJILLA_MEDIUM_BUSY			= -1,
+	REJILLA_MEDIUM_NONE			= 0,
+
+	/* types */
+	REJILLA_MEDIUM_FILE			= 1,
+
+	REJILLA_MEDIUM_CD			= 1 &lt;&lt; 1,
+
+	REJILLA_MEDIUM_DVD			= 1 &lt;&lt; 2,
+
+	REJILLA_MEDIUM_BD			= 1 &lt;&lt; 3,
+
+	/* subtype for DVD and BD types */
+	REJILLA_MEDIUM_DUAL_L			= 1 &lt;&lt; 4,
+
+	/* DVD and DVD DL subtypes */
+	REJILLA_MEDIUM_RAM			= 1 &lt;&lt; 5,
+	REJILLA_MEDIUM_PLUS			= 1 &lt;&lt; 6,
+	REJILLA_MEDIUM_SEQUENTIAL		= 1 &lt;&lt; 7,
+	REJILLA_MEDIUM_RESTRICTED		= 1 &lt;&lt; 8, /* DVD-RW only */
+
+	/* DVD-R dual layer only subtype */
+	REJILLA_MEDIUM_JUMP			= 1 &lt;&lt; 9,
+
+	/* BD subtypes */
+	REJILLA_MEDIUM_RANDOM			= 1 &lt;&lt; 10,
+	REJILLA_MEDIUM_SRM			= 1 &lt;&lt; 11,
+	REJILLA_MEDIUM_POW			= 1 &lt;&lt; 12, /* This is Pseudo OverWrite */
+
+	/* discs attributes */
+	REJILLA_MEDIUM_REWRITABLE		= 1 &lt;&lt; 14,
+	REJILLA_MEDIUM_WRITABLE			= 1 &lt;&lt; 15,
+	REJILLA_MEDIUM_ROM			= 1 &lt;&lt; 16,
+
+	/* status of the disc */
+	REJILLA_MEDIUM_BLANK			= 1 &lt;&lt; 17,
+	REJILLA_MEDIUM_CLOSED			= 1 &lt;&lt; 18,
+	REJILLA_MEDIUM_APPENDABLE		= 1 &lt;&lt; 19,
+
+	/* Only used for DVD+RW, DVD-RW restricted */
+	REJILLA_MEDIUM_UNFORMATTED		= 1 &lt;&lt; 20,
+
+	REJILLA_MEDIUM_PROTECTED		= 1 &lt;&lt; 21,
+	REJILLA_MEDIUM_HAS_DATA			= 1 &lt;&lt; 22,
+	REJILLA_MEDIUM_HAS_AUDIO		= 1 &lt;&lt; 23,
+} RejillaMedia;
+</pre>
+<p>
+This enum allows to define all characteristics for a media (closed, writable, ...)
+and identify all types of optical media.
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_CDROM">
+<a name="REJILLA-MEDIUM-CDROM:CAPS"></a><h3>REJILLA_MEDIUM_CDROM</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_CDROM</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_CDR">
+<a name="REJILLA-MEDIUM-CDR:CAPS"></a><h3>REJILLA_MEDIUM_CDR</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_CDR</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_CDRW">
+<a name="REJILLA-MEDIUM-CDRW:CAPS"></a><h3>REJILLA_MEDIUM_CDRW</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_CDRW</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_DVD_ROM">
+<a name="REJILLA-MEDIUM-DVD-ROM:CAPS"></a><h3>REJILLA_MEDIUM_DVD_ROM</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_DVD_ROM</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_DVDR">
+<a name="REJILLA-MEDIUM-DVDR:CAPS"></a><h3>REJILLA_MEDIUM_DVDR</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_DVDR</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_DVDRW">
+<a name="REJILLA-MEDIUM-DVDRW:CAPS"></a><h3>REJILLA_MEDIUM_DVDRW</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_DVDRW</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_DVDRW_RESTRICTED">
+<a name="REJILLA-MEDIUM-DVDRW-RESTRICTED:CAPS"></a><h3>REJILLA_MEDIUM_DVDRW_RESTRICTED</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_DVDRW_RESTRICTED</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_DVDR_DL">
+<a name="REJILLA-MEDIUM-DVDR-DL:CAPS"></a><h3>REJILLA_MEDIUM_DVDR_DL</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_DVDR_DL</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_DVDR_JUMP_DL">
+<a name="REJILLA-MEDIUM-DVDR-JUMP-DL:CAPS"></a><h3>REJILLA_MEDIUM_DVDR_JUMP_DL</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_DVDR_JUMP_DL</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_DVDR_PLUS">
+<a name="REJILLA-MEDIUM-DVDR-PLUS:CAPS"></a><h3>REJILLA_MEDIUM_DVDR_PLUS</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_DVDR_PLUS</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_DVDRW_PLUS">
+<a name="REJILLA-MEDIUM-DVDRW-PLUS:CAPS"></a><h3>REJILLA_MEDIUM_DVDRW_PLUS</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_DVDRW_PLUS</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_DVDR_PLUS_DL">
+<a name="REJILLA-MEDIUM-DVDR-PLUS-DL:CAPS"></a><h3>REJILLA_MEDIUM_DVDR_PLUS_DL</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_DVDR_PLUS_DL</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_DVDRW_PLUS_DL">
+<a name="REJILLA-MEDIUM-DVDRW-PLUS-DL:CAPS"></a><h3>REJILLA_MEDIUM_DVDRW_PLUS_DL</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_DVDRW_PLUS_DL</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_DVD_RAM">
+<a name="REJILLA-MEDIUM-DVD-RAM:CAPS"></a><h3>REJILLA_MEDIUM_DVD_RAM</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_DVD_RAM</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_BD_ROM">
+<a name="REJILLA-MEDIUM-BD-ROM:CAPS"></a><h3>REJILLA_MEDIUM_BD_ROM</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_BD_ROM</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_BDR_SRM">
+<a name="REJILLA-MEDIUM-BDR-SRM:CAPS"></a><h3>REJILLA_MEDIUM_BDR_SRM</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_BDR_SRM</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_BDR_SRM_POW">
+<a name="REJILLA-MEDIUM-BDR-SRM-POW:CAPS"></a><h3>REJILLA_MEDIUM_BDR_SRM_POW</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_BDR_SRM_POW</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_BDR_RANDOM">
+<a name="REJILLA-MEDIUM-BDR-RANDOM:CAPS"></a><h3>REJILLA_MEDIUM_BDR_RANDOM</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_BDR_RANDOM</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_BDRE">
+<a name="REJILLA-MEDIUM-BDRE:CAPS"></a><h3>REJILLA_MEDIUM_BDRE</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_BDRE</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_VALID()">
+<a name="REJILLA-MEDIUM-VALID:CAPS"></a><h3>REJILLA_MEDIUM_VALID()</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_VALID(media)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>media</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_TYPE()">
+<a name="REJILLA-MEDIUM-TYPE:CAPS"></a><h3>REJILLA_MEDIUM_TYPE()</h3>
+<pre class="programlisting">#define REJILLA_MEDIUM_TYPE(media) ((media) &amp; 0x003F)
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>media</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_ATTR()">
+<a name="REJILLA-MEDIUM-ATTR:CAPS"></a><h3>REJILLA_MEDIUM_ATTR()</h3>
+<pre class="programlisting">#define REJILLA_MEDIUM_ATTR(media) ((media) &amp; 0x1C000)
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>media</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_STATUS()">
+<a name="REJILLA-MEDIUM-STATUS:CAPS"></a><h3>REJILLA_MEDIUM_STATUS()</h3>
+<pre class="programlisting">#define REJILLA_MEDIUM_STATUS(media) ((media) &amp; 0xE0000)
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>media</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_SUBTYPE()">
+<a name="REJILLA-MEDIUM-SUBTYPE:CAPS"></a><h3>REJILLA_MEDIUM_SUBTYPE()</h3>
+<pre class="programlisting">#define REJILLA_MEDIUM_SUBTYPE(media) ((media) &amp; 0x1FC0)
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>media</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_INFO()">
+<a name="REJILLA-MEDIUM-INFO:CAPS"></a><h3>REJILLA_MEDIUM_INFO()</h3>
+<pre class="programlisting">#define REJILLA_MEDIUM_INFO(media) ((media) &amp; 0xFE0000)
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>media</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_IS()">
+<a name="REJILLA-MEDIUM-IS:CAPS"></a><h3>REJILLA_MEDIUM_IS()</h3>
+<pre class="programlisting">#define REJILLA_MEDIUM_IS(media, type) (((media)&amp;(type))==(type))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>media</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MEDIUM_RANDOM_WRITABLE()">
+<a name="REJILLA-MEDIUM-RANDOM-WRITABLE:CAPS"></a><h3>REJILLA_MEDIUM_RANDOM_WRITABLE()</h3>
+<pre class="programlisting">#define             REJILLA_MEDIUM_RANDOM_WRITABLE(media)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>media</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

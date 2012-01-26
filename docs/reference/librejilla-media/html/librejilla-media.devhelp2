@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "">
+<book xmlns="http://www.devhelp.net/book" title="Librejilla-media Reference Manual" link="index.html" author="" name="librejilla-media" version="2" language="c">
+  <chapters>
+    <sub name="API Reference for Librejilla-media" link="ch01.html">
+      <sub name="rejilla-media" link="librejilla-media-rejilla-media.html"/>
+      <sub name="rejilla-units" link="librejilla-media-rejilla-units.html"/>
+      <sub name="RejillaMediumMonitor" link="librejilla-media-RejillaMediumMonitor.html"/>
+      <sub name="RejillaDrive" link="librejilla-media-rejilla-drive.html"/>
+      <sub name="RejillaMedium" link="librejilla-media-RejillaMedium.html"/>
+      <sub name="RejillaVolume" link="librejilla-media-RejillaVolume.html"/>
+      <sub name="RejillaMediumSelection" link="librejilla-media-RejillaMediumSelection.html"/>
+      <sub name="RejillaDriveSelection" link="librejilla-media-RejillaDriveSelection.html"/>
+    </sub>
+    <sub name="Object Hierarchy" link="object-tree.html"/>
+    <sub name="API Index" link="api-index-full.html"/>
+    <sub name="Annotation Glossary" link="annotation-glossary.html"/>
+  </chapters>
+  <functions>
+    <keyword type="macro" name="LIBREJILLA_MEDIA_VERSION_MAJOR" link="librejilla-media-rejilla-media.html#LIBREJILLA-MEDIA-VERSION-MAJOR:CAPS"/>
+    <keyword type="macro" name="LIBREJILLA_MEDIA_VERSION_MINOR" link="librejilla-media-rejilla-media.html#LIBREJILLA-MEDIA-VERSION-MINOR:CAPS"/>
+    <keyword type="macro" name="LIBREJILLA_MEDIA_VERSION_MICRO" link="librejilla-media-rejilla-media.html#LIBREJILLA-MEDIA-VERSION-MICRO:CAPS"/>
+    <keyword type="macro" name="LIBREJILLA_MEDIA_AGE" link="librejilla-media-rejilla-media.html#LIBREJILLA-MEDIA-AGE:CAPS"/>
+    <keyword type="macro" name="LIBREJILLA_MEDIA_INSTALL" link="librejilla-media-rejilla-media.html#LIBREJILLA-MEDIA-INSTALL:CAPS"/>
+    <keyword type="function" name="rejilla_media_library_start ()" link="librejilla-media-rejilla-media.html#rejilla-media-library-start"/>
+    <keyword type="function" name="rejilla_media_library_stop ()" link="librejilla-media-rejilla-media.html#rejilla-media-library-stop"/>
+    <keyword type="function" name="rejilla_media_get_option_group ()" link="librejilla-media-rejilla-media.html#rejilla-media-get-option-group"/>
+    <keyword type="function" name="rejilla_media_quark ()" link="librejilla-media-rejilla-media.html#rejilla-media-quark"/>
+    <keyword type="macro" name="REJILLA_MEDIA_ERROR" link="librejilla-media-rejilla-media.html#REJILLA-MEDIA-ERROR:CAPS"/>
+    <keyword type="enum" name="enum RejillaMediaError" link="librejilla-media-rejilla-media.html#RejillaMediaError"/>
+    <keyword type="enum" name="enum RejillaMedia" link="librejilla-media-rejilla-media.html#RejillaMedia"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_CDROM" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-CDROM:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_CDR" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-CDR:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_CDRW" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-CDRW:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_DVD_ROM" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVD-ROM:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_DVDR" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDR:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_DVDRW" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDRW:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_DVDRW_RESTRICTED" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDRW-RESTRICTED:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_DVDR_DL" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDR-DL:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_DVDR_JUMP_DL" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDR-JUMP-DL:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_DVDR_PLUS" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDR-PLUS:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_DVDRW_PLUS" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDRW-PLUS:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_DVDR_PLUS_DL" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDR-PLUS-DL:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_DVDRW_PLUS_DL" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVDRW-PLUS-DL:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_DVD_RAM" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-DVD-RAM:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_BD_ROM" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-BD-ROM:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_BDR_SRM" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-BDR-SRM:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_BDR_SRM_POW" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-BDR-SRM-POW:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_BDR_RANDOM" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-BDR-RANDOM:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_BDRE" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-BDRE:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_VALID()" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-VALID:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_TYPE()" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-TYPE:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_ATTR()" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-ATTR:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_STATUS()" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-STATUS:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_SUBTYPE()" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-SUBTYPE:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_INFO()" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-INFO:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_IS()" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-IS:CAPS"/>
+    <keyword type="macro" name="REJILLA_MEDIUM_RANDOM_WRITABLE()" link="librejilla-media-rejilla-media.html#REJILLA-MEDIUM-RANDOM-WRITABLE:CAPS"/>
+    <keyword type="macro" name="CD_RATE" link="librejilla-media-rejilla-units.html#CD-RATE:CAPS"/>
+    <keyword type="macro" name="DVD_RATE" link="librejilla-media-rejilla-units.html#DVD-RATE:CAPS"/>
+    <keyword type="macro" name="BD_RATE" link="librejilla-media-rejilla-units.html#BD-RATE:CAPS"/>
+    <keyword type="macro" name="REJILLA_SPEED_TO_RATE_CD()" link="librejilla-media-rejilla-units.html#REJILLA-SPEED-TO-RATE-CD:CAPS"/>
+    <keyword type="macro" name="REJILLA_SPEED_TO_RATE_DVD()" link="librejilla-media-rejilla-units.html#REJILLA-SPEED-TO-RATE-DVD:CAPS"/>
+    <keyword type="macro" name="REJILLA_SPEED_TO_RATE_BD()" link="librejilla-media-rejilla-units.html#REJILLA-SPEED-TO-RATE-BD:CAPS"/>
+    <keyword type="macro" name="REJILLA_RATE_TO_SPEED_CD()" link="librejilla-media-rejilla-units.html#REJILLA-RATE-TO-SPEED-CD:CAPS"/>
+    <keyword type="macro" name="REJILLA_RATE_TO_SPEED_DVD()" link="librejilla-media-rejilla-units.html#REJILLA-RATE-TO-SPEED-DVD:CAPS"/>
+    <keyword type="macro" name="REJILLA_RATE_TO_SPEED_BD()" link="librejilla-media-rejilla-units.html#REJILLA-RATE-TO-SPEED-BD:CAPS"/>
+    <keyword type="macro" name="REJILLA_DURATION_TO_BYTES()" link="librejilla-media-rejilla-units.html#REJILLA-DURATION-TO-BYTES:CAPS"/>
+    <keyword type="macro" name="REJILLA_DURATION_TO_SECTORS()" link="librejilla-media-rejilla-units.html#REJILLA-DURATION-TO-SECTORS:CAPS"/>
+    <keyword type="macro" name="REJILLA_BYTES_TO_SECTORS()" link="librejilla-media-rejilla-units.html#REJILLA-BYTES-TO-SECTORS:CAPS"/>
+    <keyword type="macro" name="REJILLA_BYTES_TO_DURATION()" link="librejilla-media-rejilla-units.html#REJILLA-BYTES-TO-DURATION:CAPS"/>
+    <keyword type="function" name="rejilla_units_get_time_string ()" link="librejilla-media-rejilla-units.html#rejilla-units-get-time-string"/>
+    <keyword type="function" name="rejilla_units_get_time_string_from_size ()" link="librejilla-media-rejilla-units.html#rejilla-units-get-time-string-from-size"/>
+    <keyword type="struct" name="RejillaMediumMonitor" link="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor"/>
+    <keyword type="function" name="rejilla_medium_monitor_get_default ()" link="librejilla-media-RejillaMediumMonitor.html#rejilla-medium-monitor-get-default"/>
+    <keyword type="enum" name="enum RejillaMediaType" link="librejilla-media-RejillaMediumMonitor.html#RejillaMediaType"/>
+    <keyword type="enum" name="enum RejillaDriveType" link="librejilla-media-RejillaMediumMonitor.html#RejillaDriveType"/>
+    <keyword type="function" name="rejilla_medium_monitor_get_media ()" link="librejilla-media-RejillaMediumMonitor.html#rejilla-medium-monitor-get-media"/>
+    <keyword type="function" name="rejilla_medium_monitor_get_drives ()" link="librejilla-media-RejillaMediumMonitor.html#rejilla-medium-monitor-get-drives"/>
+    <keyword type="function" name="rejilla_medium_monitor_get_drive ()" link="librejilla-media-RejillaMediumMonitor.html#rejilla-medium-monitor-get-drive"/>
+    <keyword type="function" name="rejilla_medium_monitor_is_probing ()" link="librejilla-media-RejillaMediumMonitor.html#rejilla-medium-monitor-is-probing"/>
+    <keyword type="enum" name="enum RejillaDriveCaps" link="librejilla-media-rejilla-drive.html#RejillaDriveCaps"/>
+    <keyword type="struct" name="RejillaDrive" link="librejilla-media-rejilla-drive.html#RejillaDrive"/>
+    <keyword type="function" name="rejilla_drive_reprobe ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-reprobe"/>
+    <keyword type="function" name="rejilla_drive_get_medium ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-get-medium"/>
+    <keyword type="function" name="rejilla_drive_get_gdrive ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-get-gdrive"/>
+    <keyword type="function" name="rejilla_drive_get_udi ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-get-udi"/>
+    <keyword type="function" name="rejilla_drive_is_fake ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-is-fake"/>
+    <keyword type="function" name="rejilla_drive_get_display_name ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-get-display-name"/>
+    <keyword type="function" name="rejilla_drive_get_device ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-get-device"/>
+    <keyword type="function" name="rejilla_drive_get_block_device ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-get-block-device"/>
+    <keyword type="function" name="rejilla_drive_get_bus_target_lun_string ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-get-bus-target-lun-string"/>
+    <keyword type="function" name="rejilla_drive_get_caps ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-get-caps"/>
+    <keyword type="function" name="rejilla_drive_can_write ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-can-write"/>
+    <keyword type="function" name="rejilla_drive_can_eject ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-can-eject"/>
+    <keyword type="function" name="rejilla_drive_eject ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-eject"/>
+    <keyword type="function" name="rejilla_drive_cancel_current_operation ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-cancel-current-operation"/>
+    <keyword type="function" name="rejilla_drive_is_door_open ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-is-door-open"/>
+    <keyword type="function" name="rejilla_drive_can_use_exclusively ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-can-use-exclusively"/>
+    <keyword type="function" name="rejilla_drive_lock ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-lock"/>
+    <keyword type="function" name="rejilla_drive_unlock ()" link="librejilla-media-rejilla-drive.html#rejilla-drive-unlock"/>
+    <keyword type="struct" name="RejillaMedium" link="librejilla-media-RejillaMedium.html#RejillaMedium"/>
+    <keyword type="function" name="rejilla_medium_get_status ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-status"/>
+    <keyword type="function" name="rejilla_medium_get_max_write_speed ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-max-write-speed"/>
+    <keyword type="function" name="rejilla_medium_get_write_speeds ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-write-speeds"/>
+    <keyword type="function" name="rejilla_medium_get_free_space ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-free-space"/>
+    <keyword type="function" name="rejilla_medium_get_capacity ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-capacity"/>
+    <keyword type="function" name="rejilla_medium_get_data_size ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-data-size"/>
+    <keyword type="function" name="rejilla_medium_get_next_writable_address ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-next-writable-address"/>
+    <keyword type="function" name="rejilla_medium_can_be_rewritten ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-can-be-rewritten"/>
+    <keyword type="function" name="rejilla_medium_can_be_written ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-can-be-written"/>
+    <keyword type="function" name="rejilla_medium_get_CD_TEXT_title ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-CD-TEXT-title"/>
+    <keyword type="function" name="rejilla_medium_get_type_string ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-type-string"/>
+    <keyword type="function" name="rejilla_medium_get_tooltip ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-tooltip"/>
+    <keyword type="function" name="rejilla_medium_get_drive ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-drive"/>
+    <keyword type="function" name="rejilla_medium_get_track_num ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-track-num"/>
+    <keyword type="function" name="rejilla_medium_get_last_data_track_space ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-last-data-track-space"/>
+    <keyword type="function" name="rejilla_medium_get_last_data_track_address ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-last-data-track-address"/>
+    <keyword type="function" name="rejilla_medium_get_track_space ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-track-space"/>
+    <keyword type="function" name="rejilla_medium_get_track_address ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-get-track-address"/>
+    <keyword type="function" name="rejilla_medium_can_use_dummy_for_sao ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-can-use-dummy-for-sao"/>
+    <keyword type="function" name="rejilla_medium_can_use_dummy_for_tao ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-can-use-dummy-for-tao"/>
+    <keyword type="function" name="rejilla_medium_can_use_burnfree ()" link="librejilla-media-RejillaMedium.html#rejilla-medium-can-use-burnfree"/>
+    <keyword type="struct" name="RejillaVolume" link="librejilla-media-RejillaVolume.html#RejillaVolume"/>
+    <keyword type="function" name="rejilla_volume_get_name ()" link="librejilla-media-RejillaVolume.html#rejilla-volume-get-name"/>
+    <keyword type="function" name="rejilla_volume_get_icon ()" link="librejilla-media-RejillaVolume.html#rejilla-volume-get-icon"/>
+    <keyword type="function" name="rejilla_volume_get_gvolume ()" link="librejilla-media-RejillaVolume.html#rejilla-volume-get-gvolume"/>
+    <keyword type="function" name="rejilla_volume_is_mounted ()" link="librejilla-media-RejillaVolume.html#rejilla-volume-is-mounted"/>
+    <keyword type="function" name="rejilla_volume_get_mount_point ()" link="librejilla-media-RejillaVolume.html#rejilla-volume-get-mount-point"/>
+    <keyword type="function" name="rejilla_volume_umount ()" link="librejilla-media-RejillaVolume.html#rejilla-volume-umount"/>
+    <keyword type="function" name="rejilla_volume_mount ()" link="librejilla-media-RejillaVolume.html#rejilla-volume-mount"/>
+    <keyword type="function" name="rejilla_volume_cancel_current_operation ()" link="librejilla-media-RejillaVolume.html#rejilla-volume-cancel-current-operation"/>
+    <keyword type="struct" name="RejillaMediumSelection" link="librejilla-media-RejillaMediumSelection.html#RejillaMediumSelection"/>
+    <keyword type="function" name="rejilla_medium_selection_new ()" link="librejilla-media-RejillaMediumSelection.html#rejilla-medium-selection-new"/>
+    <keyword type="function" name="rejilla_medium_selection_get_active ()" link="librejilla-media-RejillaMediumSelection.html#rejilla-medium-selection-get-active"/>
+    <keyword type="function" name="rejilla_medium_selection_set_active ()" link="librejilla-media-RejillaMediumSelection.html#rejilla-medium-selection-set-active"/>
+    <keyword type="function" name="rejilla_medium_selection_show_media_type ()" link="librejilla-media-RejillaMediumSelection.html#rejilla-medium-selection-show-media-type"/>
+    <keyword type="struct" name="RejillaDriveSelection" link="librejilla-media-RejillaDriveSelection.html#RejillaDriveSelection"/>
+    <keyword type="function" name="rejilla_drive_selection_new ()" link="librejilla-media-RejillaDriveSelection.html#rejilla-drive-selection-new"/>
+    <keyword type="function" name="rejilla_drive_selection_get_active ()" link="librejilla-media-RejillaDriveSelection.html#rejilla-drive-selection-get-active"/>
+    <keyword type="function" name="rejilla_drive_selection_set_active ()" link="librejilla-media-RejillaDriveSelection.html#rejilla-drive-selection-set-active"/>
+    <keyword type="function" name="rejilla_drive_selection_show_type ()" link="librejilla-media-RejillaDriveSelection.html#rejilla-drive-selection-show-type"/>
+  </functions>
+</book>

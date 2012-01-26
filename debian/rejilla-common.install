@@ -1,0 +1,8 @@
+debian/tmp/usr/share/icons
+debian/tmp/usr/share/mate
+debian/tmp/usr/share/locale
+debian/tmp/usr/share/mime
+debian/tmp/usr/share/rejilla
+debian/tmp/usr/share/omf
+debian/tmp/usr/share/MateConf
+debian/tmp/usr/share/glib-2.0/schemas

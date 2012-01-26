@@ -1,0 +1,420 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaTrackData</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-burn Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-burn">
+<link rel="prev" href="librejilla-burn-RejillaTrackDisc.html" title="RejillaTrackDisc">
+<link rel="next" href="librejilla-burn-rejilla-track-data-cfg.html" title="RejillaTrackDataCfg">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-burn-RejillaTrackDisc.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-burn Reference Manual</th>
+<td><a accesskey="n" href="librejilla-burn-rejilla-track-data-cfg.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-burn-rejilla-track-data.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-burn-rejilla-track-data.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaTrackData">
+<a name="librejilla-burn-rejilla-track-data"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-burn-rejilla-track-data.top_of_page"></a>RejillaTrackData</span></h2>
+<p>RejillaTrackData</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-burn-rejilla-track-data.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaGraftPt" title="RejillaGraftPt">RejillaGraftPt</a>;
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-data.html#rejilla-graft-point-free" title="rejilla_graft_point_free ()">rejilla_graft_point_free</a>            (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaGraftPt" title="RejillaGraftPt"><span class="type">RejillaGraftPt</span></a> *graft</code></em>);
+<a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaGraftPt" title="RejillaGraftPt"><span class="returnvalue">RejillaGraftPt</span></a> *    <a class="link" href="librejilla-burn-rejilla-track-data.html#rejilla-graft-point-copy" title="rejilla_graft_point_copy ()">rejilla_graft_point_copy</a>            (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaGraftPt" title="RejillaGraftPt"><span class="type">RejillaGraftPt</span></a> *graft</code></em>);
+                    <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData">RejillaTrackData</a>;
+<a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="returnvalue">RejillaTrackData</span></a> *  <a class="link" href="librejilla-burn-rejilla-track-data.html#rejilla-track-data-new" title="rejilla_track_data_new ()">rejilla_track_data_new</a>              (<em class="parameter"><code><span class="type">void</span></code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-rejilla-track-data.html#rejilla-track-data-set-source" title="rejilla_track_data_set_source ()">rejilla_track_data_set_source</a>       (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> *grafts</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> *unreadable</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-rejilla-track-data.html#rejilla-track-data-add-fs" title="rejilla_track_data_add_fs ()">rejilla_track_data_add_fs</a>           (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="type">RejillaImageFS</span></a> fstype</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-rejilla-track-data.html#rejilla-track-data-rm-fs" title="rejilla_track_data_rm_fs ()">rejilla_track_data_rm_fs</a>            (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="type">RejillaImageFS</span></a> fstype</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-rejilla-track-data.html#rejilla-track-data-set-data-blocks" title="rejilla_track_data_set_data_blocks ()">rejilla_track_data_set_data_blocks</a>  (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> blocks</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-rejilla-track-data.html#rejilla-track-data-set-file-num" title="rejilla_track_data_set_file_num ()">rejilla_track_data_set_file_num</a>     (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> number</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *            <a class="link" href="librejilla-burn-rejilla-track-data.html#rejilla-track-data-get-grafts" title="rejilla_track_data_get_grafts ()">rejilla_track_data_get_grafts</a>       (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-rejilla-track-data.html#rejilla-track-data-get-file-num" title="rejilla_track_data_get_file_num ()">rejilla_track_data_get_file_num</a>     (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> *file_num</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="returnvalue">RejillaImageFS</span></a>      <a class="link" href="librejilla-burn-rejilla-track-data.html#rejilla-track-data-get-fs" title="rejilla_track_data_get_fs ()">rejilla_track_data_get_fs</a>           (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-burn-rejilla-track-data.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-burn-rejilla-track-data.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaGraftPt">
+<a name="RejillaGraftPt"></a><h3>RejillaGraftPt</h3>
+<pre class="programlisting">typedef struct {
+	gchar *uri;
+	gchar *path;
+} RejillaGraftPt;
+</pre>
+<p>
+A pair of strings describing:
+<em class="parameter"><code>uri</code></em> the actual current location of the file
+<em class="parameter"><code>path</code></em> the path of the file on the future ISO9660/UDF/... filesystem
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *<em class="structfield"><code><a name="RejillaGraftPt.uri"></a>uri</code></em>;</span></p></td>
+<td>a URI
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *<em class="structfield"><code><a name="RejillaGraftPt.path"></a>path</code></em>;</span></p></td>
+<td>a file path
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_graft_point_free ()">
+<a name="rejilla-graft-point-free"></a><h3>rejilla_graft_point_free ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_graft_point_free            (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaGraftPt" title="RejillaGraftPt"><span class="type">RejillaGraftPt</span></a> *graft</code></em>);</pre>
+<p>
+Frees <em class="parameter"><code>graft</code></em>. Do not use <em class="parameter"><code>grafts</code></em> afterwards.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>graft</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaGraftPt" title="RejillaGraftPt"><span class="type">RejillaGraftPt</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_graft_point_copy ()">
+<a name="rejilla-graft-point-copy"></a><h3>rejilla_graft_point_copy ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaGraftPt" title="RejillaGraftPt"><span class="returnvalue">RejillaGraftPt</span></a> *    rejilla_graft_point_copy            (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaGraftPt" title="RejillaGraftPt"><span class="type">RejillaGraftPt</span></a> *graft</code></em>);</pre>
+<p>
+Copies <em class="parameter"><code>graft</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>graft</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaGraftPt" title="RejillaGraftPt"><span class="type">RejillaGraftPt</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaGraftPt" title="RejillaGraftPt"><span class="type">RejillaGraftPt</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="RejillaTrackData">
+<a name="RejillaTrackData"></a><h3>RejillaTrackData</h3>
+<pre class="programlisting">typedef struct {
+	RejillaTrack parent_instance;
+} RejillaTrackData;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_new ()">
+<a name="rejilla-track-data-new"></a><h3>rejilla_track_data_new ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="returnvalue">RejillaTrackData</span></a> *  rejilla_track_data_new              (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Creates a new <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a>.
+</p>
+<p>
+This type of tracks is used to create a disc image
+from or burn a selection of files.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_set_source ()">
+<a name="rejilla-track-data-set-source"></a><h3>rejilla_track_data_set_source ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_data_set_source       (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> *grafts</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> *unreadable</code></em>);</pre>
+<p>
+Sets the lists of grafts points (<em class="parameter"><code>grafts</code></em>) and excluded
+URIs (<em class="parameter"><code>unreadable</code></em>) to be used to create an image.
+</p>
+<p>
+Be careful <em class="parameter"><code>track</code></em> takes ownership of <em class="parameter"><code>grafts</code></em> and
+<em class="parameter"><code>unreadable</code></em> which must not be freed afterwards.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>grafts</code></em> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> of <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaGraftPt" title="RejillaGraftPt"><span class="type">RejillaGraftPt</span></a>. <span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> RejillaBurn.GraftPt][<acronym title="Parameter for input. Default is transfer none."><span class="acronym">in</span></acronym> RejillaBurn.GraftPt][<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym> RejillaBurn.GraftPt]</span>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>unreadable</code></em> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> of URIS as strings or <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>. <span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> utf8][<acronym title="NULL is ok, both for passing and for returning."><span class="acronym">allow-none</span></acronym> utf8][<acronym title="Parameter for input. Default is transfer none."><span class="acronym">in</span></acronym> utf8][<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym> utf8]</span>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>.
+REJILLA_BURN_OK if it was successful,
+REJILLA_BURN_ERR otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_add_fs ()">
+<a name="rejilla-track-data-add-fs"></a><h3>rejilla_track_data_add_fs ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_data_add_fs           (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="type">RejillaImageFS</span></a> fstype</code></em>);</pre>
+<p>
+Adds one or more parameters determining the file system type
+and various other options to create an image.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>fstype</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="type">RejillaImageFS</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>.
+REJILLA_BURN_OK if it was successful,
+REJILLA_BURN_ERR otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_rm_fs ()">
+<a name="rejilla-track-data-rm-fs"></a><h3>rejilla_track_data_rm_fs ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_data_rm_fs            (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="type">RejillaImageFS</span></a> fstype</code></em>);</pre>
+<p>
+Removes one or more parameters determining the file system type
+and various other options to create an image.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>fstype</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="type">RejillaImageFS</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>.
+REJILLA_BURN_OK if it was successful,
+REJILLA_BURN_ERR otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_set_data_blocks ()">
+<a name="rejilla-track-data-set-data-blocks"></a><h3>rejilla_track_data_set_data_blocks ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_data_set_data_blocks  (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> blocks</code></em>);</pre>
+<p>
+Sets the size of the image to be created (in sectors of 2048 bytes).
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>blocks</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>.
+REJILLA_BURN_OK if it was successful,
+REJILLA_BURN_ERR otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_set_file_num ()">
+<a name="rejilla-track-data-set-file-num"></a><h3>rejilla_track_data_set_file_num ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_data_set_file_num     (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> number</code></em>);</pre>
+<p>
+Sets the number of files (not directories) in <em class="parameter"><code>track</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>number</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>.
+REJILLA_BURN_OK if it was successful,
+REJILLA_BURN_ERR otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_get_grafts ()">
+<a name="rejilla-track-data-get-grafts"></a><h3>rejilla_track_data_get_grafts ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *            rejilla_track_data_get_grafts       (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>);</pre>
+<p>
+Returns a list of <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaGraftPt" title="RejillaGraftPt"><span class="type">RejillaGraftPt</span></a>.
+</p>
+<p>
+Do not free after usage as <em class="parameter"><code>track</code></em> retains ownership.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> of <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaGraftPt" title="RejillaGraftPt"><span class="type">RejillaGraftPt</span></a> or <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if empty. <span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>][<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> RejillaBurn.GraftPt][<acronym title="NULL is ok, both for passing and for returning."><span class="acronym">allow-none</span></acronym> RejillaBurn.GraftPt]</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_get_file_num ()">
+<a name="rejilla-track-data-get-file-num"></a><h3>rejilla_track_data_get_file_num ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_data_get_file_num     (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> *file_num</code></em>);</pre>
+<p>
+Sets the number of files (not directories) in <em class="parameter"><code>file_num</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>file_num</code></em> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> or <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>. <span class="annotation">[<acronym title="NULL is ok, both for passing and for returning."><span class="acronym">allow-none</span></acronym>][<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>]</span>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if <em class="parameter"><code>file_num</code></em>
+was set, <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_data_get_fs ()">
+<a name="rejilla-track-data-get-fs"></a><h3>rejilla_track_data_get_fs ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="returnvalue">RejillaImageFS</span></a>      rejilla_track_data_get_fs           (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> *track</code></em>);</pre>
+<p>
+Returns the parameters determining the file system type
+and various other options to create an image.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="type">RejillaImageFS</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

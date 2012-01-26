@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaBurnOptions</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-burn Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-burn">
+<link rel="prev" href="librejilla-burn-RejillaSessionCfg.html" title="RejillaSessionCfg">
+<link rel="next" href="librejilla-burn-RejillaBurn.html" title="RejillaBurn">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-burn-RejillaSessionCfg.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-burn Reference Manual</th>
+<td><a accesskey="n" href="librejilla-burn-RejillaBurn.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-burn-RejillaBurnOptions.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-burn-RejillaBurnOptions.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaBurnOptions">
+<a name="librejilla-burn-RejillaBurnOptions"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-burn-RejillaBurnOptions.top_of_page"></a>RejillaBurnOptions</span></h2>
+<p>RejillaBurnOptions</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-burn-RejillaBurnOptions.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-burn-RejillaBurnOptions.html#RejillaBurnOptions" title="RejillaBurnOptions">RejillaBurnOptions</a>;
+<a href="http://library.mate.org/devel/gtk/unstable/GtkWidget.html"><span class="returnvalue">GtkWidget</span></a> *         <a class="link" href="librejilla-burn-RejillaBurnOptions.html#rejilla-burn-options-new" title="rejilla_burn_options_new ()">rejilla_burn_options_new</a>            (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaSessionCfg.html#RejillaSessionCfg" title="RejillaSessionCfg"><span class="type">RejillaSessionCfg</span></a> *session</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-RejillaBurnOptions.html#rejilla-burn-options-add-options" title="rejilla_burn_options_add_options ()">rejilla_burn_options_add_options</a>    (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnOptions.html#RejillaBurnOptions" title="RejillaBurnOptions"><span class="type">RejillaBurnOptions</span></a> *dialog</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkWidget.html"><span class="type">GtkWidget</span></a> *options</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-burn-RejillaBurnOptions.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-burn-RejillaBurnOptions.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaBurnOptions">
+<a name="RejillaBurnOptions"></a><h3>RejillaBurnOptions</h3>
+<pre class="programlisting">typedef struct {
+	GtkDialog parent_instance;
+} RejillaBurnOptions;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_burn_options_new ()">
+<a name="rejilla-burn-options-new"></a><h3>rejilla_burn_options_new ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/gtk/unstable/GtkWidget.html"><span class="returnvalue">GtkWidget</span></a> *         rejilla_burn_options_new            (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaSessionCfg.html#RejillaSessionCfg" title="RejillaSessionCfg"><span class="type">RejillaSessionCfg</span></a> *session</code></em>);</pre>
+<p>
+Creates a new <a class="link" href="librejilla-burn-RejillaBurnOptions.html#RejillaBurnOptions" title="RejillaBurnOptions"><span class="type">RejillaBurnOptions</span></a> object.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>session</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaSessionCfg.html#RejillaSessionCfg" title="RejillaSessionCfg"><span class="type">RejillaSessionCfg</span></a> object
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/gtk/unstable/GtkWidget.html"><span class="type">GtkWidget</span></a> object.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_burn_options_add_options ()">
+<a name="rejilla-burn-options-add-options"></a><h3>rejilla_burn_options_add_options ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_burn_options_add_options    (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnOptions.html#RejillaBurnOptions" title="RejillaBurnOptions"><span class="type">RejillaBurnOptions</span></a> *dialog</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkWidget.html"><span class="type">GtkWidget</span></a> *options</code></em>);</pre>
+<p>
+Adds some new options to be displayed in the dialog.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>dialog</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaBurnOptions.html#RejillaBurnOptions" title="RejillaBurnOptions"><span class="type">RejillaBurnOptions</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>options</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/gtk/unstable/GtkWidget.html"><span class="type">GtkWidget</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

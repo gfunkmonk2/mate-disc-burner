@@ -1,0 +1,4929 @@
+# translation of rejilla.master.po to Hindi
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rajesh Ranjan <rranjan@redhat.com>, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: rejilla.master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=rejilla&component=general\n"
+"POT-Creation-Date: 2009-09-16 20:37+0000\n"
+"PO-Revision-Date: 2009-09-17 15:58+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
+"Language-Team: Hindi <hindi.sf.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
+"\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../librejilla-burn/rejilla-video-options.c:438
+msgid "Video format:"
+msgstr "वीडियो प्रारूप:"
+
+#: ../librejilla-burn/rejilla-video-options.c:449
+msgid "_NTSC"
+msgstr "_NTSC"
+
+#: ../librejilla-burn/rejilla-video-options.c:451
+msgid "Format used mostly on the North American Continent"
+msgstr "प्रारूप अधिकतर उत्तर अमेरिकी महाद्वीप पर प्रयुक्त होता है"
+
+#: ../librejilla-burn/rejilla-video-options.c:464
+msgid "_PAL/SECAM"
+msgstr "_PAL/SECAM"
+
+#: ../librejilla-burn/rejilla-video-options.c:466
+msgid "Format used mostly in Europe"
+msgstr "प्रारूप अधिकतर यूरोप में प्रयुक्त होता है"
+
+#: ../librejilla-burn/rejilla-video-options.c:480
+msgid "Native _format"
+msgstr "देशी प्रारूप (_f)"
+
+#: ../librejilla-burn/rejilla-video-options.c:495
+msgid "Aspect ratio:"
+msgstr "पहलू अनुपात:"
+
+#: ../librejilla-burn/rejilla-video-options.c:507
+msgid "_4:3"
+msgstr "_4:3"
+
+#: ../librejilla-burn/rejilla-video-options.c:522
+msgid "_16:9"
+msgstr "_16:9"
+
+#. Video options for (S)VCD
+#: ../librejilla-burn/rejilla-video-options.c:537
+msgid "VCD type:"
+msgstr "वीसीडी प्रारूप:"
+
+#: ../librejilla-burn/rejilla-video-options.c:550
+msgid "Create a SVCD"
+msgstr "एसवीसीडी बनाएँ"
+
+#: ../librejilla-burn/rejilla-video-options.c:565
+msgid "Create a VCD"
+msgstr "वीसीडी बनाएँ"
+
+#: ../librejilla-burn/burn-debug.c:51
+msgid "Display debug statements on stdout for Rejilla burn library"
+msgstr "ब्रैसेरो बर्न लाइब्रेरी के लिए stdout पर डिबग कथन दिखाएँ"
+
+#: ../librejilla-burn/burn-debug.c:71
+msgid "Rejilla media burning library"
+msgstr "ब्रैसेरो मीडिया बर्निंग लाइब्रेरी"
+
+#: ../librejilla-burn/burn-debug.c:72
+msgid "Display options for Rejilla-burn library"
+msgstr "ब्रैसेरो बर्न लाइब्रेरी के लिए प्रदर्शक विकल्प"
+
+#. Translators: %s is the name of the file that has just been deleted
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:86
+#, c-format
+msgid "\"%s\" was removed from the file system."
+msgstr "\"%s\" को फ़ाइल तंत्र से हटा दिया गया था."
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:125
+#, c-format
+msgid "Directories cannot be added to video or audio discs"
+msgstr "निर्देशिकाओं को विडियो या श्रव्य डिस्क में जोड़ी नहीं जा सकती है"
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:139
+#, c-format
+msgid "Playlists cannot be added to video or audio discs"
+msgstr "गीत-सूची को विडियो या श्रव्य डिस्क में जोड़ी नहीं जा सकती है"
+
+#. Translators: %s is the name of the file
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:154
+#, c-format
+msgid "\"%s\" is not suitable for audio or video media"
+msgstr "\"%s\" श्रव्य या विडियो मीडिया के लिए उपयुक्त नहीं है"
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:343
+msgid "Analysing video files"
+msgstr "वीडियो फ़ाइल विश्लेषित कर रहा है"
+
+#: ../librejilla-burn/rejilla-data-vfs.c:218
+#, c-format
+msgid "\"%s\" cannot be read"
+msgstr "\"%s\" पढ़ा नहीं जा सका"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:57
+msgid "Hidden file"
+msgstr "छुपी फ़ाइल"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:58
+msgid "Unreadable file"
+msgstr "अपठनीय फ़ाइल"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:59
+msgid "Broken symbolic link"
+msgstr "टूटी सांकेतिक कड़ी"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:60
+#: ../librejilla-utils/rejilla-io.c:1146 ../librejilla-utils/rejilla-io.c:2016
+#, c-format
+msgid "Recursive symbolic link"
+msgstr "पुनरावर्ती सांकेतिक कड़ी"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:622
+#: ../librejilla-burn/rejilla-track-data-cfg.c:721
+#: ../librejilla-burn/rejilla-track-data-cfg.c:732
+#: ../librejilla-burn/rejilla-track-data-cfg.c:793
+#: ../librejilla-burn/rejilla-track-data-cfg.c:798
+#: ../src/rejilla-playlist.c:949 ../src/rejilla-video-tree-model.c:340
+msgid "(loading ...)"
+msgstr "(लोड कर रहा है ...)"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:624
+#: ../librejilla-burn/rejilla-track-data-cfg.c:804
+#: ../src/rejilla-playlist.c:910
+msgid "Empty"
+msgstr "खाली"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:730
+msgid "Disc file"
+msgstr "डिस्क फ़ाइल"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:808
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d वस्तु"
+msgstr[1] "%d वस्तु"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:1915
+#, c-format
+msgid "New folder"
+msgstr "नया फोल्डर"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:1918
+#, c-format
+msgid "New folder %i"
+msgstr "नया फोल्डर %i"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2401
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2411
+msgid "Analysing files"
+msgstr "फाइल विश्लेषित कर रहा है"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2428
+#: ../librejilla-burn/rejilla-burn-options.c:383
+#: ../caja/caja-burn-extension.c:188 ../src/rejilla-project.c:1289
+#: ../librejilla-burn/rejilla-track-data.c:556
+#: ../librejilla-burn/rejilla-track-stream.c:398
+#, c-format
+msgid "There are no files to write to disc"
+msgstr "डिस्क में लिखने के लिए कोई फाइल नहीं है"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2548
+#, c-format
+#| msgid "Recursive symbolic link"
+msgid "\"%s\" is a recursive symbolic link."
+msgstr "\"%s\" एक पुनरावर्ती सांकेतिक कड़ी है"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2574
+#, c-format
+msgid "\"%s\" cannot be found."
+msgstr "\"%s\" नहीं मिला."
+
+#: ../librejilla-utils/rejilla-io.c:1374
+#, c-format
+msgid "The file does not appear to be a playlist"
+msgstr "यह फ़ाइल प्लेलिस्ट नहीं दिखता है"
+
+#: ../librejilla-utils/rejilla-metadata.c:683 ../src/rejilla-audio-disc.c:624
+#, c-format
+msgid "\"%s\" could not be handled by Gstreamer."
+msgstr "\"%s\" को जीस्ट्रीमर से नियंत्रित नहीं किया जा सका."
+
+#. Translators: %s is the name of the GstElement that
+#. * could not be created
+#. Translators: %s is the name of the GstElement that
+#. * element could not be created
+#: ../librejilla-utils/rejilla-metadata.c:755
+#: ../librejilla-utils/rejilla-metadata.c:768
+#: ../librejilla-utils/rejilla-metadata.c:781
+#: ../librejilla-utils/rejilla-metadata.c:1506
+#: ../librejilla-utils/rejilla-metadata.c:1521
+#: ../librejilla-utils/rejilla-metadata.c:1530
+#: ../librejilla-utils/rejilla-metadata.c:1543
+#: ../plugins/transcode/burn-normalize.c:161
+#: ../plugins/transcode/burn-normalize.c:176
+#: ../plugins/transcode/burn-normalize.c:194
+#: ../plugins/transcode/burn-normalize.c:206
+#: ../plugins/transcode/burn-normalize.c:223
+#: ../plugins/transcode/burn-normalize.c:282
+#: ../plugins/transcode/burn-normalize.c:602
+#: ../plugins/transcode/burn-normalize.c:610
+#: ../plugins/transcode/burn-transcode.c:286
+#: ../plugins/transcode/burn-transcode.c:298
+#: ../plugins/transcode/burn-transcode.c:388
+#: ../plugins/transcode/burn-transcode.c:440
+#: ../plugins/transcode/burn-transcode.c:456
+#: ../plugins/transcode/burn-transcode.c:469
+#: ../plugins/transcode/burn-transcode.c:481
+#: ../plugins/transcode/burn-transcode.c:505
+#: ../plugins/transcode/burn-vob.c:262 ../plugins/transcode/burn-vob.c:276
+#: ../plugins/transcode/burn-vob.c:290 ../plugins/transcode/burn-vob.c:302
+#: ../plugins/transcode/burn-vob.c:314 ../plugins/transcode/burn-vob.c:364
+#: ../plugins/transcode/burn-vob.c:376 ../plugins/transcode/burn-vob.c:388
+#: ../plugins/transcode/burn-vob.c:400 ../plugins/transcode/burn-vob.c:412
+#: ../plugins/transcode/burn-vob.c:424 ../plugins/transcode/burn-vob.c:508
+#: ../plugins/transcode/burn-vob.c:520 ../plugins/transcode/burn-vob.c:532
+#: ../plugins/transcode/burn-vob.c:544 ../plugins/transcode/burn-vob.c:566
+#: ../plugins/transcode/burn-vob.c:583 ../plugins/transcode/burn-vob.c:616
+#: ../plugins/transcode/burn-vob.c:693 ../plugins/transcode/burn-vob.c:705
+#: ../plugins/transcode/burn-vob.c:720 ../plugins/transcode/burn-vob.c:732
+#: ../plugins/transcode/burn-vob.c:743 ../plugins/transcode/burn-vob.c:754
+#: ../plugins/transcode/burn-vob.c:920 ../plugins/transcode/burn-vob.c:972
+#: ../plugins/transcode/burn-vob.c:987 ../plugins/transcode/burn-vob.c:1000
+#: ../plugins/transcode/burn-vob.c:1027 ../plugins/transcode/burn-vob.c:1203
+#: ../plugins/transcode/burn-vob.c:1211 ../plugins/transcode/burn-vob.c:1219
+#: ../plugins/transcode/burn-vob.c:1227
+#, c-format
+msgid "%s element could not be created"
+msgstr "%s तत्व को बनाया नहीं जा सका"
+
+#. Translators: Error message saying no graft point
+#. * is specified. A graft point is the path (on the
+#. * disc) where a file from any source will be added
+#. * ("grafted")
+#: ../librejilla-burn/rejilla-caps-burn.c:64
+#: ../librejilla-burn/rejilla-caps-burn.c:679
+#: ../librejilla-burn/rejilla-burn.c:2746 ../librejilla-burn/burn-job.c:1215
+#: ../librejilla-burn/burn-job.c:1224
+#: ../librejilla-burn/burn-mkisofs-base.c:306
+#: ../caja/caja-burn-extension.c:166 ../src/main.c:204
+#: ../src/main.c:230 ../plugins/cdrkit/burn-genisoimage.c:364
+#: ../plugins/cdrkit/burn-readom.c:121 ../plugins/cdrkit/burn-readom.c:362
+#: ../plugins/cdrkit/burn-wodim.c:700 ../plugins/cdrkit/burn-wodim.c:815
+#: ../plugins/cdrkit/burn-wodim.c:830 ../plugins/cdrtools/burn-cdrecord.c:800
+#: ../plugins/cdrtools/burn-cdrecord.c:815
+#: ../plugins/cdrtools/burn-mkisofs.c:365
+#: ../plugins/cdrtools/burn-readcd.c:123 ../plugins/cdrtools/burn-readcd.c:373
+#, c-format
+msgid "An internal error occured"
+msgstr "आंतरिक त्रुटि पैदा हुआ"
+
+#: ../librejilla-burn/rejilla-caps-burn.c:777
+#: ../librejilla-burn/rejilla-burn.c:2406
+#, c-format
+msgid "Only one track at a time can be checked"
+msgstr "सिर्फ एक ट्रैक को एक समय में जाँचा जा सकता है"
+
+#: ../librejilla-burn/rejilla-track-image-cfg.c:424
+msgid "Retrieving image format and size"
+msgstr "छवि प्रारूप और आकार पुनःप्राप्ति कर रहा है"
+
+#. Translators: This is a disc image
+#: ../librejilla-burn/rejilla-track-image-cfg.c:444
+#| msgid "The image could not be loaded."
+msgid "The format of the disc image could not be identified"
+msgstr "इस डिस्क छवि का प्रारूप नहीं पहचाना जा सका"
+
+#: ../librejilla-burn/rejilla-track-image-cfg.c:445
+#| msgid "Please select an image."
+msgid "Please set it manually"
+msgstr "कृपया इसे दस्ती रूप से सेट करें."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:180
+#: ../librejilla-burn/burn-basics.c:76
+msgid "Creating image"
+msgstr "छवि बना रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:181
+msgid "Rejilla - Creating Image"
+msgstr "ब्रासेरो - छवि बना रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:187
+#: ../librejilla-burn/rejilla-burn-dialog.c:201
+#: ../librejilla-burn/rejilla-burn-dialog.c:1008
+msgid "Rejilla - Burning DVD (Simulation)"
+msgstr "ब्रैसेरो - डीवीडी लिख रहा है (सिमुलेशन)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:188
+msgid "Simulation of video DVD burning"
+msgstr "विडियो डीवीडी बर्निंग का सिमुलेशन"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:191
+#: ../librejilla-burn/rejilla-burn-dialog.c:205
+msgid "Rejilla - Burning DVD"
+msgstr "ब्रैसेरो - डीवीडी लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:192
+msgid "Burning video DVD"
+msgstr "विडियो डीवीडी लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:202
+msgid "Simulation of data DVD burning"
+msgstr "आँकड़ा डीवीडी बर्निंग का सिमुलेशन"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:206
+msgid "Burning data DVD"
+msgstr "डाटा DVD लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:215
+msgid "Burning DVD (Simulation)"
+msgstr "डीवीडी लिख रहा है (सिमुलेशन)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:216
+msgid "Simulation of image to DVD burning"
+msgstr "डीवीडी बर्निंग में छवि का सिमुलेशन"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:219
+msgid "Burning DVD"
+msgstr "डीवीडी लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:220
+msgid "Burning image to DVD"
+msgstr "डीवीडी में छवि लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:229
+#: ../librejilla-burn/rejilla-burn-dialog.c:1002
+msgid "Rejilla - Copying DVD (Simulation)"
+msgstr "ब्रैसेरो - डीवीडी नक़ल किया जा रहा है (सिमुलेशन)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:230
+msgid "Simulation of data DVD copying"
+msgstr "आँकड़ा डीवीडी की नक़ल में सिमुलेशन"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:233
+msgid "Rejilla - Copying DVD"
+msgstr "ब्रैसेरो - डीवीडी नक़ल किया जा रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:234
+msgid "Copying data DVD"
+msgstr "आँकड़ा डीवीडी नक़ल किया जा रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:246
+#: ../librejilla-burn/rejilla-burn-dialog.c:260
+#: ../librejilla-burn/rejilla-burn-dialog.c:274
+#: ../librejilla-burn/rejilla-burn-dialog.c:302
+#: ../librejilla-burn/rejilla-burn-dialog.c:332
+msgid "Rejilla - Burning CD (Simulation)"
+msgstr "ब्रैसेरो - सीडी लिख रहा है (सिमुलेशन)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:247
+msgid "Simulation of (S)VCD burning"
+msgstr "वीसीडी बर्निंग का सिमुलेशन"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:250
+#: ../librejilla-burn/rejilla-burn-dialog.c:264
+#: ../librejilla-burn/rejilla-burn-dialog.c:278
+#: ../librejilla-burn/rejilla-burn-dialog.c:306
+#: ../librejilla-burn/rejilla-burn-dialog.c:336
+msgid "Rejilla - Burning CD"
+msgstr "ब्रैसेरो - सीडी लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:251
+msgid "Burning (S)VCD"
+msgstr "(एस)वीसीडी लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:261
+#: ../librejilla-burn/rejilla-burn-dialog.c:333
+msgid "Simulation of audio CD burning"
+msgstr "श्रव्य सीडी बर्निंग का सिमुलेशन"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:265
+#: ../librejilla-burn/rejilla-burn-dialog.c:337
+msgid "Burning audio CD"
+msgstr "ऑडियो CD लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:275
+msgid "Simulation of data CD burning"
+msgstr "आँकड़ा सीडी बर्निंग का सिमुलेशन"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:279
+msgid "Burning data CD"
+msgstr "डाटा CD लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:288
+#: ../librejilla-burn/rejilla-burn-dialog.c:1016
+msgid "Rejilla - Copying CD (Simulation)"
+msgstr "ब्रैसेरो - नक़ल किया जा रहा है सीडी (सिमुलेशन)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:289
+msgid "Simulation of CD copying"
+msgstr "सीडी की नकल का सिमुलेशन"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:292
+msgid "Rejilla - Copying CD"
+msgstr "ब्रैसेरो - नक़ल किया जा रहा है सीडी"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:293
+msgid "Copying CD"
+msgstr "CD कॉपी कर रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:303
+msgid "Simulation of image to CD burning"
+msgstr "छवि की सीडी बर्निंग का सिमुलेशन"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:307
+msgid "Burning image to CD"
+msgstr "छवि को सीडी में लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:318
+msgid "Rejilla - Burning disc (Simulation)"
+msgstr "ब्रैसेरो - डिस्क लिख रहा है (सिमुलेशन)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:319
+msgid "Simulation of video disc burning"
+msgstr "विडियो डिस्क बर्निंग का सिमुलेशन"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:322
+msgid "Rejilla - Burning disc"
+msgstr "ब्रैसेरो - डिस्क लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:323
+msgid "Burning video disc"
+msgstr "विडियो डिस्क लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:346
+#: ../librejilla-burn/rejilla-burn-dialog.c:373
+#: ../librejilla-burn/rejilla-burn-dialog.c:1035
+msgid "Rejilla - Burning Disc (Simulation)"
+msgstr "ब्रैसेरो - डिस्क लिख रहा है (सिमुलेशन)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:347
+msgid "Simulation of data disc burning"
+msgstr "आँकड़ा डिस्क बर्निंग का सिमुलेशन"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:350
+#: ../librejilla-burn/rejilla-burn-dialog.c:377
+msgid "Rejilla - Burning Disc"
+msgstr "ब्रैसेरो - डिस्क लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:351
+msgid "Burning data disc"
+msgstr "आँकड़ा डिस्क लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:360
+#: ../librejilla-burn/rejilla-burn-dialog.c:1029
+msgid "Rejilla - Copying Disc (Simulation)"
+msgstr "ब्रैसेरो - नक़ल किया जा रहा है डिस्क (सिमुलेशन)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:361
+msgid "Simulation of disc copying"
+msgstr "डिस्क की नकल का सिमुलेशन"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:364
+msgid "Rejilla - Copying Disc"
+msgstr "ब्रैसेरो - नक़ल किया जा रहा है डिस्क"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:365
+#: ../librejilla-burn/burn-basics.c:80
+msgid "Copying disc"
+msgstr "डिस्क कॉपी करें"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:374
+msgid "Simulation of image to disc burning"
+msgstr "छवि की डिस्क बर्निंग का सिमुलेशन"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:378
+msgid "Burning image to disc"
+msgstr "छवि को डिस्क में लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:489
+msgid "Please replace the disc with a rewritable disc holding data."
+msgstr "कृपया डिस्क को फिर लिखने योग्य डिस्क आँकड़ा से बदलें."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:491
+msgid "Please replace the disc with a disc holding data."
+msgstr "कृपया डिस्क को डिस्क धारण करने वाले आँकड़े से बदलें."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:495
+msgid "Please insert a rewritable disc holding data."
+msgstr "कृपया फिर लिखने लायक डिस्क डालें जो आँकड़ा रखता है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:497
+#: ../librejilla-burn/rejilla-burn-options.c:408
+msgid "Please insert a disc holding data."
+msgstr "कृपया डिस्क डालें जो आँकड़ा रखता है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:512
+#, c-format
+msgid ""
+"Please replace the disc with a recordable CD with at least %i MiB of free "
+"space."
+msgstr "कृपया डिस्क को किसी रिकार्ड करने योग्य डिस्क के साथ कम से कम %i MiB खाली स्थान के साथ बदलें."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:515
+msgid "Please replace the disc with a recordable CD."
+msgstr "कृपया डिस्क को किसी रिकार्ड करने योग्य डिस्क से बदलें."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:519
+#, c-format
+msgid "Please insert a recordable CD with at least %i MiB of free space."
+msgstr "कृपया डिस्क को किसी रिकार्ड करने योग्य डिस्क को कम से कम %i MiB खाली स्थान के साथ डालें."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:522
+msgid "Please insert a recordable CD."
+msgstr "कृपया डिस्क को किसी रिकार्ड करने योग्य डिस्क के साथ घुसाएँ."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:528
+#, c-format
+msgid ""
+"Please replace the disc with a recordable DVD with at least %i MiB of free "
+"space."
+msgstr "कृपया डिस्क को किसी रिकार्ड करने योग्य डीवीडी के साथ कम से कम %i MiB खाली स्थान के साथ बदलें."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:531
+msgid "Please replace the disc with a recordable DVD."
+msgstr "कृपया डिस्क को किसी रिकार्ड करने योग्य डीवीडी के साथ बदलें."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:535
+#, c-format
+msgid "Please insert a recordable DVD with at least %i MiB of free space."
+msgstr "कृपया डिस्क को किसी रिकार्ड करने योग्य डिस्क के साथ कम से कम %i MiB खाली स्थान के साथ डालें."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:538
+msgid "Please insert a recordable DVD."
+msgstr "कृपया किसी रिकार्ड करने योग्य डिस्क को डालें."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:543
+#, c-format
+msgid ""
+"Please replace the disc with a recordable CD or DVD with at least %i MiB of "
+"free space."
+msgstr "कृपया डिस्क को किसी रिकार्ड करने योग्य सीडी या डीवीडी के साथ कम से कम %i MiB खाली स्थान के साथ बदलें."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:546
+msgid "Please replace the disc with a recordable CD or DVD."
+msgstr "कृपया डिस्क को किसी रिकार्ड करने योग्य सीडी या डीवीडी के साथ बदलें."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:550
+#, c-format
+msgid "Please insert a recordable CD or DVD with at least %i MiB of free space."
+msgstr "कृपया डिस्क को किसी रिकार्ड करने योग्य सीडी या डीवीडी के साथ कम से कम %i MiB खाली स्थान के साथ घुसाएँ."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:553
+#: ../librejilla-burn/rejilla-burn-dialog.c:2129
+#: ../librejilla-burn/rejilla-burn-dialog.c:2141
+#: ../librejilla-burn/rejilla-burn-options.c:362 ../src/rejilla-project.c:1017
+msgid "Please insert a recordable CD or DVD."
+msgstr "कृपया किसी रिकार्ड करने योग्य सीडी या डीवीडी को घुसाएँ."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:580
+msgid ""
+"An image of the disc has been created on your hard drive.\n"
+"Burning will begin as soon as a recordable disc is inserted."
+msgstr ""
+"डिस्क की छवि को आपके हार्ड ड्राइव पर बनाया गया है.\n"
+"लिखना शुरू हो जाएगा जैसे ही कोई रिकार्ड करने योग्य डिस्क घुसाया जाता है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:585
+msgid "A data integrity test will begin as soon as the disc is inserted."
+msgstr "आँकड़ा अखंडता जाँच शुरू हो जाएगी जैसे ही कोई रिकार्ड करने योग्य डिस्क घुसाई जाती है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:586
+msgid "Please re-insert the disc in the CD/DVD burner."
+msgstr "कृपया सीडी/डीवीडी बर्नर में फिर डिस्क घुसाएँ."
+
+#. Translators: %s is the name of a drive
+#: ../librejilla-burn/rejilla-burn-dialog.c:590
+#, c-format
+msgid "\"%s\" is busy."
+msgstr "\"%s\" व्यस्त है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:591
+#: ../librejilla-burn/rejilla-burn.c:1385
+#: ../librejilla-burn/rejilla-burn.c:1419
+#: ../librejilla-burn/rejilla-burn.c:1590
+#: ../librejilla-burn/rejilla-burn.c:1601
+#: ../librejilla-burn/rejilla-tool-dialog.c:89
+msgid "Make sure another application is not using it"
+msgstr "सुनिश्चित करें कि कोई दूसरा अनुप्रयोग इसका प्रयोग नहीं कर रहा है"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:594
+#, c-format
+msgid "There is no disc in \"%s\"."
+msgstr "\"%s\" में कोई डिस्क नहीं है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:598
+#, c-format
+msgid "The disc in \"%s\" is not supported."
+msgstr "\"%s\" में डिस्क समर्थित नहीं है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:602
+#, c-format
+msgid "The disc in \"%s\" is not rewritable."
+msgstr "\"%s\" में डिस्क लिखने योग्य नहीं है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:606
+#, c-format
+msgid "The disc in \"%s\" is empty."
+msgstr "\"%s\" में डिस्क समर्थित नहीं है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:610
+#, c-format
+msgid "The disc in \"%s\" is not writable."
+msgstr "\"%s\" में डिस्क लिखने योग्य नहीं है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:614
+#, c-format
+msgid "Not enough space available on the disc in \"%s\"."
+msgstr "\"%s\" में डिस्क पर पर्याप्त स्थान उपलब्ध नहीं है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:622
+#, c-format
+msgid "The disc in \"%s\" needs to be reloaded."
+msgstr "\"%s\" में डिस्क को फिर लोड किए जाने की जरूरत है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:623
+msgid "Please eject the disc and reload it."
+msgstr "कृपया डिस्क बाहर करें और इसे पुनःभारित करें."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:665
+#: ../librejilla-burn/rejilla-sum-dialog.c:325
+msgid "A file could not be created at the location specified for temporary files"
+msgstr "कोई फ़ाइल को नहीं बनाया जा सका अस्थायी फ़ाइल के लिए बताए स्थान पर"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:666
+msgid "The image could not be created at the specified location"
+msgstr "बताए स्थान पर छवि नहीं बनाई जा सकी"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:667
+msgid ""
+"Do you want to specify another location for this session or retry with the "
+"current location?"
+msgstr "क्या आप इस सत्र के लिए दूसरा स्थान निर्दिष्ट करना चाहते हैं या मौजूदा स्थान के साथ फिर कोशिश करना चाहते हैं?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:682
+msgid "You may want to free some space on the disc and retry"
+msgstr "आप डिस्क पर कुछ स्थान मुक्त रखना चाह सकते हैं और फिर कोशिश करें"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:689
+#: ../librejilla-burn/rejilla-drive-properties.c:263
+#: ../librejilla-burn/rejilla-drive-properties.c:298
+#: ../librejilla-burn/rejilla-drive-properties.c:347
+msgid "_Keep Current Location"
+msgstr "मौज़ूदा स्थान बनाए रखें (_K)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:691
+#: ../librejilla-burn/rejilla-drive-properties.c:264
+#: ../librejilla-burn/rejilla-drive-properties.c:299
+#: ../librejilla-burn/rejilla-drive-properties.c:348
+msgid "_Change Location"
+msgstr "बदलें स्थान (_C)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:713
+#: ../librejilla-burn/rejilla-image-properties.c:478
+msgid "Location for Image File"
+msgstr "छवि फ़ाइल का स्थान"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:721
+#: ../librejilla-burn/rejilla-drive-properties.c:379
+msgid "Location for Temporary Files"
+msgstr "अस्थायी फ़ाइल का स्थान"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:820
+msgid "_Replace Disc"
+msgstr "बदलें डिस्क (_R)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:858
+#| msgid "Do you really want to empty the slices preview?"
+msgid "Do you really want to blank the current disc?"
+msgstr "क्या आप मौजूदा डिस्क वाकई रिक्त करना चाहते हैं?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:859
+msgid "The disc in the drive holds data."
+msgstr "इस ड्राइव में डिस्क में आँकड़ा है"
+
+#. Translators: Blank is a verb here
+#: ../librejilla-burn/rejilla-burn-dialog.c:861
+msgid "_Blank Disc"
+msgstr "खाली डिस्क (_B)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:873
+msgid "Already burnt files will be invisible (though still readable)."
+msgstr "पहले से लिखी गई फ़ाइलें अदृश्य हो जाएँगी (हालाँकि अभी भी पठनीय है)."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:874
+#: ../librejilla-burn/rejilla-burn-dialog.c:894
+#: ../librejilla-burn/rejilla-burn-dialog.c:914
+msgid "Do you want to continue anyway?"
+msgstr "क्या आप किसी तरह से जारी रखना चाहते हैं?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:877
+msgid "Appending new files to a multisession disc is not advised."
+msgstr "किसी बहुल सत्र डिस्क में नई फ़ाइलें जोड़ने की सलाह नहीं दी जाती है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:879
+#: ../librejilla-burn/rejilla-burn-dialog.c:899
+#: ../librejilla-burn/rejilla-burn-dialog.c:919
+#: ../librejilla-burn/rejilla-burn-dialog.c:960 ../src/rejilla-data-disc.c:576
+#: ../librejilla-burn/rejilla-tool-dialog.c:416
+msgid "_Continue"
+msgstr "जारी रखें (_C)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:893
+msgid ""
+"CD-RW audio discs may not play correctly in older CD players and CD-TEXT "
+"won't be written."
+msgstr ""
+"CD-RW ऑडियो डिस्क पुराने CD प्लेयर में बज नहीं सकता है और CD-TEXT "
+"नहीं लिखा जाएगा."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:897
+msgid "Appending audio tracks to a CD is not advised."
+msgstr "किसी सीडी में ऑडियो ट्रैक जोड़ने की सलाह नहीं दी जाती है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:913
+msgid "CD-RW audio discs may not play correctly in older CD players."
+msgstr "CD-RW ऑडियो डिस्क पुराने सीडी प्लेयर में ठीक से बज नहीं सकता है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:917
+msgid "Recording audio tracks on a rewritable disc is not advised."
+msgstr "फिर लिखने योग्य डिस्क में ऑडियो ट्रैक की रिकॉर्डिंग सलाहकारी नहीं है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:951
+msgid "Do you want to continue with full Windows compatibility disabled?"
+msgstr "क्या आप पूर्ण विंडोज़ सुसंगतता के निष्क्रिय रहने के साथ जारी रहना चाहते हैं?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:954 ../src/rejilla-data-disc.c:751
+#: ../librejilla-burn/rejilla-status-dialog.c:257
+msgid "Some files don't have a suitable name for a fully Windows-compatible CD."
+msgstr "कुछ फाइलों का पूर्ण विंडो संगत CD के लिए उपयुक्त नाम नहीं है."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:998
+#, c-format
+msgid "Rejilla - Creating Image (%i%% Done)"
+msgstr "ब्रैसेरो - छवि बना रहा है (%i%% संपन्न)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1004
+#, c-format
+msgid "Rejilla - Copying DVD (%i%% Done)"
+msgstr "ब्रैसेरो - डीवीडी कॉपी कर रहा है (%i%% संपन्न)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1010
+#, c-format
+msgid "Rejilla - Burning DVD (%i%% Done)"
+msgstr "ब्रैसेरो - डीवीडी लिख रहा है (%i%% संपन्न)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1018
+#, c-format
+msgid "Rejilla - Copying CD (%i%% Done)"
+msgstr "ब्रैसेरो - सीडी कॉपी कर रहा है (%i%% संपन्न)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1022
+msgid "Rejilla - Burning CD (simulation)"
+msgstr "ब्रैसेरो - सीडी लिख रहा है (सिमुलेशन)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1024
+#, c-format
+msgid "Rejilla - Burning CD (%i%% Done)"
+msgstr "ब्रैसेरो - सीडी लिख रहा है (%i%% संपन्न)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1031
+#, c-format
+msgid "Rejilla - Copying Disc (%i%% Done)"
+msgstr "ब्रैसेरो - डिस्क कॉपी कर रहा है (%i%% संपन्न)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1037
+#, c-format
+msgid "Rejilla - Burning Disc (%i%% Done)"
+msgstr "ब्रैसेरो - सीडी लिख रहा है (%i%% संपन्न)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1223
+msgid "The simulation was successful."
+msgstr "सिमुलेशन सफल था."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1226
+msgid "Real disc burning will take place in 10 seconds."
+msgstr "रीयल डिस्क बर्निंग 10 सेकेंड में होगा."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1229
+msgid "Burn _Now"
+msgstr "अभी लिखें (_N)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1567
+msgid "Save Current Session"
+msgstr "मौज़ूदा सत्र सहेजें"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1626
+msgid "Session Log"
+msgstr "सत्र लॉग"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1656
+#: ../librejilla-burn/rejilla-burn-dialog.c:1680
+#: ../librejilla-burn/rejilla-burn-dialog.c:1691
+msgid "The session log cannot be displayed."
+msgstr "सत्र लॉग दिखाई नहीं जा सकती."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1657
+msgid "The log file could not be found"
+msgstr "लॉग फाइल नहीं पाई जा सकी"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1672
+msgid ""
+"This is a excerpt from the session log (the last 10 MiB):\n"
+"\n"
+msgstr ""
+"सत्र लॉग से एक अंश है (अंतिम 10 MiB):\n"
+"\n"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1760
+msgid "An unknown error occured."
+msgstr "अज्ञात त्रुटि आई."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1770
+msgid "Error while burning."
+msgstr "लिखने के दौरान त्रुटि."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1778
+msgid "_Save Log"
+msgstr "लॉग सहेजें (_S)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1785
+msgid "_View Log"
+msgstr "लॉग देखें (_V)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1848
+msgid "Audio CD successfully burnt"
+msgstr "ऑडियो सीडी सफलतापूर्वक लिखा गया"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1853
+msgid "DVD successfully copied"
+msgstr "डीवीडी सफलतापूर्वक कॉपी किया गया"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1855
+msgid "CD successfully copied"
+msgstr "सीडी सफलतापूर्वक कॉपी किया गया"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1859
+msgid "Image of DVD successfully created"
+msgstr "डीवीडी छवि सफलतापूर्वक बनाया गया"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1861
+msgid "Image of CD successfully created"
+msgstr "सीडी छवि सफलतापूर्वक बनाया गया"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1867
+msgid "Image successfully burnt to DVD"
+msgstr "डीवीडी में छवि को सफलतापूर्वक लिखा गया"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1869
+msgid "Image successfully burnt to CD"
+msgstr "CD में छवि को सफलतापूर्वक लिखा गया"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1875
+msgid "Data DVD successfully burnt"
+msgstr "आँकड़ा डीवीडी सफलतापूर्वक लिखा गया"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1877
+msgid "Data CD successfully burnt"
+msgstr "आँकड़ा सीडी सफलतापूर्वक लिखा गया"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1880
+msgid "Image successfully created"
+msgstr "छवि सफलतापूर्वक बनाई गई"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1910
+msgid "Make _Another Copy"
+msgstr "अन्य कॉपी बनाएँ (_A)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1939
+msgid "_Create Cover"
+msgstr "आवरण बनाएँ (_C)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2092
+msgid "There are some files left to burn"
+msgstr "कुछ फाइलें लिखने को छूट गई हैं"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2099
+msgid "There are some more videos left to burn"
+msgstr "कुछ अधिक वीडियो लिखने को छूट गई हैं"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2103
+msgid "There are some more songs left to burn"
+msgstr "कुछ और गीत लिखने को छूट गई हैं"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2142
+#: ../librejilla-burn/rejilla-burn.c:1725
+#: ../plugins/cdrkit/burn-genisoimage.c:201 ../plugins/cdrkit/burn-wodim.c:108
+#: ../plugins/cdrtools/burn-cdrecord.c:108
+#: ../plugins/cdrtools/burn-mkisofs.c:202
+#: ../plugins/growisofs/burn-growisofs.c:193
+#, c-format
+msgid "Not enough space available on the disc"
+msgstr "डिस्क पर पर्याप्त स्थान नहीं"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2306
+#: ../librejilla-burn/rejilla-tool-dialog.c:408
+msgid "Do you really want to quit?"
+msgstr "क्या आप सचमुच बाहर होना चाहते हैं?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2310
+#: ../librejilla-burn/rejilla-tool-dialog.c:411
+msgid "Interrupting the process may make disc unusable."
+msgstr "प्रक्रिया को बाधित करना डिस्क को अप्रयुक्त बनाएगा."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2313
+msgid "C_ontinue Burning"
+msgstr "लिखना जारी रखें (_C)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2320
+msgid "_Cancel Burning"
+msgstr "लिखना रद्द करें (_C)"
+
+#: ../librejilla-burn/rejilla-burn-options.c:245 ../src/rejilla-project.c:1042
+msgid ""
+"Please insert a recordable CD or DVD if you don't want to write to an image "
+"file."
+msgstr "कृपया एक रिकार्ड करने योग्य सीडी या डीवीडी घुसाएँ यदि आप किसी छवि फ़ाइल पर लिखना नहीं चाहते हैं."
+
+#: ../librejilla-burn/rejilla-burn-options.c:338 ../src/rejilla-project.c:969
+msgid "Would you like to burn the selection of files across several media?"
+msgstr "क्या आप कई मीडिया पर फ़ाइलों के चयन को लिखना चाहेंगे?"
+
+#: ../librejilla-burn/rejilla-burn-options.c:339
+#: ../librejilla-burn/rejilla-burn-options.c:356
+msgid "The data size is too large for the disc even with the overburn option."
+msgstr "आँकड़ा आकार है काफी बड़ी है अलिलेखन विकल्प के साथ."
+
+#: ../librejilla-burn/rejilla-burn-options.c:344 ../src/rejilla-project.c:975
+msgid "_Burn Several Discs"
+msgstr "कई डिस्क लिखें (_B)"
+
+#: ../librejilla-burn/rejilla-burn-options.c:345 ../src/rejilla-project.c:976
+msgid "Burn the selection of files across several media"
+msgstr "कई मीडिया पर फ़ाइलों का चयन लिखें"
+
+#: ../librejilla-burn/rejilla-burn-options.c:355 ../src/rejilla-project.c:986
+msgid "Please choose another CD or DVD or insert a new one."
+msgstr "कृपया दूसरी सीडी या डीवीडी चुनें या कोई एक घुसाएँ."
+
+#: ../librejilla-burn/rejilla-burn-options.c:363 ../src/rejilla-project.c:1018
+msgid "There is no recordable disc inserted."
+msgstr "कोई रिकार्ड करने योग्य डिस्क घुसाई नहीं गई है."
+
+#: ../librejilla-burn/rejilla-burn-options.c:369 ../src/rejilla-project.c:1032
+msgid "No track information (artist, title, ...) will be written to the disc."
+msgstr "कोई ट्रैक सूचना नहीं (कलाकार, शीर्षक, ...) डिस्क में नहीं लिखी जाएगी."
+
+#: ../librejilla-burn/rejilla-burn-options.c:370 ../src/rejilla-project.c:1033
+msgid "This is not supported by the current active burning backend."
+msgstr "यह मौजूदा सक्रिय लेखन बैकेंड के द्वारा समर्थित नहीं है."
+
+#: ../librejilla-burn/rejilla-burn-options.c:382
+#: ../caja/caja-burn-extension.c:187
+msgid "Please add files."
+msgstr "कृपया फ़ाइल जोड़ें."
+
+#: ../librejilla-burn/rejilla-burn-options.c:388
+msgid "Please add songs."
+msgstr "कृपया संगीत जोड़ें."
+
+#: ../librejilla-burn/rejilla-burn-options.c:389 ../src/rejilla-project.c:1280
+msgid "There are no songs to write to disc"
+msgstr "डिस्क में लिखने के लिए कोई गीत नहीं है"
+
+#: ../librejilla-burn/rejilla-burn-options.c:394
+msgid "Please add videos."
+msgstr "कृपया वीडियो जोड़ें."
+
+#: ../librejilla-burn/rejilla-burn-options.c:395
+msgid "There are no videos to write to disc"
+msgstr "डिस्क में लिखने के लिए कोई वीडियो नहीं है"
+
+#: ../librejilla-burn/rejilla-burn-options.c:409
+msgid "There is no inserted disc to copy."
+msgstr "नकल के लिए कोई घुसाई गई डिस्क नहीं है"
+
+#: ../librejilla-burn/rejilla-burn-options.c:420
+#| msgid "Please select an image."
+msgid "Please select a disc image."
+msgstr "कृपया कोई  डिस्क छवि चुनें."
+
+#: ../librejilla-burn/rejilla-burn-options.c:421
+#| msgid "Please select an image."
+msgid "There is no selected disc image."
+msgstr "कोई चुना गया डिस्क छवि नहीं है."
+
+#. Translators: this is a disc image not a picture
+#. Translators: this is a disc image, not a picture
+#: ../librejilla-burn/rejilla-burn-options.c:433
+#: ../librejilla-burn/rejilla-src-image.c:166
+#| msgid "Please select an image."
+msgctxt "disc"
+msgid "Please select another image."
+msgstr "कृपया कोई दूसरी छवि चुनें."
+
+#: ../librejilla-burn/rejilla-burn-options.c:434
+msgid "It doesn't appear to be a valid disc image or a valid cue file."
+msgstr "यह वैध डिस्क छवि या वैध क्यू फ़ाइल प्रतीत नहीं होती है."
+
+#: ../librejilla-burn/rejilla-burn-options.c:445
+msgid "Please insert a disc that is not copy protected."
+msgstr "कृपया डिस्क घुसाएँ जो नकल संरक्षित नहीं है."
+
+#: ../librejilla-burn/rejilla-burn-options.c:446
+msgid "Such a disc cannot be copied without the proper plugins."
+msgstr "ऐसा डिस्क नक़ल नहीं किया जा सकता है बिना उचित प्लगिन के."
+
+#: ../librejilla-burn/rejilla-burn-options.c:453 ../src/rejilla-project.c:1025
+msgid "Please replace the disc with a supported CD or DVD."
+msgstr "कृपया डिस्क को समर्थित सीडी या डीवीडी से बदलें."
+
+#: ../librejilla-burn/rejilla-burn-options.c:454 ../src/rejilla-project.c:1026
+msgid "It is not possible to write with the current set of plugins."
+msgstr "प्लगइन के मौजूदा सेट में लिखना संभव नहीं है."
+
+#: ../librejilla-burn/rejilla-burn-options.c:462 ../src/rejilla-project.c:997
+msgid "Would you like to burn beyond the disc reported capacity?"
+msgstr "क्या आप डिस्क रिपोर्ट की गई क्षमता के बाहर लिखना चाहेंगे?"
+
+#: ../librejilla-burn/rejilla-burn-options.c:463
+msgid ""
+"The data size is too large for the disc and you must remove files from the "
+"selection otherwise.\n"
+"You may want to use this option if you're using 90 or 100 min CD-R(W) which "
+"cannot be properly recognised and therefore need overburn option.\n"
+"NOTE: This option might cause failure."
+msgstr ""
+"डिस्क के लिए आँकड़ा आकार काफी बड़ा है और आपको फ़ाइलों को अन्यथा चयन से हटानी चाहिए.\n"
+"आप इस विकल्प को प्रयोग कर सकते हैं यदि आप 90 या 100 मिनट CD-R(W) का प्रयोग करते हैं जो कि ठीक से जाना नहीं जा सकता है और इसलिए अतिलेखन की जरूरत है.\n"
+"नोट: यह विकल्प विफलता दे सकती है."
+
+#: ../librejilla-burn/rejilla-burn-options.c:470 ../src/rejilla-project.c:1005
+msgid "_Overburn"
+msgstr "ओवरबर्न करें (_O)"
+
+#: ../librejilla-burn/rejilla-burn-options.c:471 ../src/rejilla-project.c:1006
+msgid "Burn beyond the disc reported capacity"
+msgstr "डिस्क रिपोर्ट की गई क्षमता के बाहर लिखें"
+
+#: ../librejilla-burn/rejilla-burn-options.c:482
+msgid "The drive that holds the source disc will also be the one used to record."
+msgstr "ड्राइव जो कि स्रोत डिस्क रखता है एक होगा जो रिकार्ड किया जाना है."
+
+#: ../librejilla-burn/rejilla-burn-options.c:483
+msgid ""
+"A new recordable disc will be required once the one currently loaded has "
+"been copied."
+msgstr "नया रिकार्ड करने योग्य डिस्क की जरूरत होगी जब अभी लोड किए गए का नक़ल ले लिया जाएगा."
+
+#: ../librejilla-burn/rejilla-burn-options.c:533
+#: ../librejilla-burn/rejilla-burn-options.c:658
+#: ../librejilla-burn/rejilla-burn-options.c:678
+#: ../librejilla-burn/rejilla-burn-options.c:798
+#: ../librejilla-burn/rejilla-burn-options.c:819 ../src/rejilla-project.c:1383
+#: ../src/rejilla-project.c:1441
+msgid "_Burn"
+msgstr "लिखें (_B)"
+
+#: ../librejilla-burn/rejilla-burn-options.c:576
+msgid "Select a disc to write to"
+msgstr "डिस्क चुनें जिसमें लिखना है"
+
+#: ../librejilla-burn/rejilla-burn-options.c:656
+#: ../librejilla-burn/rejilla-burn-options.c:676
+#: ../librejilla-burn/rejilla-burn-options.c:796
+msgid "Disc Burning Setup"
+msgstr "डिस्क बर्निंग सेटअप"
+
+#: ../librejilla-burn/rejilla-burn-options.c:688 ../src/rejilla-project.c:1403
+msgid "Video Options"
+msgstr "वीडियो विकल्प"
+
+#: ../librejilla-burn/rejilla-burn-options.c:720
+#: ../src/rejilla-data-disc.c:622
+msgid ""
+"Do you want to create a disc from the contents of the image or with the "
+"image file inside?"
+msgstr "क्या आप छवि की सामग्री के साथ डिस्क बनाना चाहते हैं या छवि फाइल के अंदर?"
+
+#. Translators: %s is the name of the image
+#: ../librejilla-burn/rejilla-burn-options.c:725
+#: ../src/rejilla-data-disc.c:628
+#, c-format
+msgid ""
+"There is only one selected file (\"%s\"). It is the image of a disc and its "
+"contents can be burnt."
+msgstr "केवल एक चुनी (\"%s\") फाइल है. यह डिस्क की छवि है और इसकी सामग्री लिखी जा सकती है."
+
+#: ../librejilla-burn/rejilla-burn-options.c:730
+#: ../src/rejilla-data-disc.c:633
+msgid "Burn as _File"
+msgstr "बतौर फ़ाइल लिखें (_F)"
+
+#: ../librejilla-burn/rejilla-burn-options.c:732
+#: ../src/rejilla-data-disc.c:635
+#| msgid "_Contents"
+msgid "Burn _Contents..."
+msgstr "अंतर्वस्तु लिखें (_C)..."
+
+#: ../librejilla-burn/rejilla-burn-options.c:817
+msgid "Image Burning Setup"
+msgstr "छवि बर्निंग सेटअप"
+
+#. pack everything
+#: ../librejilla-burn/rejilla-burn-options.c:828
+#| msgid "Select Image File"
+msgid "Select a disc image to write"
+msgstr "लिखने के लिए कोई डिस्क छवि चुनें"
+
+#: ../librejilla-burn/rejilla-burn-options.c:848
+msgid "CD/DVD Copy Options"
+msgstr "सीडी/डीवीडी नक़ल विकल्प"
+
+#: ../librejilla-burn/rejilla-burn-options.c:850
+msgid "_Copy"
+msgstr "कॉपी करें (_C)"
+
+#: ../librejilla-burn/rejilla-burn-options.c:857
+msgid "Select disc to copy"
+msgstr "डिस्क को कॉपी करने के लिए चुनें"
+
+#: ../librejilla-burn/rejilla-burn.c:161
+msgid "Burning CD/DVD"
+msgstr "CD/DVD लिख रहा है"
+
+#: ../librejilla-burn/rejilla-burn.c:308 ../src/rejilla-eject-dialog.c:93
+#, c-format
+msgid "The disc in \"%s\" cannot be ejected"
+msgstr "\"%s\" में डिस्क निकाली नहीं जा सकती है"
+
+#: ../librejilla-burn/rejilla-burn.c:350 ../librejilla-burn/rejilla-burn.c:396
+#, c-format
+msgid "\"%s\" cannot be unlocked"
+msgstr "\"%s\" को अनलॉक नहीं किया जा सकता है"
+
+#: ../librejilla-burn/rejilla-burn.c:527 ../librejilla-burn/rejilla-burn.c:652
+#: ../librejilla-burn/rejilla-burn.c:800
+#: ../librejilla-burn/rejilla-burn.c:1806
+#, c-format
+msgid "No burner specified"
+msgstr "कोई बर्नर निर्दिष्ट नहीं"
+
+#: ../librejilla-burn/rejilla-burn.c:564
+#, c-format
+msgid "No source drive specified"
+msgstr "कोई स्रोत ड्राइव निर्दिष्ट नहीं"
+
+#: ../librejilla-burn/rejilla-burn.c:604
+msgid "Ongoing copying process"
+msgstr "सतत नक़ल प्रक्रिया"
+
+#: ../librejilla-burn/rejilla-burn.c:608 ../librejilla-burn/rejilla-burn.c:703
+#: ../librejilla-burn/rejilla-burn.c:973
+#: ../librejilla-burn/rejilla-burn.c:1084
+#, c-format
+msgid "The drive cannot be locked (%s)"
+msgstr "ड्राइल बंद नहीं किया जा सकता है (%s)"
+
+#: ../librejilla-burn/rejilla-burn.c:663
+#, c-format
+msgid "The drive has no rewriting capabilities"
+msgstr "ड्राइव में कोई फिर लिखने की क्षमता नहीं है"
+
+#: ../librejilla-burn/rejilla-burn.c:699
+msgid "Ongoing blanking process"
+msgstr "चालू रिक्तिकरण प्रक्रिया"
+
+#: ../librejilla-burn/rejilla-burn.c:815
+#, c-format
+msgid "The drive cannot burn or the disc cannot be burnt"
+msgstr "ड्राइव लिखा नहीं जा सकता है या डिस्क लिखा नहीं जा सकता है"
+
+#: ../librejilla-burn/rejilla-burn.c:967
+#: ../librejilla-burn/rejilla-dest-selection.c:108
+msgid "Ongoing burning process"
+msgstr "चालू बर्निंग प्रक्रिया"
+
+#: ../librejilla-burn/rejilla-burn.c:1080
+msgid "Ongoing checksuming operation"
+msgstr "चालू चेकसमिंग संक्रिया"
+
+#: ../librejilla-burn/rejilla-burn.c:1384
+#: ../librejilla-burn/rejilla-burn.c:1418
+#: ../librejilla-burn/rejilla-burn.c:1589
+#: ../librejilla-burn/rejilla-burn.c:1600 ../librejilla-media/scsi-error.c:47
+#: ../librejilla-burn/rejilla-tool-dialog.c:88
+#: ../plugins/cdrdao/burn-cdrdao.c:237 ../plugins/cdrkit/burn-readom.c:102
+#: ../plugins/cdrkit/burn-wodim.c:129 ../plugins/cdrkit/burn-wodim.c:138
+#: ../plugins/cdrtools/burn-cdrecord.c:129
+#: ../plugins/cdrtools/burn-cdrecord.c:138
+#: ../plugins/cdrtools/burn-readcd.c:104
+#: ../plugins/growisofs/burn-dvd-rw-format.c:77
+#: ../plugins/growisofs/burn-growisofs.c:185
+#: ../plugins/libburnia/burn-libburn-common.c:184
+#, c-format
+msgid "The drive is busy"
+msgstr "यह ड्राइव व्यस्त है"
+
+#: ../librejilla-burn/rejilla-burn.c:1724
+#: ../librejilla-burn/rejilla-burn.c:1854
+#, c-format
+msgid "Merging data is impossible with this disc"
+msgstr "डिस्क के साथ डेटा मिलाना असंभव है"
+
+#: ../librejilla-burn/rejilla-burn.c:1791
+#, c-format
+msgid "There is no track to be burnt"
+msgstr "लिखे जाने के लिए कोई ट्रैक नहीं है"
+
+#: ../librejilla-burn/rejilla-burn.c:2465
+#, c-format
+msgid "No format for the temporary image could be found"
+msgstr "अस्थायी छवि के लिए कोई प्रारूप नहीं मिला"
+
+#: ../librejilla-burn/rejilla-cover.c:119
+msgid "Unknown song"
+msgstr "अज्ञात गीत"
+
+#. Reminder: if this string happens to be used
+#. * somewhere else in rejilla we'll need a
+#. * context with C_() macro
+#. Translators: "by" is followed by the name of an artist.
+#. * This text is the one written on the cover of a disc.
+#. * Before it there is the name of the song.
+#. * I had to break it because it is in a GtkTextBuffer
+#. * and every word has a different tag.
+#: ../librejilla-burn/rejilla-cover.c:144
+msgid "by"
+msgstr "द्वारा"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:519
+#: ../librejilla-burn/rejilla-image-type-chooser.c:133
+msgid "SVCD image"
+msgstr "एसवीसीडी छवि"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:521
+#: ../librejilla-burn/rejilla-image-type-chooser.c:127
+msgid "VCD image"
+msgstr "वीसीडी छवि"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:525
+#: ../librejilla-burn/rejilla-image-type-chooser.c:106
+msgid "Video DVD image"
+msgstr "वीडियो डीवीडी छवि"
+
+#. NOTE for translators: the first %s is medium_name ("File
+#. * Image") and the second the path for the image file
+#: ../librejilla-burn/rejilla-dest-selection.c:537
+#, c-format
+msgid "%s: \"%s\""
+msgstr "%s: \"%s\""
+
+#. Translators: this string is only used when the user
+#. * wants to copy a disc using the same destination and
+#. * source drive. It tells him that rejilla will use as
+#. * destination disc a new one (once the source has been
+#. * copied) which is to be inserted in the drive currently
+#. * holding the source disc
+#: ../librejilla-burn/rejilla-dest-selection.c:569
+#, c-format
+msgid "New disc in the burner holding source disc"
+msgstr "स्रोत डिस्क रखने वाले बर्नर में नया डिस्क"
+
+#. NOTE for translators, the first %s is the medium name
+#: ../librejilla-burn/rejilla-dest-selection.c:610
+#, c-format
+msgid "%s: not enough free space"
+msgstr "%s: पर्याप्त मुक्त स्थान नहीं"
+
+#. NOTE for translators: the first %s is the medium name, the second %s
+#. * is its available free space. "Free" here is the free space available.
+#: ../librejilla-burn/rejilla-dest-selection.c:641
+#, c-format
+msgid "%s: %s of free space"
+msgstr "%s: %s मुक्त स्थान का"
+
+#. Translators: the first %s is the path of the directory where rejilla
+#. * will store its temporary files; the second one is the size available
+#: ../librejilla-burn/rejilla-drive-properties.c:211
+#, c-format
+#| msgid "%s: %s"
+msgid "%s: %s free"
+msgstr "%s: %s खाली"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:255
+#: ../librejilla-burn/rejilla-drive-properties.c:291
+#: ../librejilla-burn/rejilla-drive-properties.c:340
+msgid "Do you really want to choose this location?"
+msgstr "क्या आप वाकई यह स्थान चुनना चाहते हैं?"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:293
+#: ../librejilla-burn/rejilla-session.c:1182
+#: ../librejilla-burn/rejilla-session.c:1257 ../librejilla-burn/burn-job.c:490
+#: ../plugins/cdrkit/burn-genisoimage.c:194
+#: ../plugins/cdrtools/burn-mkisofs.c:195
+#: ../plugins/libburnia/burn-libisofs.c:232
+#, c-format
+msgid "You do not have the required permission to write at this location"
+msgstr "आप को इस स्थान पर लिखने के लिए जरूरी अनुमति नहीं है"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:343
+msgid ""
+"The filesystem on this volume does not support large files (size over 2 "
+"GiB).\n"
+"This can be a problem when writing DVDs or large images."
+msgstr ""
+"इस आयतन पर फ़ाइलतंत्र बड़ी फ़ाइलों का समर्थन नहीं करता है (2 "
+"GiB से ऊपर का आकार).\n"
+"यह एक समस्या हो सकती है जब DVD या बड़ी छवि को लिखा जा रहा हो."
+
+#. Translators %s.1f is the speed used to burn
+#: ../librejilla-burn/rejilla-drive-properties.c:547
+#, c-format
+msgid "%.1f x (DVD)"
+msgstr "%.1f x (DVD)"
+
+#. Translators %s.1f is the speed used to burn
+#: ../librejilla-burn/rejilla-drive-properties.c:551
+#, c-format
+msgid "%.1f x (CD)"
+msgstr "%.1f x (CD)"
+
+#. Translators %s.1f is the speed used to burn
+#: ../librejilla-burn/rejilla-drive-properties.c:555
+#, c-format
+msgid "%.1f x (BD)"
+msgstr "%.1f x (BD)"
+
+#. Translators %s.1f is the speed used to burn for every medium
+#. * type
+#: ../librejilla-burn/rejilla-drive-properties.c:560
+#, c-format
+msgid "%.1f x (BD) %.1f x (DVD) %.1f x (CD)"
+msgstr "%.1f x (BD) %.1f x (DVD) %.1f x (CD)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:598
+msgid "Impossible to retrieve speeds"
+msgstr "गति पाना असंभव"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:607
+msgid "Max speed"
+msgstr "अधिकतम गति"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:733
+msgid "Burning speed"
+msgstr "लेखन गति"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:746
+msgid "_Simulate before burning"
+msgstr "लिखने के पहले सिमुलेट करें (_S)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:747
+msgid ""
+"Rejilla will simulate the burning and if it is successful, go on with actual "
+"burning after 10 seconds"
+msgstr "ब्रैसेरो लिखने का सिमुलेट करेगा और यदि यह सफल है, 10 सेकेंड में वास्तविक लेखन करें"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:749
+msgid "Use burn_proof (decrease the risk of failures)"
+msgstr "लेखन रोधी (burn_proof) प्रयोग करें (विफलता का जोखिम कम करें)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:751
+msgid "_Eject after burning"
+msgstr "लेखन के बाद बाहर करें (_E)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:753
+msgid "Burn the image directly _without saving it to disc"
+msgstr "छवि को सीधे बिना डिस्क पर सहेजे लिखें (_w)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:755
+msgid "Leave the disc _open to add other files later"
+msgstr "डिस्क को खुला छोड़ें अन्य फाइलों को जोड़ने के लिए (_o)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:756
+msgid "Allow to add more data to the disc later"
+msgstr "अधिक आँकड़ा को डिस्क में बाद में जोड़ने की छूट दें"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:780
+#: ../src/rejilla-song-properties.c:225
+#: ../librejilla-burn/rejilla-tool-dialog.c:281
+#: ../src/rejilla-multi-song-props.c:307
+msgid "Options"
+msgstr "विकल्प"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:793
+msgid "Location for _Temporary Files"
+msgstr "अस्थायी फ़ाइल के लिए स्थान (_T)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:813
+msgid "Set the directory where to store temporary files"
+msgstr "निर्देशिका सेट करें जहाँ अस्थायी फाइल जमा करना है"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:818
+msgid "Temporary files"
+msgstr "अस्थायी फ़ाइल"
+
+#: ../librejilla-burn/rejilla-image-properties.c:223
+#| msgid "Image type:"
+msgid "Disc image type:"
+msgstr "डिस्क छवि प्रकार:"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:97
+msgid "Autodetect"
+msgstr "अपने आप पता लगाएँ"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:106
+msgid "ISO9660 image"
+msgstr "ISO9660 छवि"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:115
+msgid "Readcd/Readom image"
+msgstr "Readcd/Readom छवि"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:141
+#| msgid "Choose an image"
+msgid "Cue image"
+msgstr "सांकेतिक छवि"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:151
+#| msgid "Cdrdao burning suite"
+msgid "Cdrdao image"
+msgstr "Cdrdao छवि"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:94
+#: ../src/rejilla-project.c:1369
+#, c-format
+msgid "Properties of %s"
+msgstr "%s की विशेषता"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:134
+msgid "Do you really want to keep the current extension for the disc image name?"
+msgstr "क्या आप वाकई डिस्क छवि नाम के लिए मौजूदा विस्तार बनाए रखना चाहते हैं?"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:138
+msgid ""
+"If you choose to keep it, programs may not be able to recognize the file "
+"type properly."
+msgstr "यदि आप इसे बनाए रखना चाहते हैं, प्रोग्राम फ़ाइल प्रकार को ठीक से पहचानने में समर्थ नहीं है."
+
+#: ../librejilla-burn/rejilla-medium-properties.c:141
+msgid "_Keep Current Extension"
+msgstr "मौज़ूदा विस्तार बनाए रखें (_K)"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:144
+msgid "Change _Extension"
+msgstr "बदलें विस्तार (_E)"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:233
+msgid "Configure recording options"
+msgstr "रिकार्डिंग विकल्प विन्यस्त करें"
+
+#. Translators: first %02i is hours, the second one is minutes and the
+#. * third one is seconds.
+#: ../librejilla-burn/rejilla-progress.c:193
+#, c-format
+msgid "Total time: %02i:%02i:%02i"
+msgstr "कुल समय: %02i:%02i:%02i"
+
+#: ../librejilla-burn/rejilla-progress.c:204
+msgid "Average drive speed:"
+msgstr "औसत ड्राइव गति:"
+
+#. Translators: first %02i is hours, the second one is minutes
+#. * and the third one is seconds.
+#: ../librejilla-burn/rejilla-progress.c:431
+#, c-format
+msgid "Estimated remaining time: %02i:%02i:%02i"
+msgstr "अनुमानित शेष समय: %02i:%02i:%02i"
+
+#: ../librejilla-burn/rejilla-progress.c:473
+#, c-format
+msgid "%i MiB of %i MiB"
+msgstr "%i MiB %i MiB का"
+
+#: ../librejilla-burn/rejilla-progress.c:499
+msgid "Estimated drive speed:"
+msgstr "अनुमानित ड्राइव गति:"
+
+#. Translators: %s is a path
+#: ../librejilla-burn/rejilla-src-image.c:234
+#, c-format
+msgid "\"%s\": loading"
+msgstr "\"%s\": लोड हो रहा है"
+
+#. Translators: %s is a path and image refers to a disc image
+#: ../librejilla-burn/rejilla-src-image.c:241
+#, c-format
+msgid "\"%s\": unknown disc image type"
+msgstr "\"%s\": अज्ञात डिस्क छवि प्रकार"
+
+#. NOTE to translators, the first %s is the path of the image
+#. * file and the second its size.
+#: ../librejilla-burn/rejilla-src-image.c:262
+#, c-format
+msgid "\"%s\": %s"
+msgstr "\"%s\": %s"
+
+#. This is hackish and meant to avoid ellipsization to make the
+#. * label to small.
+#. Translators: this is a disc image
+#: ../librejilla-burn/rejilla-src-image.c:272
+#: ../librejilla-burn/rejilla-src-image.c:580
+#| msgid "Please select an image."
+msgid "Click here to select a disc _image"
+msgstr "डिस्क छवि चुनने के लिए यहाँ क्लिक करें (_i)"
+
+#: ../librejilla-burn/rejilla-src-image.c:431
+#| msgid "Select Image File"
+msgid "Select Disc Image"
+msgstr "डिस्क छवि चुनें"
+
+#: ../librejilla-burn/rejilla-src-image.c:460
+#: ../src/rejilla-project-name.c:164 ../src/rejilla-search-entry.c:610
+#: ../src/rejilla-search-entry.c:650 ../src/rejilla-search-entry.c:689
+#: ../src/rejilla-search-beagle.c:474 ../src/rejilla-file-chooser.c:225
+#: ../src/rejilla-project.c:2050
+msgid "All files"
+msgstr "सभी फ़ाइलें"
+
+#. Translators: this a disc image here
+#: ../librejilla-burn/rejilla-src-image.c:466
+#| msgid "Image File"
+msgctxt "disc"
+msgid "Image files"
+msgstr "छवि फ़ाइल"
+
+#: ../librejilla-burn/rejilla-src-image.c:484
+msgid "Image type:"
+msgstr "चित्र प्रकार:"
+
+#: ../librejilla-burn/rejilla-tray.c:83 ../src/rejilla-audio-disc.c:149
+#: ../src/rejilla-data-disc.c:124 ../src/rejilla-video-disc.c:100
+msgid "Menu"
+msgstr "मेन्यू"
+
+#: ../librejilla-burn/rejilla-tray.c:84
+msgid "Cancel ongoing burning"
+msgstr "चालू लेखन रद्द करें"
+
+#: ../librejilla-burn/rejilla-tray.c:89
+msgid "Show _Dialog"
+msgstr "दिखाएँ संवाद (_D)"
+
+#: ../librejilla-burn/rejilla-tray.c:89
+msgid "Show dialog"
+msgstr "दिखाएँ संवाद"
+
+#: ../librejilla-burn/rejilla-tray.c:259
+#, c-format
+msgid "%s, %d%% done, %s remaining"
+msgstr "%s, %d%% संपन्न, %s शेषशेष"
+
+#: ../librejilla-burn/rejilla-tray.c:266
+#, c-format
+msgid "%s, %d%% done"
+msgstr "%s, %d%% संपन्न"
+
+#: ../librejilla-burn/burn-basics.c:75
+msgid "Getting size"
+msgstr "आकार पा रहा है"
+
+#: ../librejilla-burn/burn-basics.c:77
+msgid "Writing"
+msgstr "लिखा जा रहा है"
+
+#: ../librejilla-burn/burn-basics.c:78
+msgid "Blanking"
+msgstr "ब्लैंकिंग"
+
+#: ../librejilla-burn/burn-basics.c:79
+msgid "Creating checksum"
+msgstr "चेकसम बना रहा है"
+
+#: ../librejilla-burn/burn-basics.c:81
+msgid "Copying file"
+msgstr "फाइल नक़ल की जा रही है"
+
+#: ../librejilla-burn/burn-basics.c:82
+msgid "Analysing audio files"
+msgstr "श्रव्य फाइल का विश्लेषण कर रहा है"
+
+#: ../librejilla-burn/burn-basics.c:83
+msgid "Transcoding song"
+msgstr "गीत ट्रांसकोडिंग कर रहा है"
+
+#: ../librejilla-burn/burn-basics.c:84
+msgid "Preparing to write"
+msgstr "लिखने के लिए तैयारी कर रहा है"
+
+#: ../librejilla-burn/burn-basics.c:85
+msgid "Writing leadin"
+msgstr "Writing leadin"
+
+#: ../librejilla-burn/burn-basics.c:86
+msgid "Writing CD-TEXT information"
+msgstr "CD-TEXT सूचना लिख रहा है"
+
+#: ../librejilla-burn/burn-basics.c:87
+msgid "Finalizing"
+msgstr "अंतिम रूप दे रहा है"
+
+#: ../librejilla-burn/burn-basics.c:88
+msgid "Writing leadout"
+msgstr "लीडआउट लिख रहा है"
+
+#: ../librejilla-burn/burn-basics.c:89
+msgid "Starting to record"
+msgstr "रिकार्ड करने के लिए आरंभ कर रहा है"
+
+#: ../librejilla-burn/burn-basics.c:90
+msgid "Success"
+msgstr "सफलता"
+
+#. Translators: %s is the plugin name
+#: ../librejilla-burn/burn-job.c:322 ../librejilla-burn/burn-job.c:793
+#: ../librejilla-burn/burn-job.c:806 ../librejilla-burn/burn-job.c:1025
+#: ../librejilla-burn/burn-job.c:1115
+#, c-format
+msgid "\"%s\" did not behave properly"
+msgstr "\"%s\" ने ठीक आचरण नहीं किया"
+
+#. Translators: the first %s is the size of the free space on the medium
+#. * and the second %s is the size of the space required by the data to be
+#. * burnt.
+#: ../librejilla-burn/burn-job.c:430
+#, c-format
+msgid "Not enough space available on the disc (%s available for %s)"
+msgstr "डिस्क पर पर्याप्त स्थान उपलब्ध नहीं (%s %s के लिए उपलब्ध)"
+
+#: ../librejilla-burn/burn-job.c:520
+#, c-format
+msgid ""
+"The filesystem you chose to store the temporary image on cannot hold files "
+"with a size over 2 GiB"
+msgstr "फ़ाइलतंत्र जिसे आपने चुना अस्थायी छवियों को जमा करने के लिए वह 2 GiB से अधिक आकार की फ़ाइलों को रख नहीं सकता है"
+
+#: ../librejilla-burn/burn-job.c:535 ../librejilla-burn/burn-job.c:557
+#, c-format
+msgid ""
+"The location you chose to store the temporary image on does not have enough "
+"free space for the disc image (%ld MiB needed)"
+msgstr "स्थान जिसे आपने अस्थायी छवि को जमा करने के लिए चुना है वह डिस्क स्थान के लिए पर्याप्त खाली स्थान नहीं रखता है (%ld MiB की जरूरत है)"
+
+#: ../librejilla-burn/burn-job.c:570 ../plugins/dvdcss/burn-dvdcss.c:349
+#, c-format
+msgid "The size of the volume could not be retrieved"
+msgstr "आयतन का आकार लौटाया नहीं जा सका"
+
+#: ../librejilla-burn/burn-job.c:623
+#, c-format
+msgid "No path was specified for the image output"
+msgstr "छवि आउटपुट के लिए कोई पथ निर्दिष्ट नहीं था"
+
+#. Translators: %s is the error returned by libburn
+#. Translators: the %s is the error message from errno
+#: ../librejilla-burn/burn-job.c:764 ../src/main.c:202 ../src/main.c:228
+#: ../plugins/cdrtools/burn-cdrecord.c:683
+#: ../plugins/libburnia/burn-libburn.c:697
+#: ../plugins/transcode/burn-transcode.c:658
+#, c-format
+msgid "An internal error occured (%s)"
+msgstr "आंतरिक त्रुटि आई (%s)"
+
+#: ../librejilla-burn/burn-mkisofs-base.c:157
+#: ../librejilla-burn/burn-mkisofs-base.c:635
+#: ../plugins/growisofs/burn-growisofs.c:523
+#: ../plugins/libburnia/burn-libisofs.c:678
+#: ../plugins/checksum/burn-checksum-image.c:281
+#, c-format
+msgid "The file is not stored locally"
+msgstr "फाइल स्थानीय रूप से जमा नहीं है"
+
+#: ../librejilla-burn/burn-mkisofs-base.c:787
+#, c-format
+msgid "VIDEO_TS directory is missing or invalid"
+msgstr "VIDEO_TS निर्देशिका अनुपस्थित है या अवैध है"
+
+#: ../librejilla-burn/burn-process.c:112 ../librejilla-burn/burn-process.c:118
+#: ../librejilla-burn/burn-process.c:135
+#, c-format
+msgid "\"%s\" could not be found in the path"
+msgstr "\"%s\" को पथ में नहीं पाया जा सका"
+
+#: ../librejilla-burn/burn-process.c:129
+#, c-format
+msgid ""
+"\"%s\" is a symbolic link pointing to another program. Use the target "
+"program instead"
+msgstr "\"%s\" एक सांकेतिक कड़ी है जो दूसरे प्रोग्राम को इंगित करती है. बदले में लक्ष्य प्रोग्राम का प्रयोग करें"
+
+#. Translators: %s is the name of the rejilla element
+#: ../librejilla-burn/burn-process.c:219
+#, c-format
+msgid "Process \"%s\" ended with an error code (%i)"
+msgstr "प्रक्रिया \"%s\" किसी त्रुटि कोड (%i) के साथ समाप्त हुआ"
+
+#: ../librejilla-utils/rejilla-disc-message.c:157
+msgid "_Hide changes"
+msgstr "परिवर्तन छुपाएँ (_H)"
+
+#: ../librejilla-utils/rejilla-disc-message.c:159
+msgid "_Show changes"
+msgstr "परिवर्तन दिखाएँ (_S)"
+
+#: ../librejilla-utils/rejilla-disc-message.c:178
+msgid "_Show errors"
+msgstr "त्रुटि दिखाएँ (_S)"
+
+#: ../librejilla-utils/rejilla-disc-message.c:333
+msgid "Close this notification window"
+msgstr "यह अधिसूचना विंडो बंद करें"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:173
+msgid "Images"
+msgstr "छवि"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:197
+msgid "_Color"
+msgstr "रंग (_C)"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:226
+msgid "Solid color"
+msgstr "ठोस रंग"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:227
+msgid "Horizontal gradient"
+msgstr "क्षैतिज ढाल"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:228
+msgid "Vertical gradient"
+msgstr "लंवबत ढाल"
+
+#. second part
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:245
+msgid "_Image"
+msgstr "चित्र (_I)"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:270
+msgid "Image path:"
+msgstr "छवि पथ:"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:282
+msgid "Choose an image"
+msgstr "कोई छवि चुनें"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:293
+msgid "Image style:"
+msgstr "छवि शैली:"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:307
+msgid "Centered"
+msgstr "केंद्रित"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:308
+msgid "Tiled"
+msgstr "टाइल्ड"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:309
+msgid "Scaled"
+msgstr "स्केल्ड"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:346
+msgid "Background Properties"
+msgstr "पृष्ठभूमि गुण"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:577
+msgid "Bac_kground Properties"
+msgstr "पृष्ठभूमि गुण (_k)"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:674
+msgid "_Text Color"
+msgstr "पाठ रंग (_T)"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:804
+msgid "Cover Editor"
+msgstr "आवरण संपादक"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:799
+msgid "Set Bac_kground Properties"
+msgstr "पृष्ठभूमि गुण सेट करें (_k)"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:840
+msgid "SIDES"
+msgstr "किनारा"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:856
+msgid "BACK COVER"
+msgstr "पृष्ठ आवरण"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:873
+msgid "FRONT COVER"
+msgstr "अग्र आवरण"
+
+#. Translators: This is an image,
+#. * a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-view.c:1144
+msgid "The image could not be loaded."
+msgstr "यह छवि लोड नहीं की जा सकी."
+
+#: ../librejilla-utils/rejilla-tool-color-picker.c:165
+msgid "Pick a Color"
+msgstr "कोई रंग लें"
+
+#: ../librejilla-burn/rejilla-xfer.c:130 ../librejilla-burn/rejilla-xfer.c:266
+#, c-format
+msgid "Directory could not be created (%s)"
+msgstr "निर्देशिका नहीं बनाई जा सकी (%s)"
+
+#: ../src/rejilla-project-parse.c:60
+msgid "Error while loading the project."
+msgstr "परियोजना लोड करने के दौरान त्रुटि."
+
+#: ../src/rejilla-project-parse.c:447
+#| msgid "The image could not be loaded."
+msgid "The project could not be opened"
+msgstr "परियोजना खोली नहीं जा सकी"
+
+#: ../src/rejilla-project-parse.c:456
+#| msgid "The file is empty."
+msgid "The file is empty"
+msgstr "यह फ़ाइल रिक्त है."
+
+#: ../src/rejilla-project-parse.c:535 ../src/rejilla-project-parse.c:594
+msgid "It does not seem to be a valid Rejilla project"
+msgstr "यह वैध ब्रैसेरो परियोजना नहीं दिखती है"
+
+#: ../librejilla-media/rejilla-drive-selection.c:346
+#: ../librejilla-media/rejilla-drive-selection.c:441
+msgid "Unnamed CD/DVD Drive"
+msgstr "अनाम CD/DVD ड्राइव"
+
+#: ../librejilla-media/rejilla-media.c:53
+msgid "Display debug statements on stdout for Rejilla media library"
+msgstr "ब्रैसेरो मीडिया लाइब्रेरी के लिए डिबग कथन या stdout दिखाएँ"
+
+#: ../librejilla-media/rejilla-media.c:472
+msgid "Rejilla optical media library"
+msgstr "ब्रैसेरो ऑप्टिकल मीडिया लाइबेरी"
+
+#: ../librejilla-media/rejilla-media.c:473
+msgid "Display options for Rejilla-media library"
+msgstr "ब्रैसेरो मीडिया लाइबेरी के लिए विकल्प दिखाएँ"
+
+#. Translators: this is hour minute second like '2 h 14 min 25'
+#: ../librejilla-media/rejilla-units.c:71
+#, c-format
+msgid "%s h %s min %s"
+msgstr "%s h %s min %s"
+
+#. Translators: this is hour minute like '2 h 14'
+#: ../librejilla-media/rejilla-units.c:77
+#, c-format
+msgid "%s h %s"
+msgstr "%s h %s"
+
+#. Translators: this is hour like '2 h'
+#: ../librejilla-media/rejilla-units.c:82
+#, c-format
+msgid "%s h"
+msgstr "%s h"
+
+#. Translators: this is 'hour:minute:second' like '2:14:25'
+#: ../librejilla-media/rejilla-units.c:86
+#, c-format
+msgid "%s:%s:%s"
+msgstr "%s:%s:%s"
+
+#. Translators: this is 'hour:minute' or 'minute:second'
+#: ../librejilla-media/rejilla-units.c:92
+#: ../librejilla-media/rejilla-units.c:107
+#, c-format
+msgid "%s:%s"
+msgstr "%s:%s"
+
+#. Translators: %s is a duration expressed in minutes
+#: ../librejilla-media/rejilla-units.c:99
+#, c-format
+msgid "%s min"
+msgstr "%s min"
+
+#. Translators: the first %s is the number of minutes
+#. * and the second one is the number of seconds.
+#. * The whole string expresses a duration
+#: ../librejilla-media/rejilla-units.c:104
+#, c-format
+msgid "%s:%s min"
+msgstr "%s:%s min"
+
+#. NOTE for translators, the first %s is the medium name
+#: ../librejilla-media/rejilla-medium-selection.c:146
+#, c-format
+msgid "%s: empty"
+msgstr "%s: रिक्त"
+
+#. NOTE for translators: the first %s is the medium name, the
+#. * second %s is the space (kio, gio) used by data on the disc.
+#.
+#. NOTE for translators: the first %s is the medium name, the
+#. * second %s is the space (time) used by data on the disc.
+#. * I really don't know if I should set this string as
+#. * translatable.
+#: ../librejilla-media/rejilla-medium-selection.c:162
+#: ../librejilla-media/rejilla-medium-selection.c:174
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../librejilla-media/rejilla-medium-selection.c:453
+msgid "Searching for available discs"
+msgstr "उपलब्ध डिस्क के लिए खोज रहा है"
+
+#: ../librejilla-media/rejilla-medium-selection.c:462
+msgid "No available disc"
+msgstr "कोई डिस्क उपलब्ध नहीं"
+
+#. Translators: This is a fake drive, a file, and means that
+#. * when we're writing, we're writing to a file and create an
+#. * image on the hard drive.
+#: ../librejilla-media/rejilla-drive.c:489
+#: ../librejilla-media/rejilla-medium.c:206
+#: ../librejilla-media/rejilla-volume.c:391
+msgid "Image File"
+msgstr "छवि फ़ाइल"
+
+#: ../librejilla-media/burn-iso9660.c:158
+#: ../librejilla-media/burn-iso9660.c:167
+#: ../librejilla-media/burn-iso9660.c:402
+#: ../librejilla-media/burn-iso9660.c:439
+#: ../librejilla-media/burn-iso9660.c:488
+#: ../librejilla-media/burn-volume.c:128
+#, c-format
+msgid "It does not appear to be a valid ISO image"
+msgstr "यह कोई वैध ISO छवि नहीं प्रतीत होता है"
+
+#: ../librejilla-media/rejilla-medium.c:64
+msgid "File"
+msgstr "फ़ाइल"
+
+#: ../librejilla-media/rejilla-medium.c:65
+msgid "CDROM"
+msgstr "CDROM"
+
+#: ../librejilla-media/rejilla-medium.c:66
+msgid "CD-R"
+msgstr "सीडी-आर"
+
+#: ../librejilla-media/rejilla-medium.c:67
+msgid "CD-RW"
+msgstr "सीडी-आरडब्ल्यू"
+
+#: ../librejilla-media/rejilla-medium.c:68
+#| msgid "DVDROM"
+msgid "DVD-ROM"
+msgstr "डीवीडी-रोम"
+
+#: ../librejilla-media/rejilla-medium.c:69
+msgid "DVD-R"
+msgstr "डीवीडी-आर"
+
+#: ../librejilla-media/rejilla-medium.c:70
+msgid "DVD-RW"
+msgstr "डीवीडी-आरडबल्यू"
+
+#: ../librejilla-media/rejilla-medium.c:71
+msgid "DVD+R"
+msgstr "डीवीडी+आर"
+
+#: ../librejilla-media/rejilla-medium.c:72
+msgid "DVD+RW"
+msgstr "डीवीडी+आरडबल्यू"
+
+#: ../librejilla-media/rejilla-medium.c:73
+msgid "DVD+R dual layer"
+msgstr "DVD+R दोहरा स्तर"
+
+#: ../librejilla-media/rejilla-medium.c:74
+msgid "DVD+RW dual layer"
+msgstr "DVD+RW दोहरा स्तर"
+
+#: ../librejilla-media/rejilla-medium.c:75
+msgid "DVD-R dual layer"
+msgstr "DVD-R दोहरा स्तर"
+
+#: ../librejilla-media/rejilla-medium.c:76
+msgid "DVD-RAM"
+msgstr "डीवीडी-रैम"
+
+#: ../librejilla-media/rejilla-medium.c:77
+msgid "Blu-ray disc"
+msgstr "Blu-ray डिस्क"
+
+#: ../librejilla-media/rejilla-medium.c:78
+msgid "Writable Blu-ray disc"
+msgstr "लेखनयोग्य Blu-ray डिस्क"
+
+#: ../librejilla-media/rejilla-medium.c:79
+msgid "Rewritable Blu-ray disc"
+msgstr "पुनः लेखनयोग्य Blu-ray डिस्क"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:216
+#, c-format
+msgid "Blank %s in %s"
+msgstr "%s खाली %s में"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:223
+#, c-format
+msgid "Audio and data %s in %s"
+msgstr "%s ध्वनि और आँकड़ा %s में"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:230
+#, c-format
+msgid "Audio %s in %s"
+msgstr "%s ध्वनि %s में"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:237
+#, c-format
+msgid "Data %s in %s"
+msgstr "%s आँकड़ा %s में"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:244
+#, c-format
+msgid "%s in %s"
+msgstr "%s %s में"
+
+#: ../librejilla-media/rejilla-volume.c:192
+#, c-format
+msgid "The disc mount point could not be retrieved"
+msgstr "डिस्क आरोह बिंदु को पाई नहीं जा सकती है"
+
+#. NOTE for translators: the first %s is the disc type and Blank is an adjective.
+#: ../librejilla-media/rejilla-volume.c:418
+#, c-format
+#| msgid "Data disc (%s)"
+msgid "Blank disc (%s)"
+msgstr "रिक्त डिस्क (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#: ../librejilla-media/rejilla-volume.c:422
+#, c-format
+#| msgid "Audio and data %s"
+msgid "Audio and data disc (%s)"
+msgstr "ध्वनि और आँकड़ा डिस्क (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_ .
+#. * The %s is the date
+#: ../librejilla-media/rejilla-volume.c:426 ../src/rejilla-project-name.c:276
+#, c-format
+msgid "Audio disc (%s)"
+msgstr "ऑडियो डिस्क (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_ otherwise it gets truncated.
+#. * The %s is the date
+#: ../librejilla-media/rejilla-volume.c:430 ../src/rejilla-project-name.c:257
+#, c-format
+msgid "Data disc (%s)"
+msgstr "आँकड़ा डिस्क (%s)"
+
+#: ../librejilla-media/scsi-error.c:43 ../src/rejilla-project-name.c:83
+msgid "Unknown error"
+msgstr "अज्ञात त्रुटि"
+
+#: ../librejilla-media/scsi-error.c:44
+msgid "Size mismatch"
+msgstr "आकार बेमेल"
+
+#: ../librejilla-media/scsi-error.c:45
+msgid "Type mismatch"
+msgstr "प्रकार बेमेल"
+
+#: ../librejilla-media/scsi-error.c:46
+msgid "Bad argument"
+msgstr "बुरा तर्क"
+
+#: ../librejilla-media/scsi-error.c:48
+msgid "Outrange address"
+msgstr "दायरा बाहर पता"
+
+#: ../librejilla-media/scsi-error.c:49
+msgid "Invalid address"
+msgstr "अवैध पता"
+
+#: ../librejilla-media/scsi-error.c:50
+msgid "Invalid command"
+msgstr "अवैध कमांड"
+
+#: ../librejilla-media/scsi-error.c:51
+msgid "Invalid parameter in command"
+msgstr "कमांड में अवैध पैरामीटर"
+
+#: ../librejilla-media/scsi-error.c:52
+msgid "Invalid field in command"
+msgstr "कमांड में अवैध क्षेत्र"
+
+#: ../librejilla-media/scsi-error.c:53
+msgid "The device timed out"
+msgstr "इस युक्ति का समय समाप्त हो गया"
+
+#: ../librejilla-media/scsi-error.c:54
+msgid "Key not established"
+msgstr "कुंजी स्थापित नहीं"
+
+#: ../librejilla-media/scsi-error.c:55
+msgid "Invalid track mode"
+msgstr "अवैध ट्रैक विधि"
+
+#: ../src/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "फ़ाइल वैध .desktop फ़ाइल नहीं है"
+
+#: ../src/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "अपरिचित डेस्कटॉप फ़ाइल संस्करण '%s'"
+
+#: ../src/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "%s शुरू हो रहा है"
+
+#: ../src/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "कमांड लाइन पर अनुप्रयोग दस्तावेज़ स्वीकार नहीं करता है"
+
+#: ../src/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "अपरिचित लॉन्च विकल्प: %d"
+
+#: ../src/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "दस्तावेज़ URI को 'Type=Link' डेस्कटॉप प्रविष्टि में भेज नहीं सकता है"
+
+#: ../src/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "चलाने योग्य प्रोग्राम नहीं है"
+
+#: ../src/eggsmclient.c:224
+msgid "Disable connection to session manager"
+msgstr "सत्र प्रबंधक में संबंधन निष्क्रिय करें"
+
+#: ../src/eggsmclient.c:227
+msgid "Specify file containing saved configuration"
+msgstr "सहेजा विन्यास समाहित करता फ़ाइल निर्दिष्ट करें"
+
+#: ../src/eggsmclient.c:227
+msgid "FILE"
+msgstr "फ़ाइल"
+
+#: ../src/eggsmclient.c:230
+msgid "Specify session management ID"
+msgstr "सत्र प्रबंधन ID निर्दिष्ट करें"
+
+#: ../src/eggsmclient.c:230
+msgid "ID"
+msgstr "आईडी"
+
+#: ../src/eggsmclient.c:244
+msgid "Session management options:"
+msgstr "सत्र प्रबंधन विकल्प:"
+
+#: ../src/eggsmclient.c:245
+msgid "Show session management options"
+msgstr "दिखाएँ सत्र प्रबंधन विकल्प"
+
+#: ../src/rejilla-pref.c:65
+msgid "Rejilla Plugins"
+msgstr "ब्रैसेरो प्लगिन"
+
+#: ../plugins/local-track/burn-uri.c:200 ../plugins/local-track/burn-uri.c:290
+#: ../plugins/local-track/burn-uri.c:465
+#, c-format
+msgid "Impossible to retrieve local file path"
+msgstr "स्थानीय फाइल पथ पाना असंभव"
+
+#: ../plugins/local-track/burn-uri.c:319
+#: ../plugins/local-track/burn-local-image.c:520
+msgid "Copying files locally"
+msgstr "फ़ाइल स्थानीय रूप से नक़ल कर रहा है"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/local-track/burn-uri.c:739 ../caja/caja-burn-bar.c:136
+msgid "CD/DVD Creator Folder"
+msgstr "CD/DVD सर्जक फोल्डर"
+
+#: ../plugins/local-track/burn-uri.c:740
+msgid "Allows to burn files added to \"CD/DVD Creator Folder\" in Caja"
+msgstr "\"CD/DVD Creator Folder\" में नॉटिलस में जोड़ा गया फ़ाइल लिखने की अनुमति देता है"
+
+#: ../caja/rejilla-caja.desktop.in.in.h:1
+#| msgid "CD/DVD Creator Folder"
+msgid "CD/DVD Creator"
+msgstr "CD/DVD सर्जक"
+
+#: ../caja/rejilla-caja.desktop.in.in.h:2
+msgid "Create CDs and DVDs"
+msgstr "CD और DVD बनाएँ"
+
+#: ../caja/caja-burn-bar.c:143
+msgid "Drag or copy files below to write them to disc"
+msgstr "फाइल को नीचे डिस्क में लिखने के लिए खीचें या कॉपी करें"
+
+#: ../caja/caja-burn-bar.c:151
+msgid "Write to Disc"
+msgstr "डिस्क पर लिखें"
+
+#: ../caja/caja-burn-bar.c:163
+#: ../caja/caja-burn-extension.c:629
+msgid "Write contents to a CD or DVD disc"
+msgstr "सामग्रियों को एक सीडी या डीवीडी पर लिखें"
+
+#: ../caja/caja-burn-extension.c:223
+msgid "Disc name"
+msgstr "डिस्क नाम"
+
+#: ../caja/caja-burn-extension.c:482
+#: ../caja/caja-burn-extension.c:628
+msgid "_Write to Disc..."
+msgstr "सीडी पर लिखें (_W)..."
+
+#: ../caja/caja-burn-extension.c:483
+msgid "Write disc image to a CD or DVD disc"
+msgstr "डिस्क इमेज़ एक सीडी या डीवीडी पर लिखें"
+
+#: ../caja/caja-burn-extension.c:551
+msgid "_Copy Disc..."
+msgstr "डिस्क कॉपी करें (_C)..."
+
+#: ../caja/caja-burn-extension.c:552
+msgid "Create a copy of this CD or DVD disc"
+msgstr "इस सीडी या डीवीडी डिस्क की कॉपी करें"
+
+#: ../caja/caja-burn-extension.c:565
+msgid "_Blank Disc..."
+msgstr "खाली डिस्क (_B)..."
+
+#: ../caja/caja-burn-extension.c:566
+msgid "Blank this CD or DVD disc"
+msgstr "इस सीडी या डीवीडी डिस्क को खाली करें"
+
+#: ../caja/caja-burn-extension.c:582
+msgid "_Check Disc..."
+msgstr "डिस्क जाँचें (_C)..."
+
+#: ../caja/caja-burn-extension.c:583
+msgid "Check the data integrity on this CD or DVD disc"
+msgstr "इस सीडी या डीवीडी डिस्क पर आंकड़ा अखंडता को जाँचें"
+
+#. Translators: this is a picture not
+#. * a disc image
+#: ../src/rejilla-project-name.c:82
+#| msgid "Please select an image."
+msgctxt "picture"
+msgid "Please select another image."
+msgstr "कृपया कोई दूसरी छवि चुनें."
+
+#: ../src/rejilla-project-name.c:156
+msgid "Medium Icon"
+msgstr "मध्यम प्रतीक"
+
+#. Translators: this is an image, a picture, not a "Disc Image"
+#: ../src/rejilla-project-name.c:170 ../src/rejilla-file-chooser.c:250
+#: ../src/rejilla-project.c:2075
+#| msgid "Image File"
+msgctxt "picture"
+msgid "Image files"
+msgstr "छवि फ़ाइल"
+
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_.
+#. * The %s is the date
+#: ../src/rejilla-project-name.c:271
+#, c-format
+msgid "Video disc (%s)"
+msgstr "वीडियो डिस्क (%s)"
+
+#: ../src/rejilla-app.c:120
+msgid "_Project"
+msgstr "प्रोजेक्ट (_P)"
+
+#: ../src/rejilla-app.c:121
+msgid "_View"
+msgstr "देखें (_V)"
+
+#: ../src/rejilla-app.c:122
+msgid "_Edit"
+msgstr "संपादन (_E)"
+
+#: ../src/rejilla-app.c:123
+msgid "_Tools"
+msgstr "औजार (_T)"
+
+#: ../src/rejilla-app.c:125
+msgid "_Help"
+msgstr "मदद (_H)"
+
+#: ../src/rejilla-app.c:127
+msgid "P_lugins"
+msgstr "प्लगइन (_l)"
+
+#: ../src/rejilla-app.c:128
+msgid "Choose plugins for rejilla"
+msgstr "ब्रैसेरो के लिए प्लगिन चुनें"
+
+#: ../src/rejilla-app.c:130
+msgid "E_ject"
+msgstr "बाहर निकालें (_j)"
+
+#: ../src/rejilla-app.c:131
+msgid "Eject a disc"
+msgstr "डिस्क बाहर निकालें"
+
+#: ../src/rejilla-app.c:133
+#| msgid "_Blank Disc..."
+msgid "_Blank..."
+msgstr "खाली (_B)..."
+
+#: ../src/rejilla-app.c:134
+#| msgid "Blank %s"
+msgid "Blank a disc"
+msgstr "किसी डिस्क को खाली करें"
+
+#: ../src/rejilla-app.c:136
+msgid "_Check Integrity..."
+msgstr "अखंडता जाँचें (_C)..."
+
+#: ../src/rejilla-app.c:137
+msgid "Check data integrity of disc"
+msgstr "डिस्क की आँकड़ा अखंडता जाँचें"
+
+#: ../src/rejilla-app.c:140
+msgid "Quit Rejilla"
+msgstr "ब्रैसेरो से बाहर जाएँ"
+
+#: ../src/rejilla-app.c:142
+msgid "_Contents"
+msgstr "विषय सूची (_C)"
+
+#: ../src/rejilla-app.c:142
+msgid "Display help"
+msgstr "मदद दिखाएँ"
+
+#: ../src/rejilla-app.c:145
+msgid "About"
+msgstr "के बारे में"
+
+#: ../src/rejilla-app.c:572 ../data/rejilla.desktop.in.in.h:4
+msgid "Disc Burner"
+msgstr "डिस्क बर्नर"
+
+#: ../src/rejilla-app.c:1014
+msgid ""
+"Rejilla is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Rejilla is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+
+#: ../src/rejilla-app.c:1019
+msgid ""
+"Rejilla is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Rejilla is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+
+#: ../src/rejilla-app.c:1024
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Rejilla; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301, USA"
+msgstr ""
+"You should have received a copy of the GNU General Public License along with "
+"Rejilla; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301, USA"
+
+#: ../src/rejilla-app.c:1036
+msgid "A simple to use CD/DVD burning application for MATE"
+msgstr "गनोम के लिए प्रयोग करने में एक सरल को सीडी/डीवीडी बर्निंग अनुप्रयोग"
+
+#: ../src/rejilla-app.c:1053
+msgid "Rejilla Homepage"
+msgstr "ब्रेसेरो होमपेज"
+
+#. Translators: This is a special message that shouldn't be translated
+#. * literally. It is used in the about box to give credits to
+#. * the translators.
+#. * Thus, you should translate it to your name and email address.
+#. * You should also include other translators who have contributed to
+#. * this translation; in that case, please write each of them on a separate
+#. * line seperated by newlines (\n).
+#.
+#: ../src/rejilla-app.c:1065
+msgid "translator-credits"
+msgstr "संगीता कुमारी (sangeeta09@gmail.com)"
+
+#: ../src/rejilla-app.c:1296
+#, c-format
+msgid "The project \"%s\" does not exist"
+msgstr "परियोजना \"%s\" मौजूद नहीं है"
+
+#: ../src/rejilla-app.c:1298 ../src/main.c:207 ../src/main.c:233
+msgid "Error while loading the project"
+msgstr "प्रोजेक्ट की लोडिंग के दौरान त्रुटि"
+
+#: ../src/rejilla-app.c:1372 ../src/rejilla-app.c:1378
+msgid "_Recent Projects"
+msgstr "हालिया परियोजना (_R)"
+
+#: ../src/rejilla-app.c:1373
+msgid "Display the projects recently opened"
+msgstr "हाल में खुले परियोजना दिखाएँ"
+
+#: ../src/rejilla-app.c:1701 ../data/rejilla.desktop.in.in.h:2
+msgid "Rejilla Disc Burner"
+msgstr "ब्रेसेरो डिस्क बर्नर"
+
+#: ../data/rejilla.desktop.in.in.h:1
+#: ../data/rejilla-copy-medium.desktop.in.in.h:1
+#| msgid "Rejilla Plugins"
+msgid "Rejilla"
+msgstr "ब्रैसेरो"
+
+#: ../data/rejilla.desktop.in.in.h:3
+msgid "Create and copy CDs and DVDs"
+msgstr "सीडी और डीवीडी बनाएँ और नक़ल लें"
+
+#: ../data/rejilla.schemas.in.h:1
+msgid ""
+"Contains the list of additional plugins Rejilla will use to burn discs. If "
+"set to NULL, Rejilla will load them all."
+msgstr "अतिरिक्त प्लगइन की सूची समाहित करता है जो ब्रैसेरो डिस्क को लिखने के लिए प्रयोग करेगा. यदि रिक्त पर सेट है , ब्रैसेरो उसे लोड करेगा."
+
+#: ../data/rejilla.schemas.in.h:2
+msgid ""
+"Contains the name of the favourite burn engine suite installed. It will be "
+"used if possible."
+msgstr "संस्थापित पसंदीदा बर्न इंजन सूइट का नाम समाहित करता है. यह प्रयोग किया जाएगा यदि संभव है."
+
+#: ../data/rejilla.schemas.in.h:3
+msgid "Default height for image preview."
+msgstr "छवि पूर्वावलोकन के लिए तयशुदा ऊँचाई."
+
+#: ../data/rejilla.schemas.in.h:4
+msgid "Default height for video preview."
+msgstr "वीडियो पूर्वावलोकन के लिए तयशुदा ऊँचाई."
+
+#: ../data/rejilla.schemas.in.h:5
+msgid "Default width for image preview."
+msgstr "छवि पूर्वावलोकन के लिए तयशुदा चौड़ाई."
+
+#: ../data/rejilla.schemas.in.h:6
+msgid "Default width for video preview."
+msgstr "वीडियो पूर्वावलोकन के लिए तयशुदा चौड़ाई."
+
+#: ../data/rejilla.schemas.in.h:7
+msgid "Enable \"-immed\" flag with cdrecord"
+msgstr "\"-immed\" फ्लैग को cdrecord के साथ सक्रिय करें"
+
+#: ../data/rejilla.schemas.in.h:8
+msgid "Enable file preview"
+msgstr "फ़ाइल पूर्वावलोकन सक्रिय करें"
+
+#: ../data/rejilla.schemas.in.h:9
+msgid "Enable side pane"
+msgstr "किनारे का फलक सक्रिय करें"
+
+#: ../data/rejilla.schemas.in.h:10
+msgid "Favourite burn engine"
+msgstr "पसंदीदा बर्न इंजन"
+
+#: ../data/rejilla.schemas.in.h:11
+msgid "Height for video preview"
+msgstr "वीडियो पूर्वावलोकन की ऊँचाई"
+
+#: ../data/rejilla.schemas.in.h:12
+msgid "Height of image preview"
+msgstr "छवि पूर्वावलोकन की ऊँचाई"
+
+#: ../data/rejilla.schemas.in.h:13
+msgid "Layout of UI"
+msgstr "UI का लेआउट"
+
+#: ../data/rejilla.schemas.in.h:14
+msgid "Pane to display audio projects"
+msgstr "ऑडियो परियोजना दिखाने के लिए पट्टी"
+
+#: ../data/rejilla.schemas.in.h:15
+msgid "Pane to display data projects"
+msgstr "आँकड़ा परियोजना दिखाने के लिए पट्टी"
+
+#: ../data/rejilla.schemas.in.h:16
+msgid "Pane to display video projects"
+msgstr "वीडियो परियोजना दिखाने के लिए पट्टी"
+
+#: ../data/rejilla.schemas.in.h:17
+msgid "Replace symbolic links by their targets"
+msgstr "उनके लक्ष्य मुताबिक सांकेतिक कड़ी बदलें"
+
+#: ../data/rejilla.schemas.in.h:18
+#| msgid "Filter _broken symlinks"
+msgid "Should rejilla filter broken symbolic links"
+msgstr "क्या ब्रैसेरो टूटी सांकेतिक कड़ी फिल्टर करता है"
+
+#: ../data/rejilla.schemas.in.h:19
+msgid ""
+"Should rejilla filter broken symbolic links. Set to true, rejilla will "
+"filter broken symbolic links."
+msgstr "क्या ब्रैसेरो को टूटी सांकेतिक कड़ी को फिल्टर करना चाहिए. सही पर सेट करें, ब्रैसेरो टूटी सांकेतिक कड़ी को फिल्टर करेगा."
+
+#: ../data/rejilla.schemas.in.h:20
+msgid "Should rejilla filter hidden files"
+msgstr "क्या ब्रैसेरो को छुपी फ़ाइलों को फिल्टर करना चाहिए."
+
+#: ../data/rejilla.schemas.in.h:21
+msgid ""
+"Should rejilla filter hidden files. Set to true, rejilla will filter hidden "
+"files."
+msgstr "क्या ब्रैसेरो को छुपी फ़ाइलों को फिल्टर करना चाहिए. सही पर सेट करें, ब्रैसेरो को छुपी फ़ाइलों को फिल्टर करेगा."
+
+#: ../data/rejilla.schemas.in.h:22
+msgid "Should rejilla notify when files are filtered"
+msgstr "क्या ब्रैसेरो को सूचित करना चाहिए जब फाइल फिल्टर की जाती है"
+
+#: ../data/rejilla.schemas.in.h:23
+msgid ""
+"Should rejilla notify when files are filtered. Set to true, rejilla will "
+"display the notification."
+msgstr "क्या ब्रैसेरो को सूचित करना चाहिए जब फाइल फिल्टर की जाती है. सही पर सेट करें, ब्रैसेरो सूचना दिखाएगी"
+
+#: ../data/rejilla.schemas.in.h:24
+msgid ""
+"Should rejilla replace symbolic links by their target files in the project. "
+"Set to true, rejilla will replace symbolic links."
+msgstr "क्या ब्रैसेरो को परियोजना में लक्षित फाइलों के द्वारा सांकेतिक कड़ी से बदला जाना चाहिए. सही पर सेट करें, ब्रैसेरो सांकेतिक कड़ी को बदलेगा."
+
+#: ../data/rejilla.schemas.in.h:25
+msgid ""
+"The pane to display with audio projects. It should be one of the following: "
+"\"Chooser\", \"Search\" or \"Playlist\"."
+msgstr ""
+"ऑडियो परियोजना के साथ दिखाने के लिए पट्टी. इसे निम्न में एक होना चाहिए: "
+"\"Chooser\", \"Search\" या \"Playlist\"."
+
+#: ../data/rejilla.schemas.in.h:26
+msgid ""
+"The pane to display with data projects. It should be one of the following: "
+"\"Chooser\" or \"Search\"."
+msgstr ""
+"आँकड़ा परियोजना के साथ दिखाने के लिए पट्टी. इसे निम्न में एक होना चाहिए: "
+"\"Chooser\" या \"Search\"."
+
+#: ../data/rejilla.schemas.in.h:27
+msgid ""
+"The pane to display with video projects. It should be one of the following: "
+"\"Chooser\", \"Search\" or \"Playlist\"."
+msgstr ""
+"वीडियो परियोजना के साथ दिखाने के लिए पट्टी. इसे निम्न में एक होना चाहिए: "
+"\"Chooser\", \"Search\" या \"Playlist\"."
+
+#: ../data/rejilla.schemas.in.h:28
+msgid ""
+"This key sets where the project pane should be (0 = on the right, 1 = on the "
+"left, 2 = at the top, 3 = at the bottom)"
+msgstr ""
+"यह कुंजी सेट करता है जहाँ परियोजना पट्टी को होना चाहिए (0 = on the right, 1 = on the "
+"left, 2 = at the top, 3 = at the bottom)"
+
+#: ../data/rejilla.schemas.in.h:29
+msgid "Used in conjunction with \"-immed\" flag with cdrecord"
+msgstr "\"-immed\" फ्लैग के साथ cdrecord के साथ प्रयुक्त"
+
+#: ../data/rejilla.schemas.in.h:30
+msgid "Whether to display a side pane. Set to true to use it."
+msgstr "क्या बाज़ू पट्टी को दिखाना है. इसे प्रयोग के लिए सही पर सेट करें."
+
+#: ../data/rejilla.schemas.in.h:31
+msgid "Whether to display file preview. Set to true to use it."
+msgstr "क्या फ़ाइल पूर्वालोकन को दिखाना है. इसे प्रयोग के लिए सही पर सेट करें."
+
+#: ../data/rejilla.schemas.in.h:32
+msgid "Whether to use \"--driver generic-mmc-raw\" flag with cdrdao"
+msgstr "क्या \"--driver generic-mmc-raw\" फ्लैग को cdrdao के साथ प्रयोग करना है"
+
+#: ../data/rejilla.schemas.in.h:33
+msgid ""
+"Whether to use \"--driver generic-mmc-raw\" flag with cdrdao. Set to True, "
+"rejilla will use it; it may be a workaround for some drives/setups."
+msgstr ""
+"क्या \"--driver generic-mmc-raw\" फ्लैग को cdrdao के साथ प्रयोग करना है.  सही पर सेट करें, "
+"ब्रैसेरो इसे प्रयोग करेगा; यह कुछ ड्राइव/सेटअप के लिए समाधान का कार्य करेगा."
+
+#: ../data/rejilla.schemas.in.h:34
+msgid ""
+"Whether to use \"-immed\" flag with cdrecord. Use with caution (set to true) "
+"as it's only a workaround for some drives/setups."
+msgstr ""
+"क्या \"-immed\" फ्लैग को cdrecord के साथ प्रयोग करना है.  सावधानी से प्रयोग करें (सही पर सेट करें)"
+"क्योंकि यह कुछ ड्राइव/सेटअप के लिए समाधान का कार्य करता है."
+
+#: ../data/rejilla.schemas.in.h:35
+msgid "Whether to use \"-use-the-force-luke=dao\" flag with growisofs"
+msgstr "क्या \"-use-the-force-luke=dao\" फ्लैग को growisofs के साथ प्रयोग करना है."
+
+#: ../data/rejilla.schemas.in.h:36
+msgid ""
+"Whether to use \"-use-the-force-luke=dao\" flag with growisofs. Set to "
+"false, rejilla won't use it; it may be a workaround for some drives/setups."
+msgstr "क्या \"-use-the-force-luke=dao\" फ्लैग को growisofs के साथ प्रयोग करना है. इसे गलत पर सेट करें, ब्रैसेरो इसे प्रयोग नहीं करेगा; यह कुछ ड्राइव/सेटअप के साथ समाधान के रूप में होता है."
+
+#: ../data/rejilla.schemas.in.h:37
+msgid "White list of additional plugins to use"
+msgstr "प्रयोग के लिए अतिरिक्त प्लगइन की श्वेत सूची"
+
+#: ../data/rejilla.schemas.in.h:38
+msgid "Width for image preview"
+msgstr "छवि पूर्वावलोकन की चौड़ाई"
+
+#: ../data/rejilla.schemas.in.h:39
+msgid "Width for video preview"
+msgstr "वीडियो पूर्वावलोकन की चौड़ाई"
+
+#: ../data/rejilla.xml.in.h:1
+msgid "Rejilla project file"
+msgstr "ब्रैसेरो परियोजना फाइल"
+
+#: ../src/rejilla-audio-disc.c:150 ../src/rejilla-data-disc.c:125
+msgid "Open the selected files"
+msgstr "चयनित फाइल खोलें"
+
+#: ../src/rejilla-audio-disc.c:152 ../src/rejilla-video-disc.c:103
+msgid "_Edit Information..."
+msgstr "सूचना संपादित करें (_E)..."
+
+#: ../src/rejilla-audio-disc.c:152
+msgid "Edit the track information (start, end, author, ...)"
+msgstr "ट्रैक सूचना संपादित करें (start, end, author, ...)"
+
+#: ../src/rejilla-audio-disc.c:154 ../src/rejilla-data-disc.c:129
+#: ../src/rejilla-project.c:200
+msgid "Remove the selected files from the project"
+msgstr "परियोजना से चयनित फाइल हटाएँ"
+
+#: ../src/rejilla-audio-disc.c:156 ../src/rejilla-data-disc.c:131
+#: ../src/rejilla-video-disc.c:107
+msgid "Add the files stored in the clipboard"
+msgstr "क्लिपबोर्ड में जमा फाइल जोड़ें"
+
+#: ../src/rejilla-audio-disc.c:158
+msgid "I_nsert a Pause"
+msgstr "एक ठहराव दें (_n)"
+
+#: ../src/rejilla-audio-disc.c:158
+msgid "Add a 2 second pause after the track"
+msgstr "ट्रैक के लिए 2 सेकेंड का ठहराव दें"
+
+#: ../src/rejilla-audio-disc.c:160
+msgid "_Split Track..."
+msgstr "ट्रैक विभाजित करें (_S)..."
+
+#: ../src/rejilla-audio-disc.c:160
+msgid "Split the selected track"
+msgstr "चयनित ट्रैक विभाजित करें"
+
+#: ../src/rejilla-audio-disc.c:327 ../src/rejilla-video-tree-model.c:188
+msgid "Pause"
+msgstr "ठहरें"
+
+#: ../src/rejilla-audio-disc.c:333
+msgid "Split"
+msgstr "विभाजित करें"
+
+#: ../src/rejilla-audio-disc.c:401
+msgid "Track"
+msgstr "ट्रैक"
+
+#: ../src/rejilla-audio-disc.c:441 ../src/rejilla-video-disc.c:1206
+msgid "Title"
+msgstr "शीर्षक"
+
+#: ../src/rejilla-audio-disc.c:467
+msgid "Artist"
+msgstr "कलाकार"
+
+#: ../src/rejilla-audio-disc.c:476 ../src/rejilla-playlist.c:326
+#: ../src/rejilla-split-dialog.c:1222
+msgid "Length"
+msgstr "लंबाई"
+
+#: ../src/rejilla-audio-disc.c:566
+msgid "The track will be padded at its end."
+msgstr "ट्रैक को इसके अंत में पैडेड किया जाएगा."
+
+#: ../src/rejilla-audio-disc.c:567
+msgid "The track is shorter than 6 seconds"
+msgstr "ट्रैक 6 सेकेंड से कम है"
+
+#: ../src/rejilla-audio-disc.c:627
+msgid "Make sure the appropriate codec is installed"
+msgstr "सुनिश्चित करें कि codec संस्थापित है"
+
+#: ../src/rejilla-audio-disc.c:643
+#, c-format
+msgid "Do you want to add \"%s\" which is a video file?"
+msgstr "क्या आप \"%s\" को जोड़ना चाहते हैं जो कि एक वीडियो फ़ाइल है?"
+
+#: ../src/rejilla-audio-disc.c:652
+msgid ""
+"This file is a video and therefore only the audio part can be written to the "
+"disc."
+msgstr "यह फाइल वीडियो है और इसलिए केवल ऑडियो हिस्सा इस डिस्क पर लिखा जाएगा."
+
+#: ../src/rejilla-audio-disc.c:655
+msgid "_Discard File"
+msgstr "फाइल छोड़ें (_D)"
+
+#: ../src/rejilla-audio-disc.c:658 ../src/rejilla-data-disc.c:859
+#: ../src/rejilla-data-disc.c:904
+#: ../librejilla-burn/rejilla-status-dialog.c:193
+#: ../librejilla-burn/rejilla-status-dialog.c:229
+msgid "_Add File"
+msgstr "जोड़ें फ़ाइल (_A)"
+
+#: ../src/rejilla-audio-disc.c:729
+msgid "Do you want to search for audio files inside the directory?"
+msgstr "क्या आप श्रव्य फाइल के लिए निर्देशिका के अंदर खोजना चाहते हैं?"
+
+#: ../src/rejilla-audio-disc.c:734
+msgid "Directories cannot be added to an audio disc."
+msgstr "निर्देशिकाओं को श्रव्य डिस्क में जोड़ी नहीं जा सकती है."
+
+#: ../src/rejilla-audio-disc.c:738
+msgid "Search _Directory"
+msgstr "निर्देशिका खोजें (_D)"
+
+#: ../src/rejilla-audio-disc.c:788 ../src/rejilla-video-disc.c:390
+#, c-format
+msgid "\"%s\" could not be opened."
+msgstr "\"%s\" खोली नहीं जा सकी."
+
+#: ../src/rejilla-audio-disc.c:1204
+msgid "Select one song only please."
+msgstr "केवल एक गाना ही चुनें."
+
+#: ../src/rejilla-audio-disc.c:1205
+msgid "Impossible to split more than one song at a time"
+msgstr "एक समय में एक से अधिक गीत को बांटना असंभव है"
+
+#. Translators: the following string
+#. * means there was an error while
+#. * blanking.
+#: ../librejilla-burn/rejilla-blank-dialog.c:221
+msgid "Error while blanking."
+msgstr "खाली किए जाने के दौरान त्रुटि"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:223
+#: ../librejilla-burn/rejilla-blank-dialog.c:265
+msgid "Blank _Again"
+msgstr "फिर खाली करें (_A)"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:240
+msgid "Unknown error."
+msgstr "अज्ञात त्रुटि."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:260
+msgid "The disc was successfully blanked."
+msgstr "डिस्क को सफलतापूर्वक खाली किया गया."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:263
+msgid "The disc is ready for use."
+msgstr "डिस्क प्रयोग के लिए तैयार है."
+
+#. Translators: This is a verb, an action
+#: ../librejilla-burn/rejilla-blank-dialog.c:358
+msgid "_Blank"
+msgstr "खाली (_B)"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:389
+msgid "_Fast blanking"
+msgstr "तेज रिक्तिकरण (_F)"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:390
+msgid "Activate fast blanking by opposition to a longer thorough blanking"
+msgstr "तेज रिक्तिकरण सक्रिय करें लंबे समग्र रिक्तिकरण के बजाए"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:420
+msgid "Disc Blanking"
+msgstr "डिस्क रिक्तिकरण"
+
+#: ../src/rejilla-playlist.c:305
+msgid "Playlists"
+msgstr "गीत-सूचियाँ"
+
+#: ../src/rejilla-playlist.c:316
+msgid "Number of Songs"
+msgstr "गानों की संख्या"
+
+#: ../src/rejilla-playlist.c:336
+msgid "Genre"
+msgstr "घराना"
+
+#: ../src/rejilla-playlist.c:637
+msgid "Select Playlist"
+msgstr "गीत-सूची चुनें"
+
+#: ../src/rejilla-playlist.c:803
+#, c-format
+msgid "Error parsing playlist \"%s\"."
+msgstr "गीतसूची \"%s\" के विश्लेषण में त्रुटि."
+
+#: ../src/rejilla-playlist.c:806 ../src/rejilla-data-disc.c:218
+#: ../src/rejilla-project.c:2367 ../librejilla-burn/rejilla-sum-dialog.c:161
+#: ../src/rejilla-eject-dialog.c:98
+msgid "An unknown error occured"
+msgstr "एक अनजान त्रुटि उत्पन्न हुई"
+
+#. Translators: %d is the number of songs
+#: ../src/rejilla-playlist.c:912
+#, c-format
+msgid "%d song"
+msgid_plural "%d songs"
+msgstr[0] "%d गीत"
+msgstr[1] "%d गीत"
+
+#: ../src/rejilla-plugin-manager-ui.c:63
+msgid "Plugin"
+msgstr "प्लगइन"
+
+#: ../src/rejilla-plugin-manager-ui.c:64
+msgid "Enabled"
+msgstr "सक्षम"
+
+#: ../src/rejilla-plugin-manager-ui.c:144
+#, c-format
+msgid "Copyright %s"
+msgstr "कॉपीराइट %s"
+
+#: ../src/rejilla-plugin-manager-ui.c:583
+#: ../src/rejilla-plugin-manager-ui.c:952
+msgid "_About"
+msgstr "के बारे में (_A)"
+
+#: ../src/rejilla-plugin-manager-ui.c:591
+#: ../src/rejilla-plugin-manager-ui.c:958
+msgid "C_onfigure"
+msgstr "कॉन्फ़िगर करें (_o)"
+
+#: ../src/rejilla-plugin-manager-ui.c:601
+msgid "A_ctivate"
+msgstr "सक्रिय करें (_c)"
+
+#: ../src/rejilla-plugin-manager-ui.c:613
+msgid "Ac_tivate All"
+msgstr "सभी सक्रिय करें (_t)"
+
+#: ../src/rejilla-plugin-manager-ui.c:618
+msgid "_Deactivate All"
+msgstr "सभी निष्क्रिय करें (_D)"
+
+#. Use the translated name for the plugin.
+#: ../src/rejilla-plugin-option.c:394
+#, c-format
+msgid "Options for plugin %s"
+msgstr "प्लगइन के लिए विकल्प %s"
+
+#: ../src/rejilla-search-entry.c:188
+msgid "Search:"
+msgstr "ढूंढें:"
+
+#: ../src/rejilla-search-entry.c:272
+msgid "In _text documents"
+msgstr "पाठ दस्तावेज़ के भीतर (_t)"
+
+#: ../src/rejilla-search-entry.c:287
+msgid "In _pictures"
+msgstr "तस्वीर में (_p)"
+
+#: ../src/rejilla-search-entry.c:302
+msgid "In _music"
+msgstr "संगीत में (_m)"
+
+#: ../src/rejilla-search-entry.c:317
+msgid "In _videos"
+msgstr "वीडियो में (_v)"
+
+#: ../src/rejilla-search-entry.c:334
+msgid "Type your keywords or choose 'All files' from the menu"
+msgstr "मेन्यू से चुनने के लिए अपना बीजशब्द टाइप करें या 'All files' चुनें"
+
+#: ../src/rejilla-search-entry.c:337
+msgid "Select if you want to search among image files only"
+msgstr "चुनें यदि आप केवल छवि फाइलों में खोजना चाहते हैं"
+
+#: ../src/rejilla-search-entry.c:339
+msgid "Select if you want to search among video files only"
+msgstr "चुनें यदि आप केवल वीडियो फाइलों में खोजना चाहते हैं"
+
+#: ../src/rejilla-search-entry.c:341
+msgid "Select if you want to search among audio files only"
+msgstr "चुनें यदि आप केवल ऑडियो फाइलों में खोजना चाहते हैं"
+
+#: ../src/rejilla-search-entry.c:343
+msgid "Select if you want to search among your text documents only"
+msgstr "चुनें यदि आप केवल पाठ दस्तावेज के बीच में खोजना चाहते हैं"
+
+#: ../src/rejilla-search-entry.c:345
+msgid "Click to start the search"
+msgstr "खोजना आरंभ करने के लिए क्लिक करें"
+
+#: ../src/rejilla-search-beagle.c:325
+msgid "Previous Results"
+msgstr "पिछला परिणाम"
+
+#: ../src/rejilla-search-beagle.c:338 ../src/rejilla-search-beagle.c:799
+msgid "No results"
+msgstr "कोई परिणाम नहीं"
+
+#: ../src/rejilla-search-beagle.c:346
+msgid "Next Results"
+msgstr "अगला परिणाम"
+
+#: ../src/rejilla-search-beagle.c:407 ../src/rejilla-data-disc.c:2331
+#: ../src/rejilla-file-filtered.c:259
+msgid "Files"
+msgstr "फ़ाइल"
+
+#: ../src/rejilla-search-beagle.c:426 ../src/rejilla-data-disc.c:2359
+msgid "Description"
+msgstr "वर्णन"
+
+#: ../src/rejilla-search-beagle.c:485
+msgid "Number of results displayed"
+msgstr "प्रदर्शित परिणामों की संख्या"
+
+#: ../src/rejilla-search-beagle.c:791
+#, c-format
+msgid "Results %i - %i (out of %i)"
+msgstr "परिणाम %i - %i (out of %i)"
+
+#: ../src/rejilla-search-beagle.c:1031
+msgid "Error querying Beagle."
+msgstr "बीगल को प्रश्न करने में त्रुटि"
+
+#: ../src/rejilla-song-properties.c:176
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: ../src/rejilla-song-properties.c:186 ../src/rejilla-song-properties.c:198
+#: ../src/rejilla-song-properties.c:210 ../src/rejilla-multi-song-props.c:210
+#: ../src/rejilla-multi-song-props.c:251 ../src/rejilla-multi-song-props.c:272
+msgid ""
+"This information will be written to the disc using CD-TEXT technology. It "
+"can be read and displayed by some audio CD players."
+msgstr "यह सूचना को डिस्क में CD-TEXT तकनीक के प्रयोग से लिखा जाएगा. इसे कुछ ध्वनि सीडी प्लेयर के द्वारा पढ़ा और दिखाया जा सकता है."
+
+#: ../src/rejilla-song-properties.c:188 ../src/rejilla-multi-song-props.c:241
+msgid "Artist:"
+msgstr "कलाकारः"
+
+#: ../src/rejilla-song-properties.c:200 ../src/rejilla-multi-song-props.c:262
+msgid "Composer:"
+msgstr "लेखक:"
+
+#: ../src/rejilla-song-properties.c:234
+msgid "Song start:"
+msgstr "गीत आरंभ:"
+
+#: ../src/rejilla-song-properties.c:240
+msgid "Song end:"
+msgstr "गीत अंत:"
+
+#: ../src/rejilla-song-properties.c:246 ../src/rejilla-multi-song-props.c:316
+msgid "Pause length:"
+msgstr "ठहराव लंबाई:"
+
+#: ../src/rejilla-song-properties.c:255 ../src/rejilla-multi-song-props.c:327
+msgid "Gives the length of the pause that should follow the track"
+msgstr "ठहराव की लंबाई दें जो ट्रैक का पालन करना चाहिए"
+
+#: ../src/rejilla-song-properties.c:257
+msgid "Track length:"
+msgstr "ट्रैक लंबाई:"
+
+#: ../src/rejilla-song-properties.c:286 ../src/rejilla-multi-song-props.c:344
+msgid "Song Information"
+msgstr "गीत जानकारी"
+
+#: ../src/rejilla-song-properties.c:371
+#, c-format
+msgid "Song information for track %02i"
+msgstr "ट्रैक %02i के लिए गीत जानकारी"
+
+#: ../src/rejilla-data-disc.c:127
+msgid "R_ename..."
+msgstr "फिर नाम दें (_e)..."
+
+#: ../src/rejilla-data-disc.c:127
+msgid "Rename the selected file"
+msgstr "चयनित फाइल का नाम बदलें"
+
+#: ../src/rejilla-data-disc.c:133 ../src/rejilla-data-disc.c:1757
+msgid "New _Folder"
+msgstr "नया फ़ोल्डर (_F)"
+
+#: ../src/rejilla-data-disc.c:133
+msgid "Create a new empty folder"
+msgstr "एक नया खाली फोल्डर बनाएँ"
+
+#: ../src/rejilla-data-disc.c:217
+msgid "The session could not be imported."
+msgstr "यह सत्र आयात नहीं किया जा सका"
+
+#: ../src/rejilla-data-disc.c:563
+msgid "The contents of the project changed since it was saved."
+msgstr "परियोजना की अंतर्वस्तु बदली गई जबसे इसे सहेजा गया था."
+
+#: ../src/rejilla-data-disc.c:565 ../src/rejilla-data-disc.c:572
+msgid "Discard the current modified project"
+msgstr "मौजूदा परिवर्तित परियोजना को छोड़ें"
+
+#: ../src/rejilla-data-disc.c:571
+msgid "_Discard"
+msgstr "त्यागें (_D)"
+
+#: ../src/rejilla-data-disc.c:577
+msgid "Continue with the current modified project"
+msgstr "मौजूदा परिवर्तित परियोजना के साथ जारी रखें"
+
+#: ../src/rejilla-data-disc.c:684 ../src/rejilla-data-disc.c:705
+#: ../src/rejilla-data-disc.c:726
+#, c-format
+msgid "\"%s\" cannot be added to the selection."
+msgstr "\"%s\" को चयन में जोड़ा नहीं जा सकता है."
+
+#: ../src/rejilla-data-disc.c:708
+msgid "It is a recursive symlink"
+msgstr "यह पुनरावर्ती सांकेतिक कड़ी है"
+
+#: ../src/rejilla-data-disc.c:729
+msgid "It does not exist at the specified location"
+msgstr "यह निर्दिष्ट स्थान पर मौजूद नहीं है"
+
+#: ../src/rejilla-data-disc.c:747
+#: ../librejilla-burn/rejilla-status-dialog.c:254
+msgid "Should files be renamed to be fully Windows-compatible?"
+msgstr "क्या फ़ाइलों को विंडोज संगत के रूप में पूर्ण रूप से फिर नाम दिया जाना चाहिए?"
+
+#: ../src/rejilla-data-disc.c:752
+#: ../librejilla-burn/rejilla-status-dialog.c:258
+msgid "Those names should be changed and truncated to 64 characters."
+msgstr "वे नाम बदले जाने चाहिए और 64 वर्ण तक काटे जाने चाहिए."
+
+#: ../src/rejilla-data-disc.c:756
+#: ../librejilla-burn/rejilla-status-dialog.c:266
+msgid "_Rename for Full Windows Compatibility"
+msgstr "पूर्ण विंडोज़ सुसंगतता के लिए नाम बदलें (_R)"
+
+#: ../src/rejilla-data-disc.c:757
+#: ../librejilla-burn/rejilla-status-dialog.c:263
+msgid "_Disable Full Windows Compatibility"
+msgstr "पूर्ण विंडोज़ सुसंगतता निष्क्रिय करें (_D)"
+
+#. Translators: %s is the name of the file
+#: ../src/rejilla-data-disc.c:790
+#, c-format
+msgid "Do you want to replace \"%s\"?"
+msgstr "क्या आप \"%s\" को बदलना चाहते हैं?"
+
+#: ../src/rejilla-data-disc.c:798
+msgid ""
+"A file with this name already exists in the folder.  Replacing it will "
+"overwrite its content (on the disc only)."
+msgstr "इस नाम के साथ फ़ाइल पहले से फोल्डर में मौजूद है.  इसे बदलना इसकी अंतर्वस्तु पर लिख देगा (केवल डिस्क पर)."
+
+#. Translators: Keep means we're keeping the files that already existed
+#. * in the project.
+#. * Keep is a verb
+#: ../src/rejilla-data-disc.c:803
+msgid "Always K_eep"
+msgstr "हमेशा बनाए रखें (_e)"
+
+#. Translators: Keep means we're keeping the files that already existed
+#. * in the project.
+#. * Keep is a verb
+#: ../src/rejilla-data-disc.c:807
+#| msgid "_Help"
+msgid "_Keep"
+msgstr "बनाए रखें (_K)"
+
+#. Translators: Replace means we're replacing the file that already
+#. * existed in the project with a new one with the same name.
+#. * Replace is a verb
+#. Translators: this is a verb
+#: ../src/rejilla-data-disc.c:811 ../src/rejilla-rename.c:345
+msgid "_Replace"
+msgstr "बदलें (_R)"
+
+#. Translators: Replace means we're replacing the file that already
+#. * existed in the project with a new one with the same name.
+#. * Replace is a verb
+#: ../src/rejilla-data-disc.c:815
+#| msgid "_Replace"
+msgid "Al_ways Replace"
+msgstr "हमेशा बदलें (_w)"
+
+#: ../src/rejilla-data-disc.c:845
+#: ../librejilla-burn/rejilla-status-dialog.c:214
+#, c-format
+msgid ""
+"Do you really want to add \"%s\" to the selection and use the third version "
+"of ISO9660 standard to support it?"
+msgstr "क्या आप वाकई \"%s\" को चयन में जोड़ना चाहते हैं और ISO9660 मानक के तीसरे संस्करण को इसे समर्थन देने के लिए प्रयोग करना चाहते हैं?"
+
+#: ../src/rejilla-data-disc.c:853
+#: ../librejilla-burn/rejilla-status-dialog.c:224
+msgid ""
+"The size of the file is over 2 GiB. Files larger than 2 GiB are not "
+"supported by ISO9660 standard in its first and second versions (the most "
+"widespread ones).\n"
+"It is recommended to use the third version of ISO9660 standard which is "
+"supported by most of the operating systems including Linux and all versions "
+"of Windows ©.\n"
+"However MacOS X cannot read images created with version 3 of ISO9660 "
+"standard."
+msgstr ""
+"फाइल का आकार 2 GiB  से अधिक है. 2 GiB से अधिक फ़ाइल को ISO9660 मानक के आधार पर समर्थित नहीं है इसके पहले और दूसरे संस्करण में (जो अधिक लोकप्रिय है).\n"
+"इसकी सलाह दी जाती है कि ISO9660 मानक के तीसरे संस्करण का प्रयोग करें जो अधिकतर ऑपरेटिंग तंत्र के द्वारा समर्थित है निनक्स और Windows © के सभी संस्करण में.\n"
+"हालांकि MacOS X ISO9660 मानक के तीसरे संस्करण से बनाई गई छवि नहीं पढ़ सकता है."
+
+#: ../src/rejilla-data-disc.c:857 ../src/rejilla-data-disc.c:902
+#| msgid "_Add Files"
+msgid "Ne_ver Add Such File"
+msgstr "कभी ऐसी फाइल मत जोड़ें (_v)"
+
+#: ../src/rejilla-data-disc.c:860 ../src/rejilla-data-disc.c:905
+msgid "Al_ways Add Such File"
+msgstr "ऐसी फाइलें हमेशा जोड़े (_w)"
+
+#: ../src/rejilla-data-disc.c:890
+#: ../librejilla-burn/rejilla-status-dialog.c:178
+#, c-format
+msgid "Do you really want to add \"%s\" to the selection?"
+msgstr "क्या आप \"%s\" चयन में जोड़ना चाहते हैं?"
+
+#: ../src/rejilla-data-disc.c:898
+#: ../librejilla-burn/rejilla-status-dialog.c:188
+msgid ""
+"The children of this directory will have 7 parent directories.\n"
+"Rejilla can create an image of such a file hierarchy and burn it; but the "
+"disc may not be readable on all operating systems.\n"
+"NOTE: Such a file hierarchy is known to work on linux."
+msgstr ""
+"इस निर्देशिका की संतति के पास 7 जनक निर्देशिका रहेगी.\n"
+"ब्रैसेरो ऐसी फ़ाइल पदक्रम की एक छवि बनाएगी और इसे लिखेगी; लेकिन डिस्क सभी ऑपरेटिंग तंत्र पर पठनीय नहीं होगी.\n"
+"नोट: ऐसा फाइल पदक्रम लिनक्स पर काम करने वाला माना जाता है."
+
+#. Translators: %s is a string describing the type of medium and the
+#. * drive it is in. It's a tooltip.
+#: ../src/rejilla-data-disc.c:1000
+#, c-format
+msgid "Import %s"
+msgstr "%s आयात करें"
+
+#. Translators: %s is the name of the volume to import. It's a menu
+#. * entry and toolbar button (text added later).
+#: ../src/rejilla-data-disc.c:1007
+#, c-format
+msgid "I_mport %s"
+msgstr "%s आयात करें (_m)"
+
+#. Translators: This is a verb. It's a toolbar button.
+#: ../src/rejilla-data-disc.c:1037
+msgid "I_mport"
+msgstr "आयात करें (_m)"
+
+#. Translators: %s is the name of the volume to import
+#: ../src/rejilla-data-disc.c:1119
+#, c-format
+msgid "Do you want to import the session from '%s'?"
+msgstr "क्या आप '%s' से सत्र आयात करना चाहते हैं?"
+
+#: ../src/rejilla-data-disc.c:1122
+msgid "That way, old files from previous sessions will be usable after burning."
+msgstr "उस तरह से, पिछले सत्र से पुरानी फाइलें लिखने के बाद प्रयोग लायक होगी."
+
+#: ../src/rejilla-data-disc.c:1133
+msgid "I_mport Session"
+msgstr "सत्र आयात करें (_m)"
+
+#: ../src/rejilla-data-disc.c:1134
+msgid "Click here to import its contents"
+msgstr "इसकी अंतर्वस्तु आयात करने के लिए यहाँ क्लिक करें"
+
+#: ../src/rejilla-data-disc.c:1486
+msgid "Please wait while the project is loading."
+msgstr "कृपया प्रतीक्षा करें जबकि परियोजना लोड कर रहा है."
+
+#: ../src/rejilla-data-disc.c:1497
+msgid "_Cancel Loading"
+msgstr "लोड करना रद्द करें (_C)"
+
+#: ../src/rejilla-data-disc.c:1498
+msgid "Cancel loading current project"
+msgstr "मौजूदा परियोजना की लोडिंग रद्द करें"
+
+#: ../src/rejilla-data-disc.c:1902
+msgid "File Renaming"
+msgstr "फ़ाइल का पुनर्नामकरण"
+
+#: ../src/rejilla-data-disc.c:1906
+msgid "_Rename"
+msgstr "नाम बदलें (_R)"
+
+#: ../src/rejilla-data-disc.c:1914
+msgid "Renaming mode"
+msgstr "पुनर्नामकरण मोड"
+
+#: ../src/rejilla-data-disc.c:2345 ../src/rejilla-video-disc.c:1224
+msgid "Size"
+msgstr "आकार"
+
+#: ../src/rejilla-data-disc.c:2375
+msgid "Space"
+msgstr "खाली जगह"
+
+#: ../src/rejilla-file-chooser.c:232 ../src/rejilla-project.c:2055
+#| msgid "Audio %s"
+msgid "Audio files"
+msgstr "ध्वनि फाइल"
+
+#: ../src/rejilla-file-chooser.c:240 ../src/rejilla-project.c:2064
+#| msgid "Minutes"
+msgid "Movies"
+msgstr "मूवी"
+
+#: ../src/rejilla-layout.c:103
+msgid "P_review"
+msgstr "पूर्वावलोकन (_r)"
+
+#. Translators: this is an image, a picture, not a "Disc Image"
+#: ../src/rejilla-layout.c:105
+msgid "Display video, audio and image preview"
+msgstr "वीडियो, ऑडियो और छवि पूर्वावलोकन दिखाएँ"
+
+#: ../src/rejilla-layout.c:109
+msgid "_Show Side Panel"
+msgstr "बाजू पटल दिखाएँ (_S)"
+
+#: ../src/rejilla-layout.c:110
+msgid "Show a side pane along the project"
+msgstr "परियोजना के साथ बाजू फलक दिखाएँ"
+
+#: ../src/rejilla-layout.c:124
+msgid "_Horizontal Layout"
+msgstr "क्षैतिज खाका (_H)"
+
+#: ../src/rejilla-layout.c:125
+msgid "Set an horizontal layout"
+msgstr "क्षैतिज खाका सेट करें"
+
+#: ../src/rejilla-layout.c:127
+msgid "_Vertical Layout"
+msgstr "लंबबत खाका (_V)"
+
+#: ../src/rejilla-layout.c:128
+msgid "Set a vertical layout"
+msgstr "लंबबत खाका सेट करें"
+
+#: ../src/rejilla-layout.c:1481
+msgid "Click to close the side pane"
+msgstr "बाजू फलक को बंद करने के लिए क्लिक करें"
+
+#. *
+#. * Translators: this is the position being played in the stream. The
+#. * first %s is the position and the second %s is the whole length of
+#. * the stream. I chose to make that translatable in case some languages
+#. * don't allow the "/"
+#: ../src/rejilla-player.c:271
+#, c-format
+msgid "%s / %s"
+msgstr "%s / %s"
+
+#: ../src/rejilla-player.c:395
+msgid "No file"
+msgstr "कोई फाइल नहीं"
+
+#: ../src/rejilla-player.c:437
+msgid "Start and stop playing"
+msgstr "चलाना आरंभ करें या रोकें"
+
+#: ../src/rejilla-player.c:806
+msgid "Name:"
+msgstr "नाम:"
+
+#: ../src/rejilla-player.c:813
+#, c-format
+msgid ""
+"<span weight=\"bold\">Size:</span>\t<i><span size=\"smaller\"> %i x %i "
+"pixels</span></i>"
+msgstr ""
+"<span weight=\"bold\">Size:</span>\t<i><span size=\"smaller\"> %i x %i "
+"pixels</span></i>"
+
+#: ../src/rejilla-player.c:836
+#, c-format
+msgid ""
+"<span weight=\"bold\">%s</span>\n"
+"by <span size=\"smaller\"><i>%s</i></span>"
+msgstr ""
+"<span weight=\"bold\">%s</span>\n"
+"<span size=\"smaller\"><i>%s</i></span> के द्वारा"
+
+#: ../src/rejilla-player.c:1055
+#, c-format
+msgid ""
+"<span weight=\"bold\">Loading information</span>\n"
+"about <span size=\"smaller\"><i>%s</i></span>"
+msgstr ""
+"<span weight=\"bold\">सूचना लोड कर रहा है</span>\n"
+"about <span size=\"smaller\"><i>%s</i></span>"
+
+#: ../src/rejilla-project.c:194
+msgid "Save current project"
+msgstr "मौजूदा परियोजना सहेजें"
+
+#: ../src/rejilla-project.c:195
+msgid "Save _As..."
+msgstr "ऐसे सहेजें... (_A)"
+
+#: ../src/rejilla-project.c:196
+msgid "Save current project to a different location"
+msgstr "भिन्न स्थान पर मौजूदा परियोजना सहेजें"
+
+#: ../src/rejilla-project.c:197
+msgid "_Add Files"
+msgstr "फाइल जोड़ें (_A)"
+
+#: ../src/rejilla-project.c:198
+msgid "Add files to the project"
+msgstr "परियोजना में फ़ाइल जोड़ें"
+
+#: ../src/rejilla-project.c:199
+msgid "_Remove Files"
+msgstr "फ़ाइल हटाएँ (_R)"
+
+#. Translators: "empty" is a verb here
+#: ../src/rejilla-project.c:202 ../src/rejilla-project.c:2138
+msgid "E_mpty Project"
+msgstr "परियोजना खाली करें (_m)"
+
+#: ../src/rejilla-project.c:203
+msgid "Remove all files from the project"
+msgstr "परियोजना से सभी फाइल हटाएँ"
+
+#. burn button set insensitive since there are no files in the selection
+#: ../src/rejilla-project.c:204 ../src/rejilla-project.c:1107
+msgid "_Burn..."
+msgstr "लिखें (_B)..."
+
+#: ../src/rejilla-project.c:205
+msgid "Burn the disc"
+msgstr "डिस्क लिखें"
+
+#. Translators: this messages will appear as a list of possible
+#. * actions, like:
+#. *   To add/remove files you can:
+#. *      * perform action one
+#. *      * perform action two
+#. * The full message will be showed in the main area of an empty
+#. * project, suggesting users how to add and remove items to project.
+#. * You simply have to translate messages in the best form
+#. * for a list of actions.
+#: ../src/rejilla-project.c:696
+msgid "To add files to this project you can:"
+msgstr "फाइल जोड़ने के लिए आप कर सकते हैं:"
+
+#: ../src/rejilla-project.c:699
+msgid "click the \"Add\" button to show a selection dialog"
+msgstr "\"Add\" बटन को चयन संवाद दिखाने के लिए क्लिक करें"
+
+#: ../src/rejilla-project.c:701
+msgid "select files in the selection pane and click the \"Add\" button"
+msgstr "चयन पट्टी में फाइल चुनें और \"Add\" बटन पर क्लिक करें"
+
+#: ../src/rejilla-project.c:703
+msgid "drag files in this area from the selection pane or from the file manager"
+msgstr "चयन फलक या फाइल प्रबंधक से फाइलों को इस क्षेत्र में खींचें"
+
+#: ../src/rejilla-project.c:705
+msgid "double click on files in the selection pane"
+msgstr "चयन पट्टी में फाइलों को दोहरा क्लिक करें"
+
+#: ../src/rejilla-project.c:707
+msgid "copy files (from file manager for example) and paste in this area"
+msgstr "फाइलों की नक़ल लें (फ़ाइल प्रबंधक से उदाहरण के लिए) और इस क्षेत्र में चिपकाएँ"
+
+#: ../src/rejilla-project.c:710
+msgid "To remove files from this project you can:"
+msgstr "फ़ाइल को परियोजना से हटाने के लिए आप कर सकते हैं:"
+
+#: ../src/rejilla-project.c:713
+msgid "click on the \"Remove\" button to remove selected items in this area"
+msgstr "\"Remove\" बटन पर क्लिक करें इस क्षेत्र में चुने गए मद को हटाने के लिए"
+
+#: ../src/rejilla-project.c:715
+msgid "select items in this area, and choose \"Remove\" from context menu"
+msgstr "इस क्षेत्र में मद चुनें, और \"Remove\" को संदर्भ मेन्यू से चुनें"
+
+#: ../src/rejilla-project.c:717
+msgid "select items in this area, and press \"Delete\" key"
+msgstr "इस क्षेत्र में मद चुनें, और \"Delete\" कुंजी दबाएँ"
+
+#: ../src/rejilla-project.c:825
+#, c-format
+msgid "Project estimated size: %s"
+msgstr "परियोजना अनुमानित आकार: %s"
+
+#: ../src/rejilla-project.c:970 ../src/rejilla-project.c:987
+msgid ""
+"The size of the project is too large for the disc even with the overburn "
+"option."
+msgstr "इस परियोजना का आकार काफी बड़ा है डिस्क के लिए यहाँ तक कि अतिलेखन विकल्प के साथ."
+
+#: ../src/rejilla-project.c:998
+msgid ""
+"The size of the project is too large for the disc and you must remove files "
+"from the project otherwise.\n"
+"You may want to use this option if you're using 90 or 100 min CD-R(W) which "
+"cannot be properly recognised and therefore need overburn option.\n"
+"NOTE: This option might cause failure."
+msgstr ""
+"इस परियोजना का आकार काफी बड़ा है डिस्क के लिए आप फाइलों को अन्यथा परियोजना से जरूर हटाएँ.\n"
+"आप इस विकल्प का प्रयोग कर सकते हैं यदि आर 90 या 100 मिनट CD-R(W) का प्रयोग कर रहे हैं जो कि ठीक से पहचाना नहीं जा सकता है और इसलिए अतिलेखन विकल्प की जरूरत है.\n"
+"नोट: यह विकल्प विफलता का कारण बन सकती है."
+
+#: ../src/rejilla-project.c:1119
+msgid "Start to burn the contents of the selection"
+msgstr "चयन की अंतर्वस्तु लिखना आरंभ करें"
+
+#: ../src/rejilla-project.c:1279
+msgid "Please add songs to the project."
+msgstr "कृपया गाने को परियोजना में जोड़ें."
+
+#: ../src/rejilla-project.c:1288 ../src/main.c:246
+msgid "Please add files to the project."
+msgstr "कृपया फाइल को परियोजना में जोड़ें."
+
+#: ../src/rejilla-project.c:1755
+msgid ""
+"Do you really want to create a new project and discard the changes to "
+"current one?"
+msgstr "क्या आप वाकई नई परियोजना बनाना चाहते हैं और मौजूदा में किए गए परिवर्तन को छोड़ना चाहते हैं?"
+
+#: ../src/rejilla-project.c:1760
+msgid "If you choose to create a new project, all changes made will be lost."
+msgstr "यदि आप नई परियोजना बनाने के लिए चुनते हैं, सभी परिवर्तन नष्ट हो जाएंगे."
+
+#: ../src/rejilla-project.c:1762
+msgid "_Discard Changes"
+msgstr "बदलावों को छोड़ें (_D)"
+
+#: ../src/rejilla-project.c:1770
+msgid "Do you really want to create a new project and discard the current one?"
+msgstr "क्या आप वाकई नई परियोजना बनाना चाहते हैं और मौजूदा को छोड़ना चाहते हैं?"
+
+#: ../src/rejilla-project.c:1775
+msgid ""
+"If you choose to create a new project, all files already added will be "
+"discarded. Note that files will not be deleted from their own location, just "
+"no longer listed here."
+msgstr "यदि आप नई परियोजना बनाने के लिए चुनते हैं जोड़ी गई सभी फ़ाइलें पहले से छोड़ दी जाएगी. नोट करें कि फ़ाइल को इसके अपने स्थान से मिटाया नहीं जाएगा, केवल यहाँ सूचीबद्ध नहीं रह जाएगा."
+
+#: ../src/rejilla-project.c:1780
+msgid "_Discard Project"
+msgstr "परियोजना छोड़ें (_D)"
+
+#: ../src/rejilla-project.c:2013
+msgid "Select Files"
+msgstr "फ़ाइल चुनें"
+
+#: ../src/rejilla-project.c:2127
+msgid "Do you really want to empty the current project?"
+msgstr "क्या आप वाकई मौजूदा परियोजना को खाली करना चाहते हैं?"
+
+#: ../src/rejilla-project.c:2132
+msgid ""
+"Emptying a project will remove all files already added. All the work will be "
+"lost. Note that files will not be deleted from their own location, just no "
+"longer listed here."
+msgstr "किसी परियोजना को खाली करना जोड़ी गई सभी पहले की फाइलों को हटा देगा. सभी कार्य नष्ट हो जाएंगे. नोट करें कि फाइल जो मिटाई नहीं जाएगी इनके अपने स्थान से, बस अब केवल सूचीबद्ध नहीं है."
+
+#: ../src/rejilla-project.c:2189
+msgid "_Save"
+msgstr "सहेजें (_S)"
+
+#: ../src/rejilla-project.c:2200
+msgid "_Add"
+msgstr "जोड़ें (_A)"
+
+#: ../src/rejilla-project.c:2205 ../src/rejilla-split-dialog.c:1252
+msgid "_Remove"
+msgstr "हटाएं (_R)"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2268
+#, c-format
+msgid "Rejilla - %s (Data Disc)"
+msgstr "ब्रैसेरो - %s (डेटा डिस्क)"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2271
+#, c-format
+msgid "Rejilla - %s (Audio Disc)"
+msgstr "ब्रैसेरो - %s (ऑडियो डिस्क)"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2274
+#, c-format
+msgid "Rejilla - %s (Video Disc)"
+msgstr "ब्रैसेरो - %s (वीडियो डिस्क)"
+
+#: ../src/rejilla-project.c:2366 ../src/rejilla-project.c:2680
+msgid "Your project has not been saved."
+msgstr "आपकी परियोजना सहेजी गई है."
+
+#: ../src/rejilla-project.c:2380
+msgid "Save the changes of current project before closing?"
+msgstr "बंद करने के पहले मौजूदा परियोजना के बदलावों को सहेजें?"
+
+#: ../src/rejilla-project.c:2385 ../src/rejilla-project.c:2685
+msgid "If you don't save, changes will be permanently lost."
+msgstr "यदि आप सहेजते नहीं है परिवर्तन स्थायी रूप से नष्ट हो जाएँगी."
+
+#: ../src/rejilla-project.c:2389 ../src/rejilla-project.c:2395
+#: ../src/rejilla-project.c:2688
+msgid "Cl_ose Without Saving"
+msgstr "बिना सहेजें बंद करें (_o)"
+
+#: ../src/rejilla-project.c:2489
+msgid "Save Current Project"
+msgstr "सहेजें मौज़ूदा परियोजना"
+
+#: ../src/rejilla-project.c:2507
+msgid "Save project as Rejilla audio project"
+msgstr "बतौर ब्रैसेरो ऑडियो परियोजना सहेजें"
+
+#: ../src/rejilla-project.c:2508
+msgid "Save project as a plain text list"
+msgstr "बतौर सादा पाठ सूची परियोजना सहेजें"
+
+#: ../src/rejilla-project.c:2512
+msgid "Save project as a PLS playlist"
+msgstr "बतौर पीएलएस प्लेलिस्ट परियोजना सहेजें"
+
+#: ../src/rejilla-project.c:2513
+msgid "Save project as an M3U playlist"
+msgstr "बतौर एम3यू प्लेलिस्ट परियोजना सहेजें"
+
+#: ../src/rejilla-project.c:2514
+msgid "Save project as a XSPF playlist"
+msgstr "बतौर XSPF गीतसूची परियोजना सहेजें"
+
+#: ../src/rejilla-project.c:2515
+msgid "Save project as an IRIVER playlist"
+msgstr "बतौर IRIVER गीतसूची परियोजना सहेजें"
+
+#: ../src/rejilla-project-manager.c:104
+msgid "_Cover Editor"
+msgstr "आवरण संपादक (_C)"
+
+#: ../src/rejilla-project-manager.c:105
+msgid "Design and print covers for CDs"
+msgstr "सीडी के लिए आवरण डिजायन करें और छापें"
+
+#: ../src/rejilla-project-manager.c:106
+msgid "_New Project"
+msgstr "नया प्रोजेक्ट (_N)"
+
+#: ../src/rejilla-project-manager.c:107
+msgid "Create a new project"
+msgstr "नया प्रोजेक्ट बनाएं"
+
+#: ../src/rejilla-project-manager.c:108
+msgid "_Empty Project"
+msgstr "खाली परियोजना (_E)"
+
+#: ../src/rejilla-project-manager.c:109
+msgid "Let you choose your new project"
+msgstr "आपको नई परियोजना चुनने की छूट देता है"
+
+#: ../src/rejilla-project-manager.c:110
+msgid "New _Audio Project"
+msgstr "नई ऑडियो परियोजना (_A)"
+
+#: ../src/rejilla-project-manager.c:111
+#: ../src/rejilla-project-type-chooser.c:74
+msgid "Create a traditional audio CD that will be playable on computers and stereos"
+msgstr "कोई पारंपरिक ऑडियो सीडी बनाएँ जो कि कंप्यूटर और स्टीरियो पर बजने लायक हो"
+
+#: ../src/rejilla-project-manager.c:112
+msgid "New _Data Project"
+msgstr "नया डाटा परियोजना (_D)"
+
+#: ../src/rejilla-project-manager.c:113
+#: ../src/rejilla-project-type-chooser.c:79
+msgid ""
+"Create a CD/DVD containing any type of data that can only be read on a "
+"computer"
+msgstr "कोई सीडी/डीवीडी बनाएँ जो किसी प्रकार का आँकड़ा समाहित करता है जो किसी कंप्यूटर पर पढ़ा जा सके"
+
+#: ../src/rejilla-project-manager.c:114
+msgid "New _Video Project"
+msgstr "नया वीडियो परियोजना (_V)"
+
+#: ../src/rejilla-project-manager.c:115
+#: ../src/rejilla-project-type-chooser.c:84
+msgid "Create a video DVD or a SVCD that are readable on TV readers"
+msgstr "एक विडियो डीवीडी या एसवीसीडी बनाएँ जो कि टीवी रीडर पर पढ़ने योग्य हो"
+
+#: ../src/rejilla-project-manager.c:116
+msgid "Copy _Disc..."
+msgstr "डिस्क की नकल लें (_D)..."
+
+#: ../src/rejilla-project-manager.c:117
+#: ../src/rejilla-project-type-chooser.c:89
+msgid ""
+"Create a 1:1 copy of an audio CD or a data CD/DVD on your hard disk or on "
+"another CD/DVD"
+msgstr "किसी ऑडियो सीडी का 1:1 नक़ल बनाएँ या अपने हार्ड डिस्क पर डेटा CD/DVD किसी दूसरे CD/DVD पर"
+
+#: ../src/rejilla-project-manager.c:118
+msgid "_Burn Image..."
+msgstr "छवि लिखें (_B)..."
+
+#: ../src/rejilla-project-manager.c:119
+#: ../src/rejilla-project-type-chooser.c:93
+#: ../src/rejilla-project-type-chooser.c:94
+msgid "Burn an existing CD/DVD image to disc"
+msgstr "मौजूदा सीडी/डीवीडी छवि को डिस्क में लिखें"
+
+#: ../src/rejilla-project-manager.c:121
+msgid "_Open..."
+msgstr "खोलें (_O)..."
+
+#: ../src/rejilla-project-manager.c:122
+msgid "Open a project"
+msgstr "प्रोजेक्ट खोलें"
+
+#: ../src/rejilla-project-manager.c:260
+#, c-format
+msgid "%d file selected (%s)"
+msgid_plural "%d files selected (%s)"
+msgstr[0] "%d फ़ाइल चुना (%s)"
+msgstr[1] "%d फ़ाइल चुना (%s)"
+
+#: ../src/rejilla-project-manager.c:271
+#, c-format
+msgid "%d file is supported (%s)"
+msgid_plural "%d files are supported (%s)"
+msgstr[0] "%d फाइल समर्थित है (%s)"
+msgstr[1] "%d फाइलें समर्थित हैं (%s)"
+
+#: ../src/rejilla-project-manager.c:277
+#, c-format
+msgid "%d file can be added (%s)"
+msgid_plural "%d selected files can be added (%s)"
+msgstr[0] "%d फाइल को जोड़ी जा सकती है (%s)"
+msgstr[1] "%d चुनी फाइल को जोड़ी जा सकती है (%s)"
+
+#: ../src/rejilla-project-manager.c:288
+#, c-format
+msgid "No file can be added (%i selected file)"
+msgid_plural "No file can be added (%i selected files)"
+msgstr[0] "कोई फाइल जोड़ी जा सकती है (%i चयनित फाइल)"
+msgstr[1] "कोई फाइल जोड़ी जा सकती है (%i चयनित फाइलें)"
+
+#: ../src/rejilla-project-manager.c:293
+#, c-format
+msgid "No file is supported (%i selected file)"
+msgid_plural "No file is supported (%i selected files)"
+msgstr[0] "कोई फाइल समर्थित नहीं है (%i चयनित फाइल)"
+msgstr[1] "कोई फाइल समर्थित नहीं है (%i चयनित फाइलें)"
+
+#: ../src/rejilla-project-manager.c:299 ../src/rejilla-project-manager.c:453
+msgid "No file selected"
+msgstr "कोई फ़ाइल चयनित नहीं"
+
+#: ../src/rejilla-project-manager.c:557
+msgid "Rejilla - New Audio Disc Project"
+msgstr "ब्रैसेरो - नया ऑडियो डिस्क परियोजना"
+
+#: ../src/rejilla-project-manager.c:571
+msgid "Rejilla - New Data Disc Project"
+msgstr "ब्रैसेरो - नया डाटा डिस्क परियोजना"
+
+#: ../src/rejilla-project-manager.c:585
+msgid "Rejilla - New Video Disc Project"
+msgstr "ब्रैसेरो - नया वीडियो डिस्क परियोजना"
+
+#: ../src/rejilla-project-manager.c:595
+msgid "Rejilla - New Image File"
+msgstr "ब्रैसेरो - नया छवि फ़ाइल"
+
+#: ../src/rejilla-project-manager.c:612
+msgid "Rejilla - Disc Copy"
+msgstr "ब्रैसेरो - डिस्क नक़ल"
+
+#: ../src/rejilla-project-manager.c:793
+msgid "Open Project"
+msgstr "परियोजना खोलें"
+
+#: ../src/rejilla-project-manager.c:895
+msgid "_New"
+msgstr "नया (_N)"
+
+#: ../src/rejilla-project-manager.c:899
+msgid "_Open"
+msgstr "खोलें (_O)"
+
+#: ../src/rejilla-project-manager.c:950
+msgid "Browse the file system"
+msgstr "फाइल तंत्र ब्रॉउज करें"
+
+#: ../src/rejilla-project-manager.c:973
+msgid "Search files using keywords"
+msgstr "बीजशब्द से फाइल खोज रहा है"
+
+#: ../src/rejilla-project-manager.c:993
+msgid "Display playlists and their contents"
+msgstr "गीतसूची और उनकी अंतर्वस्तु दिखाएँ"
+
+#: ../src/rejilla-project-type-chooser.c:72
+msgid "Audi_o project"
+msgstr "ऑडियो परियोजना (_o)"
+
+#: ../src/rejilla-project-type-chooser.c:73
+msgid "Create a traditional audio CD"
+msgstr "कोई पारंपरिक ऑडियो CD बनाएँ"
+
+#: ../src/rejilla-project-type-chooser.c:77
+msgid "D_ata project"
+msgstr "डेटा परियोजना (_a)"
+
+#: ../src/rejilla-project-type-chooser.c:78
+msgid "Create a data CD/DVD"
+msgstr "कोई आँकड़ा सीडी/डीवीडी बनाएँ"
+
+#: ../src/rejilla-project-type-chooser.c:82
+msgid "_Video project"
+msgstr "वीडियो परियोजना (_V)"
+
+#: ../src/rejilla-project-type-chooser.c:83
+msgid "Create a video DVD or a SVCD"
+msgstr "कोई विडियो डीवीडी या एसवीसीडी बनाएँ"
+
+#: ../src/rejilla-project-type-chooser.c:87
+msgid "Disc _copy"
+msgstr "डिस्क की नक़ल लें (_c)"
+
+#: ../src/rejilla-project-type-chooser.c:88
+msgid "Create 1:1 copy of a CD/DVD"
+msgstr "CD/DVD की 1:1नकल लें"
+
+#: ../src/rejilla-project-type-chooser.c:92
+msgid "Burn _image"
+msgstr "छवि लिखें (_i)"
+
+#: ../src/rejilla-project-type-chooser.c:291
+msgid "Last _Unsaved Project"
+msgstr "अंतिम बिना सहेजी परियोजना (_U)"
+
+#: ../src/rejilla-project-type-chooser.c:306
+msgid "Load the last project that was not burnt and not saved"
+msgstr "अंतिम परियोजना लोड करें जो नहीं लिखी गई थी और नहीं सहेजी गई थी"
+
+#: ../src/rejilla-project-type-chooser.c:412
+msgid "No recently used project"
+msgstr "कोई हाल में प्रयुक्त परियोजना नहीं"
+
+#: ../src/rejilla-project-type-chooser.c:474
+msgid "Create a new project:"
+msgstr "नई परियोजना बनाएँ:"
+
+#: ../src/rejilla-project-type-chooser.c:520
+msgid "Recent projects:"
+msgstr "हालिया परियोजना:"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:129
+#: ../librejilla-burn/rejilla-sum-dialog.c:207
+msgid "Check _Again"
+msgstr "फिर जाँचें (_A)"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:160
+#: ../librejilla-burn/rejilla-sum-dialog.c:506
+msgid "The file integrity check could not be performed."
+msgstr "फाइल अखंडता जाँच नहीं की जा सकी."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:173
+msgid "The file integrity was performed successfully."
+msgstr "फाइल अखंडता जाँच सफलतापूर्वक की जा सकी."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:174
+msgid "There seems to be no corrupted file on the disc"
+msgstr "डिस्क पर कोई खराब फाइल नहीं दिखती है"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:202
+msgid "The following files appear to be corrupted:"
+msgstr "निम्न फाइल खराब दिखती है:"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:242
+msgid "Corrupted Files"
+msgstr "खराब फ़ाइल"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:334
+msgid "Downloading md5 file"
+msgstr "md5 फाइल डाउनलोड किया जा रहा है"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:389
+#, c-format
+msgid "\"%s\" is not a valid URI"
+msgstr "\"%s\" एक वैध URI नहीं है"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:507
+msgid "No md5 file was given."
+msgstr "कोई md5 फ़ाइल नहीं दिया गया."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:683
+msgid "Use a _md5 file to check the disc"
+msgstr "किसी md5 फ़ाइल को डिस्क को जाँचने के लिए प्रयोग करें (_m)"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:684
+msgid "Use an external .md5 file that stores the checksum of a disc"
+msgstr "किसी बाहरी का प्रयोग करें .md5 फ़ाइल जो डिस्क के checksum को जमा करता है"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:697
+msgid "Open a md5 file"
+msgstr "एक md5 फाइल खोलें"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:712
+msgid "_Check"
+msgstr "जांचें (_C)"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:743
+msgid "Disc Checking"
+msgstr "डिस्क जांच कर रहा है"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:136
+#, c-format
+msgid "Estimated size: %s"
+msgstr "अनुमानित आकार: %s"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:471
+#| msgid "Size mismatch"
+msgid "Size Estimation"
+msgstr "आकार अनुमान"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:473
+msgid "Please wait until the estimation of the size is completed."
+msgstr "कृपया प्रतीक्षा करें जब तक कि आकार का अनुमान पूर्ण नहीं हो जाता है."
+
+#: ../librejilla-burn/rejilla-status-dialog.c:474
+msgid "All files need to be analysed to complete this operation."
+msgstr "सभी फ़ाइलें इस संक्रिया के पूरा किए जाने के लिए विश्लेषित की जानी है."
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:77
+#: ../librejilla-burn/rejilla-tool-dialog.c:91
+#: ../librejilla-burn/rejilla-tool-dialog.c:101
+msgid "The operation cannot be performed."
+msgstr "संक्रिया नहीं की जा सकती है."
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:78
+#: ../plugins/cdrkit/burn-wodim.c:145 ../plugins/cdrkit/burn-wodim.c:395
+#: ../plugins/cdrtools/burn-cdrecord.c:145
+#: ../plugins/cdrtools/burn-cdrecord.c:380
+#: ../plugins/growisofs/burn-dvd-rw-format.c:70
+#: ../plugins/libburnia/burn-libburn.c:591
+#, c-format
+msgid "The disc is not supported"
+msgstr "डिस्क समर्थित नहीं है."
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:102
+msgid "The drive is empty"
+msgstr "ड्राइव खाली है."
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:536
+#: ../src/rejilla-eject-dialog.c:163
+msgid "Select a disc"
+msgstr "एक डिस्क चुनें"
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:562
+msgid "Progress"
+msgstr "प्रगति"
+
+#: ../src/main.c:74
+msgid "Open the specified project"
+msgstr "निर्दिष्ट परियोजना खोलें"
+
+#: ../src/main.c:75
+msgid "PROJECT"
+msgstr "परियोजना"
+
+#: ../src/main.c:80
+msgid "Open the specified playlist as an audio project"
+msgstr "बतौर ऑडियो परियोजना निर्दिष्ट गीतसूची खोलें"
+
+#: ../src/main.c:81
+msgid "PLAYLIST"
+msgstr "गीतसूची"
+
+#: ../src/main.c:86
+msgid "Open an audio project adding the URIs given on the command line"
+msgstr "URI को जोड़ता हुआ ऑडियो परियोजना खोलें जो कि कमांड लाइन पर दी गई है"
+
+#: ../src/main.c:90
+msgid "Open a data project adding the URIs given on the command line"
+msgstr "आंकड़ा परियोजना खोलें जो कि URI को जोड़ते हुए दिए हुई कमांड लाइन पर"
+
+#: ../src/main.c:94
+msgid "Copy a disc"
+msgstr "डिस्क की नक़ल करें"
+
+#: ../src/main.c:95
+msgid "PATH TO DEVICE"
+msgstr "युक्ति का पथ"
+
+#: ../src/main.c:98
+msgid "Cover to use"
+msgstr "प्रयोग के लिए आवरण"
+
+#: ../src/main.c:99
+msgid "PATH TO COVER"
+msgstr "आवरण का पथ"
+
+#: ../src/main.c:102
+msgid "Open a video project adding the URIs given on the command line"
+msgstr "URI जोड़ता हुआ वीडियो परियोजना खोलें कमांड लाइन पर"
+
+#: ../src/main.c:106
+msgid "Uri of an image file to be burnt (autodetected)"
+msgstr "किसी छवि फ़ाइल की Uri जिसे लिखा जाना है (autodetected)"
+
+#: ../src/main.c:107
+msgid "PATH TO PLAYLIST"
+msgstr "गीतसूची का पथ"
+
+#: ../src/main.c:110
+msgid "Force rejilla to display the project selection page"
+msgstr "परियोजना चयन पृष्ठ दिखाने के लिए ब्रैसेरो को बाध्य करें"
+
+#: ../src/main.c:114
+msgid "Open the blank disc dialog"
+msgstr "खाली डिस्क संवाद खोलें"
+
+#: ../src/main.c:118
+msgid "Open the check disc dialog"
+msgstr "जाँच डिस्क संवाद खोलें"
+
+#: ../src/main.c:122
+msgid "Burn the contents of burn:// URI"
+msgstr "burn:// URI की अंतर्वस्तु लिखें"
+
+#: ../src/main.c:126
+msgid ""
+"Burn the specified project and REMOVE it.\n"
+"This option is mainly useful for integration use with other applications."
+msgstr ""
+"निर्दिष्ट परियोजना लिखें और इसे हटाएँ.\n"
+"यह विकल्प एकत्रण के लिए मुख्यतः उपयोगी है दूसरे अनुप्रयोगों के साथ."
+
+#: ../src/main.c:127
+msgid "PATH"
+msgstr "PATH"
+
+#. Translators: the xid is a number identifying each window in the X11
+#. * world (not Windows, MacOS X). The following sentence says that
+#. * rejilla will be set to be always on top of the window identified by
+#. * xid. In other word, the window with the given xid will become rejilla
+#. * parent as if rejilla was a dialog for the parent application
+#: ../src/main.c:135
+msgid "The XID of the parent window"
+msgstr "जनक विंडो का XID"
+
+#: ../src/main.c:247
+msgid "The project is empty"
+msgstr "परियोजना रिक्त है"
+
+#: ../src/main.c:305
+msgid "Incompatible command line options used."
+msgstr "असंगत कमांड लाइन विकल्प प्रयुक्त."
+
+#: ../src/main.c:306
+msgid "Only one option can be given at a time"
+msgstr "केवल एक विकल्प एक समय में दिया जा सकता है"
+
+#: ../src/main.c:452
+msgid "[URI] [URI] ..."
+msgstr "[URI] [URI] ..."
+
+#: ../src/main.c:464
+#, c-format
+msgid "Please type %s --help to see all available options\n"
+msgstr "कृपया टाइप करें %s --सभी उपलब्ध विकल्प को दिखाने के लिए मदद करें\n"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:96
+msgid "Copying audio track"
+msgstr "ऑडियो ट्रैक की नक़ल कर रहा है"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:102
+msgid "Copying data track"
+msgstr "डेटा ट्रैक की नक़ल कर रहा है"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:138
+#, c-format
+msgid "Analysing track %02i"
+msgstr "ट्रैक %02i का विश्लेषण कर रहा है"
+
+#. Translators: %s is a filename
+#: ../plugins/cdrdao/burn-cdrdao.c:205
+#: ../plugins/growisofs/burn-growisofs.c:505
+#, c-format
+msgid "\"%s\" could not be found"
+msgstr "\"%s\" नहीं मिला"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:243
+#, c-format
+msgid "Your version of cdrdao does not seem to be supported by librejilla"
+msgstr "cdrdao का आपका संस्करण librejilla के द्वारा समर्थित नहीं दिखती है"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:249 ../plugins/cdrkit/burn-readom.c:108
+#: ../plugins/cdrkit/burn-readom.c:114 ../plugins/cdrkit/burn-wodim.c:100
+#: ../plugins/cdrtools/burn-cdrecord.c:100
+#: ../plugins/cdrtools/burn-readcd.c:110 ../plugins/cdrtools/burn-readcd.c:116
+#, c-format
+msgid "You do not have the required permissions to use this drive"
+msgstr "आपको इस ड्राइव को प्रयोग के लिए जरूरी अनुमति नहीं है"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:623
+msgid "Use cdrdao to copy and burn CDs"
+msgstr "cdrdao का प्रयोग CD की नक़ल व लिखने के लिए करें"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:689
+msgid "Enable \"--driver generic-mmc-raw\" flag (see cdrdao manual)"
+msgstr "\"--driver generic-mmc-raw\" फ्लैग सक्रिय करें (देखें cdrdao manual)"
+
+#: ../plugins/cdrdao/burn-toc2cue.c:268
+msgid "Converting toc file"
+msgstr "toc फ़ाइल बदल रहा है"
+
+#: ../plugins/cdrdao/burn-toc2cue.c:325
+msgid "Toc2cue converts .toc files into .cue files"
+msgstr "Toc2cue बदलता है .toc फाइल को .cue फाइल में"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:114
+#: ../plugins/cdrtools/burn-mkisofs.c:115
+#: ../plugins/growisofs/burn-growisofs.c:199
+#: ../plugins/libburnia/burn-libisofs.c:493
+#, c-format
+msgid "Last session import failed"
+msgstr "अंतिम सत्र आयात असफल"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:120
+#: ../plugins/cdrkit/burn-genisoimage.c:127
+#: ../plugins/cdrtools/burn-mkisofs.c:121
+#: ../plugins/cdrtools/burn-mkisofs.c:128
+#: ../plugins/growisofs/burn-growisofs.c:205
+#: ../plugins/growisofs/burn-growisofs.c:212
+msgid "An image could not be created"
+msgstr "एक छवि नहीं बनाई जा सकी"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:133
+msgid "This version of genisoimage is not supported"
+msgstr "genisoimage का यह संसस्करण समर्थित नहीं है"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:175
+#: ../plugins/cdrtools/burn-mkisofs.c:176
+#: ../plugins/growisofs/burn-growisofs.c:218
+msgid "Some files have invalid filenames"
+msgstr "कुछ फाइल के पास अवैध फाइलनाम हैं"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:181
+#: ../plugins/cdrtools/burn-mkisofs.c:182
+#: ../plugins/growisofs/burn-growisofs.c:224
+msgid "Unknown character encoding"
+msgstr "अज्ञात वर्ण एन्कोडिंग"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:187
+#: ../plugins/cdrtools/burn-mkisofs.c:188
+msgid "There is no space left on the device"
+msgstr "युक्ति पर कोई स्थान बचा नहीं है"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:523
+msgid "Use genisoimage to create images from a file selection"
+msgstr "genisoimage का प्रयोग फाइल चयन से छवि बनाने के लिए करें"
+
+#: ../plugins/cdrkit/burn-readom.c:128 ../plugins/cdrtools/burn-readcd.c:130
+#, c-format
+msgid ""
+"The location you chose to store the image on does not have enough free space "
+"for the disc image"
+msgstr "स्थान जिसे आप छवि को जमा करने के लिए चुनते हैं वह डिस्क छवि के लिए पर्याप्त खाली स्थान नहीं रखता है"
+
+#: ../plugins/cdrkit/burn-readom.c:442
+msgid "Use readom to create disc images"
+msgstr "readom का प्रयोग डिस्क छवि बनाने के लिए करें"
+
+#: ../plugins/cdrkit/burn-wodim.c:116 ../plugins/cdrtools/burn-cdrecord.c:116
+#: ../plugins/libburnia/burn-libburn.c:810
+#: ../plugins/libburnia/burn-libburn.c:841
+#, c-format
+msgid "An error occured while writing to disc"
+msgstr "डिस्क में लिखने के दौरान एक त्रुटि आई"
+
+#: ../plugins/cdrkit/burn-wodim.c:122 ../plugins/cdrtools/burn-cdrecord.c:122
+#, c-format
+msgid "The system is too slow to write the disc at this speed. Try a lower speed"
+msgstr "तंत्र इतना धीमा है कि इस गति से नहीं लिख सकता है. गति को कम करने की कोशिश करें"
+
+#. Translators: %s is the number of the track
+#: ../plugins/cdrkit/burn-wodim.c:249 ../plugins/cdrtools/burn-cdrecord.c:246
+#, c-format
+#| msgid "Writing track %02i"
+msgid "Writing track %s"
+msgstr "लेखन ट्रैक %s"
+
+#: ../plugins/cdrkit/burn-wodim.c:326 ../plugins/cdrtools/burn-cdrecord.c:319
+msgid "Formatting disc"
+msgstr "डिस्क संरूपित कर रहा है"
+
+#: ../plugins/cdrkit/burn-wodim.c:346 ../plugins/cdrtools/burn-cdrecord.c:331
+msgid "Writing cue sheet"
+msgstr "क्यू शीट में लिखा जा रहा है"
+
+#: ../plugins/cdrkit/burn-wodim.c:368 ../plugins/cdrtools/burn-cdrecord.c:353
+#, c-format
+msgid "The disc needs to be reloaded before being recorded"
+msgstr "डिस्क रिकार्ड किए जाने के पहले फिर लोड किए जाने की जरूरत है"
+
+#: ../plugins/cdrkit/burn-wodim.c:1242
+msgid "Use wodim to burn CDs and DVDs"
+msgstr "wodim का प्रयोग CD और DVD को लिखने के लिए करें"
+
+#: ../plugins/cdrkit/burn-wodim.c:1393
+msgid "Enable \"-immed\" flag (see wodim manual)"
+msgstr "\"-immed\" फ्लैग सक्रिय करें (देखें wodim manual)"
+
+#: ../plugins/cdrkit/burn-wodim.c:1396
+msgid "Minimum drive buffer fill ratio (in %) (see wodim manual):"
+msgstr "न्यूनतम ड्राइव बफर भरण अनुपात (% में) (देखें wodim manual):"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1163
+msgid "Use cdrecord to burn CDs and DVDs"
+msgstr "cdrecord का प्रयोग CD और DVD लिखने के लिए करें"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1382
+msgid "Enable \"-immed\" flag (see cdrecord manual)"
+msgstr "\"-immed\" फ्लैग सक्रिय करें (देखें cdrecord manual)"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1385
+#, c-format
+msgid "Minimum drive buffer fill ratio (in %%)(see cdrecord manual):"
+msgstr "न्यूनतम ड्राइव बफर भरण अनुपात (%% में) (देखें cdrecord manual):"
+
+#: ../plugins/cdrtools/burn-mkisofs.c:134
+msgid "This version of mkisofs is not supported"
+msgstr "mkisofs का संस्करण समर्थित नहीं है"
+
+#: ../plugins/cdrtools/burn-mkisofs.c:528
+msgid "Use mkisofs to create image from a file selection"
+msgstr "mkisofs का प्रयोग फ़ाइल चयन से छवि बनाने के लिए करें"
+
+#: ../plugins/cdrtools/burn-readcd.c:453
+msgid "Use readcd to create disc images"
+msgstr "readcd का प्रयोग डिस्क छवि बनाने के लिए करें"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:123
+#, c-format
+msgid "Encrypted DVD: please install libdvdcss version 1.2.x"
+msgstr "गोपित DVD: कृपया libdvdcss संस्करण1.2.x संस्थापित करें"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:130
+#, c-format
+msgid ""
+"Libdvdcss version %s is not supported.\n"
+"Please install libdvdcss version 1.2.x"
+msgstr ""
+"Libdvdcss संस्करण %s समर्थित नहीं है.\n"
+"libdvdcss संस्करण 1.2.x संस्थापित करें"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:140
+#, c-format
+msgid "Libdvdcss could not be loaded properly"
+msgstr "Libdvdcss ठीक से लोड नहीं की जा सकी"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:218 ../plugins/dvdcss/burn-dvdcss.c:477
+#: ../plugins/libburnia/burn-libisofs.c:156
+#: ../plugins/libburnia/burn-libisofs.c:259
+#: ../plugins/checksum/burn-checksum-files.c:189
+#: ../plugins/checksum/burn-checksum-files.c:212
+#: ../plugins/checksum/burn-checksum-image.c:168
+#, c-format
+msgid "Data could not be written (%s)"
+msgstr "आँकड़ा लिखा नहीं जा सका (%s)"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:278
+#, c-format
+msgid "Error reading video DVD (%s)"
+msgstr "वीडियो DVD पढ़ने में त्रुटि (%s)"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:323
+msgid "Retrieving DVD keys"
+msgstr "डीवीडी कुंजी पुनःप्राप्त कर रहा है"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:358
+#, c-format
+msgid "Video DVD could not be opened"
+msgstr "वीडियो डीवीडी नहीं खोली जा सकी"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:377 ../plugins/dvdcss/burn-dvdcss.c:442
+#: ../plugins/dvdcss/burn-dvdcss.c:465
+#, c-format
+msgid "Error while reading video DVD (%s)"
+msgstr "वीडियो DVD पढ़ने में त्रुटि (%s)"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:384
+msgid "Copying Video DVD"
+msgstr "वीडियो DVD की नक़ल कर रहा है"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:677
+msgid "Dvdcss allows to read css encrypted video DVDs"
+msgstr "Dvdcss css गोपित वीडियो DVD को पढ़ने की छूट देता है"
+
+#: ../plugins/growisofs/burn-dvd-rw-format.c:183
+msgid "Dvd+rw-format blanks and formats DVD+/-R(W)"
+msgstr "Dvd+rw-format रिक्त और प्रारूप DVD+/-R(W)"
+
+#: ../plugins/growisofs/burn-growisofs.c:743
+msgid "Growisofs burns DVDs"
+msgstr "Growisofs DVD लिखता है"
+
+#: ../plugins/growisofs/burn-growisofs.c:921
+msgid "Allow DAO use"
+msgstr "DAO प्रयोग की अनुमति दें"
+
+#: ../plugins/libburnia/burn-libburn.c:235
+#: ../plugins/libburnia/burn-libburn.c:243
+#, c-format
+msgid "Libburn track could not be created"
+msgstr "Libburn ट्रैक बनाई नहीं जा सकी"
+
+#. Translators: first %s is the filename, second %s is the error
+#. * generated from errno
+#. Translators: first %s is the filename, second %s
+#. * is the error generated from errno
+#: ../plugins/libburnia/burn-libburn.c:659
+#: ../plugins/checksum/burn-checksum-image.c:307
+#, c-format
+msgid "\"%s\" could not be opened (%s)"
+msgstr "\"%s\" खोला नहीं जा सका (%s)"
+
+#: ../plugins/libburnia/burn-libburn.c:928
+msgid "Libburn burns CD(RW), DVD+/-(RW)"
+msgstr "Libburn लिखता है CD(RW), DVD+/-(RW)"
+
+#: ../plugins/libburnia/burn-libburn-common.c:157
+#, c-format
+msgid "Libburn library could not be initialized"
+msgstr "Libburn लाइब्रेरी नहीं आरंभीकृत की जा सकी"
+
+#: ../plugins/libburnia/burn-libburn-common.c:172
+#, c-format
+msgid "The drive address could not be retrieved"
+msgstr "ड्राइव पता को नहीं पाया जा सका"
+
+#: ../plugins/libburnia/burn-libburn-common.c:413
+#, c-format
+msgid "Writing track %02i"
+msgstr "लेखन ट्रैक %02i"
+
+#: ../plugins/libburnia/burn-libisofs.c:321
+#: ../plugins/libburnia/burn-libisofs.c:856
+#, c-format
+msgid "Libisofs could not be initialized."
+msgstr "Libisofs आरंभीकृत नहीं किया जा सका."
+
+#: ../plugins/libburnia/burn-libisofs.c:470
+#, c-format
+msgid "Read options could not be created"
+msgstr "पठन विकल्प नहीं बनाया जा सका"
+
+#: ../plugins/libburnia/burn-libisofs.c:546
+#, c-format
+msgid "Volume could not be created"
+msgstr "आयतन नहीं बनाया जा सका"
+
+#. Translators: %s is the path
+#: ../plugins/libburnia/burn-libisofs.c:655
+#, c-format
+msgid "No parent could be found in the tree for the path \"%s\""
+msgstr "कोई जनक \"%s\" पथ के लिए तररू में नहीं मिल सका"
+
+#: ../plugins/libburnia/burn-libisofs.c:715
+#: ../plugins/libburnia/burn-libisofs.c:782
+#, c-format
+msgid "Libisofs reported an error while creating directory \"%s\""
+msgstr "Libisofs ने एक त्रुटि दी जब \"%s\" निर्देशिका बना रहा है"
+
+#: ../plugins/libburnia/burn-libisofs.c:730
+#, c-format
+msgid "Libisofs reported an error while adding contents to directory \"%s\" (%x)"
+msgstr "Libisofs ने एक त्रुटि दी जब \"%s\" (%x) निर्देशिका में अंतर्वस्तु जोड़ रहा था"
+
+#: ../plugins/libburnia/burn-libisofs.c:753
+#: ../plugins/libburnia/burn-libisofs.c:769
+#, c-format
+msgid "Libisofs reported an error while adding file at path \"%s\""
+msgstr "Libisofs ने एक त्रुटि दी जब \"%s\" पथ में फाइल जोड़ रहा था"
+
+#: ../plugins/libburnia/burn-libisofs.c:1029
+msgid "Libisofs creates disc images from files"
+msgstr "Libisofs ने फाइल से डिस्क छवि बनाई"
+
+#: ../plugins/local-track/burn-local-image.c:253
+msgid "Copying checksum file"
+msgstr "चेकसम फ़ाइल की नक़ल ले रहा है"
+
+#: ../plugins/local-track/burn-local-image.c:537
+#, c-format
+msgid "Copying `%s` locally"
+msgstr "`%s` स्थानीय रूप से नक़ल कर रहा है"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/local-track/burn-local-image.c:903
+msgid "File Downloader"
+msgstr "फ़ाइल डाउनलोडकर्ता"
+
+#: ../plugins/local-track/burn-local-image.c:904
+msgid "Allows to burn files not stored locally"
+msgstr "उन फाइलों को लिखने देता है जो स्थानीय रूप से जमा नहीं किए गए"
+
+#: ../plugins/transcode/burn-normalize.c:504
+msgid "Normalizing tracks"
+msgstr "ट्रैक को सामान्यीकृत कर रहा है"
+
+#: ../plugins/transcode/burn-normalize.c:594
+msgid "Normalize"
+msgstr "सामान्य करें"
+
+#: ../plugins/transcode/burn-normalize.c:595
+msgid "Normalize allows to set consistent sound levels between tracks"
+msgstr "सामान्यीकरण ट्रैक के बीच सतत ध्वनि स्तर सेट करने की छूट देता है"
+
+#. Translators: This message is sent
+#. * when rejilla could not link together
+#. * two gstreamer plugins so that one
+#. * sends its data to the second for further
+#. * processing. This data transmission is
+#. * done through a pad. Maybe this is a bit
+#. * too technical and should be removed?
+#: ../plugins/transcode/burn-transcode.c:310
+#: ../plugins/transcode/burn-transcode.c:1473
+#, c-format
+msgid "Impossible to link plugin pads"
+msgstr "प्लगइन पैड को कड़ीबद्ध करने में असमर्थ"
+
+#. Translators: %s is the string error from errno
+#: ../plugins/transcode/burn-transcode.c:918
+#: ../plugins/transcode/burn-transcode.c:1105
+#, c-format
+msgid "Error while padding file (%s)"
+msgstr "फाइल (%s) पैडिंग करने के दौरान त्रुटि"
+
+#: ../plugins/transcode/burn-transcode.c:1181
+#, c-format
+msgid "Error while getting duration"
+msgstr "अवधि पाने के दौरान त्रुटि"
+
+#: ../plugins/transcode/burn-transcode.c:1330
+#, c-format
+msgid "Analysing \"%s\""
+msgstr "\"%s\" का विश्लेषण कर रहा है"
+
+#: ../plugins/transcode/burn-transcode.c:1367
+#, c-format
+msgid "Transcoding \"%s\""
+msgstr "पारकोडिंग \"%s\""
+
+#: ../plugins/transcode/burn-transcode.c:1630
+msgid "Transcode converts song files into a format proper to burn them on CDs"
+msgstr "ट्रांसकोड गीत फाइलों को ऐसे प्रारूप में बदलता है जो उन्हें CD पर ठीक से लिखने में उचित रहता है"
+
+#: ../src/rejilla-preview.c:170
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#: ../src/rejilla-split-dialog.c:163
+msgid "Do you really want to split the track?"
+msgstr "क्या आप वाकई ट्रैक को बांटना चाहते हैं?"
+
+#: ../src/rejilla-split-dialog.c:166
+msgid ""
+"If you split the track, the size of the new track will be shorter than 6 "
+"seconds and will be padded."
+msgstr "यदि आप ट्रैक को बांटते हैं, नए ट्रैक का आकार 6 सेकेंड से कम छोटा होगा और पैड किया जाएगा."
+
+#: ../src/rejilla-split-dialog.c:172 ../src/rejilla-split-dialog.c:745
+msgid "_Split"
+msgstr "बाँटें (_S)"
+
+#: ../src/rejilla-split-dialog.c:600
+msgid "The track wasn't split."
+msgstr "ट्रैक बांटा नहीं गया था."
+
+#: ../src/rejilla-split-dialog.c:601
+msgid "No silence could be detected"
+msgstr "कोई मौन पता नहीं किया गया"
+
+#: ../src/rejilla-split-dialog.c:624
+msgid "An error occured while detecting silences."
+msgstr "मौन पता करने के दौरान एक त्रुटि आई."
+
+#: ../src/rejilla-split-dialog.c:703
+msgid "This will remove all previous results."
+msgstr "यह सभी पिछले परिणाम को हटा देगा."
+
+#: ../src/rejilla-split-dialog.c:743
+msgid "Do you really want to carry on with automatic splitting?"
+msgstr "क्या आप वाकई किसी स्वचालित विभाजन को ले जाना चाहते हैं?"
+
+#: ../src/rejilla-split-dialog.c:744
+msgid "_Don't split"
+msgstr "मत बाँटें (_D)"
+
+#: ../src/rejilla-split-dialog.c:962
+msgid "Do you really want to empty the slices preview?"
+msgstr "क्या आप स्लाइस पूर्वावलोकन वाकई रिक्त करना चाहते हैं?"
+
+#: ../src/rejilla-split-dialog.c:964 ../src/rejilla-split-dialog.c:1266
+msgid "Re_move All"
+msgstr "सभी हटाएँ (_m)"
+
+#: ../src/rejilla-split-dialog.c:1050
+msgid "Split Track"
+msgstr "ट्रैक विलग करें"
+
+#: ../src/rejilla-split-dialog.c:1069
+msgid "M_ethod:"
+msgstr "विधि (_e):"
+
+#: ../src/rejilla-split-dialog.c:1075
+msgid "Method to be used to split the track"
+msgstr "ट्रैक बांटने के लिए प्रयुक्त विधि"
+
+#: ../src/rejilla-split-dialog.c:1078
+msgid "Split track manually"
+msgstr "ट्रैक दस्ती रूप से विलग करें"
+
+#: ../src/rejilla-split-dialog.c:1079
+msgid "Split track in parts with a fixed length"
+msgstr "स्थिर लंबाई के साथ हिस्से में ट्रैक बांटें"
+
+#: ../src/rejilla-split-dialog.c:1080
+msgid "Split track in a fixed number of parts"
+msgstr "स्थिर हिस्से की संख्या में ट्रैक बांटें"
+
+#: ../src/rejilla-split-dialog.c:1081
+msgid "Split track for each silence"
+msgstr "हर मौन के लिए ट्रैक बांटें"
+
+#: ../src/rejilla-split-dialog.c:1087
+msgid "_Slice"
+msgstr "स्लाइस करें (_S)"
+
+#: ../src/rejilla-split-dialog.c:1098
+msgid "Add a splitting point"
+msgstr "एक अलगाव बिंदु जोड़ें"
+
+#. Translators: this goes with the next (= "seconds")
+#: ../src/rejilla-split-dialog.c:1115
+msgid "Split this track every"
+msgstr "इस ट्रैक को अलग करें हर"
+
+#. Translators: this goes with the previous (= "Split track every")
+#: ../src/rejilla-split-dialog.c:1124
+msgid "seconds"
+msgstr "सेकण्ड"
+
+#. Translators: this goes with the next (= "parts")
+#: ../src/rejilla-split-dialog.c:1133
+msgid "Split this track in"
+msgstr "इस ट्रैक को अलग करें"
+
+#. Translators: this goes with the previous (= "Split this track in")
+#: ../src/rejilla-split-dialog.c:1142
+msgid "parts"
+msgstr "हिस्से में"
+
+#: ../src/rejilla-split-dialog.c:1150
+msgid "Slicing Method"
+msgstr "स्लाइस करने की विधि"
+
+#: ../src/rejilla-split-dialog.c:1208
+msgid "Start"
+msgstr "प्रारंभ"
+
+#: ../src/rejilla-split-dialog.c:1215
+msgid "End"
+msgstr "अंत"
+
+#: ../src/rejilla-split-dialog.c:1238
+msgid "Mer_ge"
+msgstr "मिलाएँ (_g)"
+
+#: ../src/rejilla-split-dialog.c:1249
+msgid "Merge a selected slice with the next selected one"
+msgstr "एक चुना गया स्लाइस मिलाएँ दूसरे चयनित के साथ"
+
+#: ../src/rejilla-split-dialog.c:1263
+msgid "Remove the selected slices"
+msgstr "चयनित मौन हटाएँ"
+
+#: ../src/rejilla-split-dialog.c:1277
+msgid "Clear the slices preview"
+msgstr "स्लाइस पूर्वावलोकन साफ करें"
+
+#: ../src/rejilla-split-dialog.c:1287
+msgid "_List of slices that are to be created:"
+msgstr "स्लाइस की सूची जो बनाई गई थी (_L):"
+
+#: ../src/rejilla-split-dialog.c:1295
+msgid "Slices Preview"
+msgstr "स्लाइस पूर्वावलोकन"
+
+#: ../src/rejilla-time-button.c:286
+msgid "Hours"
+msgstr "घंटा"
+
+#. Translators: separating hours and minutes
+#. Translators: separating minutes and seconds
+#. Translators: separating seconds and frames
+#: ../src/rejilla-time-button.c:291 ../src/rejilla-time-button.c:301
+#: ../src/rejilla-time-button.c:311
+msgid ":"
+msgstr ":"
+
+#: ../src/rejilla-time-button.c:296
+msgid "Minutes"
+msgstr "मिनट"
+
+#: ../src/rejilla-time-button.c:306
+msgid "Seconds"
+msgstr "सेकेंड"
+
+#: ../src/rejilla-time-button.c:316
+msgid "Frames (1 second = 75 frames)"
+msgstr "फ्रेम (1 सेकेंड = 75 फ्रेम)"
+
+#: ../plugins/cdrkit/burn-cdrkit.h:38
+msgid "Cdrkit burning suite"
+msgstr "Cdrkit बर्निंग सूट"
+
+#: ../plugins/libburnia/burn-libburnia.h:38
+msgid "Libburnia burning suite"
+msgstr "Libburnia बर्निंग सूट"
+
+#: ../plugins/growisofs/burn-growisofs-common.h:38
+msgid "Growisofs burning suite"
+msgstr "Growisofs बर्निंग सूट"
+
+#: ../plugins/cdrdao/burn-cdrdao-common.h:38
+msgid "Cdrdao burning suite"
+msgstr "Cdrdao बर्निंग सूट"
+
+#: ../plugins/cdrtools/burn-cdrtools.h:38
+msgid "Cdrtools burning suite"
+msgstr "Cdrtools बर्निंग सूट"
+
+#: ../src/rejilla-eject-dialog.c:189
+msgid "_Eject"
+msgstr "बाहर निकालें (_E)"
+
+#: ../src/rejilla-eject-dialog.c:204
+msgid "Eject Disc"
+msgstr "डिस्क बाहर निकालें"
+
+#: ../src/rejilla-file-filtered.c:75 ../src/rejilla-file-filtered.c:81
+msgid "No file filtered"
+msgstr "कोई फाइल फिल्टर नहीं किया गया"
+
+#: ../src/rejilla-file-filtered.c:77
+#, c-format
+msgid "Hide the _filtered file list (%d file)"
+msgid_plural "Hide the _filtered file list (%d files)"
+msgstr[0] "फिल्टर की गई फाइल सूची छिपाएँ (%d फाइल)"
+msgstr[1] "फिल्टर की गई फाइल सूची छिपाएँ (%d फाइल)"
+
+#: ../src/rejilla-file-filtered.c:83
+#, c-format
+msgid "Show the _filtered file list (%d file)"
+msgid_plural "Show the _filtered file list (%d files)"
+msgstr[0] "फिल्टर किया फाइल सूची दिखाएँ (%d फाइल) (_f)"
+msgstr[1] "फिल्टर किया फाइल सूची दिखाएँ (%d फाइल) (_f)"
+
+#: ../src/rejilla-file-filtered.c:138
+msgid "Filter Options"
+msgstr "फ़िल्टर विकल्प"
+
+#: ../src/rejilla-file-filtered.c:221
+msgid "Select the files you want to restore and click on the \"Restore\" button"
+msgstr "फाइल चुनें जिसको आप पुनर्भंडारित करना चाहते हैं और \"Restore\" बटन पर क्लिक करें"
+
+#: ../src/rejilla-file-filtered.c:268
+msgid "Type"
+msgstr "क़िस्म"
+
+#: ../src/rejilla-file-filtered.c:295
+msgid "_Restore"
+msgstr "फिर जमा करें (_R)"
+
+#: ../src/rejilla-file-filtered.c:304
+msgid "Restore the selected files"
+msgstr "चुनी फ़ाइलें फिर बहाल करें"
+
+#: ../src/rejilla-file-filtered.c:306
+msgid "_Options..."
+msgstr "विकल्प (_O)..."
+
+#: ../src/rejilla-file-filtered.c:314
+msgid "Set the options for file filtering"
+msgstr "फ़ाइल फिल्टरिंग के लिए विकल्प सेट करें"
+
+#: ../src/rejilla-filter-option.c:126
+msgid "Filter _hidden files"
+msgstr "छुपी फ़ाइलें फिल्टर करें (_h)"
+
+#: ../src/rejilla-filter-option.c:149
+#| msgid "Re_place symlinks"
+msgid "Re_place symbolic links"
+msgstr "सांकेतिक कड़ी बदलें (_p)"
+
+#: ../src/rejilla-filter-option.c:172
+#| msgid "Filter _broken symlinks"
+msgid "Filter _broken symbolic links"
+msgstr "टूटी सांकेतिक कड़ी फिल्टर करें (_b)"
+
+#: ../src/rejilla-filter-option.c:190
+msgid "Filtering options"
+msgstr "फिल्टरिंग विकल्प"
+
+#: ../plugins/checksum/burn-checksum-files.c:124
+#: ../plugins/checksum/burn-checksum-files.c:580
+#, c-format
+msgid "File \"%s\" could not be opened (%s)"
+msgstr "फाइल \"%s\" नहीं खोली जा सकी (%s)"
+
+#: ../plugins/checksum/burn-checksum-files.c:608
+msgid "Creating checksum for image files"
+msgstr "छवि फाइल के लिए चेकसम बना रहा है"
+
+#: ../plugins/checksum/burn-checksum-files.c:847
+#, c-format
+msgid "No checksum file could be found on the disc"
+msgstr "डिस्क पर कोई चेकसम फाइल नहीं मिली"
+
+#: ../plugins/checksum/burn-checksum-files.c:881
+msgid "Checking file integrity"
+msgstr "फाइल अखंडता जांच कर रहा है"
+
+#: ../plugins/checksum/burn-checksum-files.c:975
+#: ../plugins/checksum/burn-checksum-files.c:1000
+#, c-format
+msgid "File \"%s\" could not be opened"
+msgstr "फाइल \"%s\" खोली नहीं जा सकी"
+
+#: ../plugins/checksum/burn-checksum-files.c:1073
+#: ../plugins/checksum/burn-checksum-files.c:1187
+#: ../plugins/checksum/burn-checksum-image.c:544
+#, c-format
+msgid "Some files may be corrupted on the disc"
+msgstr "कुछ फाइल डिस्क पर खराब हो सकती है"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/checksum/burn-checksum-files.c:1459
+msgid "File Checksum"
+msgstr "फ़ाइल चेकसम"
+
+#: ../plugins/checksum/burn-checksum-files.c:1460
+msgid "Allows to check file integrities on a disc"
+msgstr "डिस्क पर फाइल अखंडता को जाँचने की अनुमति दें"
+
+#: ../plugins/checksum/burn-checksum-files.c:1500
+#: ../plugins/checksum/burn-checksum-image.c:846
+msgid "Hashing algorithm to be used:"
+msgstr "प्रयोग के लिए हैशिंग अल्गोरिथम:"
+
+#: ../plugins/checksum/burn-checksum-files.c:1503
+#: ../plugins/checksum/burn-checksum-image.c:849
+msgid "MD5"
+msgstr "एमडी5"
+
+#: ../plugins/checksum/burn-checksum-files.c:1505
+#: ../plugins/checksum/burn-checksum-image.c:851
+msgid "SHA1"
+msgstr "SHA1"
+
+#: ../plugins/checksum/burn-checksum-files.c:1507
+#: ../plugins/checksum/burn-checksum-image.c:853
+msgid "SHA256"
+msgstr "SHA256"
+
+#: ../plugins/checksum/burn-checksum-image.c:118
+#, c-format
+msgid "Data could not be read (%s)"
+msgstr "आँकड़ा पढ़ा नहीं जा सका (%s)"
+
+#: ../plugins/checksum/burn-checksum-image.c:353
+#: ../plugins/checksum/burn-checksum-image.c:450
+msgid "Creating image checksum"
+msgstr "छवि चेकसम बना रहा है"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/checksum/burn-checksum-image.c:821
+msgid "Image Checksum"
+msgstr "छवि चेकसम"
+
+#: ../plugins/checksum/burn-checksum-image.c:822
+msgid "Allows to check data integrity on disc after it is burnt"
+msgstr "इसके लिखे जाने के बाद आँकड़ा अखंडता को डिस्क पर जाँचने की छूट देता है"
+
+#: ../src/rejilla-multi-song-props.c:89 ../src/rejilla-multi-song-props.c:97
+#: ../src/rejilla-multi-song-props.c:105 ../src/rejilla-multi-song-props.c:123
+#: ../src/rejilla-multi-song-props.c:139 ../src/rejilla-multi-song-props.c:160
+#: ../src/rejilla-multi-song-props.c:173 ../src/rejilla-multi-song-props.c:248
+#: ../src/rejilla-multi-song-props.c:269 ../src/rejilla-multi-song-props.c:290
+#: ../src/rejilla-rename.c:90 ../src/rejilla-rename.c:282
+msgid "<Keep current values>"
+msgstr "<Keep current values>"
+
+#: ../src/rejilla-multi-song-props.c:126 ../src/rejilla-multi-song-props.c:143
+msgid "Remove silences"
+msgstr "मौन हटाएँ"
+
+#: ../src/rejilla-multi-song-props.c:212
+msgid "Song titles"
+msgstr "गीत शीर्षक"
+
+#: ../src/rejilla-multi-song-props.c:229
+msgid "Additional song information"
+msgstr "अतिरिक्त गीत सूचना"
+
+#: ../src/rejilla-rename.c:283
+msgid "Insert text"
+msgstr "पाठ घुसाएँ"
+
+#: ../src/rejilla-rename.c:284
+msgid "Delete text"
+msgstr "पाठ मिटाएँ"
+
+#: ../src/rejilla-rename.c:285
+msgid "Substitute text"
+msgstr "पाठ प्रतिस्थापित करें"
+
+#: ../src/rejilla-rename.c:286
+msgid "Number files according to a pattern"
+msgstr "प्रारूप के अनुसार संख्या फाइल"
+
+#. Translators: This is a verb. This is completed later
+#: ../src/rejilla-rename.c:301
+msgid "Insert"
+msgstr "प्रविष्ट"
+
+#. Translators: This finishes previous action "Insert". It goes like
+#. * this: "Insert" [Entry] "at the beginning".
+#: ../src/rejilla-rename.c:315
+msgid "at the begining"
+msgstr "शुरू में"
+
+#. Translators: This finishes previous action "Insert". It goes like
+#. * this: "Insert" [Entry] "at the end".
+#: ../src/rejilla-rename.c:319
+msgid "at the end"
+msgstr "अंत में"
+
+#: ../src/rejilla-rename.c:330
+msgid "Delete every occurence of"
+msgstr "इसकी हर आवृत्ति मिटाएँ"
+
+#. Reminder: if this string happens to be used somewhere else in rejilla
+#. * we'll need a context with C_() macro
+#. Translators: this goes with above verb to say "_Replace" [Entry]
+#. * "with" [Entry].
+#: ../src/rejilla-rename.c:360
+msgid "with"
+msgstr "के साथ"
+
+#: ../src/rejilla-rename.c:374
+msgid "Rename to"
+msgstr "इसमें नाम बदलें"
+
+#: ../src/rejilla-rename.c:383
+msgid "{number}"
+msgstr "{संख्या}"
+
+#: ../src/rejilla-video-disc.c:101
+msgid "Open the selected video"
+msgstr "चुने वीडियो खोलें"
+
+#: ../src/rejilla-video-disc.c:103
+msgid "Edit the video information (start, end, author, ...)"
+msgstr "विडियो सूचना संपादित करें (start, end, author, ...)"
+
+#: ../src/rejilla-video-disc.c:105
+msgid "Remove the selected videos from the project"
+msgstr "परियोजना से चयनित वीडियो हटाएँ"
+
+#: ../src/rejilla-video-disc.c:359
+msgid "Do you want to search for video files inside the directory?"
+msgstr "क्या आप निर्देशिका के भीतर वीडियो फाइल खोजना चाहते हैं?"
+
+#: ../src/rejilla-video-disc.c:364
+msgid "Directories cannot be added to video discs."
+msgstr "निर्देशिकाओं को विडियो डिस्क में जोड़ी नहीं जा सकती है."
+
+#: ../src/rejilla-video-disc.c:368
+msgid "_Search Directory"
+msgstr "खोज निर्देशिका (_S)"
+
+#: ../src/rejilla-video-disc.c:407
+#, c-format
+msgid "\"%s\" does not have a suitable type for video projects."
+msgstr "\"%s\" वीडियो परियोजना के लिए उपयुक्त प्रकार नहीं रखता है."
+
+#: ../src/rejilla-video-disc.c:410
+msgid "Please only add files with video contents"
+msgstr "कृपया केवल विडियो अंतर्वस्तु वाली फाइलें जोड़ें"
+
+#: ../plugins/dvdauthor/burn-dvdauthor.c:309
+#: ../plugins/vcdimager/burn-vcdimager.c:437
+msgid "Creating file layout"
+msgstr "फ़ाइल ख़ाका का निर्माण"
+
+#: ../plugins/dvdauthor/burn-dvdauthor.c:367
+msgid "Use dvdauthor to create Video DVDs"
+msgstr "dvdauthor का प्रयोग वीडियो DVD बनाने के लिए करें"
+
+#: ../plugins/transcode/burn-vob.c:1118
+msgid "Converting video file to MPEG2"
+msgstr "विडियो फाइल को MPEG2 में बदल रहा है"
+
+#: ../plugins/transcode/burn-vob.c:1235
+msgid "Vob allows to transcode any video file to a format suitable for video DVDs"
+msgstr "Vob किसी वीडियो फाइल को वीडियो DVD के लिए उपयुक्त प्रारूप में ट्रांसकोड करने की छूट देता है"
+
+#: ../plugins/vcdimager/burn-vcdimager.c:486
+msgid "Use vcdimager to create SVCDs"
+msgstr "vcdimager का प्रयोग SVCD बनाने के लिए करें"
+
+#: ../data/rejilla-copy-medium.desktop.in.in.h:2
+#| msgid "Rejilla Disc Burner"
+msgid "Rejilla Disc Copier"
+msgstr "ब्रेसेरो डिस्क कॉपियर"
+
+#: ../data/rejilla-copy-medium.desktop.in.in.h:3
+msgid "Copy CDs and DVDs"
+msgstr "सीडी व डीवीडी की नक़ल करें"
+
+#: ../data/rejilla-copy-medium.desktop.in.in.h:4
+msgid "Disc Copier"
+msgstr "डिस्क कॉपियर"
+

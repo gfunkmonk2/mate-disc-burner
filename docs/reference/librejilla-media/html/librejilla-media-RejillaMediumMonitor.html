@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaMediumMonitor</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-media Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-media">
+<link rel="prev" href="librejilla-media-rejilla-units.html" title="rejilla-units">
+<link rel="next" href="librejilla-media-rejilla-drive.html" title="RejillaDrive">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-media-rejilla-units.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-media Reference Manual</th>
+<td><a accesskey="n" href="librejilla-media-rejilla-drive.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-media-RejillaMediumMonitor.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-media-RejillaMediumMonitor.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaMediumMonitor">
+<a name="librejilla-media-RejillaMediumMonitor"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-media-RejillaMediumMonitor.top_of_page"></a>RejillaMediumMonitor</span></h2>
+<p>RejillaMediumMonitor</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-media-RejillaMediumMonitor.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor">RejillaMediumMonitor</a>;
+<a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="returnvalue">RejillaMediumMonitor</span></a> * <a class="link" href="librejilla-media-RejillaMediumMonitor.html#rejilla-medium-monitor-get-default" title="rejilla_medium_monitor_get_default ()">rejilla_medium_monitor_get_default</a>
+                                                        (<em class="parameter"><code><span class="type">void</span></code></em>);
+enum                <a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediaType" title="enum RejillaMediaType">RejillaMediaType</a>;
+enum                <a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaDriveType" title="enum RejillaDriveType">RejillaDriveType</a>;
+<a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *            <a class="link" href="librejilla-media-RejillaMediumMonitor.html#rejilla-medium-monitor-get-media" title="rejilla_medium_monitor_get_media ()">rejilla_medium_monitor_get_media</a>    (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="type">RejillaMediumMonitor</span></a> *monitor</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediaType" title="enum RejillaMediaType"><span class="type">RejillaMediaType</span></a> type</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *            <a class="link" href="librejilla-media-RejillaMediumMonitor.html#rejilla-medium-monitor-get-drives" title="rejilla_medium_monitor_get_drives ()">rejilla_medium_monitor_get_drives</a>   (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="type">RejillaMediumMonitor</span></a> *monitor</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaDriveType" title="enum RejillaDriveType"><span class="type">RejillaDriveType</span></a> type</code></em>);
+<a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="returnvalue">RejillaDrive</span></a> *      <a class="link" href="librejilla-media-RejillaMediumMonitor.html#rejilla-medium-monitor-get-drive" title="rejilla_medium_monitor_get_drive ()">rejilla_medium_monitor_get_drive</a>    (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="type">RejillaMediumMonitor</span></a> *monitor</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *device</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaMediumMonitor.html#rejilla-medium-monitor-is-probing" title="rejilla_medium_monitor_is_probing ()">rejilla_medium_monitor_is_probing</a>   (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="type">RejillaMediumMonitor</span></a> *monitor</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-media-RejillaMediumMonitor.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-media-RejillaMediumMonitor.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaMediumMonitor">
+<a name="RejillaMediumMonitor"></a><h3>RejillaMediumMonitor</h3>
+<pre class="programlisting">typedef struct {
+	GObject parent_instance;
+} RejillaMediumMonitor;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_monitor_get_default ()">
+<a name="rejilla-medium-monitor-get-default"></a><h3>rejilla_medium_monitor_get_default ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="returnvalue">RejillaMediumMonitor</span></a> * rejilla_medium_monitor_get_default
+                                                        (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Gets the currently active monitor.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="type">RejillaMediumMonitor</span></a>. Unref when it is not needed anymore.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="enum RejillaMediaType">
+<a name="RejillaMediaType"></a><h3>enum RejillaMediaType</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_MEDIA_TYPE_NONE				= 0,
+	REJILLA_MEDIA_TYPE_FILE				= 1,
+	REJILLA_MEDIA_TYPE_DATA				= 1 &lt;&lt; 1,
+	REJILLA_MEDIA_TYPE_AUDIO			= 1 &lt;&lt; 2,
+	REJILLA_MEDIA_TYPE_WRITABLE			= 1 &lt;&lt; 3,
+	REJILLA_MEDIA_TYPE_REWRITABLE			= 1 &lt;&lt; 4,
+	REJILLA_MEDIA_TYPE_ANY_IN_BURNER		= 1 &lt;&lt; 5,
+
+	/* If combined with other flags it will filter.
+	 * if alone all CDs are returned.
+	 * It can't be combined with FILE type. */
+	REJILLA_MEDIA_TYPE_CD					= 1 &lt;&lt; 6,
+
+	REJILLA_MEDIA_TYPE_ALL_BUT_FILE			= 0xFE,
+	REJILLA_MEDIA_TYPE_ALL				= 0xFF
+} RejillaMediaType;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum RejillaDriveType">
+<a name="RejillaDriveType"></a><h3>enum RejillaDriveType</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_DRIVE_TYPE_NONE				= 0,
+	REJILLA_DRIVE_TYPE_FILE				= 1,
+	REJILLA_DRIVE_TYPE_WRITER			= 1 &lt;&lt; 1,
+	REJILLA_DRIVE_TYPE_READER			= 1 &lt;&lt; 2,
+	REJILLA_DRIVE_TYPE_ALL_BUT_FILE			= 0xFE,
+	REJILLA_DRIVE_TYPE_ALL				= 0xFF
+} RejillaDriveType;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_monitor_get_media ()">
+<a name="rejilla-medium-monitor-get-media"></a><h3>rejilla_medium_monitor_get_media ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *            rejilla_medium_monitor_get_media    (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="type">RejillaMediumMonitor</span></a> *monitor</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediaType" title="enum RejillaMediaType"><span class="type">RejillaMediaType</span></a> type</code></em>);</pre>
+<p>
+Obtains the list of available media that are of the given type.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>monitor</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="type">RejillaMediumMonitor</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>the type of <a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> that should be in the list
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> of  <a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> or NULL. The list must be freed and the element unreffed when finished. <span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> RejillaMedia.Medium][<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym> RejillaMedia.Medium]</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_monitor_get_drives ()">
+<a name="rejilla-medium-monitor-get-drives"></a><h3>rejilla_medium_monitor_get_drives ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *            rejilla_medium_monitor_get_drives   (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="type">RejillaMediumMonitor</span></a> *monitor</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaDriveType" title="enum RejillaDriveType"><span class="type">RejillaDriveType</span></a> type</code></em>);</pre>
+<p>
+Gets the list of available drives that are of the given type.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>monitor</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="type">RejillaMediumMonitor</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaDriveType" title="enum RejillaDriveType"><span class="type">RejillaDriveType</span></a> to tell what type of drives to include in the list
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> of  <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> or NULL. The list must be freed and the element unreffed when finished. <span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> RejillaMedia.Drive][<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym> RejillaMedia.Drive]</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_monitor_get_drive ()">
+<a name="rejilla-medium-monitor-get-drive"></a><h3>rejilla_medium_monitor_get_drive ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="returnvalue">RejillaDrive</span></a> *      rejilla_medium_monitor_get_drive    (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="type">RejillaMediumMonitor</span></a> *monitor</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *device</code></em>);</pre>
+<p>
+Returns the <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> object whose path is <em class="parameter"><code>path</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>monitor</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="type">RejillaMediumMonitor</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>device</code></em> :</span></p></td>
+<td>the path of the device
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> or NULL. It should be unreffed when no longer in use.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_monitor_is_probing ()">
+<a name="rejilla-medium-monitor-is-probing"></a><h3>rejilla_medium_monitor_is_probing ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_medium_monitor_is_probing   (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="type">RejillaMediumMonitor</span></a> *monitor</code></em>);</pre>
+<p>
+Returns if the library is still probing some other media.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>monitor</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-RejillaMediumMonitor.html#RejillaMediumMonitor" title="RejillaMediumMonitor"><span class="type">RejillaMediumMonitor</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if it is still probing some media
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

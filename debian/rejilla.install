@@ -1,0 +1,4 @@
+debian/tmp/usr/bin
+debian/tmp/usr/share/applications
+debian/tmp/usr/share/man
+debian/tmp/usr/lib/caja/*/*.so

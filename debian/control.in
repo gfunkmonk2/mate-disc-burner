@@ -1,0 +1,140 @@
+Source: mate-disc-burner
+Section: misc
+Priority: optional
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+XSBC-Original-Maintainer: Pedro Fragoso <ember@ubuntu.com>
+Build-Depends: debhelper (>= 8),
+               autotools-dev,
+               cdbs,
+               dh-autoreconf,
+               libcam-dev [kfreebsd-any],
+               libglib2.0-dev (>= 2.25.10),
+               libgtk2.0-dev (>= 2.21.8),
+               libmateconf-dev,
+               libgstreamer0.10-dev (>= 0.10.15),
+               libgstreamer-plugins-base0.10-dev (>= 0.10.0),
+               libxml2-dev (>= 2.6.0),
+               libunique-dev (>= 1.0.0),
+               libdbus-glib-1-dev (>= 0.7.2),
+               libcanberra-gtk-dev (>= 0.1),
+               gtk-doc-tools (>= 1.12),
+               mate-doc-utils,
+               mate-doc-utils-gnome | gnome-doc-utils,
+               scrollkeeper,
+               pkg-config,
+               libsm-dev,
+               libcaja-extension-dev (>= 1.1.2),
+               libburn-dev (>= 0.4.0),
+               libisofs-dev (>= 0.6.4),
+               libidol-plparser-dev (>= 1.0.0),
+               libmatenotify-dev,
+               intltool (>= 0.35.0),
+               libappindicator-dev (>= 0.0.7)
+Uploaders: @MATE_TEAM@
+Standards-Version: 3.9.0
+
+Package: rejilla
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         gstreamer0.10-plugins-base (>= 0.10.0),
+         mate-icon-theme | mate-icon-theme-gnome | gnome-icon-theme,
+         gvfs,
+         librejilla-media1 (= ${binary:Version}),
+         rejilla-common (= ${binary:Version})
+Recommends: rejilla-cdrkit
+Suggests: vcdimager,
+          libdvdcss2
+Conflicts: caja-cd-burner
+Description: CD/DVD burning application for MATE
+ Rejilla is a simple application to burn, copy and erase CD and DVD 
+ media: audio, video or data. It features among other things:
+  * On-the-fly burning
+  * Multisession support
+  * On-the-fly conversion of music playlists in all formats supported by 
+    GStreamer
+ .
+ This package contains the main binary, the burning plugins and the 
+ caja extension.
+ .
+ The following packages, if installed, will provide Rejilla with added 
+ functionality:
+  * cdrdao to burn combined data/audio CDs and for byte-to-byte copy
+  * GStreamer backends to support more audio formats
+  * vcdimager to create VCDs or SVCDs
+  * libdvdcss2 to copy encrypted DVDs
+
+Package: rejilla-common
+Architecture: all
+Depends: ${misc:Depends}
+Description: Common files for the Rejilla CD burning application and library
+ Rejilla is a simple application to burn, copy and erase CD and DVD 
+ media.
+ .
+ This package contains the common files and translations.
+
+Package: rejilla-cdrkit
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         librejilla-media1 (= ${binary:Version}),
+         genisoimage,
+         wodim
+Suggests: readom, dvdauthor
+Description: cdrkit extensions for the Rejilla burning application
+ Rejilla is a simple application to burn, copy and erase CD and DVD
+ media.
+ .
+ This package contains extensions for Rejilla, based on the genisoimage, 
+ wodim, readom and dvdauthor programs. They are only needed for the 
+ following operations in Rejilla:
+  * Audio CD burning with CD-Text information
+  * Video DVD creation
+
+Package: librejilla-media1
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         dvd+rw-tools,
+         rejilla-common (= ${binary:Version})
+Recommends: mate-icon-theme,
+            gstreamer0.10-plugins-good
+Suggests: gstreamer0.10-fluendo-mp3,
+          gstreamer0.10-plugins-bad,
+          gstreamer0.10-plugins-ugly,
+          cdrdao
+Description: CD/DVD burning library for MATE - runtime
+ Librejilla is a simple library to burn, copy and erase CD and DVD 
+ media.
+ .
+ This package contains the shared library.
+
+Package: librejilla-media-dev
+Architecture: any
+Section: libdevel
+Depends: librejilla-media1 (= ${binary:Version}),
+         libglib2.0-dev (>= 2.25.10),
+         libgtk2.0-dev (>= 2.17.10),
+         libdbus-glib-1-dev (>= 0.7.2),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: CD/DVD burning library for MATE - development
+ Librejilla is a simple library to burn, copy and erase CD and DVD 
+ media.
+ .
+ This package contains the development headers and API documentation.
+
+Package: mate-disc-burner
+Architecture: all
+Depends: rejilla
+Description: CD/DVD burning application for MATE
+ Rejilla is a simple application to burn, copy and erase CD and DVD 
+ media: audio, video or data. It features among other things:
+  * On-the-fly burning
+  * Multisession support
+  * On-the-fly conversion of music playlists in all formats supported by 
+    GStreamer
+ .
+ This is a metapackage that depends on rejilla.
+

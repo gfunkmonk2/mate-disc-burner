@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>rejilla-status</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-burn Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-burn">
+<link rel="prev" href="librejilla-burn-rejilla-tags.html" title="rejilla-tags">
+<link rel="next" href="librejilla-burn-rejilla-enums.html" title="rejilla-enums">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-burn-rejilla-tags.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-burn Reference Manual</th>
+<td><a accesskey="n" href="librejilla-burn-rejilla-enums.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-burn-rejilla-status.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-burn-rejilla-status.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="rejilla-status">
+<a name="librejilla-burn-rejilla-status"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-burn-rejilla-status.top_of_page"></a>rejilla-status</span></h2>
+<p>rejilla-status</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-burn-rejilla-status.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus">RejillaStatus</a>;
+enum                <a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatusType" title="enum RejillaStatusType">RejillaStatusType</a>;
+<a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="returnvalue">RejillaStatus</span></a> *     <a class="link" href="librejilla-burn-rejilla-status.html#rejilla-status-new" title="rejilla_status_new ()">rejilla_status_new</a>                  (<em class="parameter"><code><span class="type">void</span></code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-rejilla-status.html#rejilla-status-get-result" title="rejilla_status_get_result ()">rejilla_status_get_result</a>           (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gdouble"><span class="returnvalue">gdouble</span></a>             <a class="link" href="librejilla-burn-rejilla-status.html#rejilla-status-get-progress" title="rejilla_status_get_progress ()">rejilla_status_get_progress</a>         (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="returnvalue">GError</span></a> *            <a class="link" href="librejilla-burn-rejilla-status.html#rejilla-status-get-error" title="rejilla_status_get_error ()">rejilla_status_get_error</a>            (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             <a class="link" href="librejilla-burn-rejilla-status.html#rejilla-status-get-current-action" title="rejilla_status_get_current_action ()">rejilla_status_get_current_action</a>   (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-status.html#rejilla-status-set-completed" title="rejilla_status_set_completed ()">rejilla_status_set_completed</a>        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-status.html#rejilla-status-set-not-ready" title="rejilla_status_set_not_ready ()">rejilla_status_set_not_ready</a>        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gdouble"><span class="type">gdouble</span></a> progress</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *current_action</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-status.html#rejilla-status-set-error" title="rejilla_status_set_error ()">rejilla_status_set_error</a>            (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> *error</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-burn-rejilla-status.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-burn-rejilla-status.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaStatus">
+<a name="RejillaStatus"></a><h3>RejillaStatus</h3>
+<pre class="programlisting">typedef struct {
+	GObject parent_instance;
+} RejillaStatus;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum RejillaStatusType">
+<a name="RejillaStatusType"></a><h3>enum RejillaStatusType</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_STATUS_OK			= 0,
+	REJILLA_STATUS_ERROR,
+	REJILLA_STATUS_QUESTION,
+	REJILLA_STATUS_INFORMATION
+} RejillaStatusType;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_status_new ()">
+<a name="rejilla-status-new"></a><h3>rejilla_status_new ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="returnvalue">RejillaStatus</span></a> *     rejilla_status_new                  (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Creates a new <a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> object.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_status_get_result ()">
+<a name="rejilla-status-get-result"></a><h3>rejilla_status_get_result ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_status_get_result           (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>);</pre>
+<p>
+After an object (see <code class="function">rejilla_burn_track_get_status()</code>) has
+been requested its status, this function returns that status.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>status</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>.
+REJILLA_BURN_OK if the object is ready.
+REJILLA_BURN_NOT_READY if some time should be given to the object before it is ready.
+REJILLA_BURN_ERR if there is an error.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_status_get_progress ()">
+<a name="rejilla-status-get-progress"></a><h3>rejilla_status_get_progress ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gdouble"><span class="returnvalue">gdouble</span></a>             rejilla_status_get_progress         (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>);</pre>
+<p>
+If <a class="link" href="librejilla-burn-rejilla-status.html#rejilla-status-get-result" title="rejilla_status_get_result ()"><code class="function">rejilla_status_get_result()</code></a> returned REJILLA_BURN_NOT_READY,
+this function returns the progress regarding the operation completion.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>status</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gdouble"><span class="type">gdouble</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_status_get_error ()">
+<a name="rejilla-status-get-error"></a><h3>rejilla_status_get_error ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="returnvalue">GError</span></a> *            rejilla_status_get_error            (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>);</pre>
+<p>
+If <a class="link" href="librejilla-burn-rejilla-status.html#rejilla-status-get-result" title="rejilla_status_get_result ()"><code class="function">rejilla_status_get_result()</code></a> returned REJILLA_BURN_ERR,
+this function returns the error.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>status</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_status_get_current_action ()">
+<a name="rejilla-status-get-current-action"></a><h3>rejilla_status_get_current_action ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             rejilla_status_get_current_action   (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>);</pre>
+<p>
+If <a class="link" href="librejilla-burn-rejilla-status.html#rejilla-status-get-result" title="rejilla_status_get_result ()"><code class="function">rejilla_status_get_result()</code></a> returned REJILLA_BURN_NOT_READY,
+this function returns a string describing the operation currently performed.
+Free the string when it is not needed anymore.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>status</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_status_set_completed ()">
+<a name="rejilla-status-set-completed"></a><h3>rejilla_status_set_completed ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_status_set_completed        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>);</pre>
+<p>
+Sets the status for a request to REJILLA_BURN_OK.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>status</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_status_set_not_ready ()">
+<a name="rejilla-status-set-not-ready"></a><h3>rejilla_status_set_not_ready ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_status_set_not_ready        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gdouble"><span class="type">gdouble</span></a> progress</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *current_action</code></em>);</pre>
+<p>
+Sets the status for a request to REJILLA_BURN_NOT_READY.
+Allows to set a string describing the operation currently performed
+as well as the progress regarding the operation completion.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>status</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>progress</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gdouble"><span class="type">gdouble</span></a> or -1.0.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>current_action</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> or NULL.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_status_set_error ()">
+<a name="rejilla-status-set-error"></a><h3>rejilla_status_set_error ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_status_set_error            (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a> *status</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> *error</code></em>);</pre>
+<p>
+Sets the status for a request to REJILLA_BURN_ERR.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>status</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-status.html#RejillaStatus" title="RejillaStatus"><span class="type">RejillaStatus</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> or NULL.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

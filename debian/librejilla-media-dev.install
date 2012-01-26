@@ -1,0 +1,4 @@
+debian/tmp/usr/lib/pkmateconfig
+debian/tmp/usr/lib/*.so
+debian/tmp/usr/include
+debian/tmp/usr/share/gtk-doc

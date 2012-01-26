@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaTrackStream</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-burn Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-burn">
+<link rel="prev" href="librejilla-burn-rejilla-track-data-cfg.html" title="RejillaTrackDataCfg">
+<link rel="next" href="librejilla-burn-RejillaTrackStreamCfg.html" title="RejillaTrackStreamCfg">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-burn-rejilla-track-data-cfg.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-burn Reference Manual</th>
+<td><a accesskey="n" href="librejilla-burn-RejillaTrackStreamCfg.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-burn-RejillaTrackStream.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-burn-RejillaTrackStream.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaTrackStream">
+<a name="librejilla-burn-RejillaTrackStream"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-burn-RejillaTrackStream.top_of_page"></a>RejillaTrackStream</span></h2>
+<p>RejillaTrackStream</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-burn-RejillaTrackStream.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream">RejillaTrackStream</a>;
+<a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="returnvalue">RejillaTrackStream</span></a> * <a class="link" href="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-new" title="rejilla_track_stream_new ()">rejilla_track_stream_new</a>           (<em class="parameter"><code><span class="type">void</span></code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-set-source" title="rejilla_track_stream_set_source ()">rejilla_track_stream_set_source</a>     (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *uri</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-set-format" title="rejilla_track_stream_set_format ()">rejilla_track_stream_set_format</a>     (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaStreamFormat" title="enum RejillaStreamFormat"><span class="type">RejillaStreamFormat</span></a> format</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-set-boundaries" title="rejilla_track_stream_set_boundaries ()">rejilla_track_stream_set_boundaries</a> (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> start</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> end</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> gap</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             <a class="link" href="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-get-source" title="rejilla_track_stream_get_source ()">rejilla_track_stream_get_source</a>     (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> uri</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-get-length" title="rejilla_track_stream_get_length ()">rejilla_track_stream_get_length</a>     (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> *length</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="returnvalue">guint64</span></a>             <a class="link" href="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-get-start" title="rejilla_track_stream_get_start ()">rejilla_track_stream_get_start</a>      (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="returnvalue">guint64</span></a>             <a class="link" href="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-get-end" title="rejilla_track_stream_get_end ()">rejilla_track_stream_get_end</a>        (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="returnvalue">guint64</span></a>             <a class="link" href="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-get-gap" title="rejilla_track_stream_get_gap ()">rejilla_track_stream_get_gap</a>        (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaStreamFormat" title="enum RejillaStreamFormat"><span class="returnvalue">RejillaStreamFormat</span></a>  <a class="link" href="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-get-format" title="rejilla_track_stream_get_format ()">rejilla_track_stream_get_format</a>    (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-burn-RejillaTrackStream.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-burn-RejillaTrackStream.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaTrackStream">
+<a name="RejillaTrackStream"></a><h3>RejillaTrackStream</h3>
+<pre class="programlisting">typedef struct {
+	RejillaTrack parent_instance;
+} RejillaTrackStream;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_stream_new ()">
+<a name="rejilla-track-stream-new"></a><h3>rejilla_track_stream_new ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="returnvalue">RejillaTrackStream</span></a> * rejilla_track_stream_new           (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Creates a new <a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> object.
+</p>
+<p>
+This type of tracks is used to burn audio or
+video files.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> object.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_stream_set_source ()">
+<a name="rejilla-track-stream-set-source"></a><h3>rejilla_track_stream_set_source ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_stream_set_source     (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *uri</code></em>);</pre>
+<p>
+Sets the stream (song or video) uri.
+</p>
+<p>
+Note: it resets the end point of the track to 0 but keeps start point and gap
+unchanged.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if it is successful.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_stream_set_format ()">
+<a name="rejilla-track-stream-set-format"></a><h3>rejilla_track_stream_set_format ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_stream_set_format     (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaStreamFormat" title="enum RejillaStreamFormat"><span class="type">RejillaStreamFormat</span></a> format</code></em>);</pre>
+<p>
+Sets the format of the stream.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>format</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaStreamFormat" title="enum RejillaStreamFormat"><span class="type">RejillaStreamFormat</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if it is successful.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_stream_set_boundaries ()">
+<a name="rejilla-track-stream-set-boundaries"></a><h3>rejilla_track_stream_set_boundaries ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_stream_set_boundaries (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> start</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> end</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> gap</code></em>);</pre>
+<p>
+Sets the boundaries of the stream (where it starts, ends in the file;
+how long is the gap with the next track) in nano seconds.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>start</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> or -1 to ignore
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>end</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> or -1 to ignore
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>gap</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> or -1 to ignore
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if it is successful.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_stream_get_source ()">
+<a name="rejilla-track-stream-get-source"></a><h3>rejilla_track_stream_get_source ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             rejilla_track_stream_get_source     (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> uri</code></em>);</pre>
+<p>
+This function returns the path or the URI (if <em class="parameter"><code>uri</code></em> is TRUE)
+of the stream (song or video file).
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_stream_get_length ()">
+<a name="rejilla-track-stream-get-length"></a><h3>rejilla_track_stream_get_length ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_stream_get_length     (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> *length</code></em>);</pre>
+<p>
+This function returns the length of the stream (in nano seconds)
+taking into account the start and end time as well as the length
+of the gap. It stores it in <em class="parameter"><code>length</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>length</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if <em class="parameter"><code>length</code></em> was set.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_stream_get_start ()">
+<a name="rejilla-track-stream-get-start"></a><h3>rejilla_track_stream_get_start ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="returnvalue">guint64</span></a>             rejilla_track_stream_get_start      (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>);</pre>
+<p>
+This function returns start time in the stream (in nano seconds).
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_stream_get_end ()">
+<a name="rejilla-track-stream-get-end"></a><h3>rejilla_track_stream_get_end ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="returnvalue">guint64</span></a>             rejilla_track_stream_get_end        (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>);</pre>
+<p>
+This function returns end time in the stream (in nano seconds).
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_stream_get_gap ()">
+<a name="rejilla-track-stream-get-gap"></a><h3>rejilla_track_stream_get_gap ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="returnvalue">guint64</span></a>             rejilla_track_stream_get_gap        (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>);</pre>
+<p>
+This function returns length of the gap (in nano seconds).
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_stream_get_format ()">
+<a name="rejilla-track-stream-get-format"></a><h3>rejilla_track_stream_get_format ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaStreamFormat" title="enum RejillaStreamFormat"><span class="returnvalue">RejillaStreamFormat</span></a>  rejilla_track_stream_get_format    (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a> *track</code></em>);</pre>
+<p>
+This function returns the format of the stream.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream" title="RejillaTrackStream"><span class="type">RejillaTrackStream</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaStreamFormat" title="enum RejillaStreamFormat"><span class="type">RejillaStreamFormat</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

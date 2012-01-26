@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaDrive</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-media Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-media">
+<link rel="prev" href="librejilla-media-RejillaMediumMonitor.html" title="RejillaMediumMonitor">
+<link rel="next" href="librejilla-media-RejillaMedium.html" title="RejillaMedium">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-media-RejillaMediumMonitor.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-media Reference Manual</th>
+<td><a accesskey="n" href="librejilla-media-RejillaMedium.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-media-rejilla-drive.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-media-rejilla-drive.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaDrive">
+<a name="librejilla-media-rejilla-drive"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-media-rejilla-drive.top_of_page"></a>RejillaDrive</span></h2>
+<p>RejillaDrive</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-media-rejilla-drive.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">enum                <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDriveCaps" title="enum RejillaDriveCaps">RejillaDriveCaps</a>;
+                    <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive">RejillaDrive</a>;
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-reprobe" title="rejilla_drive_reprobe ()">rejilla_drive_reprobe</a>               (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="returnvalue">RejillaMedium</span></a> *     <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-get-medium" title="rejilla_drive_get_medium ()">rejilla_drive_get_medium</a>            (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<a href="http://library.mate.org/devel/gio/unstable/GDrive.html"><span class="returnvalue">GDrive</span></a> *            <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-get-gdrive" title="rejilla_drive_get_gdrive ()">rejilla_drive_get_gdrive</a>            (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-get-udi" title="rejilla_drive_get_udi ()">rejilla_drive_get_udi</a>               (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-is-fake" title="rejilla_drive_is_fake ()">rejilla_drive_is_fake</a>               (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-get-display-name" title="rejilla_drive_get_display_name ()">rejilla_drive_get_display_name</a>      (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-get-device" title="rejilla_drive_get_device ()">rejilla_drive_get_device</a>            (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-get-block-device" title="rejilla_drive_get_block_device ()">rejilla_drive_get_block_device</a>      (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-get-bus-target-lun-string" title="rejilla_drive_get_bus_target_lun_string ()">rejilla_drive_get_bus_target_lun_string</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<a class="link" href="librejilla-media-rejilla-drive.html#RejillaDriveCaps" title="enum RejillaDriveCaps"><span class="returnvalue">RejillaDriveCaps</span></a>    <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-get-caps" title="rejilla_drive_get_caps ()">rejilla_drive_get_caps</a>              (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-can-write" title="rejilla_drive_can_write ()">rejilla_drive_can_write</a>             (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-can-eject" title="rejilla_drive_can_eject ()">rejilla_drive_can_eject</a>             (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-eject" title="rejilla_drive_eject ()">rejilla_drive_eject</a>                 (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> wait</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-cancel-current-operation" title="rejilla_drive_cancel_current_operation ()">rejilla_drive_cancel_current_operation</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-is-door-open" title="rejilla_drive_is_door_open ()">rejilla_drive_is_door_open</a>          (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-can-use-exclusively" title="rejilla_drive_can_use_exclusively ()">rejilla_drive_can_use_exclusively</a>   (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-lock" title="rejilla_drive_lock ()">rejilla_drive_lock</a>                  (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *reason</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **reason_for_failure</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-rejilla-drive.html#rejilla-drive-unlock" title="rejilla_drive_unlock ()">rejilla_drive_unlock</a>                (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-media-rejilla-drive.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-media-rejilla-drive.details"></a><h2>Details</h2>
+<div class="refsect2" title="enum RejillaDriveCaps">
+<a name="RejillaDriveCaps"></a><h3>enum RejillaDriveCaps</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_DRIVE_CAPS_NONE			= 0,
+	REJILLA_DRIVE_CAPS_CDR			= 1,
+	REJILLA_DRIVE_CAPS_CDRW			= 1 &lt;&lt; 1,
+	REJILLA_DRIVE_CAPS_DVDR			= 1 &lt;&lt; 2,
+	REJILLA_DRIVE_CAPS_DVDRW		= 1 &lt;&lt; 3,
+	REJILLA_DRIVE_CAPS_DVDR_PLUS		= 1 &lt;&lt; 4,
+	REJILLA_DRIVE_CAPS_DVDRW_PLUS		= 1 &lt;&lt; 5,
+	REJILLA_DRIVE_CAPS_DVDR_PLUS_DL		= 1 &lt;&lt; 6,
+	REJILLA_DRIVE_CAPS_DVDRW_PLUS_DL = 1 &lt;&lt; 7,
+	REJILLA_DRIVE_CAPS_DVDRAM		= 1 &lt;&lt; 10,
+	REJILLA_DRIVE_CAPS_BDR			= 1 &lt;&lt; 8,
+	REJILLA_DRIVE_CAPS_BDRW			= 1 &lt;&lt; 9
+} RejillaDriveCaps;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="RejillaDrive">
+<a name="RejillaDrive"></a><h3>RejillaDrive</h3>
+<pre class="programlisting">typedef struct {
+	GObject parent_instance;
+} RejillaDrive;
+</pre>
+<p>
+Represents a physical drive currently connected.
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_reprobe ()">
+<a name="rejilla-drive-reprobe"></a><h3>rejilla_drive_reprobe ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_drive_reprobe               (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Reprobes the drive contents. Useful when an operation has just been performed
+(blanking, burning, ...) and medium status should be updated.
+</p>
+<p>
+NOTE: This operation does not block.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_get_medium ()">
+<a name="rejilla-drive-get-medium"></a><h3>rejilla_drive_get_medium ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="returnvalue">RejillaMedium</span></a> *     rejilla_drive_get_medium            (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Gets the medium currently inserted in the drive. If there is no medium or if
+the medium is not probed yet then it returns NULL.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> object or NULL. No need to unref after use. <span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_get_gdrive ()">
+<a name="rejilla-drive-get-gdrive"></a><h3>rejilla_drive_get_gdrive ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/gio/unstable/GDrive.html"><span class="returnvalue">GDrive</span></a> *            rejilla_drive_get_gdrive            (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Returns the <a href="http://library.mate.org/devel/gio/unstable/GDrive.html"><span class="type">GDrive</span></a> corresponding to this <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/gio/unstable/GDrive.html"><span class="type">GDrive</span></a> or NULL. Unref after use.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_get_udi ()">
+<a name="rejilla-drive-get-udi"></a><h3>rejilla_drive_get_udi ()</h3>
+<pre class="programlisting">const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       rejilla_drive_get_udi               (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Gets a string holding the HAL udi corresponding to this device. It can be used
+to uniquely identify the drive.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a string holding the HAL udi or NULL. Not to be freed
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_is_fake ()">
+<a name="rejilla-drive-is-fake"></a><h3>rejilla_drive_is_fake ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_drive_is_fake               (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Returns whether or not the drive is a fake one. There is only one and
+corresponds to a file which is used when the user wants to burn to a file.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> or <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_get_display_name ()">
+<a name="rejilla-drive-get-display-name"></a><h3>rejilla_drive_get_display_name ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             rejilla_drive_get_display_name      (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Gets a string holding the name for the drive. That string can be then
+displayed in a user interface.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a string holding the name
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_get_device ()">
+<a name="rejilla-drive-get-device"></a><h3>rejilla_drive_get_device ()</h3>
+<pre class="programlisting">const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       rejilla_drive_get_device            (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Gets a string holding the device path for the drive.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a string holding the device path.
+On Solaris returns raw device.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_get_block_device ()">
+<a name="rejilla-drive-get-block-device"></a><h3>rejilla_drive_get_block_device ()</h3>
+<pre class="programlisting">const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       rejilla_drive_get_block_device      (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Gets a string holding the block device path for the drive. This can be used on
+some other OSes, like Solaris, for GIO operations instead of the device
+path.
+</p>
+<p>
+Solaris uses block device for GIO operations and
+uses raw device for system calls and backends
+like cdrtool.
+</p>
+<p>
+If such a path is not available, it returns the device path.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a string holding the block device path
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_get_bus_target_lun_string ()">
+<a name="rejilla-drive-get-bus-target-lun-string"></a><h3>rejilla_drive_get_bus_target_lun_string ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             rejilla_drive_get_bus_target_lun_string
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Returns the bus, target, lun ("{bus},{target},{lun}") as a string which is
+sometimes needed by some backends like cdrecord.
+</p>
+<p>
+NOTE: that function returns either bus/target/lun or the device path
+according to OSes. Basically it returns bus/target/lun only for FreeBSD
+which is the only OS in need for that. For all others it returns the device
+path.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a string or NULL. The string must be freed when not needed
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_get_caps ()">
+<a name="rejilla-drive-get-caps"></a><h3>rejilla_drive_get_caps ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDriveCaps" title="enum RejillaDriveCaps"><span class="returnvalue">RejillaDriveCaps</span></a>    rejilla_drive_get_caps              (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Returns what type(s) of disc the drive can write to.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDriveCaps" title="enum RejillaDriveCaps"><span class="type">RejillaDriveCaps</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_can_write ()">
+<a name="rejilla-drive-can-write"></a><h3>rejilla_drive_can_write ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_drive_can_write             (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Returns whether the disc can burn any disc at all.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the drive can write a disc and FALSE otherwise
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_can_eject ()">
+<a name="rejilla-drive-can-eject"></a><h3>rejilla_drive_can_eject ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_drive_can_eject             (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Returns whether the drive can eject media.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the media can be ejected, FALSE otherwise.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_eject ()">
+<a name="rejilla-drive-eject"></a><h3>rejilla_drive_eject ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_drive_eject                 (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> wait</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>
+Open the drive tray or ejects the media if there is any inside.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>wait</code></em> :</span></p></td>
+<td>
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> whether to wait for the completion of the operation (with a GMainLoop)
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td>
+<a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE on success, FALSE otherwise.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_cancel_current_operation ()">
+<a name="rejilla-drive-cancel-current-operation"></a><h3>rejilla_drive_cancel_current_operation ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_drive_cancel_current_operation
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Cancels all operations currently running for <em class="parameter"><code>drive</code></em>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_is_door_open ()">
+<a name="rejilla-drive-is-door-open"></a><h3>rejilla_drive_is_door_open ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_drive_is_door_open          (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Returns whether or not the drive door is open.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> or <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_can_use_exclusively ()">
+<a name="rejilla-drive-can-use-exclusively"></a><h3>rejilla_drive_can_use_exclusively ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_drive_can_use_exclusively   (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Returns whether or not the drive can be used exclusively, that is whether or
+not it is currently used by another application.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> or <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_lock ()">
+<a name="rejilla-drive-lock"></a><h3>rejilla_drive_lock ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_drive_lock                  (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>,
+                                                         <em class="parameter"><code>const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *reason</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **reason_for_failure</code></em>);</pre>
+<p>
+Locks a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>. Manual ejection shouldn't be possible any more.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>reason</code></em> :</span></p></td>
+<td>a string to indicate what the drive was locked for
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>reason_for_failure</code></em> :</span></p></td>
+<td>a string (or NULL) to hold the reason why the locking failed
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the drive was successfully locked or <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_drive_unlock ()">
+<a name="rejilla-drive-unlock"></a><h3>rejilla_drive_unlock ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_drive_unlock                (<em class="parameter"><code><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Unlocks a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the drive was successfully unlocked or <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

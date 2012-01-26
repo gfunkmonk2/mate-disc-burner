@@ -1,0 +1,730 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaMedium</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-media Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-media">
+<link rel="prev" href="librejilla-media-rejilla-drive.html" title="RejillaDrive">
+<link rel="next" href="librejilla-media-RejillaVolume.html" title="RejillaVolume">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-media-rejilla-drive.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-media Reference Manual</th>
+<td><a accesskey="n" href="librejilla-media-RejillaVolume.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-media-RejillaMedium.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-media-RejillaMedium.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaMedium">
+<a name="librejilla-media-RejillaMedium"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-media-RejillaMedium.top_of_page"></a>RejillaMedium</span></h2>
+<p>RejillaMedium</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-media-RejillaMedium.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium">RejillaMedium</a>;
+<a class="link" href="librejilla-media-rejilla-media.html#RejillaMedia" title="enum RejillaMedia"><span class="returnvalue">RejillaMedia</span></a>        <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-status" title="rejilla_medium_get_status ()">rejilla_medium_get_status</a>           (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="returnvalue">guint64</span></a>             <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-max-write-speed" title="rejilla_medium_get_max_write_speed ()">rejilla_medium_get_max_write_speed</a>  (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="returnvalue">guint64</span></a> *           <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-write-speeds" title="rejilla_medium_get_write_speeds ()">rejilla_medium_get_write_speeds</a>     (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-free-space" title="rejilla_medium_get_free_space ()">rejilla_medium_get_free_space</a>       (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *blocks</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-capacity" title="rejilla_medium_get_capacity ()">rejilla_medium_get_capacity</a>         (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *blocks</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-data-size" title="rejilla_medium_get_data_size ()">rejilla_medium_get_data_size</a>        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *blocks</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="returnvalue">gint64</span></a>              <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-next-writable-address" title="rejilla_medium_get_next_writable_address ()">rejilla_medium_get_next_writable_address</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-can-be-rewritten" title="rejilla_medium_can_be_rewritten ()">rejilla_medium_can_be_rewritten</a>     (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-can-be-written" title="rejilla_medium_can_be_written ()">rejilla_medium_can_be_written</a>       (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-CD-TEXT-title" title="rejilla_medium_get_CD_TEXT_title ()">rejilla_medium_get_CD_TEXT_title</a>    (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-type-string" title="rejilla_medium_get_type_string ()">rejilla_medium_get_type_string</a>      (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-tooltip" title="rejilla_medium_get_tooltip ()">rejilla_medium_get_tooltip</a>          (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+<a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="returnvalue">RejillaDrive</span></a> *      <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-drive" title="rejilla_medium_get_drive ()">rejilla_medium_get_drive</a>            (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="returnvalue">guint</span></a>               <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-track-num" title="rejilla_medium_get_track_num ()">rejilla_medium_get_track_num</a>        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-last-data-track-space" title="rejilla_medium_get_last_data_track_space ()">rejilla_medium_get_last_data_track_space</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *sectors</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-last-data-track-address" title="rejilla_medium_get_last_data_track_address ()">rejilla_medium_get_last_data_track_address</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *sectors</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-track-space" title="rejilla_medium_get_track_space ()">rejilla_medium_get_track_space</a>      (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> num</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *sectors</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-get-track-address" title="rejilla_medium_get_track_address ()">rejilla_medium_get_track_address</a>    (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> num</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *sectors</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-can-use-dummy-for-sao" title="rejilla_medium_can_use_dummy_for_sao ()">rejilla_medium_can_use_dummy_for_sao</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-can-use-dummy-for-tao" title="rejilla_medium_can_use_dummy_for_tao ()">rejilla_medium_can_use_dummy_for_tao</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaMedium.html#rejilla-medium-can-use-burnfree" title="rejilla_medium_can_use_burnfree ()">rejilla_medium_can_use_burnfree</a>     (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-media-RejillaMedium.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-media-RejillaMedium.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaMedium">
+<a name="RejillaMedium"></a><h3>RejillaMedium</h3>
+<pre class="programlisting">typedef struct {
+	GObject parent_instance;
+} RejillaMedium;
+</pre>
+<p>
+Represents a physical medium currently inserted in a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>.
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_status ()">
+<a name="rejilla-medium-get-status"></a><h3>rejilla_medium_get_status ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-media-rejilla-media.html#RejillaMedia" title="enum RejillaMedia"><span class="returnvalue">RejillaMedia</span></a>        rejilla_medium_get_status           (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Gets the medium type and state.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-media-rejilla-media.html#RejillaMedia" title="enum RejillaMedia"><span class="type">RejillaMedia</span></a>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_max_write_speed ()">
+<a name="rejilla-medium-get-max-write-speed"></a><h3>rejilla_medium_get_max_write_speed ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="returnvalue">guint64</span></a>             rejilla_medium_get_max_write_speed  (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Gets the maximum speed that can be used to write to <em class="parameter"><code>medium</code></em>.
+Note: the speed are in B/sec.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_write_speeds ()">
+<a name="rejilla-medium-get-write-speeds"></a><h3>rejilla_medium_get_write_speeds ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="returnvalue">guint64</span></a> *           rejilla_medium_get_write_speeds     (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Gets an array holding all possible speeds to write to <em class="parameter"><code>medium</code></em>.
+Note: the speed are in B/sec.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> *.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_free_space ()">
+<a name="rejilla-medium-get-free-space"></a><h3>rejilla_medium_get_free_space ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_medium_get_free_space       (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *blocks</code></em>);</pre>
+<p>
+Stores in either <em class="parameter"><code>size</code></em> (in bytes) or <em class="parameter"><code>blocks</code></em> (the number of blocks) the space
+on the disc that can be used for writing.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bytes</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> * or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>blocks</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> * or NULL
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_capacity ()">
+<a name="rejilla-medium-get-capacity"></a><h3>rejilla_medium_get_capacity ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_medium_get_capacity         (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *blocks</code></em>);</pre>
+<p>
+Stores in either <em class="parameter"><code>size</code></em> (in bytes) or <em class="parameter"><code>blocks</code></em> (the number of blocks) the total
+disc space.
+Note that when the disc is closed this space is the one occupied by data. 
+Otherwise it is the sum of free and used space.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bytes</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> * or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>blocks</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> * or NULL
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_data_size ()">
+<a name="rejilla-medium-get-data-size"></a><h3>rejilla_medium_get_data_size ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_medium_get_data_size        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *blocks</code></em>);</pre>
+<p>
+Stores in either <em class="parameter"><code>size</code></em> (in bytes) or <em class="parameter"><code>blocks</code></em> (the number of blocks) the size
+used to store data (including audio on CDs) on the disc.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bytes</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> * or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>blocks</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> * or NULL
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_next_writable_address ()">
+<a name="rejilla-medium-get-next-writable-address"></a><h3>rejilla_medium_get_next_writable_address ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="returnvalue">gint64</span></a>              rejilla_medium_get_next_writable_address
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Gets the address (block number) that can be used to write a new session on <em class="parameter"><code>medium</code></em>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_can_be_rewritten ()">
+<a name="rejilla-medium-can-be-rewritten"></a><h3>rejilla_medium_can_be_rewritten ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_medium_can_be_rewritten     (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Gets whether the medium can be rewritten. Note: it also checks that the drive
+can rewrite the medium type.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the medium can be rewritten, FALSE otherwise.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_can_be_written ()">
+<a name="rejilla-medium-can-be-written"></a><h3>rejilla_medium_can_be_written ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_medium_can_be_written       (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Gets whether the medium can be written. It also checks that the medium can
+write the medium.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the medium can be rewritten, FALSE otherwise.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_CD_TEXT_title ()">
+<a name="rejilla-medium-get-CD-TEXT-title"></a><h3>rejilla_medium_get_CD_TEXT_title ()</h3>
+<pre class="programlisting">const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       rejilla_medium_get_CD_TEXT_title    (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Gets the CD-TEXT title for <em class="parameter"><code>Medium</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_type_string ()">
+<a name="rejilla-medium-get-type-string"></a><h3>rejilla_medium_get_type_string ()</h3>
+<pre class="programlisting">const <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       rejilla_medium_get_type_string      (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Returns the medium type as a string to be displayed in a UI.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_tooltip ()">
+<a name="rejilla-medium-get-tooltip"></a><h3>rejilla_medium_get_tooltip ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             rejilla_medium_get_tooltip          (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Returns a tooltip to be displayed in the UI.
+It is of the form {content type} {disc type} in {drive name}.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_drive ()">
+<a name="rejilla-medium-get-drive"></a><h3>rejilla_medium_get_drive ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="returnvalue">RejillaDrive</span></a> *      rejilla_medium_get_drive            (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Gets the <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a> in which the medium is inserted.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-media-rejilla-drive.html#RejillaDrive" title="RejillaDrive"><span class="type">RejillaDrive</span></a>. No need to unref after use. <span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_track_num ()">
+<a name="rejilla-medium-get-track-num"></a><h3>rejilla_medium_get_track_num ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="returnvalue">guint</span></a>               rejilla_medium_get_track_num        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Gets the number of tracks on the medium.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_last_data_track_space ()">
+<a name="rejilla-medium-get-last-data-track-space"></a><h3>rejilla_medium_get_last_data_track_space ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_medium_get_last_data_track_space
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *sectors</code></em>);</pre>
+<p>
+Stores in either <em class="parameter"><code>bytes</code></em> (in bytes) or in <em class="parameter"><code>sectors</code></em> (in blocks) the space used by
+the last track on the medium.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bytes</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> * or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>sectors</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> * or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. Returns TRUE if information could be retrieved.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_last_data_track_address ()">
+<a name="rejilla-medium-get-last-data-track-address"></a><h3>rejilla_medium_get_last_data_track_address ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_medium_get_last_data_track_address
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *sectors</code></em>);</pre>
+<p>
+Stores in either <em class="parameter"><code>bytes</code></em> (in bytes) or in <em class="parameter"><code>sectors</code></em> (in blocks) the address where
+the last session starts. This is useful when creating a multisession image or
+when reading the contents of this last track.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bytes</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> * or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>sectors</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> * or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. Returns TRUE if information could be retrieved.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_track_space ()">
+<a name="rejilla-medium-get-track-space"></a><h3>rejilla_medium_get_track_space ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_medium_get_track_space      (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> num</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *sectors</code></em>);</pre>
+<p>
+Stores in either <em class="parameter"><code>bytes</code></em> (in bytes) or in <em class="parameter"><code>sectors</code></em> (in blocks) the space used
+by session <em class="parameter"><code>num</code></em> on the disc.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>num</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bytes</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> * or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>sectors</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> * or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. Returns TRUE if information could be retrieved;
+FALSE otherwise (usually when track <em class="parameter"><code>num</code></em> doesn't exist).
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_get_track_address ()">
+<a name="rejilla-medium-get-track-address"></a><h3>rejilla_medium_get_track_address ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_medium_get_track_address    (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> num</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *bytes</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *sectors</code></em>);</pre>
+<p>
+Stores in either <em class="parameter"><code>bytes</code></em> (in bytes) or in <em class="parameter"><code>sectors</code></em> (in blocks) the address at
+which the session identified by <em class="parameter"><code>num</code></em> starts.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>num</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bytes</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> * or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>sectors</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> * or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. Returns TRUE if information could be retrieved;
+FALSE otherwise (usually when track <em class="parameter"><code>num</code></em> doesn't exist).
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_can_use_dummy_for_sao ()">
+<a name="rejilla-medium-can-use-dummy-for-sao"></a><h3>rejilla_medium_can_use_dummy_for_sao ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_medium_can_use_dummy_for_sao
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Gets whether the medium supports doing a test write with SAO on.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the medium can use SAO write mode during a test write, FALSE otherwise.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_can_use_dummy_for_tao ()">
+<a name="rejilla-medium-can-use-dummy-for-tao"></a><h3>rejilla_medium_can_use_dummy_for_tao ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_medium_can_use_dummy_for_tao
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Gets whether the medium supports doing a test write with TAO on.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the medium can use TAO write mode during a test write, FALSE otherwise.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_medium_can_use_burnfree ()">
+<a name="rejilla-medium-can-use-burnfree"></a><h3>rejilla_medium_can_use_burnfree ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_medium_can_use_burnfree     (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a> *medium</code></em>);</pre>
+<p>
+Gets whether the medium supports any burnfree technology.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>medium</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaMedium.html#RejillaMedium" title="RejillaMedium"><span class="type">RejillaMedium</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the medium can use any burnfree technology, FALSE otherwise.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

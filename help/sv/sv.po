@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rejilla doc\n"
+"POT-Creation-Date: 2010-09-11 18:30+0000\n"
+"PO-Revision-Date: 2010-09-19 18:06+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/rejilla.xml:257(None)
+msgid "@@image: 'figures/rejilla_main.png'; md5=dfc32ea3caef05364043a4529125d2e2"
+msgstr "@@image: 'figures/rejilla_main.png'; md5=dfc32ea3caef05364043a4529125d2e2"
+
+#: C/rejilla.xml:26(title)
+msgid "<application>Rejilla</application> Manual V2.2"
+msgstr "Handbok för <application>Rejilla</application> v2.2"
+
+#: C/rejilla.xml:28(para)
+msgid "Rejilla is an application for burning CDs and DVDs."
+msgstr "Rejilla är ett program för att bränna cd- och dvd-skivor."
+
+#: C/rejilla.xml:32(year)
+msgid "2008"
+msgstr "2008"
+
+#: C/rejilla.xml:33(year)
+msgid "2009"
+msgstr "2009"
+
+#: C/rejilla.xml:34(holder)
+#: C/rejilla.xml:48(publishername)
+#: C/rejilla.xml:61(orgname)
+#: C/rejilla.xml:69(orgname)
+#: C/rejilla.xml:77(orgname)
+#: C/rejilla.xml:105(para)
+#: C/rejilla.xml:115(para)
+#: C/rejilla.xml:131(para)
+msgid "Ubuntu Documentation Project"
+msgstr "Dokumentationsprojekt för Ubuntu"
+
+#: C/rejilla.xml:2(para)
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+msgstr "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller senare, utgivet av Free Software Foundation utan standardavsnitt och omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink type=\"help\" url=\"ghelp:fdl\">länk</ulink> eller i filen COPYING-DOCS som medföljer denna handbok."
+
+#: C/rejilla.xml:12(para)
+msgid "This manual is part of a collection of MATE manuals distributed under the GFDL. If you want to distribute this manual separately from the collection, you can do so by adding a copy of the license to the manual, as described in section 6 of the license."
+msgstr "Denna handbok utgör en av flera MATE-handböcker som distribueras under villkoren i GFDL.  Om du vill distribuera denna handbok separat från övriga handböcker kan du göra detta genom att lägga till en kopia av licensavtalet i handboken enligt instruktionerna i avsnitt 6 i licensavtalet."
+
+#: C/rejilla.xml:19(para)
+msgid "Many of the names used by companies to distinguish their products and services are claimed as trademarks. Where those names appear in any MATE documentation, and the members of the MATE Documentation Project are made aware of those trademarks, then the names are in capital letters or initial capital letters."
+msgstr "Flera namn på produkter och tjänster är registrerade varumärken. I de fall dessa namn förekommer i MATE-dokumentation - och medlemmarna i MATE-dokumentationsprojektet är medvetna om dessa varumärken - är de skrivna med versaler eller med inledande versal."
+
+#: C/rejilla.xml:35(para)
+msgid "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr "DOKUMENTET TILLHANDAHÅLLS I \"BEFINTLIGT SKICK\" UTAN NÅGRA SOM HELST GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I NÅGOT HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST UNDER DENNA ANSVARSFRISKRIVNING;"
+
+#: C/rejilla.xml:55(para)
+msgid "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES."
+msgstr "UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, OAVSETT OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER DYLIKT, SKA FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN MEDARBETARE ELLER ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD VERSION AV DOKUMENTET ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR ELLER FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I ARBETET, DATORHAVERI ELLER NÅGRA ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER SOM KAN UPPKOMMA PÅ GRUND AV ELLER RELATERAT TILL ANVÄNDNINGEN AV DOKUMENTET ELLER MODIFIERADE VERSIONER AV DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA SKADOR."
+
+#: C/rejilla.xml:28(para)
+msgid "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: <placeholder-1/>"
+msgstr "DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET TILLHANDAHÅLLS UNDER VILLKOREN I GNU FREE DOCUMENTATION LICENSE ENDAST UNDER FÖLJANDE FÖRUTSÄTTNINGAR: <placeholder-1/>"
+
+#: C/rejilla.xml:58(firstname)
+msgid "Milo"
+msgstr "Milo"
+
+#: C/rejilla.xml:59(surname)
+msgid "Casagrande"
+msgstr "Casagrande"
+
+#: C/rejilla.xml:62(email)
+msgid "milo@ubuntu.com"
+msgstr "milo@ubuntu.com"
+
+#: C/rejilla.xml:66(firstname)
+msgid "Andrew"
+msgstr "Andrew"
+
+#: C/rejilla.xml:67(surname)
+msgid "Stabeno"
+msgstr "Stabeno"
+
+#: C/rejilla.xml:70(email)
+msgid "stabeno@gmail.com"
+msgstr "stabeno@gmail.com"
+
+#: C/rejilla.xml:74(firstname)
+msgid "Phil"
+msgstr "Phil"
+
+#: C/rejilla.xml:75(surname)
+msgid "Bull"
+msgstr "Bull"
+
+#: C/rejilla.xml:78(email)
+msgid "philbull@gmail.com"
+msgstr "philbull@gmail.com"
+
+#: C/rejilla.xml:99(revnumber)
+msgid "Rejilla Manual V2.2"
+msgstr "Handbok för Rejilla v2.2"
+
+#: C/rejilla.xml:100(date)
+msgid "January 2009"
+msgstr "Januari 2009"
+
+#: C/rejilla.xml:102(para)
+#: C/rejilla.xml:112(para)
+#: C/rejilla.xml:122(para)
+msgid "Milo Casagrande <email>milo@ubuntu.com</email>"
+msgstr "Milo Casagrande <email>milo@ubuntu.com</email>"
+
+#: C/rejilla.xml:109(revnumber)
+msgid "Rejilla Manual V2.1"
+msgstr "Handbok för Rejilla v2.1"
+
+#: C/rejilla.xml:110(date)
+msgid "August 2008"
+msgstr "Augusti 2008"
+
+#: C/rejilla.xml:119(revnumber)
+msgid "Rejilla Manual V2.0"
+msgstr "Handbok för Rejilla v2.0"
+
+#: C/rejilla.xml:120(date)
+msgid "February 2008"
+msgstr "Februari 2008"
+
+#: C/rejilla.xml:125(para)
+msgid "Andrew Stabeno <email>stabeno@gmail.com</email>"
+msgstr "Andrew Stabeno <email>stabeno@gmail.com</email>"
+
+#: C/rejilla.xml:128(para)
+msgid "Phil Bull <email>philbull@gmail.com</email>"
+msgstr "Phil Bull <email>philbull@gmail.com</email>"
+
+#: C/rejilla.xml:136(releaseinfo)
+msgid "This manual describes version 2.26 of Rejilla."
+msgstr "Den här handboken beskriver version 2.26 av Rejilla."
+
+#: C/rejilla.xml:140(title)
+msgid "Feedback"
+msgstr "Återkoppling"
+
+#: C/rejilla.xml:141(para)
+msgid "To report a bug or make a suggestion regarding the <application>Rejilla</application> application or this manual, follow the directions in the <ulink url=\"ghelp:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
+msgstr "För att rapportera ett fel eller komma med ett förslag angående programmet <application>Rejilla</application> eller denna handbok, följ instruktionerna på <ulink url=\"ghelp:mate-feedback\" type=\"help\">MATE:s återkopplingssida</ulink>."
+
+#: C/rejilla.xml:150(primary)
+#: C/rejilla.xml:0(application)
+msgid "Rejilla"
+msgstr "Rejilla"
+
+#: C/rejilla.xml:153(primary)
+msgid "rejilla"
+msgstr "rejilla"
+
+#: C/rejilla.xml:154(secondary)
+msgid "burn"
+msgstr "bränn"
+
+#: C/rejilla.xml:155(tertiary)
+msgid "burning CD DVD"
+msgstr "bränning cd dvd"
+
+#: C/rejilla.xml:162(title)
+msgid "Introduction"
+msgstr "Introduktion"
+
+#: C/rejilla.xml:163(para)
+msgid "<application>Rejilla</application> is an application for burning CD-R/Ws and DVD-R/Ws, designed to be easy to use, while providing all the tools necessary for burning."
+msgstr "<application>Rejilla</application> är ett program för att bränna CD-R/W- och DVD-R/W-skivor, designat för enkelt användning samtidigt som det tillhandahåller alla verktygen som krävs för att bränna skivor."
+
+#: C/rejilla.xml:168(para)
+msgid "With <application>Rejilla</application> you can:"
+msgstr "Med <application>Rejilla</application> kan du:"
+
+#: C/rejilla.xml:171(para)
+msgid "Burn data to CD-R/Ws and DVD-R/Ws"
+msgstr "Bränna data till CD-R/W-skivor och DVD-R/W-skivor"
+
+#: C/rejilla.xml:176(para)
+msgid "Burn audio CDs from digital audio files (such as ogg, flac and mp3)"
+msgstr "Bränna ljudskivor från digitala ljudfiler (såsom ogg, flac och mp3)"
+
+#: C/rejilla.xml:182(para)
+msgid "Copy CDs and DVDs"
+msgstr "Kopiera cd- och dvd-skivor"
+
+#: C/rejilla.xml:187(para)
+msgid "Create video DVD or SVCD"
+msgstr "Skapa video-DVD eller SVCD-skivor"
+
+#: C/rejilla.xml:192(para)
+msgid "Create image files and burn existing image files"
+msgstr "Skapa avbildningsfiler och bränna befintliga avbildningsfiler"
+
+#: C/rejilla.xml:197(para)
+msgid "Erase CD-R/Ws and DVD-R/Ws"
+msgstr "Radera CD-R/W-skivor och DVD-R/W-skivor"
+
+#: C/rejilla.xml:202(para)
+msgid "Check the integrity of discs and disc images"
+msgstr "Kontrollera integriteten för skivor och skivavbildningar"
+
+#: C/rejilla.xml:211(title)
+msgid "Getting Started"
+msgstr "Komma igång"
+
+#: C/rejilla.xml:213(title)
+msgid "Starting Rejilla"
+msgstr "Starta Rejilla"
+
+#: C/rejilla.xml:214(para)
+msgid "You can start <application>Rejilla</application> in the following ways:"
+msgstr "Du kan starta <application>Rejilla</application> på följande sätt:"
+
+#: C/rejilla.xml:218(term)
+msgid "<guimenu>Applications</guimenu> menu"
+msgstr "<guimenu>Program</guimenu>-menyn"
+
+#: C/rejilla.xml:220(para)
+msgid "Choose <menuchoice><guisubmenu>Sound &amp; Video</guisubmenu><guimenuitem>Rejilla Disc Burning</guimenuitem></menuchoice>."
+msgstr "Välj <menuchoice><guisubmenu>Ljud och video</guisubmenu><guimenuitem>Skivbrännaren Rejilla</guimenuitem></menuchoice>."
+
+#: C/rejilla.xml:227(term)
+msgid "Command line"
+msgstr "Kommandorad"
+
+#: C/rejilla.xml:229(para)
+msgid "Type <command>rejilla</command> and then press <keycap>Return</keycap>."
+msgstr "Skriv <command>rejilla</command> och tryck sedan på <keycap>Return</keycap>."
+
+#: C/rejilla.xml:238(para)
+msgid "If <application>Rejilla</application> is set as your default disc burning application, it will automatically start when you insert a blank CD-R/W or DVD-R/W in your drive."
+msgstr "Om <application>Rejilla</application> är inställt som ditt standardprogram för skivbränning så kommer det automatiskt att startas när du matar in en tom CD-R/W- eller DVD-R/W-skiva i din enhet."
+
+#: C/rejilla.xml:248(title)
+msgid "When You Start Rejilla"
+msgstr "När du startar Rejilla"
+
+#: C/rejilla.xml:249(para)
+msgid "When you start <application>Rejilla</application> the following window will be shown."
+msgstr "När du startar <application>Rejilla</application> kommer följande fönster att visas."
+
+#: C/rejilla.xml:253(title)
+msgid "Rejilla Main Window"
+msgstr "Rejillas huvudfönster"
+
+#: C/rejilla.xml:260(phrase)
+msgid "The Rejilla main window. Shows the menu bar and the five types of project to choose from."
+msgstr "Rejillas huvudfönster. Visar menyraden och fem typer av projekt att välja från."
+
+#. ==== End of Figure ====
+#: C/rejilla.xml:270(para)
+#| msgid ""
+#| "This window is the starting point for all of your projects. You can click "
+#| "on the project type you wish to start from here. If you have created "
+#| "other projects with <application>Rejilla</application>, you will be able "
+#| "to select them from the <guilabel>Choose a recently opened project</"
+#| "guilabel> (see <xref linkend=\"rejilla-open-recent-project\"/> for more "
+#| "information)."
+msgid "This window is the starting point for all of your projects. You can click on the project type you wish to start from here. If you have created other projects with <application>Rejilla</application>, you will be able to select them from the <guilabel>Recent projects</guilabel> (see <xref linkend=\"rejilla-open-recent-project\"/> for more information)."
+msgstr "Detta fönster är startpunkten för alla dina projekt. Du kan klicka på den projekttyp som du vill börja med här. Om du har skapat andra projekt med <application>Rejilla</application> så kommer du kunna välja dem från <guilabel>Tidigare projekt</guilabel> (se <xref linkend=\"rejilla-open-recent-project\"/> för mer information)."
+
+#: C/rejilla.xml:284(title)
+msgid "Creating a New Project"
+msgstr "Skapa ett nytt projekt"
+
+#: C/rejilla.xml:285(para)
+msgid "The following section explains the five types of project that you can create with <application>Rejilla</application>."
+msgstr "Följande avsnitt förklarar de fem typer av projekt som du kan skapa med <application>Rejilla</application>."
+
+#: C/rejilla.xml:292(title)
+msgid "Audio Project"
+msgstr "Ljudprojekt"
+
+#: C/rejilla.xml:293(para)
+msgid "This section explains how to create an audio CD. This project takes selected audio files, converts them to a raw audio format and burns them to a CD which standard CD players can play."
+msgstr "Detta avsnitt förklarar hur man skapar en ljud-cd-skiva. Detta projekt använder markerade ljudfiler, konverterar dem till rått ljudformat och bränner dem till en cd-skiva som vanliga cd-spelare kan spela upp."
+
+#: C/rejilla.xml:302(para)
+msgid "Insert a blank CD-R into your drive."
+msgstr "Mata in en tom CD-R-skiva i din enhet."
+
+#: C/rejilla.xml:307(para)
+msgid "Click on <guibutton>Audio project</guibutton> in the main window or choose <menuchoice><guimenu>Project</guimenu><guisubmenu>New Project</guisubmenu><guimenuitem>New Audio Project</guimenuitem></menuchoice>."
+msgstr "Klicka på <guibutton>Ljudprojekt</guibutton> i huvudfönstret eller välj <menuchoice><guimenu>Projekt</guimenu><guisubmenu>Nytt projekt</guisubmenu><guimenuitem>Nytt ljudprojekt</guimenuitem></menuchoice>."
+
+#: C/rejilla.xml:318(para)
+msgid "In the pane on the left of the window, select <guilabel>Browse the file system </guilabel> from the drop-down list at the top and browse to the music files you want to add to your project."
+msgstr "I panelen till vänster av fönstret, välj <guilabel>Bläddra i filsystemet </guilabel> från rullgardinslistan överst och bläddra fram till musikfilerna som du vill lägga till i projektet."
+
+#: C/rejilla.xml:324(para)
+msgid "You can also select the <guilabel>Search files using keywords</guilabel> option to search for music files or the <guilabel>Display playlists and their contents </guilabel> option to select music from playlists on your computer."
+msgstr "Du kan även välja alternativet <guilabel>Sök filer efter nyckelord</guilabel> för att söka efter musikfiler eller alternativet <guilabel>Visa spellistor och deras innehåll </guilabel> för att välja musik från spellistor på din dator."
+
+#: C/rejilla.xml:333(para)
+#: C/rejilla.xml:603(para)
+#: C/rejilla.xml:797(para)
+msgid "If you don't see the pane on the left, choose <menuchoice><guimenu>View</guimenu><guimenuitem>Show side panel</guimenuitem></menuchoice> or press <keycap>F7</keycap>."
+msgstr "Om du inte ser panelen till vänster, välj <menuchoice><guimenu>Visa</guimenu><guimenuitem>Visa sidopanel</guimenuitem></menuchoice> eller tryck på <keycap>F7</keycap>."
+
+#: C/rejilla.xml:343(para)
+#: C/rejilla.xml:613(para)
+#: C/rejilla.xml:789(para)
+msgid "Select the files you want by double-clicking on them or by selecting them and clicking the <guibutton>Add</guibutton> button at the top left of the toolbar."
+msgstr "Välj filerna som du vill använda genom att dubbelklicka på dem eller genom att markera dem och klicka på knappen <guibutton>Lägg till</guibutton> överst till vänster av verktygsraden."
+
+#: C/rejilla.xml:351(para)
+msgid "It is possible now to <link linkend=\"rejilla-audio-pause\">insert a pause</link> after each of the tracks or <link linkend=\"rejilla-audio-split\">to split</link> the tracks."
+msgstr "Det är nu möjligt att <link linkend=\"rejilla-audio-pause\">infoga en paus</link> efter varje spår eller att <link linkend=\"rejilla-audio-split\">dela upp</link> spåren."
+
+#: C/rejilla.xml:359(para)
+msgid "When all of the files have been added, click on <guibutton>Burn</guibutton>."
+msgstr "När alla filerna har lagts till, klicka på <guibutton>Bränn</guibutton>."
+
+#: C/rejilla.xml:365(para)
+#: C/rejilla.xml:807(para)
+msgid "In the text box, enter the title you want to give to the disc. This title will be shown as the name of the disc."
+msgstr "Ange titeln i textrutan som du vill ge till skivan. Denna titel kommer att visas som namnet på skivan."
+
+#: C/rejilla.xml:372(para)
+msgid "The <guilabel>Disc burning setup</guilabel> dialog will be shown; make any desired modifications (see <xref linkend=\"rejilla-audio-project-options\"/>)."
+msgstr "Dialogrutan <guilabel>Konfiguration för skivbränning</guilabel> kommer att visas. Här kan du göra valfria ändringar (se <xref linkend=\"rejilla-audio-project-options\"/>)."
+
+#: C/rejilla.xml:379(para)
+#: C/rejilla.xml:641(para)
+#: C/rejilla.xml:827(para)
+#: C/rejilla.xml:1146(para)
+msgid "Click on <guibutton>Burn</guibutton> to start the burning process."
+msgstr "Klicka på <guibutton>Bränn</guibutton> för att påbörja bränningsprocessen."
+
+#: C/rejilla.xml:298(para)
+msgid "To burn an audio CD proceed as follows: <placeholder-1/>"
+msgstr "Gör följande för att bränna en ljud-cd-skiva: <placeholder-1/>"
+
+#: C/rejilla.xml:387(para)
+#: C/rejilla.xml:650(para)
+#: C/rejilla.xml:837(para)
+msgid "When adding files, refer to the status bar at the bottom of the window to see how much space you are using on your CD/DVD."
+msgstr "När du lägger till filer, referera till statusraden längst ner i fönstret för att se hur mycket utrymme som du använder på din skiva."
+
+#: C/rejilla.xml:394(para)
+#: C/rejilla.xml:657(para)
+#: C/rejilla.xml:844(para)
+msgid "To save the project for later use, choose <menuchoice><guimenu>Project</guimenu><guimenuitem>Save</guimenuitem></menuchoice>."
+msgstr "Välj <menuchoice><guimenu>Projekt</guimenu><guimenuitem>Spara</guimenuitem></menuchoice> för att spara projektet för senare användning."
+
+#: C/rejilla.xml:405(title)
+msgid "Inserting a Pause"
+msgstr "Infoga en paus"
+
+#: C/rejilla.xml:411(para)
+msgid "Select the track after which you want to add the pause."
+msgstr "Markera spåret som du vill lägga till en paus efter."
+
+#: C/rejilla.xml:417(para)
+msgid "Click on <guibutton>Pause</guibutton> on the toolbar or choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Insert a Pause</guimenuitem></menuchoice>."
+msgstr "Klicka på <guibutton>Paus</guibutton> i verktygsraden eller välj <menuchoice><guimenu>Redigera</guimenu><guimenuitem>Infoga en paus</guimenuitem></menuchoice>."
+
+#: C/rejilla.xml:406(para)
+msgid "After you have added a track, you can insert a 2 seconds pause after it. To insert a pause, proceed as follows: <placeholder-1/>"
+msgstr "Efter att du har lagt till ett spår så kan du infoga en 2 sekunders paus efter det. Gör som följande för att infoga en paus: <placeholder-1/>"
+
+#: C/rejilla.xml:430(title)
+msgid "Splitting a Track"
+msgstr "Dela upp ett spår"
+
+#: C/rejilla.xml:436(para)
+msgid "Select the track you want to divide and click on <guibutton>Split</guibutton> in the toolbar or choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Split Track...</guimenuitem></menuchoice>. The <guilabel>Split Track</guilabel> dialog will be shown."
+msgstr "Markera spåret som du vill dela upp och klicka på <guibutton>Dela</guibutton> i verktygsraden eller välj <menuchoice><guimenu>Redigera</guimenu><guimenuitem>Dela spår...</guimenuitem></menuchoice>. Dialogrutan <guilabel>Dela spår</guilabel> kommer att visas."
+
+#: C/rejilla.xml:451(guilabel)
+msgid "Split track manually"
+msgstr "Dela upp spår manuellt"
+
+#: C/rejilla.xml:453(para)
+msgid "Select this to select the time on the track where you wish to split it. A sliding bar is provided along with an audio preview."
+msgstr "Välj det här för att välja tiden i spåret där du vill dela det. En draglist kommer att visas tillsammans med en förhandsgranskning av spåret."
+
+#: C/rejilla.xml:461(guilabel)
+msgid "Split tracks in parts with a fixed length"
+msgstr "Dela spår i delar med fast längd"
+
+#: C/rejilla.xml:464(para)
+msgid "Select this to split the track into fixed-length parts with a duration that you specify."
+msgstr "Välj det här för att dela spåret i delar med fast längd med en längd som du själv anger."
+
+#: C/rejilla.xml:473(guilabel)
+msgid "Split track in fixed number of parts"
+msgstr "Dela spår i fast antal delar"
+
+#: C/rejilla.xml:477(para)
+msgid "Select this to decide the number of parts that you want your track to be split into. You can use the provided spin box to select the number of parts."
+msgstr "Välj det här för att bestämma antalet delar som du vill att ditt spår ska delas upp i. Du kan använda snurrväljaren för att välja antalet delar."
+
+#: C/rejilla.xml:486(guilabel)
+msgid "Split track for each silence"
+msgstr "Dela spår vid varje tystnad"
+
+#: C/rejilla.xml:490(para)
+msgid "Select this to split the track where a silence is present."
+msgstr "Välj det här för att dela upp spåret där det finns tystnad."
+
+#: C/rejilla.xml:446(para)
+msgid "From the <guilabel>Method</guilabel> drop-down list select the splitting method. The possible values are: <placeholder-1/>"
+msgstr "Välj önskad delningsmetod från rullgardinslistan <guilabel>Metod</guilabel>. Möjliga värden är: <placeholder-1/>"
+
+#: C/rejilla.xml:500(para)
+msgid "To split the track, click on <guibutton>Slice</guibutton>. The slices will be listed in the <guilabel>Slices Preview</guilabel> table."
+msgstr "För att dela upp spåret, klicka på <guibutton>Dela upp</guibutton>. Delarna kommer att listas i tabellen <guilabel>Förhandsvisning av delning</guilabel>."
+
+#: C/rejilla.xml:431(para)
+msgid "It is possible to divide a track in multiple parts. To split a track proceed as follows: <placeholder-1/>"
+msgstr "Det är möjligt att dela upp ett spår i flera olika delar. Gör som följande för att dela upp ett spår: <placeholder-1/>"
+
+#: C/rejilla.xml:508(para)
+msgid "Once you have splitted the track, it is possible to remove or merge the slices listed in the <guilabel>Slices Preview</guilabel> table using the buttons on the right."
+msgstr "När du har delat upp spåret så är det möjligt att ta bort eller sammanfoga delarna som listas i tabellen <guilabel>Förhandsvisning av delning</guilabel> med hjälp av knapparna på högra sidan."
+
+#: C/rejilla.xml:513(para)
+msgid "Once you are done with all the modifications, click <guibutton>OK</guibutton>."
+msgstr "Klicka på <guibutton>OK</guibutton> när du är färdig med alla ändringarna."
+
+#: C/rejilla.xml:520(title)
+msgid "Audio Project Options"
+msgstr "Alternativ för ljudprojekt"
+
+#: C/rejilla.xml:521(para)
+#: C/rejilla.xml:669(para)
+#: C/rejilla.xml:856(para)
+msgid "Before starting the burning process, it is possible to modify some of the burning options."
+msgstr "Det är möjligt att ändra några av bränningsalternativen innan bränningsprocessen påbörjas."
+
+#: C/rejilla.xml:528(term)
+#: C/rejilla.xml:676(term)
+#: C/rejilla.xml:863(term)
+#: C/rejilla.xml:1045(term)
+#: C/rejilla.xml:1163(term)
+#: C/rejilla.xml:1335(term)
+msgid "Section <guilabel>Select a disc to write to</guilabel>:"
+msgstr "Sektionen <guilabel>Välj en skiva att skriva till</guilabel>:"
+
+#: C/rejilla.xml:534(para)
+#: C/rejilla.xml:682(para)
+#: C/rejilla.xml:869(para)
+#: C/rejilla.xml:1062(para)
+#: C/rejilla.xml:1169(para)
+msgid "Click on <guibutton>Properties</guibutton> to open the properties dialog for the burning device. See <xref linkend=\"rejilla-burning-device-properties\"/> for more information."
+msgstr "Klicka på <guibutton>Egenskaper</guibutton> för att öppna egenskapdialogen för bränningsenheten. Se <xref linkend=\"rejilla-burning-device-properties\"/> för mer information."
+
+#: C/rejilla.xml:545(term)
+#: C/rejilla.xml:693(term)
+#: C/rejilla.xml:1357(term)
+msgid "Section <guilabel>Disc options</guilabel>:"
+msgstr "Sektionen <guilabel>Skivalternativ</guilabel>:"
+
+#: C/rejilla.xml:551(guilabel)
+msgid "Leave the disc open to add a data session later"
+msgstr "Lämna skivan öppen för att lägga till en datasession senare"
+
+#: C/rejilla.xml:554(para)
+#: C/rejilla.xml:722(para)
+msgid "Select this option to create a <emphasis>multisession</emphasis> disc, so that it will be possible to add files to the disc at a later date (without erasing it, if it is rewritable)."
+msgstr "Välj detta alternativ för att skapa en <emphasis>multisession</emphasis>-skiva, så att det är möjligt att lägga till filer till skivan vid ett senare tillfälle (utan att radera den, om den är återskrivningsbar)."
+
+#: C/rejilla.xml:576(title)
+msgid "Data Project"
+msgstr "Dataprojekt"
+
+#: C/rejilla.xml:581(para)
+#: C/rejilla.xml:1123(para)
+msgid "Insert a blank CD-R/W or DVD-R/W into your drive."
+msgstr "Mata in en tom CD-R/W eller DVD-R/W i din enhet."
+
+#: C/rejilla.xml:584(para)
+msgid "Click on <guibutton>Data project</guibutton> in the main window or choose <menuchoice><guimenu>Project</guimenu><guisubmenu>New Project</guisubmenu><guimenuitem>New Data Project</guimenuitem></menuchoice>."
+msgstr "Klicka på <guibutton>Dataprojekt</guibutton> i huvudfönstret eller välj <menuchoice><guimenu>Projekt</guimenu><guisubmenu>Nytt projekt</guisubmenu><guimenuitem>Nytt dataprojekt</guimenuitem></menuchoice>."
+
+#: C/rejilla.xml:594(para)
+msgid "Use the pane on the left of the window to find the files you want to add to the project. Select <guilabel>Browse the file system</guilabel> from the drop-down list at the top to browse for files or <guilabel>Search files using keywords</guilabel> to search for them."
+msgstr "Använd panelen till vänster i fönstret för att hitta filerna som du vill lägga till i projektet. Välj <guilabel>Bläddra i filsystemet</guilabel> från rullgardinslistan överst för att bläddra efter filer eller <guilabel>Sök filer efter nyckelord</guilabel> för att söka efter dem."
+
+#: C/rejilla.xml:621(para)
+msgid "In the text box, enter a label to identify the disc. This label will be shown as the name of the disc."
+msgstr "Ange en etikett i textrutan för att identifiera skivan. Denna etikett kommer att visas som namnet på skivan."
+
+#: C/rejilla.xml:628(para)
+#: C/rejilla.xml:814(para)
+msgid "When all the files have been added, click on <guibutton>Burn</guibutton>."
+msgstr "När alla filerna har lagts till så kan du klicka på <guibutton>Bränn</guibutton>."
+
+#: C/rejilla.xml:634(para)
+msgid "The <guilabel>Disc burning setup</guilabel> dialog will be shown; make any desired modifications (see <xref linkend=\"rejilla-data-project-options\"/>)."
+msgstr "Dialogrutan <guilabel>Konfiguration för skivbränning</guilabel> kommer att visas. Här kan du göra valfria ändringar (se <xref linkend=\"rejilla-data-project-options\"/>)."
+
+#: C/rejilla.xml:577(para)
+msgid "To burn a data CD, proceed as follows: <placeholder-1/>"
+msgstr "Gör som följande för att bränna en dataskiva: <placeholder-1/>"
+
+#: C/rejilla.xml:668(title)
+msgid "Data Project Options"
+msgstr "Alternativ för dataprojekt"
+
+#: C/rejilla.xml:702(guilabel)
+#: C/rejilla.xml:1366(guilabel)
+msgid "Increase compatibility with Windows systems"
+msgstr "Öka kompatibiliteten med Windows-system"
+
+#: C/rejilla.xml:706(para)
+#: C/rejilla.xml:1370(para)
+msgid "Select this option if you intend the disc to be used on computers running Windows. Files on the disc will be checked to ensure that their filenames do not contain characters which are invalid on Windows."
+msgstr "Välj det här alternativet om du tänker använda skivan på datorer som kör Windows. Filer på skivan kommer att kontrolleras för att försäkra sig om att deras filnamn inte innehåller tecken som är ogiltiga i Windows."
+
+#: C/rejilla.xml:719(guilabel)
+msgid "Leave the disc open to add other files later"
+msgstr "Lämna skivan öppen för att lägga till fler filer senare"
+
+#: C/rejilla.xml:743(title)
+msgid "Video project"
+msgstr "Videoprojekt"
+
+#: C/rejilla.xml:744(para)
+msgid "This project lets you take video files (files with extension like <filename class=\"extension\">.mpg</filename>, <filename class=\"extension\">.mpeg</filename> or <filename class=\"extension\">.avi</filename> to name a few) and burn them to disc to create video <acronym>DVD</acronym>s, <acronym>SVCD</acronym>s or <acronym>VCD</acronym>s that you can watch with normal DVD/CD players."
+msgstr "Detta projekt låter dig ta videofiler (filer med ändelse såsom <filename class=\"extension\">.mpg</filename>, <filename class=\"extension\">.mpeg</filename> eller <filename class=\"extension\">.avi</filename> för att nämna ett par) och bränna dem till en skiva för att skapa en <acronym>video-dvd</acronym>-skiva, <acronym>SVCD</acronym>-skiva eller <acronym>VCD</acronym>-skiva som du kan se på med en vanlig dvd-spelare."
+
+#: C/rejilla.xml:755(para)
+msgid "In order to use all the potential of the video project, you need to install all GStreamer's plugins, <application>ffmpeg</application>, <application>vcdimager</application> and <application>dvdauthor</application>. See your operating system documentation for more information on how to install all these applications."
+msgstr "För att kunna använda hela potentialen för videoprojektet du behöver du installera alla GStreamers insticksmoduler, <application>ffmpeg</application>, <application>vcdimager</application> och <application>dvdauthor</application>. Se dokumentationen för ditt operativsystem för mer information om hur man installerar alla dessa program."
+
+#: C/rejilla.xml:770(para)
+msgid "Insert a blank CD or DVD into your drive."
+msgstr "Mata in en tom cd eller dvd-skiva i din enhet."
+
+#: C/rejilla.xml:775(para)
+msgid "Click on <guibutton>Video project</guibutton> in the main window or choose <menuchoice><guimenu>Project</guimenu><guisubmenu>New project</guisubmenu><guimenuitem>New video project</guimenuitem></menuchoice>."
+msgstr "Klicka på <guibutton>Videoprojekt</guibutton> i huvudfönstret eller välj <menuchoice><guimenu>Projekt</guimenu><guisubmenu>Nytt projekt</guisubmenu><guimenuitem>Nytt videoprojekt</guimenuitem></menuchoice>."
+
+#: C/rejilla.xml:785(para)
+msgid "From the pane on the left of the window, browse the file system searching for video files."
+msgstr "Bläddra i filsystemet och sök efter videofiler från panelen till vänster i fönstret."
+
+#: C/rejilla.xml:820(para)
+msgid "The <guilabel>Disc burning setup</guilabel> dialog will be shown; make any desired modifications (see <xref linkend=\"rejilla-video-project-options\"/>)."
+msgstr "Dialogrutan <guilabel>Konfiguration för skivbränning</guilabel> kommer att visas. Här kan du göra valfria ändringar (se <xref linkend=\"rejilla-video-project-options\"/>)."
+
+#: C/rejilla.xml:766(para)
+msgid "To create a video project, proceed as follows: <placeholder-1/>"
+msgstr "För som följande för att skapa ett videoprojekt: <placeholder-1/>"
+
+#: C/rejilla.xml:855(title)
+msgid "Video Project Options"
+msgstr "Alternativ för videoprojekt"
+
+#: C/rejilla.xml:880(term)
+msgid "Section <guilabel>Video Option</guilabel>:"
+msgstr "Sektionen <guilabel>Videoalternativ</guilabel>:"
+
+#: C/rejilla.xml:892(para)
+msgid "<guilabel>Native format</guilabel>: the original format of the video file."
+msgstr "<guilabel>Ursprungligt format</guilabel>: ursprungsformatet för videofilen."
+
+#: C/rejilla.xml:898(para)
+msgid "<guilabel>PAL/SECAM</guilabel>: format mainly used in European televisions."
+msgstr "<guilabel>PAL/SECAM</guilabel>: format som oftast används av europeiska tv-apparater."
+
+#: C/rejilla.xml:904(para)
+msgid "<guilabel>NTSC</guilabel>: format mainly used in Americans, Canadians and Japanese televisions."
+msgstr "<guilabel>NTSC</guilabel>: format som oftast används i amerikanska, kanadensiska och japanska tv-apparater."
+
+#: C/rejilla.xml:886(para)
+msgid "From <guilabel>Video formats</guilabel> select the format of the video that will be burned. You can choose from: <placeholder-1/>"
+msgstr "Välj formatet för den video som ska brännas från <guilabel>Videoformat</guilabel>. Du kan välja från: <placeholder-1/>"
+
+#: C/rejilla.xml:916(term)
+msgid "Section <guilabel>Audio Options</guilabel>:"
+msgstr "Sektionen <guilabel>Ljudalternativ</guilabel>:"
+
+#: C/rejilla.xml:922(para)
+msgid "Choose <guilabel>Add MP2 audio stream</guilabel> to add a <emphasis>MPEG-1 Audio Layer 2</emphasis> stream to the disc."
+msgstr "Välj <guilabel>Lägg till MP2-ljudström</guilabel> för att lägga till en <emphasis>MPEG-1 Audio Layer 2</emphasis>-ström till skivan."
+
+#: C/rejilla.xml:929(para)
+msgid "Choose <guilabel>Add AC3 audio stream</guilabel> to add an <emphasis>AC-3 Dolby Digital</emphasis> stream to the disc."
+msgstr "Välj <guilabel>Lägg till AC3-ljudström</guilabel> för att lägga till en <emphasis>AC-3 Dolby Digital</emphasis>-ström till skivan."
+
+#: C/rejilla.xml:939(term)
+msgid "Section <guilabel>VCD type</guilabel>:"
+msgstr "Sektionen <guilabel>VCD-typ</guilabel>:"
+
+#: C/rejilla.xml:945(para)
+msgid "Choose <guilabel>Create a SVCD</guilabel> to create a <emphasis>Super Video CD</emphasis>."
+msgstr "Välj <guilabel>Skapa en SVCD</guilabel> för att skapa en <emphasis>Super Video CD</emphasis>."
+
+#: C/rejilla.xml:951(para)
+msgid "Choose <guilabel>Create a VCD</guilabel> to create a <emphasis>Video CD</emphasis>."
+msgstr "Välj <guilabel>Skapa en VCD</guilabel> för att skapa en <emphasis>Video CD</emphasis>."
+
+#: C/rejilla.xml:964(para)
+msgid "One of the main difference between a <acronym>SVCD</acronym> and a <acronym>VCD</acronym> is that the former uses the <acronym>MPEG-2</acronym> video codec while the latter <acronym>MPEG-1</acronym>. For more information, see the Wikipedia pages for <ulink type=\"http\" url=\"http://en.wikipedia.org/wiki/SVCD\">SVCD</ulink> and <ulink type=\"http\" url=\"http://en.wikipedia.org/wiki/Video_CD\">VCD</ulink>."
+msgstr "En av de huvudsakliga skillnaderna mellan en <acronym>SVCD</acronym> och en <acronym>VCD</acronym> är att den första använder videokodeken <acronym>MPEG-2</acronym> och den senare använder <acronym>MPEG-1</acronym>. För mer information, se Wikipedia-sidorna för <ulink type=\"http\" url=\"http://en.wikipedia.org/wiki/SVCD\">SVCD</ulink> och <ulink type=\"http\" url=\"http://en.wikipedia.org/wiki/Video_CD\">VCD</ulink>."
+
+#: C/rejilla.xml:984(title)
+msgid "Disc Copy"
+msgstr "Skivkopiering"
+
+#: C/rejilla.xml:990(para)
+msgid "Insert the CD or DVD you wish to copy into your drive."
+msgstr "Mata in den cd eller dvd-skiva i enheten som du vill kopiera."
+
+#: C/rejilla.xml:995(para)
+msgid "Click on <guibutton>Disc copy</guibutton> in the main window or choose <menuchoice><guimenu>Project</guimenu><guisubmenu>New Project</guisubmenu><guimenuitem>Copy Disc</guimenuitem></menuchoice>."
+msgstr "Klicka på <guibutton>Skivkopia</guibutton> i huvudfönstret eller välj <menuchoice><guimenu>Projekt</guimenu><guisubmenu>Nytt projekt</guisubmenu><guimenuitem>Kopiera skiva</guimenuitem></menuchoice>."
+
+#: C/rejilla.xml:1006(para)
+msgid "The <guilabel>CD/DVD copy options</guilabel> dialog will be shown; make the desired modifications (see <xref linkend=\"rejilla-disc-copy-options\"/> for more information)."
+msgstr "Dialogrutan <guilabel>Kopieringsalternativ för cd/dvd</guilabel> kommer att visas. Här kan du göra valfria ändringar (se <xref linkend=\"rejilla-disc-copy-options\"/> för mer information)."
+
+#: C/rejilla.xml:1013(para)
+msgid "Click on <guibutton>Copy</guibutton> to start the copying process."
+msgstr "Klicka på <guibutton>Kopiera</guibutton> för att påbörja kopieringsprocessen."
+
+#: C/rejilla.xml:985(para)
+msgid "This project lets you take an existing disc and copy it to a blank disc or image file. To copy a disc, proceed as follows: <placeholder-1/>"
+msgstr "Detta projekt låter dig ta en befintlig skiva och kopiera den till en tom skiva eller avbildningsfil. Gör som följande för att kopiera en skiva: <placeholder-1/>"
+
+#: C/rejilla.xml:1022(title)
+msgid "Disc Copy Options"
+msgstr "Alternativ för skivkopiering"
+
+#: C/rejilla.xml:1023(para)
+msgid "Before starting the copying process, it is possible to modify some of the copying and burning options."
+msgstr "Det är möjligt att ändra några av alternativen för kopiering och bränning innan kopieringsprocessen påbörjas."
+
+#: C/rejilla.xml:1030(term)
+msgid "Section <guilabel>Select disc to copy</guilabel>:"
+msgstr "Sektionen <guilabel>Välj skiva att kopiera</guilabel>:"
+
+#: C/rejilla.xml:1036(para)
+msgid "From the drop-down list, select the disc that you want to copy."
+msgstr "Välj skivan som du vill kopiera från rullgardinslistan."
+
+#: C/rejilla.xml:1051(para)
+msgid "From the drop-down list, select the disc to write to."
+msgstr "Välj skivan som du vill skriva till från rullgardinslistan."
+
+#: C/rejilla.xml:1055(para)
+msgid "From this drop-down list, select <guilabel>File image</guilabel> to create a disc image, such as an ISO image."
+msgstr "Välj <guilabel>Avbildningsfil</guilabel> för att skapa en skivavbildning, såsom en ISO-avbildning."
+
+#: C/rejilla.xml:1076(para)
+#| msgid ""
+#| "If you have more that one drive on your system, you can use one drive as "
+#| "the source drive and the other as the destination drive. If you do not, "
+#| "you will be prompted to remove the CD or DVD you are copying and insert a "
+#| "blank media."
+msgid "If you have more than one drive on your system, you can use one drive as the source drive and the other as the destination drive. If you do not, you will be prompted to remove the CD or DVD you are copying and insert a blank media."
+msgstr "Om du har fler än en enhet i din dator så kan du använda en enhet som källenhet och den andra som målenhet. Om du inte har det så kommer du att bli uppmanad att mata ut den CD eller DVD som du kopierar och mata in ett tomt media."
+
+#: C/rejilla.xml:1090(title)
+msgid "Burn Image"
+msgstr "Bränn avbildning"
+
+#: C/rejilla.xml:1098(filename)
+msgid ".iso"
+msgstr ".iso"
+
+#: C/rejilla.xml:1103(filename)
+msgid ".raw"
+msgstr ".raw"
+
+#: C/rejilla.xml:1108(filename)
+msgid ".cue"
+msgstr ".cue"
+
+#: C/rejilla.xml:1113(filename)
+msgid ".toc"
+msgstr ".toc"
+
+#: C/rejilla.xml:1091(para)
+msgid "This project takes an existing file image and burns it to a CD-R/W or DVD-R/W. <application>Rejilla</application> supports the following types of image file: <placeholder-1/>"
+msgstr "Detta projekt tar en befintlig avbildningsfil och bränner den till en CD-R/W eller DVD-R/W. <application>Rejilla</application> har stöd för följande typer av avbildningsfiler: <placeholder-1/>"
+
+#: C/rejilla.xml:1128(para)
+msgid "Click on <guibutton>Burn image</guibutton> in the main window or choose <menuchoice><guimenu>Project</guimenu><guisubmenu>New Project</guisubmenu><guimenuitem>Burn Image</guimenuitem></menuchoice>."
+msgstr "Klicka på <guibutton>Bränn avbildning</guibutton> i huvudfönstret eller välj <menuchoice><guimenu>Projekt</guimenu><guisubmenu>Nytt projekt</guisubmenu><guimenuitem>Bränn avbildning</guimenuitem></menuchoice>."
+
+#: C/rejilla.xml:1139(para)
+msgid "The <guilabel>Image burning setup</guilabel> dialog will be shown; make the desired modifications (see <xref linkend=\"rejilla-burn-image-options\"/>)."
+msgstr "Dialogrutan <guilabel>Konfiguration för avbildningsbränning</guilabel> kommer att visas. Här kan du göra valfria ändringar (se <xref linkend=\"rejilla-burn-image-options\"/>)."
+
+#: C/rejilla.xml:1119(para)
+msgid "To start this project, proceed as follows: <placeholder-1/>"
+msgstr "Gör som följande för att starta detta projekt: <placeholder-1/>"
+
+#: C/rejilla.xml:1155(title)
+msgid "Burn Image Options"
+msgstr "Alternativ för avbildningsbränning"
+
+#: C/rejilla.xml:1156(para)
+msgid "Before starting the image burning process, it is possible to modify some of the burning options."
+msgstr "Det är möjligt att ändra några av bränningsalternativen innan bränningsprocessen för avbildningen påbörjas."
+
+#: C/rejilla.xml:1181(term)
+msgid "Section <guilabel>Image</guilabel>:"
+msgstr "Sektionen <guilabel>Avbildning</guilabel>:"
+
+#: C/rejilla.xml:1185(para)
+msgid "Click on the button to open the <guilabel>Select Image File</guilabel> dialog and select the image file to burn. From the drop-down list at the bottom, you can select the type of the image to burn. If unsure, select <guilabel>Let rejilla choose (safest)</guilabel>."
+msgstr "Klicka på knappen för att öppna dialogrutan <guilabel>Välj avbildningsfil</guilabel> och välj avbildningsfilen som ska brännas. Från rullgardinslistan längst ner kan du välja vilken avbildningstyp som ska brännas. Om du är osäker så kan du välja <guilabel>Låt rejilla välja (säkrast)</guilabel>."
+
+#: C/rejilla.xml:1204(title)
+msgid "Burning Device Properties"
+msgstr "Egenskaper för bränningsenhet"
+
+#: C/rejilla.xml:1205(para)
+msgid "Before starting the burning process, it is possible to change some of the properties for the burning device that will be used."
+msgstr "Det är möjligt att ändra några av egenskaperna för bränningsenheten som ska användas innan bränningsprocessen påbörjas."
+
+#: C/rejilla.xml:1212(term)
+msgid "Section <guilabel>Burning speed</guilabel>:"
+msgstr "Sektionen <guilabel>Brännhastighet</guilabel>:"
+
+#: C/rejilla.xml:1214(para)
+msgid "From the drop-down list, select the burning speed. For the best value, check the CD/DVD case."
+msgstr "Välj brännhastighet från rullgardinslistan. För bästa värdet bör du kontrollera omslaget för skivan."
+
+#: C/rejilla.xml:1219(para)
+msgid "Burning a disc with a higher speed than supported could create an unreadable disc. Use lower burning speeds to reduce the chance of this happening."
+msgstr "Bränning av en skiva med en högre hastighet än vad som den har stöd för kan innebära att skivan bli oläslig. Använd en lägre brännhastighet för att minska risken att detta händer."
+
+#: C/rejilla.xml:1228(term)
+msgid "Section <guilabel>Options</guilabel>:"
+msgstr "Sektionen <guilabel>Alternativ</guilabel>:"
+
+#: C/rejilla.xml:1235(guilabel)
+msgid "Burn the image directly without saving it to disc"
+msgstr "Bränn avbildningen direkt utan att spara den till disk"
+
+#: C/rejilla.xml:1239(para)
+msgid "Select this option if you want to burn the image directly onto the media, without saving it to the hard disk and without creating an image file."
+msgstr "Välj det här alternativet om du vill bränna avbildningen direkt till mediet, utan att spara den till hårddisken och utan att skapa en avbildningsfil."
+
+#: C/rejilla.xml:1251(guilabel)
+msgid "Use burnproof (decrease the risk of failure)"
+msgstr "Använd burnproof (minskar risken för problem)"
+
+#: C/rejilla.xml:1254(para)
+msgid "Select this option to prevent the <emphasis>buffer underrun</emphasis> effect (or <emphasis>buffer underflow</emphasis>). This is when the computer is not fast enough delivering data to the burning device at the selected burning speed."
+msgstr "Välj det här alternativet för att förhindra en så kallad <emphasis>buffer underrun</emphasis> (eller <emphasis>buffer underflow</emphasis>). Detta sker när datorn inte är tillräckligt snabb på att leverera data till bränningsenheten vid den valda brännhastigheten."
+
+#: C/rejilla.xml:1262(para)
+msgid "If a <emphasis>buffer underrun</emphasis> takes place, the burned disc could be unreadable."
+msgstr "Om en <emphasis>buffer underrun</emphasis> sker så kan den brända skivan bli oläslig."
+
+#: C/rejilla.xml:1275(guilabel)
+msgid "Simulate the burning"
+msgstr "Simulera bränningen"
+
+#: C/rejilla.xml:1278(para)
+msgid "Select this option to simulate the burning process; no real burn is performed. If this operation is successful, rejilla will actually burn the disc after pausing for 10 seconds. During this pause it will show a dialog in which you can cancel the actual burning. This is useful for testing, if you are having problems burning discs."
+msgstr "Välj detta alternativ för att simulera bränningsprocessen; ingen riktigt bränning genomförs. Om denna åtgärd lyckas så kommer Rejilla att faktiskt bränna skivan efter en paus på 10 sekunder. Under denna paus så kommer den att visa en dialogruta i vilket du kan avbryta den faktiska bränningen. Detta är användbart för testning, om du har problem med att bränna skivor."
+
+#: C/rejilla.xml:1294(guilabel)
+msgid "Eject after burning"
+msgstr "Mata ut efter bränning"
+
+#: C/rejilla.xml:1297(para)
+msgid "Select this option to eject the media in the burning device once the burning process has completed."
+msgstr "Välj det här alternativet för att mata ut mediet i bränningsenheten när bränningsprocessen är färdig."
+
+#: C/rejilla.xml:1310(term)
+msgid "Section <guilabel>Temporary files</guilabel>:"
+msgstr "Sektionen <guilabel>Temporära filer</guilabel>:"
+
+#: C/rejilla.xml:1312(para)
+msgid "From the drop-down list, select the directory to use for storing the temporary files created for the burning process."
+msgstr "Från rullgardinslistan, välj katalogen att använda för lagring av temporära filer som skapas för bränningsprocessen."
+
+#: C/rejilla.xml:1317(para)
+msgid "The default directory is <filename class=\"directory\">/tmp</filename>."
+msgstr "Standardkatalogen är <filename class=\"directory\">/tmp</filename>."
+
+#: C/rejilla.xml:1326(title)
+msgid "Burning Properties with No Disc"
+msgstr "Brännegenskaper med ingen skiva"
+
+#: C/rejilla.xml:1327(para)
+msgid "If you start the burning process without a CD or DVD in the burning device, <application>Rejilla</application> will create a image file on the hard disk that you can lately burn."
+msgstr "Om du påbörjar bränningsprocessen utan en CD eller DVD i brännenheten så kommer <application>Rejilla</application> att skapa en avbildning på hårddisken som du kan bränna senare."
+
+#: C/rejilla.xml:1339(para)
+msgid "From this drop-down list you can only select <guilabel>File image</guilabel>."
+msgstr "Från denna rullgardinslista så kan du endast välja <guilabel>Avbildningsfil</guilabel>."
+
+#: C/rejilla.xml:1346(term)
+msgid "Section <guilabel>Label of the disc</guilabel>:"
+msgstr "Sektionen <guilabel>Etikett på skivan</guilabel>:"
+
+#: C/rejilla.xml:1350(para)
+msgid "Type the name you want to give to the disc once burned."
+msgstr "Ange namnet som du vill ge till skivan när den har bränts."
+
+#: C/rejilla.xml:1385(para)
+msgid "Click on <guibutton>Properties</guibutton> to open the <guilabel>Disc image file properties</guilabel> dialog. In the <guilabel>Name</guilabel> text box, type the name of the image file, from the <guilabel>Image type</guilabel> drop-down list select the type of image to use."
+msgstr "Klicka på <guibutton>Egenskaper</guibutton> för att öppna dialogrutan <guilabel>Egenskaper för skivavbildningsfil</guilabel>. Ange namnet på avbildningsfilen i textrutan <guilabel>Namn</guilabel>. Välj avbildningstypen som ska användas från rullgardinslistan <guilabel>Avbildningstyp</guilabel>."
+
+#: C/rejilla.xml:1392(para)
+msgid "Once done, click <guibutton>Apply</guibutton>."
+msgstr "Klicka på <guibutton>Verkställ</guibutton> när du är färdig."
+
+#: C/rejilla.xml:1401(title)
+msgid "Opening a Saved Project"
+msgstr "Öppna ett sparat projekt"
+
+#: C/rejilla.xml:1407(para)
+msgid "Choose <menuchoice><guimenu>Project</guimenu><guisubmenu>Recent Projects</guisubmenu></menuchoice> and select the project you want to open."
+msgstr "Välj <menuchoice><guimenu>Projekt</guimenu><guisubmenu>Tidigare projekt</guisubmenu></menuchoice> och välj projektet som du vill öppna."
+
+#: C/rejilla.xml:1415(para)
+#| msgid ""
+#| "From the main window, click on the project you want to open under "
+#| "<guilabel>Choose a recently opened project</guilabel>."
+msgid "From the main window, click on the project you want to open under <guilabel>Recent projects</guilabel>."
+msgstr "Från huvudfönstret, klicka på projektet som du vill öppna under <guilabel>Tidigare projekt</guilabel>."
+
+#: C/rejilla.xml:1402(para)
+msgid "If you have recently saved a project, you can open it again in one of the following ways: <placeholder-1/>"
+msgstr "Om du tidigare har sparat ett projekt så kan du öppna det igen på ett av följande sätt: <placeholder-1/>"
+
+#: C/rejilla.xml:1423(para)
+msgid "To open a project which does not appear in <guilabel>Recent Projects</guilabel>, choose <menuchoice><guimenu>Project</guimenu><guimenuitem>Open</guimenuitem></menuchoice> and select the project file."
+msgstr "För att öppna ett projekt som inte visas i <guilabel>Tidigare projekt</guilabel>, välj <menuchoice><guimenu>Projekt</guimenu><guimenuitem>Öppna</guimenuitem></menuchoice> och välj projektfilen."
+
+#: C/rejilla.xml:1430(para)
+msgid "Once opened, you can add or remove files from the project, burn it to disc, and then save it again for later use."
+msgstr "När den är öppnad så kan du lägga till eller ta bort filer från projektet, bränna det till en skiva, och sedan spara det igen för senare användning."
+
+#: C/rejilla.xml:1437(title)
+msgid "Erasing a CD or DVD"
+msgstr "Radera en CD eller DVD"
+
+#: C/rejilla.xml:1444(para)
+msgid "CD-RW"
+msgstr "CD-RW"
+
+#: C/rejilla.xml:1449(para)
+msgid "DVD-RW (single or dual layer)"
+msgstr "DVD-RW (enkel eller dubbellagrad)"
+
+#: C/rejilla.xml:1454(para)
+msgid "DVD+RW (single or dual layer)"
+msgstr "DVD+RW (enkel eller dubbellagrad)"
+
+#: C/rejilla.xml:1438(para)
+msgid "Erasing or blanking a CD or DVD means to delete all the data that the CD or the DVD contains. <application>Rejilla</application> is able to erase the following CD and DVD formats: <placeholder-1/>"
+msgstr "Radering av en CD eller DVD betyder att allt data som finns på skivan tas bort. <application>Rejilla</application> kan radera följande CD och DVD-format: <placeholder-1/>"
+
+#: C/rejilla.xml:1460(para)
+msgid "In general, <application>Rejilla</application> can support all of the media formats supported by your own CD/DVD recorder."
+msgstr "I allmänhet har <application>Rejilla</application> stöd för alla mediaformat som stöds av din egna CD/DVD-brännare."
+
+#: C/rejilla.xml:1465(para)
+msgid "Make sure that the media you want to erase is erasable. Check the media case for more information."
+msgstr "Försäkra dig om att mediet som du vill radera är möjligt att radera. Kontrollera skivomslaget för mer information."
+
+#: C/rejilla.xml:1474(para)
+msgid "Insert the erasable CD or DVD in your drive."
+msgstr "Mata in den raderbara CD eller DVD-skivan i din enhet."
+
+#: C/rejilla.xml:1479(para)
+msgid "From the menu bar, choose <menuchoice><guimenu>Tools</guimenu><guimenuitem>Erase...</guimenuitem></menuchoice>. The <guilabel>Disc blanking</guilabel> dialog will be shown."
+msgstr "Från menyraden, välj <menuchoice><guimenu>Verktyg</guimenu><guimenuitem>Radera...</guimenuitem></menuchoice>. Dialogrutan <guilabel>Skivradering</guilabel> kommer att visas."
+
+#: C/rejilla.xml:1488(para)
+msgid "From the drop-down list <guilabel>Select a disc</guilabel>, select the disc you want to erase."
+msgstr "Välj skivan som du vill radera från rullgardinslistan <guilabel>Välj en skiva</guilabel>."
+
+#: C/rejilla.xml:1494(para)
+msgid "If you want to quickly erase the disc, select the <guilabel>fast blanking</guilabel> option (for more information, see <xref linkend=\"rejilla-fast-blanking\"/>)."
+msgstr "Om du vill snabbt radera skivan, välj alternativet <guilabel>Snabb radering</guilabel> (för mer information, se <xref linkend=\"rejilla-fast-blanking\"/>)."
+
+#: C/rejilla.xml:1501(para)
+msgid "Click on <guibutton>Blank</guibutton> to start erasing the CD or DVD."
+msgstr "Klicka på <guibutton>Radera</guibutton> för att påbörja raderingen av en CD eller DVD."
+
+#: C/rejilla.xml:1470(para)
+msgid "To erase a CD-RW or a DVD-RW: <placeholder-1/>"
+msgstr "För att radera en CD-RW eller en DVD-RW: <placeholder-1/>"
+
+#: C/rejilla.xml:1509(para)
+msgid "The blanking process will permanently destroy all of the data on the disc."
+msgstr "Raderingsprocessen kommer att permanent förstöra all data på skivan."
+
+#: C/rejilla.xml:1515(title)
+msgid "What is fast blanking?"
+msgstr "Vad är snabb radering?"
+
+#: C/rejilla.xml:1516(para)
+msgid "Fast blanking is a way of quickly erasing a disc. This method is much faster than fully erasing the disc and is sufficient to allow the disc to be written to again."
+msgstr "Snabb radering är ett sätt att snabbt radera en skiva. Denna metod är mycket snabbare än en fullständig radering av skivan och är tillräcklig för att skivan ska gå att skrivas på igen."
+
+#: C/rejilla.xml:1521(para)
+msgid "The full erasing procedure is slower but is more secure, as it removes all traces of previous data. Data removed from fast blanked media can still be recovered with special tools."
+msgstr "Fullständig radering är långsammare men är mer tillförlitlig eftersom den tar bort alla spår av tidigare data. Data som tas bort från ett snabbt raderat media kan fortfarande återskapas med speciella verktyg."
+
+#: C/rejilla.xml:1530(title)
+msgid "Checking the Integrity of a CD or DVD"
+msgstr "Kontrollera integriteten för en CD eller DVD"
+
+#: C/rejilla.xml:1531(para)
+msgid "Checking the integrity of a CD or DVD makes sure that the files written to the disc are intact and have not been corrupted during the burning process."
+msgstr "Kontrollera integriteten för en CD eller DVD försäkrar att filerna som har skrivits till skivan är oskadade och inte har skadats under bränningsprocessen."
+
+#: C/rejilla.xml:1536(para)
+msgid "The integrity check is done using the <quote>MD5 digest</quote> algorithm, which creates a <quote>fingerprint</quote> of the data on the media. Each time you burn a CD or DVD, and the <emphasis role=\"strong\">Image checksum</emphasis> plugin is enabled (see <xref linkend=\"rejilla-plugins\"/> for more information), <application>Rejilla</application> adds a MD5 file to the disc in order to perform integrity checks at a later date."
+msgstr "Integritetskontroll görs genom att använda <quote>MD5 digest</quote>-algoritmen, vilken skapar ett <quote>fingeravtryck</quote> av datat på mediet. Varje gång som du bränner en CD eller DVD, och insticksmodulen <emphasis role=\"strong\">Avbildningskontrollsumma</emphasis> är aktiverad (se <xref linkend=\"rejilla-plugins\"/> för mer information),  så lägger <application>Rejilla</application> till en MD5-fil till skivan för att kunna genomföra integritetskontroller vid en senare tidpunkt."
+
+#: C/rejilla.xml:1545(para)
+msgid "<application>Rejilla</application> performs an integrity check after each burning session, checking the automatically generated file. Usually this process is longer than using an external MD5 file."
+msgstr "<application>Rejilla</application> genomför en integritetskontroll efter varje bränningssession vilket kontrollerar skivan med den automatiskt genererade filen. Vanligtvis tar denna process längre tid än att använda en extern MD5-fil."
+
+#: C/rejilla.xml:1554(para)
+msgid "Insert the CD or DVD to be checked into the drive."
+msgstr "Mata in den CD eller DVD som ska kontrolleras i enheten."
+
+#: C/rejilla.xml:1559(para)
+msgid "From the menu bar, choose <menuchoice><guimenu>Tools</guimenu><guimenuitem>Check Integrity</guimenuitem></menuchoice>, or press <keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo>."
+msgstr "Från menyraden, välj <menuchoice><guimenu>Verktyg</guimenu><guimenuitem>Kontrollera integritet</guimenuitem></menuchoice> eller tryck <keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo>."
+
+#: C/rejilla.xml:1575(para)
+msgid "Select the <guilabel>Use a md5 file to check the disc</guilabel> option to use an MD5 file."
+msgstr "Välj alternativet <guilabel>Använd en md5-fil för att kontrollera skivan</guilabel> för att använda en MD5-fil."
+
+#: C/rejilla.xml:1581(para)
+msgid "Click on the <guilabel>None</guilabel> button under the previously mentioned option and select an MD5 file, usually ending with the <filename>.md5</filename> extension."
+msgstr "Klicka på knappen <guilabel>Ingen</guilabel> under tidigare nämnt alternativ och välj en MD5-fil. Den har oftast filändelsen <filename>.md5</filename>."
+
+#: C/rejilla.xml:1570(para)
+msgid "You can check the integrity by using a MD5 file or by letting <application>Rejilla</application> automatically perform a check on the media. <placeholder-1/>"
+msgstr "Du kan kontrollera integriteten genom att använda en MD5-fil eller genom att låta <application>Rejilla</application> automatiskt genomföra en kontroll på mediet. <placeholder-1/>"
+
+#: C/rejilla.xml:1592(para)
+msgid "Click on the <guibutton>Check</guibutton> button to start the integrity check."
+msgstr "Klicka på knappen <guibutton>Kontrollera</guibutton> för att påbörja integritetskontrollen."
+
+#: C/rejilla.xml:1550(para)
+msgid "To check the integrity of a disc: <placeholder-1/>"
+msgstr "För att kontrollera integriteten för en skiva: <placeholder-1/>"
+
+#: C/rejilla.xml:1599(para)
+msgid "If the integrity check is successful, <application>Rejilla</application> will notify you with a <guilabel>File integrity check success</guilabel> dialog; otherwise, the <guilabel>File integrity check error</guilabel> dialog will be displayed."
+msgstr "Om integritetskontrollen lyckas så kommer <application>Rejilla</application> att notifiera dig med dialogrutan <guilabel>Kontrollen av filintegriteten lyckades</guilabel>; om inte kommer dialogrutan <guilabel>Filintegritetskontrollen hittade felaktigheter</guilabel> att visas."
+
+#: C/rejilla.xml:1608(title)
+msgid "Cover Editor"
+msgstr "Omslagsredigerare"
+
+#: C/rejilla.xml:1609(para)
+msgid "<application>Rejilla</application> has a cover editor for creating covers for your CDs or DVDs. To open the cover editor, choose <menuchoice><guimenu>Tools</guimenu><guimenuitem>Cover Editor</guimenuitem></menuchoice>."
+msgstr "<application>Rejilla</application> har en omslagsredigerare för att skapa omslagsbilder för dina CD eller DVD-skivor. För att öppna omslagsredigeraren, välj <menuchoice><guimenu>Verktyg</guimenu><guimenuitem>Omslagsredigerare</guimenuitem></menuchoice>."
+
+#: C/rejilla.xml:1616(para)
+msgid "The cover editor lets you select the font, the alignment and the colors for all the texts and the background properties of front and the back cover."
+msgstr "Omslagsredigeraren låter dig välja typsnitt, justering och färger för alla texter samt bakgrundsegenskaper för fram- och baksida."
+
+#: C/rejilla.xml:1621(para)
+msgid "To set the properties of the covers, right-click on one of the covers and choose <guimenuitem>Set background properties</guimenuitem> to open the <guilabel>Background Properties</guilabel> dialog."
+msgstr "För att ställa in egenskaperna för omslagsbilderna, högerklicka på ett av omslagen och välj <guimenuitem>Ställ in bakgrundsegenskaper</guimenuitem> för att öppna dialogrutan <guilabel>Bakgrundsegenskaper</guilabel>."
+
+#: C/rejilla.xml:1627(para)
+msgid "It is possible to fill the background with an image or with a color or gradient."
+msgstr "Det är möjligt att fylla bakgrunden med en bild, en färg eller en gradient."
+
+#: C/rejilla.xml:1635(para)
+msgid "From <guilabel>Image path</guilabel> select the image from you hard disk."
+msgstr "Välj en bild på din hårddisk från <guilabel>Bildsökväg</guilabel>."
+
+#: C/rejilla.xml:1641(para)
+msgid "From the <guilabel>Image style</guilabel> drop-down list select how you want the image to be positioned."
+msgstr "Välj hur du vill att bilden ska placeras från rullgardinslistan <guilabel>Bildstil</guilabel>."
+
+#: C/rejilla.xml:1631(para)
+msgid "To set an image as the background: <placeholder-1/>"
+msgstr "För att ställa in en bild som bakgrund: <placeholder-1/>"
+
+#: C/rejilla.xml:1652(para)
+msgid "From the <guilabel>Color</guilabel> drop-down list select the kind of fill you want to use for the background."
+msgstr "Välj den typ av fyllnad som du vill använda för bakgrunden från rullgardinslistan <guilabel>Färg</guilabel>."
+
+#: C/rejilla.xml:1658(para)
+msgid "Use the button on the right to open the <guilabel>Pick a Color</guilabel> dialog to select the color."
+msgstr "Använd knappen till höger för att öppna dialogrutan <guilabel>Välj en färg</guilabel> för att välja en färg."
+
+#: C/rejilla.xml:1665(para)
+msgid "If you select a gradient, there will be two buttons for the color chooser. The one on the left is the starting point of the gradient, the one on the right the end point."
+msgstr "Om du väljer en gradient så finns det två knappar för färgväljaren. Den till vänster är startpunkten för gradienten och den till höger är slutpunkten."
+
+#: C/rejilla.xml:1648(para)
+msgid "To fill the background with a color or gradient: <placeholder-1/><placeholder-2/>"
+msgstr "För att fylla bakgrunden med en färg eller gradient: <placeholder-1/><placeholder-2/>"
+
+#: C/rejilla.xml:1675(title)
+#: C/rejilla.xml:1690(title)
+msgid "Plugins"
+msgstr "Insticksmoduler"
+
+#: C/rejilla.xml:1676(para)
+msgid "<application>Rejilla</application> can use different plugins to perform different tasks. There are several plugins you can choose from."
+msgstr "<application>Rejilla</application> kan använda olika insticksmoduler för att genomföra olika uppgifter. Det finns flera insticksmoduler som du kan välja från."
+
+#: C/rejilla.xml:1680(para)
+msgid "To view the available plugins, choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Plugins</guimenuitem></menuchoice>. The plugins that you can use are:"
+msgstr "För att visa de tillgängliga insticksmodulerna, välj <menuchoice><guimenu>Redigera</guimenu><guimenuitem>Insticksmoduler</guimenuitem></menuchoice>. Insticksmodulerna som du kan använda är:"
+
+#: C/rejilla.xml:1694(entry)
+msgid "Plugin Name"
+msgstr "Insticksnamn"
+
+#: C/rejilla.xml:1695(entry)
+msgid "Description"
+msgstr "Beskrivning"
+
+#: C/rejilla.xml:1700(guilabel)
+msgid "CD/DVD Creator Folder"
+msgstr "Mapp för Cd/Dvd-skapare"
+
+#: C/rejilla.xml:1703(filename)
+msgid "CD/DVD Creator"
+msgstr "Cd/Dvd-skapare"
+
+#: C/rejilla.xml:1703(application)
+msgid "Caja"
+msgstr "Caja"
+
+#: C/rejilla.xml:1701(entry)
+msgid "Enalbes <placeholder-1/> to burn files stored in the <placeholder-2/> folder of <placeholder-3/>."
+msgstr "Gör så att <placeholder-1/> bränner filer som lagrats i mappen för <placeholder-2/> i <placeholder-3/>."
+
+#: C/rejilla.xml:1707(guilabel)
+msgid "File Checksum"
+msgstr "Filkontrollsumma"
+
+#: C/rejilla.xml:1708(entry)
+msgid "Enables <placeholder-1/> to check the integrity of files."
+msgstr "Gör så att <placeholder-1/> kontrollerar integriteten för filer."
+
+#: C/rejilla.xml:1713(guilabel)
+msgid "File Downloader"
+msgstr "Filhämtare"
+
+#: C/rejilla.xml:1714(entry)
+msgid "Enables <placeholder-1/> to burn files which are not stored locally."
+msgstr "Gör så att <placeholder-1/> bränner filer som inte lagras lokalt."
+
+#: C/rejilla.xml:1719(guilabel)
+msgid "Image Checksum"
+msgstr "Avbildningskontrollsumma"
+
+#: C/rejilla.xml:1720(entry)
+msgid "Enables <placeholder-1/> to perform integrity checks on discs after they have been burnt. Also enables the writing of a small file which holds the MD5 sum of all the files on the disc."
+msgstr "Gör så att <placeholder-1/> genomför integritetskontroller på skivor efter att de har bränts. Tillåter även skrivning av en mindre fil som innehåller MD5-kontrollsumman för alla filer på skivan."
+
+#: C/rejilla.xml:1728(guilabel)
+msgid "Normalize"
+msgstr "Normalisera"
+
+#: C/rejilla.xml:1729(entry)
+msgid "Enables <placeholder-1/> to set consistent sound levels between tracks."
+msgstr "Gör så att <placeholder-1/> ställer in konsekventa ljudnivåer mellan spår."
+
+#: C/rejilla.xml:1737(para)
+msgid "To enable or disable a plugin, select the check box next to its name in the <guilabel>Enabled</guilabel> column."
+msgstr "Kryssa i kryssrutan bredvid dess namn i kolumnen <guilabel>Aktiverad</guilabel> för att aktivera eller inaktivera en insticksmodul."
+
+#: C/rejilla.xml:1747(para)
+msgid "Select one of the two plugins and click on <guibutton>Configure</guibutton>."
+msgstr "Välj en av de två insticksmodulerna och klicka på <guibutton>Konfigurera</guibutton>."
+
+#: C/rejilla.xml:1759(para)
+msgid "MD5"
+msgstr "MD5"
+
+#: C/rejilla.xml:1764(para)
+msgid "SHA1"
+msgstr "SHA1"
+
+#: C/rejilla.xml:1769(para)
+msgid "SHA256"
+msgstr "SHA256"
+
+#: C/rejilla.xml:1753(para)
+msgid "From the <guilabel>Hashing algorithm to be used</guilabel> drop-down list select the algorithm you want to use. The possible values are: <placeholder-1/>"
+msgstr "Från rullgardinslistan <guilabel>Hashalgoritm att använda</guilabel>, välj vilken algoritm som du vill använda. Möjliga värden är: <placeholder-1/>"
+
+#: C/rejilla.xml:1741(para)
+msgid "With the <guilabel>File Checksum</guilabel> and <guilabel>Image Checksum</guilabel> plugins you can choose which algorithm to use: <placeholder-1/>"
+msgstr "Med insticksmodulerna <guilabel>Filkontrollsumma</guilabel> och <guilabel>Avbildningskontrollsumma</guilabel> kan du välja vilken algoritm som ska användas: <placeholder-1/>"
+
+#: C/rejilla.xml:1781(para)
+msgid "In order to use some of the plugins listed here, it may be necessary to install further applications on your system. See your operating system documentation for more information."
+msgstr "Det kan vara nödvändigt att installera ytterligare program på ditt system för att använda några av insticksmodulerna som listas här. Se dokumentationen för ditt operativsystem för mer information."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/rejilla.xml:0(None)
+msgid "translator-credits"
+msgstr "Daniel Nylander <po@danielnylander.se>, 2008, 2009, 2010"
+
+#~ msgid "milo_casagrande@yahoo.it"
+#~ msgstr "milo_casagrande@yahoo.it"
+#~ msgid "Path"
+#~ msgstr "Sökväg"
+#~ msgid "Image type"
+#~ msgstr "Avbildningstyp"
+

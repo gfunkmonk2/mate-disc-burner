@@ -1,0 +1,533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>rejilla-track-type</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-burn Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-burn">
+<link rel="prev" href="librejilla-burn-rejilla-enums.html" title="rejilla-enums">
+<link rel="next" href="librejilla-burn-RejillaTrack.html" title="RejillaTrack">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-burn-rejilla-enums.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-burn Reference Manual</th>
+<td><a accesskey="n" href="librejilla-burn-RejillaTrack.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-burn-rejilla-track-type.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-burn-rejilla-track-type.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="rejilla-track-type">
+<a name="librejilla-burn-rejilla-track-type"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-burn-rejilla-track-type.top_of_page"></a>rejilla-track-type</span></h2>
+<p>rejilla-track-type</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-burn-rejilla-track-type.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType">RejillaTrackType</a>;
+<a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="returnvalue">RejillaTrackType</span></a> *  <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-new" title="rejilla_track_type_new ()">rejilla_track_type_new</a>              (<em class="parameter"><code><span class="type">void</span></code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-free" title="rejilla_track_type_free ()">rejilla_track_type_free</a>             (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-is-empty" title="rejilla_track_type_is_empty ()">rejilla_track_type_is_empty</a>         (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-has-data" title="rejilla_track_type_get_has_data ()">rejilla_track_type_get_has_data</a>     (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-has-image" title="rejilla_track_type_get_has_image ()">rejilla_track_type_get_has_image</a>    (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-has-stream" title="rejilla_track_type_get_has_stream ()">rejilla_track_type_get_has_stream</a>   (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-has-medium" title="rejilla_track_type_get_has_medium ()">rejilla_track_type_get_has_medium</a>   (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-has-data" title="rejilla_track_type_set_has_data ()">rejilla_track_type_set_has_data</a>     (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-has-image" title="rejilla_track_type_set_has_image ()">rejilla_track_type_set_has_image</a>    (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-has-stream" title="rejilla_track_type_set_has_stream ()">rejilla_track_type_set_has_stream</a>   (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-has-medium" title="rejilla_track_type_set_has_medium ()">rejilla_track_type_set_has_medium</a>   (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaStreamFormat" title="enum RejillaStreamFormat"><span class="returnvalue">RejillaStreamFormat</span></a>  <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-stream-format" title="rejilla_track_type_get_stream_format ()">rejilla_track_type_get_stream_format</a>
+                                                        (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="returnvalue">RejillaImageFormat</span></a>  <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-image-format" title="rejilla_track_type_get_image_format ()">rejilla_track_type_get_image_format</a> (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="returnvalue">RejillaMedia</span></a>        <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-medium-type" title="rejilla_track_type_get_medium_type ()">rejilla_track_type_get_medium_type</a>  (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="returnvalue">RejillaImageFS</span></a>      <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-data-fs" title="rejilla_track_type_get_data_fs ()">rejilla_track_type_get_data_fs</a>      (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-stream-format" title="rejilla_track_type_set_stream_format ()">rejilla_track_type_set_stream_format</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaStreamFormat" title="enum RejillaStreamFormat"><span class="type">RejillaStreamFormat</span></a> format</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-image-format" title="rejilla_track_type_set_image_format ()">rejilla_track_type_set_image_format</a> (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="type">RejillaImageFormat</span></a> format</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-medium-type" title="rejilla_track_type_set_medium_type ()">rejilla_track_type_set_medium_type</a>  (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>,
+                                                         <em class="parameter"><code><a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="type">RejillaMedia</span></a> media</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-data-fs" title="rejilla_track_type_set_data_fs ()">rejilla_track_type_set_data_fs</a>      (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="type">RejillaImageFS</span></a> fs_type</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-equal" title="rejilla_track_type_equal ()">rejilla_track_type_equal</a>            (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type_A</code></em>,
+                                                         <em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type_B</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-burn-rejilla-track-type.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-burn-rejilla-track-type.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaTrackType">
+<a name="RejillaTrackType"></a><h3>RejillaTrackType</h3>
+<pre class="programlisting">typedef struct _RejillaTrackType RejillaTrackType;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_new ()">
+<a name="rejilla-track-type-new"></a><h3>rejilla_track_type_new ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="returnvalue">RejillaTrackType</span></a> *  rejilla_track_type_new              (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Creates a new <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> structure.
+Free it with <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-free" title="rejilla_track_type_free ()"><code class="function">rejilla_track_type_free()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> pointer.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_free ()">
+<a name="rejilla-track-type-free"></a><h3>rejilla_track_type_free ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_track_type_free             (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+Frees <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> structure.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_is_empty ()">
+<a name="rejilla-track-type-is-empty"></a><h3>rejilla_track_type_is_empty ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_track_type_is_empty         (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+Returns TRUE if no type was set.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_get_has_data ()">
+<a name="rejilla-track-type-get-has-data"></a><h3>rejilla_track_type_get_has_data ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_track_type_get_has_data     (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+Returns TRUE if DATA type (see <a class="link" href="librejilla-burn-rejilla-track-data.html#rejilla-track-data-new" title="rejilla_track_data_new ()"><code class="function">rejilla_track_data_new()</code></a>) was set.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_get_has_image ()">
+<a name="rejilla-track-type-get-has-image"></a><h3>rejilla_track_type_get_has_image ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_track_type_get_has_image    (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+Returns TRUE if IMAGE type (see <a class="link" href="librejilla-burn-RejillaTrackImage.html#rejilla-track-image-new" title="rejilla_track_image_new ()"><code class="function">rejilla_track_image_new()</code></a>) was set.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_get_has_stream ()">
+<a name="rejilla-track-type-get-has-stream"></a><h3>rejilla_track_type_get_has_stream ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_track_type_get_has_stream   (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+This function returns <a href="http://library.mate.org/devel/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if IMAGE type (see <a class="link" href="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-new" title="rejilla_track_stream_new ()"><code class="function">rejilla_track_stream_new()</code></a>) was set.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_get_has_medium ()">
+<a name="rejilla-track-type-get-has-medium"></a><h3>rejilla_track_type_get_has_medium ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_track_type_get_has_medium   (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+Returns TRUE if MEDIUM type (see <a class="link" href="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-new" title="rejilla_track_disc_new ()"><code class="function">rejilla_track_disc_new()</code></a>) was set.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_set_has_data ()">
+<a name="rejilla-track-type-set-has-data"></a><h3>rejilla_track_type_set_has_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_track_type_set_has_data     (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+Set DATA type for <em class="parameter"><code>type</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_set_has_image ()">
+<a name="rejilla-track-type-set-has-image"></a><h3>rejilla_track_type_set_has_image ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_track_type_set_has_image    (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+Set IMAGE type for <em class="parameter"><code>type</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_set_has_stream ()">
+<a name="rejilla-track-type-set-has-stream"></a><h3>rejilla_track_type_set_has_stream ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_track_type_set_has_stream   (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+Set STREAM type for <em class="parameter"><code>type</code></em>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_set_has_medium ()">
+<a name="rejilla-track-type-set-has-medium"></a><h3>rejilla_track_type_set_has_medium ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_track_type_set_has_medium   (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+Set MEDIUM type for <em class="parameter"><code>type</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_get_stream_format ()">
+<a name="rejilla-track-type-get-stream-format"></a><h3>rejilla_track_type_get_stream_format ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaStreamFormat" title="enum RejillaStreamFormat"><span class="returnvalue">RejillaStreamFormat</span></a>  rejilla_track_type_get_stream_format
+                                                        (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+Returns the format for a stream (song or video)
+when <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-has-stream" title="rejilla_track_type_get_has_stream ()"><code class="function">rejilla_track_type_get_has_stream()</code></a> returned
+TRUE.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaStreamFormat" title="enum RejillaStreamFormat"><span class="type">RejillaStreamFormat</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_get_image_format ()">
+<a name="rejilla-track-type-get-image-format"></a><h3>rejilla_track_type_get_image_format ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="returnvalue">RejillaImageFormat</span></a>  rejilla_track_type_get_image_format (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+Returns the format of an image when
+<a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-has-image" title="rejilla_track_type_get_has_image ()"><code class="function">rejilla_track_type_get_has_image()</code></a> returned
+TRUE.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="type">RejillaImageFormat</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_get_medium_type ()">
+<a name="rejilla-track-type-get-medium-type"></a><h3>rejilla_track_type_get_medium_type ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="returnvalue">RejillaMedia</span></a>        rejilla_track_type_get_medium_type  (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+Returns the medium type
+when <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-has-medium" title="rejilla_track_type_get_has_medium ()"><code class="function">rejilla_track_type_get_has_medium()</code></a> returned
+TRUE.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="type">RejillaMedia</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_get_data_fs ()">
+<a name="rejilla-track-type-get-data-fs"></a><h3>rejilla_track_type_get_data_fs ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="returnvalue">RejillaImageFS</span></a>      rejilla_track_type_get_data_fs      (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>);</pre>
+<p>
+Returns the parameters for the image generation
+when <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-has-data" title="rejilla_track_type_get_has_data ()"><code class="function">rejilla_track_type_get_has_data()</code></a> returned
+TRUE.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="type">RejillaImageFS</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_set_stream_format ()">
+<a name="rejilla-track-type-set-stream-format"></a><h3>rejilla_track_type_set_stream_format ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_track_type_set_stream_format
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaStreamFormat" title="enum RejillaStreamFormat"><span class="type">RejillaStreamFormat</span></a> format</code></em>);</pre>
+<p>
+Sets the <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaStreamFormat" title="enum RejillaStreamFormat"><span class="type">RejillaStreamFormat</span></a>. Must be called
+after <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-has-stream" title="rejilla_track_type_set_has_stream ()"><code class="function">rejilla_track_type_set_has_stream()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>format</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="type">RejillaImageFormat</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_set_image_format ()">
+<a name="rejilla-track-type-set-image-format"></a><h3>rejilla_track_type_set_image_format ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_track_type_set_image_format (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="type">RejillaImageFormat</span></a> format</code></em>);</pre>
+<p>
+Sets the <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="type">RejillaImageFormat</span></a>. Must be called
+after <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-has-image" title="rejilla_track_type_set_has_image ()"><code class="function">rejilla_track_type_set_has_image()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>format</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat"><span class="type">RejillaImageFormat</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_set_medium_type ()">
+<a name="rejilla-track-type-set-medium-type"></a><h3>rejilla_track_type_set_medium_type ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_track_type_set_medium_type  (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>,
+                                                         <em class="parameter"><code><a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="type">RejillaMedia</span></a> media</code></em>);</pre>
+<p>
+Sets the <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="type">RejillaMedia</span></a>. Must be called
+after <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-has-medium" title="rejilla_track_type_set_has_medium ()"><code class="function">rejilla_track_type_set_has_medium()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>media</code></em> :</span></p></td>
+<td>a <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="type">RejillaMedia</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_set_data_fs ()">
+<a name="rejilla-track-type-set-data-fs"></a><h3>rejilla_track_type_set_data_fs ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_track_type_set_data_fs      (<em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="type">RejillaImageFS</span></a> fs_type</code></em>);</pre>
+<p>
+Sets the <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="type">RejillaImageFS</span></a>. Must be called
+after <a class="link" href="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-has-data" title="rejilla_track_type_set_has_data ()"><code class="function">rejilla_track_type_set_has_data()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>fs_type</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS"><span class="type">RejillaImageFS</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_type_equal ()">
+<a name="rejilla-track-type-equal"></a><h3>rejilla_track_type_equal ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_track_type_equal            (<em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type_A</code></em>,
+                                                         <em class="parameter"><code>const <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a> *type_B</code></em>);</pre>
+<p>
+Returns TRUE if <em class="parameter"><code>type_A</code></em> and <em class="parameter"><code>type_B</code></em> represents
+the same type and subtype.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type_A</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type_B</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-track-type.html#RejillaTrackType" title="RejillaTrackType"><span class="type">RejillaTrackType</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!-- ##### SECTION Title ##### -->
+RejillaMediumMonitor
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT RejillaMediumMonitor ##### -->
+<para>
+
+</para>
+
+@parent_instance: 
+
+<!-- ##### FUNCTION rejilla_medium_monitor_get_default ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### ENUM RejillaMediaType ##### -->
+<para>
+
+</para>
+
+@REJILLA_MEDIA_TYPE_NONE: 
+@REJILLA_MEDIA_TYPE_FILE: 
+@REJILLA_MEDIA_TYPE_DATA: 
+@REJILLA_MEDIA_TYPE_AUDIO: 
+@REJILLA_MEDIA_TYPE_WRITABLE: 
+@REJILLA_MEDIA_TYPE_REWRITABLE: 
+@REJILLA_MEDIA_TYPE_ANY_IN_BURNER: 
+@REJILLA_MEDIA_TYPE_CD: 
+@REJILLA_MEDIA_TYPE_ALL_BUT_FILE: 
+@REJILLA_MEDIA_TYPE_ALL: 
+
+<!-- ##### ENUM RejillaDriveType ##### -->
+<para>
+
+</para>
+
+@REJILLA_DRIVE_TYPE_NONE: 
+@REJILLA_DRIVE_TYPE_FILE: 
+@REJILLA_DRIVE_TYPE_WRITER: 
+@REJILLA_DRIVE_TYPE_READER: 
+@REJILLA_DRIVE_TYPE_ALL_BUT_FILE: 
+@REJILLA_DRIVE_TYPE_ALL: 
+
+<!-- ##### FUNCTION rejilla_medium_monitor_get_media ##### -->
+<para>
+
+</para>
+
+@monitor: 
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_medium_monitor_get_drives ##### -->
+<para>
+
+</para>
+
+@monitor: 
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_medium_monitor_get_drive ##### -->
+<para>
+
+</para>
+
+@monitor: 
+@device: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_medium_monitor_is_probing ##### -->
+<para>
+
+</para>
+
+@monitor: 
+@Returns: 
+
+

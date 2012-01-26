@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaTrackDisc</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-burn Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-burn">
+<link rel="prev" href="librejilla-burn-RejillaTrack.html" title="RejillaTrack">
+<link rel="next" href="librejilla-burn-rejilla-track-data.html" title="RejillaTrackData">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-burn-RejillaTrack.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-burn Reference Manual</th>
+<td><a accesskey="n" href="librejilla-burn-rejilla-track-data.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-burn-RejillaTrackDisc.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-burn-RejillaTrackDisc.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaTrackDisc">
+<a name="librejilla-burn-RejillaTrackDisc"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-burn-RejillaTrackDisc.top_of_page"></a>RejillaTrackDisc</span></h2>
+<p>RejillaTrackDisc</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-burn-RejillaTrackDisc.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc">RejillaTrackDisc</a>;
+<a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="returnvalue">RejillaTrackDisc</span></a> *  <a class="link" href="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-new" title="rejilla_track_disc_new ()">rejilla_track_disc_new</a>              (<em class="parameter"><code><span class="type">void</span></code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-set-drive" title="rejilla_track_disc_set_drive ()">rejilla_track_disc_set_drive</a>        (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-drive.html#RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);
+<a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-drive.html#RejillaDrive"><span class="returnvalue">RejillaDrive</span></a> *      <a class="link" href="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-get-drive" title="rejilla_track_disc_get_drive ()">rejilla_track_disc_get_drive</a>        (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a> *track</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-set-track-num" title="rejilla_track_disc_set_track_num ()">rejilla_track_disc_set_track_num</a>    (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> num</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="returnvalue">guint</span></a>               <a class="link" href="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-get-track-num" title="rejilla_track_disc_get_track_num ()">rejilla_track_disc_get_track_num</a>    (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a> *track</code></em>);
+<a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="returnvalue">RejillaMedia</span></a>        <a class="link" href="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-get-medium-type" title="rejilla_track_disc_get_medium_type ()">rejilla_track_disc_get_medium_type</a>  (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a> *track</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-burn-RejillaTrackDisc.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-burn-RejillaTrackDisc.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaTrackDisc">
+<a name="RejillaTrackDisc"></a><h3>RejillaTrackDisc</h3>
+<pre class="programlisting">typedef struct {
+	RejillaTrack parent_instance;
+} RejillaTrackDisc;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_disc_new ()">
+<a name="rejilla-track-disc-new"></a><h3>rejilla_track_disc_new ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="returnvalue">RejillaTrackDisc</span></a> *  rejilla_track_disc_new              (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Creates a new <a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a> object.
+</p>
+<p>
+This type of tracks is used to copy media either
+to a disc image file or to another medium.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_disc_set_drive ()">
+<a name="rejilla-track-disc-set-drive"></a><h3>rejilla_track_disc_set_drive ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_disc_set_drive        (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-drive.html#RejillaDrive"><span class="type">RejillaDrive</span></a> *drive</code></em>);</pre>
+<p>
+Sets <em class="parameter"><code>drive</code></em> to be the <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-drive.html#RejillaDrive"><span class="type">RejillaDrive</span></a> that will be used
+as the source when copying
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drive</code></em> :</span></p></td>
+<td>a <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-drive.html#RejillaDrive"><span class="type">RejillaDrive</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>.
+REJILLA_BURN_OK if it was successful,
+REJILLA_BURN_ERR otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_disc_get_drive ()">
+<a name="rejilla-track-disc-get-drive"></a><h3>rejilla_track_disc_get_drive ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-drive.html#RejillaDrive"><span class="returnvalue">RejillaDrive</span></a> *      rejilla_track_disc_get_drive        (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a> *track</code></em>);</pre>
+<p>
+Gets the <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-drive.html#RejillaDrive"><span class="type">RejillaDrive</span></a> object that will be used as
+the source when copying.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-drive.html#RejillaDrive"><span class="type">RejillaDrive</span></a> or NULL. Don't unref or free it.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_disc_set_track_num ()">
+<a name="rejilla-track-disc-set-track-num"></a><h3>rejilla_track_disc_set_track_num ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_track_disc_set_track_num    (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a> *track</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> num</code></em>);</pre>
+<p>
+Sets a track number which can be used
+to copy only one specific session on a multisession disc
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>num</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>.
+REJILLA_BURN_OK if it was successful,
+REJILLA_BURN_ERR otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_disc_get_track_num ()">
+<a name="rejilla-track-disc-get-track-num"></a><h3>rejilla_track_disc_get_track_num ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="returnvalue">guint</span></a>               rejilla_track_disc_get_track_num    (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a> *track</code></em>);</pre>
+<p>
+Gets the track number which will be used
+to copy only one specific session on a multisession disc
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a>. 0 if none is set, any other number otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_track_disc_get_medium_type ()">
+<a name="rejilla-track-disc-get-medium-type"></a><h3>rejilla_track_disc_get_medium_type ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="returnvalue">RejillaMedia</span></a>        rejilla_track_disc_get_medium_type  (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a> *track</code></em>);</pre>
+<p>
+Gets the <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="type">RejillaMedia</span></a> for the medium that is
+currently inserted into the drive assigned for <em class="parameter"><code>track</code></em>
+with <a class="link" href="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-set-drive" title="rejilla_track_disc_set_drive ()"><code class="function">rejilla_track_disc_set_drive()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>track</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="type">RejillaMedia</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

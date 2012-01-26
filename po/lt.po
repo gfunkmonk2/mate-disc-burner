@@ -1,0 +1,5436 @@
+# Lithuanian translation of Rejilla package.
+# Copyright (C) 2006-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Rejilla package.
+# Žygimantas Beručka <zygis@mate.org>, 2006-2008, 2010.
+# Mantas Kriaučiūnas <mantas@akl.lt>, 2007-2009.
+# Eglė Kriaučiūnienė <egle@akl.lt>, 2009.
+# Aurimas Černius <aurisc4@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rejilla HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-29 19:50+0200\n"
+"PO-Revision-Date: 2010-09-29 19:51+0200\n"
+"Last-Translator: Žygimantas Beručka <zygis@mate.org>\n"
+"Language-Team: Lithuanian <mate-lt@lists.akl.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: UTF-8\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../src/rejilla-search.c:241
+#, c-format
+msgid "Results %i–%i (out of %i)"
+msgstr "Rezultatai %i–%i (iš %i)"
+
+#: ../src/rejilla-search.c:249 ../src/rejilla-search.c:880
+msgid "No results"
+msgstr "Nėra rezultatų"
+
+#: ../src/rejilla-search.c:414
+msgid "Error querying for keywords."
+msgstr "Klaida užklausiant raktažodžių."
+
+#: ../src/rejilla-search.c:867
+msgid "Previous Results"
+msgstr "Ankstesni rezultatai"
+
+#: ../src/rejilla-search.c:888
+msgid "Next Results"
+msgstr "Kiti rezultatai"
+
+#: ../src/rejilla-search.c:952 ../src/rejilla-data-disc.c:2352
+#: ../src/rejilla-file-filtered.c:259
+msgid "Files"
+msgstr "Failai"
+
+#: ../src/rejilla-search.c:981 ../src/rejilla-data-disc.c:2380
+msgid "Description"
+msgstr "Aprašymas"
+
+#: ../src/rejilla-search.c:1034 ../librejilla-burn/rejilla-src-image.c:444
+#: ../src/rejilla-project-name.c:165 ../src/rejilla-search-entry.c:509
+#: ../src/rejilla-search-entry.c:569 ../src/rejilla-search-entry.c:631
+#: ../src/rejilla-file-chooser.c:350 ../src/rejilla-project.c:2213
+msgid "All files"
+msgstr "Visi failai"
+
+#: ../src/rejilla-search.c:1045
+msgid "Number of results displayed"
+msgstr "Rodomų rezultatų skaičius"
+
+#: ../src/rejilla-cli.c:70
+msgid "Open the specified project"
+msgstr "Atverti nurodytą projektą"
+
+#: ../src/rejilla-cli.c:71
+msgid "PROJECT"
+msgstr "PROJEKTAS"
+
+#: ../src/rejilla-cli.c:76
+msgid "Open the specified playlist as an audio project"
+msgstr "Atverti nurodytą grojaraštį kaip garso projektą"
+
+#: ../src/rejilla-cli.c:77
+msgid "PLAYLIST"
+msgstr "GROJARAŠTIS"
+
+#: ../src/rejilla-cli.c:82
+msgid "Set the drive to be used for burning"
+msgstr "Pasirinkti įrašymo įrenginį"
+
+#: ../src/rejilla-cli.c:83
+msgid "DEVICE PATH"
+msgstr "ĮRENGINIO KELIAS"
+
+#: ../src/rejilla-cli.c:86
+msgid "Create an image file instead of burning"
+msgstr "Sukurti atvaizdžio failą vietoje įrašymo"
+
+#: ../src/rejilla-cli.c:90
+msgid "Open an audio project adding the URIs given on the command line"
+msgstr "Atverti garso projektą pridedant URI nurodytus komandų eilutėje"
+
+#: ../src/rejilla-cli.c:94
+msgid "Open a data project adding the URIs given on the command line"
+msgstr "Atverti duomenų projektą pridedant URI nurodytus komandų eilutėje"
+
+#: ../src/rejilla-cli.c:98
+msgid "Copy a disc"
+msgstr "Kopijuoti diską"
+
+#: ../src/rejilla-cli.c:99 ../src/rejilla-cli.c:119 ../src/rejilla-cli.c:123
+msgid "PATH TO DEVICE"
+msgstr "KELIAS IKI ĮRENGINIO"
+
+#: ../src/rejilla-cli.c:102
+msgid "Cover to use"
+msgstr "Viršelis"
+
+#: ../src/rejilla-cli.c:103
+msgid "PATH TO COVER"
+msgstr "VIRŠELIO KELIAS"
+
+#: ../src/rejilla-cli.c:106
+msgid "Open a video project adding the URIs given on the command line"
+msgstr "Atverti video projektą pridedant URI, nurodytus komandų eilutėje"
+
+#: ../src/rejilla-cli.c:110
+msgid "URI of an image file to burn (autodetected)"
+msgstr "Įrašytino atvaizdžio failo URI (automatiškai aptinkama)"
+
+#: ../src/rejilla-cli.c:111
+msgid "PATH TO IMAGE"
+msgstr "KELIAS IKI ATVAIZDŽIO"
+
+#: ../src/rejilla-cli.c:114
+msgid "Force Rejilla to display the project selection page"
+msgstr "Priversti Rejilla rodyti projektų pasirinkimo puslapį"
+
+#: ../src/rejilla-cli.c:118
+msgid "Open the blank disc dialog"
+msgstr "Atverti tuščio disko dialogą"
+
+#: ../src/rejilla-cli.c:122
+msgid "Open the check disc dialog"
+msgstr "Atverti tuščio disko dialogą"
+
+#: ../src/rejilla-cli.c:126
+msgid "Burn the contents of the burn:// URI"
+msgstr "Įrašyti burn:// URI turinį"
+
+#: ../src/rejilla-cli.c:130
+msgid "Start burning immediately."
+msgstr "Pradėti įrašymą nedelsiant."
+
+#: ../src/rejilla-cli.c:134
+msgid "Don't connect to an already-running instance"
+msgstr "Nesijungti prie jau veikiančios programos"
+
+#: ../src/rejilla-cli.c:138
+msgid ""
+"Burn the specified project and remove it.\n"
+"This option is mainly useful for integration with other applications."
+msgstr ""
+"Įrašyti nurodytą projektą ir jį pašalinti.\n"
+"Ši parinktis daugiausiai yra naudinga integruojant į kitas programas."
+
+#: ../src/rejilla-cli.c:139
+msgid "PATH"
+msgstr "KELIAS"
+
+#. Translators: the xid is a number identifying each window in the X11
+#. * world (not Windows, MacOS X). The following sentence says that
+#. * rejilla will be set to be always on top of the window identified by
+#. * xid. In other words, the window with the given xid will become rejilla
+#. * parent as if rejilla was a dialog for the parent application
+#: ../src/rejilla-cli.c:147
+msgid "The XID of the parent window"
+msgstr "Pirminio lango XID"
+
+#. Translators: %s is the path of drive
+#: ../src/rejilla-cli.c:204
+#, c-format
+msgid "\"%s\" cannot write."
+msgstr "„%s“ negali rašyti."
+
+#: ../src/rejilla-cli.c:206 ../src/rejilla-cli.c:220
+msgid "Wrong command line option."
+msgstr "Neteisingas komandų eilutės parametras."
+
+#. Translators: %s is the path of a drive
+#: ../src/rejilla-cli.c:218 ../librejilla-burn/rejilla-track-data-cfg.c:2593
+#, c-format
+msgid "\"%s\" cannot be found."
+msgstr "„%s“ nepavyko rasti."
+
+#: ../src/rejilla-cli.c:297
+msgid "Incompatible command line options used."
+msgstr "Panaudoti nesuderinami komandų eilutės parametrai."
+
+#: ../src/rejilla-cli.c:298
+msgid "Only one option can be given at a time"
+msgstr "Vienu metu gali būti nurodytas tik vienas parametras"
+
+#: ../librejilla-burn/burn-plugin.c:645
+#, c-format
+msgid "\"%s\" could not be found in the path"
+msgstr "„%s“ nerasta kelyje"
+
+#: ../librejilla-burn/burn-plugin.c:649
+#, c-format
+msgid "\"%s\" GStreamer plugin could not be found"
+msgstr "Nepavyko rasti GStreamer įskiepio „%s“"
+
+#: ../librejilla-burn/burn-plugin.c:653 ../librejilla-burn/burn-plugin.c:665
+#, c-format
+msgid "The version of \"%s\" is too old"
+msgstr "Ši „%s“ versija per sena"
+
+#: ../librejilla-burn/burn-plugin.c:657
+#, c-format
+msgid "\"%s\" is a symbolic link pointing to another program"
+msgstr "„%s“ yra simbolinė nuoroda į kitą programą"
+
+#. Translators: %s is a filename
+#: ../librejilla-burn/burn-plugin.c:661 ../plugins/cdrdao/burn-cdrdao.c:211
+#: ../plugins/growisofs/burn-growisofs.c:509
+#, c-format
+msgid "\"%s\" could not be found"
+msgstr "„%s“ nepavyko rasti"
+
+#: ../plugins/cdrtools/burn-cdda2wav.c:204
+#: ../plugins/cdrtools/burn-cdda2wav.c:214
+#, c-format
+msgid "Copying audio track %02d"
+msgstr "Kopijuojamas garso takelis %02d"
+
+#: ../plugins/cdrtools/burn-cdda2wav.c:265
+msgid "Preparing to copy audio disc"
+msgstr "Ruošiamasi kopijuoti garso diską"
+
+#: ../plugins/cdrtools/burn-cdda2wav.c:411
+msgid "Copy tracks from an audio CD with all associated information"
+msgstr "Kopijuoti takelius iš garso CD su visais susijusiais duomenimis"
+
+#: ../librejilla-burn/rejilla-video-options.c:451
+msgid "Video format:"
+msgstr "Video formatas:"
+
+#: ../librejilla-burn/rejilla-video-options.c:462
+msgid "_NTSC"
+msgstr "_NTSC"
+
+#: ../librejilla-burn/rejilla-video-options.c:464
+msgid "Format used mostly on the North American continent"
+msgstr "Formatas, daugiausiai naudojamas Šiaurės Amerikoje"
+
+#: ../librejilla-burn/rejilla-video-options.c:477
+msgid "_PAL/SECAM"
+msgstr "_PAL/SECAM"
+
+#: ../librejilla-burn/rejilla-video-options.c:479
+msgid "Format used mostly in Europe"
+msgstr "Formatas, daugiausiai naudojamas Europoje"
+
+#: ../librejilla-burn/rejilla-video-options.c:493
+msgid "Native _format"
+msgstr "Savas _formatas"
+
+#: ../librejilla-burn/rejilla-video-options.c:508
+msgid "Aspect ratio:"
+msgstr "Proporcija:"
+
+#: ../librejilla-burn/rejilla-video-options.c:519
+msgid "_4:3"
+msgstr "_4:3"
+
+#: ../librejilla-burn/rejilla-video-options.c:534
+msgid "_16:9"
+msgstr "_16:9"
+
+#. Video options for (S)VCD
+#: ../librejilla-burn/rejilla-video-options.c:549
+msgid "VCD type:"
+msgstr "VCD tipas:"
+
+#: ../librejilla-burn/rejilla-video-options.c:562
+msgid "Create an SVCD"
+msgstr "Sukurti SVCD"
+
+#: ../librejilla-burn/rejilla-video-options.c:577
+msgid "Create a VCD"
+msgstr "Sukurti VCD"
+
+#: ../librejilla-burn/burn-debug.c:54
+msgid "Display debug statements on stdout for Rejilla burn library"
+msgstr ""
+"Standartinėje išvestyje rodyti Rejilla rašymo bibliotekos derinimo "
+"informaciją"
+
+#: ../librejilla-burn/burn-debug.c:80
+msgid "Rejilla media burning library"
+msgstr "Rejilla laikmenų rašymo biblioteka"
+
+#: ../librejilla-burn/burn-debug.c:81
+msgid "Display options for Rejilla-burn library"
+msgstr "Rodymo parinktys Rejilla rašymo bibliotekai"
+
+#. Translators: %s is the name of the file that has just been deleted
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:90
+#, c-format
+msgid "\"%s\" was removed from the file system."
+msgstr "„%s“ buvo pašalintas iš failų sistemos."
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:129
+#: ../src/rejilla-audio-disc.c:753 ../src/rejilla-video-disc.c:365
+#, c-format
+msgid "Directories cannot be added to video or audio discs"
+msgstr "Negalima įdėti aplankų į audio ir video diskus."
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:142
+#, c-format
+msgid "Playlists cannot be added to video or audio discs"
+msgstr "Negalima įdėti grojaraščių į audio ir video diskus."
+
+#. Translators: %s is the name of the file
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:157
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:174
+#, c-format
+msgid "\"%s\" is not suitable for audio or video media"
+msgstr "„%s“ nėra tinkamas audio ir video laikmenoms"
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:401
+msgid "Analysing video files"
+msgstr "Analizuojami vaizdo įrašų failai"
+
+#: ../librejilla-burn/rejilla-data-vfs.c:218
+#, c-format
+msgid "\"%s\" cannot be read"
+msgstr "„%s“ negalima perskaityti"
+
+#: ../librejilla-burn/rejilla-data-session.c:123
+#: ../librejilla-burn/rejilla-burn.c:331 ../librejilla-media/scsi-error.c:47
+#: ../librejilla-burn/rejilla-tool-dialog.c:89
+#: ../plugins/cdrdao/burn-cdrdao.c:243 ../plugins/cdrkit/burn-readom.c:110
+#: ../plugins/cdrkit/burn-wodim.c:135 ../plugins/cdrkit/burn-wodim.c:144
+#: ../plugins/cdrtools/burn-cdrecord.c:135
+#: ../plugins/cdrtools/burn-cdrecord.c:144
+#: ../plugins/cdrtools/burn-readcd.c:111
+#: ../plugins/growisofs/burn-dvd-rw-format.c:84
+#: ../plugins/growisofs/burn-growisofs.c:190
+#: ../plugins/libburnia/burn-libburn-common.c:186
+#, c-format
+msgid "The drive is busy"
+msgstr "Įrenginys užimtas"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:57
+msgid "Hidden file"
+msgstr "Paslėptas failas"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:58
+msgid "Unreadable file"
+msgstr "Neperskaitomas failas"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:59
+msgid "Broken symbolic link"
+msgstr "Sugadinta simbolinė nuoroda"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:60
+#: ../librejilla-utils/rejilla-io.c:1186 ../librejilla-utils/rejilla-io.c:2057
+#, c-format
+msgid "Recursive symbolic link"
+msgstr "Rekursyvi simbolinė nuoroda"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:622
+#: ../librejilla-burn/rejilla-track-data-cfg.c:721
+#: ../librejilla-burn/rejilla-track-data-cfg.c:732
+#: ../librejilla-burn/rejilla-track-data-cfg.c:793
+#: ../librejilla-burn/rejilla-track-data-cfg.c:798
+#: ../src/rejilla-playlist.c:536 ../src/rejilla-video-tree-model.c:344
+msgid "(loading…)"
+msgstr "(įkeliama…)"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:624
+#: ../librejilla-burn/rejilla-track-data-cfg.c:804
+#: ../src/rejilla-playlist.c:497
+msgid "Empty"
+msgstr "Tuščias"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:730
+msgid "Disc file"
+msgstr "Disko failas"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:808
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d elementas"
+msgstr[1] "%d elementai"
+msgstr[2] "%d elementų"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:1927
+#, c-format
+msgid "New folder"
+msgstr "Naujas aplankas"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:1930
+#, c-format
+msgid "New folder %i"
+msgstr "Naujas aplankas %i"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2421
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2431
+msgid "Analysing files"
+msgstr "Analizuojami failai"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2447
+#: ../librejilla-burn/rejilla-burn-options.c:471
+#: ../caja/caja-burn-extension.c:250 ../src/rejilla-project.c:1267
+#: ../librejilla-burn/rejilla-track-data.c:772
+#: ../librejilla-burn/rejilla-track-stream.c:405
+#, c-format
+msgid "There are no files to write to disc"
+msgstr "Nėra į diską įrašytinų failų"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2567
+#, c-format
+msgid "\"%s\" is a recursive symbolic link."
+msgstr "„%s“ yra rekursyvi simbolinė nuoroda."
+
+#: ../librejilla-utils/rejilla-io.c:1414
+#, c-format
+msgid "The file does not appear to be a playlist"
+msgstr "Panašu, jog šis failas nėra grojaraštis"
+
+#: ../librejilla-utils/rejilla-metadata.c:1138 ../src/rejilla-audio-disc.c:642
+#, c-format
+msgid "\"%s\" could not be handled by GStreamer."
+msgstr "GStreamer negali apdoroti „%s“."
+
+#. Translators: %s is the name of the object (as in
+#. * GObject) from the Gstreamer library that could
+#. * not be created
+#: ../librejilla-utils/rejilla-metadata.c:1210
+#: ../librejilla-utils/rejilla-metadata.c:1223
+#: ../librejilla-utils/rejilla-metadata.c:1236
+#: ../librejilla-utils/rejilla-metadata.c:1378
+#: ../librejilla-utils/rejilla-metadata.c:1749
+#: ../librejilla-utils/rejilla-metadata.c:1764
+#: ../librejilla-utils/rejilla-metadata.c:1773
+#: ../plugins/transcode/burn-normalize.c:172
+#: ../plugins/transcode/burn-normalize.c:187
+#: ../plugins/transcode/burn-normalize.c:209
+#: ../plugins/transcode/burn-normalize.c:221
+#: ../plugins/transcode/burn-normalize.c:238
+#: ../plugins/transcode/burn-normalize.c:335
+#: ../plugins/transcode/burn-transcode.c:294
+#: ../plugins/transcode/burn-transcode.c:306
+#: ../plugins/transcode/burn-transcode.c:456
+#: ../plugins/transcode/burn-transcode.c:509
+#: ../plugins/transcode/burn-transcode.c:543
+#: ../plugins/transcode/burn-transcode.c:590
+#: ../plugins/transcode/burn-transcode.c:611
+#: ../plugins/transcode/burn-transcode.c:623
+#: ../plugins/transcode/burn-transcode.c:648
+#: ../plugins/transcode/burn-vob.c:318 ../plugins/transcode/burn-vob.c:338
+#: ../plugins/transcode/burn-vob.c:353 ../plugins/transcode/burn-vob.c:365
+#: ../plugins/transcode/burn-vob.c:382 ../plugins/transcode/burn-vob.c:440
+#: ../plugins/transcode/burn-vob.c:457 ../plugins/transcode/burn-vob.c:469
+#: ../plugins/transcode/burn-vob.c:481 ../plugins/transcode/burn-vob.c:493
+#: ../plugins/transcode/burn-vob.c:510 ../plugins/transcode/burn-vob.c:601
+#: ../plugins/transcode/burn-vob.c:618 ../plugins/transcode/burn-vob.c:630
+#: ../plugins/transcode/burn-vob.c:642 ../plugins/transcode/burn-vob.c:664
+#: ../plugins/transcode/burn-vob.c:681 ../plugins/transcode/burn-vob.c:727
+#: ../plugins/transcode/burn-vob.c:804 ../plugins/transcode/burn-vob.c:821
+#: ../plugins/transcode/burn-vob.c:836 ../plugins/transcode/burn-vob.c:848
+#: ../plugins/transcode/burn-vob.c:859 ../plugins/transcode/burn-vob.c:870
+#: ../plugins/transcode/burn-vob.c:1045 ../plugins/transcode/burn-vob.c:1109
+#: ../plugins/transcode/burn-vob.c:1126 ../plugins/transcode/burn-vob.c:1147
+#: ../plugins/transcode/burn-vob.c:1174
+#, c-format
+msgid "%s element could not be created"
+msgstr "Nepavyko sukurti %s elemento"
+
+#. Translators: Error message saying no graft point
+#. * is specified. A graft point is the path (on the
+#. * disc) where a file from any source will be added
+#. * ("grafted")
+#: ../librejilla-burn/rejilla-caps-burn.c:66
+#: ../librejilla-burn/rejilla-burn.c:2852 ../librejilla-burn/burn-job.c:1219
+#: ../librejilla-burn/burn-job.c:1228
+#: ../librejilla-burn/burn-mkisofs-base.c:302
+#: ../caja/caja-burn-extension.c:228 ../src/rejilla-app.c:783
+#: ../plugins/cdrkit/burn-genisoimage.c:370
+#: ../plugins/cdrkit/burn-readom.c:129 ../plugins/cdrkit/burn-readom.c:370
+#: ../plugins/cdrkit/burn-wodim.c:726 ../plugins/cdrkit/burn-wodim.c:841
+#: ../plugins/cdrkit/burn-wodim.c:856 ../plugins/cdrtools/burn-cdrecord.c:839
+#: ../plugins/cdrtools/burn-cdrecord.c:854
+#: ../plugins/cdrtools/burn-mkisofs.c:371
+#: ../plugins/cdrtools/burn-readcd.c:130 ../plugins/cdrtools/burn-readcd.c:380
+#, c-format
+msgid "An internal error occurred"
+msgstr "Įvyko vidinė klaida"
+
+#: ../librejilla-burn/rejilla-caps-burn.c:868
+#: ../librejilla-burn/rejilla-burn.c:2582
+#, c-format
+msgid "Only one track at a time can be checked"
+msgstr "Vienu metu galima tikrinti tik vieną takelį"
+
+#: ../librejilla-burn/rejilla-track-image-cfg.c:430
+msgid "Retrieving image format and size"
+msgstr "Gaunamas atvaizdžio formatas ir dydis"
+
+#. Translators: This is a disc image
+#: ../librejilla-burn/rejilla-track-image-cfg.c:450
+msgid "The format of the disc image could not be identified"
+msgstr "Nepavyko nustatyti disko atvaizdžio formato"
+
+#: ../librejilla-burn/rejilla-track-image-cfg.c:451
+msgid "Please set it manually"
+msgstr "Nustatykite rankiniu būdu"
+
+#. Translators: This string is used in the title bar %s is the action currently performed
+#: ../librejilla-burn/rejilla-burn-dialog.c:184
+#, c-format
+msgid "%s (%i%% Done)"
+msgstr "%s (atlikta %d%%)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:206
+#: ../librejilla-burn/rejilla-burn-dialog.c:1135
+msgid "Creating Image"
+msgstr "Kuriamas atvaizdis"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:211
+#: ../librejilla-burn/rejilla-burn-dialog.c:1144
+msgid "Burning DVD"
+msgstr "Rašomas DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:215
+#: ../librejilla-burn/rejilla-burn-dialog.c:1140
+msgid "Copying DVD"
+msgstr "Kopijuojamas DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:221
+#: ../librejilla-burn/rejilla-burn-dialog.c:1154
+msgid "Burning CD"
+msgstr "Rašomas CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:225
+#: ../librejilla-burn/rejilla-burn-dialog.c:346
+#: ../librejilla-burn/rejilla-burn-dialog.c:1150
+msgid "Copying CD"
+msgstr "Kopijuojamas CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:231
+#: ../librejilla-burn/rejilla-burn-dialog.c:1164
+msgid "Burning Disc"
+msgstr "Rašomas diskas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:235
+#: ../librejilla-burn/rejilla-burn-dialog.c:1160
+msgid "Copying Disc"
+msgstr "Kopijuojamas diskas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:265
+#: ../librejilla-burn/burn-basics.c:78
+msgid "Creating image"
+msgstr "Kuriamas atvaizdis"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:271
+msgid "Simulation of video DVD burning"
+msgstr "Video DVD įrašymo imitavimas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:273
+msgid "Burning video DVD"
+msgstr "Rašomas video DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:281
+msgid "Simulation of data DVD burning"
+msgstr "Duomenų DVD rašymo imitavimas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:283
+msgid "Burning data DVD"
+msgstr "Rašomas duomenų DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:291
+msgid "Simulation of image to DVD burning"
+msgstr "Atvaizdžio rašymo į DVD imitavimas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:293
+msgid "Burning image to DVD"
+msgstr "Rašomas atvaizdis į DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:301
+msgid "Simulation of data DVD copying"
+msgstr "Duomenų DVD kopijavimo imitavimas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:303
+msgid "Copying data DVD"
+msgstr "Kopijuojamas duomenų DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:314
+msgid "Simulation of (S)VCD burning"
+msgstr "(S)VCD įrašymo imitavimas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:316
+msgid "Burning (S)VCD"
+msgstr "Rašomas (S)VCD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:324
+#: ../librejilla-burn/rejilla-burn-dialog.c:377
+msgid "Simulation of audio CD burning"
+msgstr "Garso CD rašymo imitavimas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:326
+#: ../librejilla-burn/rejilla-burn-dialog.c:379
+msgid "Burning audio CD"
+msgstr "Rašomas garso CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:334
+msgid "Simulation of data CD burning"
+msgstr "Duomenų CD rašymo imitavimas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:336
+msgid "Burning data CD"
+msgstr "Įrašomas duomenų CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:344
+msgid "Simulation of CD copying"
+msgstr "CD kopijavimo imitavimas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:354
+msgid "Simulation of image to CD burning"
+msgstr "Atvaizdžio rašymo į CD imitavimas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:356
+msgid "Burning image to CD"
+msgstr "Rašomas atvaizdis į CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:367
+msgid "Simulation of video disc burning"
+msgstr "Video disko rašymo imitavimas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:369
+msgid "Burning video disc"
+msgstr "Rašomas video diskas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:387
+msgid "Simulation of data disc burning"
+msgstr "Duomenų disko rašymo imitavimas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:389
+msgid "Burning data disc"
+msgstr "Rašomas duomenų diskas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:397
+msgid "Simulation of disc copying"
+msgstr "Disko kopijavimo imitavimas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:399
+#: ../librejilla-burn/burn-basics.c:82
+msgid "Copying disc"
+msgstr "Kopijuojamas diskas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:407
+msgid "Simulation of image to disc burning"
+msgstr "Ativaizdžio rašymo į diską imitavimas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:409
+msgid "Burning image to disc"
+msgstr "Atvaizdis įrašomas į diską"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:514
+msgid "Please replace the disc with a rewritable disc holding data."
+msgstr "Pakeiskite diską perrašomu disku su duomenimis."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:516
+msgid "Please replace the disc with a disc holding data."
+msgstr "Pakeiskite šį diską kitu disku su duomenimis."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:520
+msgid "Please insert a rewritable disc holding data."
+msgstr "Įdėkite perrašomą diską su duomenimis."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:522
+#: ../librejilla-burn/rejilla-burn-options.c:496
+msgid "Please insert a disc holding data."
+msgstr "Įdėkite diską su duomenimis."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:537
+#, c-format
+msgid ""
+"Please replace the disc with a writable CD with at least %i MiB of free "
+"space."
+msgstr "Pakeiskite diską įrašomu CD, kuriame yra bent %i MiB laisvos vietos."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:540
+msgid "Please replace the disc with a writable CD."
+msgstr "Pakeiskite diską įrašomu CD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:544
+#, c-format
+msgid "Please insert a writable CD with at least %i MiB of free space."
+msgstr "Įdėkite įrašomą CD, kuriame yra bent %i MiB laisvos vietos."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:547
+msgid "Please insert a writable CD."
+msgstr "Įdėkite įrašomą CD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:553
+#, c-format
+msgid ""
+"Please replace the disc with a writable DVD with at least %i MiB of free "
+"space."
+msgstr "Pakeiskite diską įrašomu DVD, kuriame yra bent %i MiB laisvos vietos."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:556
+msgid "Please replace the disc with a writable DVD."
+msgstr "Pakeiskite diską įrašomu DVD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:560
+#, c-format
+msgid "Please insert a writable DVD with at least %i MiB of free space."
+msgstr "Įdėkite įrašomą DVD, kuriame yra bent %i MiB laisvos vietos."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:563
+msgid "Please insert a writable DVD."
+msgstr "Įdėkite įrašomą DVD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:568
+#, c-format
+msgid ""
+"Please replace the disc with a writable CD or DVD with at least %i MiB of "
+"free space."
+msgstr ""
+"Pakeiskite diską įrašomu CD ar DVD, kuriame yra bent %i MiB laisvos vietos."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:571
+msgid "Please replace the disc with a writable CD or DVD."
+msgstr "Pakeiskite diską įrašomu CD ar DVD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:575
+#, c-format
+msgid "Please insert a writable CD or DVD with at least %i MiB of free space."
+msgstr "Įdėkite įrašomą CD ar DVD, kuriame yra bent %i MiB laisvos vietos."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:578
+#: ../librejilla-burn/rejilla-burn-dialog.c:2157
+#: ../librejilla-burn/rejilla-burn-dialog.c:2171
+#: ../librejilla-burn/rejilla-burn-options.c:450 ../src/rejilla-project.c:987
+msgid "Please insert a writable CD or DVD."
+msgstr "Įdėkite įrašomą CD ar DVD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:605
+msgid ""
+"An image of the disc has been created on your hard drive.\n"
+"Burning will begin as soon as a writable disc is inserted."
+msgstr ""
+"Kompiuterio diske sukurtas disko atvaizdis.\n"
+"Rašymas bus pradėtas, kai tik įdėsite įrašomą diską."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:610
+msgid "A data integrity test will begin as soon as the disc is inserted."
+msgstr "Duomenų identiškumo tikrinimas prasidės, kai tik įdėsite diską."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:611
+msgid "Please re-insert the disc in the CD/DVD burner."
+msgstr "Iš naujo įdėkite diską į CD/DVD įrenginį."
+
+#. Translators: %s is the name of a drive
+#: ../librejilla-burn/rejilla-burn-dialog.c:615
+#, c-format
+msgid "\"%s\" is busy."
+msgstr "„%s“ užimtas."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:616
+#: ../librejilla-burn/rejilla-burn.c:332
+#: ../librejilla-burn/rejilla-tool-dialog.c:90
+msgid "Make sure another application is not using it"
+msgstr "įsitikinkite, jog jo nenaudoja kita programa"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:619
+#, c-format
+msgid "There is no disc in \"%s\"."
+msgstr "Įrenginyje „%s“ nėra disko."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:623
+#, c-format
+msgid "The disc in \"%s\" is not supported."
+msgstr "Diskas, esantis įrenginyje „%s“, nepalaikomas."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:627
+#, c-format
+msgid "The disc in \"%s\" is not rewritable."
+msgstr "Diskas, esantis įrenginyje „%s“, nėra perrašomas."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:631
+#, c-format
+msgid "The disc in \"%s\" is empty."
+msgstr "Diskas, esantis įrenginyje „%s“, yra tuščias."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:635
+#, c-format
+msgid "The disc in \"%s\" is not writable."
+msgstr "Diskas, esantis įrenginyje „%s“, nėra įrašomas."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:639
+#, c-format
+msgid "Not enough space available on the disc in \"%s\"."
+msgstr "Diske, kuris yra „%s“, nepakanka vietos."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:647
+#, c-format
+msgid "The disc in \"%s\" needs to be reloaded."
+msgstr "Diskas, esantis įrenginyje „%s“, turi būti įkeltas iš naujo."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:648
+msgid "Please eject the disc and reload it."
+msgstr "Išimkite diską ir vėl įdėkite."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:693
+#: ../librejilla-burn/rejilla-sum-dialog.c:333
+msgid ""
+"A file could not be created at the location specified for temporary files"
+msgstr "Failo negalima sukurti vietoje, skirtoje laikiniems failams"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:694
+msgid "The image could not be created at the specified location"
+msgstr "Nurodytoje vietoje neina sukurti atvaizdžio."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:695
+msgid ""
+"Do you want to specify another location for this session or retry with the "
+"current location?"
+msgstr ""
+"Ar norite šiam seansui nurodyti kitą vietą ar dar kartą bandyti šioje "
+"vietoje?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:707
+msgid "You may want to free some space on the disc and retry"
+msgstr "Atlaisvinkite šiek tiek vietos diske ir pabandykite vėl"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:714
+#: ../librejilla-burn/rejilla-drive-properties.c:247
+#: ../librejilla-burn/rejilla-drive-properties.c:285
+#: ../librejilla-burn/rejilla-drive-properties.c:337
+msgid "_Keep Current Location"
+msgstr "_Pakartoti dabartinėje vietoje"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:716
+#: ../librejilla-burn/rejilla-drive-properties.c:248
+#: ../librejilla-burn/rejilla-drive-properties.c:286
+#: ../librejilla-burn/rejilla-drive-properties.c:338
+msgid "_Change Location"
+msgstr "Pa_keisti vietą"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:738
+#: ../librejilla-burn/rejilla-image-properties.c:476
+msgid "Location for Image File"
+msgstr "Atvaizdžio failo vieta"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:746
+#: ../librejilla-burn/rejilla-drive-properties.c:369
+msgid "Location for Temporary Files"
+msgstr "Laikinų failų aplankas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:854
+#: ../librejilla-burn/rejilla-burn-dialog.c:1103
+msgid "_Replace Disc"
+msgstr "Pa_keisti diską"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:895
+msgid "Do you really want to blank the current disc?"
+msgstr "Ar tikrai norite ištrinti įdėtą diską?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:896
+msgid "The disc in the drive holds data."
+msgstr "Įrenginyje esančiame diske yra duomenų."
+
+#. Translators: Blank is a verb here
+#: ../librejilla-burn/rejilla-burn-dialog.c:898
+msgid "_Blank Disc"
+msgstr "_Ištrinti diską"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:912
+msgid ""
+"If you import them you will be able to see and use them once the current "
+"selection of files is burned."
+msgstr ""
+"Jei juos importuosite, galėsite juos matyti ir naudoti, kai tik pažymėti "
+"failai bus įrašyti."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:913
+msgid "If you don't, they will be invisible (though still readable)."
+msgstr "Jau įrašyti failai bus nematomi (tačiau vis dar perskaitomi)."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:916
+msgid ""
+"There are files already burned on this disc. Would you like to import them?"
+msgstr "Yra failų, jau įrašytų į šį diską. Ar norite juos importuoti?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:918
+msgid "_Import"
+msgstr "_Importuoti"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:919
+msgid "Only _Append"
+msgstr "Tik _pridėti"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:932
+msgid ""
+"CD-RW audio discs may not play correctly in older CD players and CD-Text "
+"won't be written."
+msgstr ""
+"CD-RW audio diskai gali negroti senesniuose CD grotuvuose, be to, CD-Tekstas "
+"nebus įrašytas."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:933
+#: ../librejilla-burn/rejilla-burn-dialog.c:955
+msgid "Do you want to continue anyway?"
+msgstr "Ar vistiek norite tęsti?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:936
+msgid "Appending audio tracks to a CD is not advised."
+msgstr "Pridėti garso takelių į CD nepatariama."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:938
+#: ../librejilla-burn/rejilla-burn-dialog.c:960 ../src/rejilla-data-disc.c:572
+#: ../librejilla-burn/rejilla-tool-dialog.c:422
+msgid "_Continue"
+msgstr "_Tęsti"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:954
+msgid "CD-RW audio discs may not play correctly in older CD players."
+msgstr "CD-RW audio diskai gali negroti senesniuose CD grotuvuose."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:958
+msgid "Recording audio tracks on a rewritable disc is not advised."
+msgstr "Nepatariama rašyti garso takelių į perrašomą diską."
+
+#. Translators: %s is the name of a drive
+#: ../librejilla-burn/rejilla-burn-dialog.c:1005
+#, c-format
+msgid "Please eject the disc from \"%s\" manually."
+msgstr "Išimkite diską iš „%s“ rankiniu būdu."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1014
+msgid ""
+"The disc could not be ejected though it needs to be removed for the current "
+"operation to continue."
+msgstr "Nepavyko išstumti disko, nors jį reikia išimti operacijos tęsimui."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1101
+msgid "Do you want to replace the disc and continue?"
+msgstr "Ar tikrai norite pakeisti diską ir tęsti?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1102
+msgid "The currently inserted disc could not be blanked."
+msgstr "Dabar įdėto disko ištrinti nepavyko."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1111
+msgid "Do you want to continue with full Windows compatibility disabled?"
+msgstr "Ar norite tęsti išjungus pilną suderinamumą su Windows?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1112
+#: ../src/rejilla-data-disc.c:746
+#: ../librejilla-burn/rejilla-status-dialog.c:343
+msgid ""
+"Some files don't have a suitable name for a fully Windows-compatible CD."
+msgstr ""
+"Kai kurių failų pavadinimai netinkami visiškai su Windows suderinamam CD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1113
+msgid "C_ontinue"
+msgstr "_Tęsti"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1346
+#: ../librejilla-burn/rejilla-burn-dialog.c:1367
+msgid "The simulation was successful."
+msgstr "Imitavimas sėkmingai baigtas."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1349
+msgid "Real disc burning will take place in 10 seconds."
+msgstr "Tikrasis disko rašymas bus pradėtas už 10 sekundžių."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1352
+msgid "Burn _Now"
+msgstr "Rašyti _dabar"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1649
+msgid "Save Current Session"
+msgstr "Išsaugoti šį seansą"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1724
+msgid "An unknown error occurred."
+msgstr "Įvyko nežinoma klaida."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1732 ../src/rejilla-app.c:617
+msgid "Error while burning."
+msgstr "Klaida įrašant."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1740
+msgid "_Save Log"
+msgstr "_Išsaugoti žurnalą"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1773
+msgid "Video DVD successfully burned"
+msgstr "Vaizdo DVD sėkmingai įrašytas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1775
+msgid "(S)VCD successfully burned"
+msgstr "(S)VCD sėkmingai įrašytas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1778
+msgid "Audio CD successfully burned"
+msgstr "Garso CD sėkmingai įrašytas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1781
+#: ../librejilla-burn/rejilla-burn-dialog.c:1813
+msgid "Image successfully created"
+msgstr "Atvaizdis sėkmingai sukurtas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1786
+msgid "DVD successfully copied"
+msgstr "DVD sėkmingai nukopijuotas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1788
+msgid "CD successfully copied"
+msgstr "CD sėkmingai nukopijuotas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1792
+msgid "Image of DVD successfully created"
+msgstr "DVD atvaizdis sėkmingai sukurtas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1794
+msgid "Image of CD successfully created"
+msgstr "CD atvaizdis sėkmingai sukurtas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1800
+msgid "Image successfully burned to DVD"
+msgstr "Atvaizdis sėkmingai įrašytas į DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1802
+msgid "Image successfully burned to CD"
+msgstr "Atvaizdis sėkmingai įrašytas į CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1808
+msgid "Data DVD successfully burned"
+msgstr "Duomenų DVD sėkmingai įrašytas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1810
+msgid "Data CD successfully burned"
+msgstr "Duomenų CD sėkmingai įrašytas"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1870
+#, c-format
+msgid "Copy #%i has been burned successfully."
+msgstr "Kopija #%i sėkmingai įrašyta."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1878
+msgid ""
+"Another copy will start as soon as you insert a new writable disc. If you do "
+"not want to burn another copy, press \"Cancel\"."
+msgstr ""
+"Kita kopija bus pradėta, kai tik įdėsite naują įrašomą diską. Jei nenorite "
+"įrašyti dar vienos kopijos, spauskite „Atšaukti“."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1950
+msgid "Make _More Copies"
+msgstr "_Padaryti dar vieną kopiją"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1959
+msgid "_Create Cover"
+msgstr "_Sukurti viršelį"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2120
+msgid "There are some files left to burn"
+msgstr "Liko įrašytinų failų"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2127
+msgid "There are some more videos left to burn"
+msgstr "Liko įrašytinų vaizdo įrašų"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2131
+msgid "There are some more songs left to burn"
+msgstr "Liko įrašytinų dainų"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2172
+#: ../librejilla-burn/rejilla-burn.c:1629
+#: ../plugins/cdrkit/burn-genisoimage.c:208 ../plugins/cdrkit/burn-wodim.c:114
+#: ../plugins/cdrtools/burn-cdrecord.c:114
+#: ../plugins/cdrtools/burn-mkisofs.c:209
+#: ../plugins/growisofs/burn-growisofs.c:198
+#, c-format
+msgid "Not enough space available on the disc"
+msgstr "Diske nepakanka vietos"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2437
+#: ../librejilla-burn/rejilla-tool-dialog.c:411
+msgid "Do you really want to quit?"
+msgstr "Ar tikrai norite išeiti?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2441
+#: ../librejilla-burn/rejilla-tool-dialog.c:417
+msgid "Interrupting the process may make disc unusable."
+msgstr "Nutraukus procesą diskas gali būti nebepanaudojamas."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2444
+msgid "C_ontinue Burning"
+msgstr "_Tęsti rašymą"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2451
+msgid "_Cancel Burning"
+msgstr "_Nutraukti rašymą"
+
+#: ../librejilla-burn/rejilla-burn-options.c:228 ../src/rejilla-project.c:1012
+msgid ""
+"Please insert a writable CD or DVD if you don't want to write to an image "
+"file."
+msgstr "Įdėkite įrašomą CD ar DVD, jei nenorite rašyti į atvaizdžio failą."
+
+#: ../librejilla-burn/rejilla-burn-options.c:302 ../src/rejilla-project.c:1585
+msgid "Create _Image"
+msgstr "Sukurti _atvaizdį"
+
+#. Translators: This is a verb, an action
+#: ../librejilla-burn/rejilla-burn-options.c:307
+msgid "_Copy"
+msgstr "_Kopijuoti"
+
+#: ../librejilla-burn/rejilla-burn-options.c:310
+msgid "Make _Several Copies"
+msgstr "_Padaryti keletą kopijų"
+
+#. Translators: This is a verb, an action
+#: ../librejilla-burn/rejilla-burn-options.c:314 ../src/rejilla-project.c:1514
+msgid "_Burn"
+msgstr "Įr_ašyti"
+
+#: ../librejilla-burn/rejilla-burn-options.c:317 ../src/rejilla-project.c:1511
+msgid "Burn _Several Copies"
+msgstr "Įrašyti _kelias kopijas"
+
+#: ../librejilla-burn/rejilla-burn-options.c:426 ../src/rejilla-project.c:941
+msgid "Would you like to burn the selection of files across several media?"
+msgstr "Ar norite rašyti pasirinktus duomenis per kelias laikmenas?"
+
+#: ../librejilla-burn/rejilla-burn-options.c:427
+#: ../librejilla-burn/rejilla-burn-options.c:444
+msgid "The data size is too large for the disc even with the overburn option."
+msgstr "Duomenų per daug šiam diskui netgi naudojant „overburn“ nustatymą."
+
+#: ../librejilla-burn/rejilla-burn-options.c:432 ../src/rejilla-project.c:946
+msgid "_Burn Several Discs"
+msgstr "Įrašyti _keletą diskų"
+
+#: ../librejilla-burn/rejilla-burn-options.c:434 ../src/rejilla-project.c:948
+msgid "Burn the selection of files across several media"
+msgstr "Įrašyti pažymėtus failus į keletą laikmenų"
+
+#: ../librejilla-burn/rejilla-burn-options.c:443 ../src/rejilla-project.c:957
+msgid "Please choose another CD or DVD or insert a new one."
+msgstr "Pasirinkite kitą CD ar DVD arba įdėkite kitą."
+
+#: ../librejilla-burn/rejilla-burn-options.c:457 ../src/rejilla-project.c:1002
+msgid "No track information (artist, title, ...) will be written to the disc."
+msgstr ""
+"Informacija apie kūrinį (atlikėjas, pavadinimas, …) nebus įrašyta į diską."
+
+#: ../librejilla-burn/rejilla-burn-options.c:458 ../src/rejilla-project.c:1003
+msgid "This is not supported by the current active burning backend."
+msgstr "Ši funkcija nepalaikoma pasirinktos rašymo posistemės."
+
+#: ../librejilla-burn/rejilla-burn-options.c:470
+#: ../caja/caja-burn-extension.c:249
+msgid "Please add files."
+msgstr "Pridėkite failų."
+
+#: ../librejilla-burn/rejilla-burn-options.c:476
+msgid "Please add songs."
+msgstr "Pridėkite dainų."
+
+#: ../librejilla-burn/rejilla-burn-options.c:477 ../src/rejilla-project.c:1258
+msgid "There are no songs to write to disc"
+msgstr "Nėra kūrinių, įrašytinų į diską"
+
+#: ../librejilla-burn/rejilla-burn-options.c:482
+msgid "Please add videos."
+msgstr "Įdėkite vazdo failų."
+
+#: ../librejilla-burn/rejilla-burn-options.c:483
+msgid "There are no videos to write to disc"
+msgstr "Nėra vaizdo įrašų, rašytinų į diską"
+
+#: ../librejilla-burn/rejilla-burn-options.c:497
+msgid "There is no inserted disc to copy."
+msgstr "Neįdėtas kopijuotinas diskas."
+
+#: ../librejilla-burn/rejilla-burn-options.c:508
+msgid "Please select a disc image."
+msgstr "Pasirinkite atvaizdžio failą."
+
+#: ../librejilla-burn/rejilla-burn-options.c:509
+msgid "There is no selected disc image."
+msgstr "Nėra pasirinkto atvaizdžio."
+
+#. Translators: this is a disc image not a picture
+#. Translators: this is a disc image, not a picture
+#: ../librejilla-burn/rejilla-burn-options.c:521
+#: ../librejilla-burn/rejilla-src-image.c:167
+msgctxt "disc"
+msgid "Please select another image."
+msgstr "Pasirinkite kitą atvaizdį."
+
+#: ../librejilla-burn/rejilla-burn-options.c:522
+msgid "It doesn't appear to be a valid disc image or a valid cue file."
+msgstr "Nepanašu, jog tai tinkamas disko atvaizdis ar cue failas."
+
+#: ../librejilla-burn/rejilla-burn-options.c:533
+msgid "Please insert a disc that is not copy protected."
+msgstr "Įdėkite diską, kuris nėra apsaugotas nuo kopijavimo."
+
+#: ../librejilla-burn/rejilla-burn-options.c:534
+#: ../librejilla-burn/rejilla-burn-options.c:1236
+#: ../src/rejilla-project.c:1435
+msgid "All required applications and libraries are not installed."
+msgstr "Įdiegtos ne visos reikiamos programos ir bibliotekos"
+
+#: ../librejilla-burn/rejilla-burn-options.c:541 ../src/rejilla-project.c:995
+msgid "Please replace the disc with a supported CD or DVD."
+msgstr "Pakeiskite įdėtą diską tinkamu CD ar DVD disku."
+
+#: ../librejilla-burn/rejilla-burn-options.c:550 ../src/rejilla-project.c:968
+msgid "Would you like to burn beyond the disc's reported capacity?"
+msgstr "Ar norite rašyti viršijant nurodytą disko talpą?"
+
+#: ../librejilla-burn/rejilla-burn-options.c:551
+msgid ""
+"The data size is too large for the disc and you must remove files from the "
+"selection otherwise.\n"
+"You may want to use this option if you're using 90 or 100 min CD-R(W) which "
+"cannot be properly recognised and therefore need overburn option.\n"
+"NOTE: This option might cause failure."
+msgstr ""
+"Šis projektas per didelis šiam diskui, todėl turite pašalinti keletą failų.\n"
+"Galbūt norėsite pasinaudoti šia parinktimi, jei naudojate 90 ar 100 min CD-R"
+"(W), kuris nėra teisingai atpažįstamas ir reikalauja overburn parinkties.\n"
+"PASTABA: įjungus šią parinktį galimas nesėkmingas įrašymas."
+
+#: ../librejilla-burn/rejilla-burn-options.c:558 ../src/rejilla-project.c:975
+msgid "_Overburn"
+msgstr "Naudoti „_overburn“"
+
+#: ../librejilla-burn/rejilla-burn-options.c:560 ../src/rejilla-project.c:977
+msgid "Burn beyond the disc's reported capacity"
+msgstr "Rašyti viršijant nurodytą disko talpą"
+
+#: ../librejilla-burn/rejilla-burn-options.c:570
+msgid ""
+"The drive that holds the source disc will also be the one used to record."
+msgstr "Įrenginys, kuriame yra šaltinio diskas, bus naudojamas ir rašymui."
+
+#: ../librejilla-burn/rejilla-burn-options.c:571
+msgid ""
+"A new writable disc will be required once the currently loaded one has been "
+"copied."
+msgstr ""
+"Reikės naujo įrašomo disko, kai šiuo metu įdėtas diskas bus nukopijuotas."
+
+#: ../librejilla-burn/rejilla-burn-options.c:658
+msgid "Select a disc to write to"
+msgstr "Pasirinkite diską rašymui"
+
+#: ../librejilla-burn/rejilla-burn-options.c:738
+#: ../librejilla-burn/rejilla-burn-options.c:756
+#: ../librejilla-burn/rejilla-burn-options.c:876
+msgid "Disc Burning Setup"
+msgstr "Disko įrašymo sąranka"
+
+#: ../librejilla-burn/rejilla-burn-options.c:765 ../src/rejilla-project.c:1534
+msgid "Video Options"
+msgstr "Video parinktys"
+
+#: ../librejilla-burn/rejilla-burn-options.c:796
+#: ../src/rejilla-data-disc.c:616
+msgid ""
+"Do you want to create a disc from the contents of the image or with the "
+"image file inside?"
+msgstr ""
+"Ar norite sukurti diską iš atvaizdžio turinio, ar įrašyti į diską patį "
+"atvaizdžio failą?"
+
+#. Translators: %s is the name of the image
+#: ../librejilla-burn/rejilla-burn-options.c:805
+#, c-format
+msgid ""
+"There is only one selected file (\"%s\"). It is the image of a disc and its "
+"contents can be burned."
+msgstr ""
+"Yra tik vienas pasirinktas failas („%s“). Tai yra disko atvaizdis, ir galima "
+"įrašyti jo turinį."
+
+#: ../librejilla-burn/rejilla-burn-options.c:810
+msgid "Burn as _File"
+msgstr "Į_rašyti kaip _failą"
+
+#: ../librejilla-burn/rejilla-burn-options.c:812
+msgid "Burn _Contents…"
+msgstr "Įrašyti _turinį…"
+
+#: ../librejilla-burn/rejilla-burn-options.c:894
+msgid "Image Burning Setup"
+msgstr "Atvaizdžio įrašymo sąranka"
+
+#. pack everything
+#: ../librejilla-burn/rejilla-burn-options.c:902
+msgid "Select a disc image to write"
+msgstr "Pasirinkite įrašytiną atvaizdį"
+
+#: ../librejilla-burn/rejilla-burn-options.c:922
+msgid "Copy CD/DVD"
+msgstr "Kopijuoti CD ar DVD diskus"
+
+#: ../librejilla-burn/rejilla-burn-options.c:928
+msgid "Select disc to copy"
+msgstr "Pasirinkite kopijuotiną diską"
+
+#. Translators: %s is the name of a missing application
+#: ../librejilla-burn/rejilla-burn-options.c:1188
+#: ../librejilla-burn/rejilla-burn.c:1713 ../src/rejilla-project.c:1375
+#, c-format
+msgid "%s (application)"
+msgstr "%s (programa)"
+
+#. Translators: %s is the name of a missing library
+#: ../librejilla-burn/rejilla-burn-options.c:1194
+#: ../librejilla-burn/rejilla-burn.c:1719 ../src/rejilla-project.c:1381
+#, c-format
+msgid "%s (library)"
+msgstr "%s (biblioteka)"
+
+#. Translators: %s is the name of a missing GStreamer plugin
+#: ../librejilla-burn/rejilla-burn-options.c:1199
+#: ../librejilla-burn/rejilla-burn.c:1724 ../src/rejilla-project.c:1386
+#, c-format
+msgid "%s (GStreamer plugin)"
+msgstr "%s (GStreamer įskiepis)"
+
+#: ../librejilla-burn/rejilla-burn-options.c:1230
+#: ../src/rejilla-project.c:1429
+msgid "Please install the following manually and try again:"
+msgstr "Įdiekite šiuos komponentus ir bandykite vėl:"
+
+#: ../librejilla-burn/rejilla-burn.c:162
+msgid "Burning CD/DVD"
+msgstr "Rašomas CD/DVD"
+
+#: ../librejilla-burn/rejilla-burn.c:409
+#, c-format
+msgid "\"%s\" cannot be unlocked"
+msgstr "„%s“ negalima atrakinti"
+
+#: ../librejilla-burn/rejilla-burn.c:546 ../librejilla-burn/rejilla-burn.c:678
+#: ../librejilla-burn/rejilla-burn.c:761
+msgid "No burner specified"
+msgstr "Nenurodytas įrašymo įrenginys"
+
+#: ../librejilla-burn/rejilla-burn.c:586
+msgid "No source drive specified"
+msgstr "Nenurodytas šaltinio įrenginys"
+
+#: ../librejilla-burn/rejilla-burn.c:632
+msgid "Ongoing copying process"
+msgstr "Kopijuojama"
+
+#: ../librejilla-burn/rejilla-burn.c:636 ../librejilla-burn/rejilla-burn.c:735
+#: ../librejilla-burn/rejilla-burn.c:872 ../librejilla-burn/rejilla-burn.c:987
+#, c-format
+msgid "The drive cannot be locked (%s)"
+msgstr "Įrenginio negalima užrakinti (%s)"
+
+#: ../librejilla-burn/rejilla-burn.c:695
+msgid "The drive has no rewriting capabilities"
+msgstr "Įrenginys neturi perrašymo galimybės"
+
+#: ../librejilla-burn/rejilla-burn.c:731
+msgid "Ongoing blanking process"
+msgstr "Trinama"
+
+#: ../librejilla-burn/rejilla-burn.c:770
+msgid "The drive cannot burn"
+msgstr "Įrenginys negali rašyti"
+
+#: ../librejilla-burn/rejilla-burn.c:866
+#: ../librejilla-burn/rejilla-dest-selection.c:108
+msgid "Ongoing burning process"
+msgstr "Įrašoma"
+
+#: ../librejilla-burn/rejilla-burn.c:983
+msgid "Ongoing checksumming operation"
+msgstr "Skaičiuojama kontrolinė suma"
+
+#: ../librejilla-burn/rejilla-burn.c:1628
+#: ../librejilla-burn/rejilla-burn.c:1822
+msgid "Merging data is impossible with this disc"
+msgstr "Sulieti duomenų šiame diske negalima"
+
+#: ../librejilla-burn/rejilla-burn.c:1757
+msgid "There is no track to burn"
+msgstr "Nėra įrašytinų takelių"
+
+#: ../librejilla-burn/rejilla-burn.c:1864
+msgid ""
+"Please install the following required applications and libraries manually "
+"and try again:"
+msgstr "Įdiekite šias reikiamas programas ir bibliotekas ir bandykite vėl:"
+
+#: ../librejilla-burn/rejilla-burn.c:2641
+msgid "No format for the temporary image could be found"
+msgstr "Nepavyko rasti laikinojo atvaizdžio formato"
+
+#: ../librejilla-burn/rejilla-cover.c:119
+msgid "Unknown song"
+msgstr "Nežinoma daina"
+
+#. Reminder: if this string happens to be used
+#. * somewhere else in rejilla we'll need a
+#. * context with C_() macro
+#. Translators: %s is the name of the artist.
+#. * This text is the one written on the cover of a disc.
+#. * Before it there is the name of the song.
+#. * I had to break it because it is in a GtkTextBuffer
+#. * and every word has a different tag.
+#. Translators: %s is the name of an artist.
+#. Translators: %s is the name of the artist
+#: ../librejilla-burn/rejilla-cover.c:146 ../src/rejilla-song-control.c:274
+#: ../src/rejilla-player.c:419
+#, c-format
+msgid "by %s"
+msgstr "atlieka %s"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:605
+#: ../librejilla-burn/rejilla-image-type-chooser.c:133
+msgid "SVCD image"
+msgstr "SVCD atvaizdis"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:607
+#: ../librejilla-burn/rejilla-image-type-chooser.c:127
+msgid "VCD image"
+msgstr "VCD atvaizdis"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:611
+#: ../librejilla-burn/rejilla-image-type-chooser.c:106
+msgid "Video DVD image"
+msgstr "Video DVD atvaizdis"
+
+#. NOTE for translators: the first %s is medium_name ("File
+#. * Image") and the second the path for the image file
+#: ../librejilla-burn/rejilla-dest-selection.c:623
+#, c-format
+msgid "%s: \"%s\""
+msgstr "%s: „%s“"
+
+#. Translators: this string is only used when the user
+#. * wants to copy a disc using the same destination and
+#. * source drive. It tells him that rejilla will use as
+#. * destination disc a new one (once the source has been
+#. * copied) which is to be inserted in the drive currently
+#. * holding the source disc
+#: ../librejilla-burn/rejilla-dest-selection.c:655
+#, c-format
+msgid "New disc in the burner holding the source disc"
+msgstr "Naujas diskas įrenginyje, kuriame įdėtas šaltinio diskas"
+
+#. NOTE for translators, the first %s is the medium name
+#: ../librejilla-burn/rejilla-dest-selection.c:696
+#, c-format
+msgid "%s: not enough free space"
+msgstr "%s: nėra laisvos vietos"
+
+#. NOTE for translators: the first %s is the medium name, the second %s
+#. * is its available free space. "Free" here is the free space available.
+#: ../librejilla-burn/rejilla-dest-selection.c:727
+#, c-format
+msgid "%s: %s of free space"
+msgstr "%s: %s laisvos vietos"
+
+#. Translators: the first %s is the path of the directory where rejilla
+#. * will store its temporary files; the second one is the size available
+#: ../librejilla-burn/rejilla-drive-properties.c:192
+#, c-format
+msgid "%s: %s free"
+msgstr "%s: %s laisva"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:236
+#: ../librejilla-burn/rejilla-drive-properties.c:275
+#: ../librejilla-burn/rejilla-drive-properties.c:327
+msgid "Do you really want to choose this location?"
+msgstr "Ar tikrai norite pasirinkti šią vietą?"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:280
+#: ../librejilla-burn/rejilla-session.c:1290
+#: ../librejilla-burn/rejilla-session.c:1365 ../librejilla-burn/burn-job.c:490
+#: ../plugins/cdrkit/burn-genisoimage.c:201
+#: ../plugins/cdrtools/burn-mkisofs.c:202
+#: ../plugins/libburnia/burn-libisofs.c:239
+#, c-format
+msgid "You do not have the required permission to write at this location"
+msgstr "Neturite reikiamų teisių rašyti į šią vietą"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:333
+msgid ""
+"The filesystem on this volume does not support large files (size over 2 "
+"GiB).\n"
+"This can be a problem when writing DVDs or large images."
+msgstr ""
+"Šiame kaupiklyje esanti failų sistema nepalaiko didelių failų (viršijančių 2 "
+"GiB).\n"
+"Rašant DVD arba didelius atvaizdžius tai gali kelti problemų."
+
+#. Translators %s.1f is the speed used to burn
+#: ../librejilla-burn/rejilla-drive-properties.c:531
+#, c-format
+msgid "%.1f× (DVD)"
+msgstr "%.1f× (DVD)"
+
+#. Translators %s.1f is the speed used to burn
+#: ../librejilla-burn/rejilla-drive-properties.c:535
+#, c-format
+msgid "%.1f× (CD)"
+msgstr "%.1f× (CD)"
+
+#. Translators %s.1f is the speed used to burn. BD = Blu Ray
+#: ../librejilla-burn/rejilla-drive-properties.c:539
+#, c-format
+msgid "%.1f× (BD)"
+msgstr "%.1f× (BD)"
+
+#. Translators %s.1f is the speed used to burn for every medium
+#. * type. BD = Blu Ray
+#: ../librejilla-burn/rejilla-drive-properties.c:544
+#, c-format
+msgid "%.1f× (BD) %.1f× (DVD) %.1f× (CD)"
+msgstr "%.1f× (BD) %.1f× (DVD) %.1f× (CD)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:582
+msgid "Impossible to retrieve speeds"
+msgstr "Nepavyko gauti greičių sąrašo"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:591
+msgid "Maximum speed"
+msgstr "Maksimalus greitis"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:717
+msgid "Burning speed"
+msgstr "Įrašymo greitis"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:730
+msgid "_Simulate before burning"
+msgstr "_Imituoti prieš rašymą"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:731
+msgid ""
+"Rejilla will simulate the burning and, if it is successful, go on with "
+"actual burning after 10 seconds"
+msgstr ""
+"Rejilla imituos rašymą ir, jei šis bus sėkmingas, pradės tikrąjį rašymą po "
+"10 sekundžių"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:733
+msgid "Use burn_proof (decrease the risk of failures)"
+msgstr "Naudoti burn_proof (sumažinti nesėkmių riziką)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:735
+msgid "Burn the image directly _without saving it to disc"
+msgstr "Įrašyti atvaizdį tiesiogiai, _neišsaugant jo diske"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:737
+msgid "Leave the disc _open to add other files later"
+msgstr "Palikti diską _neuždarytą, tai leis vėliau pridėti kitų failų"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:738
+msgid "Allow to add more data to the disc later"
+msgstr "Leisti vėliau į diską pridėti daugiau duomenų"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:758
+#: ../src/rejilla-song-properties.c:226
+#: ../librejilla-burn/rejilla-tool-dialog.c:284
+#: ../src/rejilla-multi-song-props.c:308
+msgid "Options"
+msgstr "Parinktys"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:770
+msgid "Location for _Temporary Files"
+msgstr "_Laikinųjų failų aplankas"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:790
+msgid "Set the directory where to store temporary files"
+msgstr "Nurodykite aplanką, kuriame bus laikomi laikinieji failai"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:795
+msgid "Temporary files"
+msgstr "Laikinieji failai"
+
+#: ../librejilla-burn/rejilla-image-properties.c:221
+msgid "Disc image type:"
+msgstr "Disko atvaizdžio tipas:"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:97
+msgid "Autodetect"
+msgstr "Automatiškai nustatyti"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:106
+msgid "ISO9660 image"
+msgstr "ISO9660 atvaizdis"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:115
+msgid "Readcd/Readom image"
+msgstr "Readcd/Readom atvaizdis"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:141
+msgid "Cue image"
+msgstr "Cue atvaizdis"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:151
+msgid "Cdrdao image"
+msgstr "Cdrdao atvaizdis"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:93
+#: ../src/rejilla-project.c:1493
+#, c-format
+msgid "Properties of %s"
+msgstr "%s savybės"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:136
+msgid ""
+"Do you really want to keep the current extension for the disc image name?"
+msgstr ""
+"Ar tikrai norite naudoti dabartinį disko atvaizdžio failo vardo plėtinį?"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:142
+msgid ""
+"If you choose to keep it, programs may not be able to recognize the file "
+"type properly."
+msgstr ""
+"Jeigu jį pasiliksite, programos gali tinkamai neatpažinti šio failo tipo."
+
+#: ../librejilla-burn/rejilla-medium-properties.c:145
+msgid "_Keep Current Extension"
+msgstr "Naudoti _dabartinį vardo plėtinį"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:148
+msgid "Change _Extension"
+msgstr "Keisti _plėtinį"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:240
+msgid "Configure recording options"
+msgstr "Konfigūruoti įrašymo nustatymus"
+
+#. Translators: first %02i is hours, the second one is minutes and the
+#. * third one is seconds.
+#: ../librejilla-burn/rejilla-progress.c:198
+#, c-format
+msgid "Total time: %02i:%02i:%02i"
+msgstr "Visas laikas: %02i:%02i:%02i"
+
+#: ../librejilla-burn/rejilla-progress.c:209
+msgid "Average drive speed:"
+msgstr "Vidutinis įrenginio greitis:"
+
+#. Translators: first %02i is hours, the second one is minutes
+#. * and the third one is seconds.
+#: ../librejilla-burn/rejilla-progress.c:436
+#, c-format
+msgid "Estimated remaining time: %02i:%02i:%02i"
+msgstr "Apytiksliai liko laiko: %02i:%02i:%02i"
+
+#: ../librejilla-burn/rejilla-progress.c:478
+#, c-format
+msgid "%i MiB of %i MiB"
+msgstr "%i MiB iš %i MiB"
+
+#: ../librejilla-burn/rejilla-progress.c:504
+msgid "Estimated drive speed:"
+msgstr "Apytikslis įrenginio greitis:"
+
+#. Translators: %s is a path
+#: ../librejilla-burn/rejilla-src-image.c:229
+#, c-format
+msgid "\"%s\": loading"
+msgstr "„%s“: įkeliama"
+
+#. Translators: %s is a path and image refers to a disc image
+#: ../librejilla-burn/rejilla-src-image.c:236
+#, c-format
+msgid "\"%s\": unknown disc image type"
+msgstr "„%s“: nežinomas atvaizdžio tipas"
+
+#. NOTE to translators, the first %s is the path of the image
+#. * file and the second its size.
+#: ../librejilla-burn/rejilla-src-image.c:258
+#, c-format
+msgid "\"%s\": %s"
+msgstr "„%s“: %s"
+
+#. This is hackish and meant to avoid ellipsization to make the
+#. * label too small.
+#. Translators: this is a disc image
+#: ../librejilla-burn/rejilla-src-image.c:271
+#: ../librejilla-burn/rejilla-src-image.c:554
+msgid "Click here to select a disc _image"
+msgstr "Spustelėkite čia ir pasirinkite _atvaizdžio failą"
+
+#: ../librejilla-burn/rejilla-src-image.c:415
+msgid "Select Disc Image"
+msgstr "Pasirinkite atvaizdžio failą"
+
+#. Translators: this a disc image here
+#: ../librejilla-burn/rejilla-src-image.c:450
+msgctxt "disc"
+msgid "Image files"
+msgstr "Atvaizdžio failai"
+
+#: ../librejilla-burn/rejilla-src-image.c:467
+msgid "Image type:"
+msgstr "Atvaizdžio tipas:"
+
+#: ../librejilla-burn/rejilla-tray.c:83 ../src/rejilla-audio-disc.c:155
+#: ../src/rejilla-data-disc.c:122 ../src/rejilla-video-disc.c:100
+msgid "Menu"
+msgstr "Meniu"
+
+#: ../librejilla-burn/rejilla-tray.c:84
+msgid "Cancel ongoing burning"
+msgstr "Nutraukti vykdomą įrašymo operaciją"
+
+#: ../librejilla-burn/rejilla-tray.c:89
+msgid "Show _Dialog"
+msgstr "Rodyti _dialogą"
+
+#: ../librejilla-burn/rejilla-tray.c:89
+msgid "Show dialog"
+msgstr "Rodyti dialogą"
+
+#. Translators: the first %s is a string containing a description of the ongoing action
+#. *	        the first %d is a number (a percentage) representing how much of the above task has been completed so far
+#. *	        the second %s is a string containing the remaining time before completion.
+#.
+#: ../librejilla-burn/rejilla-tray.c:263
+#, c-format
+msgid "%s, %d%% done, %s remaining"
+msgstr "%s, %d%% atlikta, liko %s"
+
+#. Translators: the first %s is a string containing a description of the ongoing action
+#. *	        the first %d is a number (a percentage) representing how much of the above task has been completed so far
+#.
+#: ../librejilla-burn/rejilla-tray.c:273
+#, c-format
+msgid "%s, %d%% done"
+msgstr "%s, %d%% atlikta"
+
+#: ../librejilla-burn/burn-basics.c:77
+msgid "Getting size"
+msgstr "Gaunamas dydis"
+
+#: ../librejilla-burn/burn-basics.c:79
+msgid "Writing"
+msgstr "Įrašoma"
+
+#: ../librejilla-burn/burn-basics.c:80
+msgid "Blanking"
+msgstr "Trinama"
+
+#: ../librejilla-burn/burn-basics.c:81
+msgid "Creating checksum"
+msgstr "Kuriama kontrolinė suma"
+
+#: ../librejilla-burn/burn-basics.c:83
+msgid "Copying file"
+msgstr "Kopijuojamas failas"
+
+#: ../librejilla-burn/burn-basics.c:84
+msgid "Analysing audio files"
+msgstr "Analizuojami garso failai"
+
+#: ../librejilla-burn/burn-basics.c:85
+msgid "Transcoding song"
+msgstr "Perkoduojama daina"
+
+#: ../librejilla-burn/burn-basics.c:86
+msgid "Preparing to write"
+msgstr "Ruošiamasi įrašymui"
+
+#: ../librejilla-burn/burn-basics.c:87
+msgid "Writing leadin"
+msgstr "Įrašoma pradžia"
+
+#: ../librejilla-burn/burn-basics.c:88
+msgid "Writing CD-Text information"
+msgstr "Įrašoma CD-Teksto informacija"
+
+#: ../librejilla-burn/burn-basics.c:89
+msgid "Finalizing"
+msgstr "Užbaigiama"
+
+#: ../librejilla-burn/burn-basics.c:90
+msgid "Writing leadout"
+msgstr "Įrašoma pabaiga"
+
+#: ../librejilla-burn/burn-basics.c:91
+msgid "Starting to record"
+msgstr "Pradedamas įrašymas"
+
+#: ../librejilla-burn/burn-basics.c:92
+msgid "Success"
+msgstr "Sėkminga"
+
+#: ../librejilla-burn/burn-basics.c:93
+msgid "Ejecting medium"
+msgstr "Išstumiama laikmena"
+
+#. Translators: %s is the plugin name
+#: ../librejilla-burn/burn-job.c:322 ../librejilla-burn/burn-job.c:797
+#: ../librejilla-burn/burn-job.c:810 ../librejilla-burn/burn-job.c:1029
+#: ../librejilla-burn/burn-job.c:1119
+#, c-format
+msgid "\"%s\" did not behave properly"
+msgstr "„%s“ neveikia tinkamai"
+
+#. Translators: the first %s is the size of the free space on the medium
+#. * and the second %s is the size of the space required by the data to be
+#. * burnt.
+#: ../librejilla-burn/burn-job.c:430
+#, c-format
+msgid "Not enough space available on the disc (%s available for %s)"
+msgstr "Diske nepakanka vietos (yra %s, reikia %s)"
+
+#: ../librejilla-burn/burn-job.c:522
+#, c-format
+msgid ""
+"The filesystem you chose to store the temporary image on cannot hold files "
+"with a size over 2 GiB"
+msgstr ""
+"Failų sistemoje, kurioje turėtų būti saugomas laikinas atvaizdis, negali "
+"būti failų, viršijančių 2 GiB"
+
+#: ../librejilla-burn/burn-job.c:537 ../librejilla-burn/burn-job.c:559
+#, c-format
+msgid ""
+"The location you chose to store the temporary image on does not have enough "
+"free space for the disc image (%ld MiB needed)"
+msgstr ""
+"Pasirinktoje vietoje nepakanka laisvos vietos disko atvaizdžiui išsaugoti "
+"(reikia %ld MiB)"
+
+#: ../librejilla-burn/burn-job.c:572 ../plugins/dvdcss/burn-dvdcss.c:363
+#, c-format
+msgid "The size of the volume could not be retrieved"
+msgstr "Nepavyko gauti laikmenos dydžio"
+
+#: ../librejilla-burn/burn-job.c:627
+#, c-format
+msgid "No path was specified for the image output"
+msgstr "Nenurodytas išvestino atvaizdžio kelias"
+
+#. Translators: %s is the error returned by libburn
+#. Translators: the %s is the error message from errno
+#: ../librejilla-burn/burn-job.c:768 ../plugins/cdrtools/burn-cdrecord.c:710
+#: ../plugins/libburnia/burn-libburn.c:716
+#: ../plugins/transcode/burn-transcode.c:826
+#, c-format
+msgid "An internal error occurred (%s)"
+msgstr "Įvyko vidinė klaida (%s)"
+
+#: ../librejilla-burn/burn-mkisofs-base.c:153
+#: ../librejilla-burn/burn-mkisofs-base.c:494
+#: ../plugins/growisofs/burn-growisofs.c:527
+#: ../plugins/libburnia/burn-libisofs.c:690
+#: ../plugins/checksum/burn-checksum-image.c:287
+#, c-format
+msgid "The file is not stored locally"
+msgstr "Failas yra ne šiame kompiuteryje"
+
+#: ../librejilla-burn/burn-mkisofs-base.c:646
+#, c-format
+msgid "VIDEO_TS directory is missing or invalid"
+msgstr "Nėra VIDEO_TS aplanko arba jis netinkamas"
+
+#. Translators: %s is the name of the rejilla element
+#: ../librejilla-burn/burn-process.c:259
+#, c-format
+msgid "Process \"%s\" ended with an error code (%i)"
+msgstr "Procesas „%s“ baigėsi klaida, kurios kodas (%i)"
+
+#: ../librejilla-utils/rejilla-disc-message.c:133
+msgid "_Hide changes"
+msgstr "_Atsisakyti pakeitimų"
+
+#: ../librejilla-utils/rejilla-disc-message.c:135
+#: ../librejilla-utils/rejilla-disc-message.c:154
+msgid "_Show changes"
+msgstr "_Rodyti pakeitimus"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:173
+msgid "Images"
+msgstr "Paveikslėliai"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:197
+msgid "_Color"
+msgstr "_Spalva"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:226
+msgid "Solid color"
+msgstr "Viena spalva"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:227
+msgid "Horizontal gradient"
+msgstr "Horizontalus gradientas"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:228
+msgid "Vertical gradient"
+msgstr "Vertikalus gradientas"
+
+#. second part
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:245
+msgid "_Image"
+msgstr "_Paveikslėlis"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:270
+msgid "Image path:"
+msgstr "Paveikslėlio kelias:"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:282
+msgid "Choose an image"
+msgstr "Pasirinkite paveikslėlį"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:293
+msgid "Image style:"
+msgstr "Paveikslėlio stilius:"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:307
+msgid "Centered"
+msgstr "Centruotas"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:308
+msgid "Tiled"
+msgstr "Išklotas"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:309
+msgid "Scaled"
+msgstr "Ištemptas"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:346
+msgid "Background Properties"
+msgstr "Fono savybės"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:588
+msgid "Print"
+msgstr "Spausdinti"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:600
+msgid "Bac_kground Properties"
+msgstr "_Fono savybės"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:603
+msgid "Background properties"
+msgstr "Fono savybės"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:618
+msgid "Align right"
+msgstr "Dešininis lygiavimas"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:628
+msgid "Center"
+msgstr "Centruotas"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:638
+msgid "Align left"
+msgstr "Kairinis lygiavimas"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:652
+msgid "Underline"
+msgstr "Pabrauktas"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:662
+msgid "Italic"
+msgstr "Kursyvas"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:672
+msgid "Bold"
+msgstr "Pusjuodis"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:698
+msgid "Font family and size"
+msgstr "Šriftų šeima ir dydis"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:705
+msgid "_Text Color"
+msgstr "_Teksto spalva"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:706
+msgid "Text color"
+msgstr "Teksto spalva"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:837
+msgid "Cover Editor"
+msgstr "Viršelių rengyklė"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:735
+msgid "Set Bac_kground Properties"
+msgstr "Nustatyti _fono savybes"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:776
+msgid "SIDES"
+msgstr "PUSĖS"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:792
+msgid "BACK COVER"
+msgstr "GALINIS VIRŠELIS"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:809
+msgid "FRONT COVER"
+msgstr "PRIEKINIS VIRŠELIS"
+
+#. Translators: This is an image,
+#. * a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-view.c:1074
+msgid "The image could not be loaded."
+msgstr "Nepavyko įkelti paveikslėlio."
+
+#: ../librejilla-utils/rejilla-tool-color-picker.c:169
+msgid "Pick a Color"
+msgstr "Pasirinkit spalvą"
+
+#: ../librejilla-burn/rejilla-xfer.c:130 ../librejilla-burn/rejilla-xfer.c:266
+#, c-format
+msgid "Directory could not be created (%s)"
+msgstr "Nepavyko sukurti aplanko (%s)"
+
+#: ../src/rejilla-project-parse.c:62
+msgid "Error while loading the project."
+msgstr "Klaida įkeliant projektą."
+
+#: ../src/rejilla-project-parse.c:454
+msgid "The project could not be opened"
+msgstr "Projekto atverti nepavyko"
+
+#: ../src/rejilla-project-parse.c:463
+msgid "The file is empty"
+msgstr "Failas tuščias"
+
+#: ../src/rejilla-project-parse.c:542 ../src/rejilla-project-parse.c:607
+msgid "It does not seem to be a valid Rejilla project"
+msgstr "Failas nėra tinkamas Rejilla projektas"
+
+#: ../librejilla-media/rejilla-drive-selection.c:346
+#: ../librejilla-media/rejilla-drive-selection.c:441
+msgid "Unnamed CD/DVD Drive"
+msgstr "Nepavadintas CD/DVD įrenginys"
+
+#: ../librejilla-media/rejilla-media.c:54
+msgid "Display debug statements on stdout for Rejilla media library"
+msgstr ""
+"Standartinėje išvestyje rodyti Rejilla laikmenų bibliotekos derinimo "
+"informaciją"
+
+#: ../librejilla-media/rejilla-media.c:477
+msgid "Rejilla optical media library"
+msgstr "Rejilla optinių laikmenų biblioteka"
+
+#: ../librejilla-media/rejilla-media.c:478
+msgid "Display options for Rejilla media library"
+msgstr "Rodymo nustatymai Rejilla laikmenų bibliotekai"
+
+#. Translators: this is hour minute second like '2 h 14 min 25'
+#: ../librejilla-media/rejilla-units.c:71
+#, c-format
+msgid "%s h %s min %s"
+msgstr "%s h %s min %s"
+
+#. Translators: this is hour minute like '2 h 14'
+#: ../librejilla-media/rejilla-units.c:77
+#, c-format
+msgid "%s h %s"
+msgstr "%s h %s"
+
+#. Translators: this is hour like '2 h'
+#: ../librejilla-media/rejilla-units.c:82
+#, c-format
+msgid "%s h"
+msgstr "%s h"
+
+#. Translators: this is 'hour:minute:second' like '2:14:25'
+#: ../librejilla-media/rejilla-units.c:86
+#, c-format
+msgid "%s:%s:%s"
+msgstr "%s:%s:%s"
+
+#. Translators: this is 'hour:minute' or 'minute:second'
+#: ../librejilla-media/rejilla-units.c:92
+#: ../librejilla-media/rejilla-units.c:107
+#, c-format
+msgid "%s:%s"
+msgstr "%s:%s"
+
+#. Translators: %s is a duration expressed in minutes
+#: ../librejilla-media/rejilla-units.c:99
+#, c-format
+msgid "%s min"
+msgstr "%s min"
+
+#. Translators: the first %s is the number of minutes
+#. * and the second one is the number of seconds.
+#. * The whole string expresses a duration
+#: ../librejilla-media/rejilla-units.c:104
+#, c-format
+msgid "%s:%s min"
+msgstr "%s:%s min"
+
+#. NOTE for translators, the first %s is the medium name
+#: ../librejilla-media/rejilla-medium-selection.c:155
+#, c-format
+msgid "%s: empty"
+msgstr "%s: tuščia"
+
+#. NOTE for translators: the first %s is the medium name, the
+#. * second %s is the space (kio, gio) used by data on the disc.
+#.
+#. NOTE for translators: the first %s is the medium name, the
+#. * second %s is the space (time) used by data on the disc.
+#. * I really don't know if I should set this string as
+#. * translatable.
+#: ../librejilla-media/rejilla-medium-selection.c:171
+#: ../librejilla-media/rejilla-medium-selection.c:183
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../librejilla-media/rejilla-medium-selection.c:462
+msgid "Searching for available discs"
+msgstr "Ieškoma tinkamų diskų"
+
+#: ../librejilla-media/rejilla-medium-selection.c:471
+msgid "No disc available"
+msgstr "Nėra disko"
+
+#. Translators: This is a fake drive, a file, and means that
+#. * when we're writing, we're writing to a file and create an
+#. * image on the hard drive.
+#: ../librejilla-media/rejilla-drive.c:607
+#: ../librejilla-media/rejilla-medium.c:209
+#: ../librejilla-media/rejilla-volume.c:391
+msgid "Image File"
+msgstr "Atvaizdžio failas"
+
+#: ../librejilla-media/burn-iso9660.c:158
+#: ../librejilla-media/burn-iso9660.c:167
+#: ../librejilla-media/burn-iso9660.c:402
+#: ../librejilla-media/burn-iso9660.c:439
+#: ../librejilla-media/burn-iso9660.c:488
+#: ../librejilla-media/burn-volume.c:128
+#, c-format
+msgid "It does not appear to be a valid ISO image"
+msgstr "Failas nėra geras ISO formato atvaizdis"
+
+#: ../librejilla-media/rejilla-medium.c:65
+msgid "File"
+msgstr "Failas"
+
+#: ../librejilla-media/rejilla-medium.c:66
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: ../librejilla-media/rejilla-medium.c:67
+msgid "CD-R"
+msgstr "CD-R"
+
+#: ../librejilla-media/rejilla-medium.c:68
+msgid "CD-RW"
+msgstr "CD-RW"
+
+#: ../librejilla-media/rejilla-medium.c:69
+msgid "DVD-ROM"
+msgstr "DVD-ROM"
+
+#: ../librejilla-media/rejilla-medium.c:70
+msgid "DVD-R"
+msgstr "DVD-R"
+
+#: ../librejilla-media/rejilla-medium.c:71
+msgid "DVD-RW"
+msgstr "DVD-RW"
+
+#: ../librejilla-media/rejilla-medium.c:72
+msgid "DVD+R"
+msgstr "DVD+R"
+
+#: ../librejilla-media/rejilla-medium.c:73
+msgid "DVD+RW"
+msgstr "DVD+RW"
+
+#: ../librejilla-media/rejilla-medium.c:74
+msgid "DVD+R dual layer"
+msgstr "DVD+R dvisluoksnis"
+
+#: ../librejilla-media/rejilla-medium.c:75
+msgid "DVD+RW dual layer"
+msgstr "DVD+RW dvisluoksnis"
+
+#: ../librejilla-media/rejilla-medium.c:76
+msgid "DVD-R dual layer"
+msgstr "DVD-R dvisluoksnis"
+
+#: ../librejilla-media/rejilla-medium.c:77
+msgid "DVD-RAM"
+msgstr "DVD-RAM"
+
+#: ../librejilla-media/rejilla-medium.c:78
+msgid "Blu-ray disc"
+msgstr "Blue-ray diskas"
+
+#: ../librejilla-media/rejilla-medium.c:79
+msgid "Writable Blu-ray disc"
+msgstr "Įrašomas Blue-ray diskas"
+
+#: ../librejilla-media/rejilla-medium.c:80
+msgid "Rewritable Blu-ray disc"
+msgstr "Perrašomas Blue-ray diskas"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:219
+#, c-format
+msgid "Blank %s in %s"
+msgstr "Tuščias %s įrenginyje %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:226
+#, c-format
+msgid "Audio and data %s in %s"
+msgstr "Garso ir duomenų %s įrenginyje %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:233
+#, c-format
+msgid "Audio %s in %s"
+msgstr "Garso %s įrenginyje %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:240
+#, c-format
+msgid "Data %s in %s"
+msgstr "Duomenų %s įrenginyje %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:247
+#, c-format
+msgid "%s in %s"
+msgstr "%s įrenginyje %s"
+
+#: ../librejilla-media/rejilla-volume.c:192
+#, c-format
+msgid "The disc mount point could not be retrieved"
+msgstr "Nepavyko gauti disko prijungimo taško."
+
+#. NOTE for translators: the first %s is the disc type and Blank is an adjective.
+#: ../librejilla-media/rejilla-volume.c:418
+#, c-format
+msgid "Blank disc (%s)"
+msgstr "Tuščias diskas (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#: ../librejilla-media/rejilla-volume.c:422
+#, c-format
+msgid "Audio and data disc (%s)"
+msgstr "Garso ir duomenų diskas (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_ .
+#. * The %s is the date
+#: ../librejilla-media/rejilla-volume.c:426 ../src/rejilla-project-name.c:325
+#, c-format
+msgid "Audio disc (%s)"
+msgstr "Garso diskas (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_ otherwise it gets truncated.
+#. * The %s is the date
+#: ../librejilla-media/rejilla-volume.c:430 ../src/rejilla-project-name.c:258
+#, c-format
+msgid "Data disc (%s)"
+msgstr "Duomenų diskas (%s)"
+
+#: ../librejilla-media/scsi-error.c:43 ../src/rejilla-project-name.c:84
+msgid "Unknown error"
+msgstr "Nežinoma klaida"
+
+#: ../librejilla-media/scsi-error.c:44
+msgid "Size mismatch"
+msgstr "Neatitinka dydžiai"
+
+#: ../librejilla-media/scsi-error.c:45
+msgid "Type mismatch"
+msgstr "Nesutampa tipai"
+
+#: ../librejilla-media/scsi-error.c:46
+msgid "Bad argument"
+msgstr "Neteisingas argumentas"
+
+#: ../librejilla-media/scsi-error.c:48
+msgid "Outrange address"
+msgstr "Adresas už ribų"
+
+#: ../librejilla-media/scsi-error.c:49
+msgid "Invalid address"
+msgstr "Netinkamas adresas"
+
+#: ../librejilla-media/scsi-error.c:50
+msgid "Invalid command"
+msgstr "Netinkama komanda"
+
+#: ../librejilla-media/scsi-error.c:51
+msgid "Invalid parameter in command"
+msgstr "Netinkamas parametras komandoje"
+
+#: ../librejilla-media/scsi-error.c:52
+msgid "Invalid field in command"
+msgstr "Netinkamas laukas komandoje"
+
+#: ../librejilla-media/scsi-error.c:53
+msgid "The device timed out"
+msgstr "Įrenginys per ilgai neatsako"
+
+#: ../librejilla-media/scsi-error.c:54
+msgid "Key not established"
+msgstr "Raktas nenustatytas"
+
+#: ../librejilla-media/scsi-error.c:55
+msgid "Invalid track mode"
+msgstr "Netinkama takelio veiksena"
+
+#: ../src/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Šis failas nėra tinkamas .desktop failas"
+
+#: ../src/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Neatpažinta .desktop failo versija „%s“"
+
+#: ../src/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "Pradžia %s"
+
+#: ../src/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Programa nepriima dokumentų kaip komandinės eilutės parametrų"
+
+#: ../src/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Neatpažintas paleidimo nustatymas: %d"
+
+#: ../src/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Negalima perduoti dokumentų URI „Type=Link“ darbastalio elementui"
+
+#: ../src/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "Nepaleidžiamas elementas"
+
+#: ../src/eggsmclient.c:224
+msgid "Disable connection to session manager"
+msgstr "Išjungti prisijungimą prie seansų valdyklės"
+
+#: ../src/eggsmclient.c:227
+msgid "Specify file containing saved configuration"
+msgstr "Nurodyti failą su įrašytais nustatymais"
+
+#: ../src/eggsmclient.c:227
+msgid "FILE"
+msgstr "FAILAS"
+
+#: ../src/eggsmclient.c:230
+msgid "Specify session management ID"
+msgstr "Nurodykite seanso valdymo ID"
+
+#: ../src/eggsmclient.c:230
+msgid "ID"
+msgstr "ID"
+
+#: ../src/eggsmclient.c:244
+msgid "Session management options:"
+msgstr "Seanso valdymo nustatymai:"
+
+#: ../src/eggsmclient.c:245
+msgid "Show session management options"
+msgstr "Rodyti seanso valdymo nustatymus"
+
+#: ../src/rejilla-pref.c:64
+msgid "Rejilla Plugins"
+msgstr "Rejilla papildiniai"
+
+#: ../plugins/local-track/burn-uri.c:207 ../plugins/local-track/burn-uri.c:297
+#: ../plugins/local-track/burn-uri.c:472
+#, c-format
+msgid "Impossible to retrieve local file path"
+msgstr "Nepavyko gauti vietinio failo kelio"
+
+#: ../plugins/local-track/burn-uri.c:326
+#: ../plugins/local-track/burn-local-image.c:527
+msgid "Copying files locally"
+msgstr "Kopijuojami failai į kompiuterį"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/local-track/burn-uri.c:747 ../caja/caja-burn-bar.c:136
+msgid "CD/DVD Creator Folder"
+msgstr "CD/DVD kūrimo aplankas"
+
+#: ../plugins/local-track/burn-uri.c:748
+msgid ""
+"Allows files added to the \"CD/DVD Creator Folder\" in Caja to be burned"
+msgstr "Leidžia rašyti failus, įdėtus į Caja „CD/DVD rašymo aplanką“"
+
+#: ../caja/rejilla-caja.desktop.in.in.h:1
+#: ../caja/caja-burn-extension.c:310
+msgid "CD/DVD Creator"
+msgstr "CD/DVD kūrimas"
+
+#: ../caja/rejilla-caja.desktop.in.in.h:2
+msgid "Create CDs and DVDs"
+msgstr "Kurti CD ir DVD diskus"
+
+#. Translators: be careful, anything longer than the English will likely
+#. * not fit on small Caja windows
+#: ../caja/caja-burn-bar.c:145
+msgid "Drag or copy files below to write them to disc"
+msgstr ""
+"Norint įrašyti failus į diską, reikia juos nutempti (nukopijuoti) žemyn "
+
+#: ../caja/caja-burn-bar.c:153
+#: ../caja/caja-burn-extension.c:363
+msgid "Write to Disc"
+msgstr "Rašyti į diską"
+
+#: ../caja/caja-burn-bar.c:165
+#: ../caja/caja-burn-extension.c:743
+msgid "Write contents to a CD or DVD"
+msgstr "Įrašyti turinį į CD ar DVD diską"
+
+#: ../caja/caja-burn-extension.c:301
+msgid "Disc name"
+msgstr "Disko pavadinimas"
+
+#: ../caja/caja-burn-extension.c:390
+msgid "Copy Disc"
+msgstr "Kopijuoti diską"
+
+#: ../caja/caja-burn-extension.c:591
+#: ../caja/caja-burn-extension.c:742
+msgid "_Write to Disc…"
+msgstr "_Rašyti į diską…"
+
+#: ../caja/caja-burn-extension.c:592
+msgid "Write disc image to a CD or DVD"
+msgstr "Rašyti disko atvaizdį į CD ar DVD diską"
+
+#: ../caja/caja-burn-extension.c:665
+msgid "_Copy Disc…"
+msgstr "_Kopijuoti diską…"
+
+#: ../caja/caja-burn-extension.c:666
+msgid "Create a copy of this CD or DVD"
+msgstr "Kurti šio CD ar DVD disko kopiją"
+
+#: ../caja/caja-burn-extension.c:679
+msgid "_Blank Disc…"
+msgstr "_Ištrinti diską…"
+
+#: ../caja/caja-burn-extension.c:680
+msgid "Blank this CD or DVD"
+msgstr "Ištrinti šį CD ar DVD diską"
+
+#: ../caja/caja-burn-extension.c:696
+msgid "_Check Disc…"
+msgstr "_Patikrinti diską…"
+
+#: ../caja/caja-burn-extension.c:697
+msgid "Check the data integrity on this CD or DVD"
+msgstr "Patikrinti duomenų vientisumą šiame CD ar DVD"
+
+#. Translators: this is a picture not
+#. * a disc image
+#: ../src/rejilla-project-name.c:83
+msgctxt "picture"
+msgid "Please select another image."
+msgstr "Pasirinkite kitą paveikslėlį."
+
+#: ../src/rejilla-project-name.c:157
+msgid "Medium Icon"
+msgstr "Laikmenos piktograma"
+
+#. Translators: this is an image, a picture, not a "Disc Image"
+#: ../src/rejilla-project-name.c:171 ../src/rejilla-file-chooser.c:375
+#: ../src/rejilla-project.c:2238
+msgctxt "picture"
+msgid "Image files"
+msgstr "Paveikslėlių failai"
+
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_.
+#. * The %s is the date
+#: ../src/rejilla-project-name.c:272
+#, c-format
+msgid "Video disc (%s)"
+msgstr "Video diskas (%s)"
+
+#: ../src/rejilla-app.c:123
+msgid "_Project"
+msgstr "Pro_jektas"
+
+#: ../src/rejilla-app.c:124
+msgid "_View"
+msgstr "_Rodyti"
+
+#: ../src/rejilla-app.c:125
+msgid "_Edit"
+msgstr "_Keisti"
+
+#: ../src/rejilla-app.c:126
+msgid "_Tools"
+msgstr "Įra_nkiai"
+
+#: ../src/rejilla-app.c:128
+msgid "_Help"
+msgstr "_Pagalba"
+
+#: ../src/rejilla-app.c:130
+msgid "P_lugins"
+msgstr "Į_skiepiai"
+
+#: ../src/rejilla-app.c:131
+msgid "Choose plugins for Rejilla"
+msgstr "Pasirinkite Rejilla įskiepius"
+
+#: ../src/rejilla-app.c:133
+msgid "E_ject"
+msgstr "Iši_mti"
+
+#: ../src/rejilla-app.c:134
+msgid "Eject a disc"
+msgstr "Išimti diską"
+
+#: ../src/rejilla-app.c:136
+msgid "_Blank…"
+msgstr "_Ištrinti…"
+
+#: ../src/rejilla-app.c:137
+msgid "Blank a disc"
+msgstr "Ištrinti diską"
+
+#: ../src/rejilla-app.c:139
+msgid "_Check Integrity…"
+msgstr "_Patikrinti vientisumą…"
+
+#: ../src/rejilla-app.c:140
+msgid "Check data integrity of disc"
+msgstr "Patikrinti ar duomenys diske yra identiški pradiniams"
+
+#: ../src/rejilla-app.c:143
+msgid "Quit Rejilla"
+msgstr "Išeiti iš Rejilla"
+
+#: ../src/rejilla-app.c:145
+msgid "_Contents"
+msgstr "_Turinys"
+
+#: ../src/rejilla-app.c:145
+msgid "Display help"
+msgstr "Rodyti pagalbą"
+
+#: ../src/rejilla-app.c:148
+msgid "About"
+msgstr "Apie"
+
+#: ../src/rejilla-app.c:420 ../src/rejilla-app.c:2073
+msgid "Disc Burner"
+msgstr "Diskų rašymo programa"
+
+#: ../src/rejilla-app.c:786 ../src/rejilla-app.c:819 ../src/rejilla-app.c:1454
+msgid "Error while loading the project"
+msgstr "Klaida įkeliant projektą"
+
+#: ../src/rejilla-app.c:828 ../src/rejilla-app.c:857 ../src/rejilla-app.c:917
+#: ../src/rejilla-project.c:1266
+msgid "Please add files to the project."
+msgstr "Įdėkite failų į projektą."
+
+#: ../src/rejilla-app.c:829 ../src/rejilla-app.c:858 ../src/rejilla-app.c:918
+msgid "The project is empty"
+msgstr "Projektas tuščias"
+
+#: ../src/rejilla-app.c:1172
+msgid ""
+"Rejilla is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Rejilla yra laisva programinė įranga; galite ją platinti ir/ar modifikuoti "
+"GNU bendrosios viešosios licencijos sąlygomis, kurios paskelbtos Laisvosios "
+"programinės įrangos fondo; 2-osios arba (Jūsų pasirinkimu) bet kurios "
+"vėlesnės licencijos versijos sąlygomis."
+
+#: ../src/rejilla-app.c:1177
+msgid ""
+"Rejilla is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Rejilla yra platinama tikintis, kad jis bus naudinga, bet BE JOKIŲ "
+"GARANTIJŲ; netgi be numanomų PARDAVIMO arba TINKAMUMO TAM TIKRAM TIKSLUI "
+"garantijų. Dėl išsamesnės informacijos žiūrėkite GNU bendrąją viešąją "
+"licenciją."
+
+#: ../src/rejilla-app.c:1182
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Rejilla; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301, USA"
+msgstr ""
+"Jūs turėjote gauti GNU Bendrosios Viešosios Licencijos kopiją kartu su "
+"Rejilla; jeigu negavote, rašykite laišką Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
+
+#: ../src/rejilla-app.c:1194
+msgid "A simple to use CD/DVD burning application for MATE"
+msgstr "Paprasta naudoti MATE CD/DVD įrašymo programa"
+
+#: ../src/rejilla-app.c:1211
+msgid "Rejilla Homepage"
+msgstr "Rejilla svetainė"
+
+#. Translators: This is a special message that shouldn't be translated
+#. * literally. It is used in the about box to give credits to
+#. * the translators.
+#. * Thus, you should translate it to your name and email address.
+#. * You should also include other translators who have contributed to
+#. * this translation; in that case, please write each of them on a separate
+#. * line seperated by newlines (\n).
+#.
+#: ../src/rejilla-app.c:1223
+msgid "translator-credits"
+msgstr ""
+"Žygimantas Beručka <zygis@mate.org>\n"
+"Mantas Kriaučiūnas <mantas@akl.lt>\n"
+"Eglė Kriaučiūnienė <egle@akl.lt>"
+
+#: ../src/rejilla-app.c:1452
+#, c-format
+msgid "The project \"%s\" does not exist"
+msgstr "Projektas „%s“ neegzistuoja"
+
+#: ../src/rejilla-app.c:1738 ../src/rejilla-app.c:1744
+msgid "_Recent Projects"
+msgstr "_Paskutinieji projektai"
+
+#: ../src/rejilla-app.c:1739
+msgid "Display the projects recently opened"
+msgstr "Rodyti paskutiniuosius atvertus projektus"
+
+#: ../data/rejilla.desktop.in.in.h:1
+msgid "Rejilla"
+msgstr "Rejilla"
+
+#: ../data/rejilla.desktop.in.in.h:2
+msgid "Rejilla Disc Burner"
+msgstr "CD/DVD rašymas bei kopijavimas"
+
+#: ../data/rejilla.desktop.in.in.h:3
+msgid "Create and copy CDs and DVDs"
+msgstr "Įrašyti ir kopijuoti CD bei DVD diskus"
+
+#: ../data/rejilla.desktop.in.in.h:4
+msgid "Disc Burner and Copier"
+msgstr "Diskų rašymas ir kopijavimas"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:1
+msgid "Burning flags to be used"
+msgstr "Naudotini įrašymo požymiai"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:2
+msgid ""
+"Contains the absolute path of the directory that was last browsed for images "
+"to burn"
+msgstr ""
+"Čia nurodytas paskutiniojo naršyto įrašytinų atvaizdžių katalogo absoliutus "
+"kelias"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:3
+msgid ""
+"Contains the list of additional plugins Rejilla will use to burn discs. If "
+"set to NULL, Rejilla will load them all."
+msgstr ""
+"Čia yra papildomų įskiepių, kuriuos Rejilla naudos diskų įrašymui, sąrašas. "
+"Jei nustatyta NULL, Rejilla įkels juos visus."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:4
+msgid ""
+"Contains the name of the favourite burn engine suite installed. It will be "
+"used if possible."
+msgstr ""
+"Čia yra pageidaujamos diskų įrašymo posistemės pavadinimas. Jeigu tai "
+"įmanoma, bus naudojama ji."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:5
+msgid ""
+"Contains the path to the directory where rejilla should store temporary "
+"files. If that value is empty, the default directory set for glib will be "
+"used."
+msgstr ""
+"Čia yra katalogo kelias, kur rejilla turėtų įrašyti laikinus failus. Jei ši "
+"reikšmė yra tuščia, bus naudojamas numatytasis katalogas, nurodytas glib."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:6
+msgid "Directory to use for temporary files"
+msgstr "Katalogas laikiniesiems failams"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:7
+msgid "Enable file preview"
+msgstr "Įjungti failų peržiūrą"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:8
+msgid "Enable the \"-immed\" flag with cdrecord"
+msgstr "Įjungti „-immed“ parametrą su cdrecord"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:9
+msgid "Favourite burn engine"
+msgstr "Pageidaujama įrašymo posistemė"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:10
+msgid "Replace symbolic links by their targets"
+msgstr "Pakeisti simbolines nuorodas jų paskirties failais"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:11
+msgid "Set to 0 for MD5, 1 for SHA1 and 2 for SHA256"
+msgstr "Galimos reikšmės: 0 – MD5, 1 – SHA1 ir 2 – SHA256"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:12
+msgid "Should Caja extension output debug statements"
+msgstr "Ar Caja plėtinys turėtų išvesti derinimo sakinius"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:13
+msgid ""
+"Should Caja extension output debug statements. The value should be set "
+"to true if it should."
+msgstr ""
+"Ar Caja plėtinys turėtų išvesti derinimo sakinius. Reikšmė turi būti "
+"nustatyta į true, jei turėtų."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:14
+msgid "Should rejilla filter broken symbolic links"
+msgstr "Ar Rejilla turėtų filtruoti sugadintus simbolinių nuorodų failus"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:15
+msgid ""
+"Should rejilla filter broken symbolic links. Set to true, rejilla will "
+"filter broken symbolic links."
+msgstr ""
+"Ar Rejilla turėtų išfiltruoti sugadintas simbolines nuorodas. Jei reikšmė "
+"teigiama, Rejilla simbolines nuorodas išfiltruos."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:16
+msgid "Should rejilla filter hidden files"
+msgstr "Ar Rejilla turėtų nufiltruoti paslėptus failus"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:17
+msgid ""
+"Should rejilla filter hidden files. Set to true, rejilla will filter hidden "
+"files."
+msgstr ""
+"Ar Rejilla turėtų atfiltruoti paslėptus failus. Jei reikšmė teigiama, "
+"Rejilla paslėptus failus atfiltruos."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:18
+msgid ""
+"Should rejilla replace symbolic links by their target files in the project. "
+"Set to true, rejilla will replace symbolic links."
+msgstr ""
+"Ar Rejilla turėtų pakeisti simbolines nuorodas projekte paskirties failais. "
+"Jei reikšmė teigiama, rejilla pakeis simbolines nuorodas paskirties failais."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:19
+msgid "The last browsed folder while looking for images to burn"
+msgstr "Paskutinis naršytas aplankas ieškant paveikslėlių įrašymui"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:20
+msgid "The priority value for the plugin"
+msgstr "Įskiepio prioriteto reikšmė"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:21
+msgid "The speed to be used"
+msgstr "Naudotinas greitis"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:22
+msgid "The type of checksum used for files"
+msgstr "Failams naudojamos kontrolinės sumos tipas"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:23
+msgid "The type of checksum used for images"
+msgstr "Atvaizdžiams naudojamos kontrolinės sumos tipas"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:24
+msgid ""
+"This value represents the burning flags that were used in such a context the "
+"last time."
+msgstr ""
+"Ši reikšmė nurodo įrašymo požymius, kurie buvo naudojami tokiame kontekste "
+"pastarąjį kartą."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:25
+msgid ""
+"This value represents the speed that was used in such a context the last "
+"time."
+msgstr ""
+"Ši reikšmė nurodo greitį, kuris buvo naudojamas tokiame kontekste pastarąjį "
+"kartą."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:26
+msgid "Used in conjunction with the \"-immed\" flag with cdrecord"
+msgstr "Naudojama kartu su cdrecord „-immed“ parametru"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:27
+msgid "Used in conjunction with the \"-immed\" flag with cdrecord."
+msgstr "Naudojama kartu su cdrecord „-immed“ parametru."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:28
+msgid ""
+"When several plugins are available for the same task, this value is used to "
+"determine which plugin should be given priority. 0 means the plugin's native "
+"priority is used. A positive value overrides the plugin's native priority. A "
+"negative value disables the plugin."
+msgstr ""
+"Kai yra keletas įskiepių tai pačiai užduočiai, ši reikšmė yra naudojama "
+"norint nustatyti, kuriam įskiepiui turėtų būti suteikta pirmenybės. 0 – "
+"naudojama įskiepio savoji pirmenybė. Teigiama reikšmė – nustelbiama įskiepio "
+"savoji pirmenybė. Neigiama reikšmė – išjungiamas įskiepis."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:29
+msgid "Whether to display file preview. Set to true to use it."
+msgstr "Ar rodyti failų peržiūrą. Teigiama reikšmė – rodyti."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:30
+msgid "Whether to use the \"--driver generic-mmc-raw\" flag with cdrdao"
+msgstr "Ar naudoti „--driver generic-mmc-raw“ parametrą su cdrdao"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:31
+msgid ""
+"Whether to use the \"--driver generic-mmc-raw\" flag with cdrdao. Set to "
+"True, rejilla will use it; it may be a workaround for some drives/setups."
+msgstr ""
+"Ar naudoti „--driver generic-mmc-raw“ parametrą su cdrdao. Jei nustatyta į "
+"True, rejilla naudos parametrą; jis gali padėti spręsti kai kurių įrenginių/"
+"sąrankų trikius."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:32
+msgid ""
+"Whether to use the \"-immed\" flag with cdrecord. Use with caution (set to "
+"true) as it's only a workaround for some drives/setups."
+msgstr ""
+"Ar naudoti „-immed“ parametrą su cdrecord. Naudoti atsargiai (teigiama "
+"reikšmė), nes tai tik bandymas apeiti kai kurių įrenginių/sąrankų problemas."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:33
+msgid "Whether to use the \"-use-the-force-luke=dao\" flag with growisofs"
+msgstr "Ar naudoti „-use-the-force-luke=dao“ parametrą su growisofs"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:34
+msgid ""
+"Whether to use the \"-use-the-force-luke=dao\" flag with growisofs. Set to "
+"false, rejilla won't use it; it may be a workaround for some drives/setups."
+msgstr ""
+"Ar naudoti „-use-the-force-luke=dao“ parametrą su growisofs. Jei išjungta, "
+"rejilla nenaudos parametro. Tai gali padėti apeiti kai kurių įrenginių/"
+"sąrankų problemas."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:35
+msgid "White list of additional plugins to use"
+msgstr "Papildomų naudotinų įskiepių sąrašas"
+
+#: ../data/mime/rejilla.xml.in.h:1
+msgid "Rejilla project file"
+msgstr "Rejilla projekto failas"
+
+#: ../src/rejilla-audio-disc.c:156 ../src/rejilla-data-disc.c:123
+msgid "Open the selected files"
+msgstr "Atverti pasirinktus failus"
+
+#: ../src/rejilla-audio-disc.c:158 ../src/rejilla-video-disc.c:103
+msgid "_Edit Information…"
+msgstr "_Keisti informaciją…"
+
+#: ../src/rejilla-audio-disc.c:158
+msgid "Edit the track information (start, end, author, etc.)"
+msgstr "Keisti takelių informaciją (pradžią, pabaiga, autorius, …)"
+
+#: ../src/rejilla-audio-disc.c:160 ../src/rejilla-data-disc.c:127
+#: ../src/rejilla-project.c:200
+msgid "Remove the selected files from the project"
+msgstr "Pašalinti pasirinktus failus iš projekto"
+
+#: ../src/rejilla-audio-disc.c:162 ../src/rejilla-data-disc.c:129
+#: ../src/rejilla-video-disc.c:107
+msgid "Paste files"
+msgstr "Įdėti failus"
+
+#: ../src/rejilla-audio-disc.c:162 ../src/rejilla-data-disc.c:129
+#: ../src/rejilla-video-disc.c:107
+msgid "Add the files stored in the clipboard"
+msgstr "Įdėti iškarpinėje saugomus failus"
+
+#: ../src/rejilla-audio-disc.c:164
+msgid "I_nsert a Pause"
+msgstr "Į_terpti pauzę"
+
+#: ../src/rejilla-audio-disc.c:164
+msgid "Add a 2 second pause after the track"
+msgstr "Po kiekvieno takelio pridėti 2 sekundžių pauzę"
+
+#: ../src/rejilla-audio-disc.c:166
+msgid "_Split Track…"
+msgstr "_Skaidyti takelį…"
+
+#: ../src/rejilla-audio-disc.c:166
+msgid "Split the selected track"
+msgstr "Padalinti pasirinktą takelį"
+
+#: ../src/rejilla-audio-disc.c:343 ../src/rejilla-video-tree-model.c:189
+msgid "Pause"
+msgstr "Pauzė"
+
+#: ../src/rejilla-audio-disc.c:349
+msgid "Split"
+msgstr "Padalinti"
+
+#: ../src/rejilla-audio-disc.c:417
+msgid "Track"
+msgstr "Takelis"
+
+#: ../src/rejilla-audio-disc.c:457 ../src/rejilla-video-disc.c:1216
+msgid "Title"
+msgstr "Pavadinimas"
+
+#: ../src/rejilla-audio-disc.c:479
+msgid "Artist"
+msgstr "Atlikėjas"
+
+#: ../src/rejilla-audio-disc.c:487 ../src/rejilla-playlist.c:771
+#: ../src/rejilla-split-dialog.c:1223
+msgid "Length"
+msgstr "Trukmė"
+
+#: ../src/rejilla-audio-disc.c:584
+msgid "The track will be padded at its end."
+msgstr "Takelio pabaigoje bus pridėta pauzė."
+
+#: ../src/rejilla-audio-disc.c:585
+msgid "The track is shorter than 6 seconds"
+msgstr "Takelis yra trumpesnis nei 6 sekundės"
+
+#: ../src/rejilla-audio-disc.c:645
+msgid "Make sure the appropriate codec is installed"
+msgstr "Įsitikinkite, jog įdiegtas atitinkamas garso ar vaizdo kodekas."
+
+#: ../src/rejilla-audio-disc.c:661
+#, c-format
+msgid "Do you want to add \"%s\", which is a video file?"
+msgstr "Ar tikrai norite pridėti „%s“, tai video failas?"
+
+#: ../src/rejilla-audio-disc.c:670
+msgid ""
+"This file is a video and therefore only the audio part can be written to the "
+"disc."
+msgstr "Tai video failas, tačiau į diską galima įrašyti tik garsinę dalį."
+
+#: ../src/rejilla-audio-disc.c:673
+msgid "_Discard File"
+msgstr "_Atmesti failą"
+
+#: ../src/rejilla-audio-disc.c:676
+msgid "_Add File"
+msgstr "_Pridėti failą"
+
+#: ../src/rejilla-audio-disc.c:747
+msgid "Do you want to search for audio files inside the directory?"
+msgstr "Ar norite aplanke ieškoti garso failų?"
+
+#: ../src/rejilla-audio-disc.c:757
+msgid "Search _Directory"
+msgstr "Ieškoti _aplanke"
+
+#: ../src/rejilla-audio-disc.c:811 ../src/rejilla-video-disc.c:395
+#, c-format
+msgid "\"%s\" could not be opened."
+msgstr "„%s“ nepavyko atverti."
+
+#: ../src/rejilla-audio-disc.c:856
+msgid "Do you want to create an audio CD with DTS tracks?"
+msgstr "Ar norite sukurti garso CD su DTS takeliais?"
+
+#: ../src/rejilla-audio-disc.c:857
+msgid ""
+"Some of the selected songs are suitable for creating DTS tracks.\n"
+"This type of audio CD track provides a higher quality of sound but can only "
+"be played by specific digital players.\n"
+"Note: if you agree, normalization will not be applied to these tracks."
+msgstr ""
+"Kai kurios pasirinktos dainos tinkamos DTS takelių kūrimui.\n"
+"Šio tipo garso CD takeliai yra didesnės kokybės, bet juos galima groti tik "
+"su specialiais skaitmeniniais grotuvais.\n"
+"Pastaba: jei sutiksite, šiems takeliams nebus taikoma normalizacija."
+
+#: ../src/rejilla-audio-disc.c:866
+msgid "Create _Regular Tracks"
+msgstr "Kurti _įprastinius takelius"
+
+#: ../src/rejilla-audio-disc.c:868
+msgid "Click here to burn all songs as regular tracks"
+msgstr "Spauskite čia, jei norite visus takelius įrašyti kaip įprastinius"
+
+#: ../src/rejilla-audio-disc.c:871
+msgid "Create _DTS Tracks"
+msgstr "Kurti _DTS takelius"
+
+#: ../src/rejilla-audio-disc.c:873
+msgid "Click here to burn all suitable songs as DTS tracks"
+msgstr "Spauskite čia, jei norite visus tinkamus takelius įrašyti kaip DTS"
+
+#: ../src/rejilla-audio-disc.c:1296
+msgid "Select one song only please."
+msgstr "Pasirinkite tik vieną dainą."
+
+#: ../src/rejilla-audio-disc.c:1297
+msgid "Impossible to split more than one song at a time"
+msgstr "Negalima vienu metu išskaidyti daugiau nei vienos dainos"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:222
+msgid "Error while blanking."
+msgstr "Klaida trinant."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:227
+#: ../librejilla-burn/rejilla-blank-dialog.c:272
+msgid "Blank _Again"
+msgstr "Ištrinti _dar kartą"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:244
+msgid "Unknown error."
+msgstr "Nežinoma klaida."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:264
+#: ../librejilla-burn/rejilla-blank-dialog.c:288
+msgid "The disc was successfully blanked."
+msgstr "Diskas buvo sėkmingai ištrintas."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:270
+msgid "The disc is ready for use."
+msgstr "Diskas paruoštas naudojimui."
+
+#. Translators: This is a verb, an action
+#: ../librejilla-burn/rejilla-blank-dialog.c:371
+msgid "_Blank"
+msgstr "_Trinti"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:402
+msgid "_Fast blanking"
+msgstr "_Greitas trynimas"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:403
+msgid "Activate fast blanking, as opposed to a longer, thorough blanking"
+msgstr ""
+"Aktyvuoti greitą trynimą, alternatyvų ilgesniam ir nuodugnesniam trynimui"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:433
+msgid "Disc Blanking"
+msgstr "Disko trynimas"
+
+#: ../src/rejilla-playlist.c:390
+#, c-format
+msgid "Error parsing playlist \"%s\"."
+msgstr "Klaida apdorojant grojaraštį  „%s“."
+
+#: ../src/rejilla-playlist.c:393 ../src/rejilla-data-disc.c:214
+#: ../src/rejilla-project.c:2608 ../librejilla-burn/rejilla-sum-dialog.c:166
+#: ../src/rejilla-eject-dialog.c:100
+msgid "An unknown error occurred"
+msgstr "Įvyko nežinoma klaida"
+
+#. Translators: %d is the number of songs
+#: ../src/rejilla-playlist.c:499
+#, c-format
+msgid "%d song"
+msgid_plural "%d songs"
+msgstr[0] "%d daina"
+msgstr[1] "%d dainos"
+msgstr[2] "%d dainų"
+
+#: ../src/rejilla-playlist.c:584
+msgid "Select Playlist"
+msgstr "Pasirinkite grojaraštį"
+
+#: ../src/rejilla-playlist.c:750
+msgid "Playlists"
+msgstr "Grojaraščiai"
+
+#: ../src/rejilla-playlist.c:761
+msgid "Number of Songs"
+msgstr "Dainų skaičius"
+
+#: ../src/rejilla-playlist.c:781
+msgid "Genre"
+msgstr "Žanras"
+
+#: ../src/rejilla-plugin-manager-ui.c:62
+msgid "Plugin"
+msgstr "Įskiepis"
+
+#: ../src/rejilla-plugin-manager-ui.c:63
+msgid "Enabled"
+msgstr "Įjungta"
+
+#: ../src/rejilla-plugin-manager-ui.c:143
+#, c-format
+msgid "Copyright %s"
+msgstr "Autorinės teisės priklauso %s"
+
+#: ../src/rejilla-plugin-manager-ui.c:587
+#: ../src/rejilla-plugin-manager-ui.c:974
+msgid "_About"
+msgstr "_Apie"
+
+#: ../src/rejilla-plugin-manager-ui.c:595
+#: ../src/rejilla-plugin-manager-ui.c:980
+msgid "C_onfigure"
+msgstr "K_onfigūruoti"
+
+#: ../src/rejilla-plugin-manager-ui.c:605
+msgid "A_ctivate"
+msgstr "Įj_ungti"
+
+#: ../src/rejilla-plugin-manager-ui.c:617
+msgid "Ac_tivate All"
+msgstr "Įju_ngti visus"
+
+#: ../src/rejilla-plugin-manager-ui.c:622
+msgid "_Deactivate All"
+msgstr "_Išjungti visus"
+
+#. Use the translated name for the plugin.
+#: ../src/rejilla-plugin-option.c:258
+#, c-format
+msgid "Options for plugin %s"
+msgstr "Įskiepio %s nustatymai"
+
+#: ../src/rejilla-search-entry.c:176
+msgid "Search:"
+msgstr "Ieškoti:"
+
+#: ../src/rejilla-search-entry.c:260
+msgid "In _text documents"
+msgstr "_Tekstiniuose dokumentuose"
+
+#: ../src/rejilla-search-entry.c:275
+msgid "In _pictures"
+msgstr "_Paveiksliukuose"
+
+#: ../src/rejilla-search-entry.c:290
+msgid "In _music"
+msgstr "_Muzikoje"
+
+#: ../src/rejilla-search-entry.c:305
+msgid "In _videos"
+msgstr "_Vaizduose"
+
+#: ../src/rejilla-search-entry.c:322
+msgid "Type your keywords or choose 'All files' from the menu"
+msgstr "Įveskite savo raktažodžius arba meniu pasirinkite „Visi failai“"
+
+#: ../src/rejilla-search-entry.c:326
+msgid "Select if you want to search among image files only"
+msgstr "Pasirinkite, jei norite ieškoti tik tarp paveikslėlių"
+
+#: ../src/rejilla-search-entry.c:328
+msgid "Select if you want to search among video files only"
+msgstr "Pasirinkite, jei norite ieškoti tik tarp video failų"
+
+#: ../src/rejilla-search-entry.c:330
+msgid "Select if you want to search among audio files only"
+msgstr "Pasirinkite, jei norite ieškoti tik tarp garso failų"
+
+#: ../src/rejilla-search-entry.c:332
+msgid "Select if you want to search among your text documents only"
+msgstr "Pasirinkite, jei norite ieškoti tik tarp tekstinių dokumentų"
+
+#: ../src/rejilla-search-entry.c:334
+msgid "Click to start the search"
+msgstr "Spragtelėkite norėdami pradėti paiešką"
+
+#: ../src/rejilla-song-properties.c:177
+msgid "Title:"
+msgstr "Pavadinimas:"
+
+#: ../src/rejilla-song-properties.c:187 ../src/rejilla-song-properties.c:199
+#: ../src/rejilla-song-properties.c:211 ../src/rejilla-multi-song-props.c:211
+#: ../src/rejilla-multi-song-props.c:252 ../src/rejilla-multi-song-props.c:273
+msgid ""
+"This information will be written to the disc using CD-Text technology. It "
+"can be read and displayed by some audio CD players."
+msgstr ""
+"Ši informacija bus įrašyta į diską naudojant CD-Teksto technologiją. Kai "
+"kurie CD grotuvai ją gali perskaityti ir parodyti."
+
+#: ../src/rejilla-song-properties.c:189 ../src/rejilla-multi-song-props.c:242
+msgid "Artist:"
+msgstr "Atlikėjas:"
+
+#: ../src/rejilla-song-properties.c:201 ../src/rejilla-multi-song-props.c:263
+msgid "Composer:"
+msgstr "Kompozitorius:"
+
+#: ../src/rejilla-song-properties.c:235
+msgid "Song start:"
+msgstr "Dainos pradžia:"
+
+#: ../src/rejilla-song-properties.c:241
+msgid "Song end:"
+msgstr "Dainos pabaiga:"
+
+#: ../src/rejilla-song-properties.c:247 ../src/rejilla-multi-song-props.c:317
+msgid "Pause length:"
+msgstr "Pauzės trukmė:"
+
+#: ../src/rejilla-song-properties.c:256 ../src/rejilla-multi-song-props.c:328
+msgid "Gives the length of the pause that should follow the track"
+msgstr "Nurodo pauzės po takelio trukmę"
+
+#: ../src/rejilla-song-properties.c:258
+msgid "Track length:"
+msgstr "Takelio ilgis:"
+
+#: ../src/rejilla-song-properties.c:287 ../src/rejilla-multi-song-props.c:345
+msgid "Song Information"
+msgstr "Dainos informacija"
+
+#: ../src/rejilla-song-properties.c:372
+#, c-format
+msgid "Song information for track %02i"
+msgstr "Takelio %02i dainos informacija"
+
+#. *
+#. * Translators: this is the position being played in a stream. The
+#. * first %s is the position and the second %s is the whole length of
+#. * the stream. I chose to make that translatable in case some languages
+#. * don't allow the "/"
+#: ../src/rejilla-song-control.c:101
+#, c-format
+msgid "%s / %s"
+msgstr "%s / %s"
+
+#: ../src/rejilla-song-control.c:531
+msgid "No file"
+msgstr "Nėra failo"
+
+#: ../src/rejilla-song-control.c:566
+msgid "Start and stop playing"
+msgstr "Pradėti ir stabdyti atkūrimą"
+
+#: ../src/rejilla-data-disc.c:125
+msgid "R_ename…"
+msgstr "_Pervadinti…"
+
+#: ../src/rejilla-data-disc.c:125
+msgid "Rename the selected file"
+msgstr "Pervadinti pasirinktą failą"
+
+#: ../src/rejilla-data-disc.c:131 ../src/rejilla-data-disc.c:1773
+msgid "New _Folder"
+msgstr "Naujas _aplankas"
+
+#: ../src/rejilla-data-disc.c:131
+msgid "Create a new empty folder"
+msgstr "Sukurti naują tuščią aplanką"
+
+#: ../src/rejilla-data-disc.c:213
+msgid "The session could not be imported."
+msgstr "Seanso nepavyko įkelti."
+
+#: ../src/rejilla-data-disc.c:559
+msgid "The contents of the project changed since it was saved."
+msgstr "Projekto turinys nuo paskutiniojo išsaugojimo buvo pakeistas."
+
+#: ../src/rejilla-data-disc.c:561 ../src/rejilla-data-disc.c:569
+msgid "Discard the current modified project"
+msgstr "Atsisakyti dabartinio pakeisto projekto"
+
+#: ../src/rejilla-data-disc.c:567
+msgid "_Discard"
+msgstr "_Atsisakyti"
+
+#: ../src/rejilla-data-disc.c:574
+msgid "Continue with the current modified project"
+msgstr "Tęsti su dabartiniu pakeistu projektu"
+
+#. Translators: %s is the name of the image
+#: ../src/rejilla-data-disc.c:622
+#, c-format
+msgid ""
+"There is only one selected file (\"%s\"). It is the image of a disc and its "
+"contents can be burned"
+msgstr ""
+"Yra tik vienas pasirinktas failas („%s“). Tai yra disko atvaizdis ir galima "
+"įrašyti jo turinį."
+
+#: ../src/rejilla-data-disc.c:628
+msgid "Burn as _Data"
+msgstr "Įrašyti kaip _duomenis"
+
+#: ../src/rejilla-data-disc.c:630
+msgid "Burn as _Image"
+msgstr "Į_rašyti kaip atvaizdį"
+
+#: ../src/rejilla-data-disc.c:679 ../src/rejilla-data-disc.c:700
+#: ../src/rejilla-data-disc.c:721
+#, c-format
+msgid "\"%s\" cannot be added to the selection."
+msgstr "„%s“ negalima įtraukti į pasirinkimą."
+
+#: ../src/rejilla-data-disc.c:703
+msgid "It is a recursive symlink"
+msgstr "Tai rekursyvi simbolinė nuoroda."
+
+#: ../src/rejilla-data-disc.c:724
+msgid "It does not exist at the specified location"
+msgstr "Jo nurodytoje vietoje nėra"
+
+#: ../src/rejilla-data-disc.c:741
+#: ../librejilla-burn/rejilla-status-dialog.c:333
+msgid "Should files be renamed to be fully Windows-compatible?"
+msgstr ""
+"Ar failai turėtų būti pervadinti, kad būtų pilnai suderinami su Windows?"
+
+#: ../src/rejilla-data-disc.c:747
+#: ../librejilla-burn/rejilla-status-dialog.c:344
+msgid "Those names should be changed and truncated to 64 characters."
+msgstr "Šiuos pavadinimus reikia pakeisti, sutrumpinti iki 64 simbolių. "
+
+#: ../src/rejilla-data-disc.c:749
+#: ../librejilla-burn/rejilla-status-dialog.c:352
+msgid "_Rename for Full Windows Compatibility"
+msgstr "_Pervadinti, kad būtų pilnai suderinama su Windows OS"
+
+#: ../src/rejilla-data-disc.c:750
+#: ../librejilla-burn/rejilla-status-dialog.c:349
+msgid "_Disable Full Windows Compatibility"
+msgstr "_Išjungti pilną suderinamumą su Windows"
+
+#. Translators: %s is the name of the file
+#: ../src/rejilla-data-disc.c:783
+#, c-format
+msgid "Do you want to replace \"%s\"?"
+msgstr "Ar tikrai norite pakeisti „%s“?"
+
+#: ../src/rejilla-data-disc.c:791
+msgid ""
+"A file with this name already exists in the folder.  Replacing it will "
+"overwrite its contents on the disc to be burnt."
+msgstr ""
+"Failas tokiu vardu jau yra aplanke.  Jei jį perrašysite, jo turinys bus "
+"pakeistas įrašytame diske."
+
+#. Translators: Keep means we're keeping the files that already existed
+#. * in the project.
+#. * Keep is a verb
+#: ../src/rejilla-data-disc.c:796
+msgid "Always K_eep"
+msgstr "Visada p_alikti"
+
+#. Translators: Keep means we're keeping the files that already existed
+#. * in the project.
+#. * Keep is a verb
+#: ../src/rejilla-data-disc.c:800
+msgid "_Keep"
+msgstr "_Palikti"
+
+#. Translators: Replace means we're replacing the file that already
+#. * existed in the project with a new one with the same name.
+#. * Replace is a verb
+#. Translators: this is a verb
+#: ../src/rejilla-data-disc.c:804 ../src/rejilla-rename.c:383
+msgid "_Replace"
+msgstr "_Pakeisti"
+
+#. Translators: Replace means we're replacing the file that already
+#. * existed in the project with a new one with the same name.
+#. * Replace is a verb
+#: ../src/rejilla-data-disc.c:808
+msgid "Al_ways Replace"
+msgstr "_Visada keisti"
+
+#: ../src/rejilla-data-disc.c:838
+#: ../librejilla-burn/rejilla-status-dialog.c:274
+#, c-format
+msgid ""
+"Do you really want to add \"%s\" to the selection and use the third version "
+"of the ISO9660 standard to support it?"
+msgstr ""
+"Ar tikrai norite pridėti „%s“ prie pasirinkimo ir naudoti ISO9660 standarto "
+"trečią versiją, kad jis būtų palaikomas?"
+
+#: ../src/rejilla-data-disc.c:847
+#: ../librejilla-burn/rejilla-status-dialog.c:293
+msgid ""
+"The size of the file is over 2 GiB. Files larger than 2 GiB are not "
+"supported by the ISO9660 standard in its first and second versions (the most "
+"widespread ones).\n"
+"It is recommended to use the third version of the ISO9660 standard, which is "
+"supported by most operating systems, including Linux and all versions of "
+"Windows™.\n"
+"However, Mac OS X cannot read images created with version 3 of the ISO9660 "
+"standard."
+msgstr ""
+"Failo dydis viršija 2 GiB. ISO9660 standarto pirmoji ir antroji versijos "
+"(labiausiai paplitusios) tokių didelių failų nepalaiko.\n"
+"Rekomenduojama naudoti ISO9660 trečios versijos standartą, kurį palaiko "
+"dauguma operacinių sistemų, pvz., Linux ir visos Windows™ versijos.\n"
+"Išimtis yra Mac OS X, kuri negali skaityti atvaizdžių, sukurtų naudojant "
+"ISO9660 trečios versijos standartą."
+
+#: ../src/rejilla-data-disc.c:851 ../src/rejilla-data-disc.c:895
+#: ../librejilla-burn/rejilla-status-dialog.c:235
+#: ../librejilla-burn/rejilla-status-dialog.c:297
+msgid "Ne_ver Add Such File"
+msgstr "_Niekada nepridėti tokio failo"
+
+#: ../src/rejilla-data-disc.c:852 ../src/rejilla-data-disc.c:896
+#: ../librejilla-burn/rejilla-status-dialog.c:236
+#: ../librejilla-burn/rejilla-status-dialog.c:298
+msgid "Al_ways Add Such File"
+msgstr "Visada _pridėti tokį failą"
+
+#: ../src/rejilla-data-disc.c:882
+#: ../librejilla-burn/rejilla-status-dialog.c:212
+#, c-format
+msgid "Do you really want to add \"%s\" to the selection?"
+msgstr "Ar tikrai norite pridėti „%s“ į pasirinkimą?"
+
+#: ../src/rejilla-data-disc.c:891
+#: ../librejilla-burn/rejilla-status-dialog.c:231
+msgid ""
+"The children of this directory will have 7 parent directories.\n"
+"Rejilla can create an image of such a file hierarchy and burn it but the "
+"disc may not be readable on all operating systems.\n"
+"Note: Such a file hierarchy is known to work on Linux."
+msgstr ""
+"Šio aplanko antrinis aplankas (angl. child) turės 7 pirminius aplankus "
+"(angl. parent directories).\n"
+"Rejilla gali sukurti atvaizdį su tokia hierarchija ir jį įrašyti; tačiau "
+"diskas gali būti neperskaitomas kai kuriose operacinėse sistemose.\n"
+"Pastaba: tokia failų hierarchija veiks Linux sistemose."
+
+#. Translators: %s is a string describing the type of medium and the
+#. * drive it is in. It's a tooltip.
+#: ../src/rejilla-data-disc.c:991
+#, c-format
+msgid "Import %s"
+msgstr "Importuoti %s"
+
+#. Translators: %s is the name of the volume to import. It's a menu
+#. * entry and toolbar button (text added later).
+#: ../src/rejilla-data-disc.c:998
+#, c-format
+msgid "I_mport %s"
+msgstr "I_mportuoti %s"
+
+#. Translators: This is a verb. It's a toolbar button.
+#: ../src/rejilla-data-disc.c:1028
+msgid "I_mport"
+msgstr "I_mportuoti"
+
+#. Translators: %s is the name of the volume to import
+#: ../src/rejilla-data-disc.c:1110
+#, c-format
+msgid "Do you want to import the session from \"%s\"?"
+msgstr "Ar norite importuoti seansą iš „%s“?"
+
+#: ../src/rejilla-data-disc.c:1113
+msgid ""
+"That way, old files from previous sessions will be usable after burning."
+msgstr "Tada, seni failai iš ankstesnių seansų bus naudotini po įrašymo."
+
+#: ../src/rejilla-data-disc.c:1121
+msgid "I_mport Session"
+msgstr "I_mportuoti sesiją"
+
+#: ../src/rejilla-data-disc.c:1123
+msgid "Click here to import its contents"
+msgstr "Spustelėkite norėdami importuoti jo turinį"
+
+#: ../src/rejilla-data-disc.c:1502
+msgid "Please wait while the project is loading."
+msgstr "Palaukite, projektas įkeliamas."
+
+#: ../src/rejilla-data-disc.c:1512
+msgid "_Cancel Loading"
+msgstr "_Nutraukti įkėlimą"
+
+#: ../src/rejilla-data-disc.c:1514
+msgid "Cancel loading current project"
+msgstr "Nutraukti šio projekto įkėlimą"
+
+#: ../src/rejilla-data-disc.c:1918
+msgid "File Renaming"
+msgstr "Failo pervadinimas"
+
+#: ../src/rejilla-data-disc.c:1922
+msgid "_Rename"
+msgstr "_Pervadinti"
+
+#: ../src/rejilla-data-disc.c:1930
+msgid "Renaming mode"
+msgstr "Pervadinimo veiksena"
+
+#: ../src/rejilla-data-disc.c:2366 ../src/rejilla-video-disc.c:1234
+msgid "Size"
+msgstr "Dydis"
+
+#: ../src/rejilla-data-disc.c:2396
+msgid "Space"
+msgstr "Vieta"
+
+#: ../src/rejilla-file-chooser.c:357 ../src/rejilla-project.c:2218
+msgid "Audio files"
+msgstr "Garso failai"
+
+#: ../src/rejilla-file-chooser.c:365 ../src/rejilla-project.c:2227
+msgid "Movies"
+msgstr "Vaizdo failai"
+
+#: ../src/rejilla-layout.c:100
+msgid "P_review"
+msgstr "Pe_ržiūra"
+
+#. Translators: this is an image, a picture, not a "Disc Image"
+#: ../src/rejilla-layout.c:102
+msgid "Display video, audio and image preview"
+msgstr "Rodyti vaizdo, garso įrašų ir paveikslėlių peržiūrą"
+
+#: ../src/rejilla-layout.c:106
+msgid "_Show Side Panel"
+msgstr "_Rodyti šoninį polangį"
+
+#: ../src/rejilla-layout.c:107
+msgid "Show a side pane along the project"
+msgstr "Šalia projekto rodyti šoninį polangį"
+
+#: ../src/rejilla-layout.c:121
+msgid "_Horizontal Layout"
+msgstr "_Horizontalus išdėstymas"
+
+#: ../src/rejilla-layout.c:122
+msgid "Set a horizontal layout"
+msgstr "Nustatyti horizontalų išdėstymą"
+
+#: ../src/rejilla-layout.c:124
+msgid "_Vertical Layout"
+msgstr "_Vertikalus išdėstymas"
+
+#: ../src/rejilla-layout.c:125
+msgid "Set a vertical layout"
+msgstr "Nustatyti vertikalų išdėstymą"
+
+#: ../src/rejilla-layout.c:1186
+msgid "Click to close the side pane"
+msgstr "Spustelėkite norėdami užverti šoninį polangį"
+
+#: ../src/rejilla-player.c:540
+#, c-format
+msgid "%i × %i pixels"
+msgstr "%i × %i pikselių"
+
+#. No Preview view
+#: ../src/rejilla-player.c:845
+msgid "No preview"
+msgstr "Nėra peržiūra"
+
+#: ../src/rejilla-project.c:194
+msgid "Save current project"
+msgstr "Išsaugoti šį projektą"
+
+#: ../src/rejilla-project.c:195
+msgid "Save _As…"
+msgstr "Išsaugoti k_aip…"
+
+#: ../src/rejilla-project.c:196
+msgid "Save current project to a different location"
+msgstr "Išsaugoti šį projektą kitoje vietoje"
+
+#: ../src/rejilla-project.c:197
+msgid "_Add Files"
+msgstr "_Pridėti failus"
+
+#: ../src/rejilla-project.c:198
+msgid "Add files to the project"
+msgstr "Įdėti failus į projektą"
+
+#: ../src/rejilla-project.c:199
+msgid "_Remove Files"
+msgstr "P_ašalinti failus"
+
+#. Translators: "empty" is a verb here
+#: ../src/rejilla-project.c:202 ../src/rejilla-project.c:2300
+msgid "E_mpty Project"
+msgstr "Iš_valyti projektą"
+
+#: ../src/rejilla-project.c:203
+msgid "Remove all files from the project"
+msgstr "Pašalinti visus failus iš projekto"
+
+#: ../src/rejilla-project.c:204 ../src/rejilla-project.c:1076
+msgid "_Burn…"
+msgstr "Įr_ašyti…"
+
+#: ../src/rejilla-project.c:205
+msgid "Burn the disc"
+msgstr "Įrašyti diską"
+
+#: ../src/rejilla-project.c:687
+msgid ""
+"To add files to this project click the \"Add\" button or drag files to this "
+"area"
+msgstr ""
+"Norėdami pridėti failų, spauskite „Pridėti“ arba tempkite failus į šį plotą"
+
+#: ../src/rejilla-project.c:689
+msgid ""
+"To remove files select them then click on the \"Remove\" button or press "
+"\"Delete\" key"
+msgstr ""
+"Norėdami pašalinti failus, pažymėkite juos ir spauskite „Šalinti“ arba "
+"spauskite „Delete“ klavišą"
+
+#: ../src/rejilla-project.c:796
+#, c-format
+msgid "Estimated project size: %s"
+msgstr "Apskaičiuotas dydis: %s"
+
+#: ../src/rejilla-project.c:942 ../src/rejilla-project.c:958
+msgid "The project is too large for the disc even with the overburn option."
+msgstr ""
+"Projektas per didelis šiam diskui netgi naudojant „overburn“ nustatymą."
+
+#: ../src/rejilla-project.c:969
+msgid ""
+"The project is too large for the disc and you must remove files from it.\n"
+"You may want to use this option if you're using 90 or 100 min CD-R(W) which "
+"cannot be properly recognized and therefore needs the overburn option.\n"
+"Note: This option might cause failure."
+msgstr ""
+"Šis projektas per didelis šiam diskui, todėl turite pašalinti keletą failų.\n"
+"Galbūt norėsite pasinaudoti šia parinktimi, jei naudojate 90 ar 100 min CD-R"
+"(W), kuris nėra teisingai atpažįstamas ir reikalauja overburn parinkties.\n"
+"Pastaba: įjungus šią parinktį galimas nesėkmingas įrašymas."
+
+#: ../src/rejilla-project.c:1088
+msgid "Start to burn the contents of the selection"
+msgstr "Pradėti pasirinkto turinio įrašymą"
+
+#: ../src/rejilla-project.c:1257
+msgid "Please add songs to the project."
+msgstr "Įdėkite į projektą dainų."
+
+#: ../src/rejilla-project.c:1894 ../src/rejilla-project.c:1929
+msgid "Do you really want to create a new project and discard the current one?"
+msgstr "Ar tikrai norite sukurti naują projektą ir atsisakyti dabartinio?"
+
+#: ../src/rejilla-project.c:1899
+msgid "If you choose to create a new empty project, all changes will be lost."
+msgstr ""
+"Jeigu pasirinksite sukurti naują projektą, visi atlikti pakeitimai bus "
+"prarasti."
+
+#: ../src/rejilla-project.c:1902
+msgid "_Discard Changes"
+msgstr "_Atsisakyti pakeitimų"
+
+#: ../src/rejilla-project.c:1910
+msgid "Do you want to discard the file selection or add it to the new project?"
+msgstr "Ar norite pašalinti pažymėtus failų, ar pridėti juos į naują projektą?"
+
+#: ../src/rejilla-project.c:1915 ../src/rejilla-project.c:1934
+msgid ""
+"If you choose to create a new empty project, the file selection will be "
+"discarded."
+msgstr ""
+"Jeigu pasirinksite sukurti naują projektą, visi pasirinkti failai bus "
+"atmesti."
+
+#: ../src/rejilla-project.c:1917
+msgid "_Discard File Selection"
+msgstr "_Atmesti failus"
+
+#: ../src/rejilla-project.c:1921
+msgid "_Keep File Selection"
+msgstr "_Palikti pasirinktus failus"
+
+#: ../src/rejilla-project.c:1936
+msgid "_Discard Project"
+msgstr "_Atsisakyti projekto"
+
+#: ../src/rejilla-project.c:2176
+msgid "Select Files"
+msgstr "Pasirinkite failus"
+
+#: ../src/rejilla-project.c:2289
+msgid "Do you really want to empty the current project?"
+msgstr "Ar tikrai norite išvalyti dabartinį projektą?"
+
+#: ../src/rejilla-project.c:2294
+msgid ""
+"Emptying a project will remove all files already added. All the work will be "
+"lost. Note that files will not be deleted from their own location, just no "
+"longer listed here."
+msgstr ""
+"Išvalius projektą bus pašalinti visi jau pridėti failai. Visas darbas bus "
+"prarastas. Atminkite, kad failai nebus ištrinti iš disko, tiesiog jie "
+"nebebus rodomi čia."
+
+#: ../src/rejilla-project.c:2351
+msgid "_Save"
+msgstr "_Išsaugoti"
+
+#: ../src/rejilla-project.c:2362
+msgid "_Add"
+msgstr "_Pridėti"
+
+#: ../src/rejilla-project.c:2367 ../src/rejilla-split-dialog.c:1253
+msgid "_Remove"
+msgstr "_Pašalinti"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2431
+#, c-format
+msgid "Rejilla — %s (Data Disc)"
+msgstr "Rejilla — %s (duomenų diskas)"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2434
+#, c-format
+msgid "Rejilla — %s (Audio Disc)"
+msgstr "Rejilla — %s (garso diskas)"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2437
+#, c-format
+msgid "Rejilla — %s (Video Disc)"
+msgstr "Rejilla — %s (vaizdo diskas)"
+
+#: ../src/rejilla-project.c:2607 ../src/rejilla-project.c:2910
+msgid "Your project has not been saved."
+msgstr "Projektas neįrašytas."
+
+#: ../src/rejilla-project.c:2621
+msgid "Save the changes of current project before closing?"
+msgstr "Išsaugoti dabartinio projekto pakeitimus prieš užveriant?"
+
+#: ../src/rejilla-project.c:2626 ../src/rejilla-project.c:2915
+msgid "If you don't save, changes will be permanently lost."
+msgstr "Jeigu neišsaugosite, pakeitimai bus nesugrąžinamai prarasti."
+
+#: ../src/rejilla-project.c:2630 ../src/rejilla-project.c:2636
+#: ../src/rejilla-project.c:2918
+msgid "Cl_ose Without Saving"
+msgstr "_Užverti neišsaugant"
+
+#: ../src/rejilla-project.c:2718
+msgid "Save Current Project"
+msgstr "Išsaugoti šį projektą"
+
+#: ../src/rejilla-project.c:2736
+msgid "Save project as a Rejilla audio project"
+msgstr "Išsaugoti projektą kaip rejilla garso projektą"
+
+#: ../src/rejilla-project.c:2737
+msgid "Save project as a plain text list"
+msgstr "Išsaugoti projektą kaip paprasto teksto sąrašą"
+
+#: ../src/rejilla-project.c:2741
+msgid "Save project as a PLS playlist"
+msgstr "Išsaugoti projektą kaip PLS grojaraštį"
+
+#: ../src/rejilla-project.c:2742
+msgid "Save project as an M3U playlist"
+msgstr "Išsaugoti projektą kaip M3U grojaraštį"
+
+#: ../src/rejilla-project.c:2743
+msgid "Save project as an XSPF playlist"
+msgstr "Išsaugoti projektą kaip XSPF grojaraštį"
+
+#: ../src/rejilla-project.c:2744
+msgid "Save project as an iriver playlist"
+msgstr "Išsaugoti projektą kaip iriver grojaraštį"
+
+#: ../src/rejilla-project-manager.c:99
+msgid "_Cover Editor"
+msgstr "_Viršelių rengyklė"
+
+#: ../src/rejilla-project-manager.c:100
+msgid "Design and print covers for CDs"
+msgstr "Kurkite ir spausdinkite CD viršelius"
+
+#: ../src/rejilla-project-manager.c:101
+msgid "_New Project"
+msgstr "_Naujas projektas"
+
+#: ../src/rejilla-project-manager.c:102
+msgid "Create a new project"
+msgstr "Sukurti naują projektą"
+
+#: ../src/rejilla-project-manager.c:103
+msgid "_Empty Project"
+msgstr "Iš_valyti projektą"
+
+#: ../src/rejilla-project-manager.c:104
+msgid "Let you choose your new project"
+msgstr "Leisti jums pasirinkti savo naują projektą"
+
+#: ../src/rejilla-project-manager.c:105
+msgid "New _Audio Project"
+msgstr "Naujas _garso projektas"
+
+#: ../src/rejilla-project-manager.c:106
+#: ../src/rejilla-project-type-chooser.c:74
+msgid ""
+"Create a traditional audio CD that will be playable on computers and stereos"
+msgstr "Sukurti tradicinį audio CD, kurį gros visi CD grotuvai ir kompiuteriai"
+
+#: ../src/rejilla-project-manager.c:107
+msgid "New _Data Project"
+msgstr "Naujas _duomenų projektas"
+
+#: ../src/rejilla-project-manager.c:108
+#: ../src/rejilla-project-type-chooser.c:79
+msgid ""
+"Create a CD/DVD containing any type of data that can only be read on a "
+"computer"
+msgstr ""
+"Sukurti CD/DVD su bet kokio tipo duomenimis, kuriuos gali perskaityti "
+"kompiuteris"
+
+#: ../src/rejilla-project-manager.c:109
+msgid "New _Video Project"
+msgstr "Naujas _video projektas"
+
+#: ../src/rejilla-project-manager.c:110
+#: ../src/rejilla-project-type-chooser.c:84
+msgid "Create a video DVD or an SVCD that is readable on TV readers"
+msgstr "Sukurti vaizdo DVD arba SVCD, perskaitomą TV (DVD) leistuvų"
+
+#: ../src/rejilla-project-manager.c:111
+msgid "Copy _Disc…"
+msgstr "Kopijuoti _diską…"
+
+#: ../src/rejilla-project-manager.c:112
+#: ../src/rejilla-project-type-chooser.c:89
+msgid ""
+"Create a 1:1 copy of an audio CD or a data CD/DVD on your hard disk or on "
+"another CD/DVD"
+msgstr ""
+"Nukopijuoti garso, video ar duomenų CD/DVD į kompiuterio diską ar kitą CD/DVD"
+
+#: ../src/rejilla-project-manager.c:113
+msgid "_Burn Image…"
+msgstr "Į_rašyti atvaizdį…"
+
+#: ../src/rejilla-project-manager.c:114
+#: ../src/rejilla-project-type-chooser.c:93
+#: ../src/rejilla-project-type-chooser.c:94
+msgid "Burn an existing CD/DVD image to disc"
+msgstr "Įrašyti turimą CD/DVD atvaizdžio failą į diską"
+
+#: ../src/rejilla-project-manager.c:116
+msgid "_Open…"
+msgstr "_Atverti…"
+
+#: ../src/rejilla-project-manager.c:117
+msgid "Open a project"
+msgstr "Atverti projektą"
+
+#. Translators: the %s is a string representing the total size
+#. * of the file selection
+#: ../src/rejilla-project-manager.c:263
+#, c-format
+msgid "%d file selected (%s)"
+msgid_plural "%d files selected (%s)"
+msgstr[0] "pasirinktas %d failas (%s)"
+msgstr[1] "pasirinkti %d failai (%s)"
+msgstr[2] "pasirinkta %d failų (%s)"
+
+#: ../src/rejilla-project-manager.c:274
+#, c-format
+msgid "%d file is supported (%s)"
+msgid_plural "%d files are supported (%s)"
+msgstr[0] "palaikomas %d failas (%s)"
+msgstr[1] "palaikomi %d failai (%s)"
+msgstr[2] "palaikoma %d failų (%s)"
+
+#: ../src/rejilla-project-manager.c:280
+#, c-format
+msgid "%d file can be added (%s)"
+msgid_plural "%d selected files can be added (%s)"
+msgstr[0] "gali būti pridėtas %d failas (%s)"
+msgstr[1] "gali būti pridėti %d failai (%s)"
+msgstr[2] "gali būti pridėta %d failų (%s)"
+
+#: ../src/rejilla-project-manager.c:291
+#, c-format
+msgid "No file can be added (%i selected file)"
+msgid_plural "No file can be added (%i selected files)"
+msgstr[0] "Negali būti pridėtas joks failas (pasirinktas %i failas)"
+msgstr[1] "Negali būti pridėtas joks failas (pasirinkti %i failai)"
+msgstr[2] "Negali būti pridėtas joks failas (pasirinkta %i failų)"
+
+#: ../src/rejilla-project-manager.c:297
+#, c-format
+msgid "No file is supported (%i selected file)"
+msgid_plural "No file is supported (%i selected files)"
+msgstr[0] "Nepalaikomas joks failas (pasirinktas %is failas)"
+msgstr[1] "Nepalaikomas joks failas (pasirinkti %i failai)"
+msgstr[2] "Nepalaikomas joks failas (pasirinkta %i failų)"
+
+#: ../src/rejilla-project-manager.c:303 ../src/rejilla-project-manager.c:457
+msgid "No file selected"
+msgstr "Nepasirinkta jokių failų"
+
+#: ../src/rejilla-project-manager.c:594
+msgid "Rejilla — New Audio Disc Project"
+msgstr "Rejilla — Naujas garso disko projektas"
+
+#: ../src/rejilla-project-manager.c:608
+msgid "Rejilla — New Data Disc Project"
+msgstr "Rejilla — Naujas duomenų disko projektas"
+
+#: ../src/rejilla-project-manager.c:622
+msgid "Rejilla — New Video Disc Project"
+msgstr "Rejilla — naujas vaizdo disko projektas"
+
+#: ../src/rejilla-project-manager.c:632
+msgid "Rejilla — New Image File"
+msgstr "Rejilla — Naujas atvaizdžio failas"
+
+#: ../src/rejilla-project-manager.c:647
+msgid "Rejilla — Disc Copy"
+msgstr "Rejilla — Disko kopija"
+
+#: ../src/rejilla-project-manager.c:731
+msgid "Open Project"
+msgstr "Atverti projektą"
+
+#: ../src/rejilla-project-manager.c:834
+msgid "_New"
+msgstr "_Naujas"
+
+#: ../src/rejilla-project-manager.c:838
+msgid "_Open"
+msgstr "_Atverti"
+
+#: ../src/rejilla-project-manager.c:889
+msgid "Browse the file system"
+msgstr "Naršyti failų sistemą"
+
+#: ../src/rejilla-project-manager.c:912
+msgid "Search files using keywords"
+msgstr "Ieškoti failų naudojant raktažodžius"
+
+#: ../src/rejilla-project-manager.c:932
+msgid "Display playlists and their contents"
+msgstr "Rodyti grojaraščius ir jų turinį"
+
+#: ../src/rejilla-project-type-chooser.c:72
+msgid "Audi_o project"
+msgstr "_Garso projektas"
+
+#: ../src/rejilla-project-type-chooser.c:73
+msgid "Create a traditional audio CD"
+msgstr "Sukurti tradicinį audio CD"
+
+#: ../src/rejilla-project-type-chooser.c:77
+msgid "D_ata project"
+msgstr "_Duomenų projektas"
+
+#: ../src/rejilla-project-type-chooser.c:78
+msgid "Create a data CD/DVD"
+msgstr "Sukurti duomenų CD/DVD"
+
+#: ../src/rejilla-project-type-chooser.c:82
+msgid "_Video project"
+msgstr "_Video projektas"
+
+#: ../src/rejilla-project-type-chooser.c:83
+msgid "Create a video DVD or an SVCD"
+msgstr "Sukurti video DVD arba SVCD"
+
+#: ../src/rejilla-project-type-chooser.c:87
+msgid "Disc _copy"
+msgstr "Disko _kopija"
+
+#: ../src/rejilla-project-type-chooser.c:88
+msgid "Create 1:1 copy of a CD/DVD"
+msgstr "Sukurti tikslią CD/DVD kopiją"
+
+#: ../src/rejilla-project-type-chooser.c:92
+msgid "Burn _image"
+msgstr "Į_rašyti atvaizdį"
+
+#: ../src/rejilla-project-type-chooser.c:291
+msgid "Last _Unsaved Project"
+msgstr "Paskutinis _neišsaugotas projektas"
+
+#: ../src/rejilla-project-type-chooser.c:307
+msgid "Load the last project that was not burned and not saved"
+msgstr "Įkelti paskutinį neįrašytą ir neišsaugotą projektą"
+
+#: ../src/rejilla-project-type-chooser.c:413
+msgid "No recently used project"
+msgstr "Nėra pastaruoju metu naudoto projekto"
+
+#: ../src/rejilla-project-type-chooser.c:475
+msgid "Create a new project:"
+msgstr "Sukurti naują projektą:"
+
+#: ../src/rejilla-project-type-chooser.c:521
+msgid "Recent projects:"
+msgstr "Paskutinieji projektai:"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:134
+#: ../librejilla-burn/rejilla-sum-dialog.c:215
+msgid "Check _Again"
+msgstr "Tikrinti _dar kartą"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:165
+#: ../librejilla-burn/rejilla-sum-dialog.c:514
+msgid "The file integrity check could not be performed."
+msgstr "Nepavyko patikrinti failų identiškumo."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:178
+msgid "The file integrity check was performed successfully."
+msgstr "Failų vientisumas patikrintas sėkmingai."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:179
+msgid "There seem to be no corrupted files on the disc"
+msgstr "Panašu, jog diske nėra sugadintų failų"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:207
+msgid "The following files appear to be corrupted:"
+msgstr "Panašu, jog šie failai yra sugadinti:"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:250
+msgid "Corrupted Files"
+msgstr "Sugadinti failai"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:342
+msgid "Downloading MD5 file"
+msgstr "Atsiunčiamas MD5 failas"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:397
+#, c-format
+msgid "\"%s\" is not a valid URI"
+msgstr "„%s“ netinkamas URI"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:515
+msgid "No MD5 file was given."
+msgstr "Nenurodytas MD5 failas."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:692
+msgid "Use an _MD5 file to check the disc"
+msgstr "Naudoti _MD5 failą diskui patikrinti"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:693
+msgid "Use an external .md5 file that stores the checksum of a disc"
+msgstr "Naudoti išorinį .md5 failą, kuriame saugoma disko kontrolinė suma"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:706
+msgid "Open an MD5 file"
+msgstr "Atverti MD5 failą"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:721
+msgid "_Check"
+msgstr "Pa_tikrinti"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:752
+msgid "Disc Checking"
+msgstr "Disko tikrinimas"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:147
+#, c-format
+msgid "Estimated size: %s"
+msgstr "Apskaičiuotas dydis: %s"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:569
+msgid "Size Estimation"
+msgstr "Apytikslis dydžio skaičiavimas"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:571
+msgid "Please wait until the estimation of the size is completed."
+msgstr "Palaukite, kol bus apskaičiuotas projekto dydis."
+
+#: ../librejilla-burn/rejilla-status-dialog.c:572
+msgid "All files need to be analysed to complete this operation."
+msgstr "Norint baigti šią operaciją, reikia išanalizuoti visus failus."
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:78
+#: ../librejilla-burn/rejilla-tool-dialog.c:92
+#: ../librejilla-burn/rejilla-tool-dialog.c:102
+msgid "The operation cannot be performed."
+msgstr "Operacijos negalima atlikti."
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:79
+#: ../plugins/cdrkit/burn-wodim.c:151 ../plugins/cdrkit/burn-wodim.c:421
+#: ../plugins/cdrtools/burn-cdrecord.c:151
+#: ../plugins/cdrtools/burn-cdrecord.c:407
+#: ../plugins/growisofs/burn-dvd-rw-format.c:77
+#: ../plugins/libburnia/burn-libburn.c:609
+#, c-format
+msgid "The disc is not supported"
+msgstr "Diskas nepalaikomas"
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:103
+msgid "The drive is empty"
+msgstr "Įrenginys tuščias"
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:539
+#: ../src/rejilla-eject-dialog.c:164
+msgid "Select a disc"
+msgstr "Pasirinkite diską"
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:572
+msgid "Progress"
+msgstr "Pažanga"
+
+#: ../src/main.c:86
+msgid "[URI] [URI] …"
+msgstr "[URI] [URI] …"
+
+#: ../src/main.c:98
+#, c-format
+msgid "Please type \"%s --help\" to see all available options\n"
+msgstr "Įveskite „%s --help“ norėdami pamatyti visas galimas parinktis\n"
+
+#: ../plugins/audio2cue/burn-audio2cue.c:191
+#: ../plugins/checksum/burn-checksum-image.c:124
+#, c-format
+msgid "Data could not be read (%s)"
+msgstr "Nepavyko perskaityti duomenų (%s)"
+
+#: ../plugins/audio2cue/burn-audio2cue.c:241
+#: ../plugins/dvdcss/burn-dvdcss.c:218 ../plugins/dvdcss/burn-dvdcss.c:493
+#: ../plugins/libburnia/burn-libisofs.c:163
+#: ../plugins/libburnia/burn-libisofs.c:266
+#: ../plugins/checksum/burn-checksum-files.c:196
+#: ../plugins/checksum/burn-checksum-files.c:219
+#: ../plugins/checksum/burn-checksum-image.c:174
+#, c-format
+msgid "Data could not be written (%s)"
+msgstr "Nepavyko įrašyti duomenų (%s)"
+
+#: ../plugins/audio2cue/burn-audio2cue.c:723
+msgid "Generates .cue files from audio"
+msgstr "Generuoja .cue failus iš garso įrašų"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:55
+msgid "cdrdao burning suite"
+msgstr "cdrdao įrašymo rinkinys"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:103
+msgid "Copying audio track"
+msgstr "Kopijuojamas garso takelis"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:109
+msgid "Copying data track"
+msgstr "Kopijuojamas duomenų takelis"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:145
+#, c-format
+msgid "Analysing track %02i"
+msgstr "Analizuojamas takelis %02i"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:249 ../plugins/cdrkit/burn-readom.c:116
+#: ../plugins/cdrkit/burn-readom.c:122 ../plugins/cdrkit/burn-wodim.c:106
+#: ../plugins/cdrtools/burn-cdrecord.c:106
+#: ../plugins/cdrtools/burn-readcd.c:117 ../plugins/cdrtools/burn-readcd.c:123
+#, c-format
+msgid "You do not have the required permissions to use this drive"
+msgstr "Neturite reikiamų teisių naudoti šį įrenginį"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:480
+msgid "Converting toc file"
+msgstr "Konvertuojamas toc failas"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:697
+msgid "Copies, burns and blanks CDs"
+msgstr "Kopijuoja, įrašo ir ištrina CD diskus"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:762
+msgid "Enable the \"--driver generic-mmc-raw\" flag (see cdrdao manual)"
+msgstr "Įjungti parametrą „--driver generic-mmc-raw“ (žr. cdrdao žinyną)"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:121
+#: ../plugins/cdrtools/burn-mkisofs.c:122
+#: ../plugins/growisofs/burn-growisofs.c:204
+#: ../plugins/libburnia/burn-libisofs.c:501
+#, c-format
+msgid "Last session import failed"
+msgstr "Praeito seanso įkėlimas nepavyko"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:127
+#: ../plugins/cdrkit/burn-genisoimage.c:134
+#: ../plugins/cdrtools/burn-mkisofs.c:128
+#: ../plugins/cdrtools/burn-mkisofs.c:135
+#: ../plugins/growisofs/burn-growisofs.c:210
+#: ../plugins/growisofs/burn-growisofs.c:217
+msgid "An image could not be created"
+msgstr "Nepavyko sukurti atvaizdžio"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:140
+msgid "This version of genisoimage is not supported"
+msgstr "Ši genisoimage versija nepalaikoma"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:182
+#: ../plugins/cdrtools/burn-mkisofs.c:183
+#: ../plugins/growisofs/burn-growisofs.c:223
+msgid "Some files have invalid filenames"
+msgstr "Kai kurių failų pavadinimai netinkami"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:188
+#: ../plugins/cdrtools/burn-mkisofs.c:189
+#: ../plugins/growisofs/burn-growisofs.c:229
+msgid "Unknown character encoding"
+msgstr "Nežinoma simbolių koduotė"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:194
+#: ../plugins/cdrtools/burn-mkisofs.c:195
+msgid "There is no space left on the device"
+msgstr "Įrenginyje neliko laisvos vietos"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:529
+#: ../plugins/cdrtools/burn-mkisofs.c:534
+#: ../plugins/libburnia/burn-libisofs.c:1046
+msgid "Creates disc images from a file selection"
+msgstr "Sukuria atvaizdžius iš pasirinktų failų"
+
+#: ../plugins/cdrkit/burn-readom.c:136 ../plugins/cdrtools/burn-readcd.c:137
+#, c-format
+msgid ""
+"The location you chose to store the image on does not have enough free space "
+"for the disc image"
+msgstr ""
+"Pasirinktoje vietoje nepakanka laisvos vietos disko atvaizdžiui išsaugoti"
+
+#: ../plugins/cdrkit/burn-readom.c:450 ../plugins/cdrtools/burn-readcd.c:460
+msgid "Copies any disc to a disc image"
+msgstr "Nukopijuoja bet kokį diską į disko atvaizdį"
+
+#: ../plugins/cdrkit/burn-wodim.c:122 ../plugins/cdrtools/burn-cdrecord.c:122
+#: ../plugins/libburnia/burn-libburn.c:855
+#: ../plugins/libburnia/burn-libburn.c:886
+#, c-format
+msgid "An error occurred while writing to disc"
+msgstr "Klaida įrašant į diską"
+
+#: ../plugins/cdrkit/burn-wodim.c:128 ../plugins/cdrtools/burn-cdrecord.c:128
+#, c-format
+msgid ""
+"The system is too slow to write the disc at this speed. Try a lower speed"
+msgstr "Sistema yra per lėta disko įrašymui šiuo greičiu. Pabandykite mažesniu"
+
+#. Translators: %s is the number of the track
+#: ../plugins/cdrkit/burn-wodim.c:255 ../plugins/cdrtools/burn-cdrecord.c:252
+#, c-format
+msgid "Writing track %s"
+msgstr "Rašomas takelis %s"
+
+#: ../plugins/cdrkit/burn-wodim.c:352 ../plugins/cdrtools/burn-cdrecord.c:346
+msgid "Formatting disc"
+msgstr "Formuojamas diskas"
+
+#: ../plugins/cdrkit/burn-wodim.c:372 ../plugins/cdrtools/burn-cdrecord.c:358
+msgid "Writing cue sheet"
+msgstr "Įrašomas cue aprašas"
+
+#: ../plugins/cdrkit/burn-wodim.c:394 ../plugins/cdrtools/burn-cdrecord.c:380
+#, c-format
+msgid "The disc needs to be reloaded before being recorded"
+msgstr "Prieš įrašymą reikia iš naujo įdėti laikmeną"
+
+#: ../plugins/cdrkit/burn-wodim.c:1275
+msgid "Burns, blanks and formats CDs and DVDs"
+msgstr "Įrašo, ištrina ir formatuoja CD ir DVD diskus"
+
+#: ../plugins/cdrkit/burn-wodim.c:1419
+msgid "Enable the \"-immed\" flag (see wodim manual)"
+msgstr "Įjungti parametrą „-immed“ (žr. wodim žinyną)"
+
+#: ../plugins/cdrkit/burn-wodim.c:1422
+msgid "Minimum drive buffer fill ratio (in %) (see wodim manual):"
+msgstr ""
+"Mažiausias galimas įrenginio buferio užpildymo dydis (%) (žr. wodim žinyną):"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1209
+#: ../plugins/libburnia/burn-libburn.c:974
+msgid "Burns, blanks and formats CDs, DVDs and BDs"
+msgstr "Įrašo, ištrina ir formatuoja CD, DVD ir BD diskus"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1422
+msgid "Enable the \"-immed\" flag (see cdrecord manual)"
+msgstr "Įjungti parametrą „-immed“ (žr. cdrecord žinyną)"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1425
+#, c-format
+msgid "Minimum drive buffer fill ratio (in %%) (see cdrecord manual):"
+msgstr ""
+"Mažiausias galimas įrenginio buferio užpildymo dydis (%%) (žr. cdrecord "
+"žinyną):"
+
+#: ../plugins/cdrtools/burn-mkisofs.c:141
+msgid "This version of mkisofs is not supported"
+msgstr "Ši mkisofs versija nepalaikoma"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:292 ../plugins/dvdcss/burn-dvdcss.c:393
+#: ../plugins/dvdcss/burn-dvdcss.c:458 ../plugins/dvdcss/burn-dvdcss.c:481
+#, c-format
+msgid "Error while reading video DVD (%s)"
+msgstr "Klaida skaitant video DVD (%s)"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:337
+msgid "Retrieving DVD keys"
+msgstr "Gaunami DVD raktai"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:372
+#, c-format
+msgid "Video DVD could not be opened"
+msgstr "Atverti video DVD nepavyko"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:400
+msgid "Copying video DVD"
+msgstr "Kopijuojamas vaizdo DVD"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:693
+msgid "Copies CSS encrypted video DVDs to a disc image"
+msgstr "Kopijuoja CSS šifruotus vaizdo DVD į disko atvaizdžius"
+
+#: ../plugins/growisofs/burn-dvd-rw-format.c:190
+msgid "Blanks and formats rewritable DVDs and BDs"
+msgstr "Ištrina ir formatuoja perrašomus DVD ir BD diskus"
+
+#: ../plugins/growisofs/burn-growisofs.c:753
+msgid "Burns and blanks DVDs and BDs"
+msgstr "Įrašo ir ištrina DVD ir BD diskus"
+
+#: ../plugins/growisofs/burn-growisofs.c:924
+msgid "Allow DAO use"
+msgstr "Leisti DAO"
+
+#: ../plugins/libburnia/burn-libburn.c:242
+#: ../plugins/libburnia/burn-libburn.c:250
+#, c-format
+msgid "libburn track could not be created"
+msgstr "Nepavyko sukurti libburn takelio"
+
+#. Translators: first %s is the filename, second %s is the error
+#. * generated from errno
+#. Translators: first %s is the filename, second %s
+#. * is the error generated from errno
+#: ../plugins/libburnia/burn-libburn.c:678
+#: ../plugins/checksum/burn-checksum-image.c:313
+#, c-format
+msgid "\"%s\" could not be opened (%s)"
+msgstr "„%s“ nepavyko atverti (%s)"
+
+#: ../plugins/libburnia/burn-libburn-common.c:158
+#, c-format
+msgid "libburn library could not be initialized"
+msgstr "Nepavyko inicializuoti libburn bibliotekos"
+
+#: ../plugins/libburnia/burn-libburn-common.c:173
+#, c-format
+msgid "The drive address could not be retrieved"
+msgstr "Nepavyko gauti įrenginio adreso"
+
+#: ../plugins/libburnia/burn-libburn-common.c:417
+#, c-format
+msgid "Writing track %02i"
+msgstr "Rašomas takelis %02i"
+
+#: ../plugins/libburnia/burn-libisofs.c:328
+#: ../plugins/libburnia/burn-libisofs.c:868
+#, c-format
+msgid "libisofs could not be initialized."
+msgstr "Nepavyko inicializuoti libisofs."
+
+#: ../plugins/libburnia/burn-libisofs.c:468
+#, c-format
+msgid "Read options could not be created"
+msgstr "Nepavyko sukurti skaitymo parinkčių"
+
+#: ../plugins/libburnia/burn-libisofs.c:554
+#, c-format
+msgid "Volume could not be created"
+msgstr "Nepavyko sukurti skirsnio."
+
+#. Translators: %s is the path
+#: ../plugins/libburnia/burn-libisofs.c:667
+#, c-format
+msgid "No parent could be found in the tree for the path \"%s\""
+msgstr "Nepavyko rasti pirminio (angl. parent) aplanko keliui „%s“"
+
+#: ../plugins/libburnia/burn-libisofs.c:727
+#: ../plugins/libburnia/burn-libisofs.c:794
+#, c-format
+msgid "libisofs reported an error while creating directory \"%s\""
+msgstr "libisofs pranešė apie klaidą kuriant katalogą „%s“"
+
+#: ../plugins/libburnia/burn-libisofs.c:742
+#, c-format
+msgid ""
+"libisofs reported an error while adding contents to directory \"%s\" (%x)"
+msgstr "libisofs pranešė apie klaidą pridedant turinį į katalogą „%s“ (%x)"
+
+#: ../plugins/libburnia/burn-libisofs.c:765
+#: ../plugins/libburnia/burn-libisofs.c:781
+#, c-format
+msgid "libisofs reported an error while adding file at path \"%s\""
+msgstr "libisofs pranešė apie klaidą pridedant failus adresu „%s“"
+
+#: ../plugins/local-track/burn-local-image.c:260
+msgid "Copying checksum file"
+msgstr "Kopijuojamas kontrolinės sumos failas"
+
+#: ../plugins/local-track/burn-local-image.c:544
+#, c-format
+msgid "Copying `%s` locally"
+msgstr "Kopijuojamas „%s“ į kompiuterį"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/local-track/burn-local-image.c:911
+msgid "File Downloader"
+msgstr "Failų atsiuntiklis"
+
+#: ../plugins/local-track/burn-local-image.c:912
+msgid "Allows files not stored locally to be burned"
+msgstr "Leidžia įrašyti failus, esančius ne šiame kompiuteryje"
+
+#. Translators: This message is sent
+#. * when rejilla could not link together
+#. * two gstreamer plugins so that one
+#. * sends its data to the second for further
+#. * processing. This data transmission is
+#. * done through a pad. Maybe this is a bit
+#. * too technical and should be removed?
+#: ../plugins/transcode/burn-normalize.c:199
+#: ../plugins/transcode/burn-normalize.c:260
+#: ../plugins/transcode/burn-transcode.c:318
+#: ../plugins/transcode/burn-transcode.c:356
+#: ../plugins/transcode/burn-transcode.c:553
+#: ../plugins/transcode/burn-transcode.c:663
+#: ../plugins/transcode/burn-transcode.c:694
+#: ../plugins/transcode/burn-transcode.c:715
+#: ../plugins/transcode/burn-vob.c:198 ../plugins/transcode/burn-vob.c:404
+#: ../plugins/transcode/burn-vob.c:564 ../plugins/transcode/burn-vob.c:697
+#: ../plugins/transcode/burn-vob.c:1061 ../plugins/transcode/burn-vob.c:1137
+#: ../plugins/transcode/burn-vob.c:1188
+#, c-format
+msgid "Impossible to link plugin pads"
+msgstr "Nepavyko susieti įskiepių"
+
+#: ../plugins/transcode/burn-normalize.c:556
+msgid "Normalizing tracks"
+msgstr "Normalizuojami takeliai"
+
+#: ../plugins/transcode/burn-normalize.c:646
+msgid "Normalization"
+msgstr "Normalizavimas"
+
+#: ../plugins/transcode/burn-normalize.c:647
+msgid "Sets consistent sound levels between tracks"
+msgstr "Normalizavimas įgalina nustatyti vienodą takelių garsumą"
+
+#. Translators: %s is the string error from errno
+#: ../plugins/transcode/burn-transcode.c:1086
+#: ../plugins/transcode/burn-transcode.c:1274
+#, c-format
+msgid "Error while padding file (%s)"
+msgstr "Klaida papildant failą (%s)"
+
+#: ../plugins/transcode/burn-transcode.c:1350
+#, c-format
+msgid "Error while getting duration"
+msgstr "Klaida gaunant trukmę"
+
+#: ../plugins/transcode/burn-transcode.c:1499
+#, c-format
+msgid "Analysing \"%s\""
+msgstr "Analizuojama „%s“"
+
+#: ../plugins/transcode/burn-transcode.c:1536
+#, c-format
+msgid "Transcoding \"%s\""
+msgstr "Perkoduojama „%s“"
+
+#: ../plugins/transcode/burn-transcode.c:1773
+msgid "Converts any song file into a format suitable for audio CDs"
+msgstr "Perkoduoja bet kokį garso failą į formatą, tinkamą garso CD"
+
+#: ../src/rejilla-split-dialog.c:166
+msgid "Do you really want to split the track?"
+msgstr "Ar tikrai norite suskaidyti takelį?"
+
+#: ../src/rejilla-split-dialog.c:169
+msgid ""
+"If you split the track, the size of the new track will be shorter than 6 "
+"seconds and will be padded."
+msgstr ""
+"Jeigu suskaidysite takelį, naujo takelio trukmė bus mažesnė nei 6 sekundės, "
+"todėl jo trukmė bus pailginta tyla."
+
+#: ../src/rejilla-split-dialog.c:175 ../src/rejilla-split-dialog.c:748
+msgid "_Split"
+msgstr "_Skaidyti"
+
+#: ../src/rejilla-split-dialog.c:603
+msgid "The track wasn't split."
+msgstr "Takelis nebuvo suskaidytas."
+
+#: ../src/rejilla-split-dialog.c:604
+msgid "No silence could be detected"
+msgstr "Nepavyko aptikti tylos tarpelius"
+
+#: ../src/rejilla-split-dialog.c:627
+msgid "An error occurred while detecting silences."
+msgstr "Klaida aptinkant tylos tarpelius."
+
+#: ../src/rejilla-split-dialog.c:706
+msgid "This will remove all previous results."
+msgstr "Bus pašalinti visi ankstesni rezultatai."
+
+#: ../src/rejilla-split-dialog.c:746
+msgid "Do you really want to carry on with automatic splitting?"
+msgstr "Ar tikrai norite tęsti naudodami automatinį skaidymą?"
+
+#: ../src/rejilla-split-dialog.c:747
+msgid "_Don't split"
+msgstr "_Neskaidyti"
+
+#: ../src/rejilla-split-dialog.c:965
+msgid "Do you really want to empty the slices preview?"
+msgstr "Ar tikrai norite išvalyti skilčių peržiūrą?"
+
+#: ../src/rejilla-split-dialog.c:967 ../src/rejilla-split-dialog.c:1267
+msgid "Re_move All"
+msgstr "Pašali_nti visus"
+
+#: ../src/rejilla-split-dialog.c:1053
+msgid "Split Track"
+msgstr "Skaidyti takelį"
+
+#: ../src/rejilla-split-dialog.c:1070
+msgid "M_ethod:"
+msgstr "_Būdas:"
+
+#: ../src/rejilla-split-dialog.c:1076
+msgid "Method to be used to split the track"
+msgstr "Takelio suskaidymo būdas"
+
+#: ../src/rejilla-split-dialog.c:1079
+msgid "Split track manually"
+msgstr "Suskaidyti takelį rankiniu būdu"
+
+#: ../src/rejilla-split-dialog.c:1080
+msgid "Split track in parts with a fixed length"
+msgstr "Suskaidyti takelį fiksuoto ilgio dalimis"
+
+#: ../src/rejilla-split-dialog.c:1081
+msgid "Split track in a fixed number of parts"
+msgstr "Suskaidyti takelį į fiksuotą dalių skaičių"
+
+#: ../src/rejilla-split-dialog.c:1082
+msgid "Split track for each silence"
+msgstr "Suskaidyti takelį ties kiekviena tyla"
+
+#: ../src/rejilla-split-dialog.c:1088
+msgid "_Slice"
+msgstr "_Skaidyti"
+
+#: ../src/rejilla-split-dialog.c:1099
+msgid "Add a splitting point"
+msgstr "Pridėti skaidymo tašką"
+
+#. Translators: this goes with the next (= "seconds")
+#: ../src/rejilla-split-dialog.c:1116
+msgid "Split this track every"
+msgstr "Skaidyti šį takelį kas"
+
+#. Translators: this goes with the previous (= "Split track every")
+#: ../src/rejilla-split-dialog.c:1125
+msgid "seconds"
+msgstr "sekundes"
+
+#. Translators: this goes with the next (= "parts")
+#: ../src/rejilla-split-dialog.c:1134
+msgid "Split this track in"
+msgstr "Skaidyti šį takelį į"
+
+#. Translators: this goes with the previous (= "Split this track in")
+#: ../src/rejilla-split-dialog.c:1143
+msgid "parts"
+msgstr "dalis"
+
+#: ../src/rejilla-split-dialog.c:1151
+msgid "Slicing Method"
+msgstr "Skaidymo metodas"
+
+#: ../src/rejilla-split-dialog.c:1209
+msgid "Start"
+msgstr "Pradžia"
+
+#: ../src/rejilla-split-dialog.c:1216
+msgid "End"
+msgstr "Pabaiga"
+
+#: ../src/rejilla-split-dialog.c:1239
+msgid "Mer_ge"
+msgstr "Su_jungti"
+
+#: ../src/rejilla-split-dialog.c:1250
+msgid "Merge a selected slice with the next selected one"
+msgstr "Sujungti pasirinktą gabalėlį su kitu"
+
+#: ../src/rejilla-split-dialog.c:1264
+msgid "Remove the selected slices"
+msgstr "Pašalinti pasirinktus gabalėlius"
+
+#: ../src/rejilla-split-dialog.c:1278
+msgid "Clear the slices preview"
+msgstr "Išvalyti gabalėlių peržiūrą"
+
+#: ../src/rejilla-split-dialog.c:1288
+msgid "_List of slices that are to be created:"
+msgstr "_Sukurtinų gabalėlių sąrašas:"
+
+#: ../src/rejilla-split-dialog.c:1296
+msgid "Slices Preview"
+msgstr "Gabalėlių peržiūra"
+
+#: ../src/rejilla-time-button.c:287
+msgid "Hours"
+msgstr "Valandos"
+
+#. Translators: separating hours and minutes
+#. Translators: separating minutes and seconds
+#. Translators: separating seconds and frames
+#: ../src/rejilla-time-button.c:292 ../src/rejilla-time-button.c:302
+#: ../src/rejilla-time-button.c:312
+msgid ":"
+msgstr ":"
+
+#: ../src/rejilla-time-button.c:297
+msgid "Minutes"
+msgstr "Minutės"
+
+#: ../src/rejilla-time-button.c:307
+msgid "Seconds"
+msgstr "Sekundės"
+
+#: ../src/rejilla-time-button.c:317
+msgid "Frames (1 second = 75 frames)"
+msgstr "Kadrai (1 sekundė = 75 kadrai)"
+
+#: ../plugins/cdrkit/burn-cdrkit.h:38
+msgid "cdrkit burning suite"
+msgstr "cdrkit įrašymo rinkinys"
+
+#: ../plugins/libburnia/burn-libburnia.h:38
+msgid "libburnia burning suite"
+msgstr "libburnia įrašymo rinkinys"
+
+#: ../plugins/growisofs/burn-growisofs-common.h:38
+msgid "growisofs burning suite"
+msgstr "growisofs įrašymo rinkinys"
+
+#: ../plugins/cdrtools/burn-cdrtools.h:38
+msgid "cdrtools burning suite"
+msgstr "cdrtools įrašymo rinkinys"
+
+#: ../src/rejilla-eject-dialog.c:95
+#, c-format
+msgid "The disc in \"%s\" cannot be ejected"
+msgstr "Disko, esančio įrenginyje „%s“, negalima išimti"
+
+#: ../src/rejilla-eject-dialog.c:190
+msgid "_Eject"
+msgstr "Iši_mti"
+
+#: ../src/rejilla-eject-dialog.c:205
+msgid "Eject Disc"
+msgstr "Išimti diską"
+
+#: ../src/rejilla-file-filtered.c:75 ../src/rejilla-file-filtered.c:81
+msgid "No file filtered"
+msgstr "Nufiltruotų failų nėra"
+
+#: ../src/rejilla-file-filtered.c:77
+#, c-format
+msgid "Hide the _filtered file list (%d file)"
+msgid_plural "Hide the _filtered file list (%d files)"
+msgstr[0] "Paslėpti _filtruotų failų sąrašą (%d failas)"
+msgstr[1] "Paslėpti _filtruotų failų sąrašą (%d failai)"
+msgstr[2] "Paslėpti _filtruotų failų sąrašą (%d failų)"
+
+#: ../src/rejilla-file-filtered.c:83
+#, c-format
+msgid "Show the _filtered file list (%d file)"
+msgid_plural "Show the _filtered file list (%d files)"
+msgstr[0] "Rodyti _filtruotų failų sąrašą (%d failas)"
+msgstr[1] "Rodyti _filtruotų failų sąrašą (%d failai)"
+msgstr[2] "Rodyti _filtruotų failų sąrašą (%d failų)"
+
+#: ../src/rejilla-file-filtered.c:138
+msgid "Filter Options"
+msgstr "Filtravimo parinktys"
+
+#: ../src/rejilla-file-filtered.c:221
+msgid ""
+"Select the files you want to restore and click on the \"Restore\" button"
+msgstr "Pasirinkite atstatytinus failus ir spustelėkite mygtuką „Atstatyti“"
+
+#: ../src/rejilla-file-filtered.c:268
+msgid "Type"
+msgstr "Tipas"
+
+#: ../src/rejilla-file-filtered.c:295
+msgid "_Restore"
+msgstr "_Atstatyti"
+
+#: ../src/rejilla-file-filtered.c:304
+msgid "Restore the selected files"
+msgstr "Atstatyti pasirinktus failus"
+
+#: ../src/rejilla-file-filtered.c:306
+msgid "_Options…"
+msgstr "_Parinktys…"
+
+#: ../src/rejilla-file-filtered.c:314
+msgid "Set the options for file filtering"
+msgstr "Nurodyti failų filtravimo parinktis"
+
+#. filter hidden files
+#: ../src/rejilla-filter-option.c:63
+msgid "Filter _hidden files"
+msgstr "Filtruoti _paslėptus failus"
+
+#. replace symlink
+#: ../src/rejilla-filter-option.c:70
+msgid "Re_place symbolic links"
+msgstr "Pa_keisti simbolines nuorodas"
+
+#. filter broken symlink button
+#: ../src/rejilla-filter-option.c:77
+msgid "Filter _broken symbolic links"
+msgstr "Filtruoti _sugadintas simbolines nuorodas"
+
+#: ../src/rejilla-filter-option.c:83
+msgid "Filtering options"
+msgstr "Filtravimo parinktys"
+
+#: ../plugins/checksum/burn-checksum-files.c:131
+#: ../plugins/checksum/burn-checksum-files.c:589
+#, c-format
+msgid "File \"%s\" could not be opened (%s)"
+msgstr "Failo „%s“ nepavyko atverti (%s)"
+
+#: ../plugins/checksum/burn-checksum-files.c:617
+msgid "Creating checksum for image files"
+msgstr "Kuriama atvaizdžių failų kontrolinė suma"
+
+#: ../plugins/checksum/burn-checksum-files.c:859
+#, c-format
+msgid "No checksum file could be found on the disc"
+msgstr "Diske nerasta kontrolinės sumos failo"
+
+#: ../plugins/checksum/burn-checksum-files.c:893
+msgid "Checking file integrity"
+msgstr "Tikrinamas failų vientisumas"
+
+#: ../plugins/checksum/burn-checksum-files.c:987
+#: ../plugins/checksum/burn-checksum-files.c:1012
+#, c-format
+msgid "File \"%s\" could not be opened"
+msgstr "Failo „%s“ nepavyko atverti"
+
+#: ../plugins/checksum/burn-checksum-files.c:1085
+#: ../plugins/checksum/burn-checksum-files.c:1206
+#: ../plugins/checksum/burn-checksum-image.c:550
+#, c-format
+msgid "Some files may be corrupted on the disc"
+msgstr "Kai kurie failai diske gali būti sugadinti"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/checksum/burn-checksum-files.c:1479
+msgid "File Checksum"
+msgstr "Failo kontrolinė suma"
+
+#: ../plugins/checksum/burn-checksum-files.c:1480
+msgid "Checks file integrities on a disc"
+msgstr "Patikrina diske esančių failų vientisumą"
+
+#: ../plugins/checksum/burn-checksum-files.c:1518
+#: ../plugins/checksum/burn-checksum-image.c:856
+msgid "Hashing algorithm to be used:"
+msgstr "Naudotinas maišos algoritmas:"
+
+#: ../plugins/checksum/burn-checksum-files.c:1521
+#: ../plugins/checksum/burn-checksum-image.c:859
+msgid "MD5"
+msgstr "MD5"
+
+#: ../plugins/checksum/burn-checksum-files.c:1523
+#: ../plugins/checksum/burn-checksum-image.c:861
+msgid "SHA1"
+msgstr "SHA1"
+
+#: ../plugins/checksum/burn-checksum-files.c:1525
+#: ../plugins/checksum/burn-checksum-image.c:863
+msgid "SHA256"
+msgstr "SHA256"
+
+#: ../plugins/checksum/burn-checksum-image.c:359
+#: ../plugins/checksum/burn-checksum-image.c:456
+msgid "Creating image checksum"
+msgstr "Kuriama atvaizdžio kontrolinė suma"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/checksum/burn-checksum-image.c:831
+msgid "Image Checksum"
+msgstr "Atvaizdžių kontrolinės sumos"
+
+#: ../plugins/checksum/burn-checksum-image.c:832
+msgid "Checks disc integrity after it is burnt"
+msgstr "Patikrina disko vientisumą po įrašymo"
+
+#: ../src/rejilla-multi-song-props.c:89 ../src/rejilla-multi-song-props.c:97
+#: ../src/rejilla-multi-song-props.c:105 ../src/rejilla-multi-song-props.c:123
+#: ../src/rejilla-multi-song-props.c:139 ../src/rejilla-multi-song-props.c:160
+#: ../src/rejilla-multi-song-props.c:173 ../src/rejilla-multi-song-props.c:249
+#: ../src/rejilla-multi-song-props.c:270 ../src/rejilla-multi-song-props.c:291
+#: ../src/rejilla-rename.c:90 ../src/rejilla-rename.c:319
+msgid "<Keep current values>"
+msgstr "<Palikti dabartines reikšmes>"
+
+#: ../src/rejilla-multi-song-props.c:126 ../src/rejilla-multi-song-props.c:143
+msgid "Remove silences"
+msgstr "Pašalinti tylos tarpus"
+
+#: ../src/rejilla-multi-song-props.c:213
+msgid "Song titles"
+msgstr "Dainų pavadinimai"
+
+#: ../src/rejilla-multi-song-props.c:230
+msgid "Additional song information"
+msgstr "Papildoma dainų informacija"
+
+#: ../src/rejilla-rename.c:320
+msgid "Insert text"
+msgstr "Įterpti tekstą"
+
+#: ../src/rejilla-rename.c:321
+msgid "Delete text"
+msgstr "Trinti tekstą"
+
+#: ../src/rejilla-rename.c:322
+msgid "Substitute text"
+msgstr "Pakeisti tekstą"
+
+#: ../src/rejilla-rename.c:323
+msgid "Number files according to a pattern"
+msgstr "Numeruoti failus pagal šabloną"
+
+#: ../src/rejilla-rename.c:324
+msgid "Insert number sequence at beginning"
+msgstr "Įterpti skaičių seką pradžioje"
+
+#. Translators: This is a verb. This is completed later
+#: ../src/rejilla-rename.c:339
+msgid "Insert"
+msgstr "Įterpti"
+
+#. Translators: This finishes previous action "Insert". It goes like
+#. * this: "Insert" [Entry] "at the beginning".
+#: ../src/rejilla-rename.c:353
+msgid "at the beginning"
+msgstr "pradžioje"
+
+#. Translators: This finishes previous action "Insert". It goes like
+#. * this: "Insert" [Entry] "at the end".
+#: ../src/rejilla-rename.c:357
+msgid "at the end"
+msgstr "pabaigoje"
+
+#: ../src/rejilla-rename.c:368
+msgid "Delete every occurrence of"
+msgstr "Trinti kiekvieną pasikartojimą"
+
+#. Reminder: if this string happens to be used somewhere else in rejilla
+#. * we'll need a context with C_() macro
+#. Translators: this goes with above verb to say "_Replace" [Entry]
+#. * "with" [Entry].
+#: ../src/rejilla-rename.c:398
+msgid "with"
+msgstr "su"
+
+#: ../src/rejilla-rename.c:412
+msgid "Rename to"
+msgstr "Pervadinti į"
+
+#: ../src/rejilla-rename.c:421
+msgid "{number}"
+msgstr "{skaičius}"
+
+#: ../src/rejilla-video-disc.c:101
+msgid "Open the selected video"
+msgstr "Atverti pasirinktą vaizdo įrašą"
+
+#: ../src/rejilla-video-disc.c:103
+msgid "Edit the video information (start, end, author, etc.)"
+msgstr "Keisti vaizdo įrašo informaciją (pradžią, pabaigą, autorių…)"
+
+#: ../src/rejilla-video-disc.c:105
+msgid "Remove the selected videos from the project"
+msgstr "Pašalinti pasirinktus vaizdo įrašus iš projekto"
+
+#: ../src/rejilla-video-disc.c:359
+msgid "Do you want to search for video files inside the directory?"
+msgstr "Ar norite aplanke ieškoti vaizdo įrašų failų?"
+
+#: ../src/rejilla-video-disc.c:369
+msgid "_Search Directory"
+msgstr "_Ieškoti aplanke"
+
+#: ../src/rejilla-video-disc.c:412
+#, c-format
+msgid "\"%s\" does not have a suitable type for video projects."
+msgstr "„%s“ nėra vaizdo įrašų projektams tinkamo tipo."
+
+#: ../src/rejilla-video-disc.c:415
+msgid "Please only add files with video content"
+msgstr "Įdėkite tik vaizdo įrašus"
+
+#: ../plugins/dvdauthor/burn-dvdauthor.c:316
+#: ../plugins/vcdimager/burn-vcdimager.c:444
+msgid "Creating file layout"
+msgstr "Kuriamas failų išdėstymas"
+
+#: ../plugins/dvdauthor/burn-dvdauthor.c:374
+msgid "Creates disc images suitable for video DVDs"
+msgstr "Sukuria disko atvaizdį, tinkamą vaizdo DVD"
+
+#: ../plugins/transcode/burn-vob.c:1273
+msgid "Converting video file to MPEG2"
+msgstr "Konvertuojamas vaizdo įrašas į MPEG2"
+
+#: ../plugins/transcode/burn-vob.c:1376
+msgid "Converts any video file into a format suitable for video DVDs"
+msgstr "Konvertuoja bet kokį vaizdo įrašą į formatą, tinkamą vaizdo DVD"
+
+#: ../plugins/vcdimager/burn-vcdimager.c:484
+msgid "Creates disc images suitable for SVCDs"
+msgstr "Sukuria disko atvaizdį, tinkamą SVCD"
+
+#~ msgid "by"
+#~ msgstr "šiuo"
+
+#~ msgid "Directories cannot be added to an audio disc."
+#~ msgstr "Negalima įdėti aplankų į garso diską."
+
+#~ msgid "Name:"
+#~ msgstr "Pavadinimas:"
+
+#~ msgid ""
+#~ "<span weight=\"bold\">Size:</span>\t<i><span size=\"smaller\"> %i × %i "
+#~ "pixels</span></i>"
+#~ msgstr ""
+#~ "<span weight=\"bold\">Dydis:</span>\t<i><span size=\"smaller\"> %i × %i "
+#~ "taškų</span></i>"
+
+#~ msgid ""
+#~ "<span weight=\"bold\">%s</span>\n"
+#~ "by <span size=\"smaller\"><i>%s</i></span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\">%s</span>\n"
+#~ "atlieka <span size=\"smaller\"><i>%s</i></span>"
+
+#~ msgid ""
+#~ "<span weight=\"bold\">Loading information</span>\n"
+#~ "about <span size=\"smaller\"><i>%s</i></span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\">Įkeliama informacija</span>\n"
+#~ "apie <span size=\"smaller\"><i>%s</i></span>"
+
+#~ msgid ""
+#~ "Do you really want to create a new project and discard the changes to "
+#~ "current one?"
+#~ msgstr ""
+#~ "Ar tikrai norite sukurti naują projektą ir atsisakyti dabartinių "
+#~ "pakeitimų?"
+
+#~ msgid "An error occured while writing to disc"
+#~ msgstr "Klaida įrašant į diską"
+
+#~ msgid "Error reading video DVD (%s)"
+#~ msgstr "Klaida skaitant video DVD (%s)"
+
+#~ msgid "Directories cannot be added to video discs."
+#~ msgstr "Įdėti aplankų į video diskus negalima."
+
+#~ msgid "Rejilla Disc Copier"
+#~ msgstr "Rejilla diskų kopijuoklis"
+
+#~ msgid "Copy CDs and DVDs"
+#~ msgstr "Kopijuoti CD ar DVD diskus"
+
+#~ msgid "Disc Copier"
+#~ msgstr "Diskų kopijuoklis"
+
+#~ msgid "Rejilla - Creating Image"
+#~ msgstr "Rejilla – Kuriamas atvaizdis"
+
+#~ msgid "Rejilla - Burning DVD (Simulation)"
+#~ msgstr "Rejilla – Rašomas DVD (imitavimas)"
+
+#~ msgid "Rejilla - Burning DVD"
+#~ msgstr "Rejilla – Rašomas DVD"
+
+#~ msgid "Burning DVD (Simulation)"
+#~ msgstr "Rašomas DVD (imitavimas)"
+
+#~ msgid "Rejilla - Copying DVD (Simulation)"
+#~ msgstr "Rejilla – Kopijuojamas DVD (imitavimas)"
+
+#~ msgid "Rejilla - Copying DVD"
+#~ msgstr "Rejilla – Kopijuojamas DVD"
+
+#~ msgid "Rejilla - Burning CD (Simulation)"
+#~ msgstr "Rejilla – Rašomas CD (imitavimas)"
+
+#~ msgid "Rejilla - Burning CD"
+#~ msgstr "Rejilla – Rašomas CD"
+
+#~ msgid "Rejilla - Copying CD (Simulation)"
+#~ msgstr "Rejilla – Kopijuojamas CD (imitavimas)"
+
+#~ msgid "Rejilla - Copying CD"
+#~ msgstr "Rejilla – Kopijuojamas CD"
+
+#~ msgid "Rejilla - Burning disc (Simulation)"
+#~ msgstr "Rejilla – Rašomas diskas (imitavimas)"
+
+#~ msgid "Rejilla - Burning disc"
+#~ msgstr "Rejilla – Rašomas diskas"
+
+#~ msgid "Rejilla - Burning Disc (Simulation)"
+#~ msgstr "Rejilla – Rašomas diskas (imitavimas)"
+
+#~ msgid "Rejilla - Burning Disc"
+#~ msgstr "Rejilla – Rašomas diskas"
+
+#~ msgid "Rejilla - Copying Disc (Simulation)"
+#~ msgstr "Rejilla – Kopijuojamas diskas (imitavimas)"
+
+#~ msgid "Rejilla - Copying Disc"
+#~ msgstr "Rejilla – Kopijuojamas diskas"
+
+#~ msgid "Appending new files to a multisession disc is not advised."
+#~ msgstr "Pridėti naujų failų į daugiaseansį diską nepatariama."
+
+#~ msgid "Rejilla - Creating Image (%i%% Done)"
+#~ msgstr "Rejilla – Kuriamas atvaizdis (atlikta %i%%)"
+
+#~ msgid "Rejilla - Copying DVD (%i%% Done)"
+#~ msgstr "Rejilla – Kopijuojamas DVD (atlikta %i%%)"
+
+#~ msgid "Rejilla - Burning DVD (%i%% Done)"
+#~ msgstr "Rejilla – Rašomas DVD (atlikta %i%%)"
+
+#~ msgid "Rejilla - Copying CD (%i%% Done)"
+#~ msgstr "Rejilla – Kopijuojamas CD (atlikta %i%%)"
+
+#~ msgid "Rejilla - Burning CD (simulation)"
+#~ msgstr "Rejilla – Rašomas CD (imitavimas)"
+
+#~ msgid "Rejilla - Burning CD (%i%% Done)"
+#~ msgstr "Rejilla – Rašomas CD (atlikta %i%%)"
+
+#~ msgid "Rejilla - Copying Disc (%i%% Done)"
+#~ msgstr "Rejilla – Kopijuojamas diskas (atlikta %i%%)"
+
+#~ msgid "Rejilla - Burning Disc (%i%% Done)"
+#~ msgstr "Rejilla – Rašomas diskas (atlikta %i%%)"
+
+#~ msgid "Session Log"
+#~ msgstr "Seanso žurnalas"
+
+#~ msgid "The session log cannot be displayed."
+#~ msgstr "Seanso žurnalo nepavyko parodyti."
+
+#~ msgid "The log file could not be found"
+#~ msgstr "Žurnalo failo nepavyko surasti"
+
+#~ msgid ""
+#~ "This is a excerpt from the session log (the last 10 MiB):\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Ištrauka iš seanso žurnalo (paskutinieji 10 MiB):\n"
+#~ "\n"
+
+#~ msgid "_View Log"
+#~ msgstr "_Peržiūrėti žurnalą"
+
+#~ msgid "There is no recordable disc inserted."
+#~ msgstr "Neįdėtas įrašomas diskas."
+
+#~ msgid "Such a disc cannot be copied without the proper plugins."
+#~ msgstr "Tokio disko neina perkopijuoti be tinkamo įskiepio. "
+
+#~ msgid "It is not possible to write with the current set of plugins."
+#~ msgstr "Neina įrašyti naudojant esamus įskiepius."
+
+#~ msgid "CD/DVD Copy Options"
+#~ msgstr "CD/DVD kopijavimo nustatymai"
+
+#~ msgid "The drive cannot burn or the disc cannot be burnt"
+#~ msgstr "Šis įrenginys negali įrašyti arba diskas yra neįrašomas"
+
+#~ msgid "_Eject after burning"
+#~ msgstr "_Išimti po įrašymo"
+
+#~ msgid "_Show errors"
+#~ msgstr "_Rodyti klaidas"
+
+#~ msgid "Close this notification window"
+#~ msgstr "Užverti šį pranešimo langą"
+
+#~ msgid "_Write to Disc..."
+#~ msgstr "_Rašyti į diską..."
+
+#~ msgid "_Blank Disc..."
+#~ msgstr "_Ištrinti diską..."
+
+#~ msgid "_Blank..."
+#~ msgstr "_Trinti..."
+
+#~ msgid "Default height for image preview."
+#~ msgstr "Numatytasis paveikslėlių peržiūros dydis."
+
+#~ msgid "Default height for video preview."
+#~ msgstr "Numatytasis video peržiūros aukštis."
+
+#~ msgid "Default width for image preview."
+#~ msgstr "Numatytasis paveikslėlių peržiūros plotis."
+
+#~ msgid "Default width for video preview."
+#~ msgstr "Numatytasis video peržiūros plotis."
+
+#~ msgid "Enable side pane"
+#~ msgstr "Rodyti šoninį polangį"
+
+#~ msgid "Height for video preview"
+#~ msgstr "Video peržiūros aukštis"
+
+#~ msgid "Height of image preview"
+#~ msgstr "Paveikslėlių peržiūros aukštis"
+
+#~ msgid "Layout of UI"
+#~ msgstr "UI išdėstymas"
+
+#~ msgid "Pane to display audio projects"
+#~ msgstr "Garso projektams rodomas polangis"
+
+#~ msgid "Pane to display data projects"
+#~ msgstr "Duomenų projektams rodomas polangis"
+
+#~ msgid "Pane to display video projects"
+#~ msgstr "Video projektams rodomas polangis"
+
+#~ msgid "Should rejilla notify when files are filtered"
+#~ msgstr "Ar Rejilla turėtų pranešti, kai failai nufiltruojami"
+
+#~ msgid ""
+#~ "Should rejilla notify when files are filtered. Set to true, rejilla will "
+#~ "display the notification."
+#~ msgstr ""
+#~ "Ar Rejilla turėtų pranešti, kai failai nufiltruojami. Jei reikšmė "
+#~ "teigiama, Rejilla pranešimus rodys."
+
+#~ msgid ""
+#~ "The pane to display with audio projects. It should be one of the "
+#~ "following: \"Chooser\", \"Search\" or \"Playlist\"."
+#~ msgstr ""
+#~ "Garso projektams rodomas polangis. Jis turėtų būti vienas iš šių: "
+#~ "„Chooser“, „Search“ arba „Playlist“."
+
+#~ msgid ""
+#~ "The pane to display with data projects. It should be one of the "
+#~ "following: \"Chooser\" or \"Search\"."
+#~ msgstr ""
+#~ "Duomenų projektams rodomas polangis. Jis turėtų būti vienas iš šių: "
+#~ "„Chooser“ arba „Search“."
+
+#~ msgid ""
+#~ "The pane to display with video projects. It should be one of the "
+#~ "following: \"Chooser\", \"Search\" or \"Playlist\"."
+#~ msgstr ""
+#~ "Video projektams rodomas polangis. Jis turėtų būti vienas iš šių:"
+#~ "„Chooser“, „Search“ arba „Playlist“."
+
+#~ msgid ""
+#~ "This key sets where the project pane should be (0 = on the right, 1 = on "
+#~ "the left, 2 = at the top, 3 = at the bottom)"
+#~ msgstr ""
+#~ "Šiame rakte nustatoma, kur turėtų būti projekto polangis (0 = dešinėje, 1 "
+#~ "= kairėje, 2 = viršuje, 3 = apačioje)"
+
+#~ msgid "Whether to display a side pane. Set to true to use it."
+#~ msgstr "Ar rodyti šoninį polangį. Teigiama reikšmė - rodyti."
+
+#~ msgid "Width for image preview"
+#~ msgstr "Peržiūros lango plotis"
+
+#~ msgid "Width for video preview"
+#~ msgstr "Video peržiūros plotis"
+
+#~ msgid "_Split Track..."
+#~ msgstr "_Padalinti takelį..."
+
+#~ msgid "R_ename..."
+#~ msgstr "P_ervadinti..."
+
+#~ msgid "_Burn..."
+#~ msgstr "_Rašyti..."
+
+#~ msgid "To add files to this project you can:"
+#~ msgstr "Failus į projektą galima įdėti šiais būdais:"
+
+#~ msgid "click the \"Add\" button to show a selection dialog"
+#~ msgstr ""
+#~ "spustelint mygtuką „Pridėti“ ir pasirinkimo lange pasirenkant failus ar "
+#~ "aplankus"
+
+#~ msgid "select files in the selection pane and click the \"Add\" button"
+#~ msgstr ""
+#~ "pasirenkant failus pasirinkimo polangyje ir spustelint mygtuką „Pridėti“"
+
+#~ msgid ""
+#~ "drag files in this area from the selection pane or from the file manager"
+#~ msgstr "čia atitempiant failus iš pasirinkimo polangio ar failų naršyklės"
+
+#~ msgid "double click on files in the selection pane"
+#~ msgstr "du kartus spustelint failus pasirinkimo polangyje"
+
+#~ msgid "copy files (from file manager for example) and paste in this area"
+#~ msgstr ""
+#~ "nukopijuojant failus (pvz., iš failų naršyklės) ir įdedant juos šioje "
+#~ "srityje"
+
+#~ msgid "To remove files from this project you can:"
+#~ msgstr "Pašalinti failus iš projekto galima:"
+
+#~ msgid "click on the \"Remove\" button to remove selected items in this area"
+#~ msgstr ""
+#~ "šioje srityje pasirinkant elementus ir spustelint mygtuką „Pašalinti“"
+
+#~ msgid "select items in this area, and choose \"Remove\" from context menu"
+#~ msgstr ""
+#~ "šioje srityje pasirenkant elementus ir paspaudžiant „Pašalinti“ "
+#~ "kontekstiniame meniu "
+
+#~ msgid "select items in this area, and press \"Delete\" key"
+#~ msgstr ""
+#~ "pasirenkant šioje srityje elementus ir paspaudžiant klavišą „Delete“"
+
+#~ msgid "Project estimated size: %s"
+#~ msgstr "Apskaičiuotas projekto dydis: %s"
+
+#~ msgid ""
+#~ "If you choose to create a new project, all files already added will be "
+#~ "discarded. Note that files will not be deleted from their own location, "
+#~ "just no longer listed here."
+#~ msgstr ""
+#~ "Jeigu pasirinksite sukurti naują projektą, visų jau pridėtų failų bus "
+#~ "atsisakyta. Atminkite, kad failai nebus ištrinti iš disko, tiesiog jie "
+#~ "nebebus rodomi čia."
+
+#~ msgid "Save project as an IRIVER playlist"
+#~ msgstr "Išsaugoti projektą kaip IRIVER grojaraštį"
+
+#~ msgid "_Open..."
+#~ msgstr "_Atverti..."
+
+#~ msgid "PATH TO PLAYLIST"
+#~ msgstr "GROJARAŠČIO KELIAS"
+
+#~ msgid "Your version of cdrdao does not seem to be supported by librejilla"
+#~ msgstr "Panašu, jog librejilla nepalaiko cdrdao versijos"
+
+#~ msgid "Use cdrdao to copy and burn CDs"
+#~ msgstr "Naudoti cdrdao CD diskų kopijavimui ir įrašymui"
+
+#~ msgid "Toc2cue converts .toc files into .cue files"
+#~ msgstr "Toc2cue konvertuoja .toc failus į .cue failus"
+
+#~ msgid "Use genisoimage to create images from a file selection"
+#~ msgstr "Naudoti genisoimage atvaizdžių kūrimui iš pasirinktų failų"
+
+#~ msgid "Use readom to create disc images"
+#~ msgstr "Naudoti readom disko atvaizdžių kūrimui"
+
+#~ msgid "Use wodim to burn CDs and DVDs"
+#~ msgstr "CD ir DVD diskų įrašymui naudoti wodim"
+
+#~ msgid "Use cdrecord to burn CDs and DVDs"
+#~ msgstr "CD ir DVD diskų įrašymui naudoti cdrecord"
+
+#~ msgid "Encrypted DVD: please install libdvdcss version 1.2.x"
+#~ msgstr "Užšifruotas DVD: įdiekite libdvdcss versiją 1.2.x"
+
+#~ msgid ""
+#~ "Libdvdcss version %s is not supported.\n"
+#~ "Please install libdvdcss version 1.2.x"
+#~ msgstr ""
+#~ "Libdvdcss versija %s nepalaikoma.\n"
+#~ "Įdiekite libdvdcss versiją 1.2.x"
+
+#~ msgid "Libdvdcss could not be loaded properly"
+#~ msgstr "Nepavyko pilnai įkelti libdvdcss"
+
+#~ msgid "Dvdcss allows to read css encrypted video DVDs"
+#~ msgstr "Dvdcss leidžia skaityti css užšifruotus video DVD diskus"
+
+#~ msgid "Dvd+rw-format blanks and formats DVD+/-R(W)"
+#~ msgstr "Dvd+rw-format ištrina ir suformatuoja DVD+/-R(W)"
+
+#~ msgid "Growisofs burns DVDs"
+#~ msgstr "Growisofs įrašo DVD diskus"
+
+#~ msgid "Libburn burns CD(RW), DVD+/-(RW)"
+#~ msgstr "libburn įrašo CD(RW), DVD+/-(RW)"
+
+#~ msgid "Libisofs creates disc images from files"
+#~ msgstr "Libisofs iš failų sukuria disko atvaizdžius"
+
+#~ msgid ""
+#~ "Transcode converts song files into a format proper to burn them on CDs"
+#~ msgstr ""
+#~ "„Transcode“ konvertuoja garso failus į formatą, tinkamą įrašyti į CD"
+
+#~ msgid "_Options..."
+#~ msgstr "_Nustatymai..."
+
+#~ msgid "Use dvdauthor to create Video DVDs"
+#~ msgstr "Naudoti dvdauthor video DVD įrašymui"
+
+#~ msgid "Use vcdimager to create SVCDs"
+#~ msgstr "Naudoti vcdimager SVCD įrašymui"
+
+#~ msgid "Increase compatibility with _Windows systems"
+#~ msgstr "Padidinti suderinamumą su _Windows sistemomis"
+
+#~ msgid ""
+#~ "Improve compatibility with Windows systems by allowing to display long "
+#~ "filenames (maximum 64 characters)"
+#~ msgstr ""
+#~ "Pagerinti suderinamumą su Windows sistemomis leidžiant rodyti ilgus "
+#~ "pavadinimus (daugiausiai 64 simboliai)"
+
+#~ msgid "Disc options"
+#~ msgstr "Disko nustatymai"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "_Erase Disc"
+#~ msgstr "_Ištrinti diską"
+
+#~ msgid "You might not be able to listen to it with stereos."
+#~ msgstr "Gali būti, jog negalėsite jo klausytis muzikos grotuvuose."
+
+#~ msgid ""
+#~ "This file is the image of a disc and can therefore be burnt to disc "
+#~ "without having to add it to a data project first."
+#~ msgstr ""
+#~ "Šis failas yra disko atvaizdis, todėl jį galima rašyti į diską ir "
+#~ "neįdėjus į duomenų projektą. "
+
+#~ msgid "_Add to Project"
+#~ msgstr "_Įtraukti į projektą"
+
+#~ msgid "Unknown"
+#~ msgstr "Nežinoma"
+
+#~ msgid "_Temporary directory free space:"
+#~ msgstr "_Laikinojo aplanko laisva vieta:"

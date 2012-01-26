@@ -1,0 +1,339 @@
+<!-- ##### SECTION Title ##### -->
+rejilla-media
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO LIBREJILLA_MEDIA_VERSION_MAJOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO LIBREJILLA_MEDIA_VERSION_MINOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO LIBREJILLA_MEDIA_VERSION_MICRO ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO LIBREJILLA_MEDIA_AGE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO LIBREJILLA_MEDIA_INSTALL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION rejilla_media_library_start ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION rejilla_media_library_stop ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION rejilla_media_get_option_group ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_media_quark ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### MACRO REJILLA_MEDIA_ERROR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### ENUM RejillaMediaError ##### -->
+<para>
+
+</para>
+
+@REJILLA_MEDIA_ERROR_NONE: 
+@REJILLA_MEDIA_ERROR_GENERAL: 
+@REJILLA_MEDIA_ERROR_IMAGE_INVALID: 
+
+<!-- ##### ENUM RejillaMedia ##### -->
+<para>
+
+</para>
+
+@REJILLA_MEDIUM_UNSUPPORTED: 
+@REJILLA_MEDIUM_BUSY: 
+@REJILLA_MEDIUM_NONE: 
+@REJILLA_MEDIUM_FILE: 
+@REJILLA_MEDIUM_CD: 
+@REJILLA_MEDIUM_DVD: 
+@REJILLA_MEDIUM_BD: 
+@REJILLA_MEDIUM_DUAL_L: 
+@REJILLA_MEDIUM_RAM: 
+@REJILLA_MEDIUM_PLUS: 
+@REJILLA_MEDIUM_SEQUENTIAL: 
+@REJILLA_MEDIUM_RESTRICTED: 
+@REJILLA_MEDIUM_JUMP: 
+@REJILLA_MEDIUM_RANDOM: 
+@REJILLA_MEDIUM_SRM: 
+@REJILLA_MEDIUM_POW: 
+@REJILLA_MEDIUM_REWRITABLE: 
+@REJILLA_MEDIUM_WRITABLE: 
+@REJILLA_MEDIUM_ROM: 
+@REJILLA_MEDIUM_BLANK: 
+@REJILLA_MEDIUM_CLOSED: 
+@REJILLA_MEDIUM_APPENDABLE: 
+@REJILLA_MEDIUM_UNFORMATTED: 
+@REJILLA_MEDIUM_PROTECTED: 
+@REJILLA_MEDIUM_HAS_DATA: 
+@REJILLA_MEDIUM_HAS_AUDIO: 
+
+<!-- ##### MACRO REJILLA_MEDIUM_CDROM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_CDR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_CDRW ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_DVD_ROM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_DVDR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_DVDRW ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_DVDRW_RESTRICTED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_DVDR_DL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_DVDR_JUMP_DL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_DVDR_PLUS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_DVDRW_PLUS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_DVDR_PLUS_DL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_DVDRW_PLUS_DL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_DVD_RAM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_BD_ROM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_BDR_SRM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_BDR_SRM_POW ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_BDR_RANDOM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_BDRE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_VALID ##### -->
+<para>
+
+</para>
+
+@media: 
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_TYPE ##### -->
+<para>
+
+</para>
+
+@media: 
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_ATTR ##### -->
+<para>
+
+</para>
+
+@media: 
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_STATUS ##### -->
+<para>
+
+</para>
+
+@media: 
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_SUBTYPE ##### -->
+<para>
+
+</para>
+
+@media: 
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_INFO ##### -->
+<para>
+
+</para>
+
+@media: 
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_IS ##### -->
+<para>
+
+</para>
+
+@media: 
+@type: 
+
+
+<!-- ##### MACRO REJILLA_MEDIUM_RANDOM_WRITABLE ##### -->
+<para>
+
+</para>
+
+@media: 
+
+

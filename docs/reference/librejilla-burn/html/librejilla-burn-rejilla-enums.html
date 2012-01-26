@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>rejilla-enums</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-burn Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-burn">
+<link rel="prev" href="librejilla-burn-rejilla-status.html" title="rejilla-status">
+<link rel="next" href="librejilla-burn-rejilla-track-type.html" title="rejilla-track-type">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-burn-rejilla-status.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-burn Reference Manual</th>
+<td><a accesskey="n" href="librejilla-burn-rejilla-track-type.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-burn-rejilla-enums.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-burn-rejilla-enums.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="rejilla-enums">
+<a name="librejilla-burn-rejilla-enums"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-burn-rejilla-enums.top_of_page"></a>rejilla-enums</span></h2>
+<p>rejilla-enums</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-burn-rejilla-enums.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">enum                <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult">RejillaBurnResult</a>;
+enum                <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnFlag" title="enum RejillaBurnFlag">RejillaBurnFlag</a>;
+enum                <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnAction" title="enum RejillaBurnAction">RejillaBurnAction</a>;
+enum                <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFS" title="enum RejillaImageFS">RejillaImageFS</a>;
+enum                <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaStreamFormat" title="enum RejillaStreamFormat">RejillaStreamFormat</a>;
+#define             <a class="link" href="librejilla-burn-rejilla-enums.html#REJILLA-STREAM-FORMAT-AUDIO:CAPS" title="REJILLA_STREAM_FORMAT_AUDIO()">REJILLA_STREAM_FORMAT_AUDIO</a>         (stream_FORMAT)
+#define             <a class="link" href="librejilla-burn-rejilla-enums.html#REJILLA-STREAM-FORMAT-VIDEO:CAPS" title="REJILLA_STREAM_FORMAT_VIDEO()">REJILLA_STREAM_FORMAT_VIDEO</a>         (stream_FORMAT)
+#define             <a class="link" href="librejilla-burn-rejilla-enums.html#REJILLA-MIN-STREAM-LENGTH:CAPS" title="REJILLA_MIN_STREAM_LENGTH">REJILLA_MIN_STREAM_LENGTH</a>
+#define             <a class="link" href="librejilla-burn-rejilla-enums.html#REJILLA-STREAM-LENGTH:CAPS" title="REJILLA_STREAM_LENGTH()">REJILLA_STREAM_LENGTH</a>               (start_MACRO,
+                                                         end_MACRO)
+#define             <a class="link" href="librejilla-burn-rejilla-enums.html#REJILLA-STREAM-FORMAT-HAS-VIDEO:CAPS" title="REJILLA_STREAM_FORMAT_HAS_VIDEO()">REJILLA_STREAM_FORMAT_HAS_VIDEO</a>     (format_MACRO)
+enum                <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaImageFormat" title="enum RejillaImageFormat">RejillaImageFormat</a>;
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-burn-rejilla-enums.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-burn-rejilla-enums.details"></a><h2>Details</h2>
+<div class="refsect2" title="enum RejillaBurnResult">
+<a name="RejillaBurnResult"></a><h3>enum RejillaBurnResult</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_BURN_OK,
+	REJILLA_BURN_ERR,
+	REJILLA_BURN_RETRY,
+	REJILLA_BURN_CANCEL,
+	REJILLA_BURN_RUNNING,
+	REJILLA_BURN_DANGEROUS,
+	REJILLA_BURN_NOT_READY,
+	REJILLA_BURN_NOT_RUNNING,
+	REJILLA_BURN_NEED_RELOAD,
+	REJILLA_BURN_NOT_SUPPORTED,
+} RejillaBurnResult;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum RejillaBurnFlag">
+<a name="RejillaBurnFlag"></a><h3>enum RejillaBurnFlag</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_BURN_FLAG_NONE			= 0,
+
+	/* These flags should always be supported */
+	REJILLA_BURN_FLAG_CHECK_SIZE		= 1,
+	REJILLA_BURN_FLAG_NOGRACE		= 1 &lt;&lt; 1,
+	REJILLA_BURN_FLAG_EJECT			= 1 &lt;&lt; 2,
+
+	/* These are of great importance for the result */
+	REJILLA_BURN_FLAG_MERGE			= 1 &lt;&lt; 3,
+	REJILLA_BURN_FLAG_MULTI			= 1 &lt;&lt; 4,
+	REJILLA_BURN_FLAG_APPEND		= 1 &lt;&lt; 5,
+
+	REJILLA_BURN_FLAG_BURNPROOF		= 1 &lt;&lt; 6,
+	REJILLA_BURN_FLAG_NO_TMP_FILES		= 1 &lt;&lt; 7,
+	REJILLA_BURN_FLAG_DUMMY			= 1 &lt;&lt; 8,
+
+	REJILLA_BURN_FLAG_OVERBURN		= 1 &lt;&lt; 9,
+
+	REJILLA_BURN_FLAG_BLANK_BEFORE_WRITE = 1 &lt;&lt; 10,
+	REJILLA_BURN_FLAG_FAST_BLANK		= 1 &lt;&lt; 11,
+
+	/* NOTE: these two are contradictory? */
+	REJILLA_BURN_FLAG_DAO			= 1 &lt;&lt; 13,
+	REJILLA_BURN_FLAG_RAW			= 1 &lt;&lt; 14,
+
+	REJILLA_BURN_FLAG_LAST
+} RejillaBurnFlag;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum RejillaBurnAction">
+<a name="RejillaBurnAction"></a><h3>enum RejillaBurnAction</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_BURN_ACTION_NONE		= 0,
+	REJILLA_BURN_ACTION_GETTING_SIZE,
+	REJILLA_BURN_ACTION_CREATING_IMAGE,
+	REJILLA_BURN_ACTION_RECORDING,
+	REJILLA_BURN_ACTION_BLANKING,
+	REJILLA_BURN_ACTION_CHECKSUM,
+	REJILLA_BURN_ACTION_DRIVE_COPY,
+	REJILLA_BURN_ACTION_FILE_COPY,
+	REJILLA_BURN_ACTION_ANALYSING,
+	REJILLA_BURN_ACTION_TRANSCODING,
+	REJILLA_BURN_ACTION_PREPARING,
+	REJILLA_BURN_ACTION_LEADIN,
+	REJILLA_BURN_ACTION_RECORDING_CD_TEXT,
+	REJILLA_BURN_ACTION_FIXATING,
+	REJILLA_BURN_ACTION_LEADOUT,
+	REJILLA_BURN_ACTION_START_RECORDING,
+	REJILLA_BURN_ACTION_FINISHED,
+	REJILLA_BURN_ACTION_EJECTING,
+	REJILLA_BURN_ACTION_LAST
+} RejillaBurnAction;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum RejillaImageFS">
+<a name="RejillaImageFS"></a><h3>enum RejillaImageFS</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_IMAGE_FS_NONE			= 0,
+	REJILLA_IMAGE_FS_ISO			= 1,
+	REJILLA_IMAGE_FS_UDF			= 1 &lt;&lt; 1,
+	REJILLA_IMAGE_FS_JOLIET			= 1 &lt;&lt; 2,
+	REJILLA_IMAGE_FS_VIDEO			= 1 &lt;&lt; 3,
+
+	/* The following one conflict with UDF and JOLIET */
+	REJILLA_IMAGE_FS_SYMLINK		= 1 &lt;&lt; 4,
+
+	REJILLA_IMAGE_ISO_FS_LEVEL_3		= 1 &lt;&lt; 5,
+	REJILLA_IMAGE_ISO_FS_DEEP_DIRECTORY = 1 &lt;&lt; 6,
+	REJILLA_IMAGE_FS_ANY			= REJILLA_IMAGE_FS_ISO|
+						  REJILLA_IMAGE_FS_UDF|
+						  REJILLA_IMAGE_FS_JOLIET|
+						  REJILLA_IMAGE_FS_SYMLINK|
+						  REJILLA_IMAGE_ISO_FS_LEVEL_3|
+						  REJILLA_IMAGE_FS_VIDEO|
+						  REJILLA_IMAGE_ISO_FS_DEEP_DIRECTORY
+} RejillaImageFS;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum RejillaStreamFormat">
+<a name="RejillaStreamFormat"></a><h3>enum RejillaStreamFormat</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_AUDIO_FORMAT_NONE		= 0,
+	REJILLA_AUDIO_FORMAT_UNDEFINED		= 1,
+	REJILLA_AUDIO_FORMAT_DTS		= 1 &lt;&lt; 1,
+	REJILLA_AUDIO_FORMAT_RAW		= 1 &lt;&lt; 2,
+	REJILLA_AUDIO_FORMAT_AC3		= 1 &lt;&lt; 3,
+	REJILLA_AUDIO_FORMAT_MP2		= 1 &lt;&lt; 4,
+
+	REJILLA_AUDIO_FORMAT_44100		= 1 &lt;&lt; 5,
+	REJILLA_AUDIO_FORMAT_48000		= 1 &lt;&lt; 6,
+
+
+	REJILLA_VIDEO_FORMAT_UNDEFINED		= 1 &lt;&lt; 7,
+	REJILLA_VIDEO_FORMAT_VCD		= 1 &lt;&lt; 8,
+	REJILLA_VIDEO_FORMAT_VIDEO_DVD		= 1 &lt;&lt; 9,
+
+	REJILLA_METADATA_INFO			= 1 &lt;&lt; 10,
+
+	REJILLA_AUDIO_FORMAT_RAW_LITTLE_ENDIAN  = 1 &lt;&lt; 11,
+
+	/* Deprecated */
+	REJILLA_AUDIO_FORMAT_4_CHANNEL		= 0
+} RejillaStreamFormat;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_STREAM_FORMAT_AUDIO()">
+<a name="REJILLA-STREAM-FORMAT-AUDIO:CAPS"></a><h3>REJILLA_STREAM_FORMAT_AUDIO()</h3>
+<pre class="programlisting">#define REJILLA_STREAM_FORMAT_AUDIO(stream_FORMAT) ((stream_FORMAT) &amp; 0x087F)
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>stream_FORMAT</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_STREAM_FORMAT_VIDEO()">
+<a name="REJILLA-STREAM-FORMAT-VIDEO:CAPS"></a><h3>REJILLA_STREAM_FORMAT_VIDEO()</h3>
+<pre class="programlisting">#define REJILLA_STREAM_FORMAT_VIDEO(stream_FORMAT) ((stream_FORMAT) &amp; 0x0380)
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>stream_FORMAT</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_MIN_STREAM_LENGTH">
+<a name="REJILLA-MIN-STREAM-LENGTH:CAPS"></a><h3>REJILLA_MIN_STREAM_LENGTH</h3>
+<pre class="programlisting">#define REJILLA_MIN_STREAM_LENGTH			((gint64) 6 * 1000000000LL)
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_STREAM_LENGTH()">
+<a name="REJILLA-STREAM-LENGTH:CAPS"></a><h3>REJILLA_STREAM_LENGTH()</h3>
+<pre class="programlisting">#define             REJILLA_STREAM_LENGTH(start_MACRO, end_MACRO)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>start_MACRO</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>end_MACRO</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_STREAM_FORMAT_HAS_VIDEO()">
+<a name="REJILLA-STREAM-FORMAT-HAS-VIDEO:CAPS"></a><h3>REJILLA_STREAM_FORMAT_HAS_VIDEO()</h3>
+<pre class="programlisting">#define             REJILLA_STREAM_FORMAT_HAS_VIDEO(format_MACRO)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>format_MACRO</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="enum RejillaImageFormat">
+<a name="RejillaImageFormat"></a><h3>enum RejillaImageFormat</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_IMAGE_FORMAT_NONE = 0,
+	REJILLA_IMAGE_FORMAT_BIN = 1,
+	REJILLA_IMAGE_FORMAT_CUE = 1 &lt;&lt; 1,
+	REJILLA_IMAGE_FORMAT_CLONE = 1 &lt;&lt; 2,
+	REJILLA_IMAGE_FORMAT_CDRDAO = 1 &lt;&lt; 3,
+	REJILLA_IMAGE_FORMAT_ANY = REJILLA_IMAGE_FORMAT_BIN|
+	REJILLA_IMAGE_FORMAT_CUE|
+	REJILLA_IMAGE_FORMAT_CDRDAO|
+	REJILLA_IMAGE_FORMAT_CLONE,
+} RejillaImageFormat; 
+</pre>
+<p>
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

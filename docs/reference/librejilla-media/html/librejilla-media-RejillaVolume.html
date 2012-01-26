@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaVolume</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-media Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-media">
+<link rel="prev" href="librejilla-media-RejillaMedium.html" title="RejillaMedium">
+<link rel="next" href="librejilla-media-RejillaMediumSelection.html" title="RejillaMediumSelection">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-media-RejillaMedium.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-media Reference Manual</th>
+<td><a accesskey="n" href="librejilla-media-RejillaMediumSelection.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-media-RejillaVolume.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-media-RejillaVolume.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaVolume">
+<a name="librejilla-media-RejillaVolume"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-media-RejillaVolume.top_of_page"></a>RejillaVolume</span></h2>
+<p>RejillaVolume</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-media-RejillaVolume.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume">RejillaVolume</a>;
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             <a class="link" href="librejilla-media-RejillaVolume.html#rejilla-volume-get-name" title="rejilla_volume_get_name ()">rejilla_volume_get_name</a>             (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>);
+<a href="http://library.mate.org/devel/gio/unstable/GIcon.html"><span class="returnvalue">GIcon</span></a> *             <a class="link" href="librejilla-media-RejillaVolume.html#rejilla-volume-get-icon" title="rejilla_volume_get_icon ()">rejilla_volume_get_icon</a>             (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>);
+<a href="http://library.mate.org/devel/gio/unstable/GVolume.html"><span class="returnvalue">GVolume</span></a> *           <a class="link" href="librejilla-media-RejillaVolume.html#rejilla-volume-get-gvolume" title="rejilla_volume_get_gvolume ()">rejilla_volume_get_gvolume</a>          (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaVolume.html#rejilla-volume-is-mounted" title="rejilla_volume_is_mounted ()">rejilla_volume_is_mounted</a>           (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             <a class="link" href="librejilla-media-RejillaVolume.html#rejilla-volume-get-mount-point" title="rejilla_volume_get_mount_point ()">rejilla_volume_get_mount_point</a>      (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaVolume.html#rejilla-volume-umount" title="rejilla_volume_umount ()">rejilla_volume_umount</a>               (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> wait</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="librejilla-media-RejillaVolume.html#rejilla-volume-mount" title="rejilla_volume_mount ()">rejilla_volume_mount</a>                (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkWindow.html"><span class="type">GtkWindow</span></a> *parent_window</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> wait</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-media-RejillaVolume.html#rejilla-volume-cancel-current-operation" title="rejilla_volume_cancel_current_operation ()">rejilla_volume_cancel_current_operation</a>
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-media-RejillaVolume.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-media-RejillaVolume.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaVolume">
+<a name="RejillaVolume"></a><h3>RejillaVolume</h3>
+<pre class="programlisting">typedef struct {
+	RejillaMedium parent_instance;
+} RejillaVolume;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_volume_get_name ()">
+<a name="rejilla-volume-get-name"></a><h3>rejilla_volume_get_name ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             rejilla_volume_get_name             (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>);</pre>
+<p>
+Returns a string that can be displayed to represent the volume²
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>volume</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *. Free when not needed anymore.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_volume_get_icon ()">
+<a name="rejilla-volume-get-icon"></a><h3>rejilla_volume_get_icon ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/gio/unstable/GIcon.html"><span class="returnvalue">GIcon</span></a> *             rejilla_volume_get_icon             (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>);</pre>
+<p>
+Returns a GIcon pointer for the volume.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>volume</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/gio/unstable/GIcon.html"><span class="type">GIcon</span></a>*
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_volume_get_gvolume ()">
+<a name="rejilla-volume-get-gvolume"></a><h3>rejilla_volume_get_gvolume ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/gio/unstable/GVolume.html"><span class="returnvalue">GVolume</span></a> *           rejilla_volume_get_gvolume          (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>);</pre>
+<p>
+Gets the corresponding <a href="http://library.mate.org/devel/gio/unstable/GVolume.html"><span class="type">GVolume</span></a> for <em class="parameter"><code>volume</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>volume</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/gio/unstable/GVolume.html"><span class="type">GVolume</span></a> *.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_volume_is_mounted ()">
+<a name="rejilla-volume-is-mounted"></a><h3>rejilla_volume_is_mounted ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_volume_is_mounted           (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>);</pre>
+<p>
+Returns whether the volume is currently mounted.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>volume</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if it is mounted.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_volume_get_mount_point ()">
+<a name="rejilla-volume-get-mount-point"></a><h3>rejilla_volume_get_mount_point ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             rejilla_volume_get_mount_point      (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>
+Returns the path for mount point for <em class="parameter"><code>volume</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>volume</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td>
+<a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_volume_umount ()">
+<a name="rejilla-volume-umount"></a><h3>rejilla_volume_umount ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_volume_umount               (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> wait</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>
+Unmount <em class="parameter"><code>volume</code></em>. If wait is set to TRUE, then block (in a GMainLoop) until
+the operation finishes.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>volume</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>wait</code></em> :</span></p></td>
+<td>
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td>
+<a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the operation succeeded.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_volume_mount ()">
+<a name="rejilla-volume-mount"></a><h3>rejilla_volume_mount ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            rejilla_volume_mount                (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/gtk/unstable/GtkWindow.html"><span class="type">GtkWindow</span></a> *parent_window</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> wait</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>
+Mount <em class="parameter"><code>volume</code></em>. If wait is set to TRUE, then block (in a GMainLoop) until
+the operation finishes.
+<em class="parameter"><code>parent_window</code></em> is used if an authentification is needed. Then the authentification
+dialog will be set modal.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>volume</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>parent_window</code></em> :</span></p></td>
+<td>
+<a href="http://library.mate.org/devel/gtk/unstable/GtkWindow.html"><span class="type">GtkWindow</span></a> *
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>wait</code></em> :</span></p></td>
+<td>
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td>
+<a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>. TRUE if the operation succeeded.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_volume_cancel_current_operation ()">
+<a name="rejilla-volume-cancel-current-operation"></a><h3>rejilla_volume_cancel_current_operation ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_volume_cancel_current_operation
+                                                        (<em class="parameter"><code><a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *volume</code></em>);</pre>
+<p>
+Cancels all operations currently running for <em class="parameter"><code>volume</code></em>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>volume</code></em> :</span></p></td>
+<td>
+<a class="link" href="librejilla-media-RejillaVolume.html#RejillaVolume" title="RejillaVolume"><span class="type">RejillaVolume</span></a> *
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

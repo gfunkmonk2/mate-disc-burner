@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaBurn</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-burn Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-burn">
+<link rel="prev" href="librejilla-burn-RejillaBurnOptions.html" title="RejillaBurnOptions">
+<link rel="next" href="librejilla-burn-RejillaBurnDialog.html" title="RejillaBurnDialog">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-burn-RejillaBurnOptions.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-burn Reference Manual</th>
+<td><a accesskey="n" href="librejilla-burn-RejillaBurnDialog.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-burn-RejillaBurn.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-burn-RejillaBurn.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaBurn">
+<a name="librejilla-burn-RejillaBurn"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-burn-RejillaBurn.top_of_page"></a>RejillaBurn</span></h2>
+<p>RejillaBurn</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-burn-RejillaBurn.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn">RejillaBurn</a>;
+<a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="returnvalue">RejillaBurn</span></a> *       <a class="link" href="librejilla-burn-RejillaBurn.html#rejilla-burn-new" title="rejilla_burn_new ()">rejilla_burn_new</a>                    (<em class="parameter"><code><span class="type">void</span></code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaBurn.html#rejilla-burn-record" title="rejilla_burn_record ()">rejilla_burn_record</a>                 (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> *burn</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession" title="RejillaBurnSession"><span class="type">RejillaBurnSession</span></a> *session</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaBurn.html#rejilla-burn-check" title="rejilla_burn_check ()">rejilla_burn_check</a>                  (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> *burn</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession" title="RejillaBurnSession"><span class="type">RejillaBurnSession</span></a> *session</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaBurn.html#rejilla-burn-blank" title="rejilla_burn_blank ()">rejilla_burn_blank</a>                  (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> *burn</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession" title="RejillaBurnSession"><span class="type">RejillaBurnSession</span></a> *session</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaBurn.html#rejilla-burn-cancel" title="rejilla_burn_cancel ()">rejilla_burn_cancel</a>                 (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> *burn</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> protect</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaBurn.html#rejilla-burn-status" title="rejilla_burn_status ()">rejilla_burn_status</a>                 (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> *burn</code></em>,
+                                                         <em class="parameter"><code><a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="type">RejillaMedia</span></a> *media</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *isosize</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *written</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> *rate</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-RejillaBurn.html#rejilla-burn-get-action-string" title="rejilla_burn_get_action_string ()">rejilla_burn_get_action_string</a>      (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> *burn</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnAction" title="enum RejillaBurnAction"><span class="type">RejillaBurnAction</span></a> action</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **string</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-burn-RejillaBurn.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-burn-RejillaBurn.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaBurn">
+<a name="RejillaBurn"></a><h3>RejillaBurn</h3>
+<pre class="programlisting">typedef struct {
+	GObject parent;
+} RejillaBurn;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_burn_new ()">
+<a name="rejilla-burn-new"></a><h3>rejilla_burn_new ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="returnvalue">RejillaBurn</span></a> *       rejilla_burn_new                    (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Creates a new <a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> object.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> object.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_burn_record ()">
+<a name="rejilla-burn-record"></a><h3>rejilla_burn_record ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_burn_record                 (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> *burn</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession" title="RejillaBurnSession"><span class="type">RejillaBurnSession</span></a> *session</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>
+Burns or creates a disc image according to the parameters
+set in <em class="parameter"><code>session</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>burn</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>session</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession" title="RejillaBurnSession"><span class="type">RejillaBurnSession</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. The result of the operation. 
+REJILLA_BURN_OK if it was successful.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_burn_check ()">
+<a name="rejilla-burn-check"></a><h3>rejilla_burn_check ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_burn_check                  (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> *burn</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession" title="RejillaBurnSession"><span class="type">RejillaBurnSession</span></a> *session</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>
+Checks the integrity of a medium according to the parameters
+set in <em class="parameter"><code>session</code></em>. The medium must be inserted in the <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-drive.html#RejillaDrive"><span class="type">RejillaDrive</span></a>
+set as the source of a <a class="link" href="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc" title="RejillaTrackDisc"><span class="type">RejillaTrackDisc</span></a> track inserted in <em class="parameter"><code>session</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>burn</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>session</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession" title="RejillaBurnSession"><span class="type">RejillaBurnSession</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. The result of the operation. 
+REJILLA_BURN_OK if it was successful.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_burn_blank ()">
+<a name="rejilla-burn-blank"></a><h3>rejilla_burn_blank ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_burn_blank                  (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> *burn</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession" title="RejillaBurnSession"><span class="type">RejillaBurnSession</span></a> *session</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>
+Blanks a medium according to the parameters
+set in <em class="parameter"><code>session</code></em>. The medium must be inserted in the <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-drive.html#RejillaDrive"><span class="type">RejillaDrive</span></a>
+set with <a class="link" href="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-set-burner" title="rejilla_burn_session_set_burner ()"><code class="function">rejilla_burn_session_set_burner()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>burn</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>session</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession" title="RejillaBurnSession"><span class="type">RejillaBurnSession</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. The result of the operation. 
+REJILLA_BURN_OK if it was successful.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_burn_cancel ()">
+<a name="rejilla-burn-cancel"></a><h3>rejilla_burn_cancel ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_burn_cancel                 (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> *burn</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> protect</code></em>);</pre>
+<p>
+Cancels any ongoing operation. If <em class="parameter"><code>protect</code></em> is TRUE then
+cancellation will not take place for a "critical" task, a task whose interruption
+could damage the medium or the drive.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>burn</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>protect</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. The result of the operation. 
+REJILLA_BURN_OK if it was successful.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_burn_status ()">
+<a name="rejilla-burn-status"></a><h3>rejilla_burn_status ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_burn_status                 (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> *burn</code></em>,
+                                                         <em class="parameter"><code><a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="type">RejillaMedia</span></a> *media</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *isosize</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> *written</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> *rate</code></em>);</pre>
+<p>
+Returns various information about the current operation 
+in <em class="parameter"><code>media</code></em> (the current media type being burnt),
+<em class="parameter"><code>isosize</code></em> (the size of the data being burnt), <em class="parameter"><code>written</code></em> (the
+number of bytes having been written so far) and <em class="parameter"><code>rate</code></em>
+(the speed at which data are written).
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>burn</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>media</code></em> :</span></p></td>
+<td>a <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-media.html#RejillaMedia"><span class="type">RejillaMedia</span></a> or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>isosize</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>written</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#goffset"><span class="type">goffset</span></a> or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>rate</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> or NULL
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if there is
+an ongoing operation; REJILLA_BURN_NOT_READY otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_burn_get_action_string ()">
+<a name="rejilla-burn-get-action-string"></a><h3>rejilla_burn_get_action_string ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_burn_get_action_string      (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a> *burn</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnAction" title="enum RejillaBurnAction"><span class="type">RejillaBurnAction</span></a> action</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **string</code></em>);</pre>
+<p>
+This function returns the current action (in <em class="parameter"><code>string</code></em>)  of
+an ongoing operation performed by <em class="parameter"><code>burn</code></em>.
+<em class="parameter"><code>action</code></em> is used to set a default string in case there was
+no string set by the backend to describe the current
+operation.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>burn</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaBurn.html#RejillaBurn" title="RejillaBurn"><span class="type">RejillaBurn</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>action</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnAction" title="enum RejillaBurnAction"><span class="type">RejillaBurnAction</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>string</code></em> :</span></p></td>
+<td>a <a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

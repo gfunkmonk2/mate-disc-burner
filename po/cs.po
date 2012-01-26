@@ -1,0 +1,5032 @@
+# Czech translation of rejilla.
+# Copyright (C) 2008, 2009, 2010 the author(s) of rejilla.
+# This file is distributed under the same license as the rejilla package.
+#
+# Zbyněk Mrkvička <zbynek@mrkvicka.eu>, 2007.
+# ZOiD <sp.pok@seznam.cz>, 2007.
+# Gor, 2007.
+# Petr Kovar <pknbe@volny.cz>, 2008, 2009.
+# Kamil Páral <ripper42@gmail.com>, 2009.
+# Andre Klapper <ak-47@gmx.net>, 2009.
+# Adrian Guniš <andygun696@gmail.com>, 2008, 2009, 2010.
+# Marek Černocký <marek@manet.cz>, 2010 (just fixises).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rejilla\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
+"product=rejilla&component=general\n"
+"POT-Creation-Date: 2010-09-22 19:52+0000\n"
+"PO-Revision-Date: 2010-09-22 17:10+0100\n"
+"Last-Translator: Adrian Guniš <andygun696@gmail.com>\n"
+"Language-Team: Czech <mate-cs-list@mate.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Language: Czech\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: ../src/rejilla-search.c:241
+#, c-format
+msgid "Results %i–%i (out of %i)"
+msgstr "Výsledky %i–%i (z %i)"
+
+#: ../src/rejilla-search.c:249 ../src/rejilla-search.c:880
+msgid "No results"
+msgstr "Žádné výsledky"
+
+#: ../src/rejilla-search.c:414
+msgid "Error querying for keywords."
+msgstr "Chyba při dotazování na klíčová slova."
+
+#: ../src/rejilla-search.c:867
+msgid "Previous Results"
+msgstr "Předchozí výsledky"
+
+#: ../src/rejilla-search.c:888
+msgid "Next Results"
+msgstr "Další výsledky"
+
+#: ../src/rejilla-search.c:952 ../src/rejilla-data-disc.c:2352
+#: ../src/rejilla-file-filtered.c:259
+msgid "Files"
+msgstr "Soubory"
+
+#: ../src/rejilla-search.c:981 ../src/rejilla-data-disc.c:2380
+msgid "Description"
+msgstr "Popis"
+
+#: ../src/rejilla-search.c:1034 ../librejilla-burn/rejilla-src-image.c:444
+#: ../src/rejilla-project-name.c:165 ../src/rejilla-search-entry.c:509
+#: ../src/rejilla-search-entry.c:569 ../src/rejilla-search-entry.c:631
+#: ../src/rejilla-file-chooser.c:350 ../src/rejilla-project.c:2213
+msgid "All files"
+msgstr "Všechny soubory"
+
+#: ../src/rejilla-search.c:1045
+msgid "Number of results displayed"
+msgstr "Počet zobrazených výsledků"
+
+#: ../src/rejilla-cli.c:70
+msgid "Open the specified project"
+msgstr "Otevřít specifikovaný projekt"
+
+#: ../src/rejilla-cli.c:71
+msgid "PROJECT"
+msgstr "PROJEKT"
+
+#: ../src/rejilla-cli.c:76
+msgid "Open the specified playlist as an audio project"
+msgstr "Otevřít specifikovaný seznam skladeb jako hudební projekt"
+
+#: ../src/rejilla-cli.c:77
+msgid "PLAYLIST"
+msgstr "SEZNAM SKLADEB"
+
+#: ../src/rejilla-cli.c:82
+msgid "Set the drive to be used for burning"
+msgstr "Nastavit jednotku, která bude použita k vypalování"
+
+#: ../src/rejilla-cli.c:83
+msgid "DEVICE PATH"
+msgstr "CESTA K ZAŘÍZENÍ"
+
+#: ../src/rejilla-cli.c:86
+msgid "Create an image file instead of burning"
+msgstr "Vytvořit soubor s obrazem namísto vypalování"
+
+#: ../src/rejilla-cli.c:90
+msgid "Open an audio project adding the URIs given on the command line"
+msgstr ""
+"Otevřít hudební projekt a přidat soubory z URI uvedené na příkazové řádce"
+
+#: ../src/rejilla-cli.c:94
+msgid "Open a data project adding the URIs given on the command line"
+msgstr ""
+"Otevřít datový projekt a přidat soubory z URI uvedené na příkazové řádce"
+
+#: ../src/rejilla-cli.c:98
+msgid "Copy a disc"
+msgstr "Kopírovat disk"
+
+#: ../src/rejilla-cli.c:99 ../src/rejilla-cli.c:119 ../src/rejilla-cli.c:123
+msgid "PATH TO DEVICE"
+msgstr "CESTA K ZAŘÍZENÍ"
+
+#: ../src/rejilla-cli.c:102
+msgid "Cover to use"
+msgstr "Obal, který se má použít"
+
+#: ../src/rejilla-cli.c:103
+msgid "PATH TO COVER"
+msgstr "CESTA K OBALU"
+
+#: ../src/rejilla-cli.c:106
+msgid "Open a video project adding the URIs given on the command line"
+msgstr "Otevřít videoprojekt a přidat soubory z URI uvedené na příkazové řádce"
+
+#: ../src/rejilla-cli.c:110
+msgid "URI of an image file to burn (autodetected)"
+msgstr "Odkaz na soubor s obrazem k vypálení (automaticky rozpoznán)"
+
+#: ../src/rejilla-cli.c:111
+msgid "PATH TO IMAGE"
+msgstr "CESTA K OBRAZU"
+
+#: ../src/rejilla-cli.c:114
+msgid "Force Rejilla to display the project selection page"
+msgstr "Přimět Rejilla zobrazit stránku s výběrem projektů"
+
+#: ../src/rejilla-cli.c:118
+msgid "Open the blank disc dialog"
+msgstr "Otevřít dialog Mazání disku"
+
+#: ../src/rejilla-cli.c:122
+msgid "Open the check disc dialog"
+msgstr "Otevřít dialog Kontrola disku"
+
+#: ../src/rejilla-cli.c:126
+msgid "Burn the contents of the burn:// URI"
+msgstr "Vypálit obsah adresáře burn://"
+
+#: ../src/rejilla-cli.c:130
+msgid "Start burning immediately."
+msgstr "Spustit vypalování ihned."
+
+#: ../src/rejilla-cli.c:134
+msgid "Don't connect to an already-running instance"
+msgstr "Nepřipojovat se k již spuštěné instanci"
+
+#: ../src/rejilla-cli.c:138
+msgid ""
+"Burn the specified project and remove it.\n"
+"This option is mainly useful for integration with other applications."
+msgstr ""
+"Vypálit specifikovaný projekt a odstranit jej.\n"
+"Tato volba je užitečná hlavně při integraci s jinými aplikacemi."
+
+#: ../src/rejilla-cli.c:139
+msgid "PATH"
+msgstr "CESTA"
+
+#. Translators: the xid is a number identifying each window in the X11
+#. * world (not Windows, MacOS X). The following sentence says that
+#. * rejilla will be set to be always on top of the window identified by
+#. * xid. In other words, the window with the given xid will become rejilla
+#. * parent as if rejilla was a dialog for the parent application
+#: ../src/rejilla-cli.c:147
+msgid "The XID of the parent window"
+msgstr "XID nadřazeného okna"
+
+#. Translators: %s is the path of drive
+#: ../src/rejilla-cli.c:204
+#, c-format
+msgid "\"%s\" cannot write."
+msgstr "„%s“ nemůže zapisovat."
+
+#: ../src/rejilla-cli.c:206 ../src/rejilla-cli.c:220
+msgid "Wrong command line option."
+msgstr "V příkazovém řádku byl použit chybný přepínač."
+
+#. Translators: %s is the path of a drive
+#: ../src/rejilla-cli.c:218 ../librejilla-burn/rejilla-track-data-cfg.c:2593
+#, c-format
+msgid "\"%s\" cannot be found."
+msgstr "„%s“ nelze nalézt."
+
+#: ../src/rejilla-cli.c:297
+msgid "Incompatible command line options used."
+msgstr "V příkazovém řádku byly použity nekompatibilní přepínače."
+
+#: ../src/rejilla-cli.c:298
+msgid "Only one option can be given at a time"
+msgstr "Najednou lze zadat pouze jeden přepínač"
+
+#: ../librejilla-burn/burn-plugin.c:645
+#, c-format
+msgid "\"%s\" could not be found in the path"
+msgstr "„%s“ nelze nalézt v cestě"
+
+#: ../librejilla-burn/burn-plugin.c:649
+#, c-format
+msgid "\"%s\" GStreamer plugin could not be found"
+msgstr "Zásuvný modul GStreamer „%s“ nelze nalézt"
+
+#: ../librejilla-burn/burn-plugin.c:653 ../librejilla-burn/burn-plugin.c:665
+#, c-format
+msgid "The version of \"%s\" is too old"
+msgstr "Tato verze „%s“ je příliš stará"
+
+#: ../librejilla-burn/burn-plugin.c:657
+#, c-format
+msgid "\"%s\" is a symbolic link pointing to another program"
+msgstr "„%s“ je symbolický odkaz směřující k jinému programu"
+
+#. Translators: %s is a filename
+#: ../librejilla-burn/burn-plugin.c:661 ../plugins/cdrdao/burn-cdrdao.c:211
+#: ../plugins/growisofs/burn-growisofs.c:509
+#, c-format
+msgid "\"%s\" could not be found"
+msgstr "„%s“ nelze nalézt"
+
+#: ../plugins/cdrtools/burn-cdda2wav.c:204
+#: ../plugins/cdrtools/burn-cdda2wav.c:214
+#, c-format
+msgid "Copying audio track %02d"
+msgstr "Kopíruje se hudební stopa %02d"
+
+#: ../plugins/cdrtools/burn-cdda2wav.c:265
+msgid "Preparing to copy audio disc"
+msgstr "Připravuje se kopírování hudebního disku"
+
+#: ../plugins/cdrtools/burn-cdda2wav.c:411
+msgid "Copy tracks from an audio CD with all associated information"
+msgstr "Kopíruje stopy z hudebního CD se všemi přiřazenými informacemi"
+
+#: ../librejilla-burn/rejilla-video-options.c:451
+msgid "Video format:"
+msgstr "Formát videa:"
+
+#: ../librejilla-burn/rejilla-video-options.c:462
+msgid "_NTSC"
+msgstr "_NTSC"
+
+#: ../librejilla-burn/rejilla-video-options.c:464
+msgid "Format used mostly on the North American continent"
+msgstr "Formát používaný většinou v Severní Americe"
+
+#: ../librejilla-burn/rejilla-video-options.c:477
+msgid "_PAL/SECAM"
+msgstr "_PAL/SECAM"
+
+#: ../librejilla-burn/rejilla-video-options.c:479
+msgid "Format used mostly in Europe"
+msgstr "Formát používaný většinou v Evropě"
+
+#: ../librejilla-burn/rejilla-video-options.c:493
+msgid "Native _format"
+msgstr "Nativní _formát"
+
+#: ../librejilla-burn/rejilla-video-options.c:508
+msgid "Aspect ratio:"
+msgstr "Poměr stran:"
+
+#: ../librejilla-burn/rejilla-video-options.c:519
+msgid "_4:3"
+msgstr "_4:3"
+
+#: ../librejilla-burn/rejilla-video-options.c:534
+msgid "_16:9"
+msgstr "_16:9"
+
+#. Video options for (S)VCD
+#: ../librejilla-burn/rejilla-video-options.c:549
+msgid "VCD type:"
+msgstr "Typ VCD:"
+
+#: ../librejilla-burn/rejilla-video-options.c:562
+msgid "Create an SVCD"
+msgstr "Vytvořit SVCD"
+
+#: ../librejilla-burn/rejilla-video-options.c:577
+msgid "Create a VCD"
+msgstr "Vytvořit VCD"
+
+#: ../librejilla-burn/burn-debug.c:54
+msgid "Display debug statements on stdout for Rejilla burn library"
+msgstr ""
+"Zobrazit ladicí informace na standardním výstupu pro knihovnu Rejilla burn"
+
+#: ../librejilla-burn/burn-debug.c:80
+msgid "Rejilla media burning library"
+msgstr "Knihovna Rejilla pro vypalování médií"
+
+#: ../librejilla-burn/burn-debug.c:81
+msgid "Display options for Rejilla-burn library"
+msgstr "Zobrazit možnosti knihovny Rejilla-burn"
+
+#. Translators: %s is the name of the file that has just been deleted
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:90
+#, c-format
+msgid "\"%s\" was removed from the file system."
+msgstr "„%s“ byl odstraněn ze systému souborů."
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:129
+#: ../src/rejilla-audio-disc.c:753 ../src/rejilla-video-disc.c:365
+#, c-format
+msgid "Directories cannot be added to video or audio discs"
+msgstr "Adresáře nelze přidat na hudební nebo videodisky"
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:142
+#, c-format
+msgid "Playlists cannot be added to video or audio discs"
+msgstr "Seznamy skladeb nelze přidat na hudební nebo videodisky"
+
+#. Translators: %s is the name of the file
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:157
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:174
+#, c-format
+msgid "\"%s\" is not suitable for audio or video media"
+msgstr "„%s“ není vhodný pro média s hudbou nebo videem"
+
+#: ../librejilla-burn/rejilla-track-stream-cfg.c:401
+msgid "Analysing video files"
+msgstr "Analyzují se videosoubory"
+
+#: ../librejilla-burn/rejilla-data-vfs.c:218
+#, c-format
+msgid "\"%s\" cannot be read"
+msgstr "„%s“ nelze přečíst"
+
+#: ../librejilla-burn/rejilla-data-session.c:123
+#: ../librejilla-burn/rejilla-burn.c:331 ../librejilla-media/scsi-error.c:47
+#: ../librejilla-burn/rejilla-tool-dialog.c:89
+#: ../plugins/cdrdao/burn-cdrdao.c:243 ../plugins/cdrkit/burn-readom.c:110
+#: ../plugins/cdrkit/burn-wodim.c:135 ../plugins/cdrkit/burn-wodim.c:144
+#: ../plugins/cdrtools/burn-cdrecord.c:135
+#: ../plugins/cdrtools/burn-cdrecord.c:144
+#: ../plugins/cdrtools/burn-readcd.c:111
+#: ../plugins/growisofs/burn-dvd-rw-format.c:84
+#: ../plugins/growisofs/burn-growisofs.c:190
+#: ../plugins/libburnia/burn-libburn-common.c:186
+#, c-format
+msgid "The drive is busy"
+msgstr "Jednotka je zaneprázdněna"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:57
+msgid "Hidden file"
+msgstr "Skrytý soubor"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:58
+msgid "Unreadable file"
+msgstr "Nečitelný soubor"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:59
+msgid "Broken symbolic link"
+msgstr "Poškozený symbolický odkaz"
+
+#: ../librejilla-burn/rejilla-filtered-uri.c:60
+#: ../librejilla-utils/rejilla-io.c:1186 ../librejilla-utils/rejilla-io.c:2057
+#, c-format
+msgid "Recursive symbolic link"
+msgstr "Rekurzivní symbolický odkaz"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:622
+#: ../librejilla-burn/rejilla-track-data-cfg.c:721
+#: ../librejilla-burn/rejilla-track-data-cfg.c:732
+#: ../librejilla-burn/rejilla-track-data-cfg.c:793
+#: ../librejilla-burn/rejilla-track-data-cfg.c:798
+#: ../src/rejilla-playlist.c:536 ../src/rejilla-video-tree-model.c:344
+msgid "(loading…)"
+msgstr "(načítá se…)"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:624
+#: ../librejilla-burn/rejilla-track-data-cfg.c:804
+#: ../src/rejilla-playlist.c:497
+msgid "Empty"
+msgstr "Prázdný"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:730
+msgid "Disc file"
+msgstr "Soubor disku"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:808
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d položka"
+msgstr[1] "%d položky"
+msgstr[2] "%d položek"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:1927
+#, c-format
+msgid "New folder"
+msgstr "Nová složka"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:1930
+#, c-format
+msgid "New folder %i"
+msgstr "Nová složka %i"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2421
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2431
+msgid "Analysing files"
+msgstr "Analyzují se soubory"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2447
+#: ../librejilla-burn/rejilla-burn-options.c:471
+#: ../caja/caja-burn-extension.c:250 ../src/rejilla-project.c:1267
+#: ../librejilla-burn/rejilla-track-data.c:772
+#: ../librejilla-burn/rejilla-track-stream.c:405
+#, c-format
+msgid "There are no files to write to disc"
+msgstr "Pro zápis na disk nejsou žádné soubory"
+
+#: ../librejilla-burn/rejilla-track-data-cfg.c:2567
+#, c-format
+msgid "\"%s\" is a recursive symbolic link."
+msgstr "„%s“ je rekurzivní symbolický odkaz."
+
+#: ../librejilla-utils/rejilla-io.c:1414
+#, c-format
+msgid "The file does not appear to be a playlist"
+msgstr "Zdá se, že soubor není seznamem skladeb"
+
+#: ../librejilla-utils/rejilla-metadata.c:1138 ../src/rejilla-audio-disc.c:642
+#, c-format
+msgid "\"%s\" could not be handled by GStreamer."
+msgstr "„%s“ nelze obsloužit pomocí GStreamer."
+
+#. Translators: %s is the name of the object (as in
+#. * GObject) from the Gstreamer library that could
+#. * not be created
+#: ../librejilla-utils/rejilla-metadata.c:1210
+#: ../librejilla-utils/rejilla-metadata.c:1223
+#: ../librejilla-utils/rejilla-metadata.c:1236
+#: ../librejilla-utils/rejilla-metadata.c:1378
+#: ../librejilla-utils/rejilla-metadata.c:1749
+#: ../librejilla-utils/rejilla-metadata.c:1764
+#: ../librejilla-utils/rejilla-metadata.c:1773
+#: ../plugins/transcode/burn-normalize.c:172
+#: ../plugins/transcode/burn-normalize.c:187
+#: ../plugins/transcode/burn-normalize.c:209
+#: ../plugins/transcode/burn-normalize.c:221
+#: ../plugins/transcode/burn-normalize.c:238
+#: ../plugins/transcode/burn-normalize.c:335
+#: ../plugins/transcode/burn-transcode.c:294
+#: ../plugins/transcode/burn-transcode.c:306
+#: ../plugins/transcode/burn-transcode.c:456
+#: ../plugins/transcode/burn-transcode.c:509
+#: ../plugins/transcode/burn-transcode.c:543
+#: ../plugins/transcode/burn-transcode.c:590
+#: ../plugins/transcode/burn-transcode.c:611
+#: ../plugins/transcode/burn-transcode.c:623
+#: ../plugins/transcode/burn-transcode.c:648
+#: ../plugins/transcode/burn-vob.c:318 ../plugins/transcode/burn-vob.c:338
+#: ../plugins/transcode/burn-vob.c:353 ../plugins/transcode/burn-vob.c:365
+#: ../plugins/transcode/burn-vob.c:382 ../plugins/transcode/burn-vob.c:440
+#: ../plugins/transcode/burn-vob.c:457 ../plugins/transcode/burn-vob.c:469
+#: ../plugins/transcode/burn-vob.c:481 ../plugins/transcode/burn-vob.c:493
+#: ../plugins/transcode/burn-vob.c:510 ../plugins/transcode/burn-vob.c:601
+#: ../plugins/transcode/burn-vob.c:618 ../plugins/transcode/burn-vob.c:630
+#: ../plugins/transcode/burn-vob.c:642 ../plugins/transcode/burn-vob.c:664
+#: ../plugins/transcode/burn-vob.c:681 ../plugins/transcode/burn-vob.c:727
+#: ../plugins/transcode/burn-vob.c:804 ../plugins/transcode/burn-vob.c:821
+#: ../plugins/transcode/burn-vob.c:836 ../plugins/transcode/burn-vob.c:848
+#: ../plugins/transcode/burn-vob.c:859 ../plugins/transcode/burn-vob.c:870
+#: ../plugins/transcode/burn-vob.c:1045 ../plugins/transcode/burn-vob.c:1109
+#: ../plugins/transcode/burn-vob.c:1126 ../plugins/transcode/burn-vob.c:1147
+#: ../plugins/transcode/burn-vob.c:1174
+#, c-format
+msgid "%s element could not be created"
+msgstr "Nelze vytvořit prvek %s"
+
+#. Translators: Error message saying no graft point
+#. * is specified. A graft point is the path (on the
+#. * disc) where a file from any source will be added
+#. * ("grafted")
+#: ../librejilla-burn/rejilla-caps-burn.c:66
+#: ../librejilla-burn/rejilla-burn.c:2852 ../librejilla-burn/burn-job.c:1219
+#: ../librejilla-burn/burn-job.c:1228
+#: ../librejilla-burn/burn-mkisofs-base.c:302
+#: ../caja/caja-burn-extension.c:228 ../src/rejilla-app.c:783
+#: ../plugins/cdrkit/burn-genisoimage.c:370
+#: ../plugins/cdrkit/burn-readom.c:129 ../plugins/cdrkit/burn-readom.c:370
+#: ../plugins/cdrkit/burn-wodim.c:726 ../plugins/cdrkit/burn-wodim.c:841
+#: ../plugins/cdrkit/burn-wodim.c:856 ../plugins/cdrtools/burn-cdrecord.c:839
+#: ../plugins/cdrtools/burn-cdrecord.c:854
+#: ../plugins/cdrtools/burn-mkisofs.c:371
+#: ../plugins/cdrtools/burn-readcd.c:130 ../plugins/cdrtools/burn-readcd.c:380
+#, c-format
+msgid "An internal error occurred"
+msgstr "Nastala vnitřní chyba"
+
+#: ../librejilla-burn/rejilla-caps-burn.c:868
+#: ../librejilla-burn/rejilla-burn.c:2582
+#, c-format
+msgid "Only one track at a time can be checked"
+msgstr "Najednou lze kontrolovat jen jednu stopu"
+
+# nebo obrázku?
+#: ../librejilla-burn/rejilla-track-image-cfg.c:430
+msgid "Retrieving image format and size"
+msgstr "Získává se formát a velikost obrazu"
+
+#. Translators: This is a disc image
+#: ../librejilla-burn/rejilla-track-image-cfg.c:450
+msgid "The format of the disc image could not be identified"
+msgstr "Nelze určit formát obrazu disku"
+
+#: ../librejilla-burn/rejilla-track-image-cfg.c:451
+msgid "Please set it manually"
+msgstr "Prosím nastavte jej ručně"
+
+#. Translators: This string is used in the title bar %s is the action currently performed
+#: ../librejilla-burn/rejilla-burn-dialog.c:184
+#, c-format
+msgid "%s (%i%% Done)"
+msgstr "%s (%i%% hotovo)"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:206
+#: ../librejilla-burn/rejilla-burn-dialog.c:1135
+msgid "Creating Image"
+msgstr "Vytváření obrazu"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:211
+#: ../librejilla-burn/rejilla-burn-dialog.c:1144
+msgid "Burning DVD"
+msgstr "Vypalování DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:215
+#: ../librejilla-burn/rejilla-burn-dialog.c:1140
+msgid "Copying DVD"
+msgstr "Kopírování DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:221
+#: ../librejilla-burn/rejilla-burn-dialog.c:1154
+msgid "Burning CD"
+msgstr "Vypalování CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:225
+#: ../librejilla-burn/rejilla-burn-dialog.c:346
+#: ../librejilla-burn/rejilla-burn-dialog.c:1150
+msgid "Copying CD"
+msgstr "Kopírování CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:231
+#: ../librejilla-burn/rejilla-burn-dialog.c:1164
+msgid "Burning Disc"
+msgstr "Vypalování disku"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:235
+#: ../librejilla-burn/rejilla-burn-dialog.c:1160
+msgid "Copying Disc"
+msgstr "Kopírování disku"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:265
+#: ../librejilla-burn/burn-basics.c:78
+msgid "Creating image"
+msgstr "Vytváří se obraz"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:271
+msgid "Simulation of video DVD burning"
+msgstr "Simulace vypalování video DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:273
+msgid "Burning video DVD"
+msgstr "Vypaluje se video DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:281
+msgid "Simulation of data DVD burning"
+msgstr "Simulace vypalování datového DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:283
+msgid "Burning data DVD"
+msgstr "Vypaluje se datové DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:291
+msgid "Simulation of image to DVD burning"
+msgstr "Simulace vypalování obrazu na DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:293
+msgid "Burning image to DVD"
+msgstr "Vypaluje se obraz na DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:301
+msgid "Simulation of data DVD copying"
+msgstr "Simulace kopírování datového DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:303
+msgid "Copying data DVD"
+msgstr "Kopíruje se datové DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:314
+msgid "Simulation of (S)VCD burning"
+msgstr "Simulace vypalování (S)VCD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:316
+msgid "Burning (S)VCD"
+msgstr "Vypaluje se (S)VCD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:324
+#: ../librejilla-burn/rejilla-burn-dialog.c:377
+msgid "Simulation of audio CD burning"
+msgstr "Simulace vypalování hudebního CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:326
+#: ../librejilla-burn/rejilla-burn-dialog.c:379
+msgid "Burning audio CD"
+msgstr "Vypaluje se hudební CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:334
+msgid "Simulation of data CD burning"
+msgstr "Simulace vypalování datového CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:336
+msgid "Burning data CD"
+msgstr "Vypaluje se datové CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:344
+msgid "Simulation of CD copying"
+msgstr "Simulace kopírování CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:354
+msgid "Simulation of image to CD burning"
+msgstr "Simulace vypalování obrazu na CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:356
+msgid "Burning image to CD"
+msgstr "Vypaluje se obraz na CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:367
+msgid "Simulation of video disc burning"
+msgstr "Simulace vypalování videodisku"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:369
+msgid "Burning video disc"
+msgstr "Vypaluje se videodisk"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:387
+msgid "Simulation of data disc burning"
+msgstr "Simulace vypalování datového disku"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:389
+msgid "Burning data disc"
+msgstr "Vypaluje se datový disk"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:397
+msgid "Simulation of disc copying"
+msgstr "Simulace kopírování disku"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:399
+#: ../librejilla-burn/burn-basics.c:82
+msgid "Copying disc"
+msgstr "Kopíruje se disk"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:407
+msgid "Simulation of image to disc burning"
+msgstr "Simulace vypalování obrazu na disk"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:409
+msgid "Burning image to disc"
+msgstr "Vypaluje se obraz na disk"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:514
+msgid "Please replace the disc with a rewritable disc holding data."
+msgstr "Prosím nahraďte tento disk přepisovatelným diskem obsahujícím data."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:516
+msgid "Please replace the disc with a disc holding data."
+msgstr "Prosím nahraďte tento disk diskem obsahujícím data."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:520
+msgid "Please insert a rewritable disc holding data."
+msgstr "Prosím vložte přepisovatelný disk obsahující data."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:522
+#: ../librejilla-burn/rejilla-burn-options.c:496
+msgid "Please insert a disc holding data."
+msgstr "Prosím vložte disk obsahující data."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:537
+#, c-format
+msgid ""
+"Please replace the disc with a writable CD with at least %i MiB of free "
+"space."
+msgstr ""
+"Prosím nahraďte tento disk zapisovatelným CD s alespoň %i MiB volného místa."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:540
+msgid "Please replace the disc with a writable CD."
+msgstr "Prosím nahraďte tento disk zapisovatelným CD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:544
+#, c-format
+msgid "Please insert a writable CD with at least %i MiB of free space."
+msgstr "Prosím vložte zapisovatelné CD s alespoň %i MiB volného místa."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:547
+msgid "Please insert a writable CD."
+msgstr "Prosím vložte zapisovatelné CD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:553
+#, c-format
+msgid ""
+"Please replace the disc with a writable DVD with at least %i MiB of free "
+"space."
+msgstr ""
+"Prosím nahraďte tento disk zapisovatelným DVD s alespoň %i MiB volného místa."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:556
+msgid "Please replace the disc with a writable DVD."
+msgstr "Prosím nahraďte tento disk zapisovatelným DVD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:560
+#, c-format
+msgid "Please insert a writable DVD with at least %i MiB of free space."
+msgstr "Prosím vložte zapisovatelné DVD s alespoň %i MiB volného místa."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:563
+msgid "Please insert a writable DVD."
+msgstr "Prosím vložte zapisovatelné DVD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:568
+#, c-format
+msgid ""
+"Please replace the disc with a writable CD or DVD with at least %i MiB of "
+"free space."
+msgstr ""
+"Prosím nahraďte tento disk zapisovatelným CD nebo DVD s alespoň %i MiB "
+"volného místa."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:571
+msgid "Please replace the disc with a writable CD or DVD."
+msgstr "Prosím nahraďte tento disk zapisovatelným CD nebo DVD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:575
+#, c-format
+msgid "Please insert a writable CD or DVD with at least %i MiB of free space."
+msgstr ""
+"Prosím vložte zapisovatelné CD nebo DVD s alespoň %i MiB volného místa."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:578
+#: ../librejilla-burn/rejilla-burn-dialog.c:2157
+#: ../librejilla-burn/rejilla-burn-dialog.c:2171
+#: ../librejilla-burn/rejilla-burn-options.c:450 ../src/rejilla-project.c:987
+msgid "Please insert a writable CD or DVD."
+msgstr "Prosím vložte zapisovatelné CD nebo DVD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:605
+msgid ""
+"An image of the disc has been created on your hard drive.\n"
+"Burning will begin as soon as a writable disc is inserted."
+msgstr ""
+"Na pevném disku byl vytvořen obraz disku.\n"
+"Vypalování začne, jakmile bude vložen zapisovatelný disk."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:610
+msgid "A data integrity test will begin as soon as the disc is inserted."
+msgstr "Test integrity dat začne, jakmile bude vložen disk."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:611
+msgid "Please re-insert the disc in the CD/DVD burner."
+msgstr "Vložte prosím disk znovu do vypalovačky CD/DVD."
+
+#. Translators: %s is the name of a drive
+#: ../librejilla-burn/rejilla-burn-dialog.c:615
+#, c-format
+msgid "\"%s\" is busy."
+msgstr "„%s“ je zaneprázdněna."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:616
+#: ../librejilla-burn/rejilla-burn.c:332
+#: ../librejilla-burn/rejilla-tool-dialog.c:90
+msgid "Make sure another application is not using it"
+msgstr "Ujistěte se, že jednotku nepoužívá žádná další aplikace"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:619
+#, c-format
+msgid "There is no disc in \"%s\"."
+msgstr "V „%s“ není žádný disk."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:623
+#, c-format
+msgid "The disc in \"%s\" is not supported."
+msgstr "Disk v „%s“ není podporován."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:627
+#, c-format
+msgid "The disc in \"%s\" is not rewritable."
+msgstr "Disk v „%s“ není přepisovatelný."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:631
+#, c-format
+msgid "The disc in \"%s\" is empty."
+msgstr "Disk v „%s“ je prázdný."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:635
+#, c-format
+msgid "The disc in \"%s\" is not writable."
+msgstr "Disk v „%s“ není zapisovatelný."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:639
+#, c-format
+msgid "Not enough space available on the disc in \"%s\"."
+msgstr "Na disku v „%s“ není dost volného místa."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:647
+#, c-format
+msgid "The disc in \"%s\" needs to be reloaded."
+msgstr "Disk v „%s“ je potřeba znovu načíst."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:648
+msgid "Please eject the disc and reload it."
+msgstr "Vysuňte prosím disk a znovu jej načtěte."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:693
+#: ../librejilla-burn/rejilla-sum-dialog.c:333
+msgid ""
+"A file could not be created at the location specified for temporary files"
+msgstr "Soubor nelze vytvořit v místě určeném pro dočasné soubory"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:694
+msgid "The image could not be created at the specified location"
+msgstr "Obraz nelze vytvořit na určeném místě"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:695
+msgid ""
+"Do you want to specify another location for this session or retry with the "
+"current location?"
+msgstr ""
+"Přejete si stanovit jiné umístění pro toto sezení, nebo zkusit znovu "
+"aktuální umístění?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:707
+msgid "You may want to free some space on the disc and retry"
+msgstr "Můžete uvolnit nějaké místo na disku a zkusit to znovu"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:714
+#: ../librejilla-burn/rejilla-drive-properties.c:247
+#: ../librejilla-burn/rejilla-drive-properties.c:285
+#: ../librejilla-burn/rejilla-drive-properties.c:337
+msgid "_Keep Current Location"
+msgstr "_Ponechat aktuální umístění"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:716
+#: ../librejilla-burn/rejilla-drive-properties.c:248
+#: ../librejilla-burn/rejilla-drive-properties.c:286
+#: ../librejilla-burn/rejilla-drive-properties.c:338
+msgid "_Change Location"
+msgstr "_Změnit umístění"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:738
+#: ../librejilla-burn/rejilla-image-properties.c:476
+msgid "Location for Image File"
+msgstr "Umístění souboru s obrazem"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:746
+#: ../librejilla-burn/rejilla-drive-properties.c:369
+msgid "Location for Temporary Files"
+msgstr "Umístění dočasných souborů"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:854
+#: ../librejilla-burn/rejilla-burn-dialog.c:1103
+msgid "_Replace Disc"
+msgstr "Nah_radit disk"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:895
+msgid "Do you really want to blank the current disc?"
+msgstr "Opravdu chcete smazat aktuální disk?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:896
+msgid "The disc in the drive holds data."
+msgstr "Disk v jednotce obsahuje data."
+
+#. Translators: Blank is a verb here
+#: ../librejilla-burn/rejilla-burn-dialog.c:898
+msgid "_Blank Disc"
+msgstr "_Smazat disk"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:912
+msgid ""
+"If you import them you will be able to see and use them once the current "
+"selection of files is burned."
+msgstr ""
+"Pokud je importujete, budete schopni je vidět a použít, jakmile bude "
+"aktuální výběr souborů vypálen."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:913
+msgid "If you don't, they will be invisible (though still readable)."
+msgstr "Pokud ne, nebudou viditelné (nicméně stále čitelné)."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:916
+msgid ""
+"There are files already burned on this disc. Would you like to import them?"
+msgstr ""
+"Na tomto disku se již nacházejí vypálené soubory. Chtěli byste je importovat?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:918
+msgid "_Import"
+msgstr "_Importovat"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:919
+msgid "Only _Append"
+msgstr "Pouze _přidat"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:932
+msgid ""
+"CD-RW audio discs may not play correctly in older CD players and CD-Text "
+"won't be written."
+msgstr ""
+"Hudební disky CD-RW nepůjdou možná správně přehrát ve starších přehrávačích "
+"CD a CD-TEXT nebude zapsán."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:933
+#: ../librejilla-burn/rejilla-burn-dialog.c:955
+msgid "Do you want to continue anyway?"
+msgstr "Přejete si přesto pokračovat?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:936
+msgid "Appending audio tracks to a CD is not advised."
+msgstr "Přidávání hudebních stop na CD není doporučeno."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:938
+#: ../librejilla-burn/rejilla-burn-dialog.c:960 ../src/rejilla-data-disc.c:572
+#: ../librejilla-burn/rejilla-tool-dialog.c:422
+msgid "_Continue"
+msgstr "_Pokračovat"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:954
+msgid "CD-RW audio discs may not play correctly in older CD players."
+msgstr ""
+"Hudební disky CD-RW nepůjdou možná správně přehrát ve starších přehrávačích "
+"CD."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:958
+msgid "Recording audio tracks on a rewritable disc is not advised."
+msgstr "Vypalování hudebních stop na přepisovatelný disk není doporučeno."
+
+#. Translators: %s is the name of a drive
+#: ../librejilla-burn/rejilla-burn-dialog.c:1005
+#, c-format
+msgid "Please eject the disc from \"%s\" manually."
+msgstr "Vysuňte prosím disk z „%s“ ručně."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1014
+msgid ""
+"The disc could not be ejected though it needs to be removed for the current "
+"operation to continue."
+msgstr ""
+"Tento disk nelze vysunout, nicméně je nutné jej odebrat, aby bylo možné "
+"pokračovat v aktuální operaci."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1101
+msgid "Do you want to replace the disc and continue?"
+msgstr "Chcete tento disk nahradit a pokračovat?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1102
+msgid "The currently inserted disc could not be blanked."
+msgstr "Aktuálně vložený disk nelze smazat."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1111
+msgid "Do you want to continue with full Windows compatibility disabled?"
+msgstr "Přejete si pokračovat s vypnutou volbou Plná kompatibilita s Windows?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1112
+#: ../src/rejilla-data-disc.c:746
+#: ../librejilla-burn/rejilla-status-dialog.c:343
+msgid ""
+"Some files don't have a suitable name for a fully Windows-compatible CD."
+msgstr ""
+"Některé soubory nemají název vhodný pro CD plně kompatibilní s Windows."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1113
+msgid "C_ontinue"
+msgstr "_Pokračovat"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1346
+#: ../librejilla-burn/rejilla-burn-dialog.c:1367
+msgid "The simulation was successful."
+msgstr "Simulace byla úspěšná."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1349
+msgid "Real disc burning will take place in 10 seconds."
+msgstr "Skutečné vypalování disku započne za 10 sekund."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1352
+msgid "Burn _Now"
+msgstr "Vypálit h_ned"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1649
+msgid "Save Current Session"
+msgstr "Uložit aktuální sezení"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1724
+msgid "An unknown error occurred."
+msgstr "Nastala neznámá chyba."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1732 ../src/rejilla-app.c:617
+msgid "Error while burning."
+msgstr "Chyba při vypalování."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1740
+msgid "_Save Log"
+msgstr "_Uložit protokol"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1773
+msgid "Video DVD successfully burned"
+msgstr "Video DVD bylo úspěšně vypáleno"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1775
+msgid "(S)VCD successfully burned"
+msgstr "(S)VCD bylo úspěšně vypáleno"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1778
+msgid "Audio CD successfully burned"
+msgstr "Hudební CD bylo úspěšně vypáleno"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1781
+#: ../librejilla-burn/rejilla-burn-dialog.c:1813
+msgid "Image successfully created"
+msgstr "Obraz byl úspěšně vytvořen"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1786
+msgid "DVD successfully copied"
+msgstr "DVD bylo úspěšně zkopírováno"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1788
+msgid "CD successfully copied"
+msgstr "CD bylo úspěšně zkopírováno"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1792
+msgid "Image of DVD successfully created"
+msgstr "Obraz DVD byl úspěšně vytvořen"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1794
+msgid "Image of CD successfully created"
+msgstr "Obraz CD byl úspěšně vytvořen"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1800
+msgid "Image successfully burned to DVD"
+msgstr "Obraz byl úspěšně vypálen na DVD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1802
+msgid "Image successfully burned to CD"
+msgstr "Obraz byl úspěšně vypálen na CD"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1808
+msgid "Data DVD successfully burned"
+msgstr "Datové DVD bylo úspěšně vypáleno"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1810
+msgid "Data CD successfully burned"
+msgstr "Datové CD bylo úspěšně vypáleno"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1870
+#, c-format
+msgid "Copy #%i has been burned successfully."
+msgstr "Kopie #%i byla úspěšně vypálena."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1878
+msgid ""
+"Another copy will start as soon as you insert a new writable disc. If you do "
+"not want to burn another copy, press \"Cancel\"."
+msgstr ""
+"Jakmile vložíte nový zapisovatelný disk, spustí se vypalování další kopie. "
+"Pokud nechcete vypálit další kopii, klikněte na „Zrušit“."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1950
+msgid "Make _More Copies"
+msgstr "Vytvořit _více kopií"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:1959
+msgid "_Create Cover"
+msgstr "_Vytvořit obal"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2120
+msgid "There are some files left to burn"
+msgstr "Ještě zbývají nějaké soubory k vypálení"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2127
+msgid "There are some more videos left to burn"
+msgstr "Ještě zbývají nějaká videa k vypálení"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2131
+msgid "There are some more songs left to burn"
+msgstr "Ještě zbývají nějaké skladby k vypálení"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2172
+#: ../librejilla-burn/rejilla-burn.c:1629
+#: ../plugins/cdrkit/burn-genisoimage.c:208 ../plugins/cdrkit/burn-wodim.c:114
+#: ../plugins/cdrtools/burn-cdrecord.c:114
+#: ../plugins/cdrtools/burn-mkisofs.c:209
+#: ../plugins/growisofs/burn-growisofs.c:198
+#, c-format
+msgid "Not enough space available on the disc"
+msgstr "Na disku není dost volného místa"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2437
+#: ../librejilla-burn/rejilla-tool-dialog.c:411
+msgid "Do you really want to quit?"
+msgstr "Opravdu chcete ukončit?"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2441
+#: ../librejilla-burn/rejilla-tool-dialog.c:417
+msgid "Interrupting the process may make disc unusable."
+msgstr "Přerušení procesu může zapříčinit znehodnocení disku."
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2444
+msgid "C_ontinue Burning"
+msgstr "P_okračovat ve vypalování"
+
+#: ../librejilla-burn/rejilla-burn-dialog.c:2451
+msgid "_Cancel Burning"
+msgstr "_Přerušit vypalování"
+
+#: ../librejilla-burn/rejilla-burn-options.c:228 ../src/rejilla-project.c:1012
+msgid ""
+"Please insert a writable CD or DVD if you don't want to write to an image "
+"file."
+msgstr ""
+"Prosím vložte zapisovatelné CD nebo DVD, pokud nechcete zapisovat do souboru "
+"s obrazem."
+
+#: ../librejilla-burn/rejilla-burn-options.c:302 ../src/rejilla-project.c:1585
+msgid "Create _Image"
+msgstr "Vytvořit _obraz"
+
+#. Translators: This is a verb, an action
+#: ../librejilla-burn/rejilla-burn-options.c:307
+msgid "_Copy"
+msgstr "_Kopírovat"
+
+#: ../librejilla-burn/rejilla-burn-options.c:310
+msgid "Make _Several Copies"
+msgstr "Vytvořit _několik kopií"
+
+#. Translators: This is a verb, an action
+#: ../librejilla-burn/rejilla-burn-options.c:314 ../src/rejilla-project.c:1514
+msgid "_Burn"
+msgstr "V_ypálit"
+
+#: ../librejilla-burn/rejilla-burn-options.c:317 ../src/rejilla-project.c:1511
+msgid "Burn _Several Copies"
+msgstr "Vypálit _několik kopií"
+
+#: ../librejilla-burn/rejilla-burn-options.c:426 ../src/rejilla-project.c:941
+msgid "Would you like to burn the selection of files across several media?"
+msgstr "Chcete vypálit výběr souborů na několik médií?"
+
+#: ../librejilla-burn/rejilla-burn-options.c:427
+#: ../librejilla-burn/rejilla-burn-options.c:444
+msgid "The data size is too large for the disc even with the overburn option."
+msgstr ""
+"Velikost dat přesahuje velikost disku i se zapnutou volbou přeplňování."
+
+#: ../librejilla-burn/rejilla-burn-options.c:432 ../src/rejilla-project.c:946
+msgid "_Burn Several Discs"
+msgstr "_Vypálit několik disků"
+
+#: ../librejilla-burn/rejilla-burn-options.c:434 ../src/rejilla-project.c:948
+msgid "Burn the selection of files across several media"
+msgstr "Vypálit výběr souborů na několik médií"
+
+#: ../librejilla-burn/rejilla-burn-options.c:443 ../src/rejilla-project.c:957
+msgid "Please choose another CD or DVD or insert a new one."
+msgstr "Prosím zvolte jiné CD nebo DVD nebo vložte nové."
+
+#: ../librejilla-burn/rejilla-burn-options.c:457 ../src/rejilla-project.c:1002
+msgid "No track information (artist, title, ...) will be written to the disc."
+msgstr "Na disk nebudou zapsány žádné informace o stopě (umělec, název, …)."
+
+#: ../librejilla-burn/rejilla-burn-options.c:458 ../src/rejilla-project.c:1003
+msgid "This is not supported by the current active burning backend."
+msgstr "Toto není podporováno aktuálně aktivním vypalovacím nástrojem."
+
+#: ../librejilla-burn/rejilla-burn-options.c:470
+#: ../caja/caja-burn-extension.c:249
+msgid "Please add files."
+msgstr "Prosím, přidejte soubory."
+
+#: ../librejilla-burn/rejilla-burn-options.c:476
+msgid "Please add songs."
+msgstr "Prosím, přidejte skladby."
+
+#: ../librejilla-burn/rejilla-burn-options.c:477 ../src/rejilla-project.c:1258
+msgid "There are no songs to write to disc"
+msgstr "Pro zápis na disk nejsou žádné skladby"
+
+#: ../librejilla-burn/rejilla-burn-options.c:482
+msgid "Please add videos."
+msgstr "Prosím, přidejte videa."
+
+#: ../librejilla-burn/rejilla-burn-options.c:483
+msgid "There are no videos to write to disc"
+msgstr "Pro zápis na disk nejsou žádná videa"
+
+#: ../librejilla-burn/rejilla-burn-options.c:497
+msgid "There is no inserted disc to copy."
+msgstr "Není vložen žádný disk ke kopírování."
+
+#: ../librejilla-burn/rejilla-burn-options.c:508
+msgid "Please select a disc image."
+msgstr "Prosím vyberte obraz disku."
+
+#: ../librejilla-burn/rejilla-burn-options.c:509
+msgid "There is no selected disc image."
+msgstr "Není vybrán žádný obraz disku."
+
+#. Translators: this is a disc image not a picture
+#. Translators: this is a disc image, not a picture
+#: ../librejilla-burn/rejilla-burn-options.c:521
+#: ../librejilla-burn/rejilla-src-image.c:167
+msgctxt "disc"
+msgid "Please select another image."
+msgstr "Prosím vyberte jiný obraz."
+
+#: ../librejilla-burn/rejilla-burn-options.c:522
+msgid "It doesn't appear to be a valid disc image or a valid cue file."
+msgstr "Zdá se, že se nejedná o platný obraz disku nebo soubor CUE."
+
+#: ../librejilla-burn/rejilla-burn-options.c:533
+msgid "Please insert a disc that is not copy protected."
+msgstr "Prosím vložte disk, který není chráněn proti kopírování."
+
+#: ../librejilla-burn/rejilla-burn-options.c:534
+#: ../librejilla-burn/rejilla-burn-options.c:1236
+#: ../src/rejilla-project.c:1435
+msgid "All required applications and libraries are not installed."
+msgstr "Nejsou nainstalovány všechny požadované aplikace a knihovny."
+
+#: ../librejilla-burn/rejilla-burn-options.c:541 ../src/rejilla-project.c:995
+msgid "Please replace the disc with a supported CD or DVD."
+msgstr "Prosím nahraďte tento disk podporovaným CD nebo DVD."
+
+#: ../librejilla-burn/rejilla-burn-options.c:550 ../src/rejilla-project.c:968
+msgid "Would you like to burn beyond the disc's reported capacity?"
+msgstr "Chcete provést vypalování nad uváděnou kapacitu disku?"
+
+#: ../librejilla-burn/rejilla-burn-options.c:551
+msgid ""
+"The data size is too large for the disc and you must remove files from the "
+"selection otherwise.\n"
+"You may want to use this option if you're using 90 or 100 min CD-R(W) which "
+"cannot be properly recognised and therefore need overburn option.\n"
+"NOTE: This option might cause failure."
+msgstr ""
+"Velikost dat přesahuje velikost disku, a tudíž musíte z výběru odstranit "
+"některé soubory.\n"
+"Tato volba je vhodná v případě, že používáte 90 nebo 100min CD-R(W), která "
+"nebyla správně rozpoznána, a proto je nutná volba přeplňování.\n"
+"POZNÁMKA: Tato volba může způsobit selhání."
+
+#: ../librejilla-burn/rejilla-burn-options.c:558 ../src/rejilla-project.c:975
+msgid "_Overburn"
+msgstr "_Použít přeplňování"
+
+#: ../librejilla-burn/rejilla-burn-options.c:560 ../src/rejilla-project.c:977
+msgid "Burn beyond the disc's reported capacity"
+msgstr "Vypálit nad uváděnou kapacitu disku"
+
+#: ../librejilla-burn/rejilla-burn-options.c:570
+msgid ""
+"The drive that holds the source disc will also be the one used to record."
+msgstr ""
+"Jednotka, která obsahuje zdrojový disk, bude použita také k vypalování."
+
+#: ../librejilla-burn/rejilla-burn-options.c:571
+msgid ""
+"A new writable disc will be required once the currently loaded one has been "
+"copied."
+msgstr "Až se vložený disk zkopíruje, bude potřeba nový zapisovatelný disk."
+
+#: ../librejilla-burn/rejilla-burn-options.c:658
+msgid "Select a disc to write to"
+msgstr "Vyberte disk pro zápis"
+
+#: ../librejilla-burn/rejilla-burn-options.c:738
+#: ../librejilla-burn/rejilla-burn-options.c:756
+#: ../librejilla-burn/rejilla-burn-options.c:876
+msgid "Disc Burning Setup"
+msgstr "Nastavení vypalování disku"
+
+#: ../librejilla-burn/rejilla-burn-options.c:765 ../src/rejilla-project.c:1534
+msgid "Video Options"
+msgstr "Možnosti videa"
+
+#: ../librejilla-burn/rejilla-burn-options.c:796
+#: ../src/rejilla-data-disc.c:616
+msgid ""
+"Do you want to create a disc from the contents of the image or with the "
+"image file inside?"
+msgstr ""
+"Přejete si vytvořit disk z obsahu obrazu nebo disk obsahující soubor s "
+"obrazem?"
+
+#. Translators: %s is the name of the image
+#: ../librejilla-burn/rejilla-burn-options.c:805
+#, c-format
+msgid ""
+"There is only one selected file (\"%s\"). It is the image of a disc and its "
+"contents can be burned."
+msgstr ""
+"Je vybrán pouze jeden soubor („%s“). Tento soubor je obraz disku a jeho "
+"obsah lze vypálit."
+
+#: ../librejilla-burn/rejilla-burn-options.c:810
+msgid "Burn as _File"
+msgstr "Vypálit jako _soubor"
+
+#: ../librejilla-burn/rejilla-burn-options.c:812
+msgid "Burn _Contents…"
+msgstr "Vypálit _obsah…"
+
+#: ../librejilla-burn/rejilla-burn-options.c:894
+msgid "Image Burning Setup"
+msgstr "Nastavení vypalování obrazu"
+
+#. pack everything
+#: ../librejilla-burn/rejilla-burn-options.c:902
+msgid "Select a disc image to write"
+msgstr "Vyberte obraz disku k zápisu"
+
+#: ../librejilla-burn/rejilla-burn-options.c:922
+msgid "Copy CD/DVD"
+msgstr "Kopírování CD/DVD"
+
+#: ../librejilla-burn/rejilla-burn-options.c:928
+msgid "Select disc to copy"
+msgstr "Vyberte disk ke kopírování"
+
+#. Translators: %s is the name of a missing application
+#: ../librejilla-burn/rejilla-burn-options.c:1188
+#: ../librejilla-burn/rejilla-burn.c:1713 ../src/rejilla-project.c:1375
+#, c-format
+msgid "%s (application)"
+msgstr "%s (aplikace)"
+
+#. Translators: %s is the name of a missing library
+#: ../librejilla-burn/rejilla-burn-options.c:1194
+#: ../librejilla-burn/rejilla-burn.c:1719 ../src/rejilla-project.c:1381
+#, c-format
+msgid "%s (library)"
+msgstr "%s (knihovna)"
+
+#. Translators: %s is the name of a missing GStreamer plugin
+#: ../librejilla-burn/rejilla-burn-options.c:1199
+#: ../librejilla-burn/rejilla-burn.c:1724 ../src/rejilla-project.c:1386
+#, c-format
+msgid "%s (GStreamer plugin)"
+msgstr "%s (zásuvný modul GStreamer)"
+
+#: ../librejilla-burn/rejilla-burn-options.c:1230
+#: ../src/rejilla-project.c:1429
+msgid "Please install the following manually and try again:"
+msgstr "Prosím nainstalujte následující ručně a zkuste to znovu:"
+
+#: ../librejilla-burn/rejilla-burn.c:162
+msgid "Burning CD/DVD"
+msgstr "Vypaluje se CD/DVD"
+
+#: ../librejilla-burn/rejilla-burn.c:409
+#, c-format
+msgid "\"%s\" cannot be unlocked"
+msgstr "„%s“ nelze odemknout"
+
+#: ../librejilla-burn/rejilla-burn.c:546 ../librejilla-burn/rejilla-burn.c:678
+#: ../librejilla-burn/rejilla-burn.c:761
+msgid "No burner specified"
+msgstr "Nespecifikována žádná vypalovačka"
+
+#: ../librejilla-burn/rejilla-burn.c:586
+msgid "No source drive specified"
+msgstr "Nespecifikována žádná zdrojová jednotka"
+
+#: ../librejilla-burn/rejilla-burn.c:632
+msgid "Ongoing copying process"
+msgstr "Probíhající kopírování"
+
+#: ../librejilla-burn/rejilla-burn.c:636 ../librejilla-burn/rejilla-burn.c:735
+#: ../librejilla-burn/rejilla-burn.c:872 ../librejilla-burn/rejilla-burn.c:987
+#, c-format
+msgid "The drive cannot be locked (%s)"
+msgstr "Jednotku nelze zamknout (%s)"
+
+#: ../librejilla-burn/rejilla-burn.c:695
+msgid "The drive has no rewriting capabilities"
+msgstr "Jednotka neumožňuje přepisování"
+
+#: ../librejilla-burn/rejilla-burn.c:731
+msgid "Ongoing blanking process"
+msgstr "Probíhající mazání"
+
+#: ../librejilla-burn/rejilla-burn.c:770
+msgid "The drive cannot burn"
+msgstr "Jednotka nemůže vypalovat"
+
+#: ../librejilla-burn/rejilla-burn.c:866
+#: ../librejilla-burn/rejilla-dest-selection.c:108
+msgid "Ongoing burning process"
+msgstr "Probíhající vypalování"
+
+#: ../librejilla-burn/rejilla-burn.c:983
+msgid "Ongoing checksumming operation"
+msgstr "Probíhá vytváření kontrolního součtu"
+
+#: ../librejilla-burn/rejilla-burn.c:1628
+#: ../librejilla-burn/rejilla-burn.c:1822
+msgid "Merging data is impossible with this disc"
+msgstr "Slučování dat není s tímto diskem možné"
+
+#: ../librejilla-burn/rejilla-burn.c:1757
+msgid "There is no track to burn"
+msgstr "Žádná stopa k vypálení"
+
+#: ../librejilla-burn/rejilla-burn.c:1864
+msgid ""
+"Please install the following required applications and libraries manually "
+"and try again:"
+msgstr ""
+"Prosím nainstalujte následující požadované aplikace a knihovny ručně a "
+"zkuste to znovu:"
+
+#: ../librejilla-burn/rejilla-burn.c:2641
+msgid "No format for the temporary image could be found"
+msgstr "Nelze nalézt žádný formát pro dočasný obraz"
+
+#: ../librejilla-burn/rejilla-cover.c:119
+msgid "Unknown song"
+msgstr "Neznámá skladba"
+
+#. Reminder: if this string happens to be used
+#. * somewhere else in rejilla we'll need a
+#. * context with C_() macro
+#. Translators: %s is the name of the artist.
+#. * This text is the one written on the cover of a disc.
+#. * Before it there is the name of the song.
+#. * I had to break it because it is in a GtkTextBuffer
+#. * and every word has a different tag.
+#. Translators: %s is the name of an artist.
+#. Translators: %s is the name of the artist
+#: ../librejilla-burn/rejilla-cover.c:146 ../src/rejilla-song-control.c:274
+#: ../src/rejilla-player.c:419
+#, c-format
+msgid "by %s"
+msgstr "od %s"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:605
+#: ../librejilla-burn/rejilla-image-type-chooser.c:133
+msgid "SVCD image"
+msgstr "Obraz SVCD"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:607
+#: ../librejilla-burn/rejilla-image-type-chooser.c:127
+msgid "VCD image"
+msgstr "Obraz VCD"
+
+#: ../librejilla-burn/rejilla-dest-selection.c:611
+#: ../librejilla-burn/rejilla-image-type-chooser.c:106
+msgid "Video DVD image"
+msgstr "Obraz video DVD"
+
+#. NOTE for translators: the first %s is medium_name ("File
+#. * Image") and the second the path for the image file
+#: ../librejilla-burn/rejilla-dest-selection.c:623
+#, c-format
+msgid "%s: \"%s\""
+msgstr "%s: „%s“"
+
+#. Translators: this string is only used when the user
+#. * wants to copy a disc using the same destination and
+#. * source drive. It tells him that rejilla will use as
+#. * destination disc a new one (once the source has been
+#. * copied) which is to be inserted in the drive currently
+#. * holding the source disc
+#: ../librejilla-burn/rejilla-dest-selection.c:655
+#, c-format
+msgid "New disc in the burner holding the source disc"
+msgstr "Nový disk ve vypalovačce obsahující zdrojový disk"
+
+#. NOTE for translators, the first %s is the medium name
+#: ../librejilla-burn/rejilla-dest-selection.c:696
+#, c-format
+msgid "%s: not enough free space"
+msgstr "%s: nedostatek volného místa"
+
+#. NOTE for translators: the first %s is the medium name, the second %s
+#. * is its available free space. "Free" here is the free space available.
+#: ../librejilla-burn/rejilla-dest-selection.c:727
+#, c-format
+msgid "%s: %s of free space"
+msgstr "%s: %s volného místa"
+
+#. Translators: the first %s is the path of the directory where rejilla
+#. * will store its temporary files; the second one is the size available
+#: ../librejilla-burn/rejilla-drive-properties.c:192
+#, c-format
+msgid "%s: %s free"
+msgstr "%s: %s volného místa"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:236
+#: ../librejilla-burn/rejilla-drive-properties.c:275
+#: ../librejilla-burn/rejilla-drive-properties.c:327
+msgid "Do you really want to choose this location?"
+msgstr "Opravdu chcete zvolit toto umístění?"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:280
+#: ../librejilla-burn/rejilla-session.c:1290
+#: ../librejilla-burn/rejilla-session.c:1365 ../librejilla-burn/burn-job.c:490
+#: ../plugins/cdrkit/burn-genisoimage.c:201
+#: ../plugins/cdrtools/burn-mkisofs.c:202
+#: ../plugins/libburnia/burn-libisofs.c:239
+#, c-format
+msgid "You do not have the required permission to write at this location"
+msgstr "Nemáte dostatečná oprávnění k zápisu v tomto umístění"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:333
+msgid ""
+"The filesystem on this volume does not support large files (size over 2 "
+"GiB).\n"
+"This can be a problem when writing DVDs or large images."
+msgstr ""
+"Systém souborů na tomto svazku nepodporuje velké soubory (velikost přes 2 "
+"GiB).\n"
+"Toto může být problém při zápisu na DVD nebo větších obrazů."
+
+#. Translators %s.1f is the speed used to burn
+#: ../librejilla-burn/rejilla-drive-properties.c:531
+#, c-format
+msgid "%.1f× (DVD)"
+msgstr "%.1f× (DVD)"
+
+#. Translators %s.1f is the speed used to burn
+#: ../librejilla-burn/rejilla-drive-properties.c:535
+#, c-format
+msgid "%.1f× (CD)"
+msgstr "%.1f× (CD)"
+
+#. Translators %s.1f is the speed used to burn. BD = Blu Ray
+#: ../librejilla-burn/rejilla-drive-properties.c:539
+#, c-format
+msgid "%.1f× (BD)"
+msgstr "%.1f× (BD)"
+
+#. Translators %s.1f is the speed used to burn for every medium
+#. * type. BD = Blu Ray
+#: ../librejilla-burn/rejilla-drive-properties.c:544
+#, c-format
+msgid "%.1f× (BD) %.1f× (DVD) %.1f× (CD)"
+msgstr "%.1f× (BD) %.1f× (DVD) %.1f× (CD)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:582
+msgid "Impossible to retrieve speeds"
+msgstr "Není možné získat informace o rychlosti"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:591
+msgid "Maximum speed"
+msgstr "Maximální rychlost"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:717
+msgid "Burning speed"
+msgstr "Rychlost vypalování"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:730
+msgid "_Simulate before burning"
+msgstr "_Simulovat před vypalováním"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:731
+msgid ""
+"Rejilla will simulate the burning and, if it is successful, go on with "
+"actual burning after 10 seconds"
+msgstr ""
+"Rejilla bude simulovat vypalování a pokud bude úspěšné, zahájí po 10 "
+"sekundách skutečné vypalování"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:733
+msgid "Use burn_proof (decrease the risk of failures)"
+msgstr "Použít burn_proof (snižuje riziko selhání)"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:735
+msgid "Burn the image directly _without saving it to disc"
+msgstr "Vypálit obraz ihned _bez uložení na disk"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:737
+msgid "Leave the disc _open to add other files later"
+msgstr "_Neuzavírat disk, aby bylo možno později přidat další soubory"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:738
+msgid "Allow to add more data to the disc later"
+msgstr "Umožní přidat další data na disk později"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:758
+#: ../src/rejilla-song-properties.c:226
+#: ../librejilla-burn/rejilla-tool-dialog.c:284
+#: ../src/rejilla-multi-song-props.c:308
+msgid "Options"
+msgstr "Možnosti"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:770
+msgid "Location for _Temporary Files"
+msgstr "Umístění _dočasných souborů"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:790
+msgid "Set the directory where to store temporary files"
+msgstr "Nastavte adresář, do kterého se budou ukládat dočasné soubory"
+
+#: ../librejilla-burn/rejilla-drive-properties.c:795
+msgid "Temporary files"
+msgstr "Dočasné soubory"
+
+#: ../librejilla-burn/rejilla-image-properties.c:221
+msgid "Disc image type:"
+msgstr "Typ obrazu disku:"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:97
+msgid "Autodetect"
+msgstr "Automaticky detekovat"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:106
+msgid "ISO9660 image"
+msgstr "Obraz ISO9660"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:115
+msgid "Readcd/Readom image"
+msgstr "Obraz Readcd/Readom"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:141
+msgid "Cue image"
+msgstr "Obraz Cue"
+
+#: ../librejilla-burn/rejilla-image-type-chooser.c:151
+msgid "Cdrdao image"
+msgstr "Obraz Cdrdao"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:93
+#: ../src/rejilla-project.c:1493
+#, c-format
+msgid "Properties of %s"
+msgstr "Vlastnosti %s"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:136
+msgid ""
+"Do you really want to keep the current extension for the disc image name?"
+msgstr "Opravdu chcete ponechat stávající příponu v názvu obrazu disku?"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:142
+msgid ""
+"If you choose to keep it, programs may not be able to recognize the file "
+"type properly."
+msgstr ""
+"Pokud zvolíte její ponechání, programy nemusí být schopny správně rozpoznat "
+"typ souboru."
+
+#: ../librejilla-burn/rejilla-medium-properties.c:145
+msgid "_Keep Current Extension"
+msgstr "_Ponechat stávající příponu"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:148
+msgid "Change _Extension"
+msgstr "Změnit _příponu"
+
+#: ../librejilla-burn/rejilla-medium-properties.c:240
+msgid "Configure recording options"
+msgstr "Nastavit možnosti vypalování"
+
+#. Translators: first %02i is hours, the second one is minutes and the
+#. * third one is seconds.
+#: ../librejilla-burn/rejilla-progress.c:198
+#, c-format
+msgid "Total time: %02i:%02i:%02i"
+msgstr "Celkový čas: %02i:%02i:%02i"
+
+#: ../librejilla-burn/rejilla-progress.c:209
+msgid "Average drive speed:"
+msgstr "Průměrná rychlost jednotky:"
+
+#. Translators: first %02i is hours, the second one is minutes
+#. * and the third one is seconds.
+#: ../librejilla-burn/rejilla-progress.c:436
+#, c-format
+msgid "Estimated remaining time: %02i:%02i:%02i"
+msgstr "Odhad zbývajícího času: %02i:%02i:%02i"
+
+#: ../librejilla-burn/rejilla-progress.c:478
+#, c-format
+msgid "%i MiB of %i MiB"
+msgstr "%i MiB z %i MiB"
+
+#: ../librejilla-burn/rejilla-progress.c:504
+msgid "Estimated drive speed:"
+msgstr "Odhad rychlosti jednotky:"
+
+#. Translators: %s is a path
+#: ../librejilla-burn/rejilla-src-image.c:229
+#, c-format
+msgid "\"%s\": loading"
+msgstr "„%s“: načítá se"
+
+#. Translators: %s is a path and image refers to a disc image
+#: ../librejilla-burn/rejilla-src-image.c:236
+#, c-format
+msgid "\"%s\": unknown disc image type"
+msgstr "„%s“: neznámý typ obrazu disku"
+
+#. NOTE to translators, the first %s is the path of the image
+#. * file and the second its size.
+#: ../librejilla-burn/rejilla-src-image.c:258
+#, c-format
+msgid "\"%s\": %s"
+msgstr "„%s“: %s"
+
+#. This is hackish and meant to avoid ellipsization to make the
+#. * label too small.
+#. Translators: this is a disc image
+#: ../librejilla-burn/rejilla-src-image.c:271
+#: ../librejilla-burn/rejilla-src-image.c:554
+msgid "Click here to select a disc _image"
+msgstr "Klikněte zde pro výběr _obrazu disku"
+
+#: ../librejilla-burn/rejilla-src-image.c:415
+msgid "Select Disc Image"
+msgstr "Vyberte obraz disku"
+
+#. Translators: this a disc image here
+#: ../librejilla-burn/rejilla-src-image.c:450
+msgctxt "disc"
+msgid "Image files"
+msgstr "Soubory s obrazem"
+
+#: ../librejilla-burn/rejilla-src-image.c:467
+msgid "Image type:"
+msgstr "Typ obrazu:"
+
+#: ../librejilla-burn/rejilla-tray.c:83 ../src/rejilla-audio-disc.c:155
+#: ../src/rejilla-data-disc.c:122 ../src/rejilla-video-disc.c:100
+msgid "Menu"
+msgstr "Nabídka"
+
+#: ../librejilla-burn/rejilla-tray.c:84
+msgid "Cancel ongoing burning"
+msgstr "Přerušit probíhající vypalování"
+
+#: ../librejilla-burn/rejilla-tray.c:89
+msgid "Show _Dialog"
+msgstr "Zobrazit _dialog"
+
+#: ../librejilla-burn/rejilla-tray.c:89
+msgid "Show dialog"
+msgstr "Zobrazit dialog"
+
+#. Translators: the first %s is a string containing a description of the ongoing action
+#. *	        the first %d is a number (a percentage) representing how much of the above task has been completed so far
+#. *	        the second %s is a string containing the remaining time before completion.
+#.
+#: ../librejilla-burn/rejilla-tray.c:263
+#, c-format
+msgid "%s, %d%% done, %s remaining"
+msgstr "%s, %d%% hotovo, zbývá %s"
+
+#. Translators: the first %s is a string containing a description of the ongoing action
+#. *	        the first %d is a number (a percentage) representing how much of the above task has been completed so far
+#.
+#: ../librejilla-burn/rejilla-tray.c:273
+#, c-format
+msgid "%s, %d%% done"
+msgstr "%s, %d%% hotovo"
+
+#: ../librejilla-burn/burn-basics.c:77
+msgid "Getting size"
+msgstr "Zjišťuje se velikost"
+
+#: ../librejilla-burn/burn-basics.c:79
+msgid "Writing"
+msgstr "Provádí se zápis"
+
+#: ../librejilla-burn/burn-basics.c:80
+msgid "Blanking"
+msgstr "Provádí se mazání"
+
+#: ../librejilla-burn/burn-basics.c:81
+msgid "Creating checksum"
+msgstr "Vytváří se kontrolní součet"
+
+#: ../librejilla-burn/burn-basics.c:83
+msgid "Copying file"
+msgstr "Kopíruje se soubor"
+
+#: ../librejilla-burn/burn-basics.c:84
+msgid "Analysing audio files"
+msgstr "Analyzují se hudební soubory"
+
+#: ../librejilla-burn/burn-basics.c:85
+msgid "Transcoding song"
+msgstr "Skladba se převádí"
+
+#: ../librejilla-burn/burn-basics.c:86
+msgid "Preparing to write"
+msgstr "Připravuje se zápis"
+
+#: ../librejilla-burn/burn-basics.c:87
+msgid "Writing leadin"
+msgstr "Zapisuje se zaváděcí stopa"
+
+#: ../librejilla-burn/burn-basics.c:88
+msgid "Writing CD-Text information"
+msgstr "Zapisuje se CD-TEXT"
+
+#: ../librejilla-burn/burn-basics.c:89
+msgid "Finalizing"
+msgstr "Dokončování"
+
+#: ../librejilla-burn/burn-basics.c:90
+msgid "Writing leadout"
+msgstr "Zapisuje se ukončovací stopa"
+
+#: ../librejilla-burn/burn-basics.c:91
+msgid "Starting to record"
+msgstr "Připravuje se zápis"
+
+#: ../librejilla-burn/burn-basics.c:92
+msgid "Success"
+msgstr "Úspěch"
+
+#: ../librejilla-burn/burn-basics.c:93
+msgid "Ejecting medium"
+msgstr "Vysouvání média"
+
+#. Translators: %s is the plugin name
+#: ../librejilla-burn/burn-job.c:322 ../librejilla-burn/burn-job.c:797
+#: ../librejilla-burn/burn-job.c:810 ../librejilla-burn/burn-job.c:1029
+#: ../librejilla-burn/burn-job.c:1119
+#, c-format
+msgid "\"%s\" did not behave properly"
+msgstr "„%s“ nefunguje správně"
+
+#. Translators: the first %s is the size of the free space on the medium
+#. * and the second %s is the size of the space required by the data to be
+#. * burnt.
+#: ../librejilla-burn/burn-job.c:430
+#, c-format
+msgid "Not enough space available on the disc (%s available for %s)"
+msgstr ""
+"Na disku není dost volného místa (k dispozici je %s, ale potřeba je %s)"
+
+#: ../librejilla-burn/burn-job.c:522
+#, c-format
+msgid ""
+"The filesystem you chose to store the temporary image on cannot hold files "
+"with a size over 2 GiB"
+msgstr ""
+"Systém souborů, který jste zvolili pro uložení dočasného obrazu, nemůže "
+"obsahovat soubory s velikostí přes 2 GiB"
+
+#: ../librejilla-burn/burn-job.c:537 ../librejilla-burn/burn-job.c:559
+#, c-format
+msgid ""
+"The location you chose to store the temporary image on does not have enough "
+"free space for the disc image (%ld MiB needed)"
+msgstr ""
+"Na umístění, které jste zvolili pro uložení dočasného obrazu, není dostatek "
+"volného místa pro obraz disku (je potřeba %ld MiB)"
+
+#: ../librejilla-burn/burn-job.c:572 ../plugins/dvdcss/burn-dvdcss.c:363
+#, c-format
+msgid "The size of the volume could not be retrieved"
+msgstr "Nelze zjistit velikost svazku"
+
+# image output?
+#: ../librejilla-burn/burn-job.c:627
+#, c-format
+msgid "No path was specified for the image output"
+msgstr "Nebyla specifikována žádná cesta pro vytvořený obraz"
+
+#. Translators: %s is the error returned by libburn
+#. Translators: the %s is the error message from errno
+#: ../librejilla-burn/burn-job.c:768 ../plugins/cdrtools/burn-cdrecord.c:710
+#: ../plugins/libburnia/burn-libburn.c:716
+#: ../plugins/transcode/burn-transcode.c:826
+#, c-format
+msgid "An internal error occurred (%s)"
+msgstr "Nastala vnitřní chyba (%s)"
+
+#: ../librejilla-burn/burn-mkisofs-base.c:153
+#: ../librejilla-burn/burn-mkisofs-base.c:494
+#: ../plugins/growisofs/burn-growisofs.c:527
+#: ../plugins/libburnia/burn-libisofs.c:690
+#: ../plugins/checksum/burn-checksum-image.c:287
+#, c-format
+msgid "The file is not stored locally"
+msgstr "Soubor není uložen místně"
+
+#: ../librejilla-burn/burn-mkisofs-base.c:646
+#, c-format
+msgid "VIDEO_TS directory is missing or invalid"
+msgstr "Složka VIDEO_TS chybí nebo je neplatná"
+
+#. Translators: %s is the name of the rejilla element
+#: ../librejilla-burn/burn-process.c:259
+#, c-format
+msgid "Process \"%s\" ended with an error code (%i)"
+msgstr "Proces „%s“ skončil chybovým kódem (%i)"
+
+#: ../librejilla-utils/rejilla-disc-message.c:133
+msgid "_Hide changes"
+msgstr "_Skrýt změny"
+
+#: ../librejilla-utils/rejilla-disc-message.c:135
+#: ../librejilla-utils/rejilla-disc-message.c:154
+msgid "_Show changes"
+msgstr "_Zobrazit změny"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:173
+msgid "Images"
+msgstr "Obrázky"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:197
+msgid "_Color"
+msgstr "_Barva"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:226
+msgid "Solid color"
+msgstr "Jednolitá barva"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:227
+msgid "Horizontal gradient"
+msgstr "Vodorovný přechod"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:228
+msgid "Vertical gradient"
+msgstr "Svislý přechod"
+
+#. second part
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:245
+msgid "_Image"
+msgstr "_Obrázek"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:270
+msgid "Image path:"
+msgstr "Cesta k obrázku:"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:282
+msgid "Choose an image"
+msgstr "Vyberte obrázek"
+
+#. Translators: This is an image, a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-background.c:293
+msgid "Image style:"
+msgstr "Styl obrázku:"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:307
+msgid "Centered"
+msgstr "Vystředěný"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:308
+msgid "Tiled"
+msgstr "Dlaždice"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:309
+msgid "Scaled"
+msgstr "Přizpůsobený"
+
+#: ../librejilla-utils/rejilla-jacket-background.c:346
+msgid "Background Properties"
+msgstr "Vlastnosti pozadí"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:588
+msgid "Print"
+msgstr "Tisk"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:600
+msgid "Bac_kground Properties"
+msgstr "Vlastnosti _pozadí"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:603
+msgid "Background properties"
+msgstr "Vlastnosti pozadí"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:618
+msgid "Align right"
+msgstr "Zarovnat vpravo"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:628
+msgid "Center"
+msgstr "Vystředěný"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:638
+msgid "Align left"
+msgstr "Zarovnat vlevo"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:652
+msgid "Underline"
+msgstr "Podtržené"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:662
+msgid "Italic"
+msgstr "Kurzíva"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:672
+msgid "Bold"
+msgstr "Tučné"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:698
+msgid "Font family and size"
+msgstr "Písmo a velikost"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:705
+msgid "_Text Color"
+msgstr "Barva _textu"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:706
+msgid "Text color"
+msgstr "Barva textu"
+
+#: ../librejilla-utils/rejilla-jacket-edit.c:837
+msgid "Cover Editor"
+msgstr "Editor obalů"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:735
+msgid "Set Bac_kground Properties"
+msgstr "Nastavit vlastnosti _pozadí"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:776
+msgid "SIDES"
+msgstr "BOČNÍ STRANY"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:792
+msgid "BACK COVER"
+msgstr "ZADNÍ OBAL"
+
+#: ../librejilla-utils/rejilla-jacket-view.c:809
+msgid "FRONT COVER"
+msgstr "PŘEDNÍ OBAL"
+
+#. Translators: This is an image,
+#. * a picture, not a "Disc Image"
+#: ../librejilla-utils/rejilla-jacket-view.c:1074
+msgid "The image could not be loaded."
+msgstr "Obrázek nelze načíst."
+
+#: ../librejilla-utils/rejilla-tool-color-picker.c:169
+msgid "Pick a Color"
+msgstr "Vyberte barvu"
+
+#: ../librejilla-burn/rejilla-xfer.c:130 ../librejilla-burn/rejilla-xfer.c:266
+#, c-format
+msgid "Directory could not be created (%s)"
+msgstr "Nelze vytvořit adresář (%s)"
+
+#: ../src/rejilla-project-parse.c:62
+msgid "Error while loading the project."
+msgstr "Chyba při načítání projektu."
+
+#: ../src/rejilla-project-parse.c:454
+msgid "The project could not be opened"
+msgstr "Projekt nelze otevřít"
+
+#: ../src/rejilla-project-parse.c:463
+msgid "The file is empty"
+msgstr "Soubor je prázdný"
+
+#: ../src/rejilla-project-parse.c:542 ../src/rejilla-project-parse.c:607
+msgid "It does not seem to be a valid Rejilla project"
+msgstr "Nezdá se být platným projektem Rejilla"
+
+#: ../librejilla-media/rejilla-drive-selection.c:346
+#: ../librejilla-media/rejilla-drive-selection.c:441
+msgid "Unnamed CD/DVD Drive"
+msgstr "Bezejmenná jednotka CD/DVD"
+
+#: ../librejilla-media/rejilla-media.c:54
+msgid "Display debug statements on stdout for Rejilla media library"
+msgstr ""
+"Zobrazit ladicí informace na standardním výstupu pro knihovnu Rejilla media"
+
+#: ../librejilla-media/rejilla-media.c:477
+msgid "Rejilla optical media library"
+msgstr "Knihovna optických médií Rejilla"
+
+#: ../librejilla-media/rejilla-media.c:478
+msgid "Display options for Rejilla media library"
+msgstr "Zobrazit možnosti knihovny médií Rejilla"
+
+#. Translators: this is hour minute second like '2 h 14 min 25'
+#: ../librejilla-media/rejilla-units.c:71
+#, c-format
+msgid "%s h %s min %s"
+msgstr "%s h %s min %s"
+
+#. Translators: this is hour minute like '2 h 14'
+#: ../librejilla-media/rejilla-units.c:77
+#, c-format
+msgid "%s h %s"
+msgstr "%s h %s"
+
+#. Translators: this is hour like '2 h'
+#: ../librejilla-media/rejilla-units.c:82
+#, c-format
+msgid "%s h"
+msgstr "%s h"
+
+#. Translators: this is 'hour:minute:second' like '2:14:25'
+#: ../librejilla-media/rejilla-units.c:86
+#, c-format
+msgid "%s:%s:%s"
+msgstr "%s:%s:%s"
+
+#. Translators: this is 'hour:minute' or 'minute:second'
+#: ../librejilla-media/rejilla-units.c:92
+#: ../librejilla-media/rejilla-units.c:107
+#, c-format
+msgid "%s:%s"
+msgstr "%s:%s"
+
+#. Translators: %s is a duration expressed in minutes
+#: ../librejilla-media/rejilla-units.c:99
+#, c-format
+msgid "%s min"
+msgstr "%s min"
+
+#. Translators: the first %s is the number of minutes
+#. * and the second one is the number of seconds.
+#. * The whole string expresses a duration
+#: ../librejilla-media/rejilla-units.c:104
+#, c-format
+msgid "%s:%s min"
+msgstr "%s:%s min"
+
+#. NOTE for translators, the first %s is the medium name
+#: ../librejilla-media/rejilla-medium-selection.c:155
+#, c-format
+msgid "%s: empty"
+msgstr "%s: prázdné"
+
+#. NOTE for translators: the first %s is the medium name, the
+#. * second %s is the space (kio, gio) used by data on the disc.
+#.
+#. NOTE for translators: the first %s is the medium name, the
+#. * second %s is the space (time) used by data on the disc.
+#. * I really don't know if I should set this string as
+#. * translatable.
+#: ../librejilla-media/rejilla-medium-selection.c:171
+#: ../librejilla-media/rejilla-medium-selection.c:183
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../librejilla-media/rejilla-medium-selection.c:462
+msgid "Searching for available discs"
+msgstr "Hledají se dostupné disky"
+
+#: ../librejilla-media/rejilla-medium-selection.c:471
+msgid "No disc available"
+msgstr "Žádný disk k dispozici"
+
+#. Translators: This is a fake drive, a file, and means that
+#. * when we're writing, we're writing to a file and create an
+#. * image on the hard drive.
+#: ../librejilla-media/rejilla-drive.c:607
+#: ../librejilla-media/rejilla-medium.c:209
+#: ../librejilla-media/rejilla-volume.c:391
+msgid "Image File"
+msgstr "Soubor s obrazem"
+
+#: ../librejilla-media/burn-iso9660.c:158
+#: ../librejilla-media/burn-iso9660.c:167
+#: ../librejilla-media/burn-iso9660.c:402
+#: ../librejilla-media/burn-iso9660.c:439
+#: ../librejilla-media/burn-iso9660.c:488
+#: ../librejilla-media/burn-volume.c:128
+#, c-format
+msgid "It does not appear to be a valid ISO image"
+msgstr "Zdá se, že se nejedná o platný obraz ISO"
+
+#: ../librejilla-media/rejilla-medium.c:65
+msgid "File"
+msgstr "Soubor"
+
+#: ../librejilla-media/rejilla-medium.c:66
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: ../librejilla-media/rejilla-medium.c:67
+msgid "CD-R"
+msgstr "CD-R"
+
+#: ../librejilla-media/rejilla-medium.c:68
+msgid "CD-RW"
+msgstr "CD-RW"
+
+#: ../librejilla-media/rejilla-medium.c:69
+msgid "DVD-ROM"
+msgstr "DVD-ROM"
+
+#: ../librejilla-media/rejilla-medium.c:70
+msgid "DVD-R"
+msgstr "DVD-R"
+
+#: ../librejilla-media/rejilla-medium.c:71
+msgid "DVD-RW"
+msgstr "DVD-RW"
+
+#: ../librejilla-media/rejilla-medium.c:72
+msgid "DVD+R"
+msgstr "DVD+R"
+
+#: ../librejilla-media/rejilla-medium.c:73
+msgid "DVD+RW"
+msgstr "DVD+RW"
+
+#: ../librejilla-media/rejilla-medium.c:74
+msgid "DVD+R dual layer"
+msgstr "dvouvrstvé DVD+R"
+
+#: ../librejilla-media/rejilla-medium.c:75
+msgid "DVD+RW dual layer"
+msgstr "dvouvrstvé DVD+RW"
+
+#: ../librejilla-media/rejilla-medium.c:76
+msgid "DVD-R dual layer"
+msgstr "dvouvrstvé DVD-R"
+
+#: ../librejilla-media/rejilla-medium.c:77
+msgid "DVD-RAM"
+msgstr "DVD-RAM"
+
+#: ../librejilla-media/rejilla-medium.c:78
+msgid "Blu-ray disc"
+msgstr "Disk Blu-ray"
+
+#: ../librejilla-media/rejilla-medium.c:79
+msgid "Writable Blu-ray disc"
+msgstr "Zapisovatelný disk Blu-ray"
+
+#: ../librejilla-media/rejilla-medium.c:80
+msgid "Rewritable Blu-ray disc"
+msgstr "Přepisovatelný disk Blu-ray"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:219
+#, c-format
+msgid "Blank %s in %s"
+msgstr "Prázdné %s v %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:226
+#, c-format
+msgid "Audio and data %s in %s"
+msgstr "Hudební a datové %s v %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:233
+#, c-format
+msgid "Audio %s in %s"
+msgstr "Hudební %s v %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:240
+#, c-format
+msgid "Data %s in %s"
+msgstr "Datové %s v %s"
+
+#. NOTE for translators: the first %s is the disc type and the
+#. * second %s the name of the drive this disc is in.
+#: ../librejilla-media/rejilla-medium.c:247
+#, c-format
+msgid "%s in %s"
+msgstr "%s v %s"
+
+#: ../librejilla-media/rejilla-volume.c:192
+#, c-format
+msgid "The disc mount point could not be retrieved"
+msgstr "Přípojný bod disku není dostupný"
+
+#. NOTE for translators: the first %s is the disc type and Blank is an adjective.
+#: ../librejilla-media/rejilla-volume.c:418
+#, c-format
+msgid "Blank disc (%s)"
+msgstr "Smazaný disk (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#: ../librejilla-media/rejilla-volume.c:422
+#, c-format
+msgid "Audio and data disc (%s)"
+msgstr "Hudební a datový disk (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_ .
+#. * The %s is the date
+#: ../librejilla-media/rejilla-volume.c:426 ../src/rejilla-project-name.c:325
+#, c-format
+msgid "Audio disc (%s)"
+msgstr "Hudební disk (%s)"
+
+#. NOTE for translators: the first %s is the disc type.
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_ otherwise it gets truncated.
+#. * The %s is the date
+#: ../librejilla-media/rejilla-volume.c:430 ../src/rejilla-project-name.c:258
+#, c-format
+msgid "Data disc (%s)"
+msgstr "Datový disk (%s)"
+
+#: ../librejilla-media/scsi-error.c:43 ../src/rejilla-project-name.c:84
+msgid "Unknown error"
+msgstr "Neznámá chyba"
+
+#: ../librejilla-media/scsi-error.c:44
+msgid "Size mismatch"
+msgstr "Velikost nesouhlasí"
+
+#: ../librejilla-media/scsi-error.c:45
+msgid "Type mismatch"
+msgstr "Typ nesouhlasí"
+
+#: ../librejilla-media/scsi-error.c:46
+msgid "Bad argument"
+msgstr "Špatný argument"
+
+#: ../librejilla-media/scsi-error.c:48
+msgid "Outrange address"
+msgstr "Adresa mimo rozsah"
+
+#: ../librejilla-media/scsi-error.c:49
+msgid "Invalid address"
+msgstr "Neplatná adresa"
+
+#: ../librejilla-media/scsi-error.c:50
+msgid "Invalid command"
+msgstr "Neplatný příkaz"
+
+#: ../librejilla-media/scsi-error.c:51
+msgid "Invalid parameter in command"
+msgstr "Neplatný parametr v příkazu"
+
+#: ../librejilla-media/scsi-error.c:52
+msgid "Invalid field in command"
+msgstr "Neplatné pole v příkazu"
+
+#: ../librejilla-media/scsi-error.c:53
+msgid "The device timed out"
+msgstr "Zařízení se nehlásí"
+
+#: ../librejilla-media/scsi-error.c:54
+msgid "Key not established"
+msgstr "Klíč nebyl stanoven"
+
+#: ../librejilla-media/scsi-error.c:55
+msgid "Invalid track mode"
+msgstr "Neplatný režim stop"
+
+#: ../src/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Soubor není platným souborem .desktop"
+
+#: ../src/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Nerozpoznaná verze '%s' souboru pracovní plochy"
+
+#: ../src/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "Spouští se %s"
+
+#: ../src/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Aplikace nepřijímá dokumenty z příkazové řádky"
+
+#: ../src/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Nerozpoznaná volba spuštění: %d"
+
+#: ../src/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "URI dokumentu nelze postoupit položce pracovní plochy 'Type=Link'"
+
+#: ../src/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "Nespustitelná položka"
+
+#: ../src/eggsmclient.c:224
+msgid "Disable connection to session manager"
+msgstr "Vypnout spojení se Správcem sezení"
+
+#: ../src/eggsmclient.c:227
+msgid "Specify file containing saved configuration"
+msgstr "Stanovit soubor obsahující uloženou konfiguraci"
+
+#: ../src/eggsmclient.c:227
+msgid "FILE"
+msgstr "SOUBOR"
+
+#: ../src/eggsmclient.c:230
+msgid "Specify session management ID"
+msgstr "Stanovit ID Správy sezení"
+
+#: ../src/eggsmclient.c:230
+msgid "ID"
+msgstr "ID"
+
+#: ../src/eggsmclient.c:244
+msgid "Session management options:"
+msgstr "Možnosti Správy sezení:"
+
+#: ../src/eggsmclient.c:245
+msgid "Show session management options"
+msgstr "Zobrazit možnosti Správy sezení"
+
+#: ../src/rejilla-pref.c:64
+msgid "Rejilla Plugins"
+msgstr "Zásuvné moduly pro Rejilla"
+
+#: ../plugins/local-track/burn-uri.c:207 ../plugins/local-track/burn-uri.c:297
+#: ../plugins/local-track/burn-uri.c:472
+#, c-format
+msgid "Impossible to retrieve local file path"
+msgstr "Není možné získat cestu k místnímu souboru"
+
+#: ../plugins/local-track/burn-uri.c:326
+#: ../plugins/local-track/burn-local-image.c:527
+msgid "Copying files locally"
+msgstr "Kopírují se soubory místně"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/local-track/burn-uri.c:747 ../caja/caja-burn-bar.c:136
+msgid "CD/DVD Creator Folder"
+msgstr "Složka Tvůrce CD a DVD"
+
+#: ../plugins/local-track/burn-uri.c:748
+msgid ""
+"Allows files added to the \"CD/DVD Creator Folder\" in Caja to be burned"
+msgstr "Umožňuje vypálit soubory přidané v Nautilu do „Složky Tvůrce CD a DVD“"
+
+#: ../caja/rejilla-caja.desktop.in.in.h:1
+#: ../caja/caja-burn-extension.c:310
+msgid "CD/DVD Creator"
+msgstr "Tvůrce CD a DVD"
+
+#: ../caja/rejilla-caja.desktop.in.in.h:2
+msgid "Create CDs and DVDs"
+msgstr "Vytvořit CD a DVD"
+
+#. Translators: be careful, anything longer than the English will likely
+#. * not fit on small Caja windows
+#: ../caja/caja-burn-bar.c:145
+msgid "Drag or copy files below to write them to disc"
+msgstr "Přetáhněte nebo zkopírujte soubory níže, aby mohly být zapsány na disk"
+
+#: ../caja/caja-burn-bar.c:153
+#: ../caja/caja-burn-extension.c:363
+msgid "Write to Disc"
+msgstr "Zapsat na disk"
+
+#: ../caja/caja-burn-bar.c:165
+#: ../caja/caja-burn-extension.c:743
+msgid "Write contents to a CD or DVD"
+msgstr "Zapsat obsah na CD nebo DVD"
+
+#: ../caja/caja-burn-extension.c:301
+msgid "Disc name"
+msgstr "Název disku"
+
+#: ../caja/caja-burn-extension.c:390
+msgid "Copy Disc"
+msgstr "Kopírovat disk"
+
+#: ../caja/caja-burn-extension.c:591
+#: ../caja/caja-burn-extension.c:742
+msgid "_Write to Disc…"
+msgstr "_Zapsat na disk…"
+
+#: ../caja/caja-burn-extension.c:592
+msgid "Write disc image to a CD or DVD"
+msgstr "Zapsat obraz disku na CD nebo DVD"
+
+#: ../caja/caja-burn-extension.c:665
+msgid "_Copy Disc…"
+msgstr "Kopí_rovat disk…"
+
+#: ../caja/caja-burn-extension.c:666
+msgid "Create a copy of this CD or DVD"
+msgstr "Vytvořit kopii tohoto CD nebo DVD"
+
+#: ../caja/caja-burn-extension.c:679
+msgid "_Blank Disc…"
+msgstr "S_mazat disk…"
+
+#: ../caja/caja-burn-extension.c:680
+msgid "Blank this CD or DVD"
+msgstr "Smazat toto CD nebo DVD"
+
+#: ../caja/caja-burn-extension.c:696
+msgid "_Check Disc…"
+msgstr "_Zkontrolovat disk…"
+
+#: ../caja/caja-burn-extension.c:697
+msgid "Check the data integrity on this CD or DVD"
+msgstr "Zkontrolovat integritu dat na tomto CD nebo DVD"
+
+#. Translators: this is a picture not
+#. * a disc image
+#: ../src/rejilla-project-name.c:83
+msgctxt "picture"
+msgid "Please select another image."
+msgstr "Prosím vyberte jiný obrázek."
+
+#: ../src/rejilla-project-name.c:157
+msgid "Medium Icon"
+msgstr "Střední ikona"
+
+#. Translators: this is an image, a picture, not a "Disc Image"
+#: ../src/rejilla-project-name.c:171 ../src/rejilla-file-chooser.c:375
+#: ../src/rejilla-project.c:2238
+msgctxt "picture"
+msgid "Image files"
+msgstr "Obrázky"
+
+#. NOTE to translators: the final string must not be over
+#. * 32 _bytes_.
+#. * The %s is the date
+#: ../src/rejilla-project-name.c:272
+#, c-format
+msgid "Video disc (%s)"
+msgstr "Videodisk (%s)"
+
+#: ../src/rejilla-app.c:123
+msgid "_Project"
+msgstr "_Projekt"
+
+#: ../src/rejilla-app.c:124
+msgid "_View"
+msgstr "_Zobrazit"
+
+#: ../src/rejilla-app.c:125
+msgid "_Edit"
+msgstr "_Upravit"
+
+#: ../src/rejilla-app.c:126
+msgid "_Tools"
+msgstr "Nás_troje"
+
+#: ../src/rejilla-app.c:128
+msgid "_Help"
+msgstr "_Nápověda"
+
+#: ../src/rejilla-app.c:130
+msgid "P_lugins"
+msgstr "_Zásuvné moduly"
+
+#: ../src/rejilla-app.c:131
+msgid "Choose plugins for Rejilla"
+msgstr "Vybrat zásuvné moduly pro Rejilla"
+
+#: ../src/rejilla-app.c:133
+msgid "E_ject"
+msgstr "_Vysunout"
+
+#: ../src/rejilla-app.c:134
+msgid "Eject a disc"
+msgstr "Vysunout disk"
+
+#: ../src/rejilla-app.c:136
+msgid "_Blank…"
+msgstr "_Smazat…"
+
+#: ../src/rejilla-app.c:137
+msgid "Blank a disc"
+msgstr "Smazat disk"
+
+#: ../src/rejilla-app.c:139
+msgid "_Check Integrity…"
+msgstr "Z_kontrolovat integritu…"
+
+#: ../src/rejilla-app.c:140
+msgid "Check data integrity of disc"
+msgstr "Zkontrolovat integritu dat na disku"
+
+#: ../src/rejilla-app.c:143
+msgid "Quit Rejilla"
+msgstr "Ukončit Rejilla"
+
+#: ../src/rejilla-app.c:145
+msgid "_Contents"
+msgstr "_Obsah"
+
+#: ../src/rejilla-app.c:145
+msgid "Display help"
+msgstr "Zobrazit nápovědu"
+
+#: ../src/rejilla-app.c:148
+msgid "About"
+msgstr "O aplikaci"
+
+#: ../src/rejilla-app.c:420 ../src/rejilla-app.c:2073
+msgid "Disc Burner"
+msgstr "Aplikace na vypalování disků"
+
+#: ../src/rejilla-app.c:786 ../src/rejilla-app.c:819 ../src/rejilla-app.c:1454
+msgid "Error while loading the project"
+msgstr "Chyba při načítání projektu"
+
+#: ../src/rejilla-app.c:828 ../src/rejilla-app.c:857 ../src/rejilla-app.c:917
+#: ../src/rejilla-project.c:1266
+msgid "Please add files to the project."
+msgstr "Prosím, přidejte soubory do projektu."
+
+#: ../src/rejilla-app.c:829 ../src/rejilla-app.c:858 ../src/rejilla-app.c:918
+msgid "The project is empty"
+msgstr "Projekt je prázdný"
+
+#: ../src/rejilla-app.c:1172
+msgid ""
+"Rejilla is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Rejilla je svobodný software; můžete jej šířit anebo upravovat podle "
+"ustanovení GNU General Public License vydané Free Software Foundation; buď "
+"verze 2 této licence nebo (dle vlastního uvážení) kterékoliv pozdější verze."
+
+#: ../src/rejilla-app.c:1177
+msgid ""
+"Rejilla is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Rejilla je šířen v naději, že bude užitečný, avšak BEZ JAKÉKOLIV ZÁRUKY; "
+"neposkytují se ani odvozené záruky PRODEJNOSTI anebo VHODNOSTI PRO URČITÝ "
+"ÚČEL. Další podrobnosti hledejte v GNU General Public License."
+
+#: ../src/rejilla-app.c:1182
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Rejilla; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301, USA"
+msgstr ""
+"Kopii GNU General Public License byste měli obdržet spolu s programem "
+"Rejilla; pokud se tak nestalo, napište si o ni Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
+
+#: ../src/rejilla-app.c:1194
+msgid "A simple to use CD/DVD burning application for MATE"
+msgstr "Aplikace na vypalování CD/DVD pro pracovní prostředí MATE"
+
+#: ../src/rejilla-app.c:1211
+msgid "Rejilla Homepage"
+msgstr "Domovská stránka aplikace Rejilla"
+
+#. Translators: This is a special message that shouldn't be translated
+#. * literally. It is used in the about box to give credits to
+#. * the translators.
+#. * Thus, you should translate it to your name and email address.
+#. * You should also include other translators who have contributed to
+#. * this translation; in that case, please write each of them on a separate
+#. * line seperated by newlines (\n).
+#.
+#: ../src/rejilla-app.c:1223
+msgid "translator-credits"
+msgstr ""
+"ZOiD <sp.pok@seznam.cz>\n"
+"Gor\n"
+"Zbyněk Mrkvička <zbynek@mrkvicka.eu>\n"
+"Adrian Guniš <andygun696@gmail.com>"
+
+#: ../src/rejilla-app.c:1452
+#, c-format
+msgid "The project \"%s\" does not exist"
+msgstr "Projekt „%s“ neexistuje"
+
+#: ../src/rejilla-app.c:1738 ../src/rejilla-app.c:1744
+msgid "_Recent Projects"
+msgstr "Nedávné p_rojekty"
+
+#: ../src/rejilla-app.c:1739
+msgid "Display the projects recently opened"
+msgstr "Zobrazit nedávno otevřené projekty"
+
+#: ../data/rejilla.desktop.in.in.h:1
+msgid "Rejilla"
+msgstr "Rejilla"
+
+#: ../data/rejilla.desktop.in.in.h:2
+msgid "Rejilla Disc Burner"
+msgstr "Vypalovací software Rejilla"
+
+#: ../data/rejilla.desktop.in.in.h:3
+msgid "Create and copy CDs and DVDs"
+msgstr "Vytvořit a kopírovat CD a DVD"
+
+#: ../data/rejilla.desktop.in.in.h:4
+msgid "Disc Burner and Copier"
+msgstr "Aplikace na vypalování a kopírování disků"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:1
+msgid "Burning flags to be used"
+msgstr "Příznaky vypalování, které budou použity"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:2
+msgid ""
+"Contains the absolute path of the directory that was last browsed for images "
+"to burn"
+msgstr ""
+"Obsahuje úplnou cestu k adresáři, ve kterém byly naposledy hledány obrazy "
+"disku k vypálení"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:3
+msgid ""
+"Contains the list of additional plugins Rejilla will use to burn discs. If "
+"set to NULL, Rejilla will load them all."
+msgstr ""
+"Obsahuje seznam doplňkových zásuvných modulů, které Rejilla použije k "
+"vypalování disků. Je-li nastaveno na NULL, načte je Rejilla všechny."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:4
+msgid ""
+"Contains the name of the favourite burn engine suite installed. It will be "
+"used if possible."
+msgstr ""
+"Obsahuje název oblíbeného nainstalovaného nástroje vypalovacího systému. "
+"Bude-li to možné, bude použit."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:5
+msgid ""
+"Contains the path to the directory where rejilla should store temporary "
+"files. If that value is empty, the default directory set for glib will be "
+"used."
+msgstr ""
+"Obsahuje cestu k adresáři, kam by měl Rejilla ukládat dočasné soubory. Pokud "
+"je tato hodnota prázdná, bude použit výchozí adresář nastavený pro glib."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:6
+msgid "Directory to use for temporary files"
+msgstr "Adresář použitý pro dočasné soubory"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:7
+msgid "Enable file preview"
+msgstr "Povolit náhledy souborů"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:8
+msgid "Enable the \"-immed\" flag with cdrecord"
+msgstr "Povolit přepínač „-immed“ při použití cdrecord"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:9
+msgid "Favourite burn engine"
+msgstr "Oblíbený vypalovací systém"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:10
+msgid "Replace symbolic links by their targets"
+msgstr "Nahradit symbolické odkazy jejich cílovými soubory"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:11
+msgid "Set to 0 for MD5, 1 for SHA1 and 2 for SHA256"
+msgstr "Nastavte hodnotu 0 pro MD5, 1 pro SHA1 a 2 pro SHA256"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:12
+msgid "Should Caja extension output debug statements"
+msgstr "Má rozšíření pro Caja vypisovat ladicí informace?"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:13
+msgid ""
+"Should Caja extension output debug statements. The value should be set "
+"to true if it should."
+msgstr ""
+"Má rozšíření pro Caja vypisovat ladicí informace? V takovém případě by "
+"měla být hodnota nastavena na PRAVDA."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:14
+msgid "Should rejilla filter broken symbolic links"
+msgstr "Má Rejilla filtrovat poškozené symbolické odkazy?"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:15
+msgid ""
+"Should rejilla filter broken symbolic links. Set to true, rejilla will "
+"filter broken symbolic links."
+msgstr ""
+"Má Rejilla filtrovat poškozené symbolické odkazy? Nastavíte-li hodnotu "
+"PRAVDA, Rejilla bude filtrovat poškozené symbolické odkazy."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:16
+msgid "Should rejilla filter hidden files"
+msgstr "Má Rejilla filtrovat skryté soubory?"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:17
+msgid ""
+"Should rejilla filter hidden files. Set to true, rejilla will filter hidden "
+"files."
+msgstr ""
+"Má Rejilla filtrovat skryté soubory? Nastavíte-li hodnotu PRAVDA, Rejilla "
+"bude filtrovat skryté soubory."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:18
+msgid ""
+"Should rejilla replace symbolic links by their target files in the project. "
+"Set to true, rejilla will replace symbolic links."
+msgstr ""
+"Má Rejilla nahrazovat v projektu symbolické odkazy jejich cílovými soubory? "
+"Nastavíte-li hodnotu PRAVDA, Rejilla bude nahrazovat symbolické odkazy."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:19
+msgid "The last browsed folder while looking for images to burn"
+msgstr ""
+"Naposledy procházená složka, ve které byly hledány obrazy disku k vypálení"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:20
+msgid "The priority value for the plugin"
+msgstr "Hodnota priority zásuvného modulu"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:21
+msgid "The speed to be used"
+msgstr "Rychlost, která bude použita"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:22
+msgid "The type of checksum used for files"
+msgstr "Typ kontrolního součtu použitého u souborů"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:23
+msgid "The type of checksum used for images"
+msgstr "Typ kontrolního součtu použitého u obrazů disku"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:24
+msgid ""
+"This value represents the burning flags that were used in such a context the "
+"last time."
+msgstr ""
+"Tato hodnota představuje příznaky vypalování, které byly použity v této "
+"souvislosti v poslední době."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:25
+msgid ""
+"This value represents the speed that was used in such a context the last "
+"time."
+msgstr ""
+"Tato hodnota představuje rychlost, která byla použita v této souvislosti v "
+"poslední době."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:26
+msgid "Used in conjunction with the \"-immed\" flag with cdrecord"
+msgstr "Použito ve spojení s přepínačem „-immed“ při použití cdrecord"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:27
+msgid "Used in conjunction with the \"-immed\" flag with cdrecord."
+msgstr "Použito ve spojení s přepínačem „-immed“ při použití cdrecord."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:28
+msgid ""
+"When several plugins are available for the same task, this value is used to "
+"determine which plugin should be given priority. 0 means the plugin's native "
+"priority is used. A positive value overrides the plugin's native priority. A "
+"negative value disables the plugin."
+msgstr ""
+"Když je pro stejnou úlohu k dispozici několik zásuvných modulů, tato hodnota "
+"je použita k rozhodnutí, který zásuvný modul by měl být upřednostněn. 0 "
+"znamená, že je použita nativní priorita zásuvného modulu. Pozitivní hodnota "
+"potlačí nativní prioritu zásuvného modulu. Negativní hodnota zásuvný modul "
+"vypne."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:29
+msgid "Whether to display file preview. Set to true to use it."
+msgstr "Zobrazení náhledu souboru. Pro zobrazení nastavte hodnotu PRAVDA."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:30
+msgid "Whether to use the \"--driver generic-mmc-raw\" flag with cdrdao"
+msgstr "Použití přepínače „--driver generic-mmc-raw“ spolu s cdrdao"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:31
+msgid ""
+"Whether to use the \"--driver generic-mmc-raw\" flag with cdrdao. Set to "
+"True, rejilla will use it; it may be a workaround for some drives/setups."
+msgstr ""
+"Použití přepínače „--driver generic-mmc-raw“ spolu s cdrdao. Pro použití "
+"nastavte hodnotu PRAVDA. Jedná se jen o dočasné řešení pro určité jednotky/"
+"nastavení."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:32
+msgid ""
+"Whether to use the \"-immed\" flag with cdrecord. Use with caution (set to "
+"true) as it's only a workaround for some drives/setups."
+msgstr ""
+"Použití přepínače „-immed“ spolu s cdrecord. Používat opatrně (při nastavení "
+"na hodnotu PRAVDA). Jedná se jen o dočasné řešení pro určité jednotky/"
+"nastavení."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:33
+msgid "Whether to use the \"-use-the-force-luke=dao\" flag with growisofs"
+msgstr "Použití přepínače „-use-the-force-luke=dao“ spolu s growisofs"
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:34
+msgid ""
+"Whether to use the \"-use-the-force-luke=dao\" flag with growisofs. Set to "
+"false, rejilla won't use it; it may be a workaround for some drives/setups."
+msgstr ""
+"Použití přepínače „-use-the-force-luke=dao“ spolu s growisofs. Nastavíte-li "
+"hodnotu NEPRAVDA, Rejilla jej nebude používat. Jedná se jen o dočasné řešení "
+"pro určité jednotky/nastavení."
+
+#: ../data/org.mate.rejilla.gschema.xml.in.h:35
+msgid "White list of additional plugins to use"
+msgstr "Seznam povolených doplňkových zásuvných modulů k použití"
+
+#: ../data/mime/rejilla.xml.in.h:1
+msgid "Rejilla project file"
+msgstr "Soubor projektu Rejilla"
+
+#: ../src/rejilla-audio-disc.c:156 ../src/rejilla-data-disc.c:123
+msgid "Open the selected files"
+msgstr "Otevřít vybrané soubory"
+
+#: ../src/rejilla-audio-disc.c:158 ../src/rejilla-video-disc.c:103
+msgid "_Edit Information…"
+msgstr "_Upravit informace…"
+
+#: ../src/rejilla-audio-disc.c:158
+msgid "Edit the track information (start, end, author, etc.)"
+msgstr "Upravit informace o stopě (začátek, konec, autor atd.)"
+
+#: ../src/rejilla-audio-disc.c:160 ../src/rejilla-data-disc.c:127
+#: ../src/rejilla-project.c:200
+msgid "Remove the selected files from the project"
+msgstr "Odstranit vybrané soubory z projektu"
+
+#: ../src/rejilla-audio-disc.c:162 ../src/rejilla-data-disc.c:129
+#: ../src/rejilla-video-disc.c:107
+msgid "Paste files"
+msgstr "Vložit soubory"
+
+#: ../src/rejilla-audio-disc.c:162 ../src/rejilla-data-disc.c:129
+#: ../src/rejilla-video-disc.c:107
+msgid "Add the files stored in the clipboard"
+msgstr "Přidat soubory ze schránky"
+
+#: ../src/rejilla-audio-disc.c:164
+msgid "I_nsert a Pause"
+msgstr "_Vložit pauzu"
+
+#: ../src/rejilla-audio-disc.c:164
+msgid "Add a 2 second pause after the track"
+msgstr "Přidat dvousekundovou pauzu za stopu"
+
+#: ../src/rejilla-audio-disc.c:166
+msgid "_Split Track…"
+msgstr "_Rozdělit stopu…"
+
+#: ../src/rejilla-audio-disc.c:166
+msgid "Split the selected track"
+msgstr "Rozdělit vybranou stopu"
+
+#: ../src/rejilla-audio-disc.c:343 ../src/rejilla-video-tree-model.c:189
+msgid "Pause"
+msgstr "Pauza"
+
+#: ../src/rejilla-audio-disc.c:349
+msgid "Split"
+msgstr "Rozdělit"
+
+#: ../src/rejilla-audio-disc.c:417
+msgid "Track"
+msgstr "Stopa"
+
+#: ../src/rejilla-audio-disc.c:457 ../src/rejilla-video-disc.c:1216
+msgid "Title"
+msgstr "Název"
+
+#: ../src/rejilla-audio-disc.c:479
+msgid "Artist"
+msgstr "Umělec"
+
+#: ../src/rejilla-audio-disc.c:487 ../src/rejilla-playlist.c:771
+#: ../src/rejilla-split-dialog.c:1223
+msgid "Length"
+msgstr "Délka"
+
+#: ../src/rejilla-audio-disc.c:584
+msgid "The track will be padded at its end."
+msgstr "Stopa bude na konci prodloužena."
+
+#: ../src/rejilla-audio-disc.c:585
+msgid "The track is shorter than 6 seconds"
+msgstr "Stopa je kratší než 6 sekund"
+
+#: ../src/rejilla-audio-disc.c:645
+msgid "Make sure the appropriate codec is installed"
+msgstr "Ujistěte se, že máte nainstalován příslušný kodek"
+
+#: ../src/rejilla-audio-disc.c:661
+#, c-format
+msgid "Do you want to add \"%s\", which is a video file?"
+msgstr "Přejete si přidat „%s“, což je videosoubor?"
+
+#: ../src/rejilla-audio-disc.c:670
+msgid ""
+"This file is a video and therefore only the audio part can be written to the "
+"disc."
+msgstr ""
+"Tento soubor je video a proto může být na disk zapsána pouze zvuková část."
+
+#: ../src/rejilla-audio-disc.c:673
+msgid "_Discard File"
+msgstr "Zaho_dit soubor"
+
+#: ../src/rejilla-audio-disc.c:676
+msgid "_Add File"
+msgstr "Přid_at soubor"
+
+#: ../src/rejilla-audio-disc.c:747
+msgid "Do you want to search for audio files inside the directory?"
+msgstr "Přejete si vyhledat hudební soubory uvnitř adresáře?"
+
+#: ../src/rejilla-audio-disc.c:757
+msgid "Search _Directory"
+msgstr "Prohledat a_dresář"
+
+#: ../src/rejilla-audio-disc.c:811 ../src/rejilla-video-disc.c:395
+#, c-format
+msgid "\"%s\" could not be opened."
+msgstr "„%s“ nelze otevřít."
+
+#: ../src/rejilla-audio-disc.c:856
+msgid "Do you want to create an audio CD with DTS tracks?"
+msgstr "Přejete si vytvořit hudební CD se stopami DTS?"
+
+#: ../src/rejilla-audio-disc.c:857
+msgid ""
+"Some of the selected songs are suitable for creating DTS tracks.\n"
+"This type of audio CD track provides a higher quality of sound but can only "
+"be played by specific digital players.\n"
+"Note: if you agree, normalization will not be applied to these tracks."
+msgstr ""
+"Některé z vybraných skladeb jsou vhodné pro vytvoření stop DTS.\n"
+"Tento typ stopy hudebních CD poskytuje vyšší kvalitu zvuku, ale lze je "
+"přehrávat pouze v určitých digitálních přehrávačích.\n"
+"Upozornění: Pokud souhlasíte, nebude u těchto stop použita normalizace."
+
+#: ../src/rejilla-audio-disc.c:866
+msgid "Create _Regular Tracks"
+msgstr "Vytvořit _normální stopy"
+
+#: ../src/rejilla-audio-disc.c:868
+msgid "Click here to burn all songs as regular tracks"
+msgstr "Klikněte zde pro vypálení všech skladeb jako normálních stop"
+
+#: ../src/rejilla-audio-disc.c:871
+msgid "Create _DTS Tracks"
+msgstr "Vytvořit stopy _DTS"
+
+#: ../src/rejilla-audio-disc.c:873
+msgid "Click here to burn all suitable songs as DTS tracks"
+msgstr "Klikněte zde pro vypálení všech vhodných skladeb jako stop DTS"
+
+#: ../src/rejilla-audio-disc.c:1296
+msgid "Select one song only please."
+msgstr "Prosím, vyberte jen jednu skladbu."
+
+#: ../src/rejilla-audio-disc.c:1297
+msgid "Impossible to split more than one song at a time"
+msgstr "Není možné rozdělit více než jednu skladbu najednou"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:222
+msgid "Error while blanking."
+msgstr "Chyba při mazání."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:227
+#: ../librejilla-burn/rejilla-blank-dialog.c:272
+msgid "Blank _Again"
+msgstr "Znovu sm_azat"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:244
+msgid "Unknown error."
+msgstr "Neznámá chyba."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:264
+#: ../librejilla-burn/rejilla-blank-dialog.c:288
+msgid "The disc was successfully blanked."
+msgstr "Disk byl úspěšně smazán."
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:270
+msgid "The disc is ready for use."
+msgstr "Disk je připraven k použití."
+
+#. Translators: This is a verb, an action
+#: ../librejilla-burn/rejilla-blank-dialog.c:371
+msgid "_Blank"
+msgstr "_Smazat"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:402
+msgid "_Fast blanking"
+msgstr "_Rychlé mazání"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:403
+msgid "Activate fast blanking, as opposed to a longer, thorough blanking"
+msgstr "Aktivovat rychlé mazání oproti delšímu důkladnému mazání"
+
+#: ../librejilla-burn/rejilla-blank-dialog.c:433
+msgid "Disc Blanking"
+msgstr "Mazání disku"
+
+#: ../src/rejilla-playlist.c:390
+#, c-format
+msgid "Error parsing playlist \"%s\"."
+msgstr "Chyba analýzy seznamu skladeb „%s“."
+
+#: ../src/rejilla-playlist.c:393 ../src/rejilla-data-disc.c:214
+#: ../src/rejilla-project.c:2608 ../librejilla-burn/rejilla-sum-dialog.c:166
+#: ../src/rejilla-eject-dialog.c:100
+msgid "An unknown error occurred"
+msgstr "Nastala neznámá chyba"
+
+#. Translators: %d is the number of songs
+#: ../src/rejilla-playlist.c:499
+#, c-format
+msgid "%d song"
+msgid_plural "%d songs"
+msgstr[0] "%d skladba"
+msgstr[1] "%d skladby"
+msgstr[2] "%d skladeb"
+
+#: ../src/rejilla-playlist.c:584
+msgid "Select Playlist"
+msgstr "Vyberte seznam skladeb"
+
+#: ../src/rejilla-playlist.c:750
+msgid "Playlists"
+msgstr "Seznamy skladeb"
+
+#: ../src/rejilla-playlist.c:761
+msgid "Number of Songs"
+msgstr "Počet skladeb"
+
+#: ../src/rejilla-playlist.c:781
+msgid "Genre"
+msgstr "Žánr"
+
+#: ../src/rejilla-plugin-manager-ui.c:62
+msgid "Plugin"
+msgstr "Zásuvný modul"
+
+#: ../src/rejilla-plugin-manager-ui.c:63
+msgid "Enabled"
+msgstr "Povolen"
+
+#: ../src/rejilla-plugin-manager-ui.c:143
+#, c-format
+msgid "Copyright %s"
+msgstr "Copyright %s"
+
+#: ../src/rejilla-plugin-manager-ui.c:587
+#: ../src/rejilla-plugin-manager-ui.c:974
+msgid "_About"
+msgstr "O _aplikaci"
+
+#: ../src/rejilla-plugin-manager-ui.c:595
+#: ../src/rejilla-plugin-manager-ui.c:980
+msgid "C_onfigure"
+msgstr "_Nastavit"
+
+#: ../src/rejilla-plugin-manager-ui.c:605
+msgid "A_ctivate"
+msgstr "A_ktivovat"
+
+#: ../src/rejilla-plugin-manager-ui.c:617
+msgid "Ac_tivate All"
+msgstr "Ak_tivovat vše"
+
+#: ../src/rejilla-plugin-manager-ui.c:622
+msgid "_Deactivate All"
+msgstr "_Deaktivovat vše"
+
+#. Use the translated name for the plugin.
+#: ../src/rejilla-plugin-option.c:258
+#, c-format
+msgid "Options for plugin %s"
+msgstr "Možnosti zásuvného modulu %s"
+
+#: ../src/rejilla-search-entry.c:176
+msgid "Search:"
+msgstr "Hledat:"
+
+#: ../src/rejilla-search-entry.c:260
+msgid "In _text documents"
+msgstr "V _textových dokumentech"
+
+#: ../src/rejilla-search-entry.c:275
+msgid "In _pictures"
+msgstr "V _obrázcích"
+
+#: ../src/rejilla-search-entry.c:290
+msgid "In _music"
+msgstr "V _hudbě"
+
+#: ../src/rejilla-search-entry.c:305
+msgid "In _videos"
+msgstr "Ve _videích"
+
+#: ../src/rejilla-search-entry.c:322
+msgid "Type your keywords or choose 'All files' from the menu"
+msgstr "Zadejte klíčová slova nebo zvolte z nabídky „Všechny soubory“"
+
+#: ../src/rejilla-search-entry.c:326
+msgid "Select if you want to search among image files only"
+msgstr "Označte, chcete-li prohledat jen obrázky"
+
+#: ../src/rejilla-search-entry.c:328
+msgid "Select if you want to search among video files only"
+msgstr "Označte, chcete-li prohledat jen videosoubory"
+
+#: ../src/rejilla-search-entry.c:330
+msgid "Select if you want to search among audio files only"
+msgstr "Označte, chcete-li prohledat jen hudební soubory"
+
+#: ../src/rejilla-search-entry.c:332
+msgid "Select if you want to search among your text documents only"
+msgstr "Označte, chcete-li prohledat jen textové dokumenty"
+
+#: ../src/rejilla-search-entry.c:334
+msgid "Click to start the search"
+msgstr "Klikněte pro zahájení vyhledávání"
+
+#: ../src/rejilla-song-properties.c:177
+msgid "Title:"
+msgstr "Název:"
+
+#: ../src/rejilla-song-properties.c:187 ../src/rejilla-song-properties.c:199
+#: ../src/rejilla-song-properties.c:211 ../src/rejilla-multi-song-props.c:211
+#: ../src/rejilla-multi-song-props.c:252 ../src/rejilla-multi-song-props.c:273
+msgid ""
+"This information will be written to the disc using CD-Text technology. It "
+"can be read and displayed by some audio CD players."
+msgstr ""
+"Tyto informace budou zapsány na disk pomocí technologie CD-TEXT. Některé CD "
+"přehrávače je přečtou a zobrazí."
+
+#: ../src/rejilla-song-properties.c:189 ../src/rejilla-multi-song-props.c:242
+msgid "Artist:"
+msgstr "Umělec:"
+
+#: ../src/rejilla-song-properties.c:201 ../src/rejilla-multi-song-props.c:263
+msgid "Composer:"
+msgstr "Skladatel:"
+
+#: ../src/rejilla-song-properties.c:235
+msgid "Song start:"
+msgstr "Začátek skladby:"
+
+#: ../src/rejilla-song-properties.c:241
+msgid "Song end:"
+msgstr "Konec skladby:"
+
+#: ../src/rejilla-song-properties.c:247 ../src/rejilla-multi-song-props.c:317
+msgid "Pause length:"
+msgstr "Délka pauzy:"
+
+#: ../src/rejilla-song-properties.c:256 ../src/rejilla-multi-song-props.c:328
+msgid "Gives the length of the pause that should follow the track"
+msgstr "Nastaví délku pauzy za stopou"
+
+#: ../src/rejilla-song-properties.c:258
+msgid "Track length:"
+msgstr "Délka stopy:"
+
+#: ../src/rejilla-song-properties.c:287 ../src/rejilla-multi-song-props.c:345
+msgid "Song Information"
+msgstr "Informace o skladbě"
+
+#: ../src/rejilla-song-properties.c:372
+#, c-format
+msgid "Song information for track %02i"
+msgstr "Informace o stopě %02i"
+
+#. *
+#. * Translators: this is the position being played in a stream. The
+#. * first %s is the position and the second %s is the whole length of
+#. * the stream. I chose to make that translatable in case some languages
+#. * don't allow the "/"
+#: ../src/rejilla-song-control.c:101
+#, c-format
+msgid "%s / %s"
+msgstr "%s / %s"
+
+#: ../src/rejilla-song-control.c:531
+msgid "No file"
+msgstr "Žádný soubor"
+
+#: ../src/rejilla-song-control.c:566
+msgid "Start and stop playing"
+msgstr "Zahájit a zastavit přehrávání"
+
+#: ../src/rejilla-data-disc.c:125
+msgid "R_ename…"
+msgstr "_Přejmenovat…"
+
+#: ../src/rejilla-data-disc.c:125
+msgid "Rename the selected file"
+msgstr "Přejmenovat vybraný soubor"
+
+#: ../src/rejilla-data-disc.c:131 ../src/rejilla-data-disc.c:1773
+msgid "New _Folder"
+msgstr "Nová _složka"
+
+#: ../src/rejilla-data-disc.c:131
+msgid "Create a new empty folder"
+msgstr "Vytvořit novou prázdnou složku"
+
+#: ../src/rejilla-data-disc.c:213
+msgid "The session could not be imported."
+msgstr "Sezení nelze importovat."
+
+#: ../src/rejilla-data-disc.c:559
+msgid "The contents of the project changed since it was saved."
+msgstr "Obsah projektu se změnil od doby, kdy byl uložen."
+
+#: ../src/rejilla-data-disc.c:561 ../src/rejilla-data-disc.c:569
+msgid "Discard the current modified project"
+msgstr "Zahodit aktuálně upravený projekt"
+
+#: ../src/rejilla-data-disc.c:567
+msgid "_Discard"
+msgstr "Zaho_dit"
+
+#: ../src/rejilla-data-disc.c:574
+msgid "Continue with the current modified project"
+msgstr "Pokračovat v aktuálně upraveném projektu"
+
+#. Translators: %s is the name of the image
+#: ../src/rejilla-data-disc.c:622
+#, c-format
+msgid ""
+"There is only one selected file (\"%s\"). It is the image of a disc and its "
+"contents can be burned"
+msgstr ""
+"Je vybrán pouze jeden soubor („%s“). Tento soubor je obraz disku a jeho "
+"obsah lze vypálit."
+
+#: ../src/rejilla-data-disc.c:628
+msgid "Burn as _Data"
+msgstr "Vypálit jako _data"
+
+#: ../src/rejilla-data-disc.c:630
+msgid "Burn as _Image"
+msgstr "Vypálit jako _obraz"
+
+#: ../src/rejilla-data-disc.c:679 ../src/rejilla-data-disc.c:700
+#: ../src/rejilla-data-disc.c:721
+#, c-format
+msgid "\"%s\" cannot be added to the selection."
+msgstr "„%s“ nelze přidat do výběru."
+
+#: ../src/rejilla-data-disc.c:703
+msgid "It is a recursive symlink"
+msgstr "To je rekurzivní symbolický odkaz"
+
+#: ../src/rejilla-data-disc.c:724
+msgid "It does not exist at the specified location"
+msgstr "Neexistuje na určeném místě"
+
+#: ../src/rejilla-data-disc.c:741
+#: ../librejilla-burn/rejilla-status-dialog.c:333
+msgid "Should files be renamed to be fully Windows-compatible?"
+msgstr "Mohou být soubory přejmenovány, aby byly plně kompatibilní s Windows?"
+
+#: ../src/rejilla-data-disc.c:747
+#: ../librejilla-burn/rejilla-status-dialog.c:344
+msgid "Those names should be changed and truncated to 64 characters."
+msgstr "Tyto názvy by měly být změněny a zkráceny na 64 znaků."
+
+#: ../src/rejilla-data-disc.c:749
+#: ../librejilla-burn/rejilla-status-dialog.c:352
+msgid "_Rename for Full Windows Compatibility"
+msgstr "_Přejmenovat pro zajištění plné kompatibility s Windows"
+
+#: ../src/rejilla-data-disc.c:750
+#: ../librejilla-burn/rejilla-status-dialog.c:349
+msgid "_Disable Full Windows Compatibility"
+msgstr "_Vypnout volbu Plná kompatibilita s Windows"
+
+#. Translators: %s is the name of the file
+#: ../src/rejilla-data-disc.c:783
+#, c-format
+msgid "Do you want to replace \"%s\"?"
+msgstr "Chcete nahradit „%s“?"
+
+#: ../src/rejilla-data-disc.c:791
+msgid ""
+"A file with this name already exists in the folder.  Replacing it will "
+"overwrite its contents on the disc to be burnt."
+msgstr ""
+"Soubor s tímto názvem již v této složce existuje. Nahrazením přepíšete jeho "
+"obsah na vypalovaném disku."
+
+#. Translators: Keep means we're keeping the files that already existed
+#. * in the project.
+#. * Keep is a verb
+#: ../src/rejilla-data-disc.c:796
+msgid "Always K_eep"
+msgstr "Vždy pon_echat"
+
+#. Translators: Keep means we're keeping the files that already existed
+#. * in the project.
+#. * Keep is a verb
+#: ../src/rejilla-data-disc.c:800
+msgid "_Keep"
+msgstr "_Ponechat"
+
+#. Translators: Replace means we're replacing the file that already
+#. * existed in the project with a new one with the same name.
+#. * Replace is a verb
+#. Translators: this is a verb
+#: ../src/rejilla-data-disc.c:804 ../src/rejilla-rename.c:383
+msgid "_Replace"
+msgstr "Nah_radit"
+
+#. Translators: Replace means we're replacing the file that already
+#. * existed in the project with a new one with the same name.
+#. * Replace is a verb
+#: ../src/rejilla-data-disc.c:808
+msgid "Al_ways Replace"
+msgstr "_Vždy nahradit"
+
+#: ../src/rejilla-data-disc.c:838
+#: ../librejilla-burn/rejilla-status-dialog.c:274
+#, c-format
+msgid ""
+"Do you really want to add \"%s\" to the selection and use the third version "
+"of the ISO9660 standard to support it?"
+msgstr ""
+"Opravdu chcete přidat „%s“ do výběru a použít třetí verzi standardu ISO9660 "
+"k jeho podpoře?"
+
+#: ../src/rejilla-data-disc.c:847
+#: ../librejilla-burn/rejilla-status-dialog.c:293
+msgid ""
+"The size of the file is over 2 GiB. Files larger than 2 GiB are not "
+"supported by the ISO9660 standard in its first and second versions (the most "
+"widespread ones).\n"
+"It is recommended to use the third version of the ISO9660 standard, which is "
+"supported by most operating systems, including Linux and all versions of "
+"Windows™.\n"
+"However, Mac OS X cannot read images created with version 3 of the ISO9660 "
+"standard."
+msgstr ""
+"Velikost souboru přesahuje 2 GiB. Soubory větší než 2 GiB nejsou podporovány "
+"standardem ISO9660 v jeho první a druhé (nejrozšířenější) verzi.\n"
+"Je doporučeno používat třetí verzi standardu ISO9660, která je podporována "
+"většinou operačních systémů včetně Linuxu a všemi verzemi Windows™.\n"
+"Známou výjimkou je MacOS X, který neumí číst obrazy vytvořené třetí verzí "
+"standardu ISO9660."
+
+#: ../src/rejilla-data-disc.c:851 ../src/rejilla-data-disc.c:895
+#: ../librejilla-burn/rejilla-status-dialog.c:235
+#: ../librejilla-burn/rejilla-status-dialog.c:297
+msgid "Ne_ver Add Such File"
+msgstr "_Nikdy nepřidat takový soubor"
+
+#: ../src/rejilla-data-disc.c:852 ../src/rejilla-data-disc.c:896
+#: ../librejilla-burn/rejilla-status-dialog.c:236
+#: ../librejilla-burn/rejilla-status-dialog.c:298
+msgid "Al_ways Add Such File"
+msgstr "_Vždy přidat takový soubor"
+
+#: ../src/rejilla-data-disc.c:882
+#: ../librejilla-burn/rejilla-status-dialog.c:212
+#, c-format
+msgid "Do you really want to add \"%s\" to the selection?"
+msgstr "Opravdu chcete přidat „%s“ do výběru?"
+
+#: ../src/rejilla-data-disc.c:891
+#: ../librejilla-burn/rejilla-status-dialog.c:231
+msgid ""
+"The children of this directory will have 7 parent directories.\n"
+"Rejilla can create an image of such a file hierarchy and burn it but the "
+"disc may not be readable on all operating systems.\n"
+"Note: Such a file hierarchy is known to work on Linux."
+msgstr ""
+"Potomci tohoto adresáře budou mít 7 nadřazených adresářů.\n"
+"Rejilla umí vytvořit obraz takovéto hierarchie souborů a vypálit jej, ale "
+"disk nemusí být čitelný ve všech operačních systémech.\n"
+"POZNÁMKA: Takováto hierarchie souborů je známá svou funkčností v Linuxu."
+
+#. Translators: %s is a string describing the type of medium and the
+#. * drive it is in. It's a tooltip.
+#: ../src/rejilla-data-disc.c:991
+#, c-format
+msgid "Import %s"
+msgstr "Importovat %s"
+
+#. Translators: %s is the name of the volume to import. It's a menu
+#. * entry and toolbar button (text added later).
+#: ../src/rejilla-data-disc.c:998
+#, c-format
+msgid "I_mport %s"
+msgstr "I_mportovat %s"
+
+#. Translators: This is a verb. It's a toolbar button.
+#: ../src/rejilla-data-disc.c:1028
+msgid "I_mport"
+msgstr "I_mportovat"
+
+#. Translators: %s is the name of the volume to import
+#: ../src/rejilla-data-disc.c:1110
+#, c-format
+msgid "Do you want to import the session from \"%s\"?"
+msgstr "Přejete si importovat sezení z „%s“?"
+
+#: ../src/rejilla-data-disc.c:1113
+msgid ""
+"That way, old files from previous sessions will be usable after burning."
+msgstr ""
+"To znamená, že staré soubory z předchozích sezení budou po vypálení "
+"použitelné."
+
+#: ../src/rejilla-data-disc.c:1121
+msgid "I_mport Session"
+msgstr "I_mportovat sezení"
+
+#: ../src/rejilla-data-disc.c:1123
+msgid "Click here to import its contents"
+msgstr "Klikněte zde pro importování jeho obsahu"
+
+#: ../src/rejilla-data-disc.c:1502
+msgid "Please wait while the project is loading."
+msgstr "Čekejte prosím, dokud se projekt nenačte."
+
+#: ../src/rejilla-data-disc.c:1512
+msgid "_Cancel Loading"
+msgstr "_Zrušit načítání"
+
+#: ../src/rejilla-data-disc.c:1514
+msgid "Cancel loading current project"
+msgstr "Zrušit načítání aktuálního projektu"
+
+#: ../src/rejilla-data-disc.c:1918
+msgid "File Renaming"
+msgstr "Přejmenování souboru"
+
+#: ../src/rejilla-data-disc.c:1922
+msgid "_Rename"
+msgstr "_Přejmenovat"
+
+#: ../src/rejilla-data-disc.c:1930
+msgid "Renaming mode"
+msgstr "Režim přejmenování"
+
+#: ../src/rejilla-data-disc.c:2366 ../src/rejilla-video-disc.c:1234
+msgid "Size"
+msgstr "Velikost"
+
+#: ../src/rejilla-data-disc.c:2396
+msgid "Space"
+msgstr "Místo"
+
+#: ../src/rejilla-file-chooser.c:357 ../src/rejilla-project.c:2218
+msgid "Audio files"
+msgstr "Hudební soubory"
+
+#: ../src/rejilla-file-chooser.c:365 ../src/rejilla-project.c:2227
+msgid "Movies"
+msgstr "Filmy"
+
+#: ../src/rejilla-layout.c:100
+msgid "P_review"
+msgstr "_Náhled"
+
+#. Translators: this is an image, a picture, not a "Disc Image"
+#: ../src/rejilla-layout.c:102
+msgid "Display video, audio and image preview"
+msgstr "Zobrazit náhled video a hudebních souborů a obrázků"
+
+#: ../src/rejilla-layout.c:106
+msgid "_Show Side Panel"
+msgstr "_Zobrazit postranní panel"
+
+#: ../src/rejilla-layout.c:107
+msgid "Show a side pane along the project"
+msgstr "Zobrazit postranní panel k projektu"
+
+#: ../src/rejilla-layout.c:121
+msgid "_Horizontal Layout"
+msgstr "_Vodorovné rozložení"
+
+#: ../src/rejilla-layout.c:122
+msgid "Set a horizontal layout"
+msgstr "Nastavit vodorovné rozložení"
+
+#: ../src/rejilla-layout.c:124
+msgid "_Vertical Layout"
+msgstr "_Svislé rozložení"
+
+#: ../src/rejilla-layout.c:125
+msgid "Set a vertical layout"
+msgstr "Nastavit svislé rozložení"
+
+#: ../src/rejilla-layout.c:1186
+msgid "Click to close the side pane"
+msgstr "Klikněte pro zavření postranního panelu"
+
+#: ../src/rejilla-player.c:540
+#, c-format
+msgid "%i × %i pixels"
+msgstr "%i × %i pixelů"
+
+#. No Preview view
+#: ../src/rejilla-player.c:845
+msgid "No preview"
+msgstr "Žádný náhled"
+
+#: ../src/rejilla-project.c:194
+msgid "Save current project"
+msgstr "Uložit aktuální projekt"
+
+#: ../src/rejilla-project.c:195
+msgid "Save _As…"
+msgstr "Uložit j_ako…"
+
+#: ../src/rejilla-project.c:196
+msgid "Save current project to a different location"
+msgstr "Uložit aktuální projekt do jiného umístění"
+
+#: ../src/rejilla-project.c:197
+msgid "_Add Files"
+msgstr "Přid_at soubory"
+
+#: ../src/rejilla-project.c:198
+msgid "Add files to the project"
+msgstr "Přidat soubory do projektu"
+
+#: ../src/rejilla-project.c:199
+msgid "_Remove Files"
+msgstr "Odst_ranit soubory"
+
+#. Translators: "empty" is a verb here
+#: ../src/rejilla-project.c:202 ../src/rejilla-project.c:2300
+msgid "E_mpty Project"
+msgstr "Vyprázd_nit projekt"
+
+#: ../src/rejilla-project.c:203
+msgid "Remove all files from the project"
+msgstr "Odstranit všechny soubory z projektu"
+
+#: ../src/rejilla-project.c:204 ../src/rejilla-project.c:1076
+msgid "_Burn…"
+msgstr "_Vypálit…"
+
+#: ../src/rejilla-project.c:205
+msgid "Burn the disc"
+msgstr "Vypálit disk"
+
+#: ../src/rejilla-project.c:687
+msgid ""
+"To add files to this project click the \"Add\" button or drag files to this "
+"area"
+msgstr ""
+"Chcete-li přidat soubory do tohoto projektu, klikněte na tlačítko „Přidat“ "
+"nebo přetáhněte soubory do této oblasti."
+
+#: ../src/rejilla-project.c:689
+msgid ""
+"To remove files select them then click on the \"Remove\" button or press "
+"\"Delete\" key"
+msgstr ""
+"Chcete-li soubory odstranit, vyberte je a pak klikněte na tlačítko "
+"„Odstranit“ nebo stiskněte klávesu „Delete“."
+
+#: ../src/rejilla-project.c:796
+#, c-format
+msgid "Estimated project size: %s"
+msgstr "Odhadovaná velikost projektu: %s"
+
+#: ../src/rejilla-project.c:942 ../src/rejilla-project.c:958
+msgid "The project is too large for the disc even with the overburn option."
+msgstr "Projekt přesahuje velikost disku i se zapnutou volbou přeplňování."
+
+#: ../src/rejilla-project.c:969
+msgid ""
+"The project is too large for the disc and you must remove files from it.\n"
+"You may want to use this option if you're using 90 or 100 min CD-R(W) which "
+"cannot be properly recognized and therefore needs the overburn option.\n"
+"Note: This option might cause failure."
+msgstr ""
+"Projekt přesahuje velikost disku, a tudíž z něj musíte odstranit některé "
+"soubory.\n"
+"Tato volba je vhodná v případě, že používáte 90 nebo 100min CD-R(W), která "
+"nebyla správně rozpoznána, a proto je nutná volba přeplňování.\n"
+"POZNÁMKA: Tato volba může způsobit selhání."
+
+#: ../src/rejilla-project.c:1088
+msgid "Start to burn the contents of the selection"
+msgstr "Spustí vypalování obsahu z výběru"
+
+#: ../src/rejilla-project.c:1257
+msgid "Please add songs to the project."
+msgstr "Prosím, přidejte skladby do projektu."
+
+#: ../src/rejilla-project.c:1894 ../src/rejilla-project.c:1929
+msgid "Do you really want to create a new project and discard the current one?"
+msgstr "Opravdu chcete vytvořit nový projekt a zahodit aktuální?"
+
+#: ../src/rejilla-project.c:1899
+msgid "If you choose to create a new empty project, all changes will be lost."
+msgstr "Pokud vytvoříte nový prázdný projekt, všechny změny budou ztraceny."
+
+#: ../src/rejilla-project.c:1902
+msgid "_Discard Changes"
+msgstr "Zaho_dit změny"
+
+#: ../src/rejilla-project.c:1910
+msgid "Do you want to discard the file selection or add it to the new project?"
+msgstr "Přejete si výběr souborů zahodit nebo jej přidat do nového projektu?"
+
+#: ../src/rejilla-project.c:1915 ../src/rejilla-project.c:1934
+msgid ""
+"If you choose to create a new empty project, the file selection will be "
+"discarded."
+msgstr "Pokud vytvoříte nový prázdný projekt, výběr souborů bude ztracen."
+
+#: ../src/rejilla-project.c:1917
+msgid "_Discard File Selection"
+msgstr "Zaho_dit výběr souborů"
+
+#: ../src/rejilla-project.c:1921
+msgid "_Keep File Selection"
+msgstr "_Ponechat výběr souborů"
+
+#: ../src/rejilla-project.c:1936
+msgid "_Discard Project"
+msgstr "Zaho_dit projekt"
+
+#: ../src/rejilla-project.c:2176
+msgid "Select Files"
+msgstr "Vyberte soubory"
+
+#: ../src/rejilla-project.c:2289
+msgid "Do you really want to empty the current project?"
+msgstr "Opravdu chcete vyprázdnit aktuální projekt?"
+
+#: ../src/rejilla-project.c:2294
+msgid ""
+"Emptying a project will remove all files already added. All the work will be "
+"lost. Note that files will not be deleted from their own location, just no "
+"longer listed here."
+msgstr ""
+"Vyprázdnění projektu odstraní všechny doposud přidané soubory. Všechna práce "
+"bude ztracena. Žádný z těchto souborů nebude smazán ze svého umístění, jen "
+"zde již nebudou uvedeny."
+
+#: ../src/rejilla-project.c:2351
+msgid "_Save"
+msgstr "_Uložit"
+
+#: ../src/rejilla-project.c:2362
+msgid "_Add"
+msgstr "Přid_at"
+
+#: ../src/rejilla-project.c:2367 ../src/rejilla-split-dialog.c:1253
+msgid "_Remove"
+msgstr "Odst_ranit"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2431
+#, c-format
+msgid "Rejilla — %s (Data Disc)"
+msgstr "Rejilla — %s (datový disk)"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2434
+#, c-format
+msgid "Rejilla — %s (Audio Disc)"
+msgstr "Rejilla — %s (hudební disk)"
+
+#. Translators: %s is the name of the project
+#: ../src/rejilla-project.c:2437
+#, c-format
+msgid "Rejilla — %s (Video Disc)"
+msgstr "Rejilla — %s (videodisk)"
+
+#: ../src/rejilla-project.c:2607 ../src/rejilla-project.c:2910
+msgid "Your project has not been saved."
+msgstr "Váš projekt nebyl uložen."
+
+#: ../src/rejilla-project.c:2621
+msgid "Save the changes of current project before closing?"
+msgstr "Uložit změny v aktuálním projektu před zavřením?"
+
+#: ../src/rejilla-project.c:2626 ../src/rejilla-project.c:2915
+msgid "If you don't save, changes will be permanently lost."
+msgstr "Pokud neuložíte, změny budou nenávratně ztraceny."
+
+#: ../src/rejilla-project.c:2630 ../src/rejilla-project.c:2636
+#: ../src/rejilla-project.c:2918
+msgid "Cl_ose Without Saving"
+msgstr "_Zavřít bez uložení"
+
+#: ../src/rejilla-project.c:2718
+msgid "Save Current Project"
+msgstr "Uložit aktuální projekt"
+
+#: ../src/rejilla-project.c:2736
+msgid "Save project as a Rejilla audio project"
+msgstr "Uložit projekt jako hudební projekt Rejilla"
+
+#: ../src/rejilla-project.c:2737
+msgid "Save project as a plain text list"
+msgstr "Uložit projekt jako obyčejný textový výpis"
+
+#: ../src/rejilla-project.c:2741
+msgid "Save project as a PLS playlist"
+msgstr "Uložit projekt jako seznam skladeb PLS"
+
+#: ../src/rejilla-project.c:2742
+msgid "Save project as an M3U playlist"
+msgstr "Uložit projekt jako seznam skladeb M3U"
+
+#: ../src/rejilla-project.c:2743
+msgid "Save project as an XSPF playlist"
+msgstr "Uložit projekt jako seznam skladeb XSPF"
+
+#: ../src/rejilla-project.c:2744
+msgid "Save project as an iriver playlist"
+msgstr "Uložit projekt jako seznam skladeb iriver"
+
+#: ../src/rejilla-project-manager.c:99
+msgid "_Cover Editor"
+msgstr "Editor _obalů"
+
+#: ../src/rejilla-project-manager.c:100
+msgid "Design and print covers for CDs"
+msgstr "Návrh a tisk obalů CD"
+
+#: ../src/rejilla-project-manager.c:101
+msgid "_New Project"
+msgstr "_Nový projekt"
+
+#: ../src/rejilla-project-manager.c:102
+msgid "Create a new project"
+msgstr "Vytvořit nový projekt"
+
+#: ../src/rejilla-project-manager.c:103
+msgid "_Empty Project"
+msgstr "_Vyprázdnit projekt"
+
+#: ../src/rejilla-project-manager.c:104
+msgid "Let you choose your new project"
+msgstr "Umožní vám vybrat nový projekt"
+
+#: ../src/rejilla-project-manager.c:105
+msgid "New _Audio Project"
+msgstr "Nový _hudební projekt"
+
+#: ../src/rejilla-project-manager.c:106
+#: ../src/rejilla-project-type-chooser.c:74
+msgid ""
+"Create a traditional audio CD that will be playable on computers and stereos"
+msgstr ""
+"Vytvoří tradiční hudební CD, které lze přehrávat v CD přehrávačích a počítači"
+
+#: ../src/rejilla-project-manager.c:107
+msgid "New _Data Project"
+msgstr "Nový _datový projekt"
+
+#: ../src/rejilla-project-manager.c:108
+#: ../src/rejilla-project-type-chooser.c:79
+msgid ""
+"Create a CD/DVD containing any type of data that can only be read on a "
+"computer"
+msgstr ""
+"Vytvoří CD/DVD, které obsahuje jakákoli data určená pro čtení v počítači"
+
+#: ../src/rejilla-project-manager.c:109
+msgid "New _Video Project"
+msgstr "Nový _videoprojekt"
+
+#: ../src/rejilla-project-manager.c:110
+#: ../src/rejilla-project-type-chooser.c:84
+msgid "Create a video DVD or an SVCD that is readable on TV readers"
+msgstr ""
+"Vytvoří video DVD nebo SVCD, které lze přehrávat ve stolních přehrávačích DVD"
+
+#: ../src/rejilla-project-manager.c:111
+msgid "Copy _Disc…"
+msgstr "_Kopírovat disk…"
+
+#: ../src/rejilla-project-manager.c:112
+#: ../src/rejilla-project-type-chooser.c:89
+msgid ""
+"Create a 1:1 copy of an audio CD or a data CD/DVD on your hard disk or on "
+"another CD/DVD"
+msgstr ""
+"Vytvoří kopii hudebního nebo datového CD/DVD 1:1 na pevný disk nebo CD/DVD"
+
+#: ../src/rejilla-project-manager.c:113
+msgid "_Burn Image…"
+msgstr "Vypálit _obraz…"
+
+#: ../src/rejilla-project-manager.c:114
+#: ../src/rejilla-project-type-chooser.c:93
+#: ../src/rejilla-project-type-chooser.c:94
+msgid "Burn an existing CD/DVD image to disc"
+msgstr "Vypálit existující obraz CD/DVD na disk"
+
+#: ../src/rejilla-project-manager.c:116
+msgid "_Open…"
+msgstr "_Otevřít…"
+
+#: ../src/rejilla-project-manager.c:117
+msgid "Open a project"
+msgstr "Otevřít projekt"
+
+#. Translators: the %s is a string representing the total size
+#. * of the file selection
+#: ../src/rejilla-project-manager.c:263
+#, c-format
+msgid "%d file selected (%s)"
+msgid_plural "%d files selected (%s)"
+msgstr[0] "Vybrán %d soubor (%s)"
+msgstr[1] "Vybrány %d soubory (%s)"
+msgstr[2] "Vybráno %d souborů (%s)"
+
+#: ../src/rejilla-project-manager.c:274
+#, c-format
+msgid "%d file is supported (%s)"
+msgid_plural "%d files are supported (%s)"
+msgstr[0] "%d soubor je podporován (%s)"
+msgstr[1] "%d soubory jsou podporovány (%s)"
+msgstr[2] "%d souborů je podporováno (%s)"
+
+#: ../src/rejilla-project-manager.c:280
+#, c-format
+msgid "%d file can be added (%s)"
+msgid_plural "%d selected files can be added (%s)"
+msgstr[0] "Lze přidat %d soubor (%s)"
+msgstr[1] "Lze přidat %d vybrané soubory (%s)"
+msgstr[2] "Lze přidat %d vybraných souborů (%s)"
+
+#: ../src/rejilla-project-manager.c:291
+#, c-format
+msgid "No file can be added (%i selected file)"
+msgid_plural "No file can be added (%i selected files)"
+msgstr[0] "Nelze přidat žádný soubor (vybrán %i soubor)"
+msgstr[1] "Nelze přidat žádný soubor (vybrány %i soubory)"
+msgstr[2] "Nelze přidat žádný soubor (vybráno %i souborů)"
+
+#: ../src/rejilla-project-manager.c:297
+#, c-format
+msgid "No file is supported (%i selected file)"
+msgid_plural "No file is supported (%i selected files)"
+msgstr[0] "Žádný soubor není podporován (vybrán %i soubor)"
+msgstr[1] "Žádný soubor není podporován (vybrány %i soubory)"
+msgstr[2] "Žádný soubor není podporován (vybráno %i souborů)"
+
+#: ../src/rejilla-project-manager.c:303 ../src/rejilla-project-manager.c:457
+msgid "No file selected"
+msgstr "Nebyl vybrán žádný soubor"
+
+#: ../src/rejilla-project-manager.c:594
+msgid "Rejilla — New Audio Disc Project"
+msgstr "Rejilla — Nový hudební projekt"
+
+#: ../src/rejilla-project-manager.c:608
+msgid "Rejilla — New Data Disc Project"
+msgstr "Rejilla — Nový datový projekt"
+
+#: ../src/rejilla-project-manager.c:622
+msgid "Rejilla — New Video Disc Project"
+msgstr "Rejilla — Nový videoprojekt"
+
+#: ../src/rejilla-project-manager.c:632
+msgid "Rejilla — New Image File"
+msgstr "Rejilla — Nový soubor s obrazem"
+
+#: ../src/rejilla-project-manager.c:647
+msgid "Rejilla — Disc Copy"
+msgstr "Rejilla — Kopírování disku"
+
+#: ../src/rejilla-project-manager.c:731
+msgid "Open Project"
+msgstr "Otevřít projekt"
+
+#: ../src/rejilla-project-manager.c:834
+msgid "_New"
+msgstr "_Nový"
+
+#: ../src/rejilla-project-manager.c:838
+msgid "_Open"
+msgstr "_Otevřít"
+
+#: ../src/rejilla-project-manager.c:889
+msgid "Browse the file system"
+msgstr "Procházet systém souborů"
+
+#: ../src/rejilla-project-manager.c:912
+msgid "Search files using keywords"
+msgstr "Vyhledat soubory pomocí klíčových slov"
+
+#: ../src/rejilla-project-manager.c:932
+msgid "Display playlists and their contents"
+msgstr "Zobrazit seznamy skladeb a jejich obsah"
+
+#: ../src/rejilla-project-type-chooser.c:72
+msgid "Audi_o project"
+msgstr "_Hudební projekt"
+
+#: ../src/rejilla-project-type-chooser.c:73
+msgid "Create a traditional audio CD"
+msgstr "Vytvořit tradiční hudební CD"
+
+#: ../src/rejilla-project-type-chooser.c:77
+msgid "D_ata project"
+msgstr "_Datový projekt"
+
+#: ../src/rejilla-project-type-chooser.c:78
+msgid "Create a data CD/DVD"
+msgstr "Vytvořit datové CD/DVD"
+
+#: ../src/rejilla-project-type-chooser.c:82
+msgid "_Video project"
+msgstr "_Videoprojekt"
+
+#: ../src/rejilla-project-type-chooser.c:83
+msgid "Create a video DVD or an SVCD"
+msgstr "Vytvořit video DVD nebo SVCD"
+
+#: ../src/rejilla-project-type-chooser.c:87
+msgid "Disc _copy"
+msgstr "_Kopírovat disk"
+
+#: ../src/rejilla-project-type-chooser.c:88
+msgid "Create 1:1 copy of a CD/DVD"
+msgstr "Vytvořit kopii CD/DVD 1:1"
+
+#: ../src/rejilla-project-type-chooser.c:92
+msgid "Burn _image"
+msgstr "Vypálit _obraz"
+
+#: ../src/rejilla-project-type-chooser.c:291
+msgid "Last _Unsaved Project"
+msgstr "Naposledy použitý ne_uložený projekt"
+
+#: ../src/rejilla-project-type-chooser.c:307
+msgid "Load the last project that was not burned and not saved"
+msgstr "Nahrát naposledy použitý projekt, který nebyl vypálen a uložen"
+
+#: ../src/rejilla-project-type-chooser.c:413
+msgid "No recently used project"
+msgstr "Žádné nedávné projekty"
+
+#: ../src/rejilla-project-type-chooser.c:475
+msgid "Create a new project:"
+msgstr "Vytvořit nový projekt:"
+
+#: ../src/rejilla-project-type-chooser.c:521
+msgid "Recent projects:"
+msgstr "Nedávné projekty:"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:134
+#: ../librejilla-burn/rejilla-sum-dialog.c:215
+msgid "Check _Again"
+msgstr "Znovu zkontrolov_at"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:165
+#: ../librejilla-burn/rejilla-sum-dialog.c:514
+msgid "The file integrity check could not be performed."
+msgstr "Nelze provést kontrolu integrity souborů."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:178
+msgid "The file integrity check was performed successfully."
+msgstr "Kontrola integrity souborů proběhla úspěšně."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:179
+msgid "There seem to be no corrupted files on the disc"
+msgstr "Zdá se, že na disku nejsou žádné poškozené soubory"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:207
+msgid "The following files appear to be corrupted:"
+msgstr "Následující soubory jsou zřejmě poškozeny:"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:250
+msgid "Corrupted Files"
+msgstr "Poškozené soubory"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:342
+msgid "Downloading MD5 file"
+msgstr "Stahuje se soubor MD5"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:397
+#, c-format
+msgid "\"%s\" is not a valid URI"
+msgstr "„%s“ není platná adresa URI"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:515
+msgid "No MD5 file was given."
+msgstr "Nebyl specifikován žádný soubor MD5."
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:692
+msgid "Use an _MD5 file to check the disc"
+msgstr "Použít soubor _MD5 pro kontrolu disku"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:693
+msgid "Use an external .md5 file that stores the checksum of a disc"
+msgstr "Použít externí soubor .md5, který obsahuje kontrolní součet disku"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:706
+msgid "Open an MD5 file"
+msgstr "Otevřít soubor MD5"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:721
+msgid "_Check"
+msgstr "Z_kontrolovat"
+
+#: ../librejilla-burn/rejilla-sum-dialog.c:752
+msgid "Disc Checking"
+msgstr "Kontrola disku"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:147
+#, c-format
+msgid "Estimated size: %s"
+msgstr "Odhadovaná velikost: %s"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:569
+msgid "Size Estimation"
+msgstr "Odhad velikosti"
+
+#: ../librejilla-burn/rejilla-status-dialog.c:571
+msgid "Please wait until the estimation of the size is completed."
+msgstr "Čekejte prosím, dokud se nedokončí odhad velikosti."
+
+#: ../librejilla-burn/rejilla-status-dialog.c:572
+msgid "All files need to be analysed to complete this operation."
+msgstr ""
+"Aby mohla být tato operace dokončena, musí být analyzovány všechny soubory."
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:78
+#: ../librejilla-burn/rejilla-tool-dialog.c:92
+#: ../librejilla-burn/rejilla-tool-dialog.c:102
+msgid "The operation cannot be performed."
+msgstr "Operaci nelze provést."
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:79
+#: ../plugins/cdrkit/burn-wodim.c:151 ../plugins/cdrkit/burn-wodim.c:421
+#: ../plugins/cdrtools/burn-cdrecord.c:151
+#: ../plugins/cdrtools/burn-cdrecord.c:407
+#: ../plugins/growisofs/burn-dvd-rw-format.c:77
+#: ../plugins/libburnia/burn-libburn.c:609
+#, c-format
+msgid "The disc is not supported"
+msgstr "Disk není podporován"
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:103
+msgid "The drive is empty"
+msgstr "Jednotka je prázdná"
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:539
+#: ../src/rejilla-eject-dialog.c:164
+msgid "Select a disc"
+msgstr "Vyberte disk"
+
+#: ../librejilla-burn/rejilla-tool-dialog.c:572
+msgid "Progress"
+msgstr "Průběh"
+
+#: ../src/main.c:86
+msgid "[URI] [URI] …"
+msgstr "[URI] [URI] …"
+
+#: ../src/main.c:98
+#, c-format
+msgid "Please type \"%s --help\" to see all available options\n"
+msgstr "Pro zobrazení všech dostupných přepínačů napište „%s --help“\n"
+
+#: ../plugins/audio2cue/burn-audio2cue.c:191
+#: ../plugins/checksum/burn-checksum-image.c:124
+#, c-format
+msgid "Data could not be read (%s)"
+msgstr "Data nelze číst (%s)"
+
+#: ../plugins/audio2cue/burn-audio2cue.c:241
+#: ../plugins/dvdcss/burn-dvdcss.c:218 ../plugins/dvdcss/burn-dvdcss.c:493
+#: ../plugins/libburnia/burn-libisofs.c:163
+#: ../plugins/libburnia/burn-libisofs.c:266
+#: ../plugins/checksum/burn-checksum-files.c:196
+#: ../plugins/checksum/burn-checksum-files.c:219
+#: ../plugins/checksum/burn-checksum-image.c:174
+#, c-format
+msgid "Data could not be written (%s)"
+msgstr "Data nelze zapsat (%s)"
+
+#: ../plugins/audio2cue/burn-audio2cue.c:723
+msgid "Generates .cue files from audio"
+msgstr "Vytváří soubory .cue z hudebních stop"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:55
+msgid "cdrdao burning suite"
+msgstr "vypalovací nástroj cdrdao"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:103
+msgid "Copying audio track"
+msgstr "Kopíruje se hudební stopa"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:109
+msgid "Copying data track"
+msgstr "Kopíruje se datová stopa"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:145
+#, c-format
+msgid "Analysing track %02i"
+msgstr "Analyzuje se stopa %02i"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:249 ../plugins/cdrkit/burn-readom.c:116
+#: ../plugins/cdrkit/burn-readom.c:122 ../plugins/cdrkit/burn-wodim.c:106
+#: ../plugins/cdrtools/burn-cdrecord.c:106
+#: ../plugins/cdrtools/burn-readcd.c:117 ../plugins/cdrtools/burn-readcd.c:123
+#, c-format
+msgid "You do not have the required permissions to use this drive"
+msgstr "Nemáte dostatečná oprávnění k použití této jednotky"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:480
+msgid "Converting toc file"
+msgstr "Převádí se soubor TOC"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:697
+msgid "Copies, burns and blanks CDs"
+msgstr "Kopíruje, vypaluje a maže CD"
+
+#: ../plugins/cdrdao/burn-cdrdao.c:762
+msgid "Enable the \"--driver generic-mmc-raw\" flag (see cdrdao manual)"
+msgstr "Povolit přepínač „--driver generic-mmc-raw“ (viz příručka cdrdao)"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:121
+#: ../plugins/cdrtools/burn-mkisofs.c:122
+#: ../plugins/growisofs/burn-growisofs.c:204
+#: ../plugins/libburnia/burn-libisofs.c:501
+#, c-format
+msgid "Last session import failed"
+msgstr "Selhal import posledního sezení"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:127
+#: ../plugins/cdrkit/burn-genisoimage.c:134
+#: ../plugins/cdrtools/burn-mkisofs.c:128
+#: ../plugins/cdrtools/burn-mkisofs.c:135
+#: ../plugins/growisofs/burn-growisofs.c:210
+#: ../plugins/growisofs/burn-growisofs.c:217
+msgid "An image could not be created"
+msgstr "Nelze vytvořit obraz"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:140
+msgid "This version of genisoimage is not supported"
+msgstr "Tato verze genisoimage není podporována"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:182
+#: ../plugins/cdrtools/burn-mkisofs.c:183
+#: ../plugins/growisofs/burn-growisofs.c:223
+msgid "Some files have invalid filenames"
+msgstr "Některé soubory mají neplatné názvy"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:188
+#: ../plugins/cdrtools/burn-mkisofs.c:189
+#: ../plugins/growisofs/burn-growisofs.c:229
+msgid "Unknown character encoding"
+msgstr "Neznámá znaková sada"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:194
+#: ../plugins/cdrtools/burn-mkisofs.c:195
+msgid "There is no space left on the device"
+msgstr "Na zařízení nezbývá volné místo"
+
+#: ../plugins/cdrkit/burn-genisoimage.c:529
+#: ../plugins/cdrtools/burn-mkisofs.c:534
+#: ../plugins/libburnia/burn-libisofs.c:1046
+msgid "Creates disc images from a file selection"
+msgstr "Vytváří obrazy disků z výběru souborů"
+
+#: ../plugins/cdrkit/burn-readom.c:136 ../plugins/cdrtools/burn-readcd.c:137
+#, c-format
+msgid ""
+"The location you chose to store the image on does not have enough free space "
+"for the disc image"
+msgstr ""
+"Na umístění, které jste zvolili pro uložení obrazu, není dostatek volného "
+"místa pro obraz disku"
+
+#: ../plugins/cdrkit/burn-readom.c:450 ../plugins/cdrtools/burn-readcd.c:460
+msgid "Copies any disc to a disc image"
+msgstr "Kopíruje jakýkoli disk do obrazu disku"
+
+#: ../plugins/cdrkit/burn-wodim.c:122 ../plugins/cdrtools/burn-cdrecord.c:122
+#: ../plugins/libburnia/burn-libburn.c:855
+#: ../plugins/libburnia/burn-libburn.c:886
+#, c-format
+msgid "An error occurred while writing to disc"
+msgstr "Při zápisu na disk nastala chyba"
+
+#: ../plugins/cdrkit/burn-wodim.c:128 ../plugins/cdrtools/burn-cdrecord.c:128
+#, c-format
+msgid ""
+"The system is too slow to write the disc at this speed. Try a lower speed"
+msgstr ""
+"Systém je příliš pomalý pro zápis na disk touto rychlostí. Zkuste snížit "
+"rychlost"
+
+#. Translators: %s is the number of the track
+#: ../plugins/cdrkit/burn-wodim.c:255 ../plugins/cdrtools/burn-cdrecord.c:252
+#, c-format
+msgid "Writing track %s"
+msgstr "Zapisuje se stopa %s"
+
+#: ../plugins/cdrkit/burn-wodim.c:352 ../plugins/cdrtools/burn-cdrecord.c:346
+msgid "Formatting disc"
+msgstr "Formátování disku"
+
+#: ../plugins/cdrkit/burn-wodim.c:372 ../plugins/cdrtools/burn-cdrecord.c:358
+msgid "Writing cue sheet"
+msgstr "Zapisuje se cue sheet"
+
+#: ../plugins/cdrkit/burn-wodim.c:394 ../plugins/cdrtools/burn-cdrecord.c:380
+#, c-format
+msgid "The disc needs to be reloaded before being recorded"
+msgstr "Disk je potřeba před zápisem znovu načíst"
+
+#: ../plugins/cdrkit/burn-wodim.c:1275
+msgid "Burns, blanks and formats CDs and DVDs"
+msgstr "Vypaluje, maže a formátuje CD a DVD"
+
+#: ../plugins/cdrkit/burn-wodim.c:1419
+msgid "Enable the \"-immed\" flag (see wodim manual)"
+msgstr "Povolit přepínač „-immed“ (viz příručka wodim)"
+
+#: ../plugins/cdrkit/burn-wodim.c:1422
+msgid "Minimum drive buffer fill ratio (in %) (see wodim manual):"
+msgstr ""
+"Minimální zaplnění vyrovnávací paměti jednotky (v %) (viz příručka wodim):"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1209
+#: ../plugins/libburnia/burn-libburn.c:974
+msgid "Burns, blanks and formats CDs, DVDs and BDs"
+msgstr "Vypaluje, maže a formátuje CD, DVD a BD"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1422
+msgid "Enable the \"-immed\" flag (see cdrecord manual)"
+msgstr "Povolit přepínač „-immed“ (viz příručka cdrecord)"
+
+#: ../plugins/cdrtools/burn-cdrecord.c:1425
+#, c-format
+msgid "Minimum drive buffer fill ratio (in %%) (see cdrecord manual):"
+msgstr ""
+"Minimální zaplnění vyrovnávací paměti jednotky (v %%) (viz příručka "
+"cdrecord):"
+
+#: ../plugins/cdrtools/burn-mkisofs.c:141
+msgid "This version of mkisofs is not supported"
+msgstr "Tato verze mkisofs není podporována"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:292 ../plugins/dvdcss/burn-dvdcss.c:393
+#: ../plugins/dvdcss/burn-dvdcss.c:458 ../plugins/dvdcss/burn-dvdcss.c:481
+#, c-format
+msgid "Error while reading video DVD (%s)"
+msgstr "Chyba při čtení video DVD (%s)"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:337
+msgid "Retrieving DVD keys"
+msgstr "Získávají se DVD klíče"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:372
+#, c-format
+msgid "Video DVD could not be opened"
+msgstr "Video DVD nelze otevřít"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:400
+msgid "Copying video DVD"
+msgstr "Kopíruje se video DVD"
+
+#: ../plugins/dvdcss/burn-dvdcss.c:693
+msgid "Copies CSS encrypted video DVDs to a disc image"
+msgstr "Kopíruje video DVD šifrovaná pomocí CSS do obrazu disku"
+
+#: ../plugins/growisofs/burn-dvd-rw-format.c:190
+msgid "Blanks and formats rewritable DVDs and BDs"
+msgstr "Maže a formátuje přepisovatelné DVD a BD"
+
+#: ../plugins/growisofs/burn-growisofs.c:753
+msgid "Burns and blanks DVDs and BDs"
+msgstr "Vypaluje a maže DVD a BD"
+
+#: ../plugins/growisofs/burn-growisofs.c:924
+msgid "Allow DAO use"
+msgstr "Povolit použití DAO"
+
+#: ../plugins/libburnia/burn-libburn.c:242
+#: ../plugins/libburnia/burn-libburn.c:250
+#, c-format
+msgid "libburn track could not be created"
+msgstr "nelze vytvořit stopu libburn"
+
+#. Translators: first %s is the filename, second %s is the error
+#. * generated from errno
+#. Translators: first %s is the filename, second %s
+#. * is the error generated from errno
+#: ../plugins/libburnia/burn-libburn.c:678
+#: ../plugins/checksum/burn-checksum-image.c:313
+#, c-format
+msgid "\"%s\" could not be opened (%s)"
+msgstr "„%s“ nelze otevřít (%s)"
+
+#: ../plugins/libburnia/burn-libburn-common.c:158
+#, c-format
+msgid "libburn library could not be initialized"
+msgstr "nelze inicializovat knihovnu libburn"
+
+#: ../plugins/libburnia/burn-libburn-common.c:173
+#, c-format
+msgid "The drive address could not be retrieved"
+msgstr "Nelze zjistit adresu jednotky"
+
+#: ../plugins/libburnia/burn-libburn-common.c:417
+#, c-format
+msgid "Writing track %02i"
+msgstr "Zapisuje se stopa %02i"
+
+#: ../plugins/libburnia/burn-libisofs.c:328
+#: ../plugins/libburnia/burn-libisofs.c:868
+#, c-format
+msgid "libisofs could not be initialized."
+msgstr "libisofs nelze inicializovat"
+
+#: ../plugins/libburnia/burn-libisofs.c:468
+#, c-format
+msgid "Read options could not be created"
+msgstr "Nelze vytvořit žádné možnosti čtení"
+
+#: ../plugins/libburnia/burn-libisofs.c:554
+#, c-format
+msgid "Volume could not be created"
+msgstr "Nelze vytvořit svazek"
+
+#. Translators: %s is the path
+#: ../plugins/libburnia/burn-libisofs.c:667
+#, c-format
+msgid "No parent could be found in the tree for the path \"%s\""
+msgstr ""
+"Nelze nalézt žádný nadřazený adresář ve stromové struktuře na cestě „%s“"
+
+#: ../plugins/libburnia/burn-libisofs.c:727
+#: ../plugins/libburnia/burn-libisofs.c:794
+#, c-format
+msgid "libisofs reported an error while creating directory \"%s\""
+msgstr "libisofs ohlásil chybu při vytváření adresáře „%s“"
+
+#: ../plugins/libburnia/burn-libisofs.c:742
+#, c-format
+msgid ""
+"libisofs reported an error while adding contents to directory \"%s\" (%x)"
+msgstr "libisofs ohlásil chybu při přidávání obsahu do adresáře „%s“ (%x)"
+
+#: ../plugins/libburnia/burn-libisofs.c:765
+#: ../plugins/libburnia/burn-libisofs.c:781
+#, c-format
+msgid "libisofs reported an error while adding file at path \"%s\""
+msgstr "libisofs ohlásil chybu při přidávání souboru v cestě „%s“"
+
+#: ../plugins/local-track/burn-local-image.c:260
+msgid "Copying checksum file"
+msgstr "Kopíruje se soubor s kontrolním součtem"
+
+#: ../plugins/local-track/burn-local-image.c:544
+#, c-format
+msgid "Copying `%s` locally"
+msgstr "Kopíruje se '%s' místně"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/local-track/burn-local-image.c:911
+msgid "File Downloader"
+msgstr "Stahovač souborů"
+
+#: ../plugins/local-track/burn-local-image.c:912
+msgid "Allows files not stored locally to be burned"
+msgstr "Umožňuje vypálit soubory, které nejsou uloženy místně"
+
+#. Translators: This message is sent
+#. * when rejilla could not link together
+#. * two gstreamer plugins so that one
+#. * sends its data to the second for further
+#. * processing. This data transmission is
+#. * done through a pad. Maybe this is a bit
+#. * too technical and should be removed?
+#: ../plugins/transcode/burn-normalize.c:199
+#: ../plugins/transcode/burn-normalize.c:260
+#: ../plugins/transcode/burn-transcode.c:318
+#: ../plugins/transcode/burn-transcode.c:356
+#: ../plugins/transcode/burn-transcode.c:553
+#: ../plugins/transcode/burn-transcode.c:663
+#: ../plugins/transcode/burn-transcode.c:694
+#: ../plugins/transcode/burn-transcode.c:715
+#: ../plugins/transcode/burn-vob.c:198 ../plugins/transcode/burn-vob.c:404
+#: ../plugins/transcode/burn-vob.c:564 ../plugins/transcode/burn-vob.c:697
+#: ../plugins/transcode/burn-vob.c:1061 ../plugins/transcode/burn-vob.c:1137
+#: ../plugins/transcode/burn-vob.c:1188
+#, c-format
+msgid "Impossible to link plugin pads"
+msgstr "Není možné spojit se se zásuvným modulem na prodlužování skladeb"
+
+#: ../plugins/transcode/burn-normalize.c:556
+msgid "Normalizing tracks"
+msgstr "Normalizují se stopy"
+
+#: ../plugins/transcode/burn-normalize.c:646
+msgid "Normalization"
+msgstr "Normalizace"
+
+#: ../plugins/transcode/burn-normalize.c:647
+msgid "Sets consistent sound levels between tracks"
+msgstr "Nastavuje konzistentní úroveň hlasitosti zvuku mezi stopami"
+
+#. Translators: %s is the string error from errno
+#: ../plugins/transcode/burn-transcode.c:1086
+#: ../plugins/transcode/burn-transcode.c:1274
+#, c-format
+msgid "Error while padding file (%s)"
+msgstr "Chyba při prodlužování souboru (%s)"
+
+#: ../plugins/transcode/burn-transcode.c:1350
+#, c-format
+msgid "Error while getting duration"
+msgstr "Chyba při zjišťování doby trvání"
+
+#: ../plugins/transcode/burn-transcode.c:1499
+#, c-format
+msgid "Analysing \"%s\""
+msgstr "Analyzuje se „%s“"
+
+#: ../plugins/transcode/burn-transcode.c:1536
+#, c-format
+msgid "Transcoding \"%s\""
+msgstr "Převádí se „%s“"
+
+#: ../plugins/transcode/burn-transcode.c:1773
+msgid "Converts any song file into a format suitable for audio CDs"
+msgstr "Převádí jakýkoliv soubor se skladbou na formát vhodný pro hudební CD"
+
+#: ../src/rejilla-split-dialog.c:166
+msgid "Do you really want to split the track?"
+msgstr "Opravdu chcete rozdělit stopu?"
+
+#: ../src/rejilla-split-dialog.c:169
+msgid ""
+"If you split the track, the size of the new track will be shorter than 6 "
+"seconds and will be padded."
+msgstr ""
+"Pokud stopu rozdělíte, velikost nové stopy bude kratší než 6 sekund a bude "
+"tudíž prodloužena."
+
+#: ../src/rejilla-split-dialog.c:175 ../src/rejilla-split-dialog.c:748
+msgid "_Split"
+msgstr "_Rozdělit"
+
+#: ../src/rejilla-split-dialog.c:603
+msgid "The track wasn't split."
+msgstr "Stopa nebyla rozdělena."
+
+#: ../src/rejilla-split-dialog.c:604
+msgid "No silence could be detected"
+msgstr "Nelze zjistit žádné tiché místo"
+
+#: ../src/rejilla-split-dialog.c:627
+msgid "An error occurred while detecting silences."
+msgstr "Při zjišťování tichých míst nastala chyba."
+
+#: ../src/rejilla-split-dialog.c:706
+msgid "This will remove all previous results."
+msgstr "Toto odstraní všechny předchozí výsledky."
+
+#: ../src/rejilla-split-dialog.c:746
+msgid "Do you really want to carry on with automatic splitting?"
+msgstr "Opravdu chcete pokračovat s automatickým rozdělováním?"
+
+#: ../src/rejilla-split-dialog.c:747
+msgid "_Don't split"
+msgstr "Neroz_dělit"
+
+#: ../src/rejilla-split-dialog.c:965
+msgid "Do you really want to empty the slices preview?"
+msgstr "Opravdu chcete vyprázdnit náhledy částí?"
+
+#: ../src/rejilla-split-dialog.c:967 ../src/rejilla-split-dialog.c:1267
+msgid "Re_move All"
+msgstr "_Odstranit vše"
+
+#: ../src/rejilla-split-dialog.c:1053
+msgid "Split Track"
+msgstr "Rozdělit stopu"
+
+#: ../src/rejilla-split-dialog.c:1070
+msgid "M_ethod:"
+msgstr "M_etoda:"
+
+#: ../src/rejilla-split-dialog.c:1076
+msgid "Method to be used to split the track"
+msgstr "Metoda použitá k rozdělení stopy"
+
+#: ../src/rejilla-split-dialog.c:1079
+msgid "Split track manually"
+msgstr "Rozdělit stopu ručně"
+
+#: ../src/rejilla-split-dialog.c:1080
+msgid "Split track in parts with a fixed length"
+msgstr "Rozdělit stopu na části o konstantní délce"
+
+#: ../src/rejilla-split-dialog.c:1081
+msgid "Split track in a fixed number of parts"
+msgstr "Rozdělit stopu na stálý počet částí"
+
+#: ../src/rejilla-split-dialog.c:1082
+msgid "Split track for each silence"
+msgstr "Rozdělit stopu v místech ticha"
+
+#: ../src/rejilla-split-dialog.c:1088
+msgid "_Slice"
+msgstr "_Rozdělit"
+
+#: ../src/rejilla-split-dialog.c:1099
+msgid "Add a splitting point"
+msgstr "Přidat bod rozdělení"
+
+#. Translators: this goes with the next (= "seconds")
+#: ../src/rejilla-split-dialog.c:1116
+msgid "Split this track every"
+msgstr "Rozdělit tuto stopu každých"
+
+#. Translators: this goes with the previous (= "Split track every")
+#: ../src/rejilla-split-dialog.c:1125
+msgid "seconds"
+msgstr "sekund"
+
+#. Translators: this goes with the next (= "parts")
+#: ../src/rejilla-split-dialog.c:1134
+msgid "Split this track in"
+msgstr "Rozdělit tuto stopu na"
+
+#. Translators: this goes with the previous (= "Split this track in")
+#: ../src/rejilla-split-dialog.c:1143
+msgid "parts"
+msgstr "částí"
+
+#: ../src/rejilla-split-dialog.c:1151
+msgid "Slicing Method"
+msgstr "Metoda rozdělení"
+
+#: ../src/rejilla-split-dialog.c:1209
+msgid "Start"
+msgstr "Začátek"
+
+#: ../src/rejilla-split-dialog.c:1216
+msgid "End"
+msgstr "Konec"
+
+#: ../src/rejilla-split-dialog.c:1239
+msgid "Mer_ge"
+msgstr "_Sloučit"
+
+#: ../src/rejilla-split-dialog.c:1250
+msgid "Merge a selected slice with the next selected one"
+msgstr "Sloučit označenou část s další označenou"
+
+#: ../src/rejilla-split-dialog.c:1264
+msgid "Remove the selected slices"
+msgstr "Odstranit označené části"
+
+#: ../src/rejilla-split-dialog.c:1278
+msgid "Clear the slices preview"
+msgstr "Smazat náhledy částí"
+
+#: ../src/rejilla-split-dialog.c:1288
+msgid "_List of slices that are to be created:"
+msgstr "_Seznam částí, které se vytvoří:"
+
+#: ../src/rejilla-split-dialog.c:1296
+msgid "Slices Preview"
+msgstr "Náhled částí"
+
+#: ../src/rejilla-time-button.c:287
+msgid "Hours"
+msgstr "Hodiny"
+
+#. Translators: separating hours and minutes
+#. Translators: separating minutes and seconds
+#. Translators: separating seconds and frames
+#: ../src/rejilla-time-button.c:292 ../src/rejilla-time-button.c:302
+#: ../src/rejilla-time-button.c:312
+msgid ":"
+msgstr ":"
+
+#: ../src/rejilla-time-button.c:297
+msgid "Minutes"
+msgstr "Minuty"
+
+#: ../src/rejilla-time-button.c:307
+msgid "Seconds"
+msgstr "Sekundy"
+
+#: ../src/rejilla-time-button.c:317
+msgid "Frames (1 second = 75 frames)"
+msgstr "Snímky (1 sekunda = 75 snímků)"
+
+#: ../plugins/cdrkit/burn-cdrkit.h:38
+msgid "cdrkit burning suite"
+msgstr "vypalovací nástroj cdrkit"
+
+#: ../plugins/libburnia/burn-libburnia.h:38
+msgid "libburnia burning suite"
+msgstr "vypalovací nástroj libburnia"
+
+#: ../plugins/growisofs/burn-growisofs-common.h:38
+msgid "growisofs burning suite"
+msgstr "vypalovací nástroj growisofs"
+
+#: ../plugins/cdrtools/burn-cdrtools.h:38
+msgid "cdrtools burning suite"
+msgstr "vypalovací nástroj cdrtools"
+
+#: ../src/rejilla-eject-dialog.c:95
+#, c-format
+msgid "The disc in \"%s\" cannot be ejected"
+msgstr "Disk v „%s“ nelze vysunout"
+
+#: ../src/rejilla-eject-dialog.c:190
+msgid "_Eject"
+msgstr "_Vysunout"
+
+#: ../src/rejilla-eject-dialog.c:205
+msgid "Eject Disc"
+msgstr "Vysunout disk"
+
+#: ../src/rejilla-file-filtered.c:75 ../src/rejilla-file-filtered.c:81
+msgid "No file filtered"
+msgstr "Nebyl filtrován žádný soubor"
+
+#: ../src/rejilla-file-filtered.c:77
+#, c-format
+msgid "Hide the _filtered file list (%d file)"
+msgid_plural "Hide the _filtered file list (%d files)"
+msgstr[0] "Skrýt seznam _filtrovaných souborů (%d soubor)"
+msgstr[1] "Skrýt seznam _filtrovaných souborů (%d soubory)"
+msgstr[2] "Skrýt seznam _filtrovaných souborů (%d souborů)"
+
+#: ../src/rejilla-file-filtered.c:83
+#, c-format
+msgid "Show the _filtered file list (%d file)"
+msgid_plural "Show the _filtered file list (%d files)"
+msgstr[0] "Zobrazit seznam _filtrovaných souborů (%d soubor)"
+msgstr[1] "Zobrazit seznam _filtrovaných souborů (%d soubory)"
+msgstr[2] "Zobrazit seznam _filtrovaných souborů (%d souborů)"
+
+#: ../src/rejilla-file-filtered.c:138
+msgid "Filter Options"
+msgstr "Možnosti filtrování"
+
+#: ../src/rejilla-file-filtered.c:221
+msgid ""
+"Select the files you want to restore and click on the \"Restore\" button"
+msgstr "Vyberte soubory, které chcete obnovit a klikněte na tlačítko „Obnovit“"
+
+#: ../src/rejilla-file-filtered.c:268
+msgid "Type"
+msgstr "Typ"
+
+#: ../src/rejilla-file-filtered.c:295
+msgid "_Restore"
+msgstr "_Obnovit"
+
+#: ../src/rejilla-file-filtered.c:304
+msgid "Restore the selected files"
+msgstr "Obnovit vybrané soubory"
+
+#: ../src/rejilla-file-filtered.c:306
+msgid "_Options…"
+msgstr "_Možnosti…"
+
+#: ../src/rejilla-file-filtered.c:314
+msgid "Set the options for file filtering"
+msgstr "Nastavte možnosti filtrování souborů"
+
+#. filter hidden files
+#: ../src/rejilla-filter-option.c:63
+msgid "Filter _hidden files"
+msgstr "Filtrovat _skryté soubory"
+
+#. replace symlink
+#: ../src/rejilla-filter-option.c:70
+msgid "Re_place symbolic links"
+msgstr "Na_hradit symbolické odkazy"
+
+#. filter broken symlink button
+#: ../src/rejilla-filter-option.c:77
+msgid "Filter _broken symbolic links"
+msgstr "Filtrovat _poškozené symbolické odkazy"
+
+#: ../src/rejilla-filter-option.c:83
+msgid "Filtering options"
+msgstr "Možnosti filtrování"
+
+#: ../plugins/checksum/burn-checksum-files.c:131
+#: ../plugins/checksum/burn-checksum-files.c:589
+#, c-format
+msgid "File \"%s\" could not be opened (%s)"
+msgstr "Soubor „%s“ nelze otevřít (%s)"
+
+#: ../plugins/checksum/burn-checksum-files.c:617
+msgid "Creating checksum for image files"
+msgstr "Vytváří se kontrolní součet souboru s obrazem"
+
+#: ../plugins/checksum/burn-checksum-files.c:859
+#, c-format
+msgid "No checksum file could be found on the disc"
+msgstr "Na disku nelze nalézt žádný soubor s kontrolním součtem"
+
+#: ../plugins/checksum/burn-checksum-files.c:893
+msgid "Checking file integrity"
+msgstr "Kontroluje se integrita souboru"
+
+#: ../plugins/checksum/burn-checksum-files.c:987
+#: ../plugins/checksum/burn-checksum-files.c:1012
+#, c-format
+msgid "File \"%s\" could not be opened"
+msgstr "Soubor „%s“ nelze otevřít"
+
+#: ../plugins/checksum/burn-checksum-files.c:1085
+#: ../plugins/checksum/burn-checksum-files.c:1206
+#: ../plugins/checksum/burn-checksum-image.c:550
+#, c-format
+msgid "Some files may be corrupted on the disc"
+msgstr "Některé soubory na disku mohou být poškozeny"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/checksum/burn-checksum-files.c:1479
+msgid "File Checksum"
+msgstr "Kontrolní součet souborů"
+
+#: ../plugins/checksum/burn-checksum-files.c:1480
+msgid "Checks file integrities on a disc"
+msgstr "Kontroluje integritu souborů na disku"
+
+#: ../plugins/checksum/burn-checksum-files.c:1518
+#: ../plugins/checksum/burn-checksum-image.c:856
+msgid "Hashing algorithm to be used:"
+msgstr "Hashovací algoritmus, který bude použit:"
+
+#: ../plugins/checksum/burn-checksum-files.c:1521
+#: ../plugins/checksum/burn-checksum-image.c:859
+msgid "MD5"
+msgstr "MD5"
+
+#: ../plugins/checksum/burn-checksum-files.c:1523
+#: ../plugins/checksum/burn-checksum-image.c:861
+msgid "SHA1"
+msgstr "SHA1"
+
+#: ../plugins/checksum/burn-checksum-files.c:1525
+#: ../plugins/checksum/burn-checksum-image.c:863
+msgid "SHA256"
+msgstr "SHA256"
+
+#: ../plugins/checksum/burn-checksum-image.c:359
+#: ../plugins/checksum/burn-checksum-image.c:456
+msgid "Creating image checksum"
+msgstr "Vytváří se kontrolní součet obrazu"
+
+#. Translators: this is the name of the plugin
+#. * which will be translated only when it needs
+#. * displaying.
+#: ../plugins/checksum/burn-checksum-image.c:831
+msgid "Image Checksum"
+msgstr "Kontrolní součet obrazu"
+
+#: ../plugins/checksum/burn-checksum-image.c:832
+msgid "Checks disc integrity after it is burnt"
+msgstr "Kontroluje integritu dat na disku po jeho vypálení"
+
+#: ../src/rejilla-multi-song-props.c:89 ../src/rejilla-multi-song-props.c:97
+#: ../src/rejilla-multi-song-props.c:105 ../src/rejilla-multi-song-props.c:123
+#: ../src/rejilla-multi-song-props.c:139 ../src/rejilla-multi-song-props.c:160
+#: ../src/rejilla-multi-song-props.c:173 ../src/rejilla-multi-song-props.c:249
+#: ../src/rejilla-multi-song-props.c:270 ../src/rejilla-multi-song-props.c:291
+#: ../src/rejilla-rename.c:90 ../src/rejilla-rename.c:319
+msgid "<Keep current values>"
+msgstr "<Ponechat stávající hodnoty>"
+
+#: ../src/rejilla-multi-song-props.c:126 ../src/rejilla-multi-song-props.c:143
+msgid "Remove silences"
+msgstr "Odstranit tichá místa"
+
+#: ../src/rejilla-multi-song-props.c:213
+msgid "Song titles"
+msgstr "Názvy skladeb"
+
+#: ../src/rejilla-multi-song-props.c:230
+msgid "Additional song information"
+msgstr "Dodatečné informace o skladbě"
+
+#: ../src/rejilla-rename.c:320
+msgid "Insert text"
+msgstr "Vložit text"
+
+#: ../src/rejilla-rename.c:321
+msgid "Delete text"
+msgstr "Smazat text"
+
+#: ../src/rejilla-rename.c:322
+msgid "Substitute text"
+msgstr "Nahradit text"
+
+#: ../src/rejilla-rename.c:323
+msgid "Number files according to a pattern"
+msgstr "Počet souborů podle vzoru"
+
+#: ../src/rejilla-rename.c:324
+msgid "Insert number sequence at beginning"
+msgstr "Vložit počet sekvencí na začátku"
+
+#. Translators: This is a verb. This is completed later
+#: ../src/rejilla-rename.c:339
+msgid "Insert"
+msgstr "Vložit"
+
+#. Translators: This finishes previous action "Insert". It goes like
+#. * this: "Insert" [Entry] "at the beginning".
+#: ../src/rejilla-rename.c:353
+msgid "at the beginning"
+msgstr "na začátku"
+
+#. Translators: This finishes previous action "Insert". It goes like
+#. * this: "Insert" [Entry] "at the end".
+#: ../src/rejilla-rename.c:357
+msgid "at the end"
+msgstr "na konci"
+
+#: ../src/rejilla-rename.c:368
+msgid "Delete every occurrence of"
+msgstr "Smazat každý výskyt"
+
+#. Reminder: if this string happens to be used somewhere else in rejilla
+#. * we'll need a context with C_() macro
+#. Translators: this goes with above verb to say "_Replace" [Entry]
+#. * "with" [Entry].
+#: ../src/rejilla-rename.c:398
+msgid "with"
+msgstr "čím"
+
+#: ../src/rejilla-rename.c:412
+msgid "Rename to"
+msgstr "Přejmenovat na"
+
+#: ../src/rejilla-rename.c:421
+msgid "{number}"
+msgstr "{číslo}"
+
+#: ../src/rejilla-video-disc.c:101
+msgid "Open the selected video"
+msgstr "Otevřít vybrané video"
+
+#: ../src/rejilla-video-disc.c:103
+msgid "Edit the video information (start, end, author, etc.)"
+msgstr "Upravit informace o videu (začátek, konec, autor atd.)"
+
+#: ../src/rejilla-video-disc.c:105
+msgid "Remove the selected videos from the project"
+msgstr "Odstranit vybraná videa z projektu"
+
+#: ../src/rejilla-video-disc.c:359
+msgid "Do you want to search for video files inside the directory?"
+msgstr "Přejete si vyhledat videosoubory uvnitř adresáře?"
+
+#: ../src/rejilla-video-disc.c:369
+msgid "_Search Directory"
+msgstr "_Prohledat adresář"
+
+#: ../src/rejilla-video-disc.c:412
+#, c-format
+msgid "\"%s\" does not have a suitable type for video projects."
+msgstr "„%s“ není vhodný typ pro videoprojekty."
+
+#: ../src/rejilla-video-disc.c:415
+msgid "Please only add files with video content"
+msgstr "Prosím, přidejte pouze soubory obsahující video"
+
+#: ../plugins/dvdauthor/burn-dvdauthor.c:316
+#: ../plugins/vcdimager/burn-vcdimager.c:444
+msgid "Creating file layout"
+msgstr "Vytváří se uspořádání souboru"
+
+#: ../plugins/dvdauthor/burn-dvdauthor.c:374
+msgid "Creates disc images suitable for video DVDs"
+msgstr "Vytváří obrazy disku vhodné pro video DVD"
+
+#: ../plugins/transcode/burn-vob.c:1273
+msgid "Converting video file to MPEG2"
+msgstr "Videosoubor se převádí na MPEG2"
+
+#: ../plugins/transcode/burn-vob.c:1376
+msgid "Converts any video file into a format suitable for video DVDs"
+msgstr "Převádí jakýkoliv videosoubor na formát vhodný pro video DVD"
+
+#: ../plugins/vcdimager/burn-vcdimager.c:484
+msgid "Creates disc images suitable for SVCDs"
+msgstr "Vytváří obrazy disku vhodné pro SVCD"
+

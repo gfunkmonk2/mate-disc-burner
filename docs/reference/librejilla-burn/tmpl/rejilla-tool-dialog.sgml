@@ -1,0 +1,50 @@
+<!-- ##### SECTION Title ##### -->
+RejillaToolDialog
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT RejillaToolDialog ##### -->
+<para>
+
+</para>
+
+@parent: 
+
+<!-- ##### FUNCTION rejilla_tool_dialog_cancel ##### -->
+<para>
+
+</para>
+
+@dialog: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_tool_dialog_set_medium ##### -->
+<para>
+
+</para>
+
+@dialog: 
+@medium: 
+@Returns: 
+
+

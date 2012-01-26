@@ -1,0 +1,40 @@
+<!-- ##### SECTION Title ##### -->
+RejillaSumDialog
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT RejillaSumDialog ##### -->
+<para>
+
+</para>
+
+@parent: 
+
+<!-- ##### FUNCTION rejilla_sum_dialog_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+

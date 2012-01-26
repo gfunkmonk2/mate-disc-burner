@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "">
+<book xmlns="http://www.devhelp.net/book" title="Librejilla-burn Reference Manual" link="index.html" author="" name="librejilla-burn">
+  <chapters>
+    <sub name="API Reference for Librejilla-burn" link="ch01.html">
+      <sub name="rejilla-burn-lib" link="librejilla-burn-rejilla-burn-lib.html"/>
+      <sub name="rejilla-error" link="librejilla-burn-rejilla-error.html"/>
+      <sub name="rejilla-tags" link="librejilla-burn-rejilla-tags.html"/>
+      <sub name="rejilla-status" link="librejilla-burn-rejilla-status.html"/>
+      <sub name="rejilla-enums" link="librejilla-burn-rejilla-enums.html"/>
+      <sub name="rejilla-track-type" link="librejilla-burn-rejilla-track-type.html"/>
+      <sub name="RejillaTrack" link="librejilla-burn-RejillaTrack.html"/>
+      <sub name="RejillaTrackDisc" link="librejilla-burn-RejillaTrackDisc.html"/>
+      <sub name="RejillaTrackData" link="librejilla-burn-rejilla-track-data.html"/>
+      <sub name="RejillaTrackDataCfg" link="librejilla-burn-rejilla-track-data-cfg.html"/>
+      <sub name="RejillaTrackStream" link="librejilla-burn-RejillaTrackStream.html"/>
+      <sub name="RejillaTrackStreamCfg" link="librejilla-burn-RejillaTrackStreamCfg.html"/>
+      <sub name="RejillaTrackImage" link="librejilla-burn-RejillaTrackImage.html"/>
+      <sub name="RejillaTrackImageCfg" link="librejilla-burn-RejillaTrackImageCfg.html"/>
+      <sub name="RejillaBurnSession" link="librejilla-burn-RejillaBurnSession.html"/>
+      <sub name="RejillaSessionSpan" link="librejilla-burn-RejillaSessionSpan.html"/>
+      <sub name="RejillaSessionCfg" link="librejilla-burn-RejillaSessionCfg.html"/>
+      <sub name="RejillaBurnOptions" link="librejilla-burn-RejillaBurnOptions.html"/>
+      <sub name="RejillaBurn" link="librejilla-burn-RejillaBurn.html"/>
+      <sub name="RejillaBurnDialog" link="librejilla-burn-RejillaBurnDialog.html"/>
+      <sub name="RejillaToolDialog" link="librejilla-burn-RejillaToolDialog.html"/>
+      <sub name="RejillaSumDialog" link="librejilla-burn-RejillaSumDialog.html"/>
+      <sub name="RejillaBlankDialog" link="librejilla-burn-RejillaBlankDialog.html"/>
+    </sub>
+    <sub name="Object Hierarchy" link="object-tree.html"/>
+    <sub name="API Index" link="api-index-full.html"/>
+    <sub name="Annotation Glossary" link="annotation-glossary.html"/>
+  </chapters>
+  <functions>
+    <function name="LIBREJILLA_BURN_VERSION_MAJOR" link="librejilla-burn-rejilla-burn-lib.html#LIBREJILLA-BURN-VERSION-MAJOR:CAPS"/>
+    <function name="LIBREJILLA_BURN_VERSION_MINOR" link="librejilla-burn-rejilla-burn-lib.html#LIBREJILLA-BURN-VERSION-MINOR:CAPS"/>
+    <function name="LIBREJILLA_BURN_VERSION_MICRO" link="librejilla-burn-rejilla-burn-lib.html#LIBREJILLA-BURN-VERSION-MICRO:CAPS"/>
+    <function name="LIBREJILLA_BURN_AGE" link="librejilla-burn-rejilla-burn-lib.html#LIBREJILLA-BURN-AGE:CAPS"/>
+    <function name="rejilla_burn_library_start ()" link="librejilla-burn-rejilla-burn-lib.html#rejilla-burn-library-start"/>
+    <function name="rejilla_burn_library_stop ()" link="librejilla-burn-rejilla-burn-lib.html#rejilla-burn-library-stop"/>
+    <function name="rejilla_burn_library_get_option_group ()" link="librejilla-burn-rejilla-burn-lib.html#rejilla-burn-library-get-option-group"/>
+    <function name="rejilla_burn_library_get_plugins_list ()" link="librejilla-burn-rejilla-burn-lib.html#rejilla-burn-library-get-plugins-list"/>
+    <function name="rejilla_burn_library_can_checksum ()" link="librejilla-burn-rejilla-burn-lib.html#rejilla-burn-library-can-checksum"/>
+    <function name="rejilla_burn_library_input_supported ()" link="librejilla-burn-rejilla-burn-lib.html#rejilla-burn-library-input-supported"/>
+    <function name="rejilla_burn_library_get_media_capabilities ()" link="librejilla-burn-rejilla-burn-lib.html#rejilla-burn-library-get-media-capabilities"/>
+    <function name="enum RejillaBurnError" link="librejilla-burn-rejilla-error.html#RejillaBurnError"/>
+    <function name="rejilla_burn_quark ()" link="librejilla-burn-rejilla-error.html#rejilla-burn-quark"/>
+    <function name="REJILLA_BURN_ERROR" link="librejilla-burn-rejilla-error.html#REJILLA-BURN-ERROR:CAPS"/>
+    <function name="REJILLA_TRACK_MEDIUM_ADDRESS_START_TAG" link="librejilla-burn-rejilla-tags.html#REJILLA-TRACK-MEDIUM-ADDRESS-START-TAG:CAPS"/>
+    <function name="REJILLA_TRACK_MEDIUM_ADDRESS_END_TAG" link="librejilla-burn-rejilla-tags.html#REJILLA-TRACK-MEDIUM-ADDRESS-END-TAG:CAPS"/>
+    <function name="REJILLA_TRACK_MEDIUM_WRONG_CHECKSUM_TAG" link="librejilla-burn-rejilla-tags.html#REJILLA-TRACK-MEDIUM-WRONG-CHECKSUM-TAG:CAPS"/>
+    <function name="REJILLA_TRACK_STREAM_TITLE_TAG" link="librejilla-burn-rejilla-tags.html#REJILLA-TRACK-STREAM-TITLE-TAG:CAPS"/>
+    <function name="REJILLA_TRACK_STREAM_COMPOSER_TAG" link="librejilla-burn-rejilla-tags.html#REJILLA-TRACK-STREAM-COMPOSER-TAG:CAPS"/>
+    <function name="REJILLA_TRACK_STREAM_ARTIST_TAG" link="librejilla-burn-rejilla-tags.html#REJILLA-TRACK-STREAM-ARTIST-TAG:CAPS"/>
+    <function name="REJILLA_TRACK_STREAM_THUMBNAIL_TAG" link="librejilla-burn-rejilla-tags.html#REJILLA-TRACK-STREAM-THUMBNAIL-TAG:CAPS"/>
+    <function name="REJILLA_TRACK_STREAM_MIME_TAG" link="librejilla-burn-rejilla-tags.html#REJILLA-TRACK-STREAM-MIME-TAG:CAPS"/>
+    <function name="REJILLA_TRACK_STREAM_ISRC_TAG" link="librejilla-burn-rejilla-tags.html#REJILLA-TRACK-STREAM-ISRC-TAG:CAPS"/>
+    <function name="REJILLA_DATA_TRACK_SIZE_TAG" link="librejilla-burn-rejilla-tags.html#REJILLA-DATA-TRACK-SIZE-TAG:CAPS"/>
+    <function name="REJILLA_STREAM_TRACK_SIZE_TAG" link="librejilla-burn-rejilla-tags.html#REJILLA-STREAM-TRACK-SIZE-TAG:CAPS"/>
+    <function name="REJILLA_COVER_URI" link="librejilla-burn-rejilla-tags.html#REJILLA-COVER-URI:CAPS"/>
+    <function name="REJILLA_DVD_STREAM_FORMAT" link="librejilla-burn-rejilla-tags.html#REJILLA-DVD-STREAM-FORMAT:CAPS"/>
+    <function name="REJILLA_VCD_TYPE" link="librejilla-burn-rejilla-tags.html#REJILLA-VCD-TYPE:CAPS"/>
+    <function name="REJILLA_VIDEO_OUTPUT_FRAMERATE" link="librejilla-burn-rejilla-tags.html#REJILLA-VIDEO-OUTPUT-FRAMERATE:CAPS"/>
+    <function name="REJILLA_VIDEO_OUTPUT_ASPECT" link="librejilla-burn-rejilla-tags.html#REJILLA-VIDEO-OUTPUT-ASPECT:CAPS"/>
+    <function name="RejillaStatus" link="librejilla-burn-rejilla-status.html#RejillaStatus"/>
+    <function name="enum RejillaStatusType" link="librejilla-burn-rejilla-status.html#RejillaStatusType"/>
+    <function name="rejilla_status_new ()" link="librejilla-burn-rejilla-status.html#rejilla-status-new"/>
+    <function name="rejilla_status_get_result ()" link="librejilla-burn-rejilla-status.html#rejilla-status-get-result"/>
+    <function name="rejilla_status_get_progress ()" link="librejilla-burn-rejilla-status.html#rejilla-status-get-progress"/>
+    <function name="rejilla_status_get_error ()" link="librejilla-burn-rejilla-status.html#rejilla-status-get-error"/>
+    <function name="rejilla_status_get_current_action ()" link="librejilla-burn-rejilla-status.html#rejilla-status-get-current-action"/>
+    <function name="rejilla_status_set_completed ()" link="librejilla-burn-rejilla-status.html#rejilla-status-set-completed"/>
+    <function name="rejilla_status_set_not_ready ()" link="librejilla-burn-rejilla-status.html#rejilla-status-set-not-ready"/>
+    <function name="rejilla_status_set_error ()" link="librejilla-burn-rejilla-status.html#rejilla-status-set-error"/>
+    <function name="enum RejillaBurnResult" link="librejilla-burn-rejilla-enums.html#RejillaBurnResult"/>
+    <function name="enum RejillaBurnFlag" link="librejilla-burn-rejilla-enums.html#RejillaBurnFlag"/>
+    <function name="enum RejillaBurnAction" link="librejilla-burn-rejilla-enums.html#RejillaBurnAction"/>
+    <function name="enum RejillaImageFS" link="librejilla-burn-rejilla-enums.html#RejillaImageFS"/>
+    <function name="enum RejillaStreamFormat" link="librejilla-burn-rejilla-enums.html#RejillaStreamFormat"/>
+    <function name="REJILLA_STREAM_FORMAT_AUDIO()" link="librejilla-burn-rejilla-enums.html#REJILLA-STREAM-FORMAT-AUDIO:CAPS"/>
+    <function name="REJILLA_STREAM_FORMAT_VIDEO()" link="librejilla-burn-rejilla-enums.html#REJILLA-STREAM-FORMAT-VIDEO:CAPS"/>
+    <function name="REJILLA_MIN_STREAM_LENGTH" link="librejilla-burn-rejilla-enums.html#REJILLA-MIN-STREAM-LENGTH:CAPS"/>
+    <function name="REJILLA_STREAM_LENGTH()" link="librejilla-burn-rejilla-enums.html#REJILLA-STREAM-LENGTH:CAPS"/>
+    <function name="REJILLA_STREAM_FORMAT_HAS_VIDEO()" link="librejilla-burn-rejilla-enums.html#REJILLA-STREAM-FORMAT-HAS-VIDEO:CAPS"/>
+    <function name="enum RejillaImageFormat" link="librejilla-burn-rejilla-enums.html#RejillaImageFormat"/>
+    <function name="RejillaTrackType" link="librejilla-burn-rejilla-track-type.html#RejillaTrackType"/>
+    <function name="rejilla_track_type_new ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-new"/>
+    <function name="rejilla_track_type_free ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-free"/>
+    <function name="rejilla_track_type_is_empty ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-is-empty"/>
+    <function name="rejilla_track_type_get_has_data ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-has-data"/>
+    <function name="rejilla_track_type_get_has_image ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-has-image"/>
+    <function name="rejilla_track_type_get_has_stream ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-has-stream"/>
+    <function name="rejilla_track_type_get_has_medium ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-has-medium"/>
+    <function name="rejilla_track_type_set_has_data ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-has-data"/>
+    <function name="rejilla_track_type_set_has_image ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-has-image"/>
+    <function name="rejilla_track_type_set_has_stream ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-has-stream"/>
+    <function name="rejilla_track_type_set_has_medium ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-has-medium"/>
+    <function name="rejilla_track_type_get_stream_format ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-stream-format"/>
+    <function name="rejilla_track_type_get_image_format ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-image-format"/>
+    <function name="rejilla_track_type_get_medium_type ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-medium-type"/>
+    <function name="rejilla_track_type_get_data_fs ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-get-data-fs"/>
+    <function name="rejilla_track_type_set_stream_format ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-stream-format"/>
+    <function name="rejilla_track_type_set_image_format ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-image-format"/>
+    <function name="rejilla_track_type_set_medium_type ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-medium-type"/>
+    <function name="rejilla_track_type_set_data_fs ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-set-data-fs"/>
+    <function name="rejilla_track_type_equal ()" link="librejilla-burn-rejilla-track-type.html#rejilla-track-type-equal"/>
+    <function name="RejillaTrack" link="librejilla-burn-RejillaTrack.html#RejillaTrack"/>
+    <function name="rejilla_track_changed ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-changed"/>
+    <function name="rejilla_track_get_size ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-get-size"/>
+    <function name="rejilla_track_get_track_type ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-get-track-type"/>
+    <function name="rejilla_track_get_status ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-get-status"/>
+    <function name="enum RejillaChecksumType" link="librejilla-burn-RejillaTrack.html#RejillaChecksumType"/>
+    <function name="rejilla_track_set_checksum ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-set-checksum"/>
+    <function name="rejilla_track_get_checksum ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-get-checksum"/>
+    <function name="rejilla_track_get_checksum_type ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-get-checksum-type"/>
+    <function name="rejilla_track_tag_add ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-tag-add"/>
+    <function name="rejilla_track_tag_lookup ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-tag-lookup"/>
+    <function name="rejilla_track_tag_copy_missing ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-tag-copy-missing"/>
+    <function name="rejilla_track_tag_add_string ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-tag-add-string"/>
+    <function name="rejilla_track_tag_lookup_string ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-tag-lookup-string"/>
+    <function name="rejilla_track_tag_add_int ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-tag-add-int"/>
+    <function name="rejilla_track_tag_lookup_int ()" link="librejilla-burn-RejillaTrack.html#rejilla-track-tag-lookup-int"/>
+    <function name="RejillaTrackDisc" link="librejilla-burn-RejillaTrackDisc.html#RejillaTrackDisc"/>
+    <function name="rejilla_track_disc_new ()" link="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-new"/>
+    <function name="rejilla_track_disc_set_drive ()" link="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-set-drive"/>
+    <function name="rejilla_track_disc_get_drive ()" link="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-get-drive"/>
+    <function name="rejilla_track_disc_set_track_num ()" link="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-set-track-num"/>
+    <function name="rejilla_track_disc_get_track_num ()" link="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-get-track-num"/>
+    <function name="rejilla_track_disc_get_medium_type ()" link="librejilla-burn-RejillaTrackDisc.html#rejilla-track-disc-get-medium-type"/>
+    <function name="RejillaGraftPt" link="librejilla-burn-rejilla-track-data.html#RejillaGraftPt"/>
+    <function name="rejilla_graft_point_free ()" link="librejilla-burn-rejilla-track-data.html#rejilla-graft-point-free"/>
+    <function name="rejilla_graft_point_copy ()" link="librejilla-burn-rejilla-track-data.html#rejilla-graft-point-copy"/>
+    <function name="RejillaTrackData" link="librejilla-burn-rejilla-track-data.html#RejillaTrackData"/>
+    <function name="rejilla_track_data_new ()" link="librejilla-burn-rejilla-track-data.html#rejilla-track-data-new"/>
+    <function name="rejilla_track_data_set_source ()" link="librejilla-burn-rejilla-track-data.html#rejilla-track-data-set-source"/>
+    <function name="rejilla_track_data_add_fs ()" link="librejilla-burn-rejilla-track-data.html#rejilla-track-data-add-fs"/>
+    <function name="rejilla_track_data_rm_fs ()" link="librejilla-burn-rejilla-track-data.html#rejilla-track-data-rm-fs"/>
+    <function name="rejilla_track_data_set_data_blocks ()" link="librejilla-burn-rejilla-track-data.html#rejilla-track-data-set-data-blocks"/>
+    <function name="rejilla_track_data_set_file_num ()" link="librejilla-burn-rejilla-track-data.html#rejilla-track-data-set-file-num"/>
+    <function name="rejilla_track_data_get_grafts ()" link="librejilla-burn-rejilla-track-data.html#rejilla-track-data-get-grafts"/>
+    <function name="rejilla_track_data_get_file_num ()" link="librejilla-burn-rejilla-track-data.html#rejilla-track-data-get-file-num"/>
+    <function name="rejilla_track_data_get_fs ()" link="librejilla-burn-rejilla-track-data.html#rejilla-track-data-get-fs"/>
+    <function name="REJILLA_DND_TARGET_DATA_TRACK_REFERENCE_LIST" link="librejilla-burn-rejilla-track-data-cfg.html#REJILLA-DND-TARGET-DATA-TRACK-REFERENCE-LIST:CAPS"/>
+    <function name="enum RejillaTrackDataCfgColumn" link="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfgColumn"/>
+    <function name="RejillaTrackDataCfg" link="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg"/>
+    <function name="rejilla_track_data_cfg_new ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-new"/>
+    <function name="rejilla_track_data_cfg_add ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-add"/>
+    <function name="rejilla_track_data_cfg_add_empty_directory ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-add-empty-directory"/>
+    <function name="rejilla_track_data_cfg_remove ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-remove"/>
+    <function name="rejilla_track_data_cfg_rename ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-rename"/>
+    <function name="rejilla_track_data_cfg_reset ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-reset"/>
+    <function name="rejilla_track_data_cfg_load_medium ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-load-medium"/>
+    <function name="rejilla_track_data_cfg_unload_current_medium ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-unload-current-medium"/>
+    <function name="rejilla_track_data_cfg_get_current_medium ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-get-current-medium"/>
+    <function name="rejilla_track_data_cfg_get_available_media ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-get-available-media"/>
+    <function name="rejilla_track_data_cfg_dont_filter_uri ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-dont-filter-uri"/>
+    <function name="rejilla_track_data_cfg_get_restored_list ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-get-restored-list"/>
+    <function name="rejilla_track_data_cfg_restore ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-restore"/>
+    <function name="rejilla_track_data_cfg_get_filtered_model ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-get-filtered-model"/>
+    <function name="rejilla_track_data_cfg_span ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-span"/>
+    <function name="rejilla_track_data_cfg_span_again ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-span-again"/>
+    <function name="rejilla_track_data_cfg_span_possible ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-span-possible"/>
+    <function name="rejilla_track_data_cfg_span_stop ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-span-stop"/>
+    <function name="rejilla_track_data_cfg_get_icon ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-get-icon"/>
+    <function name="rejilla_track_data_cfg_get_icon_path ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-get-icon-path"/>
+    <function name="rejilla_track_data_cfg_set_icon ()" link="librejilla-burn-rejilla-track-data-cfg.html#rejilla-track-data-cfg-set-icon"/>
+    <function name="RejillaTrackStream" link="librejilla-burn-RejillaTrackStream.html#RejillaTrackStream"/>
+    <function name="rejilla_track_stream_new ()" link="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-new"/>
+    <function name="rejilla_track_stream_set_source ()" link="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-set-source"/>
+    <function name="rejilla_track_stream_set_format ()" link="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-set-format"/>
+    <function name="rejilla_track_stream_set_boundaries ()" link="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-set-boundaries"/>
+    <function name="rejilla_track_stream_get_source ()" link="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-get-source"/>
+    <function name="rejilla_track_stream_get_length ()" link="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-get-length"/>
+    <function name="rejilla_track_stream_get_start ()" link="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-get-start"/>
+    <function name="rejilla_track_stream_get_end ()" link="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-get-end"/>
+    <function name="rejilla_track_stream_get_gap ()" link="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-get-gap"/>
+    <function name="rejilla_track_stream_get_format ()" link="librejilla-burn-RejillaTrackStream.html#rejilla-track-stream-get-format"/>
+    <function name="RejillaTrackStreamCfg" link="librejilla-burn-RejillaTrackStreamCfg.html#RejillaTrackStreamCfg"/>
+    <function name="rejilla_track_stream_cfg_new ()" link="librejilla-burn-RejillaTrackStreamCfg.html#rejilla-track-stream-cfg-new"/>
+    <function name="RejillaTrackImage" link="librejilla-burn-RejillaTrackImage.html#RejillaTrackImage"/>
+    <function name="rejilla_track_image_new ()" link="librejilla-burn-RejillaTrackImage.html#rejilla-track-image-new"/>
+    <function name="rejilla_track_image_set_source ()" link="librejilla-burn-RejillaTrackImage.html#rejilla-track-image-set-source"/>
+    <function name="rejilla_track_image_set_block_num ()" link="librejilla-burn-RejillaTrackImage.html#rejilla-track-image-set-block-num"/>
+    <function name="rejilla_track_image_get_source ()" link="librejilla-burn-RejillaTrackImage.html#rejilla-track-image-get-source"/>
+    <function name="rejilla_track_image_get_toc_source ()" link="librejilla-burn-RejillaTrackImage.html#rejilla-track-image-get-toc-source"/>
+    <function name="rejilla_track_image_get_format ()" link="librejilla-burn-RejillaTrackImage.html#rejilla-track-image-get-format"/>
+    <function name="RejillaTrackImageCfg" link="librejilla-burn-RejillaTrackImageCfg.html#RejillaTrackImageCfg"/>
+    <function name="rejilla_track_image_cfg_new ()" link="librejilla-burn-RejillaTrackImageCfg.html#rejilla-track-image-cfg-new"/>
+    <function name="rejilla_track_image_cfg_set_source ()" link="librejilla-burn-RejillaTrackImageCfg.html#rejilla-track-image-cfg-set-source"/>
+    <function name="rejilla_track_image_cfg_force_format ()" link="librejilla-burn-RejillaTrackImageCfg.html#rejilla-track-image-cfg-force-format"/>
+    <function name="rejilla_track_image_cfg_get_forced_format ()" link="librejilla-burn-RejillaTrackImageCfg.html#rejilla-track-image-cfg-get-forced-format"/>
+    <function name="RejillaBurnSession" link="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession"/>
+    <function name="RejillaBurnSessionClass" link="librejilla-burn-RejillaBurnSession.html#RejillaBurnSessionClass"/>
+    <function name="rejilla_burn_session_new ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-new"/>
+    <function name="rejilla_burn_session_add_track ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-add-track"/>
+    <function name="rejilla_burn_session_move_track ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-move-track"/>
+    <function name="rejilla_burn_session_remove_track ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-remove-track"/>
+    <function name="rejilla_burn_session_get_tracks ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-tracks"/>
+    <function name="rejilla_burn_session_get_status ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-status"/>
+    <function name="rejilla_burn_session_get_size ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-size"/>
+    <function name="rejilla_burn_session_get_input_type ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-input-type"/>
+    <function name="rejilla_burn_session_tag_lookup ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-tag-lookup"/>
+    <function name="rejilla_burn_session_tag_add ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-tag-add"/>
+    <function name="rejilla_burn_session_tag_remove ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-tag-remove"/>
+    <function name="rejilla_burn_session_get_burner ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-burner"/>
+    <function name="rejilla_burn_session_set_burner ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-set-burner"/>
+    <function name="rejilla_burn_session_set_image_output_full ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-set-image-output-full"/>
+    <function name="rejilla_burn_session_get_output ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-output"/>
+    <function name="rejilla_burn_session_get_output_format ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-output-format"/>
+    <function name="rejilla_burn_session_set_flags ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-set-flags"/>
+    <function name="rejilla_burn_session_add_flag ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-add-flag"/>
+    <function name="rejilla_burn_session_remove_flag ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-remove-flag"/>
+    <function name="rejilla_burn_session_get_flags ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-flags"/>
+    <function name="rejilla_burn_session_set_tmpdir ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-set-tmpdir"/>
+    <function name="rejilla_burn_session_get_tmpdir ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-tmpdir"/>
+    <function name="rejilla_burn_session_get_burn_flags ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-burn-flags"/>
+    <function name="rejilla_burn_session_get_blank_flags ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-blank-flags"/>
+    <function name="rejilla_burn_session_can_blank ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-can-blank"/>
+    <function name="rejilla_burn_session_can_burn ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-can-burn"/>
+    <function name="rejilla_burn_session_input_supported ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-input-supported"/>
+    <function name="rejilla_burn_session_output_supported ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-output-supported"/>
+    <function name="rejilla_burn_session_get_required_media_type ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-required-media-type"/>
+    <function name="rejilla_burn_session_get_possible_output_formats ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-possible-output-formats"/>
+    <function name="rejilla_burn_session_get_default_output_format ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-default-output-format"/>
+    <function name="rejilla_burn_session_get_label ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-label"/>
+    <function name="rejilla_burn_session_set_label ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-set-label"/>
+    <function name="rejilla_burn_session_set_rate ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-set-rate"/>
+    <function name="rejilla_burn_session_get_rate ()" link="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-get-rate"/>
+    <function name="RejillaSessionSpan" link="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan"/>
+    <function name="rejilla_session_span_new ()" link="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-new"/>
+    <function name="rejilla_session_span_again ()" link="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-again"/>
+    <function name="rejilla_session_span_possible ()" link="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-possible"/>
+    <function name="rejilla_session_span_start ()" link="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-start"/>
+    <function name="rejilla_session_span_next ()" link="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-next"/>
+    <function name="rejilla_session_span_stop ()" link="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-stop"/>
+    <function name="RejillaSessionCfg" link="librejilla-burn-RejillaSessionCfg.html#RejillaSessionCfg"/>
+    <function name="enum RejillaSessionError" link="librejilla-burn-RejillaSessionCfg.html#RejillaSessionError"/>
+    <function name="REJILLA_SESSION_IS_VALID()" link="librejilla-burn-RejillaSessionCfg.html#REJILLA-SESSION-IS-VALID:CAPS"/>
+    <function name="rejilla_session_cfg_new ()" link="librejilla-burn-RejillaSessionCfg.html#rejilla-session-cfg-new"/>
+    <function name="rejilla_session_cfg_get_error ()" link="librejilla-burn-RejillaSessionCfg.html#rejilla-session-cfg-get-error"/>
+    <function name="rejilla_session_cfg_add_flags ()" link="librejilla-burn-RejillaSessionCfg.html#rejilla-session-cfg-add-flags"/>
+    <function name="rejilla_session_cfg_remove_flags ()" link="librejilla-burn-RejillaSessionCfg.html#rejilla-session-cfg-remove-flags"/>
+    <function name="rejilla_session_cfg_is_supported ()" link="librejilla-burn-RejillaSessionCfg.html#rejilla-session-cfg-is-supported"/>
+    <function name="rejilla_session_cfg_is_compulsory ()" link="librejilla-burn-RejillaSessionCfg.html#rejilla-session-cfg-is-compulsory"/>
+    <function name="rejilla_session_cfg_has_default_output_path ()" link="librejilla-burn-RejillaSessionCfg.html#rejilla-session-cfg-has-default-output-path"/>
+    <function name="rejilla_session_cfg_enable ()" link="librejilla-burn-RejillaSessionCfg.html#rejilla-session-cfg-enable"/>
+    <function name="rejilla_session_cfg_disable ()" link="librejilla-burn-RejillaSessionCfg.html#rejilla-session-cfg-disable"/>
+    <function name="RejillaBurnOptions" link="librejilla-burn-RejillaBurnOptions.html#RejillaBurnOptions"/>
+    <function name="rejilla_burn_options_new ()" link="librejilla-burn-RejillaBurnOptions.html#rejilla-burn-options-new"/>
+    <function name="rejilla_burn_options_add_options ()" link="librejilla-burn-RejillaBurnOptions.html#rejilla-burn-options-add-options"/>
+    <function name="RejillaBurn" link="librejilla-burn-RejillaBurn.html#RejillaBurn"/>
+    <function name="rejilla_burn_new ()" link="librejilla-burn-RejillaBurn.html#rejilla-burn-new"/>
+    <function name="rejilla_burn_record ()" link="librejilla-burn-RejillaBurn.html#rejilla-burn-record"/>
+    <function name="rejilla_burn_check ()" link="librejilla-burn-RejillaBurn.html#rejilla-burn-check"/>
+    <function name="rejilla_burn_blank ()" link="librejilla-burn-RejillaBurn.html#rejilla-burn-blank"/>
+    <function name="rejilla_burn_cancel ()" link="librejilla-burn-RejillaBurn.html#rejilla-burn-cancel"/>
+    <function name="rejilla_burn_status ()" link="librejilla-burn-RejillaBurn.html#rejilla-burn-status"/>
+    <function name="rejilla_burn_get_action_string ()" link="librejilla-burn-RejillaBurn.html#rejilla-burn-get-action-string"/>
+    <function name="RejillaBurnDialog" link="librejilla-burn-RejillaBurnDialog.html#RejillaBurnDialog"/>
+    <function name="rejilla_burn_dialog_new ()" link="librejilla-burn-RejillaBurnDialog.html#rejilla-burn-dialog-new"/>
+    <function name="rejilla_burn_dialog_run ()" link="librejilla-burn-RejillaBurnDialog.html#rejilla-burn-dialog-run"/>
+    <function name="rejilla_burn_dialog_cancel ()" link="librejilla-burn-RejillaBurnDialog.html#rejilla-burn-dialog-cancel"/>
+    <function name="RejillaToolDialog" link="librejilla-burn-RejillaToolDialog.html#RejillaToolDialog"/>
+    <function name="rejilla_tool_dialog_cancel ()" link="librejilla-burn-RejillaToolDialog.html#rejilla-tool-dialog-cancel"/>
+    <function name="rejilla_tool_dialog_set_medium ()" link="librejilla-burn-RejillaToolDialog.html#rejilla-tool-dialog-set-medium"/>
+    <function name="RejillaSumDialog" link="librejilla-burn-RejillaSumDialog.html#RejillaSumDialog"/>
+    <function name="rejilla_sum_dialog_new ()" link="librejilla-burn-RejillaSumDialog.html#rejilla-sum-dialog-new"/>
+    <function name="RejillaBlankDialog" link="librejilla-burn-RejillaBlankDialog.html#RejillaBlankDialog"/>
+    <function name="rejilla_blank_dialog_new ()" link="librejilla-burn-RejillaBlankDialog.html#rejilla-blank-dialog-new"/>
+  </functions>
+</book>

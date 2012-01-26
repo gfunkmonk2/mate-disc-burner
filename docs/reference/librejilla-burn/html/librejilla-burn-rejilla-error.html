@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>rejilla-error</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-burn Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-burn">
+<link rel="prev" href="librejilla-burn-rejilla-burn-lib.html" title="rejilla-burn-lib">
+<link rel="next" href="librejilla-burn-rejilla-tags.html" title="rejilla-tags">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-burn-rejilla-burn-lib.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-burn Reference Manual</th>
+<td><a accesskey="n" href="librejilla-burn-rejilla-tags.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-burn-rejilla-error.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-burn-rejilla-error.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="rejilla-error">
+<a name="librejilla-burn-rejilla-error"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-burn-rejilla-error.top_of_page"></a>rejilla-error</span></h2>
+<p>rejilla-error</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-burn-rejilla-error.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">enum                <a class="link" href="librejilla-burn-rejilla-error.html#RejillaBurnError" title="enum RejillaBurnError">RejillaBurnError</a>;
+<a href="http://library.mate.org/devel/glib/unstable/glib-Quarks.html#GQuark"><span class="returnvalue">GQuark</span></a>              <a class="link" href="librejilla-burn-rejilla-error.html#rejilla-burn-quark" title="rejilla_burn_quark ()">rejilla_burn_quark</a>                  (<em class="parameter"><code><span class="type">void</span></code></em>);
+#define             <a class="link" href="librejilla-burn-rejilla-error.html#REJILLA-BURN-ERROR:CAPS" title="REJILLA_BURN_ERROR">REJILLA_BURN_ERROR</a>
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-burn-rejilla-error.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-burn-rejilla-error.details"></a><h2>Details</h2>
+<div class="refsect2" title="enum RejillaBurnError">
+<a name="RejillaBurnError"></a><h3>enum RejillaBurnError</h3>
+<pre class="programlisting">typedef enum {
+	REJILLA_BURN_ERROR_NONE,
+	REJILLA_BURN_ERROR_GENERAL,
+
+	REJILLA_BURN_ERROR_PLUGIN_MISBEHAVIOR,
+
+	REJILLA_BURN_ERROR_SLOW_DMA,
+	REJILLA_BURN_ERROR_PERMISSION,
+	REJILLA_BURN_ERROR_DRIVE_BUSY,
+	REJILLA_BURN_ERROR_DISK_SPACE,
+
+	REJILLA_BURN_ERROR_EMPTY,
+	REJILLA_BURN_ERROR_INPUT_INVALID,
+
+	REJILLA_BURN_ERROR_OUTPUT_NONE,
+
+	REJILLA_BURN_ERROR_FILE_INVALID,
+	REJILLA_BURN_ERROR_FILE_FOLDER,
+	REJILLA_BURN_ERROR_FILE_PLAYLIST,
+	REJILLA_BURN_ERROR_FILE_NOT_FOUND,
+	REJILLA_BURN_ERROR_FILE_NOT_LOCAL,
+
+	REJILLA_BURN_ERROR_WRITE_MEDIUM,
+	REJILLA_BURN_ERROR_WRITE_IMAGE,
+
+	REJILLA_BURN_ERROR_IMAGE_INVALID,
+	REJILLA_BURN_ERROR_IMAGE_JOLIET,
+	REJILLA_BURN_ERROR_IMAGE_LAST_SESSION,
+
+	REJILLA_BURN_ERROR_MEDIUM_NONE,
+	REJILLA_BURN_ERROR_MEDIUM_INVALID,
+	REJILLA_BURN_ERROR_MEDIUM_SPACE,
+	REJILLA_BURN_ERROR_MEDIUM_NO_DATA,
+	REJILLA_BURN_ERROR_MEDIUM_NOT_WRITABLE,
+	REJILLA_BURN_ERROR_MEDIUM_NOT_REWRITABLE,
+	REJILLA_BURN_ERROR_MEDIUM_NEED_RELOADING,
+
+	REJILLA_BURN_ERROR_BAD_CHECKSUM,
+
+	REJILLA_BURN_ERROR_MISSING_APP_AND_PLUGIN,
+
+	/* these are not necessarily error */
+	REJILLA_BURN_WARNING_CHECKSUM,
+	REJILLA_BURN_WARNING_INSERT_AFTER_COPY,
+
+	REJILLA_BURN_ERROR_TMP_DIRECTORY
+} RejillaBurnError;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_burn_quark ()">
+<a name="rejilla-burn-quark"></a><h3>rejilla_burn_quark ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Quarks.html#GQuark"><span class="returnvalue">GQuark</span></a>              rejilla_burn_quark                  (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_BURN_ERROR">
+<a name="REJILLA-BURN-ERROR:CAPS"></a><h3>REJILLA_BURN_ERROR</h3>
+<pre class="programlisting">#define             REJILLA_BURN_ERROR</pre>
+<p>
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

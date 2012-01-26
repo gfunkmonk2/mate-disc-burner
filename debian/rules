@@ -1,0 +1,32 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/rules/utils.mk
+include /usr/share/cdbs/1/class/autotools.mk
+include /usr/share/cdbs/1/rules/autoreconf.mk
+
+DEB_DESTDIR := $(CURDIR)/debian/tmp/
+
+SOVERSION := $(shell sed -rn 's/^Package:[[:space:]]*librejilla-media([0-9]+)[[:space:]]*$$/\1/p' debian/control)
+SHLIBS := 1.0.0
+
+DEB_DH_MAKESHLIBS_ARGS_librejilla-media$(SOVERSION) += -V 'librejilla-media$(SOVERSION) (>= $(SHLIBS))' -Xplugins
+DEB_DH_MAKESHLIBS_ARGS_rejilla += --no-act
+DEB_DH_MAKESHLIBS_ARGS_rejilla-cdrkit += --no-act
+
+DEB_CONFIGURE_EXTRA_FLAGS += \
+	--disable-cdrtools \
+	--disable-scrollkeeper \
+	--disable-caches \
+	--disable-introspection
+
+ifneq ($(DEB_BUILD_ARCH_OS), linux)
+DEB_CONFIGURE_EXTRA_FLAGS += --disable-inotify
+endif
+
+binary-install/rejilla-cdrkit:: binary-install/librejilla-media$(SOVERSION)
+	mkdir -p debian/rejilla-cdrkit/usr/lib/rejilla/plugins
+	for i in dvdauthor vob genisoimage wodim readom; do \
+	  mv debian/librejilla-media$(SOVERSION)/usr/lib/rejilla/plugins/librejilla-$$i.so \
+	     debian/rejilla-cdrkit/usr/lib/rejilla/plugins/ ; \
+	done

@@ -1,0 +1,144 @@
+<!-- ##### SECTION Title ##### -->
+RejillaTrackData
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT RejillaGraftPt ##### -->
+<para>
+
+</para>
+
+@uri: 
+@path: 
+
+<!-- ##### FUNCTION rejilla_graft_point_free ##### -->
+<para>
+
+</para>
+
+@graft: 
+
+
+<!-- ##### FUNCTION rejilla_graft_point_copy ##### -->
+<para>
+
+</para>
+
+@graft: 
+@Returns: 
+
+
+<!-- ##### STRUCT RejillaTrackData ##### -->
+<para>
+
+</para>
+
+@parent_instance: 
+
+<!-- ##### FUNCTION rejilla_track_data_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_track_data_set_source ##### -->
+<para>
+
+</para>
+
+@track: 
+@grafts: 
+@unreadable: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_track_data_add_fs ##### -->
+<para>
+
+</para>
+
+@track: 
+@fstype: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_track_data_rm_fs ##### -->
+<para>
+
+</para>
+
+@track: 
+@fstype: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_track_data_set_data_blocks ##### -->
+<para>
+
+</para>
+
+@track: 
+@blocks: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_track_data_set_file_num ##### -->
+<para>
+
+</para>
+
+@track: 
+@number: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_track_data_get_grafts ##### -->
+<para>
+
+</para>
+
+@track: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_track_data_get_file_num ##### -->
+<para>
+
+</para>
+
+@track: 
+@file_num: 
+@Returns: 
+
+
+<!-- ##### FUNCTION rejilla_track_data_get_fs ##### -->
+<para>
+
+</para>
+
+@track: 
+@Returns: 
+
+

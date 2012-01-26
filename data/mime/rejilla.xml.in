@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+	<mime-type type="application/x-rejilla">
+		<sub-class-of type="application/xml"/>
+		<_comment>Rejilla project file</_comment>
+		<magic priority="80">
+		      <match value="rejillaproject" type="string" offset="0:50"/>
+		</magic>
+	</mime-type>
+</mime-info>

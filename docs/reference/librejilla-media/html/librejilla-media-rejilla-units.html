@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>rejilla-units</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-media Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-media">
+<link rel="prev" href="librejilla-media-rejilla-media.html" title="rejilla-media">
+<link rel="next" href="librejilla-media-RejillaMediumMonitor.html" title="RejillaMediumMonitor">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-media-rejilla-media.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-media Reference Manual</th>
+<td><a accesskey="n" href="librejilla-media-RejillaMediumMonitor.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-media-rejilla-units.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-media-rejilla-units.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="rejilla-units">
+<a name="librejilla-media-rejilla-units"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-media-rejilla-units.top_of_page"></a>rejilla-units</span></h2>
+<p>rejilla-units</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-media-rejilla-units.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">#define             <a class="link" href="librejilla-media-rejilla-units.html#CD-RATE:CAPS" title="CD_RATE">CD_RATE</a>
+#define             <a class="link" href="librejilla-media-rejilla-units.html#DVD-RATE:CAPS" title="DVD_RATE">DVD_RATE</a>
+#define             <a class="link" href="librejilla-media-rejilla-units.html#BD-RATE:CAPS" title="BD_RATE">BD_RATE</a>
+#define             <a class="link" href="librejilla-media-rejilla-units.html#REJILLA-SPEED-TO-RATE-CD:CAPS" title="REJILLA_SPEED_TO_RATE_CD()">REJILLA_SPEED_TO_RATE_CD</a>            (speed)
+#define             <a class="link" href="librejilla-media-rejilla-units.html#REJILLA-SPEED-TO-RATE-DVD:CAPS" title="REJILLA_SPEED_TO_RATE_DVD()">REJILLA_SPEED_TO_RATE_DVD</a>           (speed)
+#define             <a class="link" href="librejilla-media-rejilla-units.html#REJILLA-SPEED-TO-RATE-BD:CAPS" title="REJILLA_SPEED_TO_RATE_BD()">REJILLA_SPEED_TO_RATE_BD</a>            (speed)
+#define             <a class="link" href="librejilla-media-rejilla-units.html#REJILLA-RATE-TO-SPEED-CD:CAPS" title="REJILLA_RATE_TO_SPEED_CD()">REJILLA_RATE_TO_SPEED_CD</a>            (rate)
+#define             <a class="link" href="librejilla-media-rejilla-units.html#REJILLA-RATE-TO-SPEED-DVD:CAPS" title="REJILLA_RATE_TO_SPEED_DVD()">REJILLA_RATE_TO_SPEED_DVD</a>           (rate)
+#define             <a class="link" href="librejilla-media-rejilla-units.html#REJILLA-RATE-TO-SPEED-BD:CAPS" title="REJILLA_RATE_TO_SPEED_BD()">REJILLA_RATE_TO_SPEED_BD</a>            (rate)
+#define             <a class="link" href="librejilla-media-rejilla-units.html#REJILLA-DURATION-TO-BYTES:CAPS" title="REJILLA_DURATION_TO_BYTES()">REJILLA_DURATION_TO_BYTES</a>           (duration)
+#define             <a class="link" href="librejilla-media-rejilla-units.html#REJILLA-DURATION-TO-SECTORS:CAPS" title="REJILLA_DURATION_TO_SECTORS()">REJILLA_DURATION_TO_SECTORS</a>         (duration)
+#define             <a class="link" href="librejilla-media-rejilla-units.html#REJILLA-BYTES-TO-SECTORS:CAPS" title="REJILLA_BYTES_TO_SECTORS()">REJILLA_BYTES_TO_SECTORS</a>            (size,
+                                                         secsize)
+#define             <a class="link" href="librejilla-media-rejilla-units.html#REJILLA-BYTES-TO-DURATION:CAPS" title="REJILLA_BYTES_TO_DURATION()">REJILLA_BYTES_TO_DURATION</a>           (bytes)
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             <a class="link" href="librejilla-media-rejilla-units.html#rejilla-units-get-time-string" title="rejilla_units_get_time_string ()">rejilla_units_get_time_string</a>       (<em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> time</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> with_unit</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> round</code></em>);
+<a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             <a class="link" href="librejilla-media-rejilla-units.html#rejilla-units-get-time-string-from-size" title="rejilla_units_get_time_string_from_size ()">rejilla_units_get_time_string_from_size</a>
+                                                        (<em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> size</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> with_unit</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> round</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-media-rejilla-units.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-media-rejilla-units.details"></a><h2>Details</h2>
+<div class="refsect2" title="CD_RATE">
+<a name="CD-RATE:CAPS"></a><h3>CD_RATE</h3>
+<pre class="programlisting">#define CD_RATE 176400		/* bytes by second */
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="DVD_RATE">
+<a name="DVD-RATE:CAPS"></a><h3>DVD_RATE</h3>
+<pre class="programlisting">#define DVD_RATE 1387500 /* bytes by second */
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="BD_RATE">
+<a name="BD-RATE:CAPS"></a><h3>BD_RATE</h3>
+<pre class="programlisting">#define BD_RATE 4500000		/* bytes by second */
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_SPEED_TO_RATE_CD()">
+<a name="REJILLA-SPEED-TO-RATE-CD:CAPS"></a><h3>REJILLA_SPEED_TO_RATE_CD()</h3>
+<pre class="programlisting">#define             REJILLA_SPEED_TO_RATE_CD(speed)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>speed</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_SPEED_TO_RATE_DVD()">
+<a name="REJILLA-SPEED-TO-RATE-DVD:CAPS"></a><h3>REJILLA_SPEED_TO_RATE_DVD()</h3>
+<pre class="programlisting">#define             REJILLA_SPEED_TO_RATE_DVD(speed)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>speed</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_SPEED_TO_RATE_BD()">
+<a name="REJILLA-SPEED-TO-RATE-BD:CAPS"></a><h3>REJILLA_SPEED_TO_RATE_BD()</h3>
+<pre class="programlisting">#define             REJILLA_SPEED_TO_RATE_BD(speed)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>speed</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_RATE_TO_SPEED_CD()">
+<a name="REJILLA-RATE-TO-SPEED-CD:CAPS"></a><h3>REJILLA_RATE_TO_SPEED_CD()</h3>
+<pre class="programlisting">#define             REJILLA_RATE_TO_SPEED_CD(rate)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>rate</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_RATE_TO_SPEED_DVD()">
+<a name="REJILLA-RATE-TO-SPEED-DVD:CAPS"></a><h3>REJILLA_RATE_TO_SPEED_DVD()</h3>
+<pre class="programlisting">#define             REJILLA_RATE_TO_SPEED_DVD(rate)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>rate</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_RATE_TO_SPEED_BD()">
+<a name="REJILLA-RATE-TO-SPEED-BD:CAPS"></a><h3>REJILLA_RATE_TO_SPEED_BD()</h3>
+<pre class="programlisting">#define             REJILLA_RATE_TO_SPEED_BD(rate)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>rate</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_DURATION_TO_BYTES()">
+<a name="REJILLA-DURATION-TO-BYTES:CAPS"></a><h3>REJILLA_DURATION_TO_BYTES()</h3>
+<pre class="programlisting">#define             REJILLA_DURATION_TO_BYTES(duration)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>duration</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_DURATION_TO_SECTORS()">
+<a name="REJILLA-DURATION-TO-SECTORS:CAPS"></a><h3>REJILLA_DURATION_TO_SECTORS()</h3>
+<pre class="programlisting">#define             REJILLA_DURATION_TO_SECTORS(duration)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>duration</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_BYTES_TO_SECTORS()">
+<a name="REJILLA-BYTES-TO-SECTORS:CAPS"></a><h3>REJILLA_BYTES_TO_SECTORS()</h3>
+<pre class="programlisting">#define             REJILLA_BYTES_TO_SECTORS(size, secsize)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>size</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>secsize</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="REJILLA_BYTES_TO_DURATION()">
+<a name="REJILLA-BYTES-TO-DURATION:CAPS"></a><h3>REJILLA_BYTES_TO_DURATION()</h3>
+<pre class="programlisting">#define             REJILLA_BYTES_TO_DURATION(bytes)</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>bytes</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_units_get_time_string ()">
+<a name="rejilla-units-get-time-string"></a><h3>rejilla_units_get_time_string ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             rejilla_units_get_time_string       (<em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#guint64"><span class="type">guint64</span></a> time</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> with_unit</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> round</code></em>);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>time</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>with_unit</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>round</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_units_get_time_string_from_size ()">
+<a name="rejilla-units-get-time-string-from-size"></a><h3>rejilla_units_get_time_string_from_size ()</h3>
+<pre class="programlisting"><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             rejilla_units_get_time_string_from_size
+                                                        (<em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gint64"><span class="type">gint64</span></a> size</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> with_unit</code></em>,
+                                                         <em class="parameter"><code><a href="http://library.mate.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> round</code></em>);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>size</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>with_unit</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>round</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>

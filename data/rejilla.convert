@@ -1,0 +1,15 @@
+[org.mate.rejilla.config]
+tmpdir=/apps/rejilla/drives/tmpdir
+dao-flag=/apps/rejilla/config/dao_flag
+immed-flag=/apps/rejilla/config/immed_flag
+minbuf-value=/apps/rejilla/config/minbug_value
+raw-flag=/apps/rejilla/config/raw_flag
+checksum-files=/apps/rejilla/config/checksum_files
+checksum-image=/apps/rejilla/config/checksum_image
+
+[org.mate.rejilla.filter]
+broken-sym=/apps/rejilla/filter/broken_sym
+replace-sym=/apps/rejilla/filter/replace_sym
+
+[org.mate.rejilla.display]
+iso-folder=/apps/rejilla/display/iso_folder

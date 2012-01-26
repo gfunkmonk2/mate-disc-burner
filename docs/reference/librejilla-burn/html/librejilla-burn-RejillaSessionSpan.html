@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RejillaSessionSpan</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Librejilla-burn Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference for Librejilla-burn">
+<link rel="prev" href="librejilla-burn-RejillaBurnSession.html" title="RejillaBurnSession">
+<link rel="next" href="librejilla-burn-RejillaSessionCfg.html" title="RejillaSessionCfg">
+<meta name="generator" content="GTK-Doc V1.15 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="librejilla-burn-RejillaBurnSession.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Librejilla-burn Reference Manual</th>
+<td><a accesskey="n" href="librejilla-burn-RejillaSessionCfg.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#librejilla-burn-RejillaSessionSpan.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#librejilla-burn-RejillaSessionSpan.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="RejillaSessionSpan">
+<a name="librejilla-burn-RejillaSessionSpan"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="librejilla-burn-RejillaSessionSpan.top_of_page"></a>RejillaSessionSpan</span></h2>
+<p>RejillaSessionSpan</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="librejilla-burn-RejillaSessionSpan.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">                    <a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan">RejillaSessionSpan</a>;
+<a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="returnvalue">RejillaSessionSpan</span></a> * <a class="link" href="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-new" title="rejilla_session_span_new ()">rejilla_session_span_new</a>           (<em class="parameter"><code><span class="type">void</span></code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-again" title="rejilla_session_span_again ()">rejilla_session_span_again</a>          (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a> *session</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-possible" title="rejilla_session_span_possible ()">rejilla_session_span_possible</a>       (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a> *session</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-start" title="rejilla_session_span_start ()">rejilla_session_span_start</a>          (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a> *session</code></em>);
+<a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   <a class="link" href="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-next" title="rejilla_session_span_next ()">rejilla_session_span_next</a>           (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a> *session</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-stop" title="rejilla_session_span_stop ()">rejilla_session_span_stop</a>           (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a> *session</code></em>);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="librejilla-burn-RejillaSessionSpan.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="librejilla-burn-RejillaSessionSpan.details"></a><h2>Details</h2>
+<div class="refsect2" title="RejillaSessionSpan">
+<a name="RejillaSessionSpan"></a><h3>RejillaSessionSpan</h3>
+<pre class="programlisting">typedef struct {
+	RejillaBurnSession parent_instance;
+} RejillaSessionSpan;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_session_span_new ()">
+<a name="rejilla-session-span-new"></a><h3>rejilla_session_span_new ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="returnvalue">RejillaSessionSpan</span></a> * rejilla_session_span_new           (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Creates a new <a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a> object.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a> object
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_session_span_again ()">
+<a name="rejilla-session-span-again"></a><h3>rejilla_session_span_again ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_session_span_again          (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a> *session</code></em>);</pre>
+<p>
+Checks whether some data were not included during calls to <a class="link" href="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-next" title="rejilla_session_span_next ()"><code class="function">rejilla_session_span_next()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>session</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if there is not anymore data.
+REJILLA_BURN_RETRY if the operation was successful and a new <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> was created.
+REJILLA_BURN_ERR otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_session_span_possible ()">
+<a name="rejilla-session-span-possible"></a><h3>rejilla_session_span_possible ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_session_span_possible       (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a> *session</code></em>);</pre>
+<p>
+Checks if a new <a class="link" href="librejilla-burn-rejilla-track-data.html#RejillaTrackData" title="RejillaTrackData"><span class="type">RejillaTrackData</span></a> can be created from the files remaining in the tree 
+after calls to <a class="link" href="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-next" title="rejilla_session_span_next ()"><code class="function">rejilla_session_span_next()</code></a>. The maximum size of the data will be the one
+of the medium inserted in the <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-drive.html#RejillaDrive"><span class="type">RejillaDrive</span></a> set for <em class="parameter"><code>session</code></em> (see <a class="link" href="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-set-burner" title="rejilla_burn_session_set_burner ()"><code class="function">rejilla_burn_session_set_burner()</code></a>).
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>session</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if there is not anymore data.
+REJILLA_BURN_RETRY if the operation was successful and a new <a class="link" href="librejilla-burn-rejilla-track-data-cfg.html#RejillaTrackDataCfg" title="RejillaTrackDataCfg"><span class="type">RejillaTrackDataCfg</span></a> was created.
+REJILLA_BURN_ERR otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_session_span_start ()">
+<a name="rejilla-session-span-start"></a><h3>rejilla_session_span_start ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_session_span_start          (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a> *session</code></em>);</pre>
+<p>
+Get the object ready for spanning a <a class="link" href="librejilla-burn-RejillaBurnSession.html#RejillaBurnSession" title="RejillaBurnSession"><span class="type">RejillaBurnSession</span></a> object. This function
+must be called before <a class="link" href="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-next" title="rejilla_session_span_next ()"><code class="function">rejilla_session_span_next()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>session</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if successful.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_session_span_next ()">
+<a name="rejilla-session-span-next"></a><h3>rejilla_session_span_next ()</h3>
+<pre class="programlisting"><a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="returnvalue">RejillaBurnResult</span></a>   rejilla_session_span_next           (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a> *session</code></em>);</pre>
+<p>
+Sets the next batch of data to be burnt onto the medium inserted in the <a href="/usr/share/gtk-doc/html/librejilla-media/librejilla-media-rejilla-drive.html#RejillaDrive"><span class="type">RejillaDrive</span></a>
+set for <em class="parameter"><code>session</code></em> (see <a class="link" href="librejilla-burn-RejillaBurnSession.html#rejilla-burn-session-set-burner" title="rejilla_burn_session_set_burner ()"><code class="function">rejilla_burn_session_set_burner()</code></a>). Its free space or it capacity
+will be used as the maximum amount of data to be burnt.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>session</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a class="link" href="librejilla-burn-rejilla-enums.html#RejillaBurnResult" title="enum RejillaBurnResult"><span class="type">RejillaBurnResult</span></a>. REJILLA_BURN_OK if successful.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="rejilla_session_span_stop ()">
+<a name="rejilla-session-span-stop"></a><h3>rejilla_session_span_stop ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                rejilla_session_span_stop           (<em class="parameter"><code><a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a> *session</code></em>);</pre>
+<p>
+Ends and cleans a spanning operation started with <a class="link" href="librejilla-burn-RejillaSessionSpan.html#rejilla-session-span-start" title="rejilla_session_span_start ()"><code class="function">rejilla_session_span_start()</code></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>session</code></em> :</span></p></td>
+<td>a <a class="link" href="librejilla-burn-RejillaSessionSpan.html#RejillaSessionSpan" title="RejillaSessionSpan"><span class="type">RejillaSessionSpan</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.15</div>
+</body>
+</html>
